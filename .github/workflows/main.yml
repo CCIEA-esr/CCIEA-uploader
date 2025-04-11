@@ -31,7 +31,9 @@
                 any::gargle
                 
           - name: Check out repository
-            uses: actions/checkout@v3
+            uses: actions/checkout@v4
+            with:
+              path: main
 
           - name: Import data
             run: Rscript -e 'source("get_status.R")'
