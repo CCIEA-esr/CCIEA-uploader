@@ -1,0 +1,20 @@
+
+{{< include _gdrive.qmd >}}
+{{< include _pi_folders_to_json.qmd >}}
+{{< include _pi_folders_to_df.qmd >}}
+{{< include _init.qmd >}}
+
+## Uploader File Status {.unnumbered}
+Clicking the "Run Code" will run the code to look at the files on the Google Drive and update the Status page. This takes a few minutes to run!
+
+
+```{r}
+#| echo: false
+#| message: false
+#| eval: true
+generate_file_status(esr_year)
+headervars=c("year","index","timeseries","metric","SEup","SElo")
+status_list <- read_status(esr_year,headervars)
+print(status_list$last_updated)
+```
+

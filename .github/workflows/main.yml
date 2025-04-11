@@ -1,0 +1,21 @@
+    name: Access Google Drive
+    on:
+      push:
+        branches: [ main ]
+
+    jobs:
+      drive-access:
+        runs-on: ubuntu-latest
+        steps:
+          - name: Authenticate to Google Cloud
+            uses: google-github-actions/auth@v1
+            with:
+              credentials_json: ${{ secrets.GOOGLE_APPLICATION_CREDENTIALS }} # Replace with your secret's name
+
+          - name: Access Drive API
+            run: |
+              echo "Credentials loaded:"
+              echo "$GOOGLE_APPLICATION_CREDENTIALS"
+              # Add your code here to access the Google Drive API
+              # For example, you can use the google-api-python-client library
+

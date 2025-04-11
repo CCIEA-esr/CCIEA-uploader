@@ -1,0 +1,29 @@
+{{< include _pi_folders_to_df.qmd >}}
+{{< include _init.qmd >}}
+
+```{r}
+#| echo: false
+#| results: 'asis'
+cat("# ",esr_year," Uploader Status \n\n",sep="")
+
+```
+
+
+```{r}
+#| echo: false
+#| message: false
+#| eval: true
+
+headervars=c("year","index","timeseries","metric","SEup","SElo")
+status_list <- read_status(esr_year,headervars)
+```
+*last update:* `r status_list$last_updated`
+    
+```{r}
+#| echo: false
+#| message: false
+#| eval: true
+
+make_table(status_list$df_grouped)
+```
+

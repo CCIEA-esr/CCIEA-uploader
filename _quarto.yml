@@ -1,5 +1,25 @@
 project:
-  title: "UploaderTest"
+  type: website
   output-dir: docs
 
+website:
+  title: "CCIEA Uploader"
+  navbar:
+    background: "#276189"
+    collapse: false
+    search: false
+    left:
+    - text: "Uploader"
+      href: index.qmd
+    - text: "Status"
+      href: status.qmd
+    - text: "Update"
+      href: get_status.qmd
 
+format:
+  html:
+    theme: cosmo
+engine: knitr
+
+
+    

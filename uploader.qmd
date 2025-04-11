@@ -1,0 +1,27 @@
+---
+title: "CCIEA Uploader Status"
+---
+
+{{< include _pi_folders_to_df.qmd >}}
+{{< include _init.qmd >}}
+
+# `r esr_year` CCIEA Uploader Status
+
+```{r}
+#| echo: false
+#| message: false
+#| eval: true
+
+headervars=c("year","index","timeseries","metric","SEup","SElo")
+status_list <- read_status(esr_year,headervars)
+```
+*last update* `r status_list$last_updated`
+    
+```{r}
+#| echo: false
+#| message: false
+#| eval: true
+
+make_table(status_list$df_grouped)
+```
+

@@ -5,69 +5,71 @@
 #| echo: false
 #| message: false
 #| eval: true
-#| 
+
 library("jsonlite")
 
+generate_file_status <- function(esr_year){
+  
 # Location of data upload folder. Each element of the vector is a folder below
 # the previous elements. The last element is the Folder with the ESR years folders
-esr_year="2024-2025"
-folder=c("_CCIEA","CCIEA ESR data","CCIEA Data Upload")
-# This folder is in the folder represented by the last element in the folder vector
-headervars=c("year","index","timeseries","metric","SEup","SElo")
-headervarsmon=c("time","index","timeseries","metric","SEup","SElo")
-
-folder_id=find_id_by_path(folder)
-pifolders=find_folders_in_folder(folder_id)
-folderarray <- list()
-for (p in 1:length(pifolders$name)){
-##for (p in 1:2){
-  PI=pifolders$name[p]
-  PIid=pifolders$id[p]
-  print(PI)
-  pis <- list(name = PI,newmeta = 0,newmetaupdate="")
-  piobj<-list()
-  pifiles=find_PI_files_in_esr_year(PIid,esr_year)
-  print(pifiles)
-  if (length(pifiles$name) > 0) {
-    for(f in 1:length(pifiles$name)){
-      fileobj <- list()
-      if(grepl("metadata",pifiles$name[f])){
-        pis$newmeta=1
-        pis$newmetaupdate=localfromgmt(pifiles$drive_resource[[f]]$modifiedTime)
-        }
-      else{
-        datares="Annual"
-        fileobj <- list(name=pifiles$name[f],updated=pifiles$drive_resource[[f]]$modifiedTime,typechk=0,namechk=9,datares=datares)
-        if(grepl(".csv",pifiles$name[f]))fileobj$typechk=1
-        if(grepl("_M.csv",pifiles$name[f]) || grepl("Monthly",pifiles$name[f]))datares="Monthly"
-        fileobj$datares=datares
-        headercols <- list()
-        if(fileobj$typechk==1){
-          content=drive_read_string(as_id(pifiles$drive_resource[[f]]$id))
-          if(!is.na(content))content=read_csv(content)
-          columns=names(content)
-          headerchk=headervars
-          if(datares=="Monthly")headerchk=headervarsmon
-          check_cols <- function(x,columns){x %in% columns}
-          headercols <- map(headerchk,check_cols,columns)
+  folder=c("_CCIEA","CCIEA ESR data","CCIEA Data Upload")
+# CCIEA required/optional file column headers
+  headervars=c("year","index","timeseries","metric","SEup","SElo")
+  headervarsmon=c("time","index","timeseries","metric","SEup","SElo")
+# The yearly folders are in the folder represented by the last element in the folder vector above
+  folder_id=find_folder_id(folder[3])
+  pifolders=find_folders_in_folder(folder_id)
+  folderarray <- list()
+  for (p in 1:length(pifolders$name)){
+    PI=pifolders$name[p]
+    PIid=pifolders$id[p]
+    print(PI)
+    pis <- list(name = PI,newmeta = 0,newmetaupdate="")
+    piobj<-list()
+    pifiles=find_PI_files_in_esr_year(PIid,esr_year)
+##    print(pifiles)
+    if (length(pifiles$name) > 0) {
+      for(f in 1:length(pifiles$name)){
+        fileobj <- list()
+        if(grepl("metadata",pifiles$name[f])){
+          pis$newmeta=1
+          pis$newmetaupdate=localfromgmt(pifiles$drive_resource[[f]]$modifiedTime)
           }
-        fileobj$headerchk=headercols
-        piobj=append(piobj,list(fileobj))
+        else{
+          datares="Annual"
+          fileobj <- list(name=pifiles$name[f],updated=pifiles$drive_resource[[f]]$modifiedTime,typechk=0,namechk=9,datares=datares)
+          if(grepl(".csv",pifiles$name[f]))fileobj$typechk=1
+          if(grepl("_M.csv",pifiles$name[f]) || grepl("Monthly",pifiles$name[f]))datares="Monthly"
+          fileobj$datares=datares
+          headercols <- list()
+          if(fileobj$typechk==1){
+            content=drive_read_string(as_id(pifiles$drive_resource[[f]]$id))
+            if(!is.na(content))content=read_csv(content)
+            columns=names(content)
+            headerchk=headervars
+            if(datares=="Monthly")headerchk=headervarsmon
+            check_cols <- function(x,columns){x %in% columns}
+            headercols <- map(headerchk,check_cols,columns)
+            }
+          fileobj$headerchk=headercols
+          piobj=append(piobj,list(fileobj))
+          }
         }
-      }
   
 ##    file[1,]
 ##    print(paste(files$name[f],files$drive_resource[[f]]$modifiedTime,files$drive_resource[[f]]$fileExtension,sep=" "))
+      }
+      pis$files=piobj
+      folderarray <- append(folderarray,list(pis))
     }
-    pis$files=piobj
-    folderarray <- append(folderarray,list(pis))
+  statusobj <- list()
+  statusobj$statusupdate<-Sys.time()
+  statusobj$esr_year <- esr_year
+  statusobj$headervars <- headervars
+  statusobj$headervarsmon <- headervarsmon
+  statusobj$status<-folderarray
+  output<-toJSON(statusobj, auto_unbox=TRUE)
+  write(output,file=paste("data/uploader_status_",esr_year,".json",sep=""))
+
   }
-statusobj <- list()
-statusobj$statusupdate<-Sys.time()
-statusobj$esr_year <- esr_year
-statusobj$headervars <- headervars
-statusobj$headervarsmon <- headervarsmon
-statusobj$status<-folderarray
-output<-toJSON(statusobj, auto_unbox=TRUE)
-write(output,file="data/uploader_status.json")
 ```
