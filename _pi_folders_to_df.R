@@ -1,0 +1,76 @@
+library(flextable)
+library(jsonlite)
+library(tibble)
+library(officer)
+
+read_status <- function(esr_year,headervars){
+  json_data <- fromJSON(paste("data/uploader_status_",esr_year,".json",sep=""), simplifyVector = FALSE)
+
+  last_updated <- json_data$statusupdate
+  status <- json_data$status
+  num_pis <- length(status)
+  df <- data.frame()
+
+  for(p in 1:num_pis){
+    pi= status[[p]]$name
+    if(length(status[[p]]$files)>0){
+      for (f in 1:length(status[[p]]$files)){
+        file=status[[p]]$files[[f]]
+        headerchk=file$headerchk
+        head_vec=c()
+        for (h in 1:length(headerchk)){
+          head_vec=c(head_vec,headerchk[h])
+          }
+        file_vec=c(pi,file$name,file$updated,file$typechk,file$namechk,head_vec)
+        df <- rbind(df,file_vec,stringsAsFactors=FALSE)
+        }
+      }
+    }
+  colnames(df) = c("PI","filename","updated","typechk","namechk",headervars)
+  df_grouped <- as_grouped_data(x = df, groups = c("PI"))
+  return(list(last_updated=last_updated,df_grouped=df_grouped))
+  }
+
+make_table <- function(df_grouped){
+  std_border <- fp_border(color = "#7596b1", width = 1)
+  as_flextable(df_grouped, hide_grouplabel=TRUE)|>
+    fontsize(size = 8, part = "all")|>
+    fontsize(j= "updated",size = 7)|>
+    bold(j = 1, i = ~ !is.na(PI), bold = TRUE, part = "body") |>
+    bg(i = ~ !is.na(PI), bg = "#7596b1", part = "body") |>
+    add_header_row(values = c("","Header Columns"), colwidths = c(4, 6)) |>
+    add_header_row(values = c("","File Status"), colwidths = c(2, 8)) |>
+    align(i=2:3,align = "left", part = "header") |>
+    align(i=1,align="center", part = "header") |>
+    bold(part = "header", bold = TRUE) |>
+    line_spacing(space=1,part="all") |>
+    bg(i= ~ typechk == 1, ~ typechk, bg="#008000")  |>
+    bg(i= ~ namechk == 9, ~ namechk, bg="#008000")  |>
+    bg(i= ~ namechk == 1, ~ namechk, bg="#008000")  |>
+    bg(i= ~ year == TRUE, ~ year, bg="#008000")  |>
+    bg(i= ~ index == TRUE, ~ index, bg="#008000")  |>
+    bg(i= ~ timeseries == TRUE, ~ timeseries, bg="#008000")  |>
+    bg(i= ~ typechk != 1, ~ typechk, bg="red")  |>
+    bg(i= ~ year == FALSE, ~ year, bg="red")  |>
+    bg(i= ~ index == FALSE, ~ index, bg="red")  |>
+    bg(i= ~ timeseries == FALSE, ~ timeseries, bg="red")  |>
+    border_remove() |>
+    vline(j=2,i=3,border=std_border,part="header") |>
+    vline(j=4,i=2:3,border=std_border,part="header") |>
+    hline(j=2:10,i=1,border=std_border,part="header") |>
+    border_inner(part="body",border=std_border) |>
+    border_outer(part="all",border=std_border) |>
+    padding(padding.top=1,padding.left=3,padding.bottom=1,padding.right=3,part = "all") |>
+    compose(j= "updated", value = as_paragraph(paste(substring(updated,1,10))," ",substring(updated,12,19))) |>
+    compose(j= "typechk", value = as_paragraph(ifelse(typechk == 1, "yes", "no")))|>
+    compose(j= "namechk", value = as_paragraph(""))|>
+    compose(j= "year", value = as_paragraph(ifelse(year == TRUE, "yes", "no")))|>
+    compose(j= "index", value = as_paragraph(ifelse(index == TRUE, "yes", "no")))|>
+    compose(j= "timeseries", value = as_paragraph(ifelse(timeseries == TRUE, "yes", "no")))|>
+    compose(j= "metric", value = as_paragraph(ifelse(metric == TRUE, "yes", "no")))|>
+    compose(j= "SEup", value = as_paragraph(ifelse(SEup == TRUE, "yes", "no")))|>
+    compose(j= "SElo", value = as_paragraph(ifelse(SElo == TRUE, "yes", "no")))|>
+    set_header_labels(filename = "File Name",updated = "Updated",typechk = "type check", namechk = "name check") |>
+    width(j= "updated",width=2)
+  }
+

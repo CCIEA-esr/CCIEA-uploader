@@ -10,12 +10,37 @@
           - name: Authenticate to Google Cloud
             uses: google-github-actions/auth@v1
             with:
-              credentials_json: ${{ secrets.GOOGLE_APPLICATION_CREDENTIALS }} # Replace with your secret's name
+              credentials_json: ${{ secrets.GOOGLE_APPLICATION_CREDENTIALS }}
 
-          - name: Access Drive API
+          - name: Set up R
             run: |
               echo "Credentials loaded:"
               echo "$GOOGLE_APPLICATION_CREDENTIALS"
-              # Add your code here to access the Google Drive API
-              # For example, you can use the google-api-python-client library
+              uses: r-lib/actions/setup-r@v2
+              
+          - name: Install packages
+            uses: r-lib/actions/setup-r-dependencies@v2
+            with:
+              packages: |
+                any::jsonlite
+                any::flextable
+                any::tibble
+                any::officer
+                any::googledrive
+                any::tidyverse
+                any::gargle
+                
+          - name: Check out repository
+            uses: actions/checkout@v3
+
+          - name: Import data
+            run: Rscript -e 'source("get_status.R")'
+
+          - name: Commit results
+            run: |
+              git config --local user.email "actions@github.com"
+              git config --local user.name "GitHub Actions"
+              git add *.json
+              git commit -m 'Data updated' || echo "No changes to commit"
+              git push origin || echo "No changes to commit"
 
