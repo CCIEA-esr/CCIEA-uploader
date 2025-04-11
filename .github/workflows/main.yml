@@ -1,7 +1,7 @@
     name: Access Google Drive
     on:
       push:
-        branches: main
+        branches: master
 
     jobs:
       drive-access:
@@ -33,7 +33,7 @@
           - name: Check out repository
             uses: actions/checkout@v4
             with:
-              path: main
+              path: master
 
           - name: Import data
             run: Rscript -e 'source("get_status.R")'
