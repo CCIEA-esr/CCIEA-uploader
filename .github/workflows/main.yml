@@ -1,7 +1,7 @@
     name: Access Google Drive
     on:
       push:
-        branches: [ main ]
+        branches: main
 
     jobs:
       drive-access:
