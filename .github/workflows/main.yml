@@ -12,11 +12,6 @@
             with:
               path: master
 
-          - name: Authenticate to Google Cloud
-            uses: google-github-actions/auth@v2
-            with:
-              credentials_json: ${{ secrets.GOOGLE_APPLICATION_CREDENTIALS }}
-
           - name: Set up R
             run: r-lib/actions/setup-r@v2
               
@@ -32,6 +27,11 @@
                 any::tidyverse
                 any::gargle
                 
+          - name: Authenticate to Google Cloud
+            uses: google-github-actions/auth@v2
+            with:
+              credentials_json: ${{ secrets.GOOGLE_APPLICATION_CREDENTIALS }}
+
           - name: Import data
             run: Rscript -e 'source("get_status.R")'
 
