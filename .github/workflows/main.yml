@@ -33,7 +33,7 @@
                 any::gargle
                 
           - name: Import data
-            run: Rscript -e 'source("get_status.R")'
+            run: Rscript -e 'source("./get_status.R")'
 
           - name: Commit results
             run: |
