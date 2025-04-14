@@ -1,7 +1,13 @@
+# Github Actions to read CCIEA Google Drive and update Uploader Status table
     name: Access Google Drive
+# Use the following to update on push
+#    on:
+#      push:
+#        branches: master
     on:
-      push:
-        branches: master
+      schedule:
+      # update every day at 1 pm UTC = 6 am PDT
+        - cron: '0 13 * * *'
 
     jobs:
       drive-access:
@@ -29,7 +35,6 @@
                 any::officer
                 any::googledrive
                 any::tidyverse
-                any::gargle
                 
           - name: Import data
             run: Rscript get_status.R
