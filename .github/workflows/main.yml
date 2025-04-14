@@ -34,8 +34,7 @@
               path: master
 
           - name: Import data
-            run: Rscript -e 'source("get_status.R")'
-              working-directory: ${{ github.workspace }}
+            run: R -e 'source("get_status.R")'
 
           - name: Commit results
             run: |
