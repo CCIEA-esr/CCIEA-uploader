@@ -35,7 +35,7 @@
 
           - name: Import data
             working-directory: ${{ github.workspace }}
-            run: Rscript -e 'source("get_status.R")'
+            run: Rscript -e 'source("_init.R")'
 
           - name: Commit results
             run: |
