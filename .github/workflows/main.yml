@@ -28,26 +28,8 @@
                 any::tidyverse
                 any::gargle
                 
-          - name: Check out repository
-            uses: actions/checkout@v4
-            with:
-              path: master
-
-          - name: Import data
-            run: Rscript -e 'getwd()'
-
-          - name: Dump GitHub context
-            env:
-              GITHUB_CONTEXT: ${{ toJson(github) }}
-            run: echo "$GITHUB_CONTEXT"
-          - name: Dump job context
-            env:
-              JOB_CONTEXT: ${{ toJson(job) }}
-            run: echo "$JOB_CONTEXT"
-          - name: Dump steps context
-            env:
-              STEPS_CONTEXT: ${{ toJson(steps) }}
-            run: echo "$STEPS_CONTEXT"
+         - name: Import data
+            run: Rscript -e 'source("/home/runner/work/UploaderTest/UploaderTest/get_status.R")'
 
           - name: Commit results
             run: |
