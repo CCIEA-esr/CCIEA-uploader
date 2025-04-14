@@ -7,11 +7,6 @@
       drive-access:
         runs-on: ubuntu-latest
         steps:
-          - name: Check out repository
-            uses: actions/checkout@v4
-            with:
-              path: master
-
           - name: Authenticate to Google Cloud
             uses: google-github-actions/auth@v2
             with:
@@ -20,6 +15,11 @@
           - name: Set up R
             uses: r-lib/actions/setup-r@v2
               
+          - name: Check out repository
+            uses: actions/checkout@v4
+            with:
+              path: master
+
           - name: Install packages
             uses: r-lib/actions/setup-r-dependencies@v2
             with:
@@ -34,7 +34,7 @@
                 any::gargle
                 
           - name: Import data
-            run: Rscript get_status.R
+            run: Rscript -e 'source("get_status.R")'
 
           - name: Commit results
             run: |
