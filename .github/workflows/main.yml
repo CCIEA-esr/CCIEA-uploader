@@ -23,6 +23,7 @@
           - name: Install packages
             uses: r-lib/actions/setup-r-dependencies@v2
             with:
+              cache: always
               packages: |
                 any::jsonlite
                 any::flextable
