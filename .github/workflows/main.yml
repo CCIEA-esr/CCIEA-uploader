@@ -32,7 +32,7 @@
             uses: actions/checkout@v4
 
           - name: Import data
-            run: R -e 'print("Hello")'
+            run: R -e 'list.files()'
 
           - name: Commit results
             run: |
