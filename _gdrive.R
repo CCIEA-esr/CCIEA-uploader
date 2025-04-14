@@ -2,7 +2,7 @@ library("googledrive")
 library("tidyverse")
 library("gargle")
 
-options(gargle_oauth_cache = "~/.cache/gargle",gargle_oauth_email="lynn.dewitt@noaa.gov")
+#options(gargle_oauth_cache = "~/.cache/gargle",gargle_oauth_email="lynn.dewitt@noaa.gov")
 #google_client <- gargle::gargle_oauth_client_from_json("/home/ldewitt/projects/IEA/docs/uploader/client_secret.json")
 #drive_auth_configure(client = google_client)
 
