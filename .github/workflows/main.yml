@@ -30,11 +30,9 @@
                 
           - name: Check out repository
             uses: actions/checkout@v4
-            with:
-              path: master
 
           - name: Import data
-            run: R -e 'source("get_status.R")'
+            run: R -e 'print("Hello")'
 
           - name: Commit results
             run: |
