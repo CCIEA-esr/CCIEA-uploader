@@ -28,10 +28,16 @@
                 any::tidyverse
                 any::gargle
                 
-         - name: Import data
-            run: Rscript -e 'source("get_status.R")'
+          - name: Check out repository
+            uses: actions/checkout@v4
+            with:
+              path: master
 
-         - name: Commit results
+          - name: Import data
+            run: Rscript -e 'source("get_status.R")'
+              working-directory: ${{ github.workspace }}
+
+          - name: Commit results
             run: |
               git config --local user.email "actions@github.com"
               git config --local user.name "GitHub Actions"
