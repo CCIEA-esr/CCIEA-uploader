@@ -32,10 +32,22 @@
             uses: actions/checkout@v4
             with:
               path: master
+          - name: Dump GitHub context
+            env:
+              GITHUB_CONTEXT: ${{ toJson(github) }}
+            run: echo "$GITHUB_CONTEXT"
+          - name: Dump job context
+            env:
+              JOB_CONTEXT: ${{ toJson(job) }}
+            run: echo "$JOB_CONTEXT"
+          - name: Dump steps context
+            env:
+              STEPS_CONTEXT: ${{ toJson(steps) }}
+            run: echo "$STEPS_CONTEXT"
 
           - name: Import data
-            working-directory: ${{ github.workspace }}
-            run: Rscript -e 'source("_init.R")'
+            run: Rscript -e 'source("get_status.R")'
+              working-directory: ${{ github.workspace }}
 
           - name: Commit results
             run: |
