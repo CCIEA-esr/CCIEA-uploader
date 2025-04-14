@@ -1,6 +1,16 @@
 {{< include _pi_folders_to_df.qmd >}}
 {{< include _init.qmd >}}
 
+```{ojs}
+//| echo: false
+
+viewof esr_year = Inputs.select(
+  [ "2024-2025", "2023-2024", "2022-2023"],
+  { label: "ESR year" }
+  );
+```
+
+
 ```{r}
 #| echo: false
 #| results: 'asis'

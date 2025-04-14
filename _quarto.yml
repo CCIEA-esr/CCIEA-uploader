@@ -13,13 +13,11 @@ website:
       href: index.qmd
     - text: "Status"
       href: status.qmd
-    - text: "Update"
-      href: get_status.qmd
 
 format:
   html:
     theme: cosmo
-engine: knitr
+
 
 
     
