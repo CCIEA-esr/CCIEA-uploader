@@ -1,6 +1,9 @@
 project:
   type: website
   output-dir: docs
+  render: 
+    - uploader.qmd
+    - status.qmd
 
 website:
   title: "CCIEA Uploader"
@@ -10,13 +13,15 @@ website:
     search: false
     left:
     - text: "Uploader"
-      href: index.qmd
+      href: uploader.qmd
     - text: "Status"
       href: status.qmd
 
 format:
   html:
-    theme: cosmo
+    theme:
+      - cosmo
+      - custom.scss
 
 
 

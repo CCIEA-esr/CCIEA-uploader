@@ -1,27 +1,41 @@
 ---
-title: "CCIEA Uploader Status"
+title: "CCIEA Uploader"
+format:
+  html:
+    dashboard:
+      theme:
+        - cosmo
+        - custom.scss
+execute:
+  echo: false
 ---
 
-{{< include _pi_folders_to_df.qmd >}}
-{{< include _init.qmd >}}
+```{ojs}
+//| echo: false
+//| output: false
 
-# `r esr_year` CCIEA Uploader Status
+name=Array()
+data = FileAttachment("data/items_meta.json").json()
+pis=data.pis
 
-```{r}
-#| echo: false
-#| message: false
-#| eval: true
-
-headervars=c("year","index","timeseries","metric","SEup","SElo")
-status_list <- read_status(esr_year,headervars)
+{ for(let i=0;i<pis.length;i++){
+    name[i]=pis[i].name
+    }
+  return name
+}
 ```
-*last update* `r status_list$last_updated`
-    
-```{r}
-#| echo: false
-#| message: false
-#| eval: true
 
-make_table(status_list$df_grouped)
+## Row
+
+```{ojs}
+
+viewof pi = Inputs.select(name,{value:name[1], label: "Choose PI" });
+indx=name.indexOf(pi)
+
+viewof last = Inputs.button("Last Year",{value: pis[indx].last_year, label: "Download Last Year's data", reduce: () => window.open("https://drive.google.com/drive/folders/"+pis[indx].last_year,"_blank")})
+
+//url="https://drive.google.com/drive/folders/"+last
+//html`<a href=${url} target=_blank>${url}</a>`
 ```
+
 
