@@ -1,7 +1,0 @@
-# Test
-{{< include _gdrive.qmd >}}
-
-
-```{r}
-print(files)
-```
