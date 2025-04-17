@@ -1,11 +1,9 @@
 ---
-title: "CCIEA Uploader"
 format:
-  html:
-    dashboard:
-      theme:
-        - cosmo
-        - custom.scss
+  dashboard:
+    theme:
+      - cosmo
+      - custom.scss
 execute:
   echo: false
 ---
@@ -23,19 +21,50 @@ pis=data.pis
     }
   return name
 }
+//ojs_define(pis = pis)
 ```
 
-## Row
+## PI {.flow}
 
 ```{ojs}
 
 viewof pi = Inputs.select(name,{value:name[1], label: "Choose PI" });
 indx=name.indexOf(pi)
+```
 
-viewof last = Inputs.button("Last Year",{value: pis[indx].last_year, label: "Download Last Year's data", reduce: () => window.open("https://drive.google.com/drive/folders/"+pis[indx].last_year,"_blank")})
+## Download {.flow}
+
+```{ojs}
+
+viewof lastyear = Inputs.button("Last Year",{value: pis[indx].last_year, label: "Download Last Year's data", reduce: () => window.open("https://drive.google.com/drive/folders/"+pis[indx].last_year,"_blank")})
+```
+
+```{ojs}
+last_meta='https://oceanview.pfeg.noaa.gov/erddap/tabledap/CCIEA_metadata.csv?dataset_title,indicator_title,long_variable_name,units,info_URL,institution,region,latitude,max_latitude,longitude,max_longitude,sampling_frequency,source_data_summary,additional_calculations,cciea_timeseries_id&currently_served=1&principal_investigator_id="'+pis[indx].id+'"'
+
+viewof lastmeta = Inputs.button("Last Year",{value: pis[indx].this_year, label: "Download Last Year's metadata", reduce: () => window.open(last_meta)})
+```
+
+## Upload {.flow}
+
+```{ojs}
+viewof thisyear = Inputs.button("This Year",{value: pis[indx].this_year, label: "Upload This Year's data", reduce: () => window.open("https://drive.google.com/drive/folders/"+pis[indx].this_year,"_blank")})
 
 //url="https://drive.google.com/drive/folders/"+last
 //html`<a href=${url} target=_blank>${url}</a>`
+
 ```
 
+## indicators {.flow}
+
+```{ojs}
+components=pis[indx].components[0]
+
+
+    component=components.name
+    ind=components.indices
+    viewof c=Inputs.radio(ind,{label: component})
+
+
+```
 
