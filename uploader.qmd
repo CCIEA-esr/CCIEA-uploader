@@ -1,12 +1,35 @@
 ---
 format:
-  dashboard:
-    theme:
-      - cosmo
-      - custom.scss
+  dashboard
 execute:
   echo: false
+  cache: true
 ---
+
+```{r setup}
+#| echo: false
+#| message: false
+#| eval: true
+# download/update the excel file with the spreadsheet ####
+
+library(tidyverse)
+library(dplyr)
+
+#-------- getMetadata(erddap_id) --------------
+# Get subset of metadata by column and erddap_id
+# We could read directly from the spreadsheet on the Google Drive, but downloading the csv file ensures
+# that everyone is using the same metadata.csv file, and it can easily be archived by ESR year
+
+getMetadata <-function(erddap_id){
+
+  df = read.csv('metadata.csv')
+  df_trimmed<- df %>% select(c('Component_Section', 'Subcomponent', 'ERDDAP_Dataset_ID', 'ERDDAP_query_value', 'Contact', 'Title', 'Institution', 'Source_Data', 'Additional_Calculations', 'region', 'latitude', 'longitude', 'latitude2', 'longitude2','Sampling_frequency','Figure_grouping','year_begin','year_end'))
+  meta <- df_trimmed %>% filter(currently_served==1)
+  meta <- meta[order(meta$Figure_grouping),]
+  return(meta)
+}
+ojs_define(allmeta=toJSON(meta))
+``` 
 
 ```{ojs}
 //| echo: false
@@ -21,6 +44,7 @@ pis=data.pis
     }
   return name
 }
+
 //ojs_define(pis = pis)
 ```
 
@@ -28,7 +52,7 @@ pis=data.pis
 
 ```{ojs}
 
-viewof pi = Inputs.select(name,{value:name[1], label: "Choose PI" });
+viewof pi = Inputs.select(name,{value:name[0], label: "Choose PI" });
 indx=name.indexOf(pi)
 ```
 
@@ -36,13 +60,13 @@ indx=name.indexOf(pi)
 
 ```{ojs}
 
-viewof lastyear = Inputs.button("Last Year",{value: pis[indx].last_year, label: "Download Last Year's data", reduce: () => window.open("https://drive.google.com/drive/folders/"+pis[indx].last_year,"_blank")})
+viewof lastyear = Inputs.button("Last Year",{value: pis[indx].last_year, label: "View or download Last Year's data", reduce: () => window.open("https://drive.google.com/drive/folders/"+pis[indx].last_year,"_blank")})
 ```
 
 ```{ojs}
 last_meta='https://oceanview.pfeg.noaa.gov/erddap/tabledap/CCIEA_metadata.csv?dataset_title,indicator_title,long_variable_name,units,info_URL,institution,region,latitude,max_latitude,longitude,max_longitude,sampling_frequency,source_data_summary,additional_calculations,cciea_timeseries_id&currently_served=1&principal_investigator_id="'+pis[indx].id+'"'
 
-viewof lastmeta = Inputs.button("Last Year",{value: pis[indx].this_year, label: "Download Last Year's metadata", reduce: () => window.open(last_meta)})
+viewof lastmeta = Inputs.button("Current Metadata",{value: pis[indx].this_year, label: "Download and edit current metadata", reduce: () => window.open(last_meta)})
 ```
 
 ## Upload {.flow}
@@ -56,15 +80,40 @@ viewof thisyear = Inputs.button("This Year",{value: pis[indx].this_year, label: 
 ```
 
 ## indicators {.flow}
-
 ```{ojs}
-components=pis[indx].components[0]
-
-
-    component=components.name
-    ind=components.indices
-    viewof c=Inputs.radio(ind,{label: component})
-
+//| echo: false
+//| output: false
+components=pis[indx].components
 
 ```
+
+
+```{ojs}
+
+  viewof component = Inputs.select(components,{format: x => x.name, label: "Component" });
+ 
+```
+
+
+```{ojs}
+
+viewof indicator=Inputs.radio(component.indices,{value: component.indices[0],label: component.name})
+
+```
+
+## indicatormeta {.flow}
+
+```{ojs}
+indicator
+
+```
+
+```{ojs}
+
+
+ind_url="https://oceanview.pfeg.noaa.gov/erddap/tabledap/CCIEA_metadata.jsonlKVP?&currently_served=1&indicator_title="+'"'+encodeURIComponent(indicator)+'"'
+
+//ojs_define(pis = pis)
+```
+
 
