@@ -1,16 +1,17 @@
 ---
 format:
-  dashboard
+  dashboard:
+    embed-resources: true
+    orientation: columns
 execute:
   echo: false
   cache: true
 ---
 
-```{r setup}
+```{r}
 #| echo: false
 #| message: false
 #| eval: true
-# download/update the excel file with the spreadsheet ####
 
 library(tidyverse)
 library(dplyr)
@@ -28,7 +29,7 @@ getMetadata <-function(erddap_id){
   meta <- meta[order(meta$Figure_grouping),]
   return(meta)
 }
-ojs_define(allmeta=toJSON(meta))
+
 ``` 
 
 ```{ojs}
@@ -48,38 +49,6 @@ pis=data.pis
 //ojs_define(pis = pis)
 ```
 
-## PI {.flow}
-
-```{ojs}
-
-viewof pi = Inputs.select(name,{value:name[0], label: "Choose PI" });
-indx=name.indexOf(pi)
-```
-
-## Download {.flow}
-
-```{ojs}
-
-viewof lastyear = Inputs.button("Last Year",{value: pis[indx].last_year, label: "View or download Last Year's data", reduce: () => window.open("https://drive.google.com/drive/folders/"+pis[indx].last_year,"_blank")})
-```
-
-```{ojs}
-last_meta='https://oceanview.pfeg.noaa.gov/erddap/tabledap/CCIEA_metadata.csv?dataset_title,indicator_title,long_variable_name,units,info_URL,institution,region,latitude,max_latitude,longitude,max_longitude,sampling_frequency,source_data_summary,additional_calculations,cciea_timeseries_id&currently_served=1&principal_investigator_id="'+pis[indx].id+'"'
-
-viewof lastmeta = Inputs.button("Current Metadata",{value: pis[indx].this_year, label: "Download and edit current metadata", reduce: () => window.open(last_meta)})
-```
-
-## Upload {.flow}
-
-```{ojs}
-viewof thisyear = Inputs.button("This Year",{value: pis[indx].this_year, label: "Upload This Year's data", reduce: () => window.open("https://drive.google.com/drive/folders/"+pis[indx].this_year,"_blank")})
-
-//url="https://drive.google.com/drive/folders/"+last
-//html`<a href=${url} target=_blank>${url}</a>`
-
-```
-
-## indicators {.flow}
 ```{ojs}
 //| echo: false
 //| output: false
@@ -87,33 +56,68 @@ components=pis[indx].components
 
 ```
 
+## PI {.tabset}
+
+### View Current
+
+#### {height=15%}
+
+#####
 
 ```{ojs}
-
-  viewof component = Inputs.select(components,{format: x => x.name, label: "Component" });
+viewof pi = Inputs.select(name,{value:name[0], label: "Choose PI" });
+indx=name.indexOf(pi)
+viewof component = Inputs.select(components,{format: x => x.name, label: "Component" });
  
 ```
 
+#### Indicators {height=35%}
+
+#####
 
 ```{ojs}
 
-viewof indicator=Inputs.radio(component.indices,{value: component.indices[0],label: component.name})
+viewof indicator=Inputs.radio(component.indices,{value: component.indices[0]})
 
 ```
 
-## indicatormeta {.flow}
+####
+
+#####
 
 ```{ojs}
 indicator
 
 ```
 
+### Download Last Year
+
+#### Download buttons {height=35%}
+
+#####
+
 ```{ojs}
 
+viewof lastyear = Inputs.button("Last Year",{value: pis[indx].last_year, label: "View or download Last Year's data", reduce: () => window.open("https://drive.google.com/drive/folders/"+pis[indx].last_year,"_blank")})
 
-ind_url="https://oceanview.pfeg.noaa.gov/erddap/tabledap/CCIEA_metadata.jsonlKVP?&currently_served=1&indicator_title="+'"'+encodeURIComponent(indicator)+'"'
+last_meta='https://oceanview.pfeg.noaa.gov/erddap/tabledap/CCIEA_metadata.csv?dataset_title,indicator_title,long_variable_name,units,info_URL,institution,region,latitude,max_latitude,longitude,max_longitude,sampling_frequency,source_data_summary,additional_calculations,cciea_timeseries_id&currently_served=1&principal_investigator_id="'+pis[indx].id+'"'
 
-//ojs_define(pis = pis)
+viewof lastmeta = Inputs.button("Current Metadata",{value: pis[indx].this_year, label: "Download and edit current metadata", reduce: () => window.open(last_meta)})
 ```
 
+### Upload This Year
+
+
+```{ojs}
+viewof thisyear = Inputs.button("This Year",{value: pis[indx].this_year, label: "Upload This Year's data", reduce: () => window.open("https://drive.google.com/drive/folders/"+pis[indx].this_year,"_blank")})
+
+//url="https://drive.google.com/drive/folders/"+last
+//html`<a href=${url} target=_blank>${url}</a>`
+
+
+
+ind_url="https://oceanview.pfeg.noaa.gov/erddap/tabledap/CCIEA_metadata.json?&currently_served=1&indicator_title="+'"'+encodeURIComponent(indicator)+'"'
+
+
+```
 

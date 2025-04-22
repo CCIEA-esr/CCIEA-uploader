@@ -12,11 +12,19 @@ generate_file_status <- function(esr_year){
   folder_id=find_folder_id(folder[3])
   pifolders=find_folders_in_folder(folder_id)
   folderarray <- list()
+  yearfolders <- list()
   for (p in 1:length(pifolders$name)){
     PI=pifolders$name[p]
     PIid=pifolders$id[p]
-    print(PI)
+## find the id's of all the years in the folder
+    PIyears=find_folders_in_folder(PIid)
+##    print(PI)
     pis <- list(name = PI,newmeta = 0,newmetaupdate="")
+    piyearfolders <- list(name = PI)
+    yearobj <- list()
+    for(y in 1:length(PIyears)){
+      yearobj <- append(yearobj,list(name=PIyears$name[y],id=PIyears$id[y]))
+    }
     piobj<-list()
     pifiles=find_PI_files_in_esr_year(PIid,esr_year)
 ##    print(pifiles)
