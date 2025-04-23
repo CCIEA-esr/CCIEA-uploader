@@ -72,4 +72,11 @@ generate_file_status <- function(esr_year){
   write(output,file=paste("data/uploader_status_",esr_year,".json",sep=""))
 
   }
+  
+read_updated <- function(esr_year){
+  json_data <- fromJSON(paste("data/uploader_status_",esr_year,".json",sep=""), simplifyVector = FALSE)
+  last_updated <- json_data$statusupdate
+  return(last_updated)
+  }
+
 

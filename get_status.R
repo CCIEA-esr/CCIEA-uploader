@@ -1,10 +1,9 @@
 source("_init.R")
 source("_gdrive.R")
 source("_pi_folders_to_json.R")
-source("_pi_folders_to_df.R")
 generate_file_status(esr_year)
 headervars=c("year","index","timeseries","metric","SEup","SElo")
-status_list <- read_status(esr_year,headervars)
-print(status_list$last_updated)
+last_updated <- read_updated(esr_year)
+print(last_updated)
 
 
