@@ -10,3 +10,13 @@
   
   }
 
+	.bold{
+		font-weight:bold;
+		}
+  .blm {
+		width:650px;
+		height:200px;
+		cursor:pointer;
+		font-size:12px;
+		line-height:16px;
+		}

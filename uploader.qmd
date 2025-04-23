@@ -8,30 +8,6 @@ execute:
   cache: true
 ---
 
-```{r}
-#| echo: false
-#| message: false
-#| eval: true
-
-library(tidyverse)
-library(dplyr)
-
-#-------- getMetadata(erddap_id) --------------
-# Get subset of metadata by column and erddap_id
-# We could read directly from the spreadsheet on the Google Drive, but downloading the csv file ensures
-# that everyone is using the same metadata.csv file, and it can easily be archived by ESR year
-
-getMetadata <-function(erddap_id){
-
-  df = read.csv('metadata.csv')
-  df_trimmed<- df %>% select(c('Component_Section', 'Subcomponent', 'ERDDAP_Dataset_ID', 'ERDDAP_query_value', 'Contact', 'Title', 'Institution', 'Source_Data', 'Additional_Calculations', 'region', 'latitude', 'longitude', 'latitude2', 'longitude2','Sampling_frequency','Figure_grouping','year_begin','year_end'))
-  meta <- df_trimmed %>% filter(currently_served==1)
-  meta <- meta[order(meta$Figure_grouping),]
-  return(meta)
-}
-
-``` 
-
 ```{ojs}
 //| echo: false
 //| output: false
@@ -58,9 +34,9 @@ components=pis[indx].components
 
 ## PI {.tabset}
 
-### View Current
+### View Current Data {expandable=false}
 
-#### {height=15%}
+#### {height=120px}
 
 #####
 
@@ -71,7 +47,7 @@ viewof component = Inputs.select(components,{format: x => x.name, label: "Compon
  
 ```
 
-#### Indicators {height=35%}
+#### Indicators {height=25%}
 
 #####
 
@@ -86,9 +62,104 @@ viewof indicator=Inputs.radio(component.indices,{value: component.indices[0]})
 #####
 
 ```{ojs}
-indicator
+//| echo: false
+meta = await FileAttachment("data/metadata.csv").csv();
+filtered = meta.filter(metadata =>{
+   return metadata.Title===indicator && metadata.Component_Section===component.name
+});
+m=filtered[0]
 
+		function year(longdate){
+			var datestr=String(longdate);
+			if(datestr)return (datestr.replace("-01-01T00:00:00Z",""));
+			}
+		function yesno(flag){
+			return (flag==1) ? "yes" : "no";
+			}
+		function geterddapurl(id,queryparam,value,variable,type){
+			var erddaploc='https://oceanview.pfeg.noaa.gov/erddap/tabledap/';
+			var query='';
+			if(queryparam!==''&&value!==''){
+				query='&'+queryparam+'="'+value+'"';
+				if(queryparam=="latitude")query='&'+queryparam+'='+value;
+				}
+			var url=erddaploc+id+'.'+type+'?time,'+variable+query;
+			if(type.search(/png/i)>=0||type.search('graph')>=0){url+='&.draw=lines';}
+			return url;
+			}
+
+
+html`
+			<div class="vert">
+				${m.default_figure ? html `<div><img class="blm" src="${m.default_figure}"></iron-image></div>` : html `No image found for this indicator`}
+				<div><span>Metadata for <span class="bold">${m.Title}</span>:</span></div>
+				<div><span class="bold">Component: </span><span>${m.Component_Section}</span></div>
+				<div><span class="bold">Subcomponent: </span><span>${m.Subcomponent}</span></div>
+				<div><span class="bold">Dataset Title: </span><span>${m.Dataset_Title}</span></div>
+				<div><span class="bold">Indicator Title: </span><span>${m.Title}</span></div>
+				<div><span class="bold">Indicator Long Name: </span><span>${m.Long_variable_name}</span></div>
+				<div><span class="bold">Background Info: </span><span><a href="${m.Background_Info}" target="_blank">${m.Background_Info}</a></span></div>
+				<div><span class="bold">Institution: </span><span>${m.Institution}</span></div>
+				<div><span class="bold">Units: </span><span>${m.Units}</span></div>
+				<div>
+				${m.region ? html `<span class="bold">Region: </span><span>${m.region}</span>` : html ``}
+				${m.latitude ? html `<span class="bold">Latitude: </span><span>${m.latitude} N</span>` : ``}
+				${m.latitude2 ? html `<span class="bold"> - </span><span>${m.latitude2} N</span>` : ``}
+				${m.longitude ? html `<span class="bold">Longitude: </span><span>${m.longitude} E</span>` : ``}
+				${m.longitude2 ? html `<span class="bold"> - </span><span>${m.longitude2}</span>` : ``}
+				</div>
+				<div>
+				${m.sampling_frequency ? html `<span class="bold">Sampling frequency: </span><span>${m.Sampling_frequency}</span>` : ``}
+				</div>
+				<div>
+				${m.Sampling_frequency ? html `<span class="bold">Sampling frequency: </span><span>${m.Sampling_frequency}</span>` : ``}
+				</div>
+				<div>
+				${m.scientific_name ? html `<span class="bold">Scientific name: </span><span>${m.scientific_name}</span>` : ``}
+				</div>
+				<div>
+				${m.Source_Data ? html `<span class="bold">Source Data: </span><span>${m.Source_Data}</span>` : ``}
+				</div>
+				<div>
+				${m.Additional_Calculations ? html `<span class="bold">Additional Calculations: </span><span>${m.Additional_Calculations}</span>` : ``}
+				</div>
+				<div>
+				${m.filename ? html `<span class="bold">PI filename: </span><span>${m.filename}</span>` : ``}
+				</div>
+				<div>
+				${m.year_begin ? html `<span class="bold">Date range: </span><span>${year(m.year_begin)} - ${year(m.year_end)}</span>` : ``}
+				</div>
+				<div>
+				${m.min ? html `<span class="bold">Indicator range: </span><span>min: ${m.min} max: ${m.max}</span>` : ``}
+				</div>
+				<div>
+				<span class="bold">Serve this data for CCIEA? </span><span>${yesno(m.currently_served)}</span> <span class="bold">Whale Entanglement dataset? </span><span>${yesno(m.whale_entanglement_flag)}</span> <span class="bold">Salmon web page? </span><span>${yesno(m.salmon_web_flag)}</span>
+				</div>
+				<div>
+				${m.no_download_flag ? html `<span class="bold">No download, private data</span>`
+					: html `<span class="bold">ERDDAP data links:</span> <span>(ERDDAP dataset id: ${m.ERDDAP_Dataset_ID}) </span>
+						&nbsp;|&nbsp;<span><a class="noline" href='${geterddapurl(m.ERDDAP_Dataset_ID,m.ERDDAP_query_parameter,m.ERDDAP_query_value,m.ERDDAP_variable_name,"htmlTable")}' target='_blank'>View data as html</a></span>
+						&nbsp;|&nbsp;<span><a class="noline" href='${geterddapurl(m.ERDDAP_Dataset_ID,m.ERDDAP_query_parameter,m.ERDDAP_query_value,m.ERDDAP_variable_name,"csv")}' target='_blank'>Download a csv file</a></span>
+						&nbsp;|&nbsp;<span><a class="noline" href='${geterddapurl(m.ERDDAP_Dataset_ID,m.ERDDAP_query_parameter,m.ERDDAP_query_value,m.ERDDAP_variable_name,"html")}' target='_blank'>ERDDAP link</a></span>
+					`}
+				</div>
+				<div>
+				${m.last_metadata_update ? html `<span class="bold">Last netadata update: </span><span>${m.last_metadata_update}</span>` : ``}
+				
+				${m.last_data_update ? html `<span class="bold">Last data update: </span><span>${m.last_data_update}</span>` : ``}
+				</div>
+			</div>
+        `
 ```
+
+<!--- Metadata for: ${m.Title}
+
+* *Subcomponent:* ${m.Subcomponent}
+* *Dataset Title:*  ${m.Dataset_Title}
+* *Institution:*  ${m.Institution}  -->
+
+
+
 
 ### Download Last Year
 

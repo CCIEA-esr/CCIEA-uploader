@@ -18,11 +18,11 @@ generate_file_status <- function(esr_year){
     PIid=pifolders$id[p]
 ## find the id's of all the years in the folder
     PIyears=find_folders_in_folder(PIid)
-##    print(PI)
+    print(PI)
     pis <- list(name = PI,newmeta = 0,newmetaupdate="")
     piyearfolders <- list(name = PI)
     yearobj <- list()
-    for(y in 1:length(PIyears)){
+    for(y in 1:nrow(PIyears)){
       yearobj <- append(yearobj,list(name=PIyears$name[y],id=PIyears$id[y]))
     }
     piobj<-list()
@@ -31,6 +31,7 @@ generate_file_status <- function(esr_year){
     if (length(pifiles$name) > 0) {
       for(f in 1:length(pifiles$name)){
         fileobj <- list()
+    print(pifiles$name[f])
         if(grepl("metadata",pifiles$name[f])){
           pis$newmeta=1
           pis$newmetaupdate=localfromgmt(pifiles$drive_resource[[f]]$modifiedTime)
@@ -44,7 +45,7 @@ generate_file_status <- function(esr_year){
           headercols <- list()
           if(fileobj$typechk==1){
             content=drive_read_string(as_id(pifiles$drive_resource[[f]]$id))
-            if(!is.na(content))content=read_csv(content)
+            if(!is.na(content))content=read_csv(content,show_col_types = FALSE)
             columns=names(content)
             headerchk=headervars
             if(datares=="Monthly")headerchk=headervarsmon
