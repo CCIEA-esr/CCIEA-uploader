@@ -140,16 +140,6 @@ get_indices <- function(esr_year,last_year){
   pi_indices <- list()
   pi_indices$pis <- piarray
   output <- toJSON(pi_indices, auto_unbox=TRUE)
-  write(output,file="data/items_meta_test.json")
+  write(output,file="data/items_meta.json")
   }
 
-
-
-
-
-
-
-
-
-
-  }
