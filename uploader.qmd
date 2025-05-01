@@ -3,6 +3,7 @@ format:
   dashboard:
     embed-resources: true
     orientation: columns
+    expandable: false
 execute:
   echo: false
   cache: true
@@ -34,7 +35,7 @@ components=pis[indx].components
 
 ## PI {.tabset}
 
-### View Current Data {expandable=false}
+### View Current Data
 
 #### {height=120px}
 
@@ -47,7 +48,7 @@ viewof component = Inputs.select(components,{format: x => x.name, label: "Compon
  
 ```
 
-#### Indicators {height=25%}
+#### Indicators {expandable=true height=25%}
 
 #####
 
@@ -57,7 +58,7 @@ viewof indicator=Inputs.radio(component.indices,{value: component.indices[0]})
 
 ```
 
-####
+#### {expandable=true}
 
 #####
 
@@ -68,7 +69,6 @@ filtered = meta.filter(metadata =>{
    return metadata.Title===indicator && metadata.Component_Section===component.name
 });
 m=filtered[0]
-
 		function year(longdate){
 			var datestr=String(longdate);
 			if(datestr)return (datestr.replace("-01-01T00:00:00Z",""));
@@ -91,7 +91,7 @@ m=filtered[0]
 
 html`
 			<div class="vert">
-				${m.default_figure ? html `<div><img class="blm" src="${m.default_figure}"></iron-image></div>` : html `No image found for this indicator`}
+				${m.default_figure != ""  ? html `<div><img class="blm" src="${m.default_figure}"></iron-image></div>` : html `<div>No image found for this indicator</div>`}
 				<div><span>Metadata for <span class="bold">${m.Title}</span>:</span></div>
 				<div><span class="bold">Component: </span><span>${m.Component_Section}</span></div>
 				<div><span class="bold">Subcomponent: </span><span>${m.Subcomponent}</span></div>
@@ -157,8 +157,6 @@ html`
 * *Subcomponent:* ${m.Subcomponent}
 * *Dataset Title:*  ${m.Dataset_Title}
 * *Institution:*  ${m.Institution}  -->
-
-
 
 
 ### Download Last Year
