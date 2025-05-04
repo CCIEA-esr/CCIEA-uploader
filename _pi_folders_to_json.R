@@ -14,9 +14,6 @@ library(dplyr)
 get_PI_folders <- function(){
 # Data upload folder path on Google Drive.
   folder=c("_CCIEA","CCIEA ESR data","CCIEA Data Upload")
-# CCIEA required/optional file column headers
-  headervars=c("year","index","timeseries","metric","SEup","SElo")
-  headervarsmon=c("time","index","timeseries","metric","SEup","SElo")
 # Could follow the path above, but for now just find the id of last element that contains the yearly folders
   folder_id=find_folder_id(folder[3])
   pifolders=find_folders_in_folder(folder_id)
@@ -39,7 +36,7 @@ get_pi_year_folders <- function(PI,PIid){
   }   
 
 ## create json file of files uploaded to Google Drive and check file headers
-generate_file_status <- function(esr_year){
+generate_file_status <- function(esr_year,headervars,headervarsmon){
   pifolders = get_PI_folders()
   folderarray <- list()
 #loop through PI folders
