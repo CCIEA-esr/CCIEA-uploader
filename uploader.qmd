@@ -38,7 +38,7 @@ components=pis[indx].components
 
 ### View Current Indicators
 
-[*Use this page to view current metadata for each indicator. **Does it need editing?*** *Use the second tab:* Download Last Year *to edit it.*]{.sml}
+[*Use this page to view current the metadata for each indicator. **Does it need editing?*** *Use the second tab:* Download Last Year *to edit it.*]{.sml}
 
 
 #### {height=130px}
