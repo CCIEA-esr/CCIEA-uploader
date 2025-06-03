@@ -1,28 +1,14 @@
 ::: {.input}
 
-
 ```{ojs}
 //| echo: false
 //| output: false
  
-name=Array()
 data = FileAttachment("data/items_meta.json").json()
 pis=data.pis
 esr_year=data.esr_year
 last_year=data.last_year
-{ for(let i=0;i<pis.length;i++){
-    name[i]=pis[i].name
-    }
-  return name
-}
-file_naming = FileAttachment("data/cciea_naming_conventions.json").json()
-filenames = file_naming.filter(files =>{
-   return files.id==pis[indx].id
-});
-temp = filenames[0].files
-newfiles=temp.filter(files =>{
-   return files.newname !== null && files.title !== null
-});
+name = pis.map(obj => obj.name);
 
 viewof pi = Inputs.select(name,{value:name[0], label: "Data Provider" });
 indx=name.indexOf(pi)
@@ -177,6 +163,17 @@ viewof lastyear = Inputs.button("Download "+last_year+" Data",{value: pis[indx].
 
 ```{ojs}
 //| echo: false
+//| output: false
+
+file_naming = FileAttachment("data/cciea_naming_conventions.json").json()
+filenames = file_naming.filter(files =>{
+   return files.id==pis[indx].id
+});
+temp = filenames[0].files
+newfiles=temp.filter(files =>{
+   return files.newname !== null && files.title !== null
+});
+
 html`<h3>Upload ${pis[indx].name} ${esr_year} data and metadata</h3>`
 
 html`<h5>Please name your files as follows:</h5>`
