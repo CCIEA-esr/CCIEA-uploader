@@ -3,7 +3,7 @@
 ```{ojs}
 //| echo: false
 //| output: false
-
+//| 
 name=Array()
 data = FileAttachment("data/items_meta.json").json()
 pis=data.pis
@@ -23,13 +23,6 @@ newfiles=temp.filter(files =>{
    return files.newname !== null && files.title !== null
 });
 
-//ojs_define(pis = pis)
-```
-
-```{ojs}
-//| echo: false
-//| output: false
-components=pis[indx].components
 
 ```
 
@@ -39,6 +32,7 @@ components=pis[indx].components
 //| echo: false
 viewof pi = Inputs.select(name,{value:name[0], label: "Data Provider" });
 indx=name.indexOf(pi)
+components=pis[indx].components
 viewof component = Inputs.select(components,{format: x => x.name, label: "Component" });
 ```
 
