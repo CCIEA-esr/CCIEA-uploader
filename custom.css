@@ -31,3 +31,6 @@
 .input {
   max-height: 150px;
 }
+.observablehq--error {
+  display: none;
+}
