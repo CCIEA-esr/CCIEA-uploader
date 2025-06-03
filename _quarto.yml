@@ -27,7 +27,6 @@ format:
     theme:
       - cosmo
       - custom.css
-engine: knitr
 resources:
   - data
 
