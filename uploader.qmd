@@ -1,9 +1,10 @@
+::: {.input}
 
 
 ```{ojs}
 //| echo: false
 //| output: false
-//| 
+ 
 name=Array()
 data = FileAttachment("data/items_meta.json").json()
 pis=data.pis
@@ -23,13 +24,6 @@ newfiles=temp.filter(files =>{
    return files.newname !== null && files.title !== null
 });
 
-
-```
-
-::: {.input}
-
-```{ojs}
-//| echo: false
 viewof pi = Inputs.select(name,{value:name[0], label: "Data Provider" });
 indx=name.indexOf(pi)
 components=pis[indx].components
