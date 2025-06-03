@@ -1,4 +1,6 @@
 # Github Actions to read CCIEA Google Drive and update Uploader Status table
+# Need to grant read/write permissions for Action to do the commits
+# Settings -> Actions -> General -> Workflow permissions
     name: Access Google Drive
 # Use the following to update on push
 #    on:

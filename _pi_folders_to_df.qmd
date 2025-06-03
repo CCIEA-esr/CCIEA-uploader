@@ -78,5 +78,7 @@ make_table <- function(df_grouped){
     compose(j= "SElo", value = as_paragraph(ifelse(SElo == TRUE, "yes", "no")))|>
     set_header_labels(filename = "File Name",updated = "Updated",typechk = "type check", namechk = "name check") |>
     width(j= "updated",width=2)
-  }
+}
+
+
 ```

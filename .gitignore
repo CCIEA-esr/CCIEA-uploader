@@ -7,3 +7,7 @@
 /.quarto/
 /uploader_cache/
 /old/
+/.secrets/
+/status_cache/
+/_extensions/
+/*.R

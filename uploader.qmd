@@ -1,13 +1,4 @@
----
-format:
-  dashboard:
-    embed-resources: true
-    orientation: columns
-    expandable: false
-execute:
-  echo: false
-  cache: true
----
+
 
 ```{ojs}
 //| echo: false
@@ -23,6 +14,14 @@ last_year=data.last_year
     }
   return name
 }
+file_naming = FileAttachment("data/cciea_naming_conventions.json").json()
+filenames = file_naming.filter(files =>{
+   return files.id==pis[indx].id
+});
+temp = filenames[0].files
+newfiles=temp.filter(files =>{
+   return files.newname !== null && files.title !== null
+});
 
 //ojs_define(pis = pis)
 ```
@@ -34,40 +33,35 @@ components=pis[indx].components
 
 ```
 
-## PI {.tabset}
-
-### View Current Indicators
-
-[*Use this page to view current the metadata for each indicator. **Does it need editing?*** *Use the second tab:* Download Last Year *to edit it.*]{.sml}
-
-
-#### {height=130px}
-
-#####
+::: {.input}
 
 ```{ojs}
-viewof pi = Inputs.select(name,{value:name[0], label: "Choose PI" });
+//| echo: false
+viewof pi = Inputs.select(name,{value:name[0], label: "Data Provider" });
 indx=name.indexOf(pi)
 viewof component = Inputs.select(components,{format: x => x.name, label: "Component" });
- 
 ```
 
-#### Indicators {expandable=true height=25%}
+:::
 
-#####
+::: {.panel-tabset}
+
+## View Current Indicators
+
+::: {.scrolling}
 
 ```{ojs}
+//| echo: false
 
 viewof indicator=Inputs.radio(component.indices,{value: component.indices[0]})
 
 ```
 
-#### {expandable=true}
-
-#####
+:::
 
 ```{ojs}
 //| echo: false
+
 meta = await FileAttachment("data/metadata.csv").csv();
 filtered = meta.filter(metadata =>{
    return metadata.Title===indicator && metadata.Component_Section===component.name
@@ -94,9 +88,9 @@ m=filtered[0]
 
 
 html`
-			<div class="vert">
+			<div class="scrolling">
+				<p><hr><div><span>Metadata for <span class="bold">${m.Title}</span>:</span></div><p>
 				${m.default_figure != ""  ? html `<div><img class="blm" src="${m.default_figure}"></iron-image></div>` : html `<div>No image found for this indicator</div>`}
-				<div><span>Metadata for <span class="bold">${m.Title}</span>:</span></div>
 				<div><span class="bold">Component: </span><span>${m.Component_Section}</span></div>
 				<div><span class="bold">Subcomponent: </span><span>${m.Subcomponent}</span></div>
 				<div><span class="bold">Dataset Title: </span><span>${m.Dataset_Title}</span></div>
@@ -163,55 +157,109 @@ html`
 * *Institution:*  ${m.Institution}  -->
 
 
-### Download Last Year
-
-#### Download metadata {orientation=rows}
-
-[*Use this page to download csv files of the current data and/or metadata and edit edit as needed. *]{.sml}
-
-##### {orientation=rows height=100px}
+## Download Last Year
 
 ```{ojs}
-html`<i>${last_year} metadata and data for PI:</i><b>  ${pis[indx].name} </b><br>Choose a different PI on the View Current Indicators tab`
+//| echo: false
+html`<h3>View and/or edit ${last_year} metadata and data for:  ${pis[indx].name}</h3>
+<div class="sml"><i>Use this page to download csv files of current data and/or metadata and edit as needed.</i></div>
+<br><i>Directly download a csv file of ${pis[indx].name} ${last_year} metadata:</i><br>`
 ```
 
-##### {orientation=rows height=140px}
 
 ```{ojs}
+//| echo: false
 
 last_meta='https://oceanview.pfeg.noaa.gov/erddap/tabledap/CCIEA_metadata.csv?dataset_title,indicator_title,long_variable_name,units,info_URL,institution,region,latitude,max_latitude,longitude,max_longitude,sampling_frequency,source_data_summary,additional_calculations,cciea_timeseries_id&currently_served=1&principal_investigator_id="'+pis[indx].id+'"'
 
 viewof lastmeta = Inputs.button("Download "+last_year+" Metadata",{value: pis[indx].this_year, reduce: () => window.open(last_meta)})
-html`<i>(This button will directly download a csv file of<b> ${pis[indx].name} ${last_year} Metadata</b>)</i>`
+
 ```
 
-##### {orientation=rows height=140px}
 
 ```{ojs}
+//| echo: false
+html`<br><br><i>Open the Google Drive folder containing ${pis[indx].name} ${last_year} data:</i>`
+
 viewof lastyear = Inputs.button("Download "+last_year+" Data",{value: pis[indx].last_year, reduce: () => window.open("https://drive.google.com/drive/folders/"+pis[indx].last_year,"_blank")})
-html`<i>(This button opens the Google Drive folder containing<b> ${pis[indx].name} ${last_year} Data</b>)</i>`
 ```
 
-### Upload This Year
+## Upload This Year
 
-[*Use this page to upload csv files of new data and/or edited metadata as needed. *]{.sml}
-
-##### {orientation=rows height=150px}
 
 ```{ojs}
-viewof thisyear = Inputs.button("Upload "+esr_year+" data and metadata",{value: pis[indx].this_year, reduce: () => window.open("https://drive.google.com/drive/folders/"+pis[indx].this_year,"_blank")})
-html`<i>(This button opens the Google Drive folder for uploading<b> ${pis[indx].name} ${esr_year} data and metadata</b>)</i>`
+//| echo: false
+html`<h3>Upload ${pis[indx].name} ${esr_year} data and metadata</h3>`
+
+html`<h5>Please name your files as follows:</h5>`
+viewof file_conventions = Inputs.table(newfiles,{header:{title:"Dataset Title",newname:"CCIEA filename convention"},select: false, rows: 5, height: 200})
+```
+
+```{ojs}
+//| echo: false
+headervars=["year","index","timeseries","metric","SEup","SElo"]
+headervarsmon=["time","index","timeseries","metric","SEup","SElo"]
+html`<p><b>First check your csv data file:</b></p>`
+
+viewof csvfile = Inputs.file({accept: ".csv", required: true})
+
+newfile = csvfile.csv({typed: true})
+columns = Object.keys(newfile[0])
+filename=csvfile.name
+monthly = filename.search("_M.csv")>0 || filename.search("Monthly")>0
+
+Inputs.table(newfile,{select: false, format:{year: x => x.toLocaleString("en-US").replace(/\,/,''), time: (x) => { return typeof x === 'number' ? x.toLocaleString("en-US").replace(/\,/,'') : x.toISOString().substr(0,10)}}})
+
+html`<h3>Checking file: ${filename}:</h3>`
+
+html`<h3>We will check for the following:</h3>`
+
+html` Does it follow the filename convention?`
+allowednames = newfiles.map(obj => obj.newname);
+
+{return allowednames.includes(filename)==true ? "yes" : "no"}
+
+html` Is the time column named <b>${headervars[0]}</b> for yearly data or <b>${headervarsmon[0]}</b> for monthly data?`;
+
+{
+if(monthly==true)return columns.includes(headervarsmon[0])==true ? "yes" : "no"
+if(monthly==false)return columns.includes(headervars[0])==true ? "yes" : "no"
+}
+
+html` Is the indicator value column named <b>${headervars[1]}</b>?`
+
+{return columns.includes(headervars[1])==true ? "yes" : "no"}
+
+html` Is there a column named <b>${headervars[2]}</b> describing each indicator?`
+
+{return columns.includes(headervars[2])==true ? "yes" : "no"}
+
+
+```
+
+```{ojs}
+//| echo: false
+html`<br><p><b>If your files all pass the check, go the Google Drive folder for uploading your data:</b></p>`
+
+viewof thisyear = Inputs.button("Upload "+esr_year+" data and metadata",{value: pis[indx].this_year, reduce: () => window.open("https://drive.google.com/drive/folders/"+pis[indx].upload,"_blank")})
 //url="https://drive.google.com/drive/folders/"+last
 //html`<a href=${url} target=_blank>${url}</a>`
 
 ind_url="https://oceanview.pfeg.noaa.gov/erddap/tabledap/CCIEA_metadata.json?&currently_served=1&indicator_title="+'"'+encodeURIComponent(indicator)+'"'
 
+html`<br><p><b>Note that you can also place other files such as images and text you want to share with CCIEA in this folder</b></p>`
+
+
 ```
 
-### Help
 
 
-::: {.card title="View Current Indicators" class=sml expandable=true}
+
+
+
+## Help
+
+View Current Indicators
 
 * Select each indicator on the lower part of the page to see the current metadata
     + Is it correct? If so, there's no need to download last year's metadata
@@ -223,9 +271,7 @@ ind_url="https://oceanview.pfeg.noaa.gov/erddap/tabledap/CCIEA_metadata.json?&cu
     + If you import the csv file into a spreadsheet application (ie Excel) please export back out as a csv file
 * After you edit the metadata, go to tab 3 "Upload This Year" to go to a Google Drive folder where you can upload the new (csv) metadata
 
-:::
-
-::: {.card title="Download Last Year" expandable=true}
+Download Last Year
 
 * Update your data
     + You can either:
@@ -238,13 +284,11 @@ ind_url="https://oceanview.pfeg.noaa.gov/erddap/tabledap/CCIEA_metadata.json?&cu
     + Update last year's files or use them as a template for this year
     + Consistent file names from year to year are important. This may mean removing the dates from the file names. The "NAME YOUR FILE LIKE THIS!" button (same as the "[PI] FILE NAMING CONVENTIONS" button) allows you to view and download a list of CCIEA file naming conventions for your data files. Contact Greg or Lynn if a file name is not listed for one of your data files
         
-:::
+Upload This Year
 
-::: {.card title="Upload This Year" expandable=true}
 * Upload your new data
     + When your data is ready to upload (either the updated previous files or new files), go to tab 3 "Upload This Year" to go to a Google Drive folder where you can upload this year's data and (optionally) edited metadata, both into the same folder
 * Now check your files to make sure they can be automatically ingested.
         Click button (4) to check the format of your files. A table will appear showing the status of your files. Please re-upload your files after correcting any formatting issues.
 
 :::
-

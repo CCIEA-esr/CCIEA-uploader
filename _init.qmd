@@ -4,5 +4,7 @@
 #| eval: true
 esr_year="2024-2025"
 last_year="2023-2024"
-
+# CCIEA required/optional file column headers
+headervars=c("year","index","timeseries","metric","SEup","SElo")
+headervarsmon=c("time","index","timeseries","metric","SEup","SElo")
 ```

@@ -23,3 +23,11 @@
 .sml {
   		font-size:.9rem;
 }
+.scrolling {
+  max-height: 50vh;
+  overflow-y: auto;
+  padding-bottom: 20px;
+}
+.input {
+  max-height: 150px;
+}
