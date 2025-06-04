@@ -19,18 +19,27 @@
 		cursor:pointer;
 		font-size:12px;
 		line-height:16px;
+    background-color: #e5e5ea;
 		}
 .sml {
   		font-size:.9rem;
 }
 .scrolling {
-  max-height: 50vh;
+  max-height: 70vh;
   overflow-y: auto;
-  padding-bottom: 20px;
 }
-.input {
+.panel-input {
   max-height: 150px;
+  border-width: 2px;
 }
+.panel-tabset > .nav-tabs,
+.panel-tabset > .tab-content {
+    border: none;
+      }
+.panel-tabset > .nav-pills {
+ --bs-nav-pills-link-active-bg: #276189;
+}
+
 .observablehq--error {
   display: none;
 }

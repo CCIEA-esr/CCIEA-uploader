@@ -1,4 +1,4 @@
-::: {.input}
+
 
 ```{ojs}
 //| echo: false
@@ -9,18 +9,39 @@ pis=data.pis
 esr_year=data.esr_year
 last_year=data.last_year
 name = pis.map(obj => obj.name);
-
-viewof pi = Inputs.select(name,{value:name[0], label: "Data Provider" });
 indx=name.indexOf(pi)
 components=pis[indx].components
+```
+
+
+::: {.panel-input}
+
+```{ojs}
+//| echo: false
+
+viewof pi = Inputs.select(name,{value:name[0], label: "Data Provider" });
+
 viewof component = Inputs.select(components,{format: x => x.name, label: "Component" });
 ```
 
 :::
 
-::: {.panel-tabset}
+::: {.panel-tabset .nav-pills}
 
 ## View Current Indicators
+
+::: {layout="[[1],[1,1]]"}
+
+```{ojs}
+//| echo: false
+
+html`
+			<div>
+				<p><div><span>Metadata for <span class="bold">${m.Title}</span>:</span></div></p>
+				${m.default_figure != ""  ? html `<div><img class="blm" src="${m.default_figure}"></iron-image></div>` : html `<div>No image found for this indicator</div>`}
+</div>`
+
+```
 
 ::: {.scrolling}
 
@@ -62,9 +83,7 @@ m=filtered[0]
 
 
 html`
-			<div class="scrolling">
-				<p><hr><div><span>Metadata for <span class="bold">${m.Title}</span>:</span></div><p>
-				${m.default_figure != ""  ? html `<div><img class="blm" src="${m.default_figure}"></iron-image></div>` : html `<div>No image found for this indicator</div>`}
+			<div>
 				<div><span class="bold">Component: </span><span>${m.Component_Section}</span></div>
 				<div><span class="bold">Subcomponent: </span><span>${m.Subcomponent}</span></div>
 				<div><span class="bold">Dataset Title: </span><span>${m.Dataset_Title}</span></div>
@@ -123,6 +142,8 @@ html`
 			</div>
         `
 ```
+
+:::
 
 <!--- Metadata for: ${m.Title}
 
