@@ -36,7 +36,7 @@
 .panel-tabset > .tab-content {
     border: none;
       }
-.panel-tabset > .nav-pills {
+ .nav-pills {
  --bs-nav-pills-link-active-bg: #276189;
 }
 
