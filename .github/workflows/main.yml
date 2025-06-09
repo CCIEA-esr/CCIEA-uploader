@@ -36,6 +36,7 @@
                 any::tibble
                 any::officer
                 any::googledrive
+                any::googlesheets4
                 any::tidyverse
                 
           - name: Import data
