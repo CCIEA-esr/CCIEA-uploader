@@ -2,6 +2,8 @@ library("jsonlite")
 library(tidyverse)
 library(dplyr)
 
+source("_init.R")
+
 ## Get a dribble of PI folder names and ID's
 # # A dribble: 19 × 3
 ##   name              id        drive_resource   
@@ -11,11 +13,9 @@ library(dplyr)
 ## 3 Burke             1ek7... <named list [35]>
 ## 4 Cope              1ymd... <named list [35]>
 ## 5 .....
-get_PI_folders <- function(){
-# Data upload folder path on Google Drive.
-  folder=c("_CCIEA","CCIEA ESR data","CCIEA Data Upload")
-# Could follow the path above, but for now just find the id of last element that contains the yearly folders
-  folder_id=find_folder_id(folder[3])
+get_PI_folders <- function(folder){
+# find all PI folders in the Google Drive folder named folder
+  folder_id=find_folder_id(folder)
   pifolders=find_folders_in_folder(folder_id)
   return(pifolders)
   }
@@ -37,7 +37,7 @@ get_pi_year_folders <- function(PI,PIid){
 
 ## create json file of files uploaded to Google Drive and check file headers
 generate_file_status <- function(esr_year,headervars,headervarsmon){
-  pifolders = get_PI_folders()
+  pifolders = get_PI_folders(cciea_folders[3])
   folderarray <- list()
 #loop through PI folders
   for (p in 1:length(pifolders$name)){
@@ -99,7 +99,7 @@ read_updated <- function(esr_year){
   }
 
 get_indices <- function(esr_year,last_year){
-  pifolders = get_PI_folders()
+  pifolders = get_PI_folders(cciea_folders[3])
   df = read.csv('data/metadata.csv')
   df_trimmed<- df %>% select(c('PI_ID','PI', 'Contact', 'Title','Component_Section','serve_flag'))
   meta <- df_trimmed %>% filter(serve_flag==1)
@@ -141,4 +141,32 @@ get_indices <- function(esr_year,last_year){
   output <- toJSON(pi_indices, auto_unbox=TRUE)
   write(output,file="data/items_meta.json")
   }
+
+## get_file_conventions: get file naming conventions from file 'file_name' in folder 'file_folder'
+## and located in Google Drive folder named folder
+## current file name defined in _init.R, current folder cciea_folders[2] which is "CCIEA ESR data"
+get_file_conventions <- function(file_folder,file_name){
+  folder_id = find_folder_id(file_folder)
+  file=find_file_in_folder(file_name,folder_id)
+  content <- read_sheet(file$id)
+  df<- content %>% select(c('PI ID','Dataset Title', 'Name (CCIEA standardized)')) 
+  pis <- unique(df[['PI ID']])
+  piarray <- list()
+  for (p in 1:length(pis)){
+    piobj <- list()
+    piobj$id <- pis[p]
+    files <- df %>% filter(`PI ID`==pis[p] & !is.na(`Dataset Title`))
+    filearray <- list()
+    for (f in 1:nrow(files)){
+      fobj <- list()
+      fobj$title <- files[f,][["Dataset Title"]]
+      fobj$newname <- files[f,][["Name (CCIEA standardized)"]]
+      filearray <- append(filearray,list(fobj))
+    }
+    piobj$files <- filearray
+    piarray <- append(piarray,list(piobj))
+  }
+  output <- toJSON(piarray, auto_unbox=TRUE)
+  write(output,file="data/cciea_naming_conventions.json")
+}
 

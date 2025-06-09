@@ -1,4 +1,5 @@
 library("googledrive")
+library("googlesheets4")
 library("tidyverse")
 
 #gargle is used from RStudio to authenticate Google Drive
@@ -27,6 +28,13 @@ find_PI_files_in_esr_year <- function(PIid,esr_year){
   query=paste("'",yearfolder$id,"' in parents and fileExtension = 'csv' and mimeType != 'application/vnd.google-apps.folder' and trashed=false",sep="")
  files = drive_find(orderBy="name",q=query)
  return(files)
+}
+
+## Return id of file named file_name in a folder with id folder_id
+find_file_in_folder <- function(file_name,folder_id){
+  query=paste("'",folder_id,"' in parents and mimeType != 'application/vnd.google-apps.folder' and name='",file_name,"'",sep="") 
+  file = drive_find(q=query)
+  return(file)
 }
 
 localfromgmt <- function(utc){
