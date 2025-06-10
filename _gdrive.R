@@ -8,6 +8,9 @@ library("tidyverse")
 #google_client <- gargle::gargle_oauth_client_from_json("/home/ldewitt/projects/IEA/docs/uploader/client_secret.json")
 #drive_auth_configure(client = google_client)
 
+## Nice recipe for accessing Google Drive/Sheets from GitHub Action
+## https://www.obrien.page/blog/2023/03_10_google_and_github_actions/
+
 ## find the id of the folder with name folder_name
 ## will need to be more rigorous to account for duplicate named folders - assume no duplicate names for now
 find_folder_id <- function(folder_name){

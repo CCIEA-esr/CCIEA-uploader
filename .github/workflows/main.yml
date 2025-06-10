@@ -32,9 +32,8 @@
               cache: always
               packages: |
                 any::jsonlite
-                any::flextable
                 any::tibble
-                any::officer
+                any::dplyr
                 any::googledrive
                 any::googlesheets4
                 any::tidyverse
