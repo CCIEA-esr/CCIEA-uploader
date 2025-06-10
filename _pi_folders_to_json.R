@@ -97,7 +97,8 @@ read_updated <- function(esr_year){
   last_updated <- json_data$statusupdate
   return(last_updated)
   }
-
+## Next task read from Google Drive instead of file
+## modify function parameters: input pifolders,metadata file name, metadata folder on drive
 get_indices <- function(esr_year,last_year){
   pifolders = get_PI_folders(cciea_folders[3])
   df = read.csv('data/metadata.csv')
