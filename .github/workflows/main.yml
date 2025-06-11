@@ -31,13 +31,7 @@
             with:
               cache: always
               packages: |
-                any::jsonlite
-                any::tibble
-                any::dplyr
-                any::googledrive
-                any::googlesheets4
                 any::tidyverse
-                
           - name: Import data
             run: Rscript get_status.R
 
