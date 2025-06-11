@@ -211,7 +211,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 </div>
 </div>
 <div class="tabset-margin-container"></div><div class="panel-tabset nav-pills">
-<ul class="nav nav-tabs" role="tablist"><li class="nav-item" role="presentation"><a class="nav-link active" id="tabset-1-1-tab" data-bs-toggle="tab" data-bs-target="#tabset-1-1" role="tab" aria-controls="tabset-1-1" aria-selected="true">View Current Indicators</a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-1-2-tab" data-bs-toggle="tab" data-bs-target="#tabset-1-2" role="tab" aria-controls="tabset-1-2" aria-selected="false">Download Last Year</a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-1-3-tab" data-bs-toggle="tab" data-bs-target="#tabset-1-3" role="tab" aria-controls="tabset-1-3" aria-selected="false">Upload This Year</a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-1-4-tab" data-bs-toggle="tab" data-bs-target="#tabset-1-4" role="tab" aria-controls="tabset-1-4" aria-selected="false">Help</a></li></ul>
+<ul class="nav nav-tabs" role="tablist"><li class="nav-item" role="presentation"><a class="nav-link active" id="tabset-1-1-tab" data-bs-toggle="tab" data-bs-target="#tabset-1-1" role="tab" aria-controls="tabset-1-1" aria-selected="true">View Current Indicators</a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-1-2-tab" data-bs-toggle="tab" data-bs-target="#tabset-1-2" role="tab" aria-controls="tabset-1-2" aria-selected="false">Download Last Year</a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-1-3-tab" data-bs-toggle="tab" data-bs-target="#tabset-1-3" role="tab" aria-controls="tabset-1-3" aria-selected="false">Upload This Year</a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-1-4-tab" data-bs-toggle="tab" data-bs-target="#tabset-1-4" role="tab" aria-controls="tabset-1-4" aria-selected="false">Help/FAQ</a></li></ul>
 <div class="tab-content nav-pills">
 <div id="tabset-1-1" class="tab-pane active" role="tabpanel" aria-labelledby="tabset-1-1-tab">
 <div class="sourceCode cell-code hidden" id="cb3" data-startfrom="43" data-source-offset="0"><pre class="sourceCode js code-with-copy"><code class="sourceCode javascript" style="counter-reset: source-line 42;"><span id="cb3-43"><a href="#cb3-43" aria-hidden="true" tabindex="-1"></a><span class="fu">html</span><span class="vs">`</span></span>
@@ -705,50 +705,67 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 </div>
 </div>
 <div id="tabset-1-4" class="tab-pane" role="tabpanel" aria-labelledby="tabset-1-4-tab">
-<p>View Current Indicators</p>
+<section id="view-current-indicators-1" class="level3">
+<h3 class="anchored" data-anchor-id="view-current-indicators-1">View Current Indicators</h3>
 <ul>
-<li>Select each indicator on the lower part of the page to see the current metadata
+<li>Choose a data provider (some data providers’ data falls under more than one component category)</li>
+<li>Select each indicator on the left to see the currentindicator metadata
 <ul>
 <li>Is it correct? If so, there’s no need to download last year’s metadata</li>
 </ul></li>
-<li>Does your metadata need updating? If so:
+<li>Does your metadata need updating?
 <ul>
-<li>Go to tab 2: “Download Last Year” to download a csv file of your current metadata</li>
+<li>If so: go to tab 2, “Download Last Year”, to download a csv file of your current metadata</li>
 </ul></li>
-<li>Editing your metadata: edit the csv file as needed, but
+</ul>
+</section>
+<section id="download-last-year-1" class="level3">
+<h3 class="anchored" data-anchor-id="download-last-year-1">Download Last Year</h3>
+<ul>
+<li><strong>Metadata</strong>: download a csv file of your current metadata if it needs updating
+<ul>
+<li>Edit the csv file as needed, but
 <ul>
 <li>Please keep the column headers as they are.</li>
-<li>Avoid special characters. We may be able to deal with them but they can cause various issuess</li>
+<li>Avoid special characters. We may be able to deal with them but they can cause various issues</li>
 <li>If you import the csv file into a spreadsheet application (ie Excel) please export back out as a csv file</li>
 </ul></li>
 <li>After you edit the metadata, go to tab 3 “Upload This Year” to go to a Google Drive folder where you can upload the new (csv) metadata</li>
-</ul>
-<p>Download Last Year</p>
+</ul></li>
+<li><strong>Data</strong>: you can either:
 <ul>
-<li>Update your data
-<ul>
-<li>You can either:
-<ul>
-<li>download last year’s files and update them</li>
+<li>download last year’s files and manually update them, or use them as a template for this year (click the button to go to a Google Drive folder where your data from last year is available)</li>
 <li>or just upload new files (go to tab 3 “Upload This Year”)</li>
 </ul></li>
 </ul>
-Updating previous files:
+</section>
+<section id="upload-this-year-1" class="level3">
+<h3 class="anchored" data-anchor-id="upload-this-year-1">Upload This Year</h3>
 <ul>
-<li>Go to tab 2: “Upload Last Year” to go to a Google Drive folder where your data from last year is available</li>
-<li>These files have been converted to standard CCIEA format. All columns in your original data are intact, however the CCIEA columns have been relabeled: “year, index, timeseries, metric, SEup, SElo” for yearly data or “time, index, timeseries, metric, SEup, SElo” for monthly data</li>
-<li>Update last year’s files or use them as a template for this year</li>
-<li>Consistent file names from year to year are important. This may mean removing the dates from the file names. The “NAME YOUR FILE LIKE THIS!” button (same as the “[PI] FILE NAMING CONVENTIONS” button) allows you to view and download a list of CCIEA file naming conventions for your data files. Contact Greg or Lynn if a file name is not listed for one of your data files</li>
+<li>Upload your new data and/or metadata
+<ul>
+<li>When your data or metadata is ready (either the updated previous files or new files), this tab directs you to go to a Google Drive folder where you can upload this year’s data and (optionally) edited metadata, both into the same folder</li>
+</ul></li>
+<li>Before you upload, please check your files to make sure they can be automatically ingested
+<ul>
+<li>Please name your files as in the list of acceptable file names shown</li>
+<li>Browse to the data file you want to upload
+<ul>
+<li>a table of your data will appear</li>
+<li>below the table are the results of basic checks of your files. This tool checks for
+<ol type="1">
+<li>Is it a csv file?</li>
+<li>Does it follow the CCIEA file name convention listed in the table for your files?</li>
+<li>Do all the column follow the CCIEA convention?
+<ol type="a">
+<li>time column named”year” for yearly data and “time” for monthly data</li>
+<li></li>
+</ol></li>
+</ol></li>
+</ul></li>
 </ul></li>
 </ul>
-<p>Upload This Year</p>
-<ul>
-<li>Upload your new data
-<ul>
-<li>When your data is ready to upload (either the updated previous files or new files), go to tab 3 “Upload This Year” to go to a Google Drive folder where you can upload this year’s data and (optionally) edited metadata, both into the same folder</li>
-</ul></li>
-<li>Now check your files to make sure they can be automatically ingested. Click button (4) to check the format of your files. A table will appear showing the status of your files. Please re-upload your files after correcting any formatting issues.</li>
-</ul>
+</section>
 </div>
 </div>
 </div>
