@@ -270,42 +270,46 @@ html`<br><p><b>Note that you can also place other files such as images and text 
 ```
 
 
+## Help/FAQ
 
+### View Current Indicators
 
-
-
-## Help
-
-View Current Indicators
-
-* Select each indicator on the lower part of the page to see the current metadata
+*  Choose a data provider (some data providers' data falls under more than one component category)
+*  Select each indicator on the left to see the currentindicator metadata
     + Is it correct? If so, there's no need to download last year's metadata
-*  Does your metadata need updating? If so:
-    + Go to tab 2: "Download Last Year" to download a csv file of your current metadata
-* Editing your metadata: edit the csv file as needed, but
-    + Please keep the column headers as they are.
-    + Avoid special characters. We may be able to deal with them but they can cause various issuess
-    + If you import the csv file into a spreadsheet application (ie Excel) please export back out as a csv file
-* After you edit the metadata, go to tab 3 "Upload This Year" to go to a Google Drive folder where you can upload the new (csv) metadata
+*  Does your metadata need updating?
+    + If so: go to tab 2, "Download Last Year", to download a csv file of your current metadata
 
-Download Last Year
+### Download Last Year
 
-* Update your data
-    + You can either:
-        - download last year's files and update them
-        - or just upload new files (go to tab 3 "Upload This Year")
-    
-    Updating previous files:
-    + Go to tab 2: "Upload Last Year" to go to a Google Drive folder where your data from last year is available
-    + These files have been converted to standard CCIEA format. All columns in your original data are intact, however the CCIEA columns have been relabeled: "year, index, timeseries, metric, SEup, SElo" for yearly data or "time, index, timeseries, metric, SEup, SElo" for monthly data
-    + Update last year's files or use them as a template for this year
-    + Consistent file names from year to year are important. This may mean removing the dates from the file names. The "NAME YOUR FILE LIKE THIS!" button (same as the "[PI] FILE NAMING CONVENTIONS" button) allows you to view and download a list of CCIEA file naming conventions for your data files. Contact Greg or Lynn if a file name is not listed for one of your data files
+*  **Metadata**: download a csv file of your current metadata if it needs updating
+    + Edit the csv file as needed, but
+        - Please keep the column headers as they are.
+        - Avoid special characters. We may be able to deal with them but they can cause various issues
+        - If you import the csv file into a spreadsheet application (ie Excel) please export back out as a csv file
+    + After you edit the metadata, go to tab 3 "Upload This Year" to go to a Google Drive folder where you can upload the new (csv) metadata
+
+
+* **Data**: you can either:
+    + download last year's files and manually update them, or use them as a template for this year (click the button to go to a Google Drive folder where your data from last year is available)
+    + or just upload new files (go to tab 3 "Upload This Year")
+
+### Upload This Year
+
+* Upload your new data and/or metadata
+    + When your data or metadata is ready (either the updated previous files or new files), this tab directs you to go to a Google Drive folder where you can upload this year's data and (optionally) edited metadata, both into the same folder
+* Before you upload, please check your files to make sure they can be automatically ingested
+    + Please name your files as in the list of acceptable file names shown
+    + Browse to the data file you want to upload
+        - a table of your data will appear
+        - below the table are the results of basic checks of your files. This tool checks for
+            1. Is it a csv file?
+            1. Does it follow the CCIEA file name convention listed in the table for your files?
+            2. Do all the column follow the CCIEA convention?
+                a. time column named"year" for yearly data and "time" for monthly data
+                b.
         
-Upload This Year
 
-* Upload your new data
-    + When your data is ready to upload (either the updated previous files or new files), go to tab 3 "Upload This Year" to go to a Google Drive folder where you can upload this year's data and (optionally) edited metadata, both into the same folder
-* Now check your files to make sure they can be automatically ingested.
-        Click button (4) to check the format of your files. A table will appear showing the status of your files. Please re-upload your files after correcting any formatting issues.
+        
 
 :::
