@@ -37,14 +37,26 @@ viewof component = Inputs.select(components,{format: x => x.name, label: "Compon
 
 ## View Current Indicators
 
+::: {.callout-tip collapse="true"}
+## Use this page to check your current metadata *(click to expand)*
+
+*  Choose a data provider (some data providers' data falls under more than one component category)
+*  Select each indicator on the left below to see the current indicator metadata
+    + Is it correct? If so, there's no need to download last year's metadata
+*  Does your metadata need updating?
+    + If so: go to tab 2, "Download Last Year", to download a csv file of your current metadata
+    
+:::
+
+
 ::: {layout="[[1],[1,1]]"}
 
 ```{ojs}
 //| echo: false
 
 html`
-			<hr><div>
-				<p><div><span>Metadata for <span class="bold">${m.Title}</span>:</span></div></p>
+			<div>
+				<div><span>Metadata for <span class="bold">${m.Title}</span>:</span></div><br>
 				${m.default_figure != ""  ? html `<div><img class="blm" src="${m.default_figure}"></iron-image></div>` : html `<div>No image found for this indicator</div>`}
 </div>`
 
@@ -161,9 +173,27 @@ html`
 
 ## Download Last Year
 
+::: {.callout-tip collapse="true"}
+## Use this page to (optionally) download previous data and metadata *(click to expand)*
+
+*  **Metadata**: download a csv file of your current metadata if it needs updating
+    + Edit the csv file as needed, but
+        - Please keep the column headers as they are.
+        - Avoid special characters. We may be able to deal with them but they can cause various issues
+        - If you import the csv file into a spreadsheet application (ie Excel) please export back out as a csv file
+    + After you edit the metadata, go to tab 3 "Upload This Year" to go to a Google Drive folder where you can upload the new (csv) metadata
+
+
+* **Data**: you can either:
+    + download last year's files and manually update them, or use them as a template for this year (click the button to go to a Google Drive folder where your data from last year is available)
+    + or just upload new files (go to tab 3 "Upload This Year")
+
+:::
+
+
 ```{ojs}
 //| echo: false
-html`<hr><h3>View and/or edit ${last_year} metadata and data for:  ${pis[indx].name}</h3>
+html`<h3>View and/or edit ${last_year} metadata and data for:  ${pis[indx].name}</h3>
 <div class="sml"><i>Use this page to download csv files of current data and/or metadata and edit as needed.</i></div>
 <br><i>Directly download a csv file of ${pis[indx].name} ${last_year} metadata:</i><br>`
 ```
@@ -188,6 +218,22 @@ viewof lastyear = Inputs.button("Download "+last_year+" Data",{value: pis[indx].
 
 ## Upload This Year
 
+::: {.callout-tip collapse="true"}
+## Use this page to upload metadata, data and other files *(click to expand)*
+
+* Upload your new data and/or metadata
+    + When your data or metadata is ready (either the updated previous files or new files), this tab directs you to go to a Google Drive folder where you can upload this year's data and (optionally) edited metadata, both into the same folder
+* Before you upload, please check your files to make sure they can be automatically ingested
+    + Please name your files as in the list of acceptable file names shown
+    + Browse to the data file you want to upload
+        - a table of your data will appear
+        - below the table are the results of basic checks of your files. This tool checks for
+            1. Is it a csv file?
+            1. Does it follow the CCIEA file name convention listed in the table for your files?
+            2. Do all the column follow the CCIEA convention?
+                a. time column named"year" for yearly data and "time" for monthly data
+                b.
+:::
 
 ```{ojs}
 //| echo: false
@@ -206,7 +252,7 @@ newfiles=temp.filter(files =>{
 ```{ojs}
 //| echo: false
 
-html`<hr><h3>Upload ${pis[indx].name} ${esr_year} data and metadata</h3>`
+html`<h3>Upload ${pis[indx].name} ${esr_year} data and metadata</h3>`
 
 html`<h5>1. Please name your files as follows:</h5>`
 viewof file_conventions = Inputs.table(newfiles,{header:{title:"Dataset Title",newname:"CCIEA filename convention"},select: false, rows: 5})
@@ -229,7 +275,7 @@ Inputs.table(newfile,{select: false, format:{year: x => x.toLocaleString("en-US"
 
 html`<h3>Checking file: ${filename}:</h3>`
 
-html`<h5>We will check for the following:</h5>`
+html`<p><h5>3. We will check for the following:</h5>`
 
 html` Does it follow the filename convention?`
 allowednames = newfiles.map(obj => obj.newname);
@@ -256,7 +302,7 @@ html` Is there a column named <b>${headervars[2]}</b> describing each indicator?
 
 ```{ojs}
 //| echo: false
-html`<br><p><h5>3. If your files all pass the check, go the Google Drive folder for uploading your data:</h5></p>`
+html`<br><p><h5>4. If your files all pass the check, go the Google Drive folder for uploading your data:</h5></p>`
 
 viewof thisyear = Inputs.button("Upload "+esr_year+" data and metadata",{value: pis[indx].this_year, reduce: () => window.open("https://drive.google.com/drive/folders/"+pis[indx].upload,"_blank")})
 //url="https://drive.google.com/drive/folders/"+last
@@ -270,46 +316,83 @@ html`<br><p><b>Note that you can also place other files such as images and text 
 ```
 
 
-## Help/FAQ
+## FAQ
 
 ### View Current Indicators
 
-*  Choose a data provider (some data providers' data falls under more than one component category)
-*  Select each indicator on the left to see the currentindicator metadata
-    + Is it correct? If so, there's no need to download last year's metadata
-*  Does your metadata need updating?
-    + If so: go to tab 2, "Download Last Year", to download a csv file of your current metadata
+::: {.callout-note collapse="true" icon=false}
+
+## My indicator isn't listed, how do I add it's metadata?
+
+*  Is it a new indicator included in a data file that previously exists (just a new species, location, etc)? If so:
+    + download your metadata and add a new line for the new indicator
+    + we will be automatically notified about indicators that were not previously submitted
+* If you have an entirely new set of indicator data:
+    + Do your best to format and name the file following CCIEA conventions
+    + Upload the file and notify Greg or Lynn about the new data
+    
+:::
+
+::: {.callout-note collapse="true" icon=false}
+
+## After uploading new data and metadata, when will I see updated plots and metadata on this page?
+
+*  Currently we run a GitHub action every morning to:
+    + generate the status of all data provided so far this ESR season
+    + make new plots for each provided indicator
+    + merge any new metadata back into the full metadata spreadsheet
+* If you don't see your updated metadata or indicator plots within the next few days after uploading:
+    + check the Status page to see if your data has some issues
+    + contact Lynn or Greg to see what's up!
+:::
 
 ### Download Last Year
 
-*  **Metadata**: download a csv file of your current metadata if it needs updating
-    + Edit the csv file as needed, but
-        - Please keep the column headers as they are.
-        - Avoid special characters. We may be able to deal with them but they can cause various issues
-        - If you import the csv file into a spreadsheet application (ie Excel) please export back out as a csv file
-    + After you edit the metadata, go to tab 3 "Upload This Year" to go to a Google Drive folder where you can upload the new (csv) metadata
+::: {.callout-note collapse="true" icon=false}
+
+## What's the point of downloading last year's data?
+
+The option is provided just in case it's helpful to remember what you did a year ago! Also, we may have edited last year's file headers, etc., to follow CCIEA conventions
+    
+:::
 
 
-* **Data**: you can either:
-    + download last year's files and manually update them, or use them as a template for this year (click the button to go to a Google Drive folder where your data from last year is available)
-    + or just upload new files (go to tab 3 "Upload This Year")
 
 ### Upload This Year
 
-* Upload your new data and/or metadata
-    + When your data or metadata is ready (either the updated previous files or new files), this tab directs you to go to a Google Drive folder where you can upload this year's data and (optionally) edited metadata, both into the same folder
-* Before you upload, please check your files to make sure they can be automatically ingested
-    + Please name your files as in the list of acceptable file names shown
-    + Browse to the data file you want to upload
-        - a table of your data will appear
-        - below the table are the results of basic checks of your files. This tool checks for
-            1. Is it a csv file?
-            1. Does it follow the CCIEA file name convention listed in the table for your files?
-            2. Do all the column follow the CCIEA convention?
-                a. time column named"year" for yearly data and "time" for monthly data
-                b.
-        
+::: {.callout-note collapse="true" icon=false}
 
-        
+## What if my data isn't listed in the CCIEA filename convention list?
+
+*  How do I name files for new data?
+    
+:::
+
+### File formats
+
+::: {.callout-note collapse="true" icon=false}
+
+## What is meant by the CCIEA "tidy" or "long" file format convention?
+
+*  answer
+    
+:::
+
+::: {.callout-note collapse="true" icon=false}
+
+## What are the column headers for yearly data?
+
+*  answer
+    
+:::
+
+::: {.callout-note collapse="true" icon=false}
+
+## What are the column headers for monthly data?
+
+*  answer
+    
+:::
+
 
 :::
