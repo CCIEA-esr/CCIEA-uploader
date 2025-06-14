@@ -37,14 +37,15 @@ viewof component = Inputs.select(components,{format: x => x.name, label: "Compon
 
 ## View Current Indicators
 
-::: {.callout-tip collapse="true"}
-## Use this page to check your current metadata *(click to expand)*
+::: {.callout-note collapse="true" style="width: 60%;"}
+## [Use this page to check your current metadata *(click to expand)* ]{style="font-weight: normal;"}
 
-*  Choose a data provider (some data providers' data falls under more than one component category)
-*  Select each indicator on the left below to see the current indicator metadata
-    + Is it correct? If so, there's no need to download last year's metadata
-*  Does your metadata need updating?
-    + If so: go to tab 2, "Download Last Year", to download a csv file of your current metadata
+*  Choose a data provider **above** (and component if data falls under more than one component category)
+*  Select each indicator on the left **below** to see the current indicator metadata
+    + Is your metadata correct?
+        - If so, there's no need to download last year's metadata
+    + Does your metadata need updating?
+        - If so: go to tab 2, "Download Last Year", to download a csv file of your current metadata
     
 :::
 
@@ -173,8 +174,8 @@ html`
 
 ## Download Last Year
 
-::: {.callout-tip collapse="true"}
-## Use this page to (optionally) download previous data and metadata *(click to expand)*
+::: {.callout-note collapse="true" style="width: 60%;"}
+## [Use this page to (optionally) download previous data and metadata *(click to expand)*]{style="font-weight: normal;"}
 
 *  **Metadata**: download a csv file of your current metadata if it needs updating
     + Edit the csv file as needed, but
@@ -218,8 +219,8 @@ viewof lastyear = Inputs.button("Download "+last_year+" Data",{value: pis[indx].
 
 ## Upload This Year
 
-::: {.callout-tip collapse="true"}
-## Use this page to upload metadata, data and other files *(click to expand)*
+::: {.callout-note collapse="true" style="width: 60%;"}
+## [Use this page to upload metadata, data and other files *(click to expand)*]{style="font-weight: normal;"}
 
 * Upload your new data and/or metadata
     + When your data or metadata is ready (either the updated previous files or new files), this tab directs you to go to a Google Drive folder where you can upload this year's data and (optionally) edited metadata, both into the same folder
