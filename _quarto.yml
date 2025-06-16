@@ -4,6 +4,7 @@ project:
   render: 
     - uploader.qmd
     - status.qmd
+    - README.qmd
 
 website:
   title: "CCIEA Uploader"
