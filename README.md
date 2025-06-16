@@ -1,7 +1,7 @@
 ``` mermaid
 %% label: mermaid
 %% fig-cap: "CCIEA Uploader Code Flowchart"
-flowchart TD
+graph TD
 subgraph <b>CCIEA Uploader code flowchart</b>
 direction LR
  subgraph <br>
