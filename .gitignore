@@ -10,3 +10,8 @@
 /.secrets/
 /status_cache/
 /_extensions/
+docs/data/items_meta.json
+docs/data/uploader_status_2024-2025.json
+mermaid_code.txt
+data/items_meta.json
+data/uploader_status_2024-2025.json
