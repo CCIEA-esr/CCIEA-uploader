@@ -1,5 +1,3 @@
-
-
 ``` mermaid
 %% label: mermaid
 %% fig-cap: "CCIEA Uploader Code Flowchart"
