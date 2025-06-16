@@ -1,13 +1,5 @@
 
 
-<style>
-:root{
---mermaid-label-fg-color: #000;
---mermaid-fg-color--lightest: #fff;
---mermaid-fg-color--lighter: #fff;
-}
-</style>
-
 ``` mermaid
 %% label: mermaid
 %% fig-cap: "CCIEA Uploader Code Flowchart"
