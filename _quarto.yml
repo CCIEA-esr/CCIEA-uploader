@@ -1,10 +1,6 @@
 project:
   type: website
   output-dir: docs
-  render: 
-    - uploader.qmd
-    - status.qmd
-    - README.qmd
 
 website:
   title: "CCIEA Uploader"
