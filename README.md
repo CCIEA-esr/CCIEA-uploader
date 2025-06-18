@@ -1,5 +1,11 @@
 
 
+- [California Current Integrated Ecosystem Assessment (CCIEA)
+  Uploader](#california-current-integrated-ecosystem-assessment-cciea-uploader)
+  - [About](#about)
+  - [Code](#code)
+  - [CCIEA Resources](#cciea-resources)
+
 <hr>
 
 ## California Current Integrated Ecosystem Assessment (CCIEA) Uploader
