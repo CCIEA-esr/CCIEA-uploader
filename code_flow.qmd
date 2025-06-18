@@ -5,8 +5,6 @@ format:
     toc: false
   gfm:
     mermaid-format: png
-  pdf:
-    page-size: a4
 ---
 
 ```{mermaid}
