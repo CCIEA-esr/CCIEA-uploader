@@ -1,0 +1,67 @@
+---
+title: ""
+format: html
+---
+
+
+```{ojs}
+//| echo: false
+last_year="2024-2025"
+data_file_node="N[\\"+last_year+" data csv file\\]"
+meta_file_node="M[\\"+last_year+" metadata csv file\\]"
+
+html`<style>
+:root{
+--mermaid-label-fg-color: #000;
+--mermaid-fg-color--lightest: #fff;
+--mermaid-fg-color--lighter: #fff;
+}
+</style>
+`
+
+mermaid`flowchart TD
+subgraph <b>CCIEA Uploader flowchart</b>
+direction LR
+ subgraph <br>
+ direction TB
+   Z1(CCIEA Uploader - Uploader tab) --> Z
+   Z1 -- optional--> K1{Download<br>previous<br>data files?}
+   Z(View Current Metadata) --> B(Choose Data Provider)-->  D[Select Indicators and<br>examine metadata]
+   B --Rare: Data provider<br>has data in<br>more than one<br>component--> E(Choose Component) -->D
+   D -->F{Metadata<br>need<br>updating?}
+   K1--Yes--> H[Download Last Year] -.->  ${data_file_node}  -. view and<br>optionally update .-> G
+   F --No--> G[Upload This year]
+   K1 --No--> G
+   F --Yes--> H[Download Last Year]
+   H --> ${meta_file_node}  -- edit<br>metadata --> G
+  G --> I{What are you<br>uploading?} --> J[/Updated<br>metadata/] -->T[Upload file to Google Drive]
+  I--> K[/Indicator<br>time series/]--> O{Data file<br>name in<br>conventions<br>list?}
+  I--> V[/other types<br>of files/] --Upload plots,<br>indicator text summaries,<br>other ESR files-->T
+
+O --Yes--> P[Browse your<br>file system<br>for data file<br>-> csv only]
+O --No--> Q[rename file] --> P
+P --> R[/Data file in browser/] -->S{pass file<br>checks?}
+S --Yes-->  T
+S -- No --> U[Edit to<br>correct file<br>name or headers] --> T
+T --> Y{Upload<br>another csv<br>data file?}--Yes--> G
+Y --No--> W[return tomorrow<br>to view updated<br>data and metadata]
+  end
+  subgraph <b>Legend</b>
+  direction LR
+   L1(Web page tabs) ~~~ L2(menus) ~~~ L3(Decisions) ~~~ L4(Data) ~~~ L5(Actions)
+  end
+  end
+
+  classDef htm fill:#4682b4,stroke:#333,stroke-width:2px,color:#fff;
+  classDef menu fill:#ffffc5,stroke:#333,stroke-width:2px,color:#000;
+  classDef data fill:#add8e6,stroke:#333,stroke-width:2px,color:#000;
+  classDef action fill:#ffcccb,stroke:#333,stroke-width:2px,color:#000;
+  classDef decision fill:#d4e6f9,stroke:#333,stroke-width:2px,color:#000;
+  class Z,Z1,H,L,G,L1 htm
+  class B,E,D,T,P,W,X,L2 menu
+  class K1,F,I,O,S,Y,L3 decision
+  class J,K,M,N,R,V,L4 data
+  class Q,U,L5 action
+ `
+
+```
