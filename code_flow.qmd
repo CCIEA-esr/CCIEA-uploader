@@ -9,16 +9,6 @@ format:
     page-size: a4
 ---
 
-```{=html}
-<style>
-:root{
---mermaid-label-fg-color: #000;
---mermaid-fg-color--lightest: #fff;
---mermaid-fg-color--lighter: #fff;
-}
-</style>
-```
-
 ```{mermaid}
 %%| fig-width: 7
 flowchart TD
