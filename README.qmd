@@ -1,8 +1,7 @@
 ---
 title: "CCIEA Uploader Readme"
-format:
-  gfm:
-    toc: true
+format: gfm
+toc: true
 ---
 <hr>
 ## California Current Integrated Ecosystem Assessment (CCIEA) Uploader
