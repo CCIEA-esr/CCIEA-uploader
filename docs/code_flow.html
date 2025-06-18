@@ -58,7 +58,7 @@ ul.task-list li input[type="checkbox"] {
 
 </head>
 
-<body class="nav-fixed fullcontent">
+<body class="nav-fixed">
 
 <div id="quarto-search-results"></div>
   <header id="quarto-header" class="headroom fixed-top">
@@ -91,7 +91,8 @@ ul.task-list li input[type="checkbox"] {
 <div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
-    
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+    <div class="quarto-alternate-formats"><h2>Other Formats</h2><ul><li><a href="code_flow.md"><i class="bi bi-file-code"></i>Github (GFM)</a></li><li><a href="code_flow.pdf"><i class="bi bi-file-pdf"></i>PDF</a></li></ul></div></div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
@@ -105,28 +106,27 @@ ul.task-list li input[type="checkbox"] {
 --mermaid-fg-color--lighter: #fff;
 }
 </style>
-<div class="cell" data-layout-align="default">
+<div class="cell" data-fig-width="7" data-layout-align="default">
 <div class="cell-output-display">
 <div>
 <p></p><figure class="figure"><p></p>
 <div>
-<pre class="mermaid mermaid-js">%% label: mermaid
-%% fig-cap: "CCIEA Uploader Code Flowchart"
-flowchart TD
-subgraph &lt;b&gt;CCIEA Uploader code flowchart&lt;/b&gt;
+<pre class="mermaid mermaid-js">flowchart TD
+subgraph sg1["&lt;b&gt;CCIEA Uploader code flowchart&lt;/b&gt;"]
 direction LR
- subgraph &lt;br&gt;
+ subgraph sg2[&lt;br&gt;]
  direction TB
    Z(main.yml) -. Daily GitHub Action .- B(get_status.R)
-  B ---&gt; C[[generate_file_status]] --&gt; F[/uploader_status.json/] --&gt; N(status.qmd)
-  I[\Data Provider&lt;br&gt;ESR year Folder\] --&gt; C
+  B ---&gt; C[[generate_file_status]] --&gt; F[/uploader_status.json/] ---&gt; N(status.qmd)
+  I[\Data Provider&lt;br&gt;ESR year Folders\] --&gt; C
   J[\Data Figure Naming &lt;br&gt; Conventions\] --&gt;E
   K[\Metadata\] --&gt; D
-  B ---&gt; D[[get_indices]] --&gt; G[/items_meta.json/] --&gt; M(uploader.qmd) -- File check --&gt; P(Data Provider&lt;br&gt;upload Folder) -- File clean --&gt; R(Data Provider&lt;br&gt;ESR year Folder)
-  B ---&gt; E[[get_file_conventions]] --&gt;H[/cciea_naming_conventions.json/] --&gt; M
-  N &amp; M -.- Q(_quarto.yml) --&gt; X(GitHub Uploader&lt;br&gt; Web Page)
+  B ---&gt; D[[get_indices]] --&gt; G[/items_meta.json/] ---&gt; M(uploader.qmd) -- File check --&gt; P(Data Provider&lt;br&gt;upload Folder) -- File clean --&gt; R(Data Provider&lt;br&gt;ESR year Folder)
+  B ---&gt; E[[get_file_conventions]] --&gt;H[/cciea_naming_conventions.json/] ---&gt; M
+  Q(_quarto.yml) -.- N &amp; M
+  N &amp; M --&gt; X(GitHub Uploader&lt;br&gt; Web Page)
   end
-  subgraph &lt;b&gt;Legend&lt;/b&gt;
+  subgraph sg3[Legend]
   direction LR
   L1(yaml) ~~~ L2(R code) ~~~ L3(Google Drive) ~~~ L4(Google Sheet) ~~~ L5(Data) ~~~ L6(Quarto doc)
   end
@@ -138,6 +138,8 @@ direction LR
   classDef datain fill:#add8e6,stroke:#333,stroke-width:2px,color:#000;
   classDef qmd fill:#d6a9d6,stroke:#333,stroke-width:2px,color:#000;
   classDef htm fill:#4682b4,stroke:#333,stroke-width:2px,color:#fff;
+  classDef sg1 fill:#ffffff,stroke:#fff,stroke-width:2px,color:#000;
+  classDef sg3 fill:#ffffff,stroke:#333,stroke-width:1px,color:#000;
      class Z,Q,L1 yaml
      class I,P,R,L3 drive
      class J,K,L4 sheet
@@ -145,6 +147,8 @@ direction LR
      class F,G,H,L5 datain
      class M,N,L6 qmd
      class X htm
+     class sg1,sg2 sg1
+     class sg3 sg3
   
 </pre>
 </div>
