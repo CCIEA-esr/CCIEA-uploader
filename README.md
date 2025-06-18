@@ -61,14 +61,6 @@ Document written in R and OJS.
 
 The basic code flow is as follows:
 
-<style>
-:root{
---mermaid-label-fg-color: #000;
---mermaid-fg-color--lightest: #fff;
---mermaid-fg-color--lighter: #fff;
-}
-</style>
-
 <img src="README_files/figure-commonmark/mermaid-figure-1.png"
 style="width:7in;height:8.55in" />
 
