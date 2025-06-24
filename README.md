@@ -30,6 +30,11 @@ The uploader provides:
 The code in this repository consists of GitHub actions and a Quarto
 Document written in R and OJS.
 
+The basic code flow is as follows:
+
+<img src="README_files/figure-commonmark/mermaid-figure-1.png"
+style="width:7in;height:8.55in" />
+
 - **Github Action** - runs daily at 6 am
   - main.yaml: get_status.R
     - libraries: tidyverse (uses: jsonlite, tibble, dplyr, googledrive,
@@ -58,11 +63,6 @@ Document written in R and OJS.
             tibble, officer
           - \_init.qmd
       4.  input: uploader_status\_\[esr_year\].json
-
-The basic code flow is as follows:
-
-<img src="README_files/figure-commonmark/mermaid-figure-1.png"
-style="width:7in;height:8.55in" />
 
 ### CCIEA Resources
 
