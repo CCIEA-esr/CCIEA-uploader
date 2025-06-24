@@ -21,6 +21,8 @@ The uploader provides:
 
 The code in this repository consists of GitHub actions and a Quarto Document written in R and OJS.
 
+{{< include code_flow.qmd >}}
+
 * **Github Action** - runs daily at 6 am
   + main.yaml: get_status.R
     - libraries: tidyverse (uses: jsonlite, tibble, dplyr, googledrive, googlesheets4)
@@ -49,10 +51,6 @@ The code in this repository consists of GitHub actions and a Quarto Document wri
          *  _init.qmd
       4. input: uploader_status_[esr_year].json
           
-The basic code flow is as follows:
-
-{{< include code_flow.qmd >}}
-
 ### CCIEA Resources
 
 * CCIEA Web pages: <https://www.integratedecosystemassessment.noaa.gov/regions/california-current>

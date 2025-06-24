@@ -1,5 +1,8 @@
-esr_year="2024-2025"
-last_year="2023-2024"
+## Default parameters for GitHub Actions
+## This file must be updated at the beginning of each ESR Season
+## Google Drive folders for each data provider must exist for esr_year and be named consistently
+esr_year="2025-2026"
+last_year="2024-2025"
 # CCIEA required/optional file column headers
 headervars=c("year","index","timeseries","metric","SEup","SElo")
 headervarsmon=c("time","index","timeseries","metric","SEup","SElo")

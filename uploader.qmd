@@ -10,7 +10,8 @@ format:
 ```{ojs}
 //| echo: false
 //| output: false
- 
+headervars=["year","index","timeseries","metric","SEup","SElo"]
+headervarsmon=["time","index","timeseries","metric","SEup","SElo"]
 data = FileAttachment("data/items_meta.json").json()
 pis=data.pis
 esr_year=data.esr_year
@@ -261,8 +262,6 @@ viewof file_conventions = Inputs.table(newfiles,{header:{title:"Dataset Title",n
 
 ```{ojs}
 //| echo: false
-headervars=["year","index","timeseries","metric","SEup","SElo"]
-headervarsmon=["time","index","timeseries","metric","SEup","SElo"]
 html`<p><h5>2. Check your csv data file:</h5></p>`
 
 viewof csvfile = Inputs.file({accept: ".csv", required: true})

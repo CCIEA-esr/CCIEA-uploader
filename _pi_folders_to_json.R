@@ -4,15 +4,22 @@ library(dplyr)
 
 source("_init.R")
 
-## Get a dribble of PI folder names and ID's
-# # A dribble: 19 × 3
-##   name              id        drive_resource   
-##   <chr>             <drv_id>  <list>           
-## 1 Andrews           13hq... <named list [35]>
-## 2 Bjorkstedt        1Fuh... <named list [35]>
-## 3 Burke             1ek7... <named list [35]>
-## 4 Cope              1ymd... <named list [35]>
-## 5 .....
+#' Get a dribble of PI folder names and ID's
+#'
+#' @param folder Upper level Google Drive folder name containing data provider folders.
+#' @returns name, id, and drive resource object for all PI folders in the Google Drive folder named folder
+#' A dribble: 19 × 3
+#'   name              id        drive_resource   
+#'   <chr>             <drv_id>  <list>           
+#' 1 Andrews           13hq... <named list [35]>
+#' 2 Bjorkstedt        1Fuh... <named list [35]>
+#' 3 Burke             1ek7... <named list [35]>
+#' 4 Cope              1ymd... <named list [35]>
+#' 5 .....
+#`
+#' examples
+#' get_PI_folders("CCIEA Data Upload")
+#' 
 get_PI_folders <- function(folder){
 # find all PI folders in the Google Drive folder named folder
   folder_id=find_folder_id(folder)
