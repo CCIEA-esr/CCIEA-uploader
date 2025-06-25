@@ -226,9 +226,9 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 </div>
 </div>
 </div>
-<div class="tabset-margin-container"></div><div class="panel-tabset nav-pills">
-<ul class="nav nav-tabs" role="tablist"><li class="nav-item" role="presentation"><a class="nav-link active" id="tabset-1-1-tab" data-bs-toggle="tab" data-bs-target="#tabset-1-1" role="tab" aria-controls="tabset-1-1" aria-selected="true">View Current Indicators</a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-1-2-tab" data-bs-toggle="tab" data-bs-target="#tabset-1-2" role="tab" aria-controls="tabset-1-2" aria-selected="false">Download Last Year</a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-1-3-tab" data-bs-toggle="tab" data-bs-target="#tabset-1-3" role="tab" aria-controls="tabset-1-3" aria-selected="false">Upload This Year</a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-1-4-tab" data-bs-toggle="tab" data-bs-target="#tabset-1-4" role="tab" aria-controls="tabset-1-4" aria-selected="false">FAQ</a></li></ul>
-<div class="tab-content nav-pills">
+<div class="tabset-margin-container"></div><div class="panel-tabset nav-tabs">
+<ul class="nav nav-tabs" role="tablist"><li class="nav-item" role="presentation"><a class="nav-link active" id="tabset-1-1-tab" data-bs-toggle="tab" data-bs-target="#tabset-1-1" role="tab" aria-controls="tabset-1-1" aria-selected="true">View Current Indicators</a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-1-2-tab" data-bs-toggle="tab" data-bs-target="#tabset-1-2" role="tab" aria-controls="tabset-1-2" aria-selected="false">Download Last Year</a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-1-3-tab" data-bs-toggle="tab" data-bs-target="#tabset-1-3" role="tab" aria-controls="tabset-1-3" aria-selected="false">Upload This Year</a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-1-4-tab" data-bs-toggle="tab" data-bs-target="#tabset-1-4" role="tab" aria-controls="tabset-1-4" aria-selected="false">Help/FAQ</a></li></ul>
+<div class="tab-content nav-tabs">
 <div id="tabset-1-1" class="tab-pane active" role="tabpanel" aria-labelledby="tabset-1-1-tab">
 <div class="callout callout-style-default callout-note callout-titled" style="width: 60%;">
 <div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-1-contents" aria-controls="callout-1" aria-expanded="false" aria-label="Toggle callout">
@@ -255,100 +255,101 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <li>If so: go to tab 2, “Download Last Year”, to download a csv file of your current metadata</li>
 </ul></li>
 </ul></li>
+<li>Confused? See the <a href="work_flow.html">work flow diagram</a></li>
 </ul>
 </div>
 </div>
 </div>
-<div class="sourceCode cell-code hidden" id="cb3" data-startfrom="57" data-source-offset="0"><pre class="sourceCode js code-with-copy"><code class="sourceCode javascript" style="counter-reset: source-line 56;"><span id="cb3-57"><a href="#cb3-57" aria-hidden="true" tabindex="-1"></a><span class="fu">html</span><span class="vs">`</span></span>
-<span id="cb3-58"><a href="#cb3-58" aria-hidden="true" tabindex="-1"></a><span class="vs">            &lt;div&gt;</span></span>
-<span id="cb3-59"><a href="#cb3-59" aria-hidden="true" tabindex="-1"></a><span class="vs">                &lt;div&gt;&lt;span&gt;Metadata for &lt;span class="bold"&gt;</span><span class="sc">${</span>m<span class="op">.</span><span class="at">Title</span><span class="sc">}</span><span class="vs">&lt;/span&gt;:&lt;/span&gt;&lt;/div&gt;&lt;br&gt;</span></span>
-<span id="cb3-60"><a href="#cb3-60" aria-hidden="true" tabindex="-1"></a><span class="vs">                </span><span class="sc">${</span>m<span class="op">.</span><span class="at">default_figure</span> <span class="op">!=</span> <span class="st">""</span>  <span class="op">?</span> <span class="fu">html</span> <span class="vs">`&lt;div&gt;&lt;img class="blm" src="</span><span class="sc">${</span>m<span class="op">.</span><span class="at">default_figure</span><span class="sc">}</span><span class="vs">"&gt;&lt;/iron-image&gt;&lt;/div&gt;`</span> <span class="op">:</span> <span class="fu">html</span> <span class="vs">`&lt;div&gt;No image found for this indicator&lt;/div&gt;`</span><span class="sc">}</span></span>
-<span id="cb3-61"><a href="#cb3-61" aria-hidden="true" tabindex="-1"></a><span class="vs">&lt;/div&gt;`</span></span>
-<span id="cb3-62"><a href="#cb3-62" aria-hidden="true" tabindex="-1"></a>viewof indicator<span class="op">=</span>Inputs<span class="op">.</span><span class="fu">radio</span>(component<span class="op">.</span><span class="at">indices</span><span class="op">,</span>{<span class="dt">value</span><span class="op">:</span> component<span class="op">.</span><span class="at">indices</span>[<span class="dv">0</span>]})</span>
-<span id="cb3-63"><a href="#cb3-63" aria-hidden="true" tabindex="-1"></a>meta <span class="op">=</span> <span class="cf">await</span> <span class="fu">FileAttachment</span>(<span class="st">"data/metadata.csv"</span>)<span class="op">.</span><span class="fu">csv</span>()<span class="op">;</span></span>
-<span id="cb3-64"><a href="#cb3-64" aria-hidden="true" tabindex="-1"></a>filtered <span class="op">=</span> meta<span class="op">.</span><span class="fu">filter</span>(metadata <span class="kw">=&gt;</span>{</span>
-<span id="cb3-65"><a href="#cb3-65" aria-hidden="true" tabindex="-1"></a>   <span class="cf">return</span> metadata<span class="op">.</span><span class="at">Title</span><span class="op">===</span>indicator <span class="op">&amp;&amp;</span> metadata<span class="op">.</span><span class="at">Component_Section</span><span class="op">===</span>component<span class="op">.</span><span class="at">name</span></span>
-<span id="cb3-66"><a href="#cb3-66" aria-hidden="true" tabindex="-1"></a>})<span class="op">;</span></span>
-<span id="cb3-67"><a href="#cb3-67" aria-hidden="true" tabindex="-1"></a>m<span class="op">=</span>filtered[<span class="dv">0</span>]</span>
-<span id="cb3-68"><a href="#cb3-68" aria-hidden="true" tabindex="-1"></a>        <span class="kw">function</span> <span class="fu">year</span>(longdate){</span>
-<span id="cb3-69"><a href="#cb3-69" aria-hidden="true" tabindex="-1"></a>            <span class="kw">var</span> datestr<span class="op">=</span><span class="bu">String</span>(longdate)<span class="op">;</span></span>
-<span id="cb3-70"><a href="#cb3-70" aria-hidden="true" tabindex="-1"></a>            <span class="cf">if</span>(datestr)<span class="cf">return</span> (datestr<span class="op">.</span><span class="fu">replace</span>(<span class="st">"-01-01T00:00:00Z"</span><span class="op">,</span><span class="st">""</span>))<span class="op">;</span></span>
-<span id="cb3-71"><a href="#cb3-71" aria-hidden="true" tabindex="-1"></a>            }</span>
-<span id="cb3-72"><a href="#cb3-72" aria-hidden="true" tabindex="-1"></a>        <span class="kw">function</span> <span class="fu">yesno</span>(flag){</span>
-<span id="cb3-73"><a href="#cb3-73" aria-hidden="true" tabindex="-1"></a>            <span class="cf">return</span> (flag<span class="op">==</span><span class="dv">1</span>) <span class="op">?</span> <span class="st">"yes"</span> <span class="op">:</span> <span class="st">"no"</span><span class="op">;</span></span>
-<span id="cb3-74"><a href="#cb3-74" aria-hidden="true" tabindex="-1"></a>            }</span>
-<span id="cb3-75"><a href="#cb3-75" aria-hidden="true" tabindex="-1"></a>        <span class="kw">function</span> <span class="fu">geterddapurl</span>(id<span class="op">,</span>queryparam<span class="op">,</span>value<span class="op">,</span>variable<span class="op">,</span>type){</span>
-<span id="cb3-76"><a href="#cb3-76" aria-hidden="true" tabindex="-1"></a>            <span class="kw">var</span> erddaploc<span class="op">=</span><span class="st">'https://oceanview.pfeg.noaa.gov/erddap/tabledap/'</span><span class="op">;</span></span>
-<span id="cb3-77"><a href="#cb3-77" aria-hidden="true" tabindex="-1"></a>            <span class="kw">var</span> query<span class="op">=</span><span class="st">''</span><span class="op">;</span></span>
-<span id="cb3-78"><a href="#cb3-78" aria-hidden="true" tabindex="-1"></a>            <span class="cf">if</span>(queryparam<span class="op">!==</span><span class="st">''</span><span class="op">&amp;&amp;</span>value<span class="op">!==</span><span class="st">''</span>){</span>
-<span id="cb3-79"><a href="#cb3-79" aria-hidden="true" tabindex="-1"></a>                query<span class="op">=</span><span class="st">'&amp;'</span><span class="op">+</span>queryparam<span class="op">+</span><span class="st">'="'</span><span class="op">+</span>value<span class="op">+</span><span class="st">'"'</span><span class="op">;</span></span>
-<span id="cb3-80"><a href="#cb3-80" aria-hidden="true" tabindex="-1"></a>                <span class="cf">if</span>(queryparam<span class="op">==</span><span class="st">"latitude"</span>)query<span class="op">=</span><span class="st">'&amp;'</span><span class="op">+</span>queryparam<span class="op">+</span><span class="st">'='</span><span class="op">+</span>value<span class="op">;</span></span>
-<span id="cb3-81"><a href="#cb3-81" aria-hidden="true" tabindex="-1"></a>                }</span>
-<span id="cb3-82"><a href="#cb3-82" aria-hidden="true" tabindex="-1"></a>            <span class="kw">var</span> url<span class="op">=</span>erddaploc<span class="op">+</span>id<span class="op">+</span><span class="st">'.'</span><span class="op">+</span>type<span class="op">+</span><span class="st">'?time,'</span><span class="op">+</span>variable<span class="op">+</span>query<span class="op">;</span></span>
-<span id="cb3-83"><a href="#cb3-83" aria-hidden="true" tabindex="-1"></a>            <span class="cf">if</span>(type<span class="op">.</span><span class="fu">search</span>(<span class="ss">/png/i</span>)<span class="op">&gt;=</span><span class="dv">0</span><span class="op">||</span>type<span class="op">.</span><span class="fu">search</span>(<span class="st">'graph'</span>)<span class="op">&gt;=</span><span class="dv">0</span>){url<span class="op">+=</span><span class="st">'&amp;.draw=lines'</span><span class="op">;</span>}</span>
-<span id="cb3-84"><a href="#cb3-84" aria-hidden="true" tabindex="-1"></a>            <span class="cf">return</span> url<span class="op">;</span></span>
-<span id="cb3-85"><a href="#cb3-85" aria-hidden="true" tabindex="-1"></a>            }</span>
-<span id="cb3-86"><a href="#cb3-86" aria-hidden="true" tabindex="-1"></a></span>
+<div class="sourceCode cell-code hidden" id="cb3" data-startfrom="58" data-source-offset="0"><pre class="sourceCode js code-with-copy"><code class="sourceCode javascript" style="counter-reset: source-line 57;"><span id="cb3-58"><a href="#cb3-58" aria-hidden="true" tabindex="-1"></a><span class="fu">html</span><span class="vs">`</span></span>
+<span id="cb3-59"><a href="#cb3-59" aria-hidden="true" tabindex="-1"></a><span class="vs">            &lt;div&gt;</span></span>
+<span id="cb3-60"><a href="#cb3-60" aria-hidden="true" tabindex="-1"></a><span class="vs">                &lt;div&gt;&lt;span&gt;Metadata for &lt;span class="bold"&gt;</span><span class="sc">${</span>m<span class="op">.</span><span class="at">Title</span><span class="sc">}</span><span class="vs">&lt;/span&gt;:&lt;/span&gt;&lt;/div&gt;&lt;br&gt;</span></span>
+<span id="cb3-61"><a href="#cb3-61" aria-hidden="true" tabindex="-1"></a><span class="vs">                </span><span class="sc">${</span>m<span class="op">.</span><span class="at">default_figure</span> <span class="op">!=</span> <span class="st">""</span>  <span class="op">?</span> <span class="fu">html</span> <span class="vs">`&lt;div&gt;&lt;img class="blm" src="</span><span class="sc">${</span>m<span class="op">.</span><span class="at">default_figure</span><span class="sc">}</span><span class="vs">"&gt;&lt;/iron-image&gt;&lt;/div&gt;`</span> <span class="op">:</span> <span class="fu">html</span> <span class="vs">`&lt;div&gt;No image found for this indicator&lt;/div&gt;`</span><span class="sc">}</span></span>
+<span id="cb3-62"><a href="#cb3-62" aria-hidden="true" tabindex="-1"></a><span class="vs">&lt;/div&gt;`</span></span>
+<span id="cb3-63"><a href="#cb3-63" aria-hidden="true" tabindex="-1"></a>viewof indicator<span class="op">=</span>Inputs<span class="op">.</span><span class="fu">radio</span>(component<span class="op">.</span><span class="at">indices</span><span class="op">,</span>{<span class="dt">value</span><span class="op">:</span> component<span class="op">.</span><span class="at">indices</span>[<span class="dv">0</span>]})</span>
+<span id="cb3-64"><a href="#cb3-64" aria-hidden="true" tabindex="-1"></a>meta <span class="op">=</span> <span class="cf">await</span> <span class="fu">FileAttachment</span>(<span class="st">"data/metadata.csv"</span>)<span class="op">.</span><span class="fu">csv</span>()<span class="op">;</span></span>
+<span id="cb3-65"><a href="#cb3-65" aria-hidden="true" tabindex="-1"></a>filtered <span class="op">=</span> meta<span class="op">.</span><span class="fu">filter</span>(metadata <span class="kw">=&gt;</span>{</span>
+<span id="cb3-66"><a href="#cb3-66" aria-hidden="true" tabindex="-1"></a>   <span class="cf">return</span> metadata<span class="op">.</span><span class="at">Title</span><span class="op">===</span>indicator <span class="op">&amp;&amp;</span> metadata<span class="op">.</span><span class="at">Component_Section</span><span class="op">===</span>component<span class="op">.</span><span class="at">name</span></span>
+<span id="cb3-67"><a href="#cb3-67" aria-hidden="true" tabindex="-1"></a>})<span class="op">;</span></span>
+<span id="cb3-68"><a href="#cb3-68" aria-hidden="true" tabindex="-1"></a>m<span class="op">=</span>filtered[<span class="dv">0</span>]</span>
+<span id="cb3-69"><a href="#cb3-69" aria-hidden="true" tabindex="-1"></a>        <span class="kw">function</span> <span class="fu">year</span>(longdate){</span>
+<span id="cb3-70"><a href="#cb3-70" aria-hidden="true" tabindex="-1"></a>            <span class="kw">var</span> datestr<span class="op">=</span><span class="bu">String</span>(longdate)<span class="op">;</span></span>
+<span id="cb3-71"><a href="#cb3-71" aria-hidden="true" tabindex="-1"></a>            <span class="cf">if</span>(datestr)<span class="cf">return</span> (datestr<span class="op">.</span><span class="fu">replace</span>(<span class="st">"-01-01T00:00:00Z"</span><span class="op">,</span><span class="st">""</span>))<span class="op">;</span></span>
+<span id="cb3-72"><a href="#cb3-72" aria-hidden="true" tabindex="-1"></a>            }</span>
+<span id="cb3-73"><a href="#cb3-73" aria-hidden="true" tabindex="-1"></a>        <span class="kw">function</span> <span class="fu">yesno</span>(flag){</span>
+<span id="cb3-74"><a href="#cb3-74" aria-hidden="true" tabindex="-1"></a>            <span class="cf">return</span> (flag<span class="op">==</span><span class="dv">1</span>) <span class="op">?</span> <span class="st">"yes"</span> <span class="op">:</span> <span class="st">"no"</span><span class="op">;</span></span>
+<span id="cb3-75"><a href="#cb3-75" aria-hidden="true" tabindex="-1"></a>            }</span>
+<span id="cb3-76"><a href="#cb3-76" aria-hidden="true" tabindex="-1"></a>        <span class="kw">function</span> <span class="fu">geterddapurl</span>(id<span class="op">,</span>queryparam<span class="op">,</span>value<span class="op">,</span>variable<span class="op">,</span>type){</span>
+<span id="cb3-77"><a href="#cb3-77" aria-hidden="true" tabindex="-1"></a>            <span class="kw">var</span> erddaploc<span class="op">=</span><span class="st">'https://oceanview.pfeg.noaa.gov/erddap/tabledap/'</span><span class="op">;</span></span>
+<span id="cb3-78"><a href="#cb3-78" aria-hidden="true" tabindex="-1"></a>            <span class="kw">var</span> query<span class="op">=</span><span class="st">''</span><span class="op">;</span></span>
+<span id="cb3-79"><a href="#cb3-79" aria-hidden="true" tabindex="-1"></a>            <span class="cf">if</span>(queryparam<span class="op">!==</span><span class="st">''</span><span class="op">&amp;&amp;</span>value<span class="op">!==</span><span class="st">''</span>){</span>
+<span id="cb3-80"><a href="#cb3-80" aria-hidden="true" tabindex="-1"></a>                query<span class="op">=</span><span class="st">'&amp;'</span><span class="op">+</span>queryparam<span class="op">+</span><span class="st">'="'</span><span class="op">+</span>value<span class="op">+</span><span class="st">'"'</span><span class="op">;</span></span>
+<span id="cb3-81"><a href="#cb3-81" aria-hidden="true" tabindex="-1"></a>                <span class="cf">if</span>(queryparam<span class="op">==</span><span class="st">"latitude"</span>)query<span class="op">=</span><span class="st">'&amp;'</span><span class="op">+</span>queryparam<span class="op">+</span><span class="st">'='</span><span class="op">+</span>value<span class="op">;</span></span>
+<span id="cb3-82"><a href="#cb3-82" aria-hidden="true" tabindex="-1"></a>                }</span>
+<span id="cb3-83"><a href="#cb3-83" aria-hidden="true" tabindex="-1"></a>            <span class="kw">var</span> url<span class="op">=</span>erddaploc<span class="op">+</span>id<span class="op">+</span><span class="st">'.'</span><span class="op">+</span>type<span class="op">+</span><span class="st">'?time,'</span><span class="op">+</span>variable<span class="op">+</span>query<span class="op">;</span></span>
+<span id="cb3-84"><a href="#cb3-84" aria-hidden="true" tabindex="-1"></a>            <span class="cf">if</span>(type<span class="op">.</span><span class="fu">search</span>(<span class="ss">/png/i</span>)<span class="op">&gt;=</span><span class="dv">0</span><span class="op">||</span>type<span class="op">.</span><span class="fu">search</span>(<span class="st">'graph'</span>)<span class="op">&gt;=</span><span class="dv">0</span>){url<span class="op">+=</span><span class="st">'&amp;.draw=lines'</span><span class="op">;</span>}</span>
+<span id="cb3-85"><a href="#cb3-85" aria-hidden="true" tabindex="-1"></a>            <span class="cf">return</span> url<span class="op">;</span></span>
+<span id="cb3-86"><a href="#cb3-86" aria-hidden="true" tabindex="-1"></a>            }</span>
 <span id="cb3-87"><a href="#cb3-87" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb3-88"><a href="#cb3-88" aria-hidden="true" tabindex="-1"></a><span class="fu">html</span><span class="vs">`</span></span>
-<span id="cb3-89"><a href="#cb3-89" aria-hidden="true" tabindex="-1"></a><span class="vs">            &lt;div&gt;</span></span>
-<span id="cb3-90"><a href="#cb3-90" aria-hidden="true" tabindex="-1"></a><span class="vs">                &lt;div&gt;&lt;span class="bold"&gt;Component: &lt;/span&gt;&lt;span&gt;</span><span class="sc">${</span>m<span class="op">.</span><span class="at">Component_Section</span><span class="sc">}</span><span class="vs">&lt;/span&gt;&lt;/div&gt;</span></span>
-<span id="cb3-91"><a href="#cb3-91" aria-hidden="true" tabindex="-1"></a><span class="vs">                &lt;div&gt;&lt;span class="bold"&gt;Subcomponent: &lt;/span&gt;&lt;span&gt;</span><span class="sc">${</span>m<span class="op">.</span><span class="at">Subcomponent</span><span class="sc">}</span><span class="vs">&lt;/span&gt;&lt;/div&gt;</span></span>
-<span id="cb3-92"><a href="#cb3-92" aria-hidden="true" tabindex="-1"></a><span class="vs">                &lt;div&gt;&lt;span class="bold"&gt;Dataset Title: &lt;/span&gt;&lt;span&gt;</span><span class="sc">${</span>m<span class="op">.</span><span class="at">Dataset_Title</span><span class="sc">}</span><span class="vs">&lt;/span&gt;&lt;/div&gt;</span></span>
-<span id="cb3-93"><a href="#cb3-93" aria-hidden="true" tabindex="-1"></a><span class="vs">                &lt;div&gt;&lt;span class="bold"&gt;Indicator Title: &lt;/span&gt;&lt;span&gt;</span><span class="sc">${</span>m<span class="op">.</span><span class="at">Title</span><span class="sc">}</span><span class="vs">&lt;/span&gt;&lt;/div&gt;</span></span>
-<span id="cb3-94"><a href="#cb3-94" aria-hidden="true" tabindex="-1"></a><span class="vs">                &lt;div&gt;&lt;span class="bold"&gt;Indicator Long Name: &lt;/span&gt;&lt;span&gt;</span><span class="sc">${</span>m<span class="op">.</span><span class="at">Long_variable_name</span><span class="sc">}</span><span class="vs">&lt;/span&gt;&lt;/div&gt;</span></span>
-<span id="cb3-95"><a href="#cb3-95" aria-hidden="true" tabindex="-1"></a><span class="vs">                &lt;div&gt;&lt;span class="bold"&gt;Background Info: &lt;/span&gt;&lt;span&gt;&lt;a href="</span><span class="sc">${</span>m<span class="op">.</span><span class="at">Background_Info</span><span class="sc">}</span><span class="vs">" target="_blank"&gt;</span><span class="sc">${</span>m<span class="op">.</span><span class="at">Background_Info</span><span class="sc">}</span><span class="vs">&lt;/a&gt;&lt;/span&gt;&lt;/div&gt;</span></span>
-<span id="cb3-96"><a href="#cb3-96" aria-hidden="true" tabindex="-1"></a><span class="vs">                &lt;div&gt;&lt;span class="bold"&gt;Institution: &lt;/span&gt;&lt;span&gt;</span><span class="sc">${</span>m<span class="op">.</span><span class="at">Institution</span><span class="sc">}</span><span class="vs">&lt;/span&gt;&lt;/div&gt;</span></span>
-<span id="cb3-97"><a href="#cb3-97" aria-hidden="true" tabindex="-1"></a><span class="vs">                &lt;div&gt;&lt;span class="bold"&gt;Units: &lt;/span&gt;&lt;span&gt;</span><span class="sc">${</span>m<span class="op">.</span><span class="at">Units</span><span class="sc">}</span><span class="vs">&lt;/span&gt;&lt;/div&gt;</span></span>
-<span id="cb3-98"><a href="#cb3-98" aria-hidden="true" tabindex="-1"></a><span class="vs">                &lt;div&gt;</span></span>
-<span id="cb3-99"><a href="#cb3-99" aria-hidden="true" tabindex="-1"></a><span class="vs">                </span><span class="sc">${</span>m<span class="op">.</span><span class="at">region</span> <span class="op">?</span> <span class="fu">html</span> <span class="vs">`&lt;span class="bold"&gt;Region: &lt;/span&gt;&lt;span&gt;</span><span class="sc">${</span>m<span class="op">.</span><span class="at">region</span><span class="sc">}</span><span class="vs">&lt;/span&gt;`</span> <span class="op">:</span> <span class="fu">html</span> <span class="vs">``</span><span class="sc">}</span></span>
-<span id="cb3-100"><a href="#cb3-100" aria-hidden="true" tabindex="-1"></a><span class="vs">                </span><span class="sc">${</span>m<span class="op">.</span><span class="at">latitude</span> <span class="op">?</span> <span class="fu">html</span> <span class="vs">`&lt;span class="bold"&gt;Latitude: &lt;/span&gt;&lt;span&gt;</span><span class="sc">${</span>m<span class="op">.</span><span class="at">latitude</span><span class="sc">}</span><span class="vs"> N&lt;/span&gt;`</span> <span class="op">:</span> <span class="vs">``</span><span class="sc">}</span></span>
-<span id="cb3-101"><a href="#cb3-101" aria-hidden="true" tabindex="-1"></a><span class="vs">                </span><span class="sc">${</span>m<span class="op">.</span><span class="at">latitude2</span> <span class="op">?</span> <span class="fu">html</span> <span class="vs">`&lt;span class="bold"&gt; - &lt;/span&gt;&lt;span&gt;</span><span class="sc">${</span>m<span class="op">.</span><span class="at">latitude2</span><span class="sc">}</span><span class="vs"> N&lt;/span&gt;`</span> <span class="op">:</span> <span class="vs">``</span><span class="sc">}</span></span>
-<span id="cb3-102"><a href="#cb3-102" aria-hidden="true" tabindex="-1"></a><span class="vs">                </span><span class="sc">${</span>m<span class="op">.</span><span class="at">longitude</span> <span class="op">?</span> <span class="fu">html</span> <span class="vs">`&lt;span class="bold"&gt;Longitude: &lt;/span&gt;&lt;span&gt;</span><span class="sc">${</span>m<span class="op">.</span><span class="at">longitude</span><span class="sc">}</span><span class="vs"> E&lt;/span&gt;`</span> <span class="op">:</span> <span class="vs">``</span><span class="sc">}</span></span>
-<span id="cb3-103"><a href="#cb3-103" aria-hidden="true" tabindex="-1"></a><span class="vs">                </span><span class="sc">${</span>m<span class="op">.</span><span class="at">longitude2</span> <span class="op">?</span> <span class="fu">html</span> <span class="vs">`&lt;span class="bold"&gt; - &lt;/span&gt;&lt;span&gt;</span><span class="sc">${</span>m<span class="op">.</span><span class="at">longitude2</span><span class="sc">}</span><span class="vs">&lt;/span&gt;`</span> <span class="op">:</span> <span class="vs">``</span><span class="sc">}</span></span>
-<span id="cb3-104"><a href="#cb3-104" aria-hidden="true" tabindex="-1"></a><span class="vs">                &lt;/div&gt;</span></span>
-<span id="cb3-105"><a href="#cb3-105" aria-hidden="true" tabindex="-1"></a><span class="vs">                &lt;div&gt;</span></span>
-<span id="cb3-106"><a href="#cb3-106" aria-hidden="true" tabindex="-1"></a><span class="vs">                </span><span class="sc">${</span>m<span class="op">.</span><span class="at">sampling_frequency</span> <span class="op">?</span> <span class="fu">html</span> <span class="vs">`&lt;span class="bold"&gt;Sampling frequency: &lt;/span&gt;&lt;span&gt;</span><span class="sc">${</span>m<span class="op">.</span><span class="at">Sampling_frequency</span><span class="sc">}</span><span class="vs">&lt;/span&gt;`</span> <span class="op">:</span> <span class="vs">``</span><span class="sc">}</span></span>
-<span id="cb3-107"><a href="#cb3-107" aria-hidden="true" tabindex="-1"></a><span class="vs">                &lt;/div&gt;</span></span>
-<span id="cb3-108"><a href="#cb3-108" aria-hidden="true" tabindex="-1"></a><span class="vs">                &lt;div&gt;</span></span>
-<span id="cb3-109"><a href="#cb3-109" aria-hidden="true" tabindex="-1"></a><span class="vs">                </span><span class="sc">${</span>m<span class="op">.</span><span class="at">Sampling_frequency</span> <span class="op">?</span> <span class="fu">html</span> <span class="vs">`&lt;span class="bold"&gt;Sampling frequency: &lt;/span&gt;&lt;span&gt;</span><span class="sc">${</span>m<span class="op">.</span><span class="at">Sampling_frequency</span><span class="sc">}</span><span class="vs">&lt;/span&gt;`</span> <span class="op">:</span> <span class="vs">``</span><span class="sc">}</span></span>
-<span id="cb3-110"><a href="#cb3-110" aria-hidden="true" tabindex="-1"></a><span class="vs">                &lt;/div&gt;</span></span>
-<span id="cb3-111"><a href="#cb3-111" aria-hidden="true" tabindex="-1"></a><span class="vs">                &lt;div&gt;</span></span>
-<span id="cb3-112"><a href="#cb3-112" aria-hidden="true" tabindex="-1"></a><span class="vs">                </span><span class="sc">${</span>m<span class="op">.</span><span class="at">scientific_name</span> <span class="op">?</span> <span class="fu">html</span> <span class="vs">`&lt;span class="bold"&gt;Scientific name: &lt;/span&gt;&lt;span&gt;</span><span class="sc">${</span>m<span class="op">.</span><span class="at">scientific_name</span><span class="sc">}</span><span class="vs">&lt;/span&gt;`</span> <span class="op">:</span> <span class="vs">``</span><span class="sc">}</span></span>
-<span id="cb3-113"><a href="#cb3-113" aria-hidden="true" tabindex="-1"></a><span class="vs">                &lt;/div&gt;</span></span>
-<span id="cb3-114"><a href="#cb3-114" aria-hidden="true" tabindex="-1"></a><span class="vs">                &lt;div&gt;</span></span>
-<span id="cb3-115"><a href="#cb3-115" aria-hidden="true" tabindex="-1"></a><span class="vs">                </span><span class="sc">${</span>m<span class="op">.</span><span class="at">Source_Data</span> <span class="op">?</span> <span class="fu">html</span> <span class="vs">`&lt;span class="bold"&gt;Source Data: &lt;/span&gt;&lt;span&gt;</span><span class="sc">${</span>m<span class="op">.</span><span class="at">Source_Data</span><span class="sc">}</span><span class="vs">&lt;/span&gt;`</span> <span class="op">:</span> <span class="vs">``</span><span class="sc">}</span></span>
-<span id="cb3-116"><a href="#cb3-116" aria-hidden="true" tabindex="-1"></a><span class="vs">                &lt;/div&gt;</span></span>
-<span id="cb3-117"><a href="#cb3-117" aria-hidden="true" tabindex="-1"></a><span class="vs">                &lt;div&gt;</span></span>
-<span id="cb3-118"><a href="#cb3-118" aria-hidden="true" tabindex="-1"></a><span class="vs">                </span><span class="sc">${</span>m<span class="op">.</span><span class="at">Additional_Calculations</span> <span class="op">?</span> <span class="fu">html</span> <span class="vs">`&lt;span class="bold"&gt;Additional Calculations: &lt;/span&gt;&lt;span&gt;</span><span class="sc">${</span>m<span class="op">.</span><span class="at">Additional_Calculations</span><span class="sc">}</span><span class="vs">&lt;/span&gt;`</span> <span class="op">:</span> <span class="vs">``</span><span class="sc">}</span></span>
-<span id="cb3-119"><a href="#cb3-119" aria-hidden="true" tabindex="-1"></a><span class="vs">                &lt;/div&gt;</span></span>
-<span id="cb3-120"><a href="#cb3-120" aria-hidden="true" tabindex="-1"></a><span class="vs">                &lt;div&gt;</span></span>
-<span id="cb3-121"><a href="#cb3-121" aria-hidden="true" tabindex="-1"></a><span class="vs">                </span><span class="sc">${</span>m<span class="op">.</span><span class="at">filename</span> <span class="op">?</span> <span class="fu">html</span> <span class="vs">`&lt;span class="bold"&gt;PI filename: &lt;/span&gt;&lt;span&gt;</span><span class="sc">${</span>m<span class="op">.</span><span class="at">filename</span><span class="sc">}</span><span class="vs">&lt;/span&gt;`</span> <span class="op">:</span> <span class="vs">``</span><span class="sc">}</span></span>
-<span id="cb3-122"><a href="#cb3-122" aria-hidden="true" tabindex="-1"></a><span class="vs">                &lt;/div&gt;</span></span>
-<span id="cb3-123"><a href="#cb3-123" aria-hidden="true" tabindex="-1"></a><span class="vs">                &lt;div&gt;</span></span>
-<span id="cb3-124"><a href="#cb3-124" aria-hidden="true" tabindex="-1"></a><span class="vs">                </span><span class="sc">${</span>m<span class="op">.</span><span class="at">year_begin</span> <span class="op">?</span> <span class="fu">html</span> <span class="vs">`&lt;span class="bold"&gt;Date range: &lt;/span&gt;&lt;span&gt;</span><span class="sc">${</span><span class="fu">year</span>(m<span class="op">.</span><span class="at">year_begin</span>)<span class="sc">}</span><span class="vs"> - </span><span class="sc">${</span><span class="fu">year</span>(m<span class="op">.</span><span class="at">year_end</span>)<span class="sc">}</span><span class="vs">&lt;/span&gt;`</span> <span class="op">:</span> <span class="vs">``</span><span class="sc">}</span></span>
-<span id="cb3-125"><a href="#cb3-125" aria-hidden="true" tabindex="-1"></a><span class="vs">                &lt;/div&gt;</span></span>
-<span id="cb3-126"><a href="#cb3-126" aria-hidden="true" tabindex="-1"></a><span class="vs">                &lt;div&gt;</span></span>
-<span id="cb3-127"><a href="#cb3-127" aria-hidden="true" tabindex="-1"></a><span class="vs">                </span><span class="sc">${</span>m<span class="op">.</span><span class="at">min</span> <span class="op">?</span> <span class="fu">html</span> <span class="vs">`&lt;span class="bold"&gt;Indicator range: &lt;/span&gt;&lt;span&gt;min: </span><span class="sc">${</span>m<span class="op">.</span><span class="at">min</span><span class="sc">}</span><span class="vs"> max: </span><span class="sc">${</span>m<span class="op">.</span><span class="at">max</span><span class="sc">}</span><span class="vs">&lt;/span&gt;`</span> <span class="op">:</span> <span class="vs">``</span><span class="sc">}</span></span>
-<span id="cb3-128"><a href="#cb3-128" aria-hidden="true" tabindex="-1"></a><span class="vs">                &lt;/div&gt;</span></span>
-<span id="cb3-129"><a href="#cb3-129" aria-hidden="true" tabindex="-1"></a><span class="vs">                &lt;div&gt;</span></span>
-<span id="cb3-130"><a href="#cb3-130" aria-hidden="true" tabindex="-1"></a><span class="vs">                &lt;span class="bold"&gt;Serve this data for CCIEA? &lt;/span&gt;&lt;span&gt;</span><span class="sc">${</span><span class="fu">yesno</span>(m<span class="op">.</span><span class="at">currently_served</span>)<span class="sc">}</span><span class="vs">&lt;/span&gt; &lt;span class="bold"&gt;Whale Entanglement dataset? &lt;/span&gt;&lt;span&gt;</span><span class="sc">${</span><span class="fu">yesno</span>(m<span class="op">.</span><span class="at">whale_entanglement_flag</span>)<span class="sc">}</span><span class="vs">&lt;/span&gt; &lt;span class="bold"&gt;Salmon web page? &lt;/span&gt;&lt;span&gt;</span><span class="sc">${</span><span class="fu">yesno</span>(m<span class="op">.</span><span class="at">salmon_web_flag</span>)<span class="sc">}</span><span class="vs">&lt;/span&gt;</span></span>
-<span id="cb3-131"><a href="#cb3-131" aria-hidden="true" tabindex="-1"></a><span class="vs">                &lt;/div&gt;</span></span>
-<span id="cb3-132"><a href="#cb3-132" aria-hidden="true" tabindex="-1"></a><span class="vs">                &lt;div&gt;</span></span>
-<span id="cb3-133"><a href="#cb3-133" aria-hidden="true" tabindex="-1"></a><span class="vs">                </span><span class="sc">${</span>m<span class="op">.</span><span class="at">no_download_flag</span> <span class="op">?</span> <span class="fu">html</span> <span class="vs">`&lt;span class="bold"&gt;No download, private data&lt;/span&gt;`</span></span>
-<span id="cb3-134"><a href="#cb3-134" aria-hidden="true" tabindex="-1"></a>                    <span class="op">:</span> <span class="fu">html</span> <span class="vs">`&lt;span class="bold"&gt;ERDDAP data links:&lt;/span&gt; &lt;span&gt;(ERDDAP dataset id: </span><span class="sc">${</span>m<span class="op">.</span><span class="at">ERDDAP_Dataset_ID</span><span class="sc">}</span><span class="vs">) &lt;/span&gt;</span></span>
-<span id="cb3-135"><a href="#cb3-135" aria-hidden="true" tabindex="-1"></a><span class="vs">                        &amp;nbsp;|&amp;nbsp;&lt;span&gt;&lt;a class="noline" href='</span><span class="sc">${</span><span class="fu">geterddapurl</span>(m<span class="op">.</span><span class="at">ERDDAP_Dataset_ID</span><span class="op">,</span>m<span class="op">.</span><span class="at">ERDDAP_query_parameter</span><span class="op">,</span>m<span class="op">.</span><span class="at">ERDDAP_query_value</span><span class="op">,</span>m<span class="op">.</span><span class="at">ERDDAP_variable_name</span><span class="op">,</span><span class="st">"htmlTable"</span>)<span class="sc">}</span><span class="vs">' target='_blank'&gt;View data as html&lt;/a&gt;&lt;/span&gt;</span></span>
-<span id="cb3-136"><a href="#cb3-136" aria-hidden="true" tabindex="-1"></a><span class="vs">                        &amp;nbsp;|&amp;nbsp;&lt;span&gt;&lt;a class="noline" href='</span><span class="sc">${</span><span class="fu">geterddapurl</span>(m<span class="op">.</span><span class="at">ERDDAP_Dataset_ID</span><span class="op">,</span>m<span class="op">.</span><span class="at">ERDDAP_query_parameter</span><span class="op">,</span>m<span class="op">.</span><span class="at">ERDDAP_query_value</span><span class="op">,</span>m<span class="op">.</span><span class="at">ERDDAP_variable_name</span><span class="op">,</span><span class="st">"csv"</span>)<span class="sc">}</span><span class="vs">' target='_blank'&gt;Download a csv file&lt;/a&gt;&lt;/span&gt;</span></span>
-<span id="cb3-137"><a href="#cb3-137" aria-hidden="true" tabindex="-1"></a><span class="vs">                        &amp;nbsp;|&amp;nbsp;&lt;span&gt;&lt;a class="noline" href='</span><span class="sc">${</span><span class="fu">geterddapurl</span>(m<span class="op">.</span><span class="at">ERDDAP_Dataset_ID</span><span class="op">,</span>m<span class="op">.</span><span class="at">ERDDAP_query_parameter</span><span class="op">,</span>m<span class="op">.</span><span class="at">ERDDAP_query_value</span><span class="op">,</span>m<span class="op">.</span><span class="at">ERDDAP_variable_name</span><span class="op">,</span><span class="st">"html"</span>)<span class="sc">}</span><span class="vs">' target='_blank'&gt;ERDDAP link&lt;/a&gt;&lt;/span&gt;</span></span>
-<span id="cb3-138"><a href="#cb3-138" aria-hidden="true" tabindex="-1"></a><span class="vs">                    `</span><span class="sc">}</span></span>
-<span id="cb3-139"><a href="#cb3-139" aria-hidden="true" tabindex="-1"></a><span class="vs">                &lt;/div&gt;</span></span>
-<span id="cb3-140"><a href="#cb3-140" aria-hidden="true" tabindex="-1"></a><span class="vs">                &lt;div&gt;</span></span>
-<span id="cb3-141"><a href="#cb3-141" aria-hidden="true" tabindex="-1"></a><span class="vs">                </span><span class="sc">${</span>m<span class="op">.</span><span class="at">last_metadata_update</span> <span class="op">?</span> <span class="fu">html</span> <span class="vs">`&lt;span class="bold"&gt;Last netadata update: &lt;/span&gt;&lt;span&gt;</span><span class="sc">${</span>m<span class="op">.</span><span class="at">last_metadata_update</span><span class="sc">}</span><span class="vs">&lt;/span&gt;`</span> <span class="op">:</span> <span class="vs">``</span><span class="sc">}</span></span>
-<span id="cb3-142"><a href="#cb3-142" aria-hidden="true" tabindex="-1"></a><span class="vs">                </span></span>
-<span id="cb3-143"><a href="#cb3-143" aria-hidden="true" tabindex="-1"></a><span class="vs">                </span><span class="sc">${</span>m<span class="op">.</span><span class="at">last_data_update</span> <span class="op">?</span> <span class="fu">html</span> <span class="vs">`&lt;span class="bold"&gt;Last data update: &lt;/span&gt;&lt;span&gt;</span><span class="sc">${</span>m<span class="op">.</span><span class="at">last_data_update</span><span class="sc">}</span><span class="vs">&lt;/span&gt;`</span> <span class="op">:</span> <span class="vs">``</span><span class="sc">}</span></span>
-<span id="cb3-144"><a href="#cb3-144" aria-hidden="true" tabindex="-1"></a><span class="vs">                &lt;/div&gt;</span></span>
-<span id="cb3-145"><a href="#cb3-145" aria-hidden="true" tabindex="-1"></a><span class="vs">            &lt;/div&gt;</span></span>
-<span id="cb3-146"><a href="#cb3-146" aria-hidden="true" tabindex="-1"></a><span class="vs">        `</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<span id="cb3-88"><a href="#cb3-88" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb3-89"><a href="#cb3-89" aria-hidden="true" tabindex="-1"></a><span class="fu">html</span><span class="vs">`</span></span>
+<span id="cb3-90"><a href="#cb3-90" aria-hidden="true" tabindex="-1"></a><span class="vs">            &lt;div&gt;</span></span>
+<span id="cb3-91"><a href="#cb3-91" aria-hidden="true" tabindex="-1"></a><span class="vs">                &lt;div&gt;&lt;span class="bold"&gt;Component: &lt;/span&gt;&lt;span&gt;</span><span class="sc">${</span>m<span class="op">.</span><span class="at">Component_Section</span><span class="sc">}</span><span class="vs">&lt;/span&gt;&lt;/div&gt;</span></span>
+<span id="cb3-92"><a href="#cb3-92" aria-hidden="true" tabindex="-1"></a><span class="vs">                &lt;div&gt;&lt;span class="bold"&gt;Subcomponent: &lt;/span&gt;&lt;span&gt;</span><span class="sc">${</span>m<span class="op">.</span><span class="at">Subcomponent</span><span class="sc">}</span><span class="vs">&lt;/span&gt;&lt;/div&gt;</span></span>
+<span id="cb3-93"><a href="#cb3-93" aria-hidden="true" tabindex="-1"></a><span class="vs">                &lt;div&gt;&lt;span class="bold"&gt;Dataset Title: &lt;/span&gt;&lt;span&gt;</span><span class="sc">${</span>m<span class="op">.</span><span class="at">Dataset_Title</span><span class="sc">}</span><span class="vs">&lt;/span&gt;&lt;/div&gt;</span></span>
+<span id="cb3-94"><a href="#cb3-94" aria-hidden="true" tabindex="-1"></a><span class="vs">                &lt;div&gt;&lt;span class="bold"&gt;Indicator Title: &lt;/span&gt;&lt;span&gt;</span><span class="sc">${</span>m<span class="op">.</span><span class="at">Title</span><span class="sc">}</span><span class="vs">&lt;/span&gt;&lt;/div&gt;</span></span>
+<span id="cb3-95"><a href="#cb3-95" aria-hidden="true" tabindex="-1"></a><span class="vs">                &lt;div&gt;&lt;span class="bold"&gt;Indicator Long Name: &lt;/span&gt;&lt;span&gt;</span><span class="sc">${</span>m<span class="op">.</span><span class="at">Long_variable_name</span><span class="sc">}</span><span class="vs">&lt;/span&gt;&lt;/div&gt;</span></span>
+<span id="cb3-96"><a href="#cb3-96" aria-hidden="true" tabindex="-1"></a><span class="vs">                &lt;div&gt;&lt;span class="bold"&gt;Background Info: &lt;/span&gt;&lt;span&gt;&lt;a href="</span><span class="sc">${</span>m<span class="op">.</span><span class="at">Background_Info</span><span class="sc">}</span><span class="vs">" target="_blank"&gt;</span><span class="sc">${</span>m<span class="op">.</span><span class="at">Background_Info</span><span class="sc">}</span><span class="vs">&lt;/a&gt;&lt;/span&gt;&lt;/div&gt;</span></span>
+<span id="cb3-97"><a href="#cb3-97" aria-hidden="true" tabindex="-1"></a><span class="vs">                &lt;div&gt;&lt;span class="bold"&gt;Institution: &lt;/span&gt;&lt;span&gt;</span><span class="sc">${</span>m<span class="op">.</span><span class="at">Institution</span><span class="sc">}</span><span class="vs">&lt;/span&gt;&lt;/div&gt;</span></span>
+<span id="cb3-98"><a href="#cb3-98" aria-hidden="true" tabindex="-1"></a><span class="vs">                &lt;div&gt;&lt;span class="bold"&gt;Units: &lt;/span&gt;&lt;span&gt;</span><span class="sc">${</span>m<span class="op">.</span><span class="at">Units</span><span class="sc">}</span><span class="vs">&lt;/span&gt;&lt;/div&gt;</span></span>
+<span id="cb3-99"><a href="#cb3-99" aria-hidden="true" tabindex="-1"></a><span class="vs">                &lt;div&gt;</span></span>
+<span id="cb3-100"><a href="#cb3-100" aria-hidden="true" tabindex="-1"></a><span class="vs">                </span><span class="sc">${</span>m<span class="op">.</span><span class="at">region</span> <span class="op">?</span> <span class="fu">html</span> <span class="vs">`&lt;span class="bold"&gt;Region: &lt;/span&gt;&lt;span&gt;</span><span class="sc">${</span>m<span class="op">.</span><span class="at">region</span><span class="sc">}</span><span class="vs">&lt;/span&gt;`</span> <span class="op">:</span> <span class="fu">html</span> <span class="vs">``</span><span class="sc">}</span></span>
+<span id="cb3-101"><a href="#cb3-101" aria-hidden="true" tabindex="-1"></a><span class="vs">                </span><span class="sc">${</span>m<span class="op">.</span><span class="at">latitude</span> <span class="op">?</span> <span class="fu">html</span> <span class="vs">`&lt;span class="bold"&gt;Latitude: &lt;/span&gt;&lt;span&gt;</span><span class="sc">${</span>m<span class="op">.</span><span class="at">latitude</span><span class="sc">}</span><span class="vs"> N&lt;/span&gt;`</span> <span class="op">:</span> <span class="vs">``</span><span class="sc">}</span></span>
+<span id="cb3-102"><a href="#cb3-102" aria-hidden="true" tabindex="-1"></a><span class="vs">                </span><span class="sc">${</span>m<span class="op">.</span><span class="at">latitude2</span> <span class="op">?</span> <span class="fu">html</span> <span class="vs">`&lt;span class="bold"&gt; - &lt;/span&gt;&lt;span&gt;</span><span class="sc">${</span>m<span class="op">.</span><span class="at">latitude2</span><span class="sc">}</span><span class="vs"> N&lt;/span&gt;`</span> <span class="op">:</span> <span class="vs">``</span><span class="sc">}</span></span>
+<span id="cb3-103"><a href="#cb3-103" aria-hidden="true" tabindex="-1"></a><span class="vs">                </span><span class="sc">${</span>m<span class="op">.</span><span class="at">longitude</span> <span class="op">?</span> <span class="fu">html</span> <span class="vs">`&lt;span class="bold"&gt;Longitude: &lt;/span&gt;&lt;span&gt;</span><span class="sc">${</span>m<span class="op">.</span><span class="at">longitude</span><span class="sc">}</span><span class="vs"> E&lt;/span&gt;`</span> <span class="op">:</span> <span class="vs">``</span><span class="sc">}</span></span>
+<span id="cb3-104"><a href="#cb3-104" aria-hidden="true" tabindex="-1"></a><span class="vs">                </span><span class="sc">${</span>m<span class="op">.</span><span class="at">longitude2</span> <span class="op">?</span> <span class="fu">html</span> <span class="vs">`&lt;span class="bold"&gt; - &lt;/span&gt;&lt;span&gt;</span><span class="sc">${</span>m<span class="op">.</span><span class="at">longitude2</span><span class="sc">}</span><span class="vs">&lt;/span&gt;`</span> <span class="op">:</span> <span class="vs">``</span><span class="sc">}</span></span>
+<span id="cb3-105"><a href="#cb3-105" aria-hidden="true" tabindex="-1"></a><span class="vs">                &lt;/div&gt;</span></span>
+<span id="cb3-106"><a href="#cb3-106" aria-hidden="true" tabindex="-1"></a><span class="vs">                &lt;div&gt;</span></span>
+<span id="cb3-107"><a href="#cb3-107" aria-hidden="true" tabindex="-1"></a><span class="vs">                </span><span class="sc">${</span>m<span class="op">.</span><span class="at">sampling_frequency</span> <span class="op">?</span> <span class="fu">html</span> <span class="vs">`&lt;span class="bold"&gt;Sampling frequency: &lt;/span&gt;&lt;span&gt;</span><span class="sc">${</span>m<span class="op">.</span><span class="at">Sampling_frequency</span><span class="sc">}</span><span class="vs">&lt;/span&gt;`</span> <span class="op">:</span> <span class="vs">``</span><span class="sc">}</span></span>
+<span id="cb3-108"><a href="#cb3-108" aria-hidden="true" tabindex="-1"></a><span class="vs">                &lt;/div&gt;</span></span>
+<span id="cb3-109"><a href="#cb3-109" aria-hidden="true" tabindex="-1"></a><span class="vs">                &lt;div&gt;</span></span>
+<span id="cb3-110"><a href="#cb3-110" aria-hidden="true" tabindex="-1"></a><span class="vs">                </span><span class="sc">${</span>m<span class="op">.</span><span class="at">Sampling_frequency</span> <span class="op">?</span> <span class="fu">html</span> <span class="vs">`&lt;span class="bold"&gt;Sampling frequency: &lt;/span&gt;&lt;span&gt;</span><span class="sc">${</span>m<span class="op">.</span><span class="at">Sampling_frequency</span><span class="sc">}</span><span class="vs">&lt;/span&gt;`</span> <span class="op">:</span> <span class="vs">``</span><span class="sc">}</span></span>
+<span id="cb3-111"><a href="#cb3-111" aria-hidden="true" tabindex="-1"></a><span class="vs">                &lt;/div&gt;</span></span>
+<span id="cb3-112"><a href="#cb3-112" aria-hidden="true" tabindex="-1"></a><span class="vs">                &lt;div&gt;</span></span>
+<span id="cb3-113"><a href="#cb3-113" aria-hidden="true" tabindex="-1"></a><span class="vs">                </span><span class="sc">${</span>m<span class="op">.</span><span class="at">scientific_name</span> <span class="op">?</span> <span class="fu">html</span> <span class="vs">`&lt;span class="bold"&gt;Scientific name: &lt;/span&gt;&lt;span&gt;</span><span class="sc">${</span>m<span class="op">.</span><span class="at">scientific_name</span><span class="sc">}</span><span class="vs">&lt;/span&gt;`</span> <span class="op">:</span> <span class="vs">``</span><span class="sc">}</span></span>
+<span id="cb3-114"><a href="#cb3-114" aria-hidden="true" tabindex="-1"></a><span class="vs">                &lt;/div&gt;</span></span>
+<span id="cb3-115"><a href="#cb3-115" aria-hidden="true" tabindex="-1"></a><span class="vs">                &lt;div&gt;</span></span>
+<span id="cb3-116"><a href="#cb3-116" aria-hidden="true" tabindex="-1"></a><span class="vs">                </span><span class="sc">${</span>m<span class="op">.</span><span class="at">Source_Data</span> <span class="op">?</span> <span class="fu">html</span> <span class="vs">`&lt;span class="bold"&gt;Source Data: &lt;/span&gt;&lt;span&gt;</span><span class="sc">${</span>m<span class="op">.</span><span class="at">Source_Data</span><span class="sc">}</span><span class="vs">&lt;/span&gt;`</span> <span class="op">:</span> <span class="vs">``</span><span class="sc">}</span></span>
+<span id="cb3-117"><a href="#cb3-117" aria-hidden="true" tabindex="-1"></a><span class="vs">                &lt;/div&gt;</span></span>
+<span id="cb3-118"><a href="#cb3-118" aria-hidden="true" tabindex="-1"></a><span class="vs">                &lt;div&gt;</span></span>
+<span id="cb3-119"><a href="#cb3-119" aria-hidden="true" tabindex="-1"></a><span class="vs">                </span><span class="sc">${</span>m<span class="op">.</span><span class="at">Additional_Calculations</span> <span class="op">?</span> <span class="fu">html</span> <span class="vs">`&lt;span class="bold"&gt;Additional Calculations: &lt;/span&gt;&lt;span&gt;</span><span class="sc">${</span>m<span class="op">.</span><span class="at">Additional_Calculations</span><span class="sc">}</span><span class="vs">&lt;/span&gt;`</span> <span class="op">:</span> <span class="vs">``</span><span class="sc">}</span></span>
+<span id="cb3-120"><a href="#cb3-120" aria-hidden="true" tabindex="-1"></a><span class="vs">                &lt;/div&gt;</span></span>
+<span id="cb3-121"><a href="#cb3-121" aria-hidden="true" tabindex="-1"></a><span class="vs">                &lt;div&gt;</span></span>
+<span id="cb3-122"><a href="#cb3-122" aria-hidden="true" tabindex="-1"></a><span class="vs">                </span><span class="sc">${</span>m<span class="op">.</span><span class="at">filename</span> <span class="op">?</span> <span class="fu">html</span> <span class="vs">`&lt;span class="bold"&gt;PI filename: &lt;/span&gt;&lt;span&gt;</span><span class="sc">${</span>m<span class="op">.</span><span class="at">filename</span><span class="sc">}</span><span class="vs">&lt;/span&gt;`</span> <span class="op">:</span> <span class="vs">``</span><span class="sc">}</span></span>
+<span id="cb3-123"><a href="#cb3-123" aria-hidden="true" tabindex="-1"></a><span class="vs">                &lt;/div&gt;</span></span>
+<span id="cb3-124"><a href="#cb3-124" aria-hidden="true" tabindex="-1"></a><span class="vs">                &lt;div&gt;</span></span>
+<span id="cb3-125"><a href="#cb3-125" aria-hidden="true" tabindex="-1"></a><span class="vs">                </span><span class="sc">${</span>m<span class="op">.</span><span class="at">year_begin</span> <span class="op">?</span> <span class="fu">html</span> <span class="vs">`&lt;span class="bold"&gt;Date range: &lt;/span&gt;&lt;span&gt;</span><span class="sc">${</span><span class="fu">year</span>(m<span class="op">.</span><span class="at">year_begin</span>)<span class="sc">}</span><span class="vs"> - </span><span class="sc">${</span><span class="fu">year</span>(m<span class="op">.</span><span class="at">year_end</span>)<span class="sc">}</span><span class="vs">&lt;/span&gt;`</span> <span class="op">:</span> <span class="vs">``</span><span class="sc">}</span></span>
+<span id="cb3-126"><a href="#cb3-126" aria-hidden="true" tabindex="-1"></a><span class="vs">                &lt;/div&gt;</span></span>
+<span id="cb3-127"><a href="#cb3-127" aria-hidden="true" tabindex="-1"></a><span class="vs">                &lt;div&gt;</span></span>
+<span id="cb3-128"><a href="#cb3-128" aria-hidden="true" tabindex="-1"></a><span class="vs">                </span><span class="sc">${</span>m<span class="op">.</span><span class="at">min</span> <span class="op">?</span> <span class="fu">html</span> <span class="vs">`&lt;span class="bold"&gt;Indicator range: &lt;/span&gt;&lt;span&gt;min: </span><span class="sc">${</span>m<span class="op">.</span><span class="at">min</span><span class="sc">}</span><span class="vs"> max: </span><span class="sc">${</span>m<span class="op">.</span><span class="at">max</span><span class="sc">}</span><span class="vs">&lt;/span&gt;`</span> <span class="op">:</span> <span class="vs">``</span><span class="sc">}</span></span>
+<span id="cb3-129"><a href="#cb3-129" aria-hidden="true" tabindex="-1"></a><span class="vs">                &lt;/div&gt;</span></span>
+<span id="cb3-130"><a href="#cb3-130" aria-hidden="true" tabindex="-1"></a><span class="vs">                &lt;div&gt;</span></span>
+<span id="cb3-131"><a href="#cb3-131" aria-hidden="true" tabindex="-1"></a><span class="vs">                &lt;span class="bold"&gt;Serve this data for CCIEA? &lt;/span&gt;&lt;span&gt;</span><span class="sc">${</span><span class="fu">yesno</span>(m<span class="op">.</span><span class="at">currently_served</span>)<span class="sc">}</span><span class="vs">&lt;/span&gt; &lt;span class="bold"&gt;Whale Entanglement dataset? &lt;/span&gt;&lt;span&gt;</span><span class="sc">${</span><span class="fu">yesno</span>(m<span class="op">.</span><span class="at">whale_entanglement_flag</span>)<span class="sc">}</span><span class="vs">&lt;/span&gt; &lt;span class="bold"&gt;Salmon web page? &lt;/span&gt;&lt;span&gt;</span><span class="sc">${</span><span class="fu">yesno</span>(m<span class="op">.</span><span class="at">salmon_web_flag</span>)<span class="sc">}</span><span class="vs">&lt;/span&gt;</span></span>
+<span id="cb3-132"><a href="#cb3-132" aria-hidden="true" tabindex="-1"></a><span class="vs">                &lt;/div&gt;</span></span>
+<span id="cb3-133"><a href="#cb3-133" aria-hidden="true" tabindex="-1"></a><span class="vs">                &lt;div&gt;</span></span>
+<span id="cb3-134"><a href="#cb3-134" aria-hidden="true" tabindex="-1"></a><span class="vs">                </span><span class="sc">${</span>m<span class="op">.</span><span class="at">no_download_flag</span> <span class="op">?</span> <span class="fu">html</span> <span class="vs">`&lt;span class="bold"&gt;No download, private data&lt;/span&gt;`</span></span>
+<span id="cb3-135"><a href="#cb3-135" aria-hidden="true" tabindex="-1"></a>                    <span class="op">:</span> <span class="fu">html</span> <span class="vs">`&lt;span class="bold"&gt;ERDDAP data links:&lt;/span&gt; &lt;span&gt;(ERDDAP dataset id: </span><span class="sc">${</span>m<span class="op">.</span><span class="at">ERDDAP_Dataset_ID</span><span class="sc">}</span><span class="vs">) &lt;/span&gt;</span></span>
+<span id="cb3-136"><a href="#cb3-136" aria-hidden="true" tabindex="-1"></a><span class="vs">                        &amp;nbsp;|&amp;nbsp;&lt;span&gt;&lt;a class="noline" href='</span><span class="sc">${</span><span class="fu">geterddapurl</span>(m<span class="op">.</span><span class="at">ERDDAP_Dataset_ID</span><span class="op">,</span>m<span class="op">.</span><span class="at">ERDDAP_query_parameter</span><span class="op">,</span>m<span class="op">.</span><span class="at">ERDDAP_query_value</span><span class="op">,</span>m<span class="op">.</span><span class="at">ERDDAP_variable_name</span><span class="op">,</span><span class="st">"htmlTable"</span>)<span class="sc">}</span><span class="vs">' target='_blank'&gt;View data as html&lt;/a&gt;&lt;/span&gt;</span></span>
+<span id="cb3-137"><a href="#cb3-137" aria-hidden="true" tabindex="-1"></a><span class="vs">                        &amp;nbsp;|&amp;nbsp;&lt;span&gt;&lt;a class="noline" href='</span><span class="sc">${</span><span class="fu">geterddapurl</span>(m<span class="op">.</span><span class="at">ERDDAP_Dataset_ID</span><span class="op">,</span>m<span class="op">.</span><span class="at">ERDDAP_query_parameter</span><span class="op">,</span>m<span class="op">.</span><span class="at">ERDDAP_query_value</span><span class="op">,</span>m<span class="op">.</span><span class="at">ERDDAP_variable_name</span><span class="op">,</span><span class="st">"csv"</span>)<span class="sc">}</span><span class="vs">' target='_blank'&gt;Download a csv file&lt;/a&gt;&lt;/span&gt;</span></span>
+<span id="cb3-138"><a href="#cb3-138" aria-hidden="true" tabindex="-1"></a><span class="vs">                        &amp;nbsp;|&amp;nbsp;&lt;span&gt;&lt;a class="noline" href='</span><span class="sc">${</span><span class="fu">geterddapurl</span>(m<span class="op">.</span><span class="at">ERDDAP_Dataset_ID</span><span class="op">,</span>m<span class="op">.</span><span class="at">ERDDAP_query_parameter</span><span class="op">,</span>m<span class="op">.</span><span class="at">ERDDAP_query_value</span><span class="op">,</span>m<span class="op">.</span><span class="at">ERDDAP_variable_name</span><span class="op">,</span><span class="st">"html"</span>)<span class="sc">}</span><span class="vs">' target='_blank'&gt;ERDDAP link&lt;/a&gt;&lt;/span&gt;</span></span>
+<span id="cb3-139"><a href="#cb3-139" aria-hidden="true" tabindex="-1"></a><span class="vs">                    `</span><span class="sc">}</span></span>
+<span id="cb3-140"><a href="#cb3-140" aria-hidden="true" tabindex="-1"></a><span class="vs">                &lt;/div&gt;</span></span>
+<span id="cb3-141"><a href="#cb3-141" aria-hidden="true" tabindex="-1"></a><span class="vs">                &lt;div&gt;</span></span>
+<span id="cb3-142"><a href="#cb3-142" aria-hidden="true" tabindex="-1"></a><span class="vs">                </span><span class="sc">${</span>m<span class="op">.</span><span class="at">last_metadata_update</span> <span class="op">?</span> <span class="fu">html</span> <span class="vs">`&lt;span class="bold"&gt;Last netadata update: &lt;/span&gt;&lt;span&gt;</span><span class="sc">${</span>m<span class="op">.</span><span class="at">last_metadata_update</span><span class="sc">}</span><span class="vs">&lt;/span&gt;`</span> <span class="op">:</span> <span class="vs">``</span><span class="sc">}</span></span>
+<span id="cb3-143"><a href="#cb3-143" aria-hidden="true" tabindex="-1"></a><span class="vs">                </span></span>
+<span id="cb3-144"><a href="#cb3-144" aria-hidden="true" tabindex="-1"></a><span class="vs">                </span><span class="sc">${</span>m<span class="op">.</span><span class="at">last_data_update</span> <span class="op">?</span> <span class="fu">html</span> <span class="vs">`&lt;span class="bold"&gt;Last data update: &lt;/span&gt;&lt;span&gt;</span><span class="sc">${</span>m<span class="op">.</span><span class="at">last_data_update</span><span class="sc">}</span><span class="vs">&lt;/span&gt;`</span> <span class="op">:</span> <span class="vs">``</span><span class="sc">}</span></span>
+<span id="cb3-145"><a href="#cb3-145" aria-hidden="true" tabindex="-1"></a><span class="vs">                &lt;/div&gt;</span></span>
+<span id="cb3-146"><a href="#cb3-146" aria-hidden="true" tabindex="-1"></a><span class="vs">            &lt;/div&gt;</span></span>
+<span id="cb3-147"><a href="#cb3-147" aria-hidden="true" tabindex="-1"></a><span class="vs">        `</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <div class="quarto-layout-panel" data-layout="[[1],[1,1]]">
 <div class="quarto-layout-row">
 <div class="cell quarto-layout-cell" style="flex-basis: 100.0%;justify-content: flex-start;">
@@ -462,9 +463,9 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 </div>
 </div>
 <div class="cell">
-<div class="sourceCode cell-code hidden" id="cb4" data-startfrom="197" data-source-offset="0"><pre class="sourceCode js code-with-copy"><code class="sourceCode javascript" style="counter-reset: source-line 196;"><span id="cb4-197"><a href="#cb4-197" aria-hidden="true" tabindex="-1"></a><span class="fu">html</span><span class="vs">`&lt;h3&gt;View and/or edit </span><span class="sc">${</span>last_year<span class="sc">}</span><span class="vs"> metadata and data for:  </span><span class="sc">${</span>pis[indx]<span class="op">.</span><span class="at">name</span><span class="sc">}</span><span class="vs">&lt;/h3&gt;</span></span>
-<span id="cb4-198"><a href="#cb4-198" aria-hidden="true" tabindex="-1"></a><span class="vs">&lt;div class="sml"&gt;&lt;i&gt;Use this page to download csv files of current data and/or metadata and edit as needed.&lt;/i&gt;&lt;/div&gt;</span></span>
-<span id="cb4-199"><a href="#cb4-199" aria-hidden="true" tabindex="-1"></a><span class="vs">&lt;br&gt;&lt;i&gt;Directly download a csv file of </span><span class="sc">${</span>pis[indx]<span class="op">.</span><span class="at">name</span><span class="sc">}</span><span class="vs"> </span><span class="sc">${</span>last_year<span class="sc">}</span><span class="vs"> metadata:&lt;/i&gt;&lt;br&gt;`</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode cell-code hidden" id="cb4" data-startfrom="198" data-source-offset="0"><pre class="sourceCode js code-with-copy"><code class="sourceCode javascript" style="counter-reset: source-line 197;"><span id="cb4-198"><a href="#cb4-198" aria-hidden="true" tabindex="-1"></a><span class="fu">html</span><span class="vs">`&lt;h3&gt;View and/or edit </span><span class="sc">${</span>last_year<span class="sc">}</span><span class="vs"> metadata and data for:  </span><span class="sc">${</span>pis[indx]<span class="op">.</span><span class="at">name</span><span class="sc">}</span><span class="vs">&lt;/h3&gt;</span></span>
+<span id="cb4-199"><a href="#cb4-199" aria-hidden="true" tabindex="-1"></a><span class="vs">&lt;div class="sml"&gt;&lt;i&gt;Use this page to download csv files of current data and/or metadata and edit as needed.&lt;/i&gt;&lt;/div&gt;</span></span>
+<span id="cb4-200"><a href="#cb4-200" aria-hidden="true" tabindex="-1"></a><span class="vs">&lt;br&gt;&lt;i&gt;Directly download a csv file of </span><span class="sc">${</span>pis[indx]<span class="op">.</span><span class="at">name</span><span class="sc">}</span><span class="vs"> </span><span class="sc">${</span>last_year<span class="sc">}</span><span class="vs"> metadata:&lt;/i&gt;&lt;br&gt;`</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <div class="cell-output cell-output-display">
 <div id="ojs-cell-6" data-nodetype="expression">
 
@@ -472,9 +473,9 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 </div>
 </div>
 <div class="cell">
-<div class="sourceCode cell-code hidden" id="cb5" data-startfrom="207" data-source-offset="-1"><pre class="sourceCode js code-with-copy"><code class="sourceCode javascript" style="counter-reset: source-line 206;"><span id="cb5-207"><a href="#cb5-207" aria-hidden="true" tabindex="-1"></a>last_meta<span class="op">=</span><span class="st">'https://oceanview.pfeg.noaa.gov/erddap/tabledap/CCIEA_metadata.csv?dataset_title,indicator_title,long_variable_name,units,info_URL,institution,region,latitude,max_latitude,longitude,max_longitude,sampling_frequency,source_data_summary,additional_calculations,cciea_timeseries_id&amp;currently_served=1&amp;principal_investigator_id="'</span><span class="op">+</span>pis[indx]<span class="op">.</span><span class="at">id</span><span class="op">+</span><span class="st">'"'</span></span>
-<span id="cb5-208"><a href="#cb5-208" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb5-209"><a href="#cb5-209" aria-hidden="true" tabindex="-1"></a>viewof lastmeta <span class="op">=</span> Inputs<span class="op">.</span><span class="fu">button</span>(<span class="st">"Download "</span><span class="op">+</span>last_year<span class="op">+</span><span class="st">" Metadata"</span><span class="op">,</span>{<span class="dt">value</span><span class="op">:</span> pis[indx]<span class="op">.</span><span class="at">this_year</span><span class="op">,</span> <span class="dt">reduce</span><span class="op">:</span> () <span class="kw">=&gt;</span> <span class="bu">window</span><span class="op">.</span><span class="fu">open</span>(last_meta)})</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode cell-code hidden" id="cb5" data-startfrom="208" data-source-offset="-1"><pre class="sourceCode js code-with-copy"><code class="sourceCode javascript" style="counter-reset: source-line 207;"><span id="cb5-208"><a href="#cb5-208" aria-hidden="true" tabindex="-1"></a>last_meta<span class="op">=</span><span class="st">'https://oceanview.pfeg.noaa.gov/erddap/tabledap/CCIEA_metadata.csv?dataset_title,indicator_title,long_variable_name,units,info_URL,institution,region,latitude,max_latitude,longitude,max_longitude,sampling_frequency,source_data_summary,additional_calculations,cciea_timeseries_id&amp;currently_served=1&amp;principal_investigator_id="'</span><span class="op">+</span>pis[indx]<span class="op">.</span><span class="at">id</span><span class="op">+</span><span class="st">'"'</span></span>
+<span id="cb5-209"><a href="#cb5-209" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb5-210"><a href="#cb5-210" aria-hidden="true" tabindex="-1"></a>viewof lastmeta <span class="op">=</span> Inputs<span class="op">.</span><span class="fu">button</span>(<span class="st">"Download "</span><span class="op">+</span>last_year<span class="op">+</span><span class="st">" Metadata"</span><span class="op">,</span>{<span class="dt">value</span><span class="op">:</span> pis[indx]<span class="op">.</span><span class="at">this_year</span><span class="op">,</span> <span class="dt">reduce</span><span class="op">:</span> () <span class="kw">=&gt;</span> <span class="bu">window</span><span class="op">.</span><span class="fu">open</span>(last_meta)})</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <div class="cell-output cell-output-display">
 <div>
 <div id="ojs-cell-7-1" data-nodetype="declaration">
@@ -491,7 +492,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 </div>
 </div>
 <div class="cell">
-<div class="sourceCode cell-code hidden" id="cb6" data-startfrom="216" data-source-offset="-0"><pre class="sourceCode js code-with-copy"><code class="sourceCode javascript" style="counter-reset: source-line 215;"><span id="cb6-216"><a href="#cb6-216" aria-hidden="true" tabindex="-1"></a><span class="fu">html</span><span class="vs">`&lt;br&gt;&lt;br&gt;&lt;i&gt;Open the Google Drive folder containing </span><span class="sc">${</span>pis[indx]<span class="op">.</span><span class="at">name</span><span class="sc">}</span><span class="vs"> </span><span class="sc">${</span>last_year<span class="sc">}</span><span class="vs"> data:&lt;/i&gt;`</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode cell-code hidden" id="cb6" data-startfrom="217" data-source-offset="-0"><pre class="sourceCode js code-with-copy"><code class="sourceCode javascript" style="counter-reset: source-line 216;"><span id="cb6-217"><a href="#cb6-217" aria-hidden="true" tabindex="-1"></a><span class="fu">html</span><span class="vs">`&lt;br&gt;&lt;br&gt;&lt;i&gt;Open the Google Drive folder containing </span><span class="sc">${</span>pis[indx]<span class="op">.</span><span class="at">name</span><span class="sc">}</span><span class="vs"> </span><span class="sc">${</span>last_year<span class="sc">}</span><span class="vs"> data:&lt;/i&gt;`</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <div class="cell-output cell-output-display">
 <div>
 <div id="ojs-cell-8-1" data-nodetype="expression">
@@ -499,7 +500,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 </div>
 </div>
 </div>
-<div class="sourceCode cell-code hidden" id="cb7" data-startfrom="218" data-source-offset="-99"><pre class="sourceCode js code-with-copy"><code class="sourceCode javascript" style="counter-reset: source-line 217;"><span id="cb7-218"><a href="#cb7-218" aria-hidden="true" tabindex="-1"></a>viewof lastyear <span class="op">=</span> Inputs<span class="op">.</span><span class="fu">button</span>(<span class="st">"Download "</span><span class="op">+</span>last_year<span class="op">+</span><span class="st">" Data"</span><span class="op">,</span>{<span class="dt">value</span><span class="op">:</span> pis[indx]<span class="op">.</span><span class="at">last_year</span><span class="op">,</span> <span class="dt">reduce</span><span class="op">:</span> () <span class="kw">=&gt;</span> <span class="bu">window</span><span class="op">.</span><span class="fu">open</span>(<span class="st">"https://drive.google.com/drive/folders/"</span><span class="op">+</span>pis[indx]<span class="op">.</span><span class="at">last_year</span><span class="op">,</span><span class="st">"_blank"</span>)})</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode cell-code hidden" id="cb7" data-startfrom="219" data-source-offset="-99"><pre class="sourceCode js code-with-copy"><code class="sourceCode javascript" style="counter-reset: source-line 218;"><span id="cb7-219"><a href="#cb7-219" aria-hidden="true" tabindex="-1"></a>viewof lastyear <span class="op">=</span> Inputs<span class="op">.</span><span class="fu">button</span>(<span class="st">"Download "</span><span class="op">+</span>last_year<span class="op">+</span><span class="st">" Data"</span><span class="op">,</span>{<span class="dt">value</span><span class="op">:</span> pis[indx]<span class="op">.</span><span class="at">last_year</span><span class="op">,</span> <span class="dt">reduce</span><span class="op">:</span> () <span class="kw">=&gt;</span> <span class="bu">window</span><span class="op">.</span><span class="fu">open</span>(<span class="st">"https://drive.google.com/drive/folders/"</span><span class="op">+</span>pis[indx]<span class="op">.</span><span class="at">last_year</span><span class="op">,</span><span class="st">"_blank"</span>)})</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <div class="cell-output cell-output-display">
 <div>
 <div id="ojs-cell-8-2" data-nodetype="declaration">
@@ -550,14 +551,14 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 </div>
 </div>
 <div class="cell hidden">
-<div class="sourceCode cell-code hidden" id="cb8" data-startfrom="244" data-source-offset="-1"><pre class="sourceCode js code-with-copy"><code class="sourceCode javascript" style="counter-reset: source-line 243;"><span id="cb8-244"><a href="#cb8-244" aria-hidden="true" tabindex="-1"></a>file_naming <span class="op">=</span> <span class="fu">FileAttachment</span>(<span class="st">"data/cciea_naming_conventions.json"</span>)<span class="op">.</span><span class="fu">json</span>()</span>
-<span id="cb8-245"><a href="#cb8-245" aria-hidden="true" tabindex="-1"></a>filenames <span class="op">=</span> file_naming<span class="op">.</span><span class="fu">filter</span>(files <span class="kw">=&gt;</span>{</span>
-<span id="cb8-246"><a href="#cb8-246" aria-hidden="true" tabindex="-1"></a>   <span class="cf">return</span> files<span class="op">.</span><span class="at">id</span><span class="op">==</span>pis[indx]<span class="op">.</span><span class="at">id</span></span>
-<span id="cb8-247"><a href="#cb8-247" aria-hidden="true" tabindex="-1"></a>})<span class="op">;</span></span>
-<span id="cb8-248"><a href="#cb8-248" aria-hidden="true" tabindex="-1"></a>temp <span class="op">=</span> filenames[<span class="dv">0</span>]<span class="op">.</span><span class="at">files</span></span>
-<span id="cb8-249"><a href="#cb8-249" aria-hidden="true" tabindex="-1"></a>newfiles<span class="op">=</span>temp<span class="op">.</span><span class="fu">filter</span>(files <span class="kw">=&gt;</span>{</span>
-<span id="cb8-250"><a href="#cb8-250" aria-hidden="true" tabindex="-1"></a>   <span class="cf">return</span> files<span class="op">.</span><span class="at">newname</span> <span class="op">!==</span> <span class="kw">null</span> <span class="op">&amp;&amp;</span> files<span class="op">.</span><span class="at">title</span> <span class="op">!==</span> <span class="kw">null</span></span>
-<span id="cb8-251"><a href="#cb8-251" aria-hidden="true" tabindex="-1"></a>})<span class="op">;</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode cell-code hidden" id="cb8" data-startfrom="245" data-source-offset="-1"><pre class="sourceCode js code-with-copy"><code class="sourceCode javascript" style="counter-reset: source-line 244;"><span id="cb8-245"><a href="#cb8-245" aria-hidden="true" tabindex="-1"></a>file_naming <span class="op">=</span> <span class="fu">FileAttachment</span>(<span class="st">"data/cciea_naming_conventions.json"</span>)<span class="op">.</span><span class="fu">json</span>()</span>
+<span id="cb8-246"><a href="#cb8-246" aria-hidden="true" tabindex="-1"></a>filenames <span class="op">=</span> file_naming<span class="op">.</span><span class="fu">filter</span>(files <span class="kw">=&gt;</span>{</span>
+<span id="cb8-247"><a href="#cb8-247" aria-hidden="true" tabindex="-1"></a>   <span class="cf">return</span> files<span class="op">.</span><span class="at">id</span><span class="op">==</span>pis[indx]<span class="op">.</span><span class="at">id</span></span>
+<span id="cb8-248"><a href="#cb8-248" aria-hidden="true" tabindex="-1"></a>})<span class="op">;</span></span>
+<span id="cb8-249"><a href="#cb8-249" aria-hidden="true" tabindex="-1"></a>temp <span class="op">=</span> filenames[<span class="dv">0</span>]<span class="op">.</span><span class="at">files</span></span>
+<span id="cb8-250"><a href="#cb8-250" aria-hidden="true" tabindex="-1"></a>newfiles<span class="op">=</span>temp<span class="op">.</span><span class="fu">filter</span>(files <span class="kw">=&gt;</span>{</span>
+<span id="cb8-251"><a href="#cb8-251" aria-hidden="true" tabindex="-1"></a>   <span class="cf">return</span> files<span class="op">.</span><span class="at">newname</span> <span class="op">!==</span> <span class="kw">null</span> <span class="op">&amp;&amp;</span> files<span class="op">.</span><span class="at">title</span> <span class="op">!==</span> <span class="kw">null</span></span>
+<span id="cb8-252"><a href="#cb8-252" aria-hidden="true" tabindex="-1"></a>})<span class="op">;</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <div class="cell-output cell-output-display hidden">
 <div>
 <div id="ojs-cell-9-1" data-nodetype="declaration">
@@ -588,7 +589,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 </div>
 </div>
 <div class="cell">
-<div class="sourceCode cell-code hidden" id="cb9" data-startfrom="257" data-source-offset="-1"><pre class="sourceCode js code-with-copy"><code class="sourceCode javascript" style="counter-reset: source-line 256;"><span id="cb9-257"><a href="#cb9-257" aria-hidden="true" tabindex="-1"></a><span class="fu">html</span><span class="vs">`&lt;h3&gt;Upload </span><span class="sc">${</span>pis[indx]<span class="op">.</span><span class="at">name</span><span class="sc">}</span><span class="vs"> </span><span class="sc">${</span>esr_year<span class="sc">}</span><span class="vs"> data and metadata&lt;/h3&gt;`</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode cell-code hidden" id="cb9" data-startfrom="258" data-source-offset="-1"><pre class="sourceCode js code-with-copy"><code class="sourceCode javascript" style="counter-reset: source-line 257;"><span id="cb9-258"><a href="#cb9-258" aria-hidden="true" tabindex="-1"></a><span class="fu">html</span><span class="vs">`&lt;h3&gt;Upload </span><span class="sc">${</span>pis[indx]<span class="op">.</span><span class="at">name</span><span class="sc">}</span><span class="vs"> </span><span class="sc">${</span>esr_year<span class="sc">}</span><span class="vs"> data and metadata&lt;/h3&gt;`</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <div class="cell-output cell-output-display">
 <div>
 <div id="ojs-cell-10-1" data-nodetype="expression">
@@ -596,7 +597,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 </div>
 </div>
 </div>
-<div class="sourceCode cell-code hidden" id="cb10" data-startfrom="259" data-source-offset="-72"><pre class="sourceCode js code-with-copy"><code class="sourceCode javascript" style="counter-reset: source-line 258;"><span id="cb10-259"><a href="#cb10-259" aria-hidden="true" tabindex="-1"></a><span class="fu">html</span><span class="vs">`&lt;h5&gt;1. Please name your files as follows:&lt;/h5&gt;`</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode cell-code hidden" id="cb10" data-startfrom="260" data-source-offset="-72"><pre class="sourceCode js code-with-copy"><code class="sourceCode javascript" style="counter-reset: source-line 259;"><span id="cb10-260"><a href="#cb10-260" aria-hidden="true" tabindex="-1"></a><span class="fu">html</span><span class="vs">`&lt;h5&gt;1. Please name your files as follows:&lt;/h5&gt;`</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <div class="cell-output cell-output-display">
 <div>
 <div id="ojs-cell-10-2" data-nodetype="expression">
@@ -604,7 +605,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 </div>
 </div>
 </div>
-<div class="sourceCode cell-code hidden" id="cb11" data-startfrom="260" data-source-offset="-125"><pre class="sourceCode js code-with-copy"><code class="sourceCode javascript" style="counter-reset: source-line 259;"><span id="cb11-260"><a href="#cb11-260" aria-hidden="true" tabindex="-1"></a>viewof file_conventions <span class="op">=</span> Inputs<span class="op">.</span><span class="fu">table</span>(newfiles<span class="op">,</span>{<span class="dt">header</span><span class="op">:</span>{<span class="dt">title</span><span class="op">:</span><span class="st">"Dataset Title"</span><span class="op">,</span><span class="dt">newname</span><span class="op">:</span><span class="st">"CCIEA filename convention"</span>}<span class="op">,</span><span class="dt">select</span><span class="op">:</span> <span class="kw">false</span><span class="op">,</span> <span class="dt">rows</span><span class="op">:</span> <span class="dv">5</span>})</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode cell-code hidden" id="cb11" data-startfrom="261" data-source-offset="-125"><pre class="sourceCode js code-with-copy"><code class="sourceCode javascript" style="counter-reset: source-line 260;"><span id="cb11-261"><a href="#cb11-261" aria-hidden="true" tabindex="-1"></a>viewof file_conventions <span class="op">=</span> Inputs<span class="op">.</span><span class="fu">table</span>(newfiles<span class="op">,</span>{<span class="dt">header</span><span class="op">:</span>{<span class="dt">title</span><span class="op">:</span><span class="st">"Dataset Title"</span><span class="op">,</span><span class="dt">newname</span><span class="op">:</span><span class="st">"CCIEA filename convention"</span>}<span class="op">,</span><span class="dt">select</span><span class="op">:</span> <span class="kw">false</span><span class="op">,</span> <span class="dt">rows</span><span class="op">:</span> <span class="dv">5</span>})</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <div class="cell-output cell-output-display">
 <div>
 <div id="ojs-cell-10-3" data-nodetype="declaration">
@@ -614,7 +615,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 </div>
 </div>
 <div class="cell">
-<div class="sourceCode cell-code hidden" id="cb12" data-startfrom="265" data-source-offset="-0"><pre class="sourceCode js code-with-copy"><code class="sourceCode javascript" style="counter-reset: source-line 264;"><span id="cb12-265"><a href="#cb12-265" aria-hidden="true" tabindex="-1"></a><span class="fu">html</span><span class="vs">`&lt;p&gt;&lt;h5&gt;2. Check your csv data file:&lt;/h5&gt;&lt;/p&gt;`</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode cell-code hidden" id="cb12" data-startfrom="266" data-source-offset="-0"><pre class="sourceCode js code-with-copy"><code class="sourceCode javascript" style="counter-reset: source-line 265;"><span id="cb12-266"><a href="#cb12-266" aria-hidden="true" tabindex="-1"></a><span class="fu">html</span><span class="vs">`&lt;p&gt;&lt;h5&gt;2. Check your csv data file:&lt;/h5&gt;&lt;/p&gt;`</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <div class="cell-output cell-output-display">
 <div>
 <div id="ojs-cell-11-1" data-nodetype="expression">
@@ -622,14 +623,14 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 </div>
 </div>
 </div>
-<div class="sourceCode cell-code hidden" id="cb13" data-startfrom="267" data-source-offset="-52"><pre class="sourceCode js code-with-copy"><code class="sourceCode javascript" style="counter-reset: source-line 266;"><span id="cb13-267"><a href="#cb13-267" aria-hidden="true" tabindex="-1"></a>viewof csvfile <span class="op">=</span> Inputs<span class="op">.</span><span class="fu">file</span>({<span class="dt">accept</span><span class="op">:</span> <span class="st">".csv"</span><span class="op">,</span> <span class="dt">required</span><span class="op">:</span> <span class="kw">true</span>})</span>
-<span id="cb13-268"><a href="#cb13-268" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb13-269"><a href="#cb13-269" aria-hidden="true" tabindex="-1"></a>newfile <span class="op">=</span> csvfile<span class="op">.</span><span class="fu">csv</span>({<span class="dt">typed</span><span class="op">:</span> <span class="kw">true</span>})</span>
-<span id="cb13-270"><a href="#cb13-270" aria-hidden="true" tabindex="-1"></a>columns <span class="op">=</span> <span class="bu">Object</span><span class="op">.</span><span class="fu">keys</span>(newfile[<span class="dv">0</span>])</span>
-<span id="cb13-271"><a href="#cb13-271" aria-hidden="true" tabindex="-1"></a>filename<span class="op">=</span>csvfile<span class="op">.</span><span class="at">name</span></span>
-<span id="cb13-272"><a href="#cb13-272" aria-hidden="true" tabindex="-1"></a>monthly <span class="op">=</span> filename<span class="op">.</span><span class="fu">search</span>(<span class="st">"_M.csv"</span>)<span class="op">&gt;</span><span class="dv">0</span> <span class="op">||</span> filename<span class="op">.</span><span class="fu">search</span>(<span class="st">"Monthly"</span>)<span class="op">&gt;</span><span class="dv">0</span></span>
-<span id="cb13-273"><a href="#cb13-273" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb13-274"><a href="#cb13-274" aria-hidden="true" tabindex="-1"></a>Inputs<span class="op">.</span><span class="fu">table</span>(newfile<span class="op">,</span>{<span class="dt">select</span><span class="op">:</span> <span class="kw">false</span><span class="op">,</span> <span class="dt">format</span><span class="op">:</span>{<span class="dt">year</span><span class="op">:</span> x <span class="kw">=&gt;</span> x<span class="op">.</span><span class="fu">toLocaleString</span>(<span class="st">"en-US"</span>)<span class="op">.</span><span class="fu">replace</span>(<span class="ss">/</span><span class="sc">\,</span><span class="ss">/</span><span class="op">,</span><span class="st">''</span>)<span class="op">,</span> <span class="dt">time</span><span class="op">:</span> (x) <span class="kw">=&gt;</span> { <span class="cf">return</span> <span class="kw">typeof</span> x <span class="op">===</span> <span class="st">'number'</span> <span class="op">?</span> x<span class="op">.</span><span class="fu">toLocaleString</span>(<span class="st">"en-US"</span>)<span class="op">.</span><span class="fu">replace</span>(<span class="ss">/</span><span class="sc">\,</span><span class="ss">/</span><span class="op">,</span><span class="st">''</span>) <span class="op">:</span> x<span class="op">.</span><span class="fu">toISOString</span>()<span class="op">.</span><span class="fu">substr</span>(<span class="dv">0</span><span class="op">,</span><span class="dv">10</span>)}}})</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode cell-code hidden" id="cb13" data-startfrom="268" data-source-offset="-52"><pre class="sourceCode js code-with-copy"><code class="sourceCode javascript" style="counter-reset: source-line 267;"><span id="cb13-268"><a href="#cb13-268" aria-hidden="true" tabindex="-1"></a>viewof csvfile <span class="op">=</span> Inputs<span class="op">.</span><span class="fu">file</span>({<span class="dt">accept</span><span class="op">:</span> <span class="st">".csv"</span><span class="op">,</span> <span class="dt">required</span><span class="op">:</span> <span class="kw">true</span>})</span>
+<span id="cb13-269"><a href="#cb13-269" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb13-270"><a href="#cb13-270" aria-hidden="true" tabindex="-1"></a>newfile <span class="op">=</span> csvfile<span class="op">.</span><span class="fu">csv</span>({<span class="dt">typed</span><span class="op">:</span> <span class="kw">true</span>})</span>
+<span id="cb13-271"><a href="#cb13-271" aria-hidden="true" tabindex="-1"></a>columns <span class="op">=</span> <span class="bu">Object</span><span class="op">.</span><span class="fu">keys</span>(newfile[<span class="dv">0</span>])</span>
+<span id="cb13-272"><a href="#cb13-272" aria-hidden="true" tabindex="-1"></a>filename<span class="op">=</span>csvfile<span class="op">.</span><span class="at">name</span></span>
+<span id="cb13-273"><a href="#cb13-273" aria-hidden="true" tabindex="-1"></a>monthly <span class="op">=</span> filename<span class="op">.</span><span class="fu">search</span>(<span class="st">"_M.csv"</span>)<span class="op">&gt;</span><span class="dv">0</span> <span class="op">||</span> filename<span class="op">.</span><span class="fu">search</span>(<span class="st">"Monthly"</span>)<span class="op">&gt;</span><span class="dv">0</span></span>
+<span id="cb13-274"><a href="#cb13-274" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb13-275"><a href="#cb13-275" aria-hidden="true" tabindex="-1"></a>Inputs<span class="op">.</span><span class="fu">table</span>(newfile<span class="op">,</span>{<span class="dt">select</span><span class="op">:</span> <span class="kw">false</span><span class="op">,</span> <span class="dt">format</span><span class="op">:</span>{<span class="dt">year</span><span class="op">:</span> x <span class="kw">=&gt;</span> x<span class="op">.</span><span class="fu">toLocaleString</span>(<span class="st">"en-US"</span>)<span class="op">.</span><span class="fu">replace</span>(<span class="ss">/</span><span class="sc">\,</span><span class="ss">/</span><span class="op">,</span><span class="st">''</span>)<span class="op">,</span> <span class="dt">time</span><span class="op">:</span> (x) <span class="kw">=&gt;</span> { <span class="cf">return</span> <span class="kw">typeof</span> x <span class="op">===</span> <span class="st">'number'</span> <span class="op">?</span> x<span class="op">.</span><span class="fu">toLocaleString</span>(<span class="st">"en-US"</span>)<span class="op">.</span><span class="fu">replace</span>(<span class="ss">/</span><span class="sc">\,</span><span class="ss">/</span><span class="op">,</span><span class="st">''</span>) <span class="op">:</span> x<span class="op">.</span><span class="fu">toISOString</span>()<span class="op">.</span><span class="fu">substr</span>(<span class="dv">0</span><span class="op">,</span><span class="dv">10</span>)}}})</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <div class="cell-output cell-output-display">
 <div>
 <div id="ojs-cell-11-2" data-nodetype="declaration">
@@ -672,7 +673,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 </div>
 </div>
 </div>
-<div class="sourceCode cell-code hidden" id="cb14" data-startfrom="276" data-source-offset="-505"><pre class="sourceCode js code-with-copy"><code class="sourceCode javascript" style="counter-reset: source-line 275;"><span id="cb14-276"><a href="#cb14-276" aria-hidden="true" tabindex="-1"></a><span class="fu">html</span><span class="vs">`&lt;h3&gt;Checking file: </span><span class="sc">${</span>filename<span class="sc">}</span><span class="vs">:&lt;/h3&gt;`</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode cell-code hidden" id="cb14" data-startfrom="277" data-source-offset="-505"><pre class="sourceCode js code-with-copy"><code class="sourceCode javascript" style="counter-reset: source-line 276;"><span id="cb14-277"><a href="#cb14-277" aria-hidden="true" tabindex="-1"></a><span class="fu">html</span><span class="vs">`&lt;h3&gt;Checking file: </span><span class="sc">${</span>filename<span class="sc">}</span><span class="vs">:&lt;/h3&gt;`</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <div class="cell-output cell-output-display">
 <div>
 <div id="ojs-cell-11-8" data-nodetype="expression">
@@ -680,7 +681,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 </div>
 </div>
 </div>
-<div class="sourceCode cell-code hidden" id="cb15" data-startfrom="278" data-source-offset="-549"><pre class="sourceCode js code-with-copy"><code class="sourceCode javascript" style="counter-reset: source-line 277;"><span id="cb15-278"><a href="#cb15-278" aria-hidden="true" tabindex="-1"></a><span class="fu">html</span><span class="vs">`&lt;p&gt;&lt;h5&gt;3. We will check for the following:&lt;/h5&gt;`</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode cell-code hidden" id="cb15" data-startfrom="279" data-source-offset="-549"><pre class="sourceCode js code-with-copy"><code class="sourceCode javascript" style="counter-reset: source-line 278;"><span id="cb15-279"><a href="#cb15-279" aria-hidden="true" tabindex="-1"></a><span class="fu">html</span><span class="vs">`&lt;p&gt;&lt;h5&gt;3. We will check for the following:&lt;/h5&gt;`</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <div class="cell-output cell-output-display">
 <div>
 <div id="ojs-cell-11-9" data-nodetype="expression">
@@ -688,7 +689,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 </div>
 </div>
 </div>
-<div class="sourceCode cell-code hidden" id="cb16" data-startfrom="280" data-source-offset="-604"><pre class="sourceCode js code-with-copy"><code class="sourceCode javascript" style="counter-reset: source-line 279;"><span id="cb16-280"><a href="#cb16-280" aria-hidden="true" tabindex="-1"></a><span class="fu">html</span><span class="vs">` Does it follow the filename convention?`</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode cell-code hidden" id="cb16" data-startfrom="281" data-source-offset="-604"><pre class="sourceCode js code-with-copy"><code class="sourceCode javascript" style="counter-reset: source-line 280;"><span id="cb16-281"><a href="#cb16-281" aria-hidden="true" tabindex="-1"></a><span class="fu">html</span><span class="vs">` Does it follow the filename convention?`</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <div class="cell-output cell-output-display">
 <div>
 <div id="ojs-cell-11-10" data-nodetype="expression">
@@ -696,9 +697,9 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 </div>
 </div>
 </div>
-<div class="sourceCode cell-code hidden" id="cb17" data-startfrom="281" data-source-offset="-651"><pre class="sourceCode js code-with-copy"><code class="sourceCode javascript" style="counter-reset: source-line 280;"><span id="cb17-281"><a href="#cb17-281" aria-hidden="true" tabindex="-1"></a>allowednames <span class="op">=</span> newfiles<span class="op">.</span><span class="fu">map</span>(obj <span class="kw">=&gt;</span> obj<span class="op">.</span><span class="at">newname</span>)<span class="op">;</span></span>
-<span id="cb17-282"><a href="#cb17-282" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb17-283"><a href="#cb17-283" aria-hidden="true" tabindex="-1"></a>{<span class="cf">return</span> allowednames<span class="op">.</span><span class="fu">includes</span>(filename)<span class="op">==</span><span class="kw">true</span> <span class="op">?</span> <span class="st">"yes"</span> <span class="op">:</span> <span class="st">"no"</span>}</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode cell-code hidden" id="cb17" data-startfrom="282" data-source-offset="-651"><pre class="sourceCode js code-with-copy"><code class="sourceCode javascript" style="counter-reset: source-line 281;"><span id="cb17-282"><a href="#cb17-282" aria-hidden="true" tabindex="-1"></a>allowednames <span class="op">=</span> newfiles<span class="op">.</span><span class="fu">map</span>(obj <span class="kw">=&gt;</span> obj<span class="op">.</span><span class="at">newname</span>)<span class="op">;</span></span>
+<span id="cb17-283"><a href="#cb17-283" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb17-284"><a href="#cb17-284" aria-hidden="true" tabindex="-1"></a>{<span class="cf">return</span> allowednames<span class="op">.</span><span class="fu">includes</span>(filename)<span class="op">==</span><span class="kw">true</span> <span class="op">?</span> <span class="st">"yes"</span> <span class="op">:</span> <span class="st">"no"</span>}</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <div class="cell-output cell-output-display">
 <div>
 <div id="ojs-cell-11-11" data-nodetype="declaration">
@@ -713,7 +714,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 </div>
 </div>
 </div>
-<div class="sourceCode cell-code hidden" id="cb18" data-startfrom="285" data-source-offset="-764"><pre class="sourceCode js code-with-copy"><code class="sourceCode javascript" style="counter-reset: source-line 284;"><span id="cb18-285"><a href="#cb18-285" aria-hidden="true" tabindex="-1"></a><span class="fu">html</span><span class="vs">` Is the time column named &lt;b&gt;</span><span class="sc">${</span>headervars[<span class="dv">0</span>]<span class="sc">}</span><span class="vs">&lt;/b&gt; for yearly data or &lt;b&gt;</span><span class="sc">${</span>headervarsmon[<span class="dv">0</span>]<span class="sc">}</span><span class="vs">&lt;/b&gt; for monthly data?`</span><span class="op">;</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode cell-code hidden" id="cb18" data-startfrom="286" data-source-offset="-764"><pre class="sourceCode js code-with-copy"><code class="sourceCode javascript" style="counter-reset: source-line 285;"><span id="cb18-286"><a href="#cb18-286" aria-hidden="true" tabindex="-1"></a><span class="fu">html</span><span class="vs">` Is the time column named &lt;b&gt;</span><span class="sc">${</span>headervars[<span class="dv">0</span>]<span class="sc">}</span><span class="vs">&lt;/b&gt; for yearly data or &lt;b&gt;</span><span class="sc">${</span>headervarsmon[<span class="dv">0</span>]<span class="sc">}</span><span class="vs">&lt;/b&gt; for monthly data?`</span><span class="op">;</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <div class="cell-output cell-output-display">
 <div>
 <div id="ojs-cell-11-13" data-nodetype="expression">
@@ -721,10 +722,10 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 </div>
 </div>
 </div>
-<div class="sourceCode cell-code hidden" id="cb19" data-startfrom="287" data-source-offset="-886"><pre class="sourceCode js code-with-copy"><code class="sourceCode javascript" style="counter-reset: source-line 286;"><span id="cb19-287"><a href="#cb19-287" aria-hidden="true" tabindex="-1"></a>{</span>
-<span id="cb19-288"><a href="#cb19-288" aria-hidden="true" tabindex="-1"></a><span class="cf">if</span>(monthly<span class="op">==</span><span class="kw">true</span>)<span class="cf">return</span> columns<span class="op">.</span><span class="fu">includes</span>(headervarsmon[<span class="dv">0</span>])<span class="op">==</span><span class="kw">true</span> <span class="op">?</span> <span class="st">"yes"</span> <span class="op">:</span> <span class="st">"no"</span></span>
-<span id="cb19-289"><a href="#cb19-289" aria-hidden="true" tabindex="-1"></a><span class="cf">if</span>(monthly<span class="op">==</span><span class="kw">false</span>)<span class="cf">return</span> columns<span class="op">.</span><span class="fu">includes</span>(headervars[<span class="dv">0</span>])<span class="op">==</span><span class="kw">true</span> <span class="op">?</span> <span class="st">"yes"</span> <span class="op">:</span> <span class="st">"no"</span></span>
-<span id="cb19-290"><a href="#cb19-290" aria-hidden="true" tabindex="-1"></a>}</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode cell-code hidden" id="cb19" data-startfrom="288" data-source-offset="-886"><pre class="sourceCode js code-with-copy"><code class="sourceCode javascript" style="counter-reset: source-line 287;"><span id="cb19-288"><a href="#cb19-288" aria-hidden="true" tabindex="-1"></a>{</span>
+<span id="cb19-289"><a href="#cb19-289" aria-hidden="true" tabindex="-1"></a><span class="cf">if</span>(monthly<span class="op">==</span><span class="kw">true</span>)<span class="cf">return</span> columns<span class="op">.</span><span class="fu">includes</span>(headervarsmon[<span class="dv">0</span>])<span class="op">==</span><span class="kw">true</span> <span class="op">?</span> <span class="st">"yes"</span> <span class="op">:</span> <span class="st">"no"</span></span>
+<span id="cb19-290"><a href="#cb19-290" aria-hidden="true" tabindex="-1"></a><span class="cf">if</span>(monthly<span class="op">==</span><span class="kw">false</span>)<span class="cf">return</span> columns<span class="op">.</span><span class="fu">includes</span>(headervars[<span class="dv">0</span>])<span class="op">==</span><span class="kw">true</span> <span class="op">?</span> <span class="st">"yes"</span> <span class="op">:</span> <span class="st">"no"</span></span>
+<span id="cb19-291"><a href="#cb19-291" aria-hidden="true" tabindex="-1"></a>}</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <div class="cell-output cell-output-display">
 <div>
 <div id="ojs-cell-11-14" data-nodetype="expression">
@@ -732,7 +733,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 </div>
 </div>
 </div>
-<div class="sourceCode cell-code hidden" id="cb20" data-startfrom="292" data-source-offset="-1049"><pre class="sourceCode js code-with-copy"><code class="sourceCode javascript" style="counter-reset: source-line 291;"><span id="cb20-292"><a href="#cb20-292" aria-hidden="true" tabindex="-1"></a><span class="fu">html</span><span class="vs">` Is the indicator value column named &lt;b&gt;</span><span class="sc">${</span>headervars[<span class="dv">1</span>]<span class="sc">}</span><span class="vs">&lt;/b&gt;?`</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode cell-code hidden" id="cb20" data-startfrom="293" data-source-offset="-1049"><pre class="sourceCode js code-with-copy"><code class="sourceCode javascript" style="counter-reset: source-line 292;"><span id="cb20-293"><a href="#cb20-293" aria-hidden="true" tabindex="-1"></a><span class="fu">html</span><span class="vs">` Is the indicator value column named &lt;b&gt;</span><span class="sc">${</span>headervars[<span class="dv">1</span>]<span class="sc">}</span><span class="vs">&lt;/b&gt;?`</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <div class="cell-output cell-output-display">
 <div>
 <div id="ojs-cell-11-15" data-nodetype="expression">
@@ -740,7 +741,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 </div>
 </div>
 </div>
-<div class="sourceCode cell-code hidden" id="cb21" data-startfrom="294" data-source-offset="-1118"><pre class="sourceCode js code-with-copy"><code class="sourceCode javascript" style="counter-reset: source-line 293;"><span id="cb21-294"><a href="#cb21-294" aria-hidden="true" tabindex="-1"></a>{<span class="cf">return</span> columns<span class="op">.</span><span class="fu">includes</span>(headervars[<span class="dv">1</span>])<span class="op">==</span><span class="kw">true</span> <span class="op">?</span> <span class="st">"yes"</span> <span class="op">:</span> <span class="st">"no"</span>}</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode cell-code hidden" id="cb21" data-startfrom="295" data-source-offset="-1118"><pre class="sourceCode js code-with-copy"><code class="sourceCode javascript" style="counter-reset: source-line 294;"><span id="cb21-295"><a href="#cb21-295" aria-hidden="true" tabindex="-1"></a>{<span class="cf">return</span> columns<span class="op">.</span><span class="fu">includes</span>(headervars[<span class="dv">1</span>])<span class="op">==</span><span class="kw">true</span> <span class="op">?</span> <span class="st">"yes"</span> <span class="op">:</span> <span class="st">"no"</span>}</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <div class="cell-output cell-output-display">
 <div>
 <div id="ojs-cell-11-16" data-nodetype="expression">
@@ -748,7 +749,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 </div>
 </div>
 </div>
-<div class="sourceCode cell-code hidden" id="cb22" data-startfrom="296" data-source-offset="-1181"><pre class="sourceCode js code-with-copy"><code class="sourceCode javascript" style="counter-reset: source-line 295;"><span id="cb22-296"><a href="#cb22-296" aria-hidden="true" tabindex="-1"></a><span class="fu">html</span><span class="vs">` Is there a column named &lt;b&gt;</span><span class="sc">${</span>headervars[<span class="dv">2</span>]<span class="sc">}</span><span class="vs">&lt;/b&gt; describing each indicator?`</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode cell-code hidden" id="cb22" data-startfrom="297" data-source-offset="-1181"><pre class="sourceCode js code-with-copy"><code class="sourceCode javascript" style="counter-reset: source-line 296;"><span id="cb22-297"><a href="#cb22-297" aria-hidden="true" tabindex="-1"></a><span class="fu">html</span><span class="vs">` Is there a column named &lt;b&gt;</span><span class="sc">${</span>headervars[<span class="dv">2</span>]<span class="sc">}</span><span class="vs">&lt;/b&gt; describing each indicator?`</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <div class="cell-output cell-output-display">
 <div>
 <div id="ojs-cell-11-17" data-nodetype="expression">
@@ -756,7 +757,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 </div>
 </div>
 </div>
-<div class="sourceCode cell-code hidden" id="cb23" data-startfrom="298" data-source-offset="-1264"><pre class="sourceCode js code-with-copy"><code class="sourceCode javascript" style="counter-reset: source-line 297;"><span id="cb23-298"><a href="#cb23-298" aria-hidden="true" tabindex="-1"></a>{<span class="cf">return</span> columns<span class="op">.</span><span class="fu">includes</span>(headervars[<span class="dv">2</span>])<span class="op">==</span><span class="kw">true</span> <span class="op">?</span> <span class="st">"yes"</span> <span class="op">:</span> <span class="st">"no"</span>}</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode cell-code hidden" id="cb23" data-startfrom="299" data-source-offset="-1264"><pre class="sourceCode js code-with-copy"><code class="sourceCode javascript" style="counter-reset: source-line 298;"><span id="cb23-299"><a href="#cb23-299" aria-hidden="true" tabindex="-1"></a>{<span class="cf">return</span> columns<span class="op">.</span><span class="fu">includes</span>(headervars[<span class="dv">2</span>])<span class="op">==</span><span class="kw">true</span> <span class="op">?</span> <span class="st">"yes"</span> <span class="op">:</span> <span class="st">"no"</span>}</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <div class="cell-output cell-output-display">
 <div>
 <div id="ojs-cell-11-18" data-nodetype="expression">
@@ -766,7 +767,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 </div>
 </div>
 <div class="cell">
-<div class="sourceCode cell-code hidden" id="cb24" data-startfrom="305" data-source-offset="-0"><pre class="sourceCode js code-with-copy"><code class="sourceCode javascript" style="counter-reset: source-line 304;"><span id="cb24-305"><a href="#cb24-305" aria-hidden="true" tabindex="-1"></a><span class="fu">html</span><span class="vs">`&lt;br&gt;&lt;p&gt;&lt;h5&gt;4. If your files all pass the check, go the Google Drive folder for uploading your data:&lt;/h5&gt;&lt;/p&gt;`</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode cell-code hidden" id="cb24" data-startfrom="306" data-source-offset="-0"><pre class="sourceCode js code-with-copy"><code class="sourceCode javascript" style="counter-reset: source-line 305;"><span id="cb24-306"><a href="#cb24-306" aria-hidden="true" tabindex="-1"></a><span class="fu">html</span><span class="vs">`&lt;br&gt;&lt;p&gt;&lt;h5&gt;4. If your files all pass the check, go the Google Drive folder for uploading your data:&lt;/h5&gt;&lt;/p&gt;`</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <div class="cell-output cell-output-display">
 <div>
 <div id="ojs-cell-12-1" data-nodetype="expression">
@@ -774,13 +775,13 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 </div>
 </div>
 </div>
-<div class="sourceCode cell-code hidden" id="cb25" data-startfrom="307" data-source-offset="-116"><pre class="sourceCode js code-with-copy"><code class="sourceCode javascript" style="counter-reset: source-line 306;"><span id="cb25-307"><a href="#cb25-307" aria-hidden="true" tabindex="-1"></a>viewof thisyear <span class="op">=</span> Inputs<span class="op">.</span><span class="fu">button</span>(<span class="st">"Upload "</span><span class="op">+</span>esr_year<span class="op">+</span><span class="st">" data and metadata"</span><span class="op">,</span>{<span class="dt">value</span><span class="op">:</span> pis[indx]<span class="op">.</span><span class="at">this_year</span><span class="op">,</span> <span class="dt">reduce</span><span class="op">:</span> () <span class="kw">=&gt;</span> <span class="bu">window</span><span class="op">.</span><span class="fu">open</span>(<span class="st">"https://drive.google.com/drive/folders/"</span><span class="op">+</span>pis[indx]<span class="op">.</span><span class="at">upload</span><span class="op">,</span><span class="st">"_blank"</span>)})</span>
-<span id="cb25-308"><a href="#cb25-308" aria-hidden="true" tabindex="-1"></a><span class="co">//url="https://drive.google.com/drive/folders/"+last</span></span>
-<span id="cb25-309"><a href="#cb25-309" aria-hidden="true" tabindex="-1"></a><span class="co">//html`&lt;a href=${url} target=_blank&gt;${url}&lt;/a&gt;`</span></span>
-<span id="cb25-310"><a href="#cb25-310" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb25-311"><a href="#cb25-311" aria-hidden="true" tabindex="-1"></a>ind_url<span class="op">=</span><span class="st">"https://oceanview.pfeg.noaa.gov/erddap/tabledap/CCIEA_metadata.json?&amp;currently_served=1&amp;indicator_title="</span><span class="op">+</span><span class="st">'"'</span><span class="op">+</span><span class="pp">encodeURIComponent</span>(indicator)<span class="op">+</span><span class="st">'"'</span></span>
-<span id="cb25-312"><a href="#cb25-312" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb25-313"><a href="#cb25-313" aria-hidden="true" tabindex="-1"></a><span class="fu">html</span><span class="vs">`&lt;br&gt;&lt;p&gt;&lt;b&gt;Note that you can also place other files such as images and text you want to share with CCIEA in this folder&lt;/b&gt;&lt;/p&gt;`</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode cell-code hidden" id="cb25" data-startfrom="308" data-source-offset="-116"><pre class="sourceCode js code-with-copy"><code class="sourceCode javascript" style="counter-reset: source-line 307;"><span id="cb25-308"><a href="#cb25-308" aria-hidden="true" tabindex="-1"></a>viewof thisyear <span class="op">=</span> Inputs<span class="op">.</span><span class="fu">button</span>(<span class="st">"Upload "</span><span class="op">+</span>esr_year<span class="op">+</span><span class="st">" data and metadata"</span><span class="op">,</span>{<span class="dt">value</span><span class="op">:</span> pis[indx]<span class="op">.</span><span class="at">this_year</span><span class="op">,</span> <span class="dt">reduce</span><span class="op">:</span> () <span class="kw">=&gt;</span> <span class="bu">window</span><span class="op">.</span><span class="fu">open</span>(<span class="st">"https://drive.google.com/drive/folders/"</span><span class="op">+</span>pis[indx]<span class="op">.</span><span class="at">upload</span><span class="op">,</span><span class="st">"_blank"</span>)})</span>
+<span id="cb25-309"><a href="#cb25-309" aria-hidden="true" tabindex="-1"></a><span class="co">//url="https://drive.google.com/drive/folders/"+last</span></span>
+<span id="cb25-310"><a href="#cb25-310" aria-hidden="true" tabindex="-1"></a><span class="co">//html`&lt;a href=${url} target=_blank&gt;${url}&lt;/a&gt;`</span></span>
+<span id="cb25-311"><a href="#cb25-311" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb25-312"><a href="#cb25-312" aria-hidden="true" tabindex="-1"></a>ind_url<span class="op">=</span><span class="st">"https://oceanview.pfeg.noaa.gov/erddap/tabledap/CCIEA_metadata.json?&amp;currently_served=1&amp;indicator_title="</span><span class="op">+</span><span class="st">'"'</span><span class="op">+</span><span class="pp">encodeURIComponent</span>(indicator)<span class="op">+</span><span class="st">'"'</span></span>
+<span id="cb25-313"><a href="#cb25-313" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb25-314"><a href="#cb25-314" aria-hidden="true" tabindex="-1"></a><span class="fu">html</span><span class="vs">`&lt;br&gt;&lt;p&gt;&lt;b&gt;Note that you can also place other files such as images and text you want to share with CCIEA in this folder&lt;/b&gt;&lt;/p&gt;`</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <div class="cell-output cell-output-display">
 <div>
 <div id="ojs-cell-12-2" data-nodetype="declaration">
@@ -805,10 +806,26 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 </div>
 </div>
 <div id="tabset-1-4" class="tab-pane" role="tabpanel" aria-labelledby="tabset-1-4-tab">
+<div class="callout callout-style-default callout-note no-icon callout-titled">
+<div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-4-contents" aria-controls="callout-4" aria-expanded="false" aria-label="Toggle callout">
+<div class="callout-icon-container">
+<i class="callout-icon no-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+How do I use this uploader?
+</div>
+<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
+</div>
+<div id="callout-4" class="callout-4-contents callout-collapse collapse">
+<div class="callout-body-container callout-body">
+<p>See the <a href="work_flow.html">work flow diagram</a></p>
+</div>
+</div>
+</div>
 <section id="view-current-indicators-1" class="level3">
 <h3 class="anchored" data-anchor-id="view-current-indicators-1">View Current Indicators</h3>
 <div class="callout callout-style-default callout-note no-icon callout-titled">
-<div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-4-contents" aria-controls="callout-4" aria-expanded="false" aria-label="Toggle callout">
+<div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-5-contents" aria-controls="callout-5" aria-expanded="false" aria-label="Toggle callout">
 <div class="callout-icon-container">
 <i class="callout-icon no-icon"></i>
 </div>
@@ -817,7 +834,7 @@ My indicator isn’t listed, how do I add it’s metadata?
 </div>
 <div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
 </div>
-<div id="callout-4" class="callout-4-contents callout-collapse collapse">
+<div id="callout-5" class="callout-5-contents callout-collapse collapse">
 <div class="callout-body-container callout-body">
 <ul>
 <li>Is it a new indicator included in a data file that previously exists (just a new species, location, etc)? If so:
@@ -835,7 +852,7 @@ My indicator isn’t listed, how do I add it’s metadata?
 </div>
 </div>
 <div class="callout callout-style-default callout-note no-icon callout-titled">
-<div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-5-contents" aria-controls="callout-5" aria-expanded="false" aria-label="Toggle callout">
+<div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-6-contents" aria-controls="callout-6" aria-expanded="false" aria-label="Toggle callout">
 <div class="callout-icon-container">
 <i class="callout-icon no-icon"></i>
 </div>
@@ -844,7 +861,7 @@ After uploading new data and metadata, when will I see updated plots and metadat
 </div>
 <div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
 </div>
-<div id="callout-5" class="callout-5-contents callout-collapse collapse">
+<div id="callout-6" class="callout-6-contents callout-collapse collapse">
 <div class="callout-body-container callout-body">
 <ul>
 <li>Currently we run a GitHub action every morning to:
@@ -866,7 +883,7 @@ After uploading new data and metadata, when will I see updated plots and metadat
 <section id="download-last-year-1" class="level3">
 <h3 class="anchored" data-anchor-id="download-last-year-1">Download Last Year</h3>
 <div class="callout callout-style-default callout-note no-icon callout-titled">
-<div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-6-contents" aria-controls="callout-6" aria-expanded="false" aria-label="Toggle callout">
+<div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-7-contents" aria-controls="callout-7" aria-expanded="false" aria-label="Toggle callout">
 <div class="callout-icon-container">
 <i class="callout-icon no-icon"></i>
 </div>
@@ -875,7 +892,7 @@ What’s the point of downloading last year’s data?
 </div>
 <div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
 </div>
-<div id="callout-6" class="callout-6-contents callout-collapse collapse">
+<div id="callout-7" class="callout-7-contents callout-collapse collapse">
 <div class="callout-body-container callout-body">
 <p>The option is provided just in case it’s helpful to remember what you did a year ago! Also, we may have edited last year’s file headers, etc., to follow CCIEA conventions</p>
 </div>
@@ -885,7 +902,7 @@ What’s the point of downloading last year’s data?
 <section id="upload-this-year-1" class="level3">
 <h3 class="anchored" data-anchor-id="upload-this-year-1">Upload This Year</h3>
 <div class="callout callout-style-default callout-note no-icon callout-titled">
-<div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-7-contents" aria-controls="callout-7" aria-expanded="false" aria-label="Toggle callout">
+<div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-8-contents" aria-controls="callout-8" aria-expanded="false" aria-label="Toggle callout">
 <div class="callout-icon-container">
 <i class="callout-icon no-icon"></i>
 </div>
@@ -894,7 +911,7 @@ What if my data isn’t listed in the CCIEA filename convention list?
 </div>
 <div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
 </div>
-<div id="callout-7" class="callout-7-contents callout-collapse collapse">
+<div id="callout-8" class="callout-8-contents callout-collapse collapse">
 <div class="callout-body-container callout-body">
 <ul>
 <li>How do I name files for new data?</li>
@@ -906,30 +923,12 @@ What if my data isn’t listed in the CCIEA filename convention list?
 <section id="file-formats" class="level3">
 <h3 class="anchored" data-anchor-id="file-formats">File formats</h3>
 <div class="callout callout-style-default callout-note no-icon callout-titled">
-<div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-8-contents" aria-controls="callout-8" aria-expanded="false" aria-label="Toggle callout">
-<div class="callout-icon-container">
-<i class="callout-icon no-icon"></i>
-</div>
-<div class="callout-title-container flex-fill">
-What is meant by the CCIEA “tidy” or “long” file format convention?
-</div>
-<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
-</div>
-<div id="callout-8" class="callout-8-contents callout-collapse collapse">
-<div class="callout-body-container callout-body">
-<ul>
-<li>answer</li>
-</ul>
-</div>
-</div>
-</div>
-<div class="callout callout-style-default callout-note no-icon callout-titled">
 <div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-9-contents" aria-controls="callout-9" aria-expanded="false" aria-label="Toggle callout">
 <div class="callout-icon-container">
 <i class="callout-icon no-icon"></i>
 </div>
 <div class="callout-title-container flex-fill">
-What are the column headers for yearly data?
+What is meant by the CCIEA “tidy” or “long” file format convention?
 </div>
 <div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
 </div>
@@ -947,11 +946,29 @@ What are the column headers for yearly data?
 <i class="callout-icon no-icon"></i>
 </div>
 <div class="callout-title-container flex-fill">
-What are the column headers for monthly data?
+What are the column headers for yearly data?
 </div>
 <div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
 </div>
 <div id="callout-10" class="callout-10-contents callout-collapse collapse">
+<div class="callout-body-container callout-body">
+<ul>
+<li>answer</li>
+</ul>
+</div>
+</div>
+</div>
+<div class="callout callout-style-default callout-note no-icon callout-titled">
+<div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-11-contents" aria-controls="callout-11" aria-expanded="false" aria-label="Toggle callout">
+<div class="callout-icon-container">
+<i class="callout-icon no-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+What are the column headers for monthly data?
+</div>
+<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
+</div>
+<div id="callout-11" class="callout-11-contents callout-collapse collapse">
 <div class="callout-body-container callout-body">
 <ul>
 <li>answer</li>

@@ -34,7 +34,7 @@ viewof component = Inputs.select(components,{format: x => x.name, label: "Compon
 
 :::
 
-::: {.panel-tabset .nav-pills}
+::: {.panel-tabset .nav-tabs}
 
 ## View Current Indicators
 
@@ -47,6 +47,7 @@ viewof component = Inputs.select(components,{format: x => x.name, label: "Compon
         - If so, there's no need to download last year's metadata
     + Does your metadata need updating?
         - If so: go to tab 2, "Download Last Year", to download a csv file of your current metadata
+*  Confused? See the [work flow diagram](work_flow1.html)
     
 :::
 
@@ -316,7 +317,15 @@ html`<br><p><b>Note that you can also place other files such as images and text 
 ```
 
 
-## FAQ
+## Help/FAQ
+
+::: {.callout-note collapse="true" icon=false}
+
+## How do I use this uploader?
+
+See the [work flow diagram](work_flow1.html)
+
+:::
 
 ### View Current Indicators
 
