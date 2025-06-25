@@ -38,6 +38,15 @@
       }
  .nav-pills {
  --bs-nav-pills-link-active-bg: #276189;
+ }
+ .nav-tabs{
+ --bs-nav-link-color: #000;
+ --bs-nav-tabs-border-radius: 15px;
+ --bs-nav-link-font-weight: normal;
+ --bs-nav-tabs-border-color: #276189;
+ --bs-nav-tabs-link-active-color: #ffffff;
+ --bs-nav-tabs-link-active-bg: #276189;
+ --bs-nav-tabs-link-hover-border-color: #276189;
 }
 
 .observablehq--error {
