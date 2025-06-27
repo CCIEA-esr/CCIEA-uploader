@@ -6,7 +6,6 @@ toc: true
 <hr>
 ## California Current Integrated Ecosystem Assessment (CCIEA) Uploader
 
-### About
 The CCIEA Uploader is an on-line resource for uploading, standardizing, and organizing CCIEA indicator data for each Ecosystem Status Report year each CCIEA Data Provider.
 
 The uploader provides:
@@ -19,9 +18,9 @@ The uploader provides:
 
 ### Code
 
-The code in this repository consists of GitHub actions and a Quarto Document written in R and OJS.
+The code in this repository consists of GitHub actions to assemble information an updates from Google Spreadsheets and Drive, and a Quarto Website written in R and OJS.
 
-{{< include code_flow.qmd >}}
+{{< include _code_flow.qmd >}}
 
 * **Github Action** - runs daily at 6 am
   + main.yaml: get_status.R
