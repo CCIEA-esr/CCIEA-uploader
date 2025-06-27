@@ -107,12 +107,27 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
   </div>
           <ul class="navbar-nav navbar-nav-scroll me-auto">
   <li class="nav-item">
-    <a class="nav-link" href="./uploader.html"> 
+    <a class="nav-link" href="./index.html"> 
 <span class="menu-text">Uploader</span></a>
   </li>  
   <li class="nav-item">
+    <a class="nav-link active" href="./work_flow1.html" aria-current="page"> 
+<span class="menu-text">How To</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="./faq.html"> 
+<span class="menu-text">FAQ</span></a>
+  </li>  
+</ul>
+          <ul class="navbar-nav navbar-nav-scroll ms-auto">
+  <li class="nav-item">
     <a class="nav-link" href="./status.html"> 
 <span class="menu-text">Status</span></a>
+  </li>  
+  <li class="nav-item compact">
+    <a class="nav-link" href="https://github.com/lmdewitt/UploaderTes"> <i class="bi bi-github" role="img">
+</i> 
+<span class="menu-text"></span></a>
   </li>  
 </ul>
           <div class="quarto-navbar-tools">
@@ -126,24 +141,28 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <!-- margin-sidebar -->
     
 <!-- main -->
-<main class="content" id="quarto-document-content">
+<main class="content page-columns page-full" id="quarto-document-content">
 
 
 
 
+<section id="cciea-uploader-flow-chart" class="level3 page-columns page-full">
+<h3 class="anchored" data-anchor-id="cciea-uploader-flow-chart">CCIEA Uploader Flow Chart</h3>
+<div class="grid column-screen-inset">
+<div class="g-col-7">
 <div class="cell">
-<div class="sourceCode cell-code hidden" id="cb1" data-startfrom="9" data-source-offset="-0"><pre class="sourceCode js code-with-copy"><code class="sourceCode javascript" style="counter-reset: source-line 8;"><span id="cb1-9"><a href="#cb1-9" aria-hidden="true" tabindex="-1"></a>last_year<span class="op">=</span><span class="st">"2024-2025"</span></span>
-<span id="cb1-10"><a href="#cb1-10" aria-hidden="true" tabindex="-1"></a>data_file_node<span class="op">=</span><span class="st">"N[</span><span class="sc">\\</span><span class="st">"</span><span class="op">+</span>last_year<span class="op">+</span><span class="st">" data csv file</span><span class="sc">\\</span><span class="st">]"</span></span>
-<span id="cb1-11"><a href="#cb1-11" aria-hidden="true" tabindex="-1"></a>meta_file_node<span class="op">=</span><span class="st">"M[</span><span class="sc">\\</span><span class="st">"</span><span class="op">+</span>last_year<span class="op">+</span><span class="st">" metadata csv file</span><span class="sc">\\</span><span class="st">]"</span></span>
-<span id="cb1-12"><a href="#cb1-12" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-13"><a href="#cb1-13" aria-hidden="true" tabindex="-1"></a><span class="fu">html</span><span class="vs">`&lt;style&gt;</span></span>
-<span id="cb1-14"><a href="#cb1-14" aria-hidden="true" tabindex="-1"></a><span class="vs">:root{</span></span>
-<span id="cb1-15"><a href="#cb1-15" aria-hidden="true" tabindex="-1"></a><span class="vs">--mermaid-label-fg-color: #000;</span></span>
-<span id="cb1-16"><a href="#cb1-16" aria-hidden="true" tabindex="-1"></a><span class="vs">--mermaid-fg-color--lightest: #fff;</span></span>
-<span id="cb1-17"><a href="#cb1-17" aria-hidden="true" tabindex="-1"></a><span class="vs">--mermaid-fg-color--lighter: #fff;</span></span>
-<span id="cb1-18"><a href="#cb1-18" aria-hidden="true" tabindex="-1"></a><span class="vs">}</span></span>
-<span id="cb1-19"><a href="#cb1-19" aria-hidden="true" tabindex="-1"></a><span class="vs">&lt;/style&gt;</span></span>
-<span id="cb1-20"><a href="#cb1-20" aria-hidden="true" tabindex="-1"></a><span class="vs">`</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode cell-code hidden" id="cb1" data-startfrom="16" data-source-offset="-0"><pre class="sourceCode js code-with-copy"><code class="sourceCode javascript" style="counter-reset: source-line 15;"><span id="cb1-16"><a href="#cb1-16" aria-hidden="true" tabindex="-1"></a>last_year<span class="op">=</span><span class="st">"2024-2025"</span></span>
+<span id="cb1-17"><a href="#cb1-17" aria-hidden="true" tabindex="-1"></a>data_file_node<span class="op">=</span><span class="st">"N[</span><span class="sc">\\</span><span class="st">"</span><span class="op">+</span>last_year<span class="op">+</span><span class="st">" data csv file</span><span class="sc">\\</span><span class="st">]"</span></span>
+<span id="cb1-18"><a href="#cb1-18" aria-hidden="true" tabindex="-1"></a>meta_file_node<span class="op">=</span><span class="st">"M[</span><span class="sc">\\</span><span class="st">"</span><span class="op">+</span>last_year<span class="op">+</span><span class="st">" metadata csv file</span><span class="sc">\\</span><span class="st">]"</span></span>
+<span id="cb1-19"><a href="#cb1-19" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-20"><a href="#cb1-20" aria-hidden="true" tabindex="-1"></a><span class="fu">html</span><span class="vs">`&lt;style&gt;</span></span>
+<span id="cb1-21"><a href="#cb1-21" aria-hidden="true" tabindex="-1"></a><span class="vs">:root{</span></span>
+<span id="cb1-22"><a href="#cb1-22" aria-hidden="true" tabindex="-1"></a><span class="vs">--mermaid-label-fg-color: #000;</span></span>
+<span id="cb1-23"><a href="#cb1-23" aria-hidden="true" tabindex="-1"></a><span class="vs">--mermaid-fg-color--lightest: #fff;</span></span>
+<span id="cb1-24"><a href="#cb1-24" aria-hidden="true" tabindex="-1"></a><span class="vs">--mermaid-fg-color--lighter: #fff;</span></span>
+<span id="cb1-25"><a href="#cb1-25" aria-hidden="true" tabindex="-1"></a><span class="vs">}</span></span>
+<span id="cb1-26"><a href="#cb1-26" aria-hidden="true" tabindex="-1"></a><span class="vs">&lt;/style&gt;</span></span>
+<span id="cb1-27"><a href="#cb1-27" aria-hidden="true" tabindex="-1"></a><span class="vs">`</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <div class="cell-output cell-output-display">
 <div>
 <div id="ojs-cell-1-1" data-nodetype="declaration">
@@ -172,50 +191,53 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 </div>
 </div>
 </div>
-<div class="sourceCode cell-code hidden" id="cb2" data-startfrom="22" data-source-offset="-268"><pre class="sourceCode js code-with-copy"><code class="sourceCode javascript" style="counter-reset: source-line 21;"><span id="cb2-22"><a href="#cb2-22" aria-hidden="true" tabindex="-1"></a><span class="fu">mermaid</span><span class="vs">`flowchart TD</span></span>
-<span id="cb2-23"><a href="#cb2-23" aria-hidden="true" tabindex="-1"></a><span class="vs">subgraph &lt;b&gt;CCIEA Uploader flowchart&lt;/b&gt;</span></span>
-<span id="cb2-24"><a href="#cb2-24" aria-hidden="true" tabindex="-1"></a><span class="vs">direction LR</span></span>
-<span id="cb2-25"><a href="#cb2-25" aria-hidden="true" tabindex="-1"></a><span class="vs"> subgraph &lt;br&gt;</span></span>
-<span id="cb2-26"><a href="#cb2-26" aria-hidden="true" tabindex="-1"></a><span class="vs"> direction TB</span></span>
-<span id="cb2-27"><a href="#cb2-27" aria-hidden="true" tabindex="-1"></a><span class="vs">   Z1(CCIEA Uploader - Uploader tab) --&gt; Z</span></span>
-<span id="cb2-28"><a href="#cb2-28" aria-hidden="true" tabindex="-1"></a><span class="vs">   Z1 -- optional--&gt; K1{Download&lt;br&gt;previous&lt;br&gt;data files?}</span></span>
-<span id="cb2-29"><a href="#cb2-29" aria-hidden="true" tabindex="-1"></a><span class="vs">   Z(View Current Metadata) --&gt; B(Choose Data Provider)--&gt;  D[Select Indicators and&lt;br&gt;examine metadata]</span></span>
-<span id="cb2-30"><a href="#cb2-30" aria-hidden="true" tabindex="-1"></a><span class="vs">   B --Rare: Data provider&lt;br&gt;has data in&lt;br&gt;more than one&lt;br&gt;component--&gt; E(Choose Component) --&gt;D</span></span>
-<span id="cb2-31"><a href="#cb2-31" aria-hidden="true" tabindex="-1"></a><span class="vs">   D --&gt;F{Metadata&lt;br&gt;need&lt;br&gt;updating?}</span></span>
-<span id="cb2-32"><a href="#cb2-32" aria-hidden="true" tabindex="-1"></a><span class="vs">   K1--Yes--&gt; H[Download Last Year] -.-&gt;  </span><span class="sc">${</span>data_file_node<span class="sc">}</span><span class="vs">  -. view and&lt;br&gt;optionally update .-&gt; G</span></span>
-<span id="cb2-33"><a href="#cb2-33" aria-hidden="true" tabindex="-1"></a><span class="vs">   F --No--&gt; G[Upload This year]</span></span>
-<span id="cb2-34"><a href="#cb2-34" aria-hidden="true" tabindex="-1"></a><span class="vs">   K1 --No--&gt; G</span></span>
-<span id="cb2-35"><a href="#cb2-35" aria-hidden="true" tabindex="-1"></a><span class="vs">   F --Yes--&gt; H[Download Last Year]</span></span>
-<span id="cb2-36"><a href="#cb2-36" aria-hidden="true" tabindex="-1"></a><span class="vs">   H --&gt; </span><span class="sc">${</span>meta_file_node<span class="sc">}</span><span class="vs">  -- edit&lt;br&gt;metadata --&gt; G</span></span>
-<span id="cb2-37"><a href="#cb2-37" aria-hidden="true" tabindex="-1"></a><span class="vs">  G --&gt; I{What are you&lt;br&gt;uploading?} --&gt; J[/Updated&lt;br&gt;metadata/] --&gt;T[Upload file to Google Drive]</span></span>
-<span id="cb2-38"><a href="#cb2-38" aria-hidden="true" tabindex="-1"></a><span class="vs">  I--&gt; K[/Indicator&lt;br&gt;time series/]--&gt; O{Data file&lt;br&gt;name in&lt;br&gt;conventions&lt;br&gt;list?}</span></span>
-<span id="cb2-39"><a href="#cb2-39" aria-hidden="true" tabindex="-1"></a><span class="vs">  I--&gt; V[/other types&lt;br&gt;of files/] --Upload plots,&lt;br&gt;indicator text summaries,&lt;br&gt;other ESR files--&gt;T</span></span>
-<span id="cb2-40"><a href="#cb2-40" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb2-41"><a href="#cb2-41" aria-hidden="true" tabindex="-1"></a><span class="vs">O --Yes--&gt; P[Browse your&lt;br&gt;file system&lt;br&gt;for data file&lt;br&gt;-&gt; csv only]</span></span>
-<span id="cb2-42"><a href="#cb2-42" aria-hidden="true" tabindex="-1"></a><span class="vs">O --No--&gt; Q[rename file] --&gt; P</span></span>
-<span id="cb2-43"><a href="#cb2-43" aria-hidden="true" tabindex="-1"></a><span class="vs">P --&gt; R[/Data file in browser/] --&gt;S{pass file&lt;br&gt;checks?}</span></span>
-<span id="cb2-44"><a href="#cb2-44" aria-hidden="true" tabindex="-1"></a><span class="vs">S --Yes--&gt;  T</span></span>
-<span id="cb2-45"><a href="#cb2-45" aria-hidden="true" tabindex="-1"></a><span class="vs">S -- No --&gt; U[Edit to&lt;br&gt;correct file&lt;br&gt;name or headers] --&gt; T</span></span>
-<span id="cb2-46"><a href="#cb2-46" aria-hidden="true" tabindex="-1"></a><span class="vs">T --&gt; Y{Upload&lt;br&gt;another csv&lt;br&gt;data file?}--Yes--&gt; G</span></span>
-<span id="cb2-47"><a href="#cb2-47" aria-hidden="true" tabindex="-1"></a><span class="vs">Y --No--&gt; W[return tomorrow&lt;br&gt;to view updated&lt;br&gt;data and metadata]</span></span>
-<span id="cb2-48"><a href="#cb2-48" aria-hidden="true" tabindex="-1"></a><span class="vs">  end</span></span>
-<span id="cb2-49"><a href="#cb2-49" aria-hidden="true" tabindex="-1"></a><span class="vs">  subgraph &lt;b&gt;Legend&lt;/b&gt;</span></span>
-<span id="cb2-50"><a href="#cb2-50" aria-hidden="true" tabindex="-1"></a><span class="vs">  direction LR</span></span>
-<span id="cb2-51"><a href="#cb2-51" aria-hidden="true" tabindex="-1"></a><span class="vs">   L1(Web page tabs) ~~~ L2(menus) ~~~ L3(Decisions) ~~~ L4(Data) ~~~ L5(Actions)</span></span>
-<span id="cb2-52"><a href="#cb2-52" aria-hidden="true" tabindex="-1"></a><span class="vs">  end</span></span>
-<span id="cb2-53"><a href="#cb2-53" aria-hidden="true" tabindex="-1"></a><span class="vs">  end</span></span>
-<span id="cb2-54"><a href="#cb2-54" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb2-55"><a href="#cb2-55" aria-hidden="true" tabindex="-1"></a><span class="vs">  classDef htm fill:#4682b4,stroke:#333,stroke-width:2px,color:#fff;</span></span>
-<span id="cb2-56"><a href="#cb2-56" aria-hidden="true" tabindex="-1"></a><span class="vs">  classDef menu fill:#ffffc5,stroke:#333,stroke-width:2px,color:#000;</span></span>
-<span id="cb2-57"><a href="#cb2-57" aria-hidden="true" tabindex="-1"></a><span class="vs">  classDef data fill:#add8e6,stroke:#333,stroke-width:2px,color:#000;</span></span>
-<span id="cb2-58"><a href="#cb2-58" aria-hidden="true" tabindex="-1"></a><span class="vs">  classDef action fill:#ffcccb,stroke:#333,stroke-width:2px,color:#000;</span></span>
-<span id="cb2-59"><a href="#cb2-59" aria-hidden="true" tabindex="-1"></a><span class="vs">  classDef decision fill:#d4e6f9,stroke:#333,stroke-width:2px,color:#000;</span></span>
-<span id="cb2-60"><a href="#cb2-60" aria-hidden="true" tabindex="-1"></a><span class="vs">  class Z,Z1,H,L,G,L1 htm</span></span>
-<span id="cb2-61"><a href="#cb2-61" aria-hidden="true" tabindex="-1"></a><span class="vs">  class B,E,D,T,P,W,X,L2 menu</span></span>
-<span id="cb2-62"><a href="#cb2-62" aria-hidden="true" tabindex="-1"></a><span class="vs">  class K1,F,I,O,S,Y,L3 decision</span></span>
-<span id="cb2-63"><a href="#cb2-63" aria-hidden="true" tabindex="-1"></a><span class="vs">  class J,K,M,N,R,V,L4 data</span></span>
-<span id="cb2-64"><a href="#cb2-64" aria-hidden="true" tabindex="-1"></a><span class="vs">  class Q,U,L5 action</span></span>
-<span id="cb2-65"><a href="#cb2-65" aria-hidden="true" tabindex="-1"></a><span class="vs"> `</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode cell-code hidden" id="cb2" data-startfrom="29" data-source-offset="-268"><pre class="sourceCode js code-with-copy"><code class="sourceCode javascript" style="counter-reset: source-line 28;"><span id="cb2-29"><a href="#cb2-29" aria-hidden="true" tabindex="-1"></a><span class="fu">mermaid</span><span class="vs">`</span></span>
+<span id="cb2-30"><a href="#cb2-30" aria-hidden="true" tabindex="-1"></a><span class="vs">flowchart TD</span></span>
+<span id="cb2-31"><a href="#cb2-31" aria-hidden="true" tabindex="-1"></a><span class="vs">subgraph &lt;b&gt;&lt;/b&gt;</span></span>
+<span id="cb2-32"><a href="#cb2-32" aria-hidden="true" tabindex="-1"></a><span class="vs">  direction LR</span></span>
+<span id="cb2-33"><a href="#cb2-33" aria-hidden="true" tabindex="-1"></a><span class="vs">  subgraph &lt;i&gt;Legend&lt;/i&gt;</span></span>
+<span id="cb2-34"><a href="#cb2-34" aria-hidden="true" tabindex="-1"></a><span class="vs">  direction LR</span></span>
+<span id="cb2-35"><a href="#cb2-35" aria-hidden="true" tabindex="-1"></a><span class="vs">   L1(Web page tab) ~~~ L2(menu) ~~~ L3(Decision) ~~~ L4(Data) ~~~ L5(Action)</span></span>
+<span id="cb2-36"><a href="#cb2-36" aria-hidden="true" tabindex="-1"></a><span class="vs">end</span></span>
+<span id="cb2-37"><a href="#cb2-37" aria-hidden="true" tabindex="-1"></a><span class="vs">subgraph &lt;br&gt;</span></span>
+<span id="cb2-38"><a href="#cb2-38" aria-hidden="true" tabindex="-1"></a><span class="vs">  direction TB</span></span>
+<span id="cb2-39"><a href="#cb2-39" aria-hidden="true" tabindex="-1"></a><span class="vs">   Z1(CCIEA Uploader) --&gt; B(Choose Data Provider)</span></span>
+<span id="cb2-40"><a href="#cb2-40" aria-hidden="true" tabindex="-1"></a><span class="vs">   B --&gt;  Z(View Current Indicators)</span></span>
+<span id="cb2-41"><a href="#cb2-41" aria-hidden="true" tabindex="-1"></a><span class="vs">   B -.Rare: Data provider&lt;br&gt;has data in&lt;br&gt;more than one&lt;br&gt;component.-&gt; E(Choose Component) .-&gt; Z</span></span>
+<span id="cb2-42"><a href="#cb2-42" aria-hidden="true" tabindex="-1"></a><span class="vs">   Z --&gt;  D[Select Indicators and&lt;br&gt;examine metadata]</span></span>
+<span id="cb2-43"><a href="#cb2-43" aria-hidden="true" tabindex="-1"></a><span class="vs">   Z -. optional .-&gt; K1{Download&lt;br&gt;previous&lt;br&gt;data files?}</span></span>
+<span id="cb2-44"><a href="#cb2-44" aria-hidden="true" tabindex="-1"></a><span class="vs">   D --&gt;F{Metadata&lt;br&gt;need&lt;br&gt;updating?}</span></span>
+<span id="cb2-45"><a href="#cb2-45" aria-hidden="true" tabindex="-1"></a><span class="vs">   H --&gt; </span><span class="sc">${</span>meta_file_node<span class="sc">}</span><span class="vs">  -- edit&lt;br&gt;metadata ---&gt; G</span></span>
+<span id="cb2-46"><a href="#cb2-46" aria-hidden="true" tabindex="-1"></a><span class="vs">   K1-.Yes.-&gt; H[Download Last Year] .-&gt;  </span><span class="sc">${</span>data_file_node<span class="sc">}</span><span class="vs">  -. view and&lt;br&gt;optionally update ..-&gt; G</span></span>
+<span id="cb2-47"><a href="#cb2-47" aria-hidden="true" tabindex="-1"></a><span class="vs">   F --No--&gt; G[Upload This year]</span></span>
+<span id="cb2-48"><a href="#cb2-48" aria-hidden="true" tabindex="-1"></a><span class="vs">   K1 -.No.-&gt; G</span></span>
+<span id="cb2-49"><a href="#cb2-49" aria-hidden="true" tabindex="-1"></a><span class="vs">   F --Yes--&gt; H[Download Last Year]</span></span>
+<span id="cb2-50"><a href="#cb2-50" aria-hidden="true" tabindex="-1"></a><span class="vs">   G --&gt; I{What are you&lt;br&gt;uploading?} --&gt; J[/Updated&lt;br&gt;metadata/] --------&gt;T[Upload file to Google Drive]</span></span>
+<span id="cb2-51"><a href="#cb2-51" aria-hidden="true" tabindex="-1"></a><span class="vs">   I--&gt; K[/Indicator&lt;br&gt;time series/]--&gt; O{Data file&lt;br&gt;name in&lt;br&gt;conventions&lt;br&gt;list?}</span></span>
+<span id="cb2-52"><a href="#cb2-52" aria-hidden="true" tabindex="-1"></a><span class="vs">   I--&gt; V[/other types&lt;br&gt;of files/] --Upload plots,&lt;br&gt;indicator text summaries,&lt;br&gt;other ESR files--------&gt;T</span></span>
+<span id="cb2-53"><a href="#cb2-53" aria-hidden="true" tabindex="-1"></a><span class="vs">   O --Yes--&gt; P[Browse your&lt;br&gt;file system&lt;br&gt;for data file&lt;br&gt;-&gt; csv only]</span></span>
+<span id="cb2-54"><a href="#cb2-54" aria-hidden="true" tabindex="-1"></a><span class="vs">   O --No--&gt; Q[rename file] --&gt; P</span></span>
+<span id="cb2-55"><a href="#cb2-55" aria-hidden="true" tabindex="-1"></a><span class="vs">   P --&gt; R[/View data in uploader table/] --&gt;S{do file&lt;br&gt;checks pass?}</span></span>
+<span id="cb2-56"><a href="#cb2-56" aria-hidden="true" tabindex="-1"></a><span class="vs">   S --Yes--&gt;  T</span></span>
+<span id="cb2-57"><a href="#cb2-57" aria-hidden="true" tabindex="-1"></a><span class="vs">   S -- No --&gt; U[Edit to&lt;br&gt;correct file&lt;br&gt;name or headers] --&gt; T</span></span>
+<span id="cb2-58"><a href="#cb2-58" aria-hidden="true" tabindex="-1"></a><span class="vs">   T --&gt; Y{Upload&lt;br&gt;another csv&lt;br&gt;data file?}--Yes--&gt; G</span></span>
+<span id="cb2-59"><a href="#cb2-59" aria-hidden="true" tabindex="-1"></a><span class="vs">   Y --No--&gt; W[return tomorrow&lt;br&gt;to view updated&lt;br&gt;data and metadata]</span></span>
+<span id="cb2-60"><a href="#cb2-60" aria-hidden="true" tabindex="-1"></a><span class="vs">  end</span></span>
+<span id="cb2-61"><a href="#cb2-61" aria-hidden="true" tabindex="-1"></a><span class="vs">end</span></span>
+<span id="cb2-62"><a href="#cb2-62" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb2-63"><a href="#cb2-63" aria-hidden="true" tabindex="-1"></a><span class="vs">  classDef top fill:#fff,stroke:#4682b4,stroke-width:4px,color:#000;</span></span>
+<span id="cb2-64"><a href="#cb2-64" aria-hidden="true" tabindex="-1"></a><span class="vs">  classDef htm fill:#4682b4,stroke:#333,stroke-width:2px,color:#fff;</span></span>
+<span id="cb2-65"><a href="#cb2-65" aria-hidden="true" tabindex="-1"></a><span class="vs">  classDef menu fill:#ffffc5,stroke:#333,stroke-width:2px,color:#000;</span></span>
+<span id="cb2-66"><a href="#cb2-66" aria-hidden="true" tabindex="-1"></a><span class="vs">  classDef data fill:#add8e6,stroke:#333,stroke-width:2px,color:#000;</span></span>
+<span id="cb2-67"><a href="#cb2-67" aria-hidden="true" tabindex="-1"></a><span class="vs">  classDef action fill:#ffcccb,stroke:#333,stroke-width:2px,color:#000;</span></span>
+<span id="cb2-68"><a href="#cb2-68" aria-hidden="true" tabindex="-1"></a><span class="vs">  classDef decision fill:#d4e6f9,stroke:#333,stroke-width:2px,color:#000;</span></span>
+<span id="cb2-69"><a href="#cb2-69" aria-hidden="true" tabindex="-1"></a><span class="vs">  class Z1 top</span></span>
+<span id="cb2-70"><a href="#cb2-70" aria-hidden="true" tabindex="-1"></a><span class="vs">  class Z,H,L,G,L1 htm</span></span>
+<span id="cb2-71"><a href="#cb2-71" aria-hidden="true" tabindex="-1"></a><span class="vs">  class B,E,D,T,P,W,X,L2 menu</span></span>
+<span id="cb2-72"><a href="#cb2-72" aria-hidden="true" tabindex="-1"></a><span class="vs">  class K1,F,I,O,S,Y,L3 decision</span></span>
+<span id="cb2-73"><a href="#cb2-73" aria-hidden="true" tabindex="-1"></a><span class="vs">  class J,K,M,N,R,V,L4 data</span></span>
+<span id="cb2-74"><a href="#cb2-74" aria-hidden="true" tabindex="-1"></a><span class="vs">  class Q,U,L5 action</span></span>
+<span id="cb2-75"><a href="#cb2-75" aria-hidden="true" tabindex="-1"></a><span class="vs"> `</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <div class="cell-output cell-output-display">
 <div>
 <div id="ojs-cell-1-5" data-nodetype="expression">
@@ -224,12 +246,46 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 </div>
 </div>
 </div>
+</div>
+<div class="g-col-5">
+<p><strong>Start:</strong> Choose a data provider at the top of the page (and a component if available)</p>
+<p><img src="figures/data_provider.png" class="img-fluid"></p>
+<p><strong>Next:</strong> View Current Indicators</p>
+<p><img src="figures/indicators.png" class="img-fluid"></p>
+<ul>
+<li>Select each indicator on the left of the page to see the current indicator metadata
+<ul>
+<li>Is the metadata correct?
+<ul>
+<li>If so, there’s no need to download last year’s metadata</li>
+</ul></li>
+<li>Does the metadata need updating?
+<ul>
+<li>If so: go to tab 2, “Download Last Year”, to download a csv file of the current metadata</li>
+</ul></li>
+</ul></li>
+</ul>
+<p><strong>Download Previous:</strong> (as needed)</p>
+<p><img src="figures/download.png" class="img-fluid"></p>
+<ul>
+<li><strong><em>Metadata</em></strong>: download and edit a csv file of your current metadata if it needs updating</li>
+<li><strong><em>Data</em></strong>: optionally download last year’s files and manually update them, or use them as a template for this year</li>
+</ul>
+<p><strong>Upload new:</strong></p>
+<p><img src="figures/upload.png" class="img-fluid"></p>
+<ul>
+<li>Browse for files to upload</li>
+<li>Check your files to make sure they can be automatically ingested</li>
+</ul>
+</div>
+</div>
 
 
+</section>
 
 </main> <!-- /main -->
 <script type="ojs-module-contents">
-eyJjb250ZW50cyI6W3sibWV0aG9kTmFtZSI6ImludGVycHJldCIsImNlbGxOYW1lIjoib2pzLWNlbGwtMSIsImlubGluZSI6ZmFsc2UsInNvdXJjZSI6Imxhc3RfeWVhcj1cIjIwMjQtMjAyNVwiXG5kYXRhX2ZpbGVfbm9kZT1cIk5bXFxcXFwiK2xhc3RfeWVhcitcIiBkYXRhIGNzdiBmaWxlXFxcXF1cIlxubWV0YV9maWxlX25vZGU9XCJNW1xcXFxcIitsYXN0X3llYXIrXCIgbWV0YWRhdGEgY3N2IGZpbGVcXFxcXVwiXG5cbmh0bWxgPHN0eWxlPlxuOnJvb3R7XG4tLW1lcm1haWQtbGFiZWwtZmctY29sb3I6ICMwMDA7XG4tLW1lcm1haWQtZmctY29sb3ItLWxpZ2h0ZXN0OiAjZmZmO1xuLS1tZXJtYWlkLWZnLWNvbG9yLS1saWdodGVyOiAjZmZmO1xufVxuPC9zdHlsZT5cbmBcblxubWVybWFpZGBmbG93Y2hhcnQgVERcbnN1YmdyYXBoIDxiPkNDSUVBIFVwbG9hZGVyIGZsb3djaGFydDwvYj5cbmRpcmVjdGlvbiBMUlxuIHN1YmdyYXBoIDxicj5cbiBkaXJlY3Rpb24gVEJcbiAgIFoxKENDSUVBIFVwbG9hZGVyIC0gVXBsb2FkZXIgdGFiKSAtLT4gWlxuICAgWjEgLS0gb3B0aW9uYWwtLT4gSzF7RG93bmxvYWQ8YnI+cHJldmlvdXM8YnI+ZGF0YSBmaWxlcz99XG4gICBaKFZpZXcgQ3VycmVudCBNZXRhZGF0YSkgLS0+IEIoQ2hvb3NlIERhdGEgUHJvdmlkZXIpLS0+ICBEW1NlbGVjdCBJbmRpY2F0b3JzIGFuZDxicj5leGFtaW5lIG1ldGFkYXRhXVxuICAgQiAtLVJhcmU6IERhdGEgcHJvdmlkZXI8YnI+aGFzIGRhdGEgaW48YnI+bW9yZSB0aGFuIG9uZTxicj5jb21wb25lbnQtLT4gRShDaG9vc2UgQ29tcG9uZW50KSAtLT5EXG4gICBEIC0tPkZ7TWV0YWRhdGE8YnI+bmVlZDxicj51cGRhdGluZz99XG4gICBLMS0tWWVzLS0+IEhbRG93bmxvYWQgTGFzdCBZZWFyXSAtLi0+ICAke2RhdGFfZmlsZV9ub2RlfSAgLS4gdmlldyBhbmQ8YnI+b3B0aW9uYWxseSB1cGRhdGUgLi0+IEdcbiAgIEYgLS1Oby0tPiBHW1VwbG9hZCBUaGlzIHllYXJdXG4gICBLMSAtLU5vLS0+IEdcbiAgIEYgLS1ZZXMtLT4gSFtEb3dubG9hZCBMYXN0IFllYXJdXG4gICBIIC0tPiAke21ldGFfZmlsZV9ub2RlfSAgLS0gZWRpdDxicj5tZXRhZGF0YSAtLT4gR1xuICBHIC0tPiBJe1doYXQgYXJlIHlvdTxicj51cGxvYWRpbmc/fSAtLT4gSlsvVXBkYXRlZDxicj5tZXRhZGF0YS9dIC0tPlRbVXBsb2FkIGZpbGUgdG8gR29vZ2xlIERyaXZlXVxuICBJLS0+IEtbL0luZGljYXRvcjxicj50aW1lIHNlcmllcy9dLS0+IE97RGF0YSBmaWxlPGJyPm5hbWUgaW48YnI+Y29udmVudGlvbnM8YnI+bGlzdD99XG4gIEktLT4gVlsvb3RoZXIgdHlwZXM8YnI+b2YgZmlsZXMvXSAtLVVwbG9hZCBwbG90cyw8YnI+aW5kaWNhdG9yIHRleHQgc3VtbWFyaWVzLDxicj5vdGhlciBFU1IgZmlsZXMtLT5UXG5cbk8gLS1ZZXMtLT4gUFtCcm93c2UgeW91cjxicj5maWxlIHN5c3RlbTxicj5mb3IgZGF0YSBmaWxlPGJyPi0+IGNzdiBvbmx5XVxuTyAtLU5vLS0+IFFbcmVuYW1lIGZpbGVdIC0tPiBQXG5QIC0tPiBSWy9EYXRhIGZpbGUgaW4gYnJvd3Nlci9dIC0tPlN7cGFzcyBmaWxlPGJyPmNoZWNrcz99XG5TIC0tWWVzLS0+ICBUXG5TIC0tIE5vIC0tPiBVW0VkaXQgdG88YnI+Y29ycmVjdCBmaWxlPGJyPm5hbWUgb3IgaGVhZGVyc10gLS0+IFRcblQgLS0+IFl7VXBsb2FkPGJyPmFub3RoZXIgY3N2PGJyPmRhdGEgZmlsZT99LS1ZZXMtLT4gR1xuWSAtLU5vLS0+IFdbcmV0dXJuIHRvbW9ycm93PGJyPnRvIHZpZXcgdXBkYXRlZDxicj5kYXRhIGFuZCBtZXRhZGF0YV1cbiAgZW5kXG4gIHN1YmdyYXBoIDxiPkxlZ2VuZDwvYj5cbiAgZGlyZWN0aW9uIExSXG4gICBMMShXZWIgcGFnZSB0YWJzKSB+fn4gTDIobWVudXMpIH5+fiBMMyhEZWNpc2lvbnMpIH5+fiBMNChEYXRhKSB+fn4gTDUoQWN0aW9ucylcbiAgZW5kXG4gIGVuZFxuXG4gIGNsYXNzRGVmIGh0bSBmaWxsOiM0NjgyYjQsc3Ryb2tlOiMzMzMsc3Ryb2tlLXdpZHRoOjJweCxjb2xvcjojZmZmO1xuICBjbGFzc0RlZiBtZW51IGZpbGw6I2ZmZmZjNSxzdHJva2U6IzMzMyxzdHJva2Utd2lkdGg6MnB4LGNvbG9yOiMwMDA7XG4gIGNsYXNzRGVmIGRhdGEgZmlsbDojYWRkOGU2LHN0cm9rZTojMzMzLHN0cm9rZS13aWR0aDoycHgsY29sb3I6IzAwMDtcbiAgY2xhc3NEZWYgYWN0aW9uIGZpbGw6I2ZmY2NjYixzdHJva2U6IzMzMyxzdHJva2Utd2lkdGg6MnB4LGNvbG9yOiMwMDA7XG4gIGNsYXNzRGVmIGRlY2lzaW9uIGZpbGw6I2Q0ZTZmOSxzdHJva2U6IzMzMyxzdHJva2Utd2lkdGg6MnB4LGNvbG9yOiMwMDA7XG4gIGNsYXNzIFosWjEsSCxMLEcsTDEgaHRtXG4gIGNsYXNzIEIsRSxELFQsUCxXLFgsTDIgbWVudVxuICBjbGFzcyBLMSxGLEksTyxTLFksTDMgZGVjaXNpb25cbiAgY2xhc3MgSixLLE0sTixSLFYsTDQgZGF0YVxuICBjbGFzcyBRLFUsTDUgYWN0aW9uXG4gYFxuXG4ifV19
+eyJjb250ZW50cyI6W3sibWV0aG9kTmFtZSI6ImludGVycHJldCIsImNlbGxOYW1lIjoib2pzLWNlbGwtMSIsImlubGluZSI6ZmFsc2UsInNvdXJjZSI6Imxhc3RfeWVhcj1cIjIwMjQtMjAyNVwiXG5kYXRhX2ZpbGVfbm9kZT1cIk5bXFxcXFwiK2xhc3RfeWVhcitcIiBkYXRhIGNzdiBmaWxlXFxcXF1cIlxubWV0YV9maWxlX25vZGU9XCJNW1xcXFxcIitsYXN0X3llYXIrXCIgbWV0YWRhdGEgY3N2IGZpbGVcXFxcXVwiXG5cbmh0bWxgPHN0eWxlPlxuOnJvb3R7XG4tLW1lcm1haWQtbGFiZWwtZmctY29sb3I6ICMwMDA7XG4tLW1lcm1haWQtZmctY29sb3ItLWxpZ2h0ZXN0OiAjZmZmO1xuLS1tZXJtYWlkLWZnLWNvbG9yLS1saWdodGVyOiAjZmZmO1xufVxuPC9zdHlsZT5cbmBcblxubWVybWFpZGBcbmZsb3djaGFydCBURFxuc3ViZ3JhcGggPGI+PC9iPlxuICBkaXJlY3Rpb24gTFJcbiAgc3ViZ3JhcGggPGk+TGVnZW5kPC9pPlxuICBkaXJlY3Rpb24gTFJcbiAgIEwxKFdlYiBwYWdlIHRhYikgfn5+IEwyKG1lbnUpIH5+fiBMMyhEZWNpc2lvbikgfn5+IEw0KERhdGEpIH5+fiBMNShBY3Rpb24pXG5lbmRcbnN1YmdyYXBoIDxicj5cbiAgZGlyZWN0aW9uIFRCXG4gICBaMShDQ0lFQSBVcGxvYWRlcikgLS0+IEIoQ2hvb3NlIERhdGEgUHJvdmlkZXIpXG4gICBCIC0tPiAgWihWaWV3IEN1cnJlbnQgSW5kaWNhdG9ycylcbiAgIEIgLS5SYXJlOiBEYXRhIHByb3ZpZGVyPGJyPmhhcyBkYXRhIGluPGJyPm1vcmUgdGhhbiBvbmU8YnI+Y29tcG9uZW50Li0+IEUoQ2hvb3NlIENvbXBvbmVudCkgLi0+IFpcbiAgIFogLS0+ICBEW1NlbGVjdCBJbmRpY2F0b3JzIGFuZDxicj5leGFtaW5lIG1ldGFkYXRhXVxuICAgWiAtLiBvcHRpb25hbCAuLT4gSzF7RG93bmxvYWQ8YnI+cHJldmlvdXM8YnI+ZGF0YSBmaWxlcz99XG4gICBEIC0tPkZ7TWV0YWRhdGE8YnI+bmVlZDxicj51cGRhdGluZz99XG4gICBIIC0tPiAke21ldGFfZmlsZV9ub2RlfSAgLS0gZWRpdDxicj5tZXRhZGF0YSAtLS0+IEdcbiAgIEsxLS5ZZXMuLT4gSFtEb3dubG9hZCBMYXN0IFllYXJdIC4tPiAgJHtkYXRhX2ZpbGVfbm9kZX0gIC0uIHZpZXcgYW5kPGJyPm9wdGlvbmFsbHkgdXBkYXRlIC4uLT4gR1xuICAgRiAtLU5vLS0+IEdbVXBsb2FkIFRoaXMgeWVhcl1cbiAgIEsxIC0uTm8uLT4gR1xuICAgRiAtLVllcy0tPiBIW0Rvd25sb2FkIExhc3QgWWVhcl1cbiAgIEcgLS0+IEl7V2hhdCBhcmUgeW91PGJyPnVwbG9hZGluZz99IC0tPiBKWy9VcGRhdGVkPGJyPm1ldGFkYXRhL10gLS0tLS0tLS0+VFtVcGxvYWQgZmlsZSB0byBHb29nbGUgRHJpdmVdXG4gICBJLS0+IEtbL0luZGljYXRvcjxicj50aW1lIHNlcmllcy9dLS0+IE97RGF0YSBmaWxlPGJyPm5hbWUgaW48YnI+Y29udmVudGlvbnM8YnI+bGlzdD99XG4gICBJLS0+IFZbL290aGVyIHR5cGVzPGJyPm9mIGZpbGVzL10gLS1VcGxvYWQgcGxvdHMsPGJyPmluZGljYXRvciB0ZXh0IHN1bW1hcmllcyw8YnI+b3RoZXIgRVNSIGZpbGVzLS0tLS0tLS0+VFxuICAgTyAtLVllcy0tPiBQW0Jyb3dzZSB5b3VyPGJyPmZpbGUgc3lzdGVtPGJyPmZvciBkYXRhIGZpbGU8YnI+LT4gY3N2IG9ubHldXG4gICBPIC0tTm8tLT4gUVtyZW5hbWUgZmlsZV0gLS0+IFBcbiAgIFAgLS0+IFJbL1ZpZXcgZGF0YSBpbiB1cGxvYWRlciB0YWJsZS9dIC0tPlN7ZG8gZmlsZTxicj5jaGVja3MgcGFzcz99XG4gICBTIC0tWWVzLS0+ICBUXG4gICBTIC0tIE5vIC0tPiBVW0VkaXQgdG88YnI+Y29ycmVjdCBmaWxlPGJyPm5hbWUgb3IgaGVhZGVyc10gLS0+IFRcbiAgIFQgLS0+IFl7VXBsb2FkPGJyPmFub3RoZXIgY3N2PGJyPmRhdGEgZmlsZT99LS1ZZXMtLT4gR1xuICAgWSAtLU5vLS0+IFdbcmV0dXJuIHRvbW9ycm93PGJyPnRvIHZpZXcgdXBkYXRlZDxicj5kYXRhIGFuZCBtZXRhZGF0YV1cbiAgZW5kXG5lbmRcblxuICBjbGFzc0RlZiB0b3AgZmlsbDojZmZmLHN0cm9rZTojNDY4MmI0LHN0cm9rZS13aWR0aDo0cHgsY29sb3I6IzAwMDtcbiAgY2xhc3NEZWYgaHRtIGZpbGw6IzQ2ODJiNCxzdHJva2U6IzMzMyxzdHJva2Utd2lkdGg6MnB4LGNvbG9yOiNmZmY7XG4gIGNsYXNzRGVmIG1lbnUgZmlsbDojZmZmZmM1LHN0cm9rZTojMzMzLHN0cm9rZS13aWR0aDoycHgsY29sb3I6IzAwMDtcbiAgY2xhc3NEZWYgZGF0YSBmaWxsOiNhZGQ4ZTYsc3Ryb2tlOiMzMzMsc3Ryb2tlLXdpZHRoOjJweCxjb2xvcjojMDAwO1xuICBjbGFzc0RlZiBhY3Rpb24gZmlsbDojZmZjY2NiLHN0cm9rZTojMzMzLHN0cm9rZS13aWR0aDoycHgsY29sb3I6IzAwMDtcbiAgY2xhc3NEZWYgZGVjaXNpb24gZmlsbDojZDRlNmY5LHN0cm9rZTojMzMzLHN0cm9rZS13aWR0aDoycHgsY29sb3I6IzAwMDtcbiAgY2xhc3MgWjEgdG9wXG4gIGNsYXNzIFosSCxMLEcsTDEgaHRtXG4gIGNsYXNzIEIsRSxELFQsUCxXLFgsTDIgbWVudVxuICBjbGFzcyBLMSxGLEksTyxTLFksTDMgZGVjaXNpb25cbiAgY2xhc3MgSixLLE0sTixSLFYsTDQgZGF0YVxuICBjbGFzcyBRLFUsTDUgYWN0aW9uXG4gYFxuXG4ifV19
 </script>
 <script type="module">
 if (window.location.protocol === "file:") { alert("The OJS runtime does not work with file:// URLs. Please use a web server to view this document."); }

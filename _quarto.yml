@@ -15,15 +15,26 @@ website:
     logo-href: "https://www.integratedecosystemassessment.noaa.gov/regions/california-current"
     left:
     - text: "Uploader"
-      href: uploader.qmd
+      href: index.qmd
+    - text: "How To"
+      href: work_flow1.qmd
+    - text: "FAQ"
+      href: faq.qmd
+    right:
     - text: "Status"
       href: status.qmd
+    - icon: github
+      href: https://github.com/lmdewitt/UploaderTes
 
 format:
   html:
     theme:
       - cosmo
       - custom.css
+    grid:
+      body-width: 1400px
+      margin-width: 20px
+      sidebar-width: 20px
 resources:
   - data
 

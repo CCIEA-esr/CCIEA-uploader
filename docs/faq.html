@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>code_flow – CCIEA Uploader</title>
+<title>faq – CCIEA Uploader</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -51,14 +51,11 @@ ul.task-list li input[type="checkbox"] {
     "search-label": "Search"
   }
 }</script>
-<script src="site_libs/quarto-diagram/mermaid.min.js"></script>
-<script src="site_libs/quarto-diagram/mermaid-init.js"></script>
-<link href="site_libs/quarto-diagram/mermaid.css" rel="stylesheet">
 
 
 </head>
 
-<body class="nav-fixed">
+<body class="nav-fixed fullcontent">
 
 <div id="quarto-search-results"></div>
   <header id="quarto-header" class="headroom fixed-top">
@@ -74,12 +71,27 @@ ul.task-list li input[type="checkbox"] {
   </div>
           <ul class="navbar-nav navbar-nav-scroll me-auto">
   <li class="nav-item">
-    <a class="nav-link" href="./uploader.html"> 
+    <a class="nav-link" href="./index.html"> 
 <span class="menu-text">Uploader</span></a>
   </li>  
   <li class="nav-item">
+    <a class="nav-link" href="./work_flow1.html"> 
+<span class="menu-text">How To</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link active" href="./faq.html" aria-current="page"> 
+<span class="menu-text">FAQ</span></a>
+  </li>  
+</ul>
+          <ul class="navbar-nav navbar-nav-scroll ms-auto">
+  <li class="nav-item">
     <a class="nav-link" href="./status.html"> 
 <span class="menu-text">Status</span></a>
+  </li>  
+  <li class="nav-item compact">
+    <a class="nav-link" href="https://github.com/lmdewitt/UploaderTes"> <i class="bi bi-github" role="img">
+</i> 
+<span class="menu-text"></span></a>
   </li>  
 </ul>
           <div class="quarto-navbar-tools">
@@ -91,66 +103,173 @@ ul.task-list li input[type="checkbox"] {
 <div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
-    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
-    <div class="quarto-alternate-formats"><h2>Other Formats</h2><ul><li><a href="code_flow.md"><i class="bi bi-file-code"></i>Github (GFM)</a></li></ul></div></div>
+    
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
 
 
 
-<div class="cell" data-fig-width="7" data-layout-align="default">
-<div class="cell-output-display">
-<div>
-<p></p><figure class="figure"><p></p>
-<div>
-<pre class="mermaid mermaid-js">flowchart TD
-subgraph sg1["&lt;b&gt;CCIEA Uploader code flowchart&lt;/b&gt;"]
-direction LR
- subgraph sg2[&lt;br&gt;]
- direction TB
-   Z(main.yml) -. Daily GitHub Action .- B(get_status.R)
-  B ---&gt; C[[generate_file_status]] --&gt; F[/uploader_status.json/] ---&gt; N(status.qmd)
-  I[\Data Provider&lt;br&gt;ESR year Folders\] --&gt; C
-  J[\Data Figure Naming &lt;br&gt; Conventions\] --&gt;E
-  K[\Metadata\] --&gt; D
-  B ---&gt; D[[get_indices]] --&gt; G[/items_meta.json/] ---&gt; M(uploader.qmd) -- File check --&gt; P(Data Provider&lt;br&gt;upload Folder) -- File clean --&gt; R(Data Provider&lt;br&gt;ESR year Folder)
-  B ---&gt; E[[get_file_conventions]] --&gt;H[/cciea_naming_conventions.json/] ---&gt; M
-  Q(_quarto.yml) -.- N &amp; M
-  N &amp; M --&gt; X(GitHub Uploader&lt;br&gt; Web Page)
-  end
-  subgraph sg3[Legend]
-  direction LR
-  L1(yaml) ~~~ L2(R code) ~~~ L3(Google Drive) ~~~ L4(Google Sheet) ~~~ L5(Data) ~~~ L6(Quarto doc)
-  end
-  end
-  classDef yaml fill:#ffffc5,stroke:#333,stroke-width:2px,color:#000;
-  classDef drive fill:#f96,stroke:#333,stroke-width:2px,color:#000;
-  classDef sheet fill:#d0f0c0,stroke:#333,stroke-width:2px,color:#000;
-  classDef rcode fill:#ffcccb,stroke:#333,stroke-width:2px,color:#000;
-  classDef datain fill:#add8e6,stroke:#333,stroke-width:2px,color:#000;
-  classDef qmd fill:#d6a9d6,stroke:#333,stroke-width:2px,color:#000;
-  classDef htm fill:#4682b4,stroke:#333,stroke-width:2px,color:#fff;
-  classDef sg1 fill:#ffffff,stroke:#fff,stroke-width:2px,color:#000;
-  classDef sg3 fill:#ffffff,stroke:#333,stroke-width:1px,color:#000;
-     class Z,Q,L1 yaml
-     class I,P,R,L3 drive
-     class J,K,L4 sheet
-     class B,C,D,E,L2 rcode
-     class F,G,H,L5 datain
-     class M,N,L6 qmd
-     class X htm
-     class sg1,sg2 sg1
-     class sg3 sg3
-  
-</pre>
+<section id="faq" class="level2">
+<h2 class="anchored" data-anchor-id="faq">FAQ</h2>
+<section id="view-current-indicators" class="level4">
+<h4 class="anchored" data-anchor-id="view-current-indicators">View Current Indicators</h4>
+<div class="callout callout-style-default callout-note no-icon callout-titled">
+<div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-1-contents" aria-controls="callout-1" aria-expanded="false" aria-label="Toggle callout">
+<div class="callout-icon-container">
+<i class="callout-icon no-icon"></i>
 </div>
-<p></p></figure><p></p>
+<div class="callout-title-container flex-fill">
+My indicator isn’t listed, how do I add it’s metadata?
+</div>
+<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
+</div>
+<div id="callout-1" class="callout-1-contents callout-collapse collapse">
+<div class="callout-body-container callout-body">
+<ul>
+<li>Is it a new indicator included in a data file that previously exists (just a new species, location, etc)? If so:
+<ul>
+<li>download your metadata and add a new line for the new indicator</li>
+<li>we will be automatically notified about indicators that were not previously submitted</li>
+</ul></li>
+<li>If you have an entirely new set of indicator data:
+<ul>
+<li>Do your best to format and name the file following CCIEA conventions</li>
+<li>Upload the file and notify Greg or Lynn about the new data</li>
+</ul></li>
+</ul>
+</div>
+</div>
+</div>
+<div class="callout callout-style-default callout-note no-icon callout-titled">
+<div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-2-contents" aria-controls="callout-2" aria-expanded="false" aria-label="Toggle callout">
+<div class="callout-icon-container">
+<i class="callout-icon no-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+After uploading new data and metadata, when will I see updated plots and metadata on this page?
+</div>
+<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
+</div>
+<div id="callout-2" class="callout-2-contents callout-collapse collapse">
+<div class="callout-body-container callout-body">
+<ul>
+<li>Currently we run a GitHub action every morning to:
+<ul>
+<li>generate the status of all data provided so far this ESR season</li>
+<li>make new plots for each provided indicator</li>
+<li>merge any new metadata back into the full metadata spreadsheet</li>
+</ul></li>
+<li>If you don’t see your updated metadata or indicator plots within the next few days after uploading:
+<ul>
+<li>check the Status page to see if your data has some issues</li>
+<li>contact Lynn or Greg to see what’s up!</li>
+</ul></li>
+</ul>
+</div>
+</div>
+</div>
+</section>
+<section id="download-last-year" class="level4">
+<h4 class="anchored" data-anchor-id="download-last-year">Download Last Year</h4>
+<div class="callout callout-style-default callout-note no-icon callout-titled">
+<div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-3-contents" aria-controls="callout-3" aria-expanded="false" aria-label="Toggle callout">
+<div class="callout-icon-container">
+<i class="callout-icon no-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+What’s the point of downloading last year’s data?
+</div>
+<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
+</div>
+<div id="callout-3" class="callout-3-contents callout-collapse collapse">
+<div class="callout-body-container callout-body">
+<p>The option is provided just in case it’s helpful to remember what you did a year ago! Also, we may have edited last year’s file headers, etc., to follow CCIEA conventions</p>
+</div>
+</div>
+</div>
+</section>
+<section id="upload-this-year" class="level4">
+<h4 class="anchored" data-anchor-id="upload-this-year">Upload This Year</h4>
+<div class="callout callout-style-default callout-note no-icon callout-titled">
+<div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-4-contents" aria-controls="callout-4" aria-expanded="false" aria-label="Toggle callout">
+<div class="callout-icon-container">
+<i class="callout-icon no-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+What if my data isn’t listed in the CCIEA filename convention list?
+</div>
+<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
+</div>
+<div id="callout-4" class="callout-4-contents callout-collapse collapse">
+<div class="callout-body-container callout-body">
+<ul>
+<li>How do I name files for new data?</li>
+</ul>
+</div>
+</div>
+</div>
+</section>
+<section id="file-formats" class="level4">
+<h4 class="anchored" data-anchor-id="file-formats">File formats</h4>
+<div class="callout callout-style-default callout-note no-icon callout-titled">
+<div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-5-contents" aria-controls="callout-5" aria-expanded="false" aria-label="Toggle callout">
+<div class="callout-icon-container">
+<i class="callout-icon no-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+What is meant by the CCIEA “tidy” or “long” file format convention?
+</div>
+<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
+</div>
+<div id="callout-5" class="callout-5-contents callout-collapse collapse">
+<div class="callout-body-container callout-body">
+<ul>
+<li>answer</li>
+</ul>
+</div>
+</div>
+</div>
+<div class="callout callout-style-default callout-note no-icon callout-titled">
+<div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-6-contents" aria-controls="callout-6" aria-expanded="false" aria-label="Toggle callout">
+<div class="callout-icon-container">
+<i class="callout-icon no-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+What are the column headers for yearly data?
+</div>
+<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
+</div>
+<div id="callout-6" class="callout-6-contents callout-collapse collapse">
+<div class="callout-body-container callout-body">
+<ul>
+<li>answer</li>
+</ul>
+</div>
+</div>
+</div>
+<div class="callout callout-style-default callout-note no-icon callout-titled">
+<div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-7-contents" aria-controls="callout-7" aria-expanded="false" aria-label="Toggle callout">
+<div class="callout-icon-container">
+<i class="callout-icon no-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+What are the column headers for monthly data?
+</div>
+<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
+</div>
+<div id="callout-7" class="callout-7-contents callout-collapse collapse">
+<div class="callout-body-container callout-body">
+<ul>
+<li>answer</li>
+</ul>
 </div>
 </div>
 </div>
 
 
+</section>
+</section>
 
 </main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
