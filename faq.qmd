@@ -1,19 +1,22 @@
+---
+title: FAQ
+number-sections: true
+shift-heading-level-by: 3
+---
 
-## FAQ
-
-#### View Current Indicators
+# View Current Indicators {#sec-view_indicators}
 
 ::: {.callout-note collapse="true" icon=false}
 
 ## My indicator isn't listed, how do I add it's metadata?
 
-Is your indicator
+Is your indicator -
 
-*  a new indicator in an existing data file? (for example just a new species, location, etc)? If so:
+*  **a new indicator in an existing data file?** (for example just a new species, location, etc)? If so:
     + download your metadata and add a new line for the new indicator
     + we will automatically be notified about indicators that were not previously submitted
-*  an entirely new file of indicator data?
-    + Do your best to format and name the data file following CCIEA conventions
+*  **an entirely new file of indicator data?**
+    + Do your best to format and name the data file following @sec-conventions
     + Upload the file and notify Greg or Lynn about the new data
     + provide us metadata for the new data
     
@@ -32,7 +35,7 @@ Is your indicator
     + contact Lynn or Greg to see what's up!
 :::
 
-#### Download Last Year
+# Download Last Year
 
 ::: {.callout-note collapse="true" icon=false}
 
@@ -44,7 +47,7 @@ The option is provided just in case it's helpful to remember what you did a year
 
 
 
-#### Upload This Year
+# Upload This Year
 
 ::: {.callout-note collapse="true" icon=false}
 
@@ -54,7 +57,7 @@ The option is provided just in case it's helpful to remember what you did a year
     
 :::
 
-#### File formats
+# Indicator File Conventions and formats {#sec-conventions}
 
 ::: {.callout-note collapse="true" icon=false}
 
