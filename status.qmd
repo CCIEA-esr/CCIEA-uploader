@@ -1,7 +1,7 @@
 {{< include _pi_folders_to_df.qmd >}}
 {{< include _init.qmd >}}
 
-::: {.panel-tabset .nav-pills}
+::: {.panel-tabset .nav-tabs}
 
 ## `{r} esr_year` Uploader Status
 

@@ -36,7 +36,7 @@ viewof component = Inputs.select(components,{format: x => x.name, label: "Compon
 
 ::: {.panel-tabset .nav-tabs}
 
-## View Current Indicators
+## View Indicators
 
 ::: {.callout-note collapse="true" style="width: 60%;"}
 ## [Use this page to check your current metadata *(click to expand)* ]{style="font-weight: normal;"}
@@ -257,13 +257,13 @@ newfiles=temp.filter(files =>{
 
 html`<h3>Upload ${pis[indx].name} ${esr_year} data and metadata</h3>`
 
-html`<h5>1. Please name your files as follows:</h5>`
+html`<h5><i>1. Please name your files as follows:</i></h5>`
 viewof file_conventions = Inputs.table(newfiles,{header:{title:"Dataset Title",newname:"CCIEA filename convention"},select: false, rows: 5})
 ```
 
 ```{ojs}
 //| echo: false
-html`<p><h5>2. Check your csv data file:</h5></p>`
+html`<hr><p><h5><i>2. Check your csv data file:</i></h5></p>`
 
 viewof csvfile = Inputs.file({accept: ".csv", required: true})
 
@@ -274,36 +274,38 @@ monthly = filename.search("_M.csv")>0 || filename.search("Monthly")>0
 
 Inputs.table(newfile,{select: false, format:{year: x => x.toLocaleString("en-US").replace(/\,/,''), time: (x) => { return typeof x === 'number' ? x.toLocaleString("en-US").replace(/\,/,'') : x.toISOString().substr(0,10)}}})
 
-html`<h3>Checking file: ${filename}:</h3>`
+html`<hr>`
 
-html`<p><h5>3. We will check for the following:</h5>`
+html`<h5><i>Checking file:</i> ${filename}:</h5>`
 
-html` Does it follow the filename convention?`
+html`<p><h5><i>We are checking for the following:</i></h5>`
+
+html` Does it follow the ${pis[indx].name} filename convention?`
 allowednames = newfiles.map(obj => obj.newname);
 
-{return allowednames.includes(filename)==true ? "yes" : "no"}
+{return allowednames.includes(filename)==true ? html`<span class="yes">yes</span>` : html`<span class="no">no</span>`}
 
 html` Is the time column named <b>${headervars[0]}</b> for yearly data or <b>${headervarsmon[0]}</b> for monthly data?`;
 
 {
-if(monthly==true)return columns.includes(headervarsmon[0])==true ? "yes" : "no"
-if(monthly==false)return columns.includes(headervars[0])==true ? "yes" : "no"
+if(monthly==true)return columns.includes(headervarsmon[0])==true ? html`<span class="yes">yes</span>` : html`<span class="no">no</span>`
+if(monthly==false)return columns.includes(headervars[0])==true ? html`<span class="yes">yes</span>` : html`<span class="no">no</span>`
 }
 
 html` Is the indicator value column named <b>${headervars[1]}</b>?`
 
-{return columns.includes(headervars[1])==true ? "yes" : "no"}
+{return columns.includes(headervars[1])==true ? html`<span class="yes">yes</span>` : html`<span class="no">no</span>`}
 
 html` Is there a column named <b>${headervars[2]}</b> describing each indicator?`
 
-{return columns.includes(headervars[2])==true ? "yes" : "no"}
+{return columns.includes(headervars[2])==true ? html`<span class="yes">yes</span>` : html`<span class="no">no</span>`}
 
 
 ```
 
 ```{ojs}
 //| echo: false
-html`<br><p><h5>4. If your files all pass the check, go the Google Drive folder for uploading your data:</h5></p>`
+html`<br><p><h5><i>4. If your files all pass the check, go the Google Drive folder for uploading your data:</i></h5></p>`
 
 viewof thisyear = Inputs.button("Upload "+esr_year+" data and metadata",{value: pis[indx].this_year, reduce: () => window.open("https://drive.google.com/drive/folders/"+pis[indx].upload,"_blank")})
 //url="https://drive.google.com/drive/folders/"+last
@@ -311,7 +313,7 @@ viewof thisyear = Inputs.button("Upload "+esr_year+" data and metadata",{value: 
 
 ind_url="https://oceanview.pfeg.noaa.gov/erddap/tabledap/CCIEA_metadata.json?&currently_served=1&indicator_title="+'"'+encodeURIComponent(indicator)+'"'
 
-html`<br><p><b>Note that you can also place other files such as images and text you want to share with CCIEA in this folder</b></p>`
+html`<br><p><i>Note that you can also place other files such as images and text you want to share with CCIEA in this folder</i></p>`
 
 
 ```

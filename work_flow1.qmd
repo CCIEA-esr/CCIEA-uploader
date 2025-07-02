@@ -6,9 +6,9 @@ format:
 
 ### CCIEA Uploader Flow Chart
 
-::: {.grid .column-screen-inset}
+::::: {.grid .column-screen-inset}
 
-::: {.g-col-7}
+:::: {.g-col-12 .g-col-md-8}
 
 
 ```{ojs}
@@ -36,8 +36,8 @@ subgraph <b></b>
 end
 subgraph <br>
   direction TB
-   Z1(CCIEA Uploader) --> B(Choose Data Provider)
-   B -->  Z(View Current Indicators)
+   Z1(CCIEA Uploader) --> B("<b>Start:</b> Choose Data Provider")
+   B -->  Z(View Indicators)
    B -.Rare: Data provider<br>has data in<br>more than one<br>component.-> E(Choose Component) .-> Z
    Z -->  D[Select Indicators and<br>examine metadata]
    Z -. optional .-> K1{Download<br>previous<br>data files?}
@@ -56,7 +56,7 @@ subgraph <br>
    S --Yes-->  T
    S -- No --> U[Edit to<br>correct file<br>name or headers] --> T
    T --> Y{Upload<br>another csv<br>data file?}--Yes--> G
-   Y --No--> W[return tomorrow<br>to view updated<br>data and metadata]
+   Y --No--> W[<b>End:</b> return tomorrow<br>to view updated<br>data and metadata]
   end
 end
 
@@ -72,46 +72,74 @@ end
   class K1,F,I,O,S,Y,L3 decision
   class J,K,M,N,R,V,L4 data
   class Q,U,L5 action
+  linkStyle 4,5,8,10,16,19,22,23,26,29,30,31,34,36 stroke:#000,stroke-width:3px,color:black;
  `
 
 ```
 
+::::
+
+:::: {.g-col-12 .g-col-md-4 .g-row-6  style="display: grid; row-gap: 50px;"}
+
+::: {style="background-color: #fff;padding:5px;border:solid,0px;"}
+
 :::
 
-::: {.g-col-5}
+::: {style="background-color: #ffffc5;padding:10px;border:solid,1px;"}
 
 **Start:** Choose a data provider at the top of the page (and a component if available)
 
 ![](figures/data_provider.png)
 
-**Next:** View Current Indicators
+:::
+
+::: {style="background-color: #ffffc5;padding:10px;border:solid,1px;"}
+
+**Next:** View Indicators
 
 ![](figures/indicators.png)
 
-*  Select each indicator on the left of the page to see the current indicator metadata
-    + Is the metadata correct?
-        - If so, there's no need to download last year's metadata
-    + Does the metadata need updating?
-        - If so: go to tab 2, "Download Last Year", to download a csv file of the current metadata
+Select each indicator on the left of the page to see the current indicator metadata
 
-**Download Previous:** (as needed)
+* **Is the metadata correct?**
+  + Yes: there's no need to download last year's metadata
+  + No: go to "Download Last Year", to download a csv file of the current metadata and edit as needed
+        
+:::
+
+::: {style="background-color: #ffffc5;padding:10px;border:solid,1px;"}
+
+**Download Last Year:** (as needed)
 
 ![](figures/download.png)
 
-* ***Metadata***: download and edit a csv file of your current metadata if it needs updating
-* ***Data***: optionally download last year's files and manually update them, or use them as a template for this year
+* ***Metadata***: download and edit a csv file of your current metadata (as needed)
+* ***Data***: optionally download last year's indicator files and manually update them, or use them as a template for this year
 
-**Upload new:**
+:::
+
+::: {style="background-color: #ffffc5;padding:10px;border:solid,1px;"}
+
+**Upload This Year:**
 
 ![](figures/upload.png)
 
-* Browse for files to upload
-* Check your files to make sure they can be automatically ingested
-
-
-
+* Browse for csv files to upload
+* Check your files to ensure they can be automatically ingested
+* Click the Upload button to go to the chosen Data Provider's  Google Drive folder to upload metadata, data, and/or other types of files
 
 :::
 
+::: {style="background-color: #ffffc5;padding:10px;border:solid,1px;"}
+
+**End**
+
+A cron job runs every morning up update the metadata, indicators, amd uploader status.
+
 :::
+
+
+::::
+
+:::::
 
