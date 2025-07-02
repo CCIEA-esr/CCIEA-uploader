@@ -7,12 +7,15 @@
 
 ## My indicator isn't listed, how do I add it's metadata?
 
-*  Is it a new indicator included in a data file that previously exists (just a new species, location, etc)? If so:
+Is your indicator
+
+*  a new indicator in an existing data file? (for example just a new species, location, etc)? If so:
     + download your metadata and add a new line for the new indicator
-    + we will be automatically notified about indicators that were not previously submitted
-* If you have an entirely new set of indicator data:
-    + Do your best to format and name the file following CCIEA conventions
-    + Upload the file and notify Greg or Lynn about the new data
+    + we will automatically be notified about indicators that were not previously submitted
+*  an entirely new file of indicator data?
+    + Do your best to format and name the data file following CCIEA conventions
+    + Upload the file (@sec-upload) and notify Greg or Lynn about the new data
+    + provide us metadata for the new data
     
 :::
 
