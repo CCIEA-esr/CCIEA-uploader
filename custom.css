@@ -13,6 +13,14 @@
 	.bold{
 		font-weight:bold;
 		}
+	.yes{
+	  color:green;
+	  font-weight:bold;
+	}
+	.no{
+	  color:red;
+	  font-weight:bold;
+	}
   .blm {
 		width:650px;
 		height:200px;
