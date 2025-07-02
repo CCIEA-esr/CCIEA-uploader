@@ -1,4 +1,5 @@
 ---
+number-sections: true
 format: 
   html:
     grid:
@@ -219,7 +220,7 @@ html`<br><br><i>Open the Google Drive folder containing ${pis[indx].name} ${last
 viewof lastyear = Inputs.button("Download "+last_year+" Data",{value: pis[indx].last_year, reduce: () => window.open("https://drive.google.com/drive/folders/"+pis[indx].last_year,"_blank")})
 ```
 
-## Upload This Year
+## Upload This Year {#sec-upload}
 
 ::: {.callout-note collapse="true" style="width: 60%;"}
 ## [Use this page to upload metadata, data and other files *(click to expand)*]{style="font-weight: normal;"}

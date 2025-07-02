@@ -24,7 +24,7 @@ website:
     - text: "Status"
       href: status.qmd
     - icon: github
-      href: https://github.com/lmdewitt/UploaderTes
+      href: https://github.com/lmdewitt/UploaderTest
 
 format:
   html:
