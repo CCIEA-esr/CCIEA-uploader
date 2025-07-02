@@ -1,5 +1,4 @@
 ---
-number-sections: true
 format: 
   html:
     grid:
@@ -220,7 +219,7 @@ html`<br><br><i>Open the Google Drive folder containing ${pis[indx].name} ${last
 viewof lastyear = Inputs.button("Download "+last_year+" Data",{value: pis[indx].last_year, reduce: () => window.open("https://drive.google.com/drive/folders/"+pis[indx].last_year,"_blank")})
 ```
 
-## Upload This Year {#sec-upload}
+## Upload This Year
 
 ::: {.callout-note collapse="true" style="width: 60%;"}
 ## [Use this page to upload metadata, data and other files *(click to expand)*]{style="font-weight: normal;"}
@@ -306,7 +305,7 @@ html` Is there a column named <b>${headervars[2]}</b> describing each indicator?
 
 ```{ojs}
 //| echo: false
-html`<br><p><h5><i>4. If your files all pass the check, go the Google Drive folder for uploading your data:</i></h5></p>`
+html`<br><p><h5><i>3. If your files all pass the check, go the Google Drive folder for uploading your data:</i></h5></p>`
 
 viewof thisyear = Inputs.button("Upload "+esr_year+" data and metadata",{value: pis[indx].this_year, reduce: () => window.open("https://drive.google.com/drive/folders/"+pis[indx].upload,"_blank")})
 //url="https://drive.google.com/drive/folders/"+last

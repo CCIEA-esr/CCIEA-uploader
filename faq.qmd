@@ -14,7 +14,7 @@ Is your indicator
     + we will automatically be notified about indicators that were not previously submitted
 *  an entirely new file of indicator data?
     + Do your best to format and name the data file following CCIEA conventions
-    + Upload the file (@sec-upload) and notify Greg or Lynn about the new data
+    + Upload the file and notify Greg or Lynn about the new data
     + provide us metadata for the new data
     
 :::
