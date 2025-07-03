@@ -8,8 +8,8 @@
 ## init.R must be updated at the beginning of each ESR season
 source("_gdrive.R")
 source("_pi_folders_to_json.R")
+get_file_conventions(cciea_folders[2],file_name_conventions)
 generate_file_status(esr_year,headervars,headervarsmon)
 get_indices(esr_year,last_year)
 last_updated <- read_updated(esr_year)
-get_file_conventions(cciea_folders[2],file_name_conventions)
 print(last_updated)

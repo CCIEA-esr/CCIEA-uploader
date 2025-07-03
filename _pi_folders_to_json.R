@@ -44,6 +44,7 @@ get_pi_year_folders <- function(PI,PIid){
 
 ## create json file of files uploaded to Google Drive and check file headers
 generate_file_status <- function(esr_year,headervars,headervarsmon){
+  file_naming <- fromJSON("data/cciea_naming_conventions.json")
   pifolders = get_PI_folders(cciea_folders[3])
   folderarray <- list()
 #loop through PI folders
@@ -51,7 +52,18 @@ generate_file_status <- function(esr_year,headervars,headervarsmon){
     PI=pifolders$name[p]
     print(PI)
     PIid=pifolders$id[p]
+    
+    allowednames<-list()
+    filenames <- file_naming %>%
+      filter(id == PI)
+    if(length(filenames$files)>0){
+    	temp <- filenames$files[[1]]
+    	newfiles <- temp %>%
+      	    filter(!is.null(newname) & !is.null(title))
+    	allowednames <- newfiles$newname
+    	}
     pis <- list(name = PI,newmeta = 0,newmetaupdate="")
+   
     piobj<-list()
     pifiles=find_PI_files_in_esr_year(PIid,esr_year)
     if (length(pifiles$name) > 0) {
@@ -68,6 +80,7 @@ generate_file_status <- function(esr_year,headervars,headervarsmon){
           if(grepl(".csv",pifiles$name[f]))fileobj$typechk=1
           if(grepl("_M.csv",pifiles$name[f]) || grepl("Monthly",pifiles$name[f]))datares="Monthly"
           fileobj$datares=datares
+          if(length(allowednames) > 0)(if(pifiles$name[f] %in% allowednames)fileobj$namechk=1 else fileobj$namechk=0)
           headercols <- list()
           if(fileobj$typechk==1){
             content=drive_read_string(as_id(pifiles$drive_resource[[f]]$id))
