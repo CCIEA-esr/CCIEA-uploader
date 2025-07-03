@@ -21,6 +21,9 @@ read_status <- function(esr_year,headervars){
   
   for(p in 1:num_pis){
     pi= status[[p]]$name
+    pi_meta=pi
+    meta_updated <- status[[p]]$newmeta
+    if(meta_updated==1){pi_meta = paste0(pi," (Metadata updated: ",status[[p]]$newmetaupdate,")","")}
     df1 <- as.data.frame(matrix(nrow = 0, ncol = 11))
     if(length(status[[p]]$files)>0){
       for (f in 1:length(status[[p]]$files)){
@@ -30,7 +33,7 @@ read_status <- function(esr_year,headervars){
         for (h in 1:length(headerchk)){
           head_vec=c(head_vec,headerchk[h])
           }
-        file_vec=c(pi,file$name,file$updated,file$typechk,file$namechk,head_vec)
+        file_vec=c(pi_meta,file$name,file$updated,file$typechk,file$namechk,head_vec)
         df1 <- rbind(df1,file_vec,stringsAsFactors=FALSE)
         }
       }
@@ -51,23 +54,23 @@ make_table <- function(df_grouped){
   as_flextable(df_grouped, hide_grouplabel=TRUE)|>
     fontsize(size = 8, part = "all")|>
     fontsize(j= "updated",size = 7)|>
-    bold(j = 1, i = ~ !is.na(PI), bold = TRUE, part = "body") |>
-    bg(i = ~ !is.na(PI), bg = "#7596b1", part = "body") |>
+    bold(j = 1, i = ~ !is.na(PI), bold = FALSE, part = "body") |>
+    bg(i = ~ !is.na(PI), bg = "#c8d5e0", part = "body") |>
     add_header_row(values = c("","Header Columns"), colwidths = c(4, 6)) |>
     add_header_row(values = c("","File Status"), colwidths = c(2, 8)) |>
     align(i=2:3,align = "left", part = "header") |>
     align(i=1,align="center", part = "header") |>
     bold(part = "header", bold = TRUE) |>
     line_spacing(space=1,part="all") |>
-    bg(i= ~ typechk == 1, ~ typechk, bg="#008000")  |>
-    bg(i= ~ namechk == 9, ~ namechk, bg="#008000")  |>
-    bg(i= ~ namechk == 1, ~ namechk, bg="#008000")  |>
-    bg(i= ~ year == TRUE, ~ year, bg="#008000")  |>
-    bg(i= ~ index == TRUE, ~ index, bg="#008000")  |>
-    bg(i= ~ timeseries == TRUE, ~ timeseries, bg="#008000")  |>
-    bg(i= ~ year == FALSE, ~ year, bg="red")  |>
-    bg(i= ~ index == FALSE, ~ index, bg="red")  |>
-    bg(i= ~ timeseries == FALSE, ~ timeseries, bg="red")  |>
+    bg(i= ~ typechk == 1, ~ typechk, bg="#66b266")  |>
+    bg(i= ~ namechk == 1, ~ namechk, bg="#66b266")  |>
+    bg(i= ~ year == TRUE, ~ year, bg="#66b266")  |>
+    bg(i= ~ index == TRUE, ~ index, bg="#66b266")  |>
+    bg(i= ~ timeseries == TRUE, ~ timeseries, bg="#66b266")  |>
+    bg(i= ~ namechk == 0, ~ namechk, bg="#ff6666")  |>
+    bg(i= ~ year == FALSE, ~ year, bg="#ff6666")  |>
+    bg(i= ~ index == FALSE, ~ index, bg="#ff6666")  |>
+    bg(i= ~ timeseries == FALSE, ~ timeseries, bg="#ff6666")  |>
     border_remove() |>
     vline(j=2,i=3,border=std_border,part="header") |>
     vline(j=4,i=2:3,border=std_border,part="header") |>
@@ -76,21 +79,22 @@ make_table <- function(df_grouped){
     border_outer(part="all",border=std_border) |>
     padding(padding.top=1,padding.left=3,padding.bottom=1,padding.right=3,part = "all") |>
     compose(j= "updated", value = as_paragraph(paste(substring(updated,1,10)," ",substring(updated,12,19)))) |>
+    compose(j= "typechk", value = as_paragraph(""))|>
     compose(j= "typechk", value = as_paragraph(ifelse(typechk == 1, "yes", "no")))|>
-    compose(j= "typechk", value = as_paragraph(ifelse(typechk != 1 & is.na(filename), "no", "")))|>
     compose(j= "namechk", value = as_paragraph(""))|>
+    compose(j= "namechk", value = as_paragraph(ifelse(namechk == 1, "yes", "no")))|>
+    compose(j= "year", value = as_paragraph(""))|>
     compose(j= "year", value = as_paragraph(ifelse(year == TRUE, "yes", "no")))|>
-    compose(j= "year", value = as_paragraph(ifelse(year == FALSE & is.na(filename), "no", "")))|>
+    compose(j= "index", value = as_paragraph("none"))|>
     compose(j= "index", value = as_paragraph(ifelse(index == TRUE, "yes", "no")))|>
-    compose(j= "index", value = as_paragraph(ifelse(index == FALSE & is.na(filename), "no", "none")))|>
+    compose(j= "timeseries", value = as_paragraph(""))|>
     compose(j= "timeseries", value = as_paragraph(ifelse(timeseries == TRUE, "yes", "no")))|>
-    compose(j= "timeseries", value = as_paragraph(ifelse(timeseries == FALSE & is.na(filename), "no", "")))|>
+    compose(j= "metric", value = as_paragraph(""))|>
     compose(j= "metric", value = as_paragraph(ifelse(metric == TRUE, "yes", "no")))|>
-    compose(j= "metric", value = as_paragraph(ifelse(metric == FALSE & is.na(filename), "no", "")))|>
+    compose(j= "SEup", value = as_paragraph(""))|>
     compose(j= "SEup", value = as_paragraph(ifelse(SEup == TRUE, "yes", "no")))|>
-    compose(j= "SEup", value = as_paragraph(ifelse(SEup == FALSE & is.na(filename), "no", "")))|>
+    compose(j= "SElo", value = as_paragraph(""))|>
     compose(j= "SElo", value = as_paragraph(ifelse(SElo == TRUE, "yes", "no")))|>
-    compose(j= "SElo", value = as_paragraph(ifelse(SElo == FALSE & is.na(filename), "no", "")))|>
     set_header_labels(filename = "File Name",updated = "Updated",typechk = "type check", namechk = "name check") |>
     width(j= "updated",width=2)
 }
