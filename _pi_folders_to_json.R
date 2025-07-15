@@ -123,12 +123,12 @@ read_updated <- function(esr_year){
 ## file_folder - name of Drive folder where metadata file is located
 ## meta_file_search - partial name of metadata file, remainder is date and version
 ##    there can only be one metadata file in the folder
-get_indices <- function(esr_year,last_year,file_folder,meta_file_search){
+get_indices <- function(esr_year,last_year,metadata_spreadsheet_folder,meta_file_search){
   print(paste("Starting get_indices ",now(),sep=""))
   pifolders = get_PI_folders(cciea_folders[3])
-  folder_id = find_folder_id(file_folder)
+  folder_id = find_folder_id(metadata_spreadsheet_folder)
   # search for any file with file_search in the name
-  file=search_file_in_folder(file_search,folder_id)   
+  file=search_file_in_folder(meta_file_search,folder_id)   
   df <- read_sheet(file$id)
   df_trimmed<- df %>% select(c('PI_ID','PI', 'Contact', 'Title','Component_Section','serve_flag'))
   meta <- df_trimmed %>% filter(serve_flag==1)
