@@ -45,3 +45,10 @@ localfromgmt <- function(utc){
   return(local)
 }
 
+## Return id of file whose name contains the string file_search in a folder with id folder_id
+search_file_in_folder <- function(file_search,folder_id){
+  query=paste("'",folder_id,"' in parents and mimeType != 'application/vnd.google-apps.folder' and name contains '",file_search,"'",sep="")
+  file = drive_find(q=query)
+  return(file)
+}
+
