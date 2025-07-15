@@ -25,7 +25,7 @@ get_PI_folders <- function(folder){
   folder_id=find_folder_id(folder)
   pifolders=find_folders_in_folder(folder_id)
   return(pifolders)
-  }
+}
 
 ## Get a json list of yearly folders and ID's for a PI given the ID of the upper PI folder
 ## example: {"name":"Andrews","files":[{"name":"2021-2022","id":"1cNg.."},{"name":"2022-2023","id":"1evr..."},{"name":"2023-2024","id":"12fI..."},{"name":"2024-2025","id":"1plt..."}]}
@@ -44,6 +44,7 @@ get_pi_year_folders <- function(PI,PIid){
 
 ## create json file of files uploaded to Google Drive and check file headers
 generate_file_status <- function(esr_year,headervars,headervarsmon){
+  print(paste("Starting generate_file_status ",now(),sep=""))
   file_naming <- fromJSON("data/cciea_naming_conventions.json")
   pifolders = get_PI_folders(cciea_folders[3])
   folderarray <- list()
@@ -117,11 +118,18 @@ read_updated <- function(esr_year){
   last_updated <- json_data$statusupdate
   return(last_updated)
   }
-## Next task read from Google Drive instead of file
-## modify function parameters: input pifolders,metadata file name, metadata folder on drive
-get_indices <- function(esr_year,last_year){
+
+## get_indices: read metadata file from Drive and output as json file
+## file_folder - name of Drive folder where metadata file is located
+## meta_file_search - partial name of metadata file, remainder is date and version
+##    there can only be one metadata file in the folder
+get_indices <- function(esr_year,last_year,file_folder,meta_file_search){
+  print(paste("Starting get_indices ",now(),sep=""))
   pifolders = get_PI_folders(cciea_folders[3])
-  df = read.csv('data/metadata.csv')
+  folder_id = find_folder_id(file_folder)
+  # search for any file with file_search in the name
+  file=search_file_in_folder(file_search,folder_id)   
+  df <- read_sheet(file$id)
   df_trimmed<- df %>% select(c('PI_ID','PI', 'Contact', 'Title','Component_Section','serve_flag'))
   meta <- df_trimmed %>% filter(serve_flag==1)
   pis <- distinct(meta,PI,PI_ID,Contact)
@@ -167,6 +175,7 @@ get_indices <- function(esr_year,last_year){
 ## and located in Google Drive folder named folder
 ## current file name defined in _init.R, current folder cciea_folders[2] which is "CCIEA ESR data"
 get_file_conventions <- function(file_folder,file_name){
+  print(paste("Starting get_file_conventions ",now(),sep=""))
   folder_id = find_folder_id(file_folder)
   file=find_file_in_folder(file_name,folder_id)
   content <- read_sheet(file$id)

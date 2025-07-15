@@ -10,3 +10,7 @@ headervarsmon=c("time","index","timeseries","metric","SEup","SElo")
 cciea_folders=c("_CCIEA","CCIEA ESR data","CCIEA Data Upload")
 # name of Greg's file naming conventions spreadsheet
 file_name_conventions="Data Figure Naming Conventions"
+# name of folder where metadata spreadsheet is located
+metadata_spreadsheet_folder="ERDDAP metadata spreadsheet"
+# partial name of metadata file, the rest can be the date and version, but there can only be one metadata file in the folder
+meta_file_search="CCIEA_metadata"
