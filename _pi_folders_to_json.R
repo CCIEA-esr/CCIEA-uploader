@@ -130,7 +130,8 @@ get_indices <- function(esr_year,last_year,metadata_spreadsheet_folder,meta_file
   pifolders = get_PI_folders(cciea_folders[3])
   folder_id = find_folder_id(metadata_spreadsheet_folder)
   # search for any file with file_search in the name
-  file=search_file_in_folder(meta_file_search,folder_id)   
+  file=search_file_in_folder(meta_file_search,folder_id)
+  print(file$name)
   df <- read_sheet(file$id)
   df_trimmed<- df %>% select(c('PI_ID','PI', 'Contact', 'Title','Component_Section','serve_flag'))
   meta <- df_trimmed %>% filter(serve_flag==1)
@@ -141,30 +142,36 @@ get_indices <- function(esr_year,last_year,metadata_spreadsheet_folder,meta_file
     piobj <- list()
     pi=pis[p,]$PI
     piid=pis[p,]$PI_ID
+    print(piid)
     piobj$name=pi
     piobj$id=piid
     pifolderid=pifolders %>% filter(name==piid)
-    pifolderid = pifolderid$id
-    PIyears=find_folders_in_folder(pifolderid)
-    piobj$contact=pis[p,]$Contact
-    this_yearfolder <- PIyears %>% filter(name==esr_year)
-    last_yearfolder <- PIyears %>% filter(name==last_year)
-    piobj$this_year=this_yearfolder$id
-    piobj$last_year=last_yearfolder$id
-    indices=meta %>% filter(PI==pi)
-    components <- distinct(indices,Component_Section)
-    cobjarray <- list()
-    for(c in 1:length(components$Component_Section)){
-      cobj <- list()
-      cobj$name = components$Component_Section[c]
-      cindices <- indices %>% filter(Component_Section==components$Component_Section[c])
-      cindices <- arrange(cindices,Title)
-      cobj$indices <- cindices$Title
-      cobjarray <- append(cobjarray,list(cobj))
-      }
-    piobj$components <- cobjarray
-    piarray <- append(piarray,list(piobj))
+    if(length(pifolderid$name)>0){
+      pifolderid = pifolderid$id
+      PIyears=find_folders_in_folder(pifolderid)
+      piobj$contact=pis[p,]$Contact
+      this_yearfolder <- PIyears %>% filter(name==esr_year)
+      last_yearfolder <- PIyears %>% filter(name==last_year)
+      piobj$this_year=this_yearfolder$id
+      piobj$last_year=last_yearfolder$id
+      indices=meta %>% filter(PI==pi)
+      components <- distinct(indices,Component_Section)
+      cobjarray <- list()
+      for(c in 1:length(components$Component_Section)){
+        cobj <- list()
+        cobj$name = components$Component_Section[c]
+        cindices <- indices %>% filter(Component_Section==components$Component_Section[c])
+        cindices <- arrange(cindices,Title)
+        cobj$indices <- cindices$Title
+        cobjarray <- append(cobjarray,list(cobj))
+       }
+      piobj$components <- cobjarray
+      piarray <- append(piarray,list(piobj))
     }
+    else{
+      print(paste0(piid," does not have a folder",sep=""))
+      }
+  }
   pi_indices <- list()
   pi_indices$esr_year = esr_year
   pi_indices$last_year = last_year
