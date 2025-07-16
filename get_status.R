@@ -6,6 +6,7 @@
 ## values of default function parameters (esr_year,last_year,headervars,headervarsmon)
 ##   are in _init.R (sourced in _pi_folders_to_json.R)
 ## init.R must be updated at the beginning of each ESR season
+source("_init.R")
 source("_gdrive.R")
 source("_pi_folders_to_json.R")
 get_file_conventions(cciea_folders[2],file_name_conventions)

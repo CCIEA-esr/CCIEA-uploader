@@ -1,9 +1,8 @@
 library("jsonlite")
-library(tidyverse)
-library(dplyr)
+library("tidyverse")
+library("dplyr")
 
-source("_init.R")
-
+##---------get_PI_folders----------------------------------
 #' Get a dribble of PI folder names and ID's
 #'
 #' @param folder Upper level Google Drive folder name containing data provider folders.
@@ -27,6 +26,7 @@ get_PI_folders <- function(folder){
   return(pifolders)
 }
 
+##---------get_pi_year_folders----------------------------------
 ## Get a json list of yearly folders and ID's for a PI given the ID of the upper PI folder
 ## example: {"name":"Andrews","files":[{"name":"2021-2022","id":"1cNg.."},{"name":"2022-2023","id":"1evr..."},{"name":"2023-2024","id":"12fI..."},{"name":"2024-2025","id":"1plt..."}]}
 get_pi_year_folders <- function(PI,PIid){ 
@@ -42,6 +42,7 @@ get_pi_year_folders <- function(PI,PIid){
   return(toJSON(piyearfolder, auto_unbox=TRUE))
   }   
 
+##---------generate_file_status----------------------------------
 ## create json file of files uploaded to Google Drive and check file headers
 generate_file_status <- function(esr_year,headervars,headervarsmon){
   print(paste("Starting generate_file_status ",now(),sep=""))
@@ -119,7 +120,8 @@ read_updated <- function(esr_year){
   return(last_updated)
   }
 
-## get_indices: read metadata file from Drive and output as json file
+##---------get_indices----------------------------------
+## read metadata file from Drive and output as json file
 ## file_folder - name of Drive folder where metadata file is located
 ## meta_file_search - partial name of metadata file, remainder is date and version
 ##    there can only be one metadata file in the folder
@@ -171,7 +173,8 @@ get_indices <- function(esr_year,last_year,metadata_spreadsheet_folder,meta_file
   write(output,file="data/items_meta.json")
   }
 
-## get_file_conventions: get file naming conventions from file 'file_name' in folder 'file_folder'
+##---------get_file_conventions----------------------------------
+## get file naming conventions from file 'file_name' in folder 'file_folder'
 ## and located in Google Drive folder named folder
 ## current file name defined in _init.R, current folder cciea_folders[2] which is "CCIEA ESR data"
 get_file_conventions <- function(file_folder,file_name){
