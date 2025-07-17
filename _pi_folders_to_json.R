@@ -1,6 +1,7 @@
 library("jsonlite")
 library("tidyverse")
 library("dplyr")
+library("data.table")
 
 ##---------get_PI_folders----------------------------------
 #' Get a dribble of PI folder names and ID's
