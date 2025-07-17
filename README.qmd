@@ -31,8 +31,10 @@ The code in this repository consists of GitHub actions to assemble information a
          * input: Google Drive folders
          * output: uploader_status.json
       2. get_indices()
-         * input: metadata.csv
-         * output: items_meta.json
+         * input: Google sheet
+         * output:
+           + items_meta.json (for menu generation)
+           + metadata.csv (complete copy of metadata)
       3. get_file_conventions()
          * input: file name conventions
          * output: cciea_naming_conventions.json

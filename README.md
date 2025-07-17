@@ -29,7 +29,7 @@ information an updates from Google Spreadsheets and Drive, and a Quarto
 Website written in R and OJS.
 
 <img src="README_files/figure-commonmark/mermaid-figure-1.png"
-style="width:7in;height:8.55in" />
+style="width:7in;height:7.31in" />
 
 - **Github Action** - runs daily at 6 am
   - main.yaml: get_status.R
@@ -42,7 +42,9 @@ style="width:7in;height:8.55in" />
           - output: uploader_status.json
       2.  get_indices()
           - input: metadata.csv
-          - output: items_meta.json
+          - output:
+            - items_meta.json (for menu generation)
+            - metadata.csv (complete copy of metadata)
       3.  get_file_conventions()
           - input: file name conventions
           - output: cciea_naming_conventions.json
