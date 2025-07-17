@@ -86,7 +86,7 @@ generate_file_status <- function(esr_year,headervars,headervarsmon){
           if(length(allowednames) > 0)(if(pifiles$name[f] %in% allowednames)fileobj$namechk=1 else fileobj$namechk=0)
           headercols <- list()
           if(fileobj$typechk==1){
-            content=drive_read_string(as_id(pifiles$drive_resource[[f]]$id))
+            content=drive_read_string(as_id(pifiles$drive_resource[[f]]$id),encoding="UTF-8")
             if(!is.na(content))content=read_csv(content,show_col_types = FALSE)
             columns=names(content)
             headerchk=headervars
