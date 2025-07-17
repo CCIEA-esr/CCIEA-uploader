@@ -20,13 +20,14 @@ direction LR
   J[\Data Figure Naming <br> Conventions\] -->E
   K[\Metadata\] --> D
   B ---> D[[get_indices]] --> G[/items_meta.json/] ---> M(uploader.qmd) -- File check --> P(Data Provider<br>upload Folder) -- File clean --> R(Data Provider<br>ESR year Folder)
+  D --> G1[/metadata.csv/]
   B ---> E[[get_file_conventions]] -->H[/cciea_naming_conventions.json/] ---> M
   Q(_quarto.yml) -.- N & M
   N & M --> X(GitHub Uploader<br> Web Page)
   end
   subgraph sg3[Legend]
   direction LR
-  L1(yaml) ~~~ L2(R code) ~~~ L3(Google Drive) ~~~ L4(Google Sheet) ~~~ L5(Data) ~~~ L6(Quarto doc)
+  L1(yaml) ~~~ L2(R code) ~~~ L3(Google Drive) ~~~ L4(Google Sheet) ~~~ L5(Data commit<br>to GitHub) ~~~ L6(Quarto doc)
   end
   end
   classDef yaml fill:#ffffc5,stroke:#333,stroke-width:2px,color:#000;
@@ -42,7 +43,7 @@ direction LR
      class I,P,R,L3 drive
      class J,K,L4 sheet
      class B,C,D,E,L2 rcode
-     class F,G,H,L5 datain
+     class F,G,G1,H,L5 datain
      class M,N,L6 qmd
      class X htm
      class sg1,sg2 sg1

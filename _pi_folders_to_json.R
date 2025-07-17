@@ -155,8 +155,10 @@ get_indices <- function(esr_year,last_year,metadata_spreadsheet_folder,meta_file
       piobj$contact=pis[p,]$Contact
       this_yearfolder <- PIyears %>% filter(name==esr_year)
       last_yearfolder <- PIyears %>% filter(name==last_year)
+      uploadfolder <- PIyears %>% filter(name=="Uploaded_files")
       piobj$this_year=this_yearfolder$id
       piobj$last_year=last_yearfolder$id
+      piobj$upload=uploadfolder$id
       indices=meta %>% filter(PI==pi)
       components <- distinct(indices,Component_Section)
       cobjarray <- list()
