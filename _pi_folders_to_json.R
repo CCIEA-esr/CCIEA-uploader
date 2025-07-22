@@ -69,14 +69,17 @@ generate_file_status <- function(esr_year,headervars,headervarsmon){
    
     piobj<-list()
     pifiles=find_PI_files_in_esr_year(PIid,esr_year)
+## Loop through all the files in the esr_year folder
     if (length(pifiles$name) > 0) {
       for(f in 1:length(pifiles$name)){
         fileobj <- list()
     print(pifiles$name[f])
+        ## if this is a metadata file
         if(grepl("metadata",pifiles$name[f])){
           pis$newmeta=1
           pis$newmetaupdate=localfromgmt(pifiles$drive_resource[[f]]$modifiedTime)
           }
+        ## if this is an indicator data csv file
         else{
           datares="Annual"
           fileobj <- list(name=pifiles$name[f],updated=pifiles$drive_resource[[f]]$modifiedTime,typechk=0,namechk=9,datares=datares)
