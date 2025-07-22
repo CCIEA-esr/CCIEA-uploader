@@ -2,11 +2,13 @@
 
 .btn-quarto{
   background-color: #c5c5ca;
+  color: black;
   
   }
   
 .btn-quarto:hover{
   background-color: #ffffff;
+  color: red;
   
   }
 

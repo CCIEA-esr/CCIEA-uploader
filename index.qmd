@@ -83,6 +83,12 @@ meta = await FileAttachment("data/metadata.csv").csv();
 filtered = meta.filter(metadata =>{
    return metadata.Title===indicator && metadata.Component_Section===component.name
 });
+meta_download = meta.filter(metadownload=>{
+   return metadownload.PI_ID===pi && metadownload.Component_Section===component.name
+});
+
+downloadColumns = ['ID', 'Name', 'Funds'];
+
 m=filtered[0]
 		function year(longdate){
 			var datestr=String(longdate);
@@ -196,18 +202,34 @@ html`
 
 ```{ojs}
 //| echo: false
-html`<h3>View and/or edit ${last_year} metadata and data for:  ${pis[indx].name}</h3>
+html`<h3>View and edit current metadata and ${last_year} data for:  ${pis[indx].name}</h3>
 <div class="sml"><i>Use this page to download csv files of current data and/or metadata and edit as needed.</i></div>
-<br><i>Directly download a csv file of ${pis[indx].name} ${last_year} metadata:</i><br>`
-```
+<br><i>Current metadata:</i><br>`
 
+//last_meta='https://oceanview.pfeg.noaa.gov/erddap/tabledap/CCIEA_metadata.csv?dataset_title,indicator_title,long_variable_name,units,info_URL,institution,region,latitude,max_latitude,longitude,max_longitude,sampling_frequency,source_data_summary,additional_calculations,cciea_timeseries_id&currently_served=1&principal_investigator_id="'+pis[indx].id+'"'
+downloadcolumns1 = ['Dataset_Title', 'Title','Long_variable_name','Units','Background_Info','Institution','region','latitude','latitude2','longitude','longitude2','Sampling_frequency','Source_Data','Additional_Calculations','CCIEA_timeseries_ID','serve_flag','PI_ID'];
+//downloadcolumns = ['Dataset_Title', 'Title'];
+subsetdata = meta_download.map(obj => {
+  const newObj = {};
+  downloadcolumns1.forEach(key => {
+   if (obj.hasOwnProperty(key)) {
+      newObj[key] = obj[key];
+    }
+  });
+  return newObj;
+});
+viewof download = Inputs.table(subsetdata,{select:false, rows: 5})
+```
 
 ```{ojs}
 //| echo: false
+html`<br><div class="sml"><i>Directly download a csv file of the above current metadata for editing:</i></div>`
 
-last_meta='https://oceanview.pfeg.noaa.gov/erddap/tabledap/CCIEA_metadata.csv?dataset_title,indicator_title,long_variable_name,units,info_URL,institution,region,latitude,max_latitude,longitude,max_longitude,sampling_frequency,source_data_summary,additional_calculations,cciea_timeseries_id&currently_served=1&principal_investigator_id="'+pis[indx].id+'"'
+metafile="CCIEA_metadata_"+pis[indx].name+".csv"
+import {downloadButton} from "@jeremiak/buttons-that-download-json-as-csv"
+downloadButton(subsetdata,metafile)
 
-viewof lastmeta = Inputs.button("Download "+last_year+" Metadata",{value: pis[indx].this_year, reduce: () => window.open(last_meta)})
+//viewof lastmeta = Inputs.button("Download "+last_year+" Metadata",{value: pis[indx].this_year, reduce: () => window.open(last_meta)})
 
 ```
 
