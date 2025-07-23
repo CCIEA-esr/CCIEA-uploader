@@ -29,7 +29,7 @@ information an updates from Google Spreadsheets and Drive, and a Quarto
 Website written in R and OJS.
 
 <img src="README_files/figure-commonmark/mermaid-figure-1.png"
-style="width:7in;height:7.31in" />
+style="width:7in;height:6.93in" />
 
 - **Github Action** - runs daily at 6 am
   - main.yaml: get_status.R
@@ -37,15 +37,23 @@ style="width:7in;height:7.31in" />
       googlesheets4)
     - loads: \_init.R, \_gdrive.R, \_pi_folders_to_json.R  
     - runs:
-      1.  generate_file_status()
+      1.  check_upload()
+          - check for new files in upload folder
+          - check file types:
+            - PI metadata: incorporate back into full spreadsheet
+            - data file: clean it and move to esr_year folder, plot it
+              (work in progress)
+            - other file types: just move them to esr_folder
+          - Backup original files (PI_original folder)
+      2.  generate_file_status()
           - input: Google Drive folders
           - output: uploader_status.json
-      2.  get_indices()
-          - input: metadata.csv
+      3.  get_indices()
+          - input: Google sheet
           - output:
             - items_meta.json (for menu generation)
             - metadata.csv (complete copy of metadata)
-      3.  get_file_conventions()
+      4.  get_file_conventions()
           - input: file name conventions
           - output: cciea_naming_conventions.json
 - **Web Page** (Quarto)
