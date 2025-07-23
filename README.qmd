@@ -27,7 +27,14 @@ The code in this repository consists of GitHub actions to assemble information a
     - libraries: tidyverse (uses: jsonlite, tibble, dplyr, googledrive, googlesheets4)
     - loads:	_init.R, _gdrive.R, _pi_folders_to_json.R		
     - runs:
-      1. generate_file_status()
+      1. check_upload()
+         * check for new files in upload folder
+         * check file types:
+           + PI metadata: incorporate back into full spreadsheet
+           + data file: clean it and move to esr_year folder, plot it (work in progress)
+           + other file types: just move them to esr_folder
+         * Backup original files (PI_original folder)
+      2. generate_file_status()
          * input: Google Drive folders
          * output: uploader_status.json
       2. get_indices()

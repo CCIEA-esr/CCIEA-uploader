@@ -15,13 +15,17 @@ direction LR
  subgraph sg2[<br>]
  direction TB
    Z(main.yml) -. Daily GitHub Action .- B(get_status.R)
-  B ---> C[[generate_file_status]] --> F[/uploader_status.json/] ---> N(status.qmd)
-  I[\Data Provider<br>ESR year Folders\] --> C
+  B -- <b>1</b> --> V[[check_upload]]
+  R[\Data Provider<br>Upload Folder\] --> V -- metadata file --> S[[update_metadata]] --> K
+  V -- data file --> T[[clean_file]] --> I[\Data Provider<br>ESR year Folders\]
+  V -- other file --> I
+  B -. <b>4</b> .-  C[[generate_file_status]]
+  I --> C --> F[/uploader_status.json/] ---> N(status.qmd)
   J[\Data Figure Naming <br> Conventions\] -->E
   K[\Metadata\] --> D
-  B ---> D[[get_indices]] --> G[/items_meta.json/] ---> M(uploader.qmd) -- File check --> P(Data Provider<br>upload Folder) -- File clean --> R(Data Provider<br>ESR year Folder)
+  B -. <b>3</b> .-> D[[get_indices]] --> G[/items_meta.json/] ---> M(uploader.qmd) -- File check --> R
   D --> G1[/metadata.csv/]
-  B ---> E[[get_file_conventions]] -->H[/cciea_naming_conventions.json/] ---> M
+  B -- <b>2</b> --> E[[get_file_conventions]] -->H[/cciea_naming_conventions.json/] ---> M
   Q(_quarto.yml) -.- N & M
   N & M --> X(GitHub Uploader<br> Web Page)
   end
@@ -42,7 +46,7 @@ direction LR
      class Z,Q,L1 yaml
      class I,P,R,L3 drive
      class J,K,L4 sheet
-     class B,C,D,E,L2 rcode
+     class B,C,D,E,L2,S,T,V rcode
      class F,G,G1,H,L5 datain
      class M,N,L6 qmd
      class X htm
