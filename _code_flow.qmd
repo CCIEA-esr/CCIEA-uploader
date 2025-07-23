@@ -10,24 +10,25 @@ format:
 ```{mermaid}
 %%| fig-width: 7
 flowchart TD
-subgraph sg1["<b>CCIEA Uploader code flowchart</b>"]
+subgraph sg1["<b>CCIEA Uploader: code flowchart</b>"]
 direction LR
  subgraph sg2[<br>]
  direction TB
-   Z(main.yml) -. Daily GitHub Action .- B(get_status.R)
+  Z(main.yml) -. Daily GitHub Action .- B(get_status.R)
   B -- <b>1</b> --> V[[check_upload]]
-  R[\Data Provider<br>Upload Folder\] --> V -- metadata file --> S[[update_metadata]] --> K
-  V -- data file --> T[[clean_file]] --> I[\Data Provider<br>ESR year Folders\]
+  V -- metadata file --> S[[update_metadata]] --> K
+  V -- data file --> T[[clean_file]] --> I[\Data Provider<br> ESR year Folders\]
   V -- other file --> I
-  B -. <b>4</b> .-  C[[generate_file_status]]
   I --> C --> F[/uploader_status.json/] ---> N(status.qmd)
   J[\Data Figure Naming <br> Conventions\] -->E
+  R[\Data Provider<br> Upload Folder\] ----> V
   K[\Metadata\] --> D
-  B -. <b>3</b> .-> D[[get_indices]] --> G[/items_meta.json/] ---> M(uploader.qmd) -- File check --> R
-  D --> G1[/metadata.csv/]
   B -- <b>2</b> --> E[[get_file_conventions]] -->H[/cciea_naming_conventions.json/] ---> M
-  Q(_quarto.yml) -.- N & M
-  N & M --> X(GitHub Uploader<br> Web Page)
+  B -. <b>3</b> .-> D[[get_indices]] --> G[/items_meta.json/] ---> M(uploader.qmd) -- File check --> R
+  B -. <b>4</b> .-  C[[generate_file_status]]
+  D --> G1[/metadata.csv/]
+  Q(_quarto.yml) -.- M & N
+  M & N --> X(GitHub Uploader<br> Web Page)
   end
   subgraph sg3[Legend]
   direction LR
