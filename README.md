@@ -29,7 +29,7 @@ information and updates from Google Spreadsheets and Drive, and a Quarto
 Website written in R and OJS.
 
 <img src="README_files/figure-commonmark/mermaid-figure-1.png"
-style="width:7in;height:6.52in" />
+style="width:7in;height:7.16in" />
 
 - **Github Action** - runs daily at 6 am
   - main.yaml: get_status.R
