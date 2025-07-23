@@ -25,11 +25,11 @@ The uploader provides:
 ### Code
 
 The code in this repository consists of GitHub actions to assemble
-information an updates from Google Spreadsheets and Drive, and a Quarto
+information and updates from Google Spreadsheets and Drive, and a Quarto
 Website written in R and OJS.
 
 <img src="README_files/figure-commonmark/mermaid-figure-1.png"
-style="width:7in;height:6.93in" />
+style="width:7in;height:6.52in" />
 
 - **Github Action** - runs daily at 6 am
   - main.yaml: get_status.R
@@ -38,24 +38,24 @@ style="width:7in;height:6.93in" />
     - loads: \_init.R, \_gdrive.R, \_pi_folders_to_json.R  
     - runs:
       1.  check_upload()
-          - check for new files in upload folder
+          - check for new files in data provider upload folder
           - check file types:
             - PI metadata: incorporate back into full spreadsheet
             - data file: clean it and move to esr_year folder, plot it
               (work in progress)
             - other file types: just move them to esr_folder
           - Backup original files (PI_original folder)
-      2.  generate_file_status()
-          - input: Google Drive folders
-          - output: uploader_status.json
+      2.  get_file_conventions()
+          - input: file name conventions (Google Drive spreadsheet)
+          - output: cciea_naming_conventions.json
       3.  get_indices()
-          - input: Google sheet
+          - input: CCIEA Metadata (Google Drive spreadsheet)
           - output:
             - items_meta.json (for menu generation)
             - metadata.csv (complete copy of metadata)
-      4.  get_file_conventions()
-          - input: file name conventions
-          - output: cciea_naming_conventions.json
+      4.  generate_file_status()
+          - input: Google Drive esr_year folder for each data provider
+          - output: uploader_status.json
 - **Web Page** (Quarto)
   - \_quarto.yml
     - uploader.qmd
