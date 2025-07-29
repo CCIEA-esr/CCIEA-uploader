@@ -218,3 +218,91 @@ get_file_conventions <- function(file_folder,file_name){
   write(output,file="data/cciea_naming_conventions.json")
 }
 
+##---------check_upload----------------------------------
+## look for files in upload folders, cleans them up, and moves them to esr_year folder
+## back up original file
+check_upload_status <- function(esr_year){
+  print(paste("Starting check_upload ",now(),sep=""))
+  pifolders = get_PI_folders(cciea_folders[3])
+  #loop through PI folders
+  for (p in 1:length(pifolders$name)){
+    PI=pifolders$name[p]
+    print(PI)
+    pi_folder_id=pifolders$id[p]
+    PIyears=find_folders_in_folder(pi_folder_id)
+    this_yearfolder <- PIyears %>% filter(name==esr_year)
+    upload_folder_id <- PIyears %>% filter(name=="Uploaded_files")
+    backup_folder_id <- PIyears %>% filter(name=="PI_original")
+    pifiles=find_PI_files_in_esr_year(pi_folder_id,"Uploaded_files")
+    
+    ## Loop through all the files in the upload folder
+    if (length(pifiles$name) > 0) {
+      for(f in 1:length(pifiles$name)){
+        fileobj <- list()
+        print(pifiles$name[f])
+        ## if this is a metadata file, incorporate it back into the full spreadsheet
+        if(grepl("metadata",pifiles$name[f])){
+          update_metadata(PIid,pifiles$name[f])
+        }
+        ## if this is an indicator csv data file or spreadsheet - clean it, move it to esr_year folder, and plot it
+        else if(grepl(".csv",pifiles$name[f])){
+          datares="Annual"
+          if(grepl("_M.csv",pifiles$name[f]) || grepl("Monthly",pifiles$name[f]))datares="Monthly"  
+          mime_type <- pifiles$drive_resource[[f]]$mimeType
+          if(mime_type=="text/csv"){
+            content <- drive_read_string(pifiles$id[f])
+            df <- read_csv(content)
+          }
+          else if(mime_type=="application/vnd.google-apps.spreadsheet"){
+            df <- read_sheet(pifiles$id[f])
+          }
+          ## clean up the file if needed
+          df_cleaned=clean_file(df,datares)
+          write.csv(df_cleaned, file = "temp.csv",row.names = FALSE)
+          drive_upload("temp.csv",name=pifiles$name[f],path=this_yearfolder,type="text/csv",overwrite=TRUE)
+          ##		backup=drive_mkdir("PI_original",path=pifolderid,overwrite=FALSE)
+          drive_mv(file = pifiles$id[f], path = backup_folder_id)     	
+          
+        }
+        ## If this is some other type of upload, just move it to esr_year folder
+        else{
+          drive_mv(file = pifiles$id[f], path = this_yearfolder)
+        }
+      }
+    }
+  }
+}
+
+##---------clean_file----------------------------------
+## apply Nick's file cleaning code to df
+clean_file <- function(df,datares){
+  # fix columns
+  if(df[1,1]=="UTC"){df = data.frame(read.table(Data.File, header = TRUE, skip=1, sep=","))}
+  cn = colnames(df)
+  if(datares=="Annual")cn[cn%in%c("Year","date","Date","time","UTC","time..UTC.")]<-"year"
+  if(datares=="Monthly")cn[cn%in%c("Year","date","Date","year","UTC","time..UTC.")]<-"time"
+  cn[cn%in%c("data","Data","fitted.data","Fitted.data","mean","count","kg.day","anomaly", "kg", "km","Annual.Anomaly","ln.catch.1.","ONI","PDO","NPGO")]<-"index"
+  cn[cn%in%c("raw.data","Raw.Data")]<-"Y2"
+  cn[cn%in%c("time.series","TimeSeries","Time.Series")]<-"timeseries"
+  cn[cn%in%c("Metric")]<-"metric"
+  cn[cn%in%c("Month")]<-"month"
+  cn[cn%in%c('Day','day')]<- 'day'
+  cn[cn%in%c("se","standard.error","error")]<-"SE"
+  cn[cn%in%c("sd","standard.deviation", "stdev")]<-"SD"
+  colnames(df) <- cn
+  mth = grep("month",cn)
+  day = grep("day",cn)
+  if(length(day==1)){DAY = df$day}else{DAY=15}
+  if(length(mth)==1){
+    df$month = ifelse(nchar(df$month)==1,paste(0,df$month,sep=""),df$month)
+    df$year = paste(df$year,df$month,DAY,sep='-')
+  }
+  # fix year to 10 places
+  df$year = as.character(df$year)
+  df$year = ifelse(nchar(df$year)>10,substring(df$year,1,10),df$year)
+  # check year of data
+  # yr = grep(report.year,x2)
+  # if(length(yr)==0){df$type="old.data"}else{df$type="current.data"}
+  return(df)
+}
+
