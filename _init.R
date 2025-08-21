@@ -12,5 +12,7 @@ cciea_folders=c("_CCIEA","CCIEA ESR data","CCIEA Data Upload")
 file_name_conventions="Data Figure Naming Conventions"
 # name of folder where metadata spreadsheet is located
 metadata_spreadsheet_folder="ERDDAP metadata spreadsheet"
-# partial name of metadata file, the rest can be the date and version, but there can only be one metadata file in the folder
+# partial name of metadata file, the rest of the name can be the date and version, but there can only be one metadata file in the folder
 meta_file_search="CCIEA_metadata"
+# partial name of parameter file that defines columns in metadata, located in metadata_spreadsheet_folder
+meta_param_file_search="CCIEA_parameter_table"
