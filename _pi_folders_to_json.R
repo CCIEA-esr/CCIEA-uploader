@@ -46,7 +46,7 @@ get_pi_year_folders <- function(PI,PIid){
 ##---------generate_file_status----------------------------------
 ## create json file of files uploaded to Google Drive and check file headers
 generate_file_status <- function(esr_year,headervars,headervarsmon){
-  print(paste("Starting generate_file_status ",now(),sep=""))
+  print(paste0("Starting generate_file_status ",now()))
   file_naming <- fromJSON("data/cciea_naming_conventions.json")
   pifolders = get_PI_folders(cciea_folders[3])
   folderarray <- list()
@@ -126,15 +126,16 @@ read_updated <- function(esr_year){
 
 ##---------get_indices----------------------------------
 ## read metadata file from Drive and output as json file
-## file_folder - name of Drive folder where metadata file is located
+## metadata_spreadsheet_folder - name of Drive folder where metadata file is located
 ## meta_file_search - partial name of metadata file, remainder is date and version
-##    there can only be one metadata file in the folder
+##    there can only be one metadata file in the folder !!CHECK FOR THIS SOMEWHERE!!
+## 
 get_indices <- function(esr_year,last_year,metadata_spreadsheet_folder,meta_file_search){
-  print(paste("Starting get_indices ",now(),sep=""))
+  print(paste0("Starting get_indices ",now()))
   pifolders = get_PI_folders(cciea_folders[3])
-  folder_id = find_folder_id(metadata_spreadsheet_folder)
+  metadata_spreadsheet_folder_id = find_folder_id(metadata_spreadsheet_folder)
   # search for any file with file_search in the name
-  file=search_file_in_folder(meta_file_search,folder_id)
+  file=search_file_in_folder(meta_file_search,metadata_spreadsheet_folder_id)
   print(file$name)
   df <- read_sheet(file$id)
   df1<- apply(df,2,as.character)
@@ -177,7 +178,7 @@ get_indices <- function(esr_year,last_year,metadata_spreadsheet_folder,meta_file
       piarray <- append(piarray,list(piobj))
     }
     else{
-      print(paste0(piid," does not have a folder",sep=""))
+      print(paste0(piid," does not have a folder"))
       }
   }
   pi_indices <- list()
@@ -193,7 +194,7 @@ get_indices <- function(esr_year,last_year,metadata_spreadsheet_folder,meta_file
 ## and located in Google Drive folder named folder
 ## current file name defined in _init.R, current folder cciea_folders[2] which is "CCIEA ESR data"
 get_file_conventions <- function(file_folder,file_name){
-  print(paste("Starting get_file_conventions ",now(),sep=""))
+  print(paste0("Starting get_file_conventions ",now()))
   folder_id = find_folder_id(file_folder)
   file=find_file_in_folder(file_name,folder_id)
   content <- read_sheet(file$id)
@@ -218,11 +219,12 @@ get_file_conventions <- function(file_folder,file_name){
   write(output,file="data/cciea_naming_conventions.json")
 }
 
-##---------check_upload----------------------------------
-## look for files in upload folders, cleans them up, and moves them to esr_year folder
-## back up original file
-check_upload_status <- function(esr_year){
-  print(paste("Starting check_upload ",now(),sep=""))
+##---------check_upload_status----------------------------------
+## look for files in "Uploaded_files", cleans them up, and moves them to esr_year folder
+## back up original file data files before cleaning in "PI_original_data" folder
+## to-do make back up folder or create automatically
+check_upload_status <- function(esr_year,metadata_spreadsheet_folder,meta_file_search,meta_param_file_search){
+  print(paste0("Starting check_upload ",now()))
   pifolders = get_PI_folders(cciea_folders[3])
   #loop through PI folders
   for (p in 1:length(pifolders$name)){
@@ -232,7 +234,7 @@ check_upload_status <- function(esr_year){
     PIyears=find_folders_in_folder(pi_folder_id)
     this_yearfolder <- PIyears %>% filter(name==esr_year)
     upload_folder_id <- PIyears %>% filter(name=="Uploaded_files")
-    backup_folder_id <- PIyears %>% filter(name=="PI_original")
+    backup_folder_id <- PIyears %>% filter(name=="PI_original_data")
     pifiles=find_PI_files_in_esr_year(pi_folder_id,"Uploaded_files")
     
     ## Loop through all the files in the upload folder
@@ -241,8 +243,10 @@ check_upload_status <- function(esr_year){
         fileobj <- list()
         print(pifiles$name[f])
         ## if this is a metadata file, incorporate it back into the full spreadsheet
+        ## to-do !! NEED TO CHECK IF THEY UPLOADED MORE THAN ONE METADATA FILE!!
+        ## to-do Also back up their metadata file to backup_folder_id
         if(grepl("metadata",pifiles$name[f])){
-          update_metadata(PIid,pifiles$name[f])
+          update_metadata(PI,pifiles$id[f],metadata_spreadsheet_folder,meta_file_search,meta_param_file_search)
         }
         ## if this is an indicator csv data file or spreadsheet - clean it, move it to esr_year folder, and plot it
         else if(grepl(".csv",pifiles$name[f])){
@@ -257,9 +261,10 @@ check_upload_status <- function(esr_year){
             df <- read_sheet(pifiles$id[f])
           }
           ## clean up the file if needed
-          df_cleaned=clean_file(df,datares)
+          df_cleaned <- clean_file(df,datares)
           write.csv(df_cleaned, file = "temp.csv",row.names = FALSE)
           drive_upload("temp.csv",name=pifiles$name[f],path=this_yearfolder,type="text/csv",overwrite=TRUE)
+          ## to-do could check for backup folder and create it if not already there -
           ##		backup=drive_mkdir("PI_original",path=pifolderid,overwrite=FALSE)
           drive_mv(file = pifiles$id[f], path = backup_folder_id)     	
           
@@ -306,3 +311,70 @@ clean_file <- function(df,datares){
   return(df)
 }
 
+##---------update_metadata----------------------------------
+## incorporate edited metadata back into full spreadsheet
+## backup present spreadsheet first
+## metadata_spreadsheet_folder - name of Drive folder where metadata file is located
+## meta_file_search - partial name of metadata file, remainder is date and version
+## meta_param_file_search - partial name of parameter table file ie full name is "CCIEA_parameter_table_YYYYMMDD.csv" in metadata_spreadsheet_folder to identify metadata columns
+## Case for adding new data needs to be developed, currently uses CCIEA_timeseries_ID to match new metadata to old
+update_metadata <- function(PIid,meta_uploaded_fileid,metadata_spreadsheet_folder,meta_file_search,meta_param_file_search){
+  print(paste0("Starting update_metadata ",now()))
+  #backup spreadsheet before updating
+  meta_folder_id=find_folder_id(metadata_spreadsheet_folder)
+  backup_folder_name="Older Metadata Spreadsheets"
+  # new_meta_file contains the old metadata, but it is the one we will be updating
+  new_meta_file=backup_file(meta_file_search,meta_folder_id,backup_folder_name)
+  print(new_meta_file)
+
+## Original code had stuff here about nccsv header - future just add header from oceanview side?
+# Read the parameter table to create a mapping for metadata column names
+# This assumes the second column indicates if a parameter is metadata (1) or not (0)
+  # Create a named vector to map ERDDAP names to the names used in the final CSV
+  # This will be used to rename columns from new metadata files.
+  # `setNames(value, name)`
+  param_file=search_file_in_folder(meta_param_file_search,meta_folder_id)
+  param_table <- read_sheet(param_file$id)
+  col_name_map <- param_table %>%
+    filter(.[[2]] == 1) %>% # Filter rows where the second column is 1
+    { setNames(.$`name in csv file`, .$`ERDDAP name`) }
+
+# 
+  old_meta =read_sheet(new_meta_file$id)
+  old_meta$ERDDAP_query_value <- as.character(old_meta$ERDDAP_query_value)
+  column_types <- sapply(old_meta,class) # returns named vector
+  col_list=as.list(column_types)
+
+csv=drive_read_string(meta_uploaded_fileid)
+new_meta_header <- read_csv(csv,n_max=1, show_col_types = FALSE)  # (lat/lon are "logical")
+
+temp=old_meta[0,]
+common_cols <- intersect(names(new_meta_header),names(temp))
+col_types <- col_list[common_cols]
+
+new_meta_chunk <- read_csv(csv,col_types =col_types, show_col_types = FALSE)
+
+# Check that the metadata contains the required ID column
+if (!"CCIEA_timeseries_ID" %in% colnames(new_meta_chunk)) {
+          warning(paste("  -> WARNING: No 'CCIEA_timeseries_ID' column in", PIid, " metadata. Skipping file."))
+          next
+        }
+# Filter out any rows that are missing the timeseries ID
+# Figure out what to do for adding NEW data - flag it here -> notification?
+new_meta_chunk <- new_meta_chunk %>% filter(!is.na(CCIEA_timeseries_ID))
+
+old_meta <- rows_update(old_meta,new_meta_chunk,by = "CCIEA_timeseries_ID")
+
+## write to Google Drive
+sheet_write(data = old_meta, ss=new_meta_file$id, sheet = 1)
+
+## also write to GitHub as csv file
+write_csv(x = old_meta, file = "data/CCIEA_metadata.csv",na="")
+
+## also write to nccsv file for ERDDAP
+# Rename columns from ERDDAP names to the final CSV names using our map
+# needs to be reversed - this named it the other way I think
+#new_meta_renamed <- new_meta_chunk %>% rename_with(~ col_name_map[.], .cols = any_of(names(col_name_map)))
+
+
+}

@@ -79,7 +79,7 @@ viewof indicator=Inputs.radio(component.indices,{value: component.indices[0]})
 ```{ojs}
 //| echo: false
 
-meta = await FileAttachment("data/metadata.csv").csv();
+meta = await FileAttachment("data/CCIEA_metadata.csv").csv();
 filtered = meta.filter(metadata =>{
    return metadata.Title===indicator && metadata.Component_Section===component.name
 });

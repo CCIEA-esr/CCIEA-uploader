@@ -45,10 +45,28 @@ localfromgmt <- function(utc){
   return(local)
 }
 
-## Return id of file whose name contains the string file_search in a folder with id folder_id
+## Return tibble of file whose name contains the string file_search in a folder with id folder_id
 search_file_in_folder <- function(file_search,folder_id){
   query=paste("'",folder_id,"' in parents and mimeType != 'application/vnd.google-apps.folder' and name contains '",file_search,"'",sep="")
   file = drive_find(q=query)
   return(file)
+}
+
+## Copy a file to a backup folder, rename file in current folder with current date
+## Rename first sheet in new file with new file name
+## file_name_search: string to search for to find a file in the folder named folder
+## folder: name of folder where file to back up is located
+## backup_folder_name: name of folder to copy for backup
+## backup file will have the same name with today's date appended
+## returns a list containing name and id of new file
+backup_file <- function(file_name_search, folder_id, backup_folder_name){
+ file=search_file_in_folder(file_name_search,folder_id)
+  new_file_name = paste0(file_name_search,"_",today())
+  backup_folder_id=find_folder_id(backup_folder_name)
+  ## Specify file name when copying or else Drive prepends "Copy of"
+  drive_cp(file$id,path = backup_folder_id,name = file$name)
+  drive_mv(file$id,name = new_file_name)
+  sheet_rename(file$id, sheet = 1, new_name = new_file_name)
+  return(list(name = new_file_name, id = file$id))
 }
 
