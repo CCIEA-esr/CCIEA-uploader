@@ -234,7 +234,7 @@ check_upload_status <- function(esr_year,metadata_spreadsheet_folder,meta_file_s
     PIyears=find_folders_in_folder(pi_folder_id)
     this_yearfolder <- PIyears %>% filter(name==esr_year)
     upload_folder_id <- PIyears %>% filter(name=="Uploaded_files")
-    backup_folder_id <- PIyears %>% filter(name=="PI_original_data")
+    backup_folder_id <- PIyears %>% filter(name=="PI_original")
     pifiles=find_PI_files_in_esr_year(pi_folder_id,"Uploaded_files")
     
     ## Loop through all the files in the upload folder
