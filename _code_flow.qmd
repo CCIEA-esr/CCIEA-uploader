@@ -26,7 +26,7 @@ direction LR
   B -- <b>2</b> --> E[[get_file_conventions]] -->H[/cciea_naming_conventions.json/] ---> M
   B -. <b>3</b> .-> D[[get_indices]] --> G[/items_meta.json/] ---> M(uploader.qmd) -- File check --> R
   B -. <b>4</b> .-  C[[generate_file_status]]
-  D --> G1[/metadata.csv/]
+  D --> G1[/CCIEA_metadata.csv/]
   Q(_quarto.yml) -.- M & N
   M & N --> X(GitHub Uploader<br> Web Page)
   end
