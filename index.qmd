@@ -60,7 +60,7 @@ viewof component = Inputs.select(components,{format: x => x.name, label: "Compon
 html`
 			<div>
 				<div><span>Metadata for <span class="bold">${m.Title}</span>:</span></div><br>
-				${m.default_figure != ""  ? html `<div><img class="blm" src="${m.default_figure}"></iron-image></div>` : html `<div>No image found for this indicator</div>`}
+				${m.default_figure != ""  ? html `<div><img class="blm" src="figures/timeseries_images/${m.default_figure}"></iron-image></div>` : html `<div>No image found for this indicator</div>`}
 </div>`
 
 ```

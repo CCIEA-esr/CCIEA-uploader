@@ -37,6 +37,7 @@ format:
       sidebar-width: 20px
 resources:
   - data
+  - figures
 
 
 
