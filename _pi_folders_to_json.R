@@ -115,6 +115,7 @@ generate_file_status <- function(esr_year,headervars,headervarsmon){
   statusobj$status <- folderarray
   output<-toJSON(statusobj, auto_unbox=TRUE)
   write(output,file=paste("data/uploader_status_",esr_year,".json",sep=""))
+  return(statusobj$statusupdate)
   }
 
 ## Get just the last_updated date for display
@@ -125,7 +126,8 @@ read_updated <- function(esr_year){
   }
 
 ##---------get_indices----------------------------------
-## read metadata file from Drive and output as json file
+## read metadata file from Drive, get just a list of data providers and indicators
+## output as json file
 ## metadata_spreadsheet_folder - name of Drive folder where metadata file is located
 ## meta_file_search - partial name of metadata file, remainder is date and version
 ##    there can only be one metadata file in the folder !!CHECK FOR THIS SOMEWHERE!!
