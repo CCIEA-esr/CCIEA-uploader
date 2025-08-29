@@ -139,7 +139,7 @@ get_indices <- function(esr_year,last_year,metadata_spreadsheet_folder,meta_file
   print(file$name)
   df <- read_sheet(file$id)
   df1<- apply(df,2,as.character)
-  fwrite(df1, file="data/metadata.csv",sep=",",quote="auto",na="")
+  fwrite(df1, file="data/CCIEA_metadata.csv",sep=",",quote="auto",na="")
   df_trimmed<- df %>% select(c('PI_ID','PI', 'Contact', 'Title','Component_Section','serve_flag'))
   meta <- df_trimmed %>% filter(serve_flag==1)
   pis <- distinct(meta,PI,PI_ID,Contact)
