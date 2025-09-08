@@ -45,15 +45,4 @@
               git commit -m 'Data updated' || echo "No changes to commit"
               git push origin || echo "No changes to commit"
               
-          - name: Render Quarto project
-            uses: quarto-dev/quarto-actions/render@v2
-
-          - name: Upload artifact
-            uses: actions/upload-pages-artifact@v3
-            with:
-              path: docs # or your output directory
-
-          - name: Deploy to GitHub Pages
-            id: deployment
-            uses: actions/deploy-pages@v4
 
