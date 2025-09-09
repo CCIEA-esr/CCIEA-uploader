@@ -96,7 +96,9 @@ generate_file_status <- function(esr_year,headervars,headervarsmon){
             if(datares=="Monthly")headerchk=headervarsmon
             check_cols <- function(x,columns){x %in% columns}
             headercols <- map(headerchk,check_cols,columns)
-            }
+          }
+# do this in check_upload_status instead
+#          write_csv(content,paste0("data/timeseries_data/",pifiles$name[f],sep=""))
           fileobj$headerchk=headercols
           piobj=append(piobj,list(fileobj))
           }
@@ -265,8 +267,10 @@ check_upload_status <- function(esr_year,metadata_spreadsheet_folder,meta_file_s
           }
           ## clean up the file if needed
           df_cleaned <- clean_file(df,datares)
-          write.csv(df_cleaned, file = "temp.csv",row.names = FALSE)
-          drive_upload("temp.csv",name=pifiles$name[f],path=this_yearfolder,type="text/csv",overwrite=TRUE)
+          outfile <- paste0("data/timeseries_data/",pifiles$name[f],sep="")
+          write_csv(df_cleaned,outfile,row.names = FALSE)
+#          write.csv(df_cleaned, file = "temp.csv",row.names = FALSE)
+          drive_upload(outfile,name=pifiles$name[f],path=this_yearfolder,type="text/csv",overwrite=TRUE)
           ## to-do could check for backup folder and create it if not already there -
           ##		backup=drive_mkdir("PI_original",path=pifolderid,overwrite=FALSE)
           drive_mv(file = pifiles$id[f], path = backup_folder_id)     	
