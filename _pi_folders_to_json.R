@@ -77,12 +77,12 @@ generate_file_status <- function(esr_year,headervars,headervarsmon){
         ## if this is a metadata file
         if(grepl("metadata",pifiles$name[f])){
           pis$newmeta=1
-          pis$newmetaupdate=localfromgmt(pifiles$drive_resource[[f]]$modifiedTime)
+          pis$newmetaupdate=localfromgmt(pifiles$drive_resource[[f]]$createdTime)
           }
         ## if this is an indicator data csv file
         else{
           datares="Annual"
-          fileobj <- list(name=pifiles$name[f],updated=pifiles$drive_resource[[f]]$modifiedTime,typechk=0,namechk=9,datares=datares)
+          fileobj <- list(name=pifiles$name[f],updated=pifiles$drive_resource[[f]]$createdTime,typechk=0,namechk=9,datares=datares)
           if(grepl(".csv",pifiles$name[f]))fileobj$typechk=1
           if(grepl("_M.csv",pifiles$name[f]) || grepl("Monthly",pifiles$name[f]))datares="Monthly"
           fileobj$datares=datares
@@ -255,6 +255,7 @@ check_upload_status <- function(esr_year,metadata_spreadsheet_folder,meta_file_s
           datares="Annual"
           if(grepl("_M.csv",pifiles$name[f]) || grepl("Monthly",pifiles$name[f]))datares="Monthly"  
           mime_type <- pifiles$drive_resource[[f]]$mimeType
+          created_time <- pifiles$drive_resource[[f]]$createdTime
           if(mime_type=="text/csv"){
             content <- drive_read_string(pifiles$id[f])
             df <- read_csv(content)
