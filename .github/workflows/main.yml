@@ -41,7 +41,7 @@
               git config --local user.email "actions@github.com"
               git config --local user.name "GitHub Actions"
               git add data/*.json
-              git add data/metadata.csv
+              git add data/CCIEA_metadata.csv
               git commit -m 'Data updated' || echo "No changes to commit"
               git push origin || echo "No changes to commit"
               
