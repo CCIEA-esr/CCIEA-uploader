@@ -1,0 +1,2013 @@
+order,year,index,metric,timeseries
+1,1981,470.1006276,mt x 1000,Total fisheries coastwide
+1,1982,416.8980819,mt x 1000,Total fisheries coastwide
+1,1983,350.5660297,mt x 1000,Total fisheries coastwide
+1,1984,346.9702528,mt x 1000,Total fisheries coastwide
+1,1985,337.434574,mt x 1000,Total fisheries coastwide
+1,1986,427.413401,mt x 1000,Total fisheries coastwide
+1,1987,461.0869177,mt x 1000,Total fisheries coastwide
+1,1988,494.844811,mt x 1000,Total fisheries coastwide
+1,1989,556.2291091,mt x 1000,Total fisheries coastwide
+1,1990,465.7631922,mt x 1000,Total fisheries coastwide
+1,1991,511.3369337,mt x 1000,Total fisheries coastwide
+1,1992,458.110682,mt x 1000,Total fisheries coastwide
+1,1993,395.2486647,mt x 1000,Total fisheries coastwide
+1,1994,489.3973448,mt x 1000,Total fisheries coastwide
+1,1995,452.6695136,mt x 1000,Total fisheries coastwide
+1,1996,508.2623668,mt x 1000,Total fisheries coastwide
+1,1997,527.3194856,mt x 1000,Total fisheries coastwide
+1,1998,411.5011125,mt x 1000,Total fisheries coastwide
+1,1999,502.2293014,mt x 1000,Total fisheries coastwide
+1,2000,545.4342401,mt x 1000,Total fisheries coastwide
+1,2001,477.7313558,mt x 1000,Total fisheries coastwide
+1,2002,434.3686239,mt x 1000,Total fisheries coastwide
+1,2003,390.7827385,mt x 1000,Total fisheries coastwide
+1,2004,480.9040781,mt x 1000,Total fisheries coastwide
+1,2005,541.4418911,mt x 1000,Total fisheries coastwide
+1,2006,541.1877862,mt x 1000,Total fisheries coastwide
+1,2007,516.3811927,mt x 1000,Total fisheries coastwide
+1,2008,503.1251449,mt x 1000,Total fisheries coastwide
+1,2009,410.6445721,mt x 1000,Total fisheries coastwide
+1,2010,497.9399559,mt x 1000,Total fisheries coastwide
+1,2011,548.3727718,mt x 1000,Total fisheries coastwide
+1,2012,499.9012376,mt x 1000,Total fisheries coastwide
+1,2013,569.6443768,mt x 1000,Total fisheries coastwide
+1,2014,555.0470602,mt x 1000,Total fisheries coastwide
+1,2015,357.9846308,mt x 1000,Total fisheries coastwide
+1,2016,429.3960283,mt x 1000,Total fisheries coastwide
+1,2017,546.5319206,mt x 1000,Total fisheries coastwide
+1,2018,502.5400244,mt x 1000,Total fisheries coastwide
+1,2019,458.2367576,mt x 1000,Total fisheries coastwide
+1,2020,428.8719868,mt x 1000,Total fisheries coastwide
+1,2021,429.9189845,mt x 1000,Total fisheries coastwide
+1,2022,487.7323738,mt x 1000,Total fisheries coastwide
+1,2023,394.6919987,mt x 1000,Total fisheries coastwide
+1,2024,345.8352813,mt x 1000,Total fisheries coastwide
+2,1981,27.81394049,mt x 1000,Salmon commercial coastwide
+2,1982,30.69915485,mt x 1000,Salmon commercial coastwide
+2,1983,14.50652644,mt x 1000,Salmon commercial coastwide
+2,1984,15.81415478,mt x 1000,Salmon commercial coastwide
+2,1985,35.34462151,mt x 1000,Salmon commercial coastwide
+2,1986,33.11778641,mt x 1000,Salmon commercial coastwide
+2,1987,37.98296745,mt x 1000,Salmon commercial coastwide
+2,1988,35.08255542,mt x 1000,Salmon commercial coastwide
+2,1989,33.25938548,mt x 1000,Salmon commercial coastwide
+2,1990,23.12172834,mt x 1000,Salmon commercial coastwide
+2,1991,25.1154576,mt x 1000,Salmon commercial coastwide
+2,1992,13.50554867,mt x 1000,Salmon commercial coastwide
+2,1993,18.9085059,mt x 1000,Salmon commercial coastwide
+2,1994,15.72920204,mt x 1000,Salmon commercial coastwide
+2,1995,16.22293329,mt x 1000,Salmon commercial coastwide
+2,1996,10.38493873,mt x 1000,Salmon commercial coastwide
+2,1997,14.1288545,mt x 1000,Salmon commercial coastwide
+2,1998,8.801876876,mt x 1000,Salmon commercial coastwide
+2,1999,6.160116272,mt x 1000,Salmon commercial coastwide
+2,2000,10.11672905,mt x 1000,Salmon commercial coastwide
+2,2001,17.21959087,mt x 1000,Salmon commercial coastwide
+2,2002,20.74322278,mt x 1000,Salmon commercial coastwide
+2,2003,20.94934944,mt x 1000,Salmon commercial coastwide
+2,2004,20.42341024,mt x 1000,Salmon commercial coastwide
+2,2005,13.18514176,mt x 1000,Salmon commercial coastwide
+2,2006,14.12401883,mt x 1000,Salmon commercial coastwide
+2,2007,11.49051209,mt x 1000,Salmon commercial coastwide
+2,2008,9.004002941,mt x 1000,Salmon commercial coastwide
+2,2009,15.80073625,mt x 1000,Salmon commercial coastwide
+2,2010,14.84530815,mt x 1000,Salmon commercial coastwide
+2,2011,19.36537533,mt x 1000,Salmon commercial coastwide
+2,2012,11.37459298,mt x 1000,Salmon commercial coastwide
+2,2013,26.14592166,mt x 1000,Salmon commercial coastwide
+2,2014,17.01418919,mt x 1000,Salmon commercial coastwide
+2,2015,12.01413595,mt x 1000,Salmon commercial coastwide
+2,2016,8.780970354,mt x 1000,Salmon commercial coastwide
+2,2017,10.38632945,mt x 1000,Salmon commercial coastwide
+2,2018,9.088020516,mt x 1000,Salmon commercial coastwide
+2,2019,5.378018482,mt x 1000,Salmon commercial coastwide
+2,2020,4.699128013,mt x 1000,Salmon commercial coastwide
+2,2021,5.975565694,mt x 1000,Salmon commercial coastwide
+2,2022,9.958903307,mt x 1000,Salmon commercial coastwide
+2,2023,5.042818654,mt x 1000,Salmon commercial coastwide
+2,2024,5.572830915,mt x 1000,Salmon commercial coastwide
+3,1981,108.9088704,mt x 1000,Non-whiting groundfish coastwide
+3,1982,124.7480013,mt x 1000,Non-whiting groundfish coastwide
+3,1983,102.9884182,mt x 1000,Non-whiting groundfish coastwide
+3,1984,92.18416768,mt x 1000,Non-whiting groundfish coastwide
+3,1985,90.55097766,mt x 1000,Non-whiting groundfish coastwide
+3,1986,82.91829919,mt x 1000,Non-whiting groundfish coastwide
+3,1987,91.43223507,mt x 1000,Non-whiting groundfish coastwide
+3,1988,89.44893872,mt x 1000,Non-whiting groundfish coastwide
+3,1989,95.23347935,mt x 1000,Non-whiting groundfish coastwide
+3,1990,87.70657982,mt x 1000,Non-whiting groundfish coastwide
+3,1991,85.6949685,mt x 1000,Non-whiting groundfish coastwide
+3,1992,80.5566017,mt x 1000,Non-whiting groundfish coastwide
+3,1993,76.57628802,mt x 1000,Non-whiting groundfish coastwide
+3,1994,64.69041374,mt x 1000,Non-whiting groundfish coastwide
+3,1995,62.65748607,mt x 1000,Non-whiting groundfish coastwide
+3,1996,64.20761637,mt x 1000,Non-whiting groundfish coastwide
+3,1997,57.84328549,mt x 1000,Non-whiting groundfish coastwide
+3,1998,45.23451534,mt x 1000,Non-whiting groundfish coastwide
+3,1999,44.86780785,mt x 1000,Non-whiting groundfish coastwide
+3,2000,39.12486483,mt x 1000,Non-whiting groundfish coastwide
+3,2001,32.04655283,mt x 1000,Non-whiting groundfish coastwide
+3,2002,31.6746071,mt x 1000,Non-whiting groundfish coastwide
+3,2003,29.63149032,mt x 1000,Non-whiting groundfish coastwide
+3,2004,27.27069346,mt x 1000,Non-whiting groundfish coastwide
+3,2005,27.92618445,mt x 1000,Non-whiting groundfish coastwide
+3,2006,24.8399366,mt x 1000,Non-whiting groundfish coastwide
+3,2007,26.69387008,mt x 1000,Non-whiting groundfish coastwide
+3,2008,31.13747941,mt x 1000,Non-whiting groundfish coastwide
+3,2009,33.44272367,mt x 1000,Non-whiting groundfish coastwide
+3,2010,30.06342993,mt x 1000,Non-whiting groundfish coastwide
+3,2011,26.64192545,mt x 1000,Non-whiting groundfish coastwide
+3,2012,24.9652689,mt x 1000,Non-whiting groundfish coastwide
+3,2013,25.21290099,mt x 1000,Non-whiting groundfish coastwide
+3,2014,23.25295201,mt x 1000,Non-whiting groundfish coastwide
+3,2015,25.69582677,mt x 1000,Non-whiting groundfish coastwide
+3,2016,26.34566314,mt x 1000,Non-whiting groundfish coastwide
+3,2017,34.27045944,mt x 1000,Non-whiting groundfish coastwide
+3,2018,37.88107149,mt x 1000,Non-whiting groundfish coastwide
+3,2019,36.5025577,mt x 1000,Non-whiting groundfish coastwide
+3,2020,29.46190454,mt x 1000,Non-whiting groundfish coastwide
+3,2021,32.25415883,mt x 1000,Non-whiting groundfish coastwide
+3,2022,36.49173662,mt x 1000,Non-whiting groundfish coastwide
+3,2023,34.33447875,mt x 1000,Non-whiting groundfish coastwide
+3,2024,30.65734254,mt x 1000,Non-whiting groundfish coastwide
+4,1981,110.3687192,mt x 1000,Pacific whiting coastwide
+4,1982,69.49753152,mt x 1000,Pacific whiting coastwide
+4,1983,72.81297887,mt x 1000,Pacific whiting coastwide
+4,1984,95.76612954,mt x 1000,Pacific whiting coastwide
+4,1985,84.56114514,mt x 1000,Pacific whiting coastwide
+4,1986,151.1253554,mt x 1000,Pacific whiting coastwide
+4,1987,155.243799,mt x 1000,Pacific whiting coastwide
+4,1988,157.8448803,mt x 1000,Pacific whiting coastwide
+4,1989,208.3812167,mt x 1000,Pacific whiting coastwide
+4,1990,181.6457186,mt x 1000,Pacific whiting coastwide
+4,1991,229.9609895,mt x 1000,Pacific whiting coastwide
+4,1992,210.7630833,mt x 1000,Pacific whiting coastwide
+4,1993,140.097508,mt x 1000,Pacific whiting coastwide
+4,1994,253.4287518,mt x 1000,Pacific whiting coastwide
+4,1995,177.0585497,mt x 1000,Pacific whiting coastwide
+4,1996,213.2521098,mt x 1000,Pacific whiting coastwide
+4,1997,233.4486134,mt x 1000,Pacific whiting coastwide
+4,1998,232.8765331,mt x 1000,Pacific whiting coastwide
+4,1999,224.5906871,mt x 1000,Pacific whiting coastwide
+4,2000,206.7688547,mt x 1000,Pacific whiting coastwide
+4,2001,173.9458946,mt x 1000,Pacific whiting coastwide
+4,2002,130.4589131,mt x 1000,Pacific whiting coastwide
+4,2003,141.9440813,mt x 1000,Pacific whiting coastwide
+4,2004,217.2398345,mt x 1000,Pacific whiting coastwide
+4,2005,260.1204159,mt x 1000,Pacific whiting coastwide
+4,2006,266.9528944,mt x 1000,Pacific whiting coastwide
+4,2007,217.6804166,mt x 1000,Pacific whiting coastwide
+4,2008,248.3999956,mt x 1000,Pacific whiting coastwide
+4,2009,121.5715311,mt x 1000,Pacific whiting coastwide
+4,2010,170.9666365,mt x 1000,Pacific whiting coastwide
+4,2011,231.2619739,mt x 1000,Pacific whiting coastwide
+4,2012,160.1436497,mt x 1000,Pacific whiting coastwide
+4,2013,233.5804662,mt x 1000,Pacific whiting coastwide
+4,2014,264.1381777,mt x 1000,Pacific whiting coastwide
+4,2015,154.1592641,mt x 1000,Pacific whiting coastwide
+4,2016,262.3278751,mt x 1000,Pacific whiting coastwide
+4,2017,353.844321,mt x 1000,Pacific whiting coastwide
+4,2018,317.8282381,mt x 1000,Pacific whiting coastwide
+4,2019,316.6259949,mt x 1000,Pacific whiting coastwide
+4,2020,286.7846871,mt x 1000,Pacific whiting coastwide
+4,2021,269.3017967,mt x 1000,Pacific whiting coastwide
+4,2022,291.7015119,mt x 1000,Pacific whiting coastwide
+4,2023,240.3565814,mt x 1000,Pacific whiting coastwide
+4,2024,166.8806626,mt x 1000,Pacific whiting coastwide
+5,1981,105.384183,mt x 1000,"Coastal pelagic spp, no squid coastwide"
+5,1982,97.90725854,mt x 1000,"Coastal pelagic spp, no squid coastwide"
+5,1983,55.77270261,mt x 1000,"Coastal pelagic spp, no squid coastwide"
+5,1984,56.34271752,mt x 1000,"Coastal pelagic spp, no squid coastwide"
+5,1985,46.34840156,mt x 1000,"Coastal pelagic spp, no squid coastwide"
+5,1986,55.52893046,mt x 1000,"Coastal pelagic spp, no squid coastwide"
+5,1987,57.33642182,mt x 1000,"Coastal pelagic spp, no squid coastwide"
+5,1988,58.85136806,mt x 1000,"Coastal pelagic spp, no squid coastwide"
+5,1989,61.78299109,mt x 1000,"Coastal pelagic spp, no squid coastwide"
+5,1990,48.49842739,mt x 1000,"Coastal pelagic spp, no squid coastwide"
+5,1991,45.78616329,mt x 1000,"Coastal pelagic spp, no squid coastwide"
+5,1992,41.65696667,mt x 1000,"Coastal pelagic spp, no squid coastwide"
+5,1993,31.51835576,mt x 1000,"Coastal pelagic spp, no squid coastwide"
+5,1994,26.80045377,mt x 1000,"Coastal pelagic spp, no squid coastwide"
+5,1995,52.89089678,mt x 1000,"Coastal pelagic spp, no squid coastwide"
+5,1996,49.52298879,mt x 1000,"Coastal pelagic spp, no squid coastwide"
+5,1997,70.93037113,mt x 1000,"Coastal pelagic spp, no squid coastwide"
+5,1998,69.00648784,mt x 1000,"Coastal pelagic spp, no squid coastwide"
+5,1999,76.43989683,mt x 1000,"Coastal pelagic spp, no squid coastwide"
+5,2000,103.3549451,mt x 1000,"Coastal pelagic spp, no squid coastwide"
+5,2001,106.7903377,mt x 1000,"Coastal pelagic spp, no squid coastwide"
+5,2002,106.5460163,mt x 1000,"Coastal pelagic spp, no squid coastwide"
+5,2003,78.29684851,mt x 1000,"Coastal pelagic spp, no squid coastwide"
+5,2004,101.2865819,mt x 1000,"Coastal pelagic spp, no squid coastwide"
+5,2005,101.7621063,mt x 1000,"Coastal pelagic spp, no squid coastwide"
+5,2006,107.3667644,mt x 1000,"Coastal pelagic spp, no squid coastwide"
+5,2007,144.7415403,mt x 1000,"Coastal pelagic spp, no squid coastwide"
+5,2008,105.7664797,mt x 1000,"Coastal pelagic spp, no squid coastwide"
+5,2009,75.86307142,mt x 1000,"Coastal pelagic spp, no squid coastwide"
+5,2010,70.61775122,mt x 1000,"Coastal pelagic spp, no squid coastwide"
+5,2011,51.04231788,mt x 1000,"Coastal pelagic spp, no squid coastwide"
+5,2012,110.5588739,mt x 1000,"Coastal pelagic spp, no squid coastwide"
+5,2013,79.87606767,mt x 1000,"Coastal pelagic spp, no squid coastwide"
+5,2014,43.05232574,mt x 1000,"Coastal pelagic spp, no squid coastwide"
+5,2015,29.08251075,mt x 1000,"Coastal pelagic spp, no squid coastwide"
+5,2016,16.92783776,mt x 1000,"Coastal pelagic spp, no squid coastwide"
+5,2017,9.464611038,mt x 1000,"Coastal pelagic spp, no squid coastwide"
+5,2018,20.84364424,mt x 1000,"Coastal pelagic spp, no squid coastwide"
+5,2019,17.31649712,mt x 1000,"Coastal pelagic spp, no squid coastwide"
+5,2020,9.884606535,mt x 1000,"Coastal pelagic spp, no squid coastwide"
+5,2021,8.529171232,mt x 1000,"Coastal pelagic spp, no squid coastwide"
+5,2022,6.064061966,mt x 1000,"Coastal pelagic spp, no squid coastwide"
+5,2023,6.825268489,mt x 1000,"Coastal pelagic spp, no squid coastwide"
+5,2024,7.609580089,mt x 1000,"Coastal pelagic spp, no squid coastwide"
+6,1981,26.88409156,mt x 1000,Highly migratory species coastwide
+6,1982,17.24700489,mt x 1000,Highly migratory species coastwide
+6,1983,54.9581531,mt x 1000,Highly migratory species coastwide
+6,1984,43.92567028,mt x 1000,Highly migratory species coastwide
+6,1985,14.15609979,mt x 1000,Highly migratory species coastwide
+6,1986,12.96268973,mt x 1000,Highly migratory species coastwide
+6,1987,12.86228709,mt x 1000,Highly migratory species coastwide
+6,1988,14.99584817,mt x 1000,Highly migratory species coastwide
+6,1989,7.694123927,mt x 1000,Highly migratory species coastwide
+6,1990,9.854180644,mt x 1000,Highly migratory species coastwide
+6,1991,10.97601443,mt x 1000,Highly migratory species coastwide
+6,1992,13.5862914,mt x 1000,Highly migratory species coastwide
+6,1993,16.91443076,mt x 1000,Highly migratory species coastwide
+6,1994,16.0311849,mt x 1000,Highly migratory species coastwide
+6,1995,14.01090967,mt x 1000,Highly migratory species coastwide
+6,1996,25.93475547,mt x 1000,Highly migratory species coastwide
+6,1997,23.13773128,mt x 1000,Highly migratory species coastwide
+6,1998,16.31055923,mt x 1000,Highly migratory species coastwide
+6,1999,11.86628592,mt x 1000,Highly migratory species coastwide
+6,2000,10.93843847,mt x 1000,Highly migratory species coastwide
+6,2001,12.71891481,mt x 1000,Highly migratory species coastwide
+6,2002,10.83428818,mt x 1000,Highly migratory species coastwide
+6,2003,17.63606304,mt x 1000,Highly migratory species coastwide
+6,2004,15.18220358,mt x 1000,Highly migratory species coastwide
+6,2005,10.04144038,mt x 1000,Highly migratory species coastwide
+6,2006,13.53429966,mt x 1000,Highly migratory species coastwide
+6,2007,12.51947754,mt x 1000,Highly migratory species coastwide
+6,2008,11.61032466,mt x 1000,Highly migratory species coastwide
+6,2009,13.24729134,mt x 1000,Highly migratory species coastwide
+6,2010,11.92526617,mt x 1000,Highly migratory species coastwide
+6,2011,11.78077436,mt x 1000,Highly migratory species coastwide
+6,2012,14.18954369,mt x 1000,Highly migratory species coastwide
+6,2013,13.10470748,mt x 1000,Highly migratory species coastwide
+6,2014,14.37148233,mt x 1000,Highly migratory species coastwide
+6,2015,12.37975173,mt x 1000,Highly migratory species coastwide
+6,2016,11.55662374,mt x 1000,Highly migratory species coastwide
+6,2017,10.00643021,mt x 1000,Highly migratory species coastwide
+6,2018,9.790272648,mt x 1000,Highly migratory species coastwide
+6,2019,8.388412471,mt x 1000,Highly migratory species coastwide
+6,2020,8.920051124,mt x 1000,Highly migratory species coastwide
+6,2021,3.826482702,mt x 1000,Highly migratory species coastwide
+6,2022,8.245377236,mt x 1000,Highly migratory species coastwide
+6,2023,3.199896599,mt x 1000,Highly migratory species coastwide
+6,2024,4.62690913,mt x 1000,Highly migratory species coastwide
+7,1981,23.5096667,mt x 1000,Market squid coastwide
+7,1982,16.35936358,mt x 1000,Market squid coastwide
+7,1983,1.958504354,mt x 1000,Market squid coastwide
+7,1984,0.993450299,mt x 1000,Market squid coastwide
+7,1985,11.07069291,mt x 1000,Market squid coastwide
+7,1986,21.28935473,mt x 1000,Market squid coastwide
+7,1987,19.98407011,mt x 1000,Market squid coastwide
+7,1988,37.31539187,mt x 1000,Market squid coastwide
+7,1989,40.9751239,mt x 1000,Market squid coastwide
+7,1990,28.44679014,mt x 1000,Market squid coastwide
+7,1991,37.38827873,mt x 1000,Market squid coastwide
+7,1992,13.11840981,mt x 1000,Market squid coastwide
+7,1993,42.86348518,mt x 1000,Market squid coastwide
+7,1994,55.48839919,mt x 1000,Market squid coastwide
+7,1995,70.33848042,mt x 1000,Market squid coastwide
+7,1996,80.64896023,mt x 1000,Market squid coastwide
+7,1997,70.45093006,mt x 1000,Market squid coastwide
+7,1998,2.903293263,mt x 1000,Market squid coastwide
+7,1999,91.91313033,mt x 1000,Market squid coastwide
+7,2000,118.8091449,mt x 1000,Market squid coastwide
+7,2001,86.38512335,mt x 1000,Market squid coastwide
+7,2002,72.87883858,mt x 1000,Market squid coastwide
+7,2003,45.07270065,mt x 1000,Market squid coastwide
+7,2004,41.04535046,mt x 1000,Market squid coastwide
+7,2005,55.7539367,mt x 1000,Market squid coastwide
+7,2006,49.18547964,mt x 1000,Market squid coastwide
+7,2007,49.47498407,mt x 1000,Market squid coastwide
+7,2008,38.10032304,mt x 1000,Market squid coastwide
+7,2009,93.10616117,mt x 1000,Market squid coastwide
+7,2010,130.852252,mt x 1000,Market squid coastwide
+7,2011,121.5128125,mt x 1000,Market squid coastwide
+7,2012,97.71636343,mt x 1000,Market squid coastwide
+7,2013,104.4116675,mt x 1000,Market squid coastwide
+7,2014,104.0738297,mt x 1000,Market squid coastwide
+7,2015,36.80618962,mt x 1000,Market squid coastwide
+7,2016,38.35179009,mt x 1000,Market squid coastwide
+7,2017,62.41175893,mt x 1000,Market squid coastwide
+7,2018,36.37434584,mt x 1000,Market squid coastwide
+7,2019,14.71757091,mt x 1000,Market squid coastwide
+7,2020,25.11909107,mt x 1000,Market squid coastwide
+7,2021,48.69478208,mt x 1000,Market squid coastwide
+7,2022,66.54890917,mt x 1000,Market squid coastwide
+7,2023,23.70948072,mt x 1000,Market squid coastwide
+7,2024,57.45238326,mt x 1000,Market squid coastwide
+8,1981,19.23145196,mt x 1000,Shrimp coastwide
+8,1982,13.48070311,mt x 1000,Shrimp coastwide
+8,1983,6.922551216,mt x 1000,Shrimp coastwide
+8,1984,5.660932119,mt x 1000,Shrimp coastwide
+8,1985,13.65323649,mt x 1000,Shrimp coastwide
+8,1986,26.9571175,mt x 1000,Shrimp coastwide
+8,1987,31.56786262,mt x 1000,Shrimp coastwide
+8,1988,32.91859584,mt x 1000,Shrimp coastwide
+8,1989,36.46369962,mt x 1000,Shrimp coastwide
+8,1990,25.69983111,mt x 1000,Shrimp coastwide
+8,1991,20.31194073,mt x 1000,Shrimp coastwide
+8,1992,36.67499484,mt x 1000,Shrimp coastwide
+8,1993,23.75284718,mt x 1000,Shrimp coastwide
+8,1994,16.11950267,mt x 1000,Shrimp coastwide
+8,1995,12.94042482,mt x 1000,Shrimp coastwide
+8,1996,15.56583049,mt x 1000,Shrimp coastwide
+8,1997,19.3828381,mt x 1000,Shrimp coastwide
+8,1998,6.277085908,mt x 1000,Shrimp coastwide
+8,1999,14.76426468,mt x 1000,Shrimp coastwide
+8,2000,16.75771174,mt x 1000,Shrimp coastwide
+8,2001,19.05702964,mt x 1000,Shrimp coastwide
+8,2002,26.7031152,mt x 1000,Shrimp coastwide
+8,2003,14.99246287,mt x 1000,Shrimp coastwide
+8,2004,10.17197672,mt x 1000,Shrimp coastwide
+8,2005,11.85735779,mt x 1000,Shrimp coastwide
+8,2006,9.251688141,mt x 1000,Shrimp coastwide
+8,2007,12.10120878,mt x 1000,Shrimp coastwide
+8,2008,16.3184012,mt x 1000,Shrimp coastwide
+8,2009,15.24996536,mt x 1000,Shrimp coastwide
+8,2010,21.00207309,mt x 1000,Shrimp coastwide
+8,2011,30.30041595,mt x 1000,Shrimp coastwide
+8,2012,30.1635948,mt x 1000,Shrimp coastwide
+8,2013,32.52453297,mt x 1000,Shrimp coastwide
+8,2014,42.36564282,mt x 1000,Shrimp coastwide
+8,2015,47.78485651,mt x 1000,Shrimp coastwide
+8,2016,25.08950626,mt x 1000,Shrimp coastwide
+8,2017,16.25031108,mt x 1000,Shrimp coastwide
+8,2018,23.63974139,mt x 1000,Shrimp coastwide
+8,2019,18.82075439,mt x 1000,Shrimp coastwide
+8,2020,27.47437416,mt x 1000,Shrimp coastwide
+8,2021,31.89381274,mt x 1000,Shrimp coastwide
+8,2022,30.61315576,mt x 1000,Shrimp coastwide
+8,2023,27.39119367,mt x 1000,Shrimp coastwide
+8,2024,32.06747817,mt x 1000,Shrimp coastwide
+9,1981,4.784685553,mt x 1000,Crab coastwide
+9,1982,11.11227463,mt x 1000,Crab coastwide
+9,1983,7.457050858,mt x 1000,Crab coastwide
+9,1984,8.362161774,mt x 1000,Crab coastwide
+9,1985,7.426669695,mt x 1000,Crab coastwide
+9,1986,9.216390967,mt x 1000,Crab coastwide
+9,1987,9.158662266,mt x 1000,Crab coastwide
+9,1988,16.97494325,mt x 1000,Crab coastwide
+9,1989,21.03969703,mt x 1000,Crab coastwide
+9,1990,11.32531154,mt x 1000,Crab coastwide
+9,1991,13.81921682,mt x 1000,Crab coastwide
+9,1992,13.05733541,mt x 1000,Crab coastwide
+9,1993,17.38330799,mt x 1000,Crab coastwide
+9,1994,18.58787514,mt x 1000,Crab coastwide
+9,1995,24.2806812,mt x 1000,Crab coastwide
+9,1996,26.00015099,mt x 1000,Crab coastwide
+9,1997,12.67570003,mt x 1000,Crab coastwide
+9,1998,15.47620109,mt x 1000,Crab coastwide
+9,1999,15.85386315,mt x 1000,Crab coastwide
+9,2000,22.36303008,mt x 1000,Crab coastwide
+9,2001,13.75702167,mt x 1000,Crab coastwide
+9,2002,17.07721976,mt x 1000,Crab coastwide
+9,2003,28.02543625,mt x 1000,Crab coastwide
+9,2004,32.85771153,mt x 1000,Crab coastwide
+9,2005,41.72053429,mt x 1000,Crab coastwide
+9,2006,35.16213446,mt x 1000,Crab coastwide
+9,2007,22.97819615,mt x 1000,Crab coastwide
+9,2008,20.08662214,mt x 1000,Crab coastwide
+9,2009,17.31037745,mt x 1000,Crab coastwide
+9,2010,29.88645941,mt x 1000,Crab coastwide
+9,2011,36.35637657,mt x 1000,Crab coastwide
+9,2012,29.94323611,mt x 1000,Crab coastwide
+9,2013,32.09467666,mt x 1000,Crab coastwide
+9,2014,24.2789998,mt x 1000,Crab coastwide
+9,2015,20.42787987,mt x 1000,Crab coastwide
+9,2016,22.85775194,mt x 1000,Crab coastwide
+9,2017,32.99971851,mt x 1000,Crab coastwide
+9,2018,30.74820786,mt x 1000,Crab coastwide
+9,2019,25.10639744,mt x 1000,Crab coastwide
+9,2020,24.62601343,mt x 1000,Crab coastwide
+9,2021,16.808709,mt x 1000,Crab coastwide
+9,2022,24.18196396,mt x 1000,Crab coastwide
+9,2023,40.62055619,mt x 1000,Crab coastwide
+9,2024,29.90577723,mt x 1000,Crab coastwide
+10,1981,28.40453539,mt x 1000,Other species coastwide
+10,1982,27.77383878,mt x 1000,Other species coastwide
+10,1983,25.75810554,mt x 1000,Other species coastwide
+10,1984,18.86301955,mt x 1000,Other species coastwide
+10,1985,26.81713819,mt x 1000,Other species coastwide
+10,1986,32.08792619,mt x 1000,Other species coastwide
+10,1987,42.47013641,mt x 1000,Other species coastwide
+10,1988,48.5583532,mt x 1000,Other species coastwide
+10,1989,48.80476653,mt x 1000,Other species coastwide
+10,1990,46.94288594,mt x 1000,Other species coastwide
+10,1991,40.03070706,mt x 1000,Other species coastwide
+10,1992,33.68520472,mt x 1000,Other species coastwide
+10,1993,25.22288576,mt x 1000,Other species coastwide
+10,1994,20.71145585,mt x 1000,Other species coastwide
+10,1995,20.97767007,mt x 1000,Other species coastwide
+10,1996,21.00609862,mt x 1000,Other species coastwide
+10,1997,23.23771386,mt x 1000,Other species coastwide
+10,1998,12.5520526,mt x 1000,Other species coastwide
+10,1999,13.37484635,mt x 1000,Other species coastwide
+10,2000,15.14182545,mt x 1000,Other species coastwide
+10,2001,13.47513727,mt x 1000,Other species coastwide
+10,2002,14.79747415,mt x 1000,Other species coastwide
+10,2003,11.84325985,mt x 1000,Other species coastwide
+10,2004,12.75534876,mt x 1000,Other species coastwide
+10,2005,10.65381115,mt x 1000,Other species coastwide
+10,2006,12.929441,mt x 1000,Other species coastwide
+10,2007,11.38309854,mt x 1000,Other species coastwide
+10,2008,15.73285196,mt x 1000,Other species coastwide
+10,2009,17.63754451,mt x 1000,Other species coastwide
+10,2010,10.3750982,mt x 1000,Other species coastwide
+10,2011,12.34606565,mt x 1000,Other species coastwide
+10,2012,12.89134397,mt x 1000,Other species coastwide
+10,2013,14.46668082,mt x 1000,Other species coastwide
+10,2014,13.89607939,mt x 1000,Other species coastwide
+10,2015,9.75642341,mt x 1000,Other species coastwide
+10,2016,8.488970481,mt x 1000,Other species coastwide
+10,2017,8.404098089,mt x 1000,Other species coastwide
+10,2018,8.316901873,mt x 1000,Other species coastwide
+10,2019,6.541124843,mt x 1000,Other species coastwide
+10,2020,5.805069307,mt x 1000,Other species coastwide
+10,2021,5.351982117,mt x 1000,Other species coastwide
+10,2022,6.443919685,mt x 1000,Other species coastwide
+10,2023,5.547409676,mt x 1000,Other species coastwide
+10,2024,5.267897335,mt x 1000,Other species coastwide
+11,2005,5.706745902,mt x 1000,Recreational coastwide
+11,2006,5.167361715,mt x 1000,Recreational coastwide
+11,2007,4.635221646,mt x 1000,Recreational coastwide
+11,2008,3.917367865,mt x 1000,Recreational coastwide
+11,2009,4.310847682,mt x 1000,Recreational coastwide
+11,2010,4.520283369,mt x 1000,Recreational coastwide
+11,2011,4.480424451,mt x 1000,Recreational coastwide
+11,2012,5.20708521,mt x 1000,Recreational coastwide
+11,2013,5.391539345,mt x 1000,Recreational coastwide
+11,2014,5.589709765,mt x 1000,Recreational coastwide
+11,2015,6.910548011,mt x 1000,Recreational coastwide
+11,2016,5.428123973,mt x 1000,Recreational coastwide
+11,2017,5.396951895,mt x 1000,Recreational coastwide
+11,2018,4.64854222,mt x 1000,Recreational coastwide
+11,2019,5.741154136,mt x 1000,Recreational coastwide
+11,2020,3.616093777,mt x 1000,Recreational coastwide
+11,2021,4.329835217,mt x 1000,Recreational coastwide
+11,2022,4.671596312,mt x 1000,Recreational coastwide
+11,2023,4.853395733,mt x 1000,Recreational coastwide
+11,2024,3.74564216,mt x 1000,Recreational coastwide
+12,1981,646,1000s fish,Salmon recreational coastwide
+12,1982,693,1000s fish,Salmon recreational coastwide
+12,1983,520,1000s fish,Salmon recreational coastwide
+12,1984,294,1000s fish,Salmon recreational coastwide
+12,1985,620,1000s fish,Salmon recreational coastwide
+12,1986,590,1000s fish,Salmon recreational coastwide
+12,1987,644,1000s fish,Salmon recreational coastwide
+12,1988,579,1000s fish,Salmon recreational coastwide
+12,1989,774,1000s fish,Salmon recreational coastwide
+12,1990,673,1000s fish,Salmon recreational coastwide
+12,1991,644,1000s fish,Salmon recreational coastwide
+12,1992,425,1000s fish,Salmon recreational coastwide
+12,1993,343,1000s fish,Salmon recreational coastwide
+12,1994,196,1000s fish,Salmon recreational coastwide
+12,1995,486,1000s fish,Salmon recreational coastwide
+12,1996,235,1000s fish,Salmon recreational coastwide
+12,1997,274,1000s fish,Salmon recreational coastwide
+12,1998,151,1000s fish,Salmon recreational coastwide
+12,1999,160,1000s fish,Salmon recreational coastwide
+12,2000,322,1000s fish,Salmon recreational coastwide
+12,2001,413,1000s fish,Salmon recreational coastwide
+12,2002,399,1000s fish,Salmon recreational coastwide
+12,2003,423,1000s fish,Salmon recreational coastwide
+12,2004,489,1000s fish,Salmon recreational coastwide
+12,2005,274,1000s fish,Salmon recreational coastwide
+12,2006,172,1000s fish,Salmon recreational coastwide
+12,2007,209,1000s fish,Salmon recreational coastwide
+12,2008,47,1000s fish,Salmon recreational coastwide
+12,2009,243,1000s fish,Salmon recreational coastwide
+12,2010,111,1000s fish,Salmon recreational coastwide
+12,2011,143,1000s fish,Salmon recreational coastwide
+12,2012,224,1000s fish,Salmon recreational coastwide
+12,2013,236,1000s fish,Salmon recreational coastwide
+12,2014,356,1000s fish,Salmon recreational coastwide
+12,2015,189,1000s fish,Salmon recreational coastwide
+12,2016,84,1000s fish,Salmon recreational coastwide
+12,2017,144,1000s fish,Salmon recreational coastwide
+12,2018,162.79419,1000s fish,Salmon recreational coastwide
+12,2019,236.08281,1000s fish,Salmon recreational coastwide
+12,2020,95.9388,1000s fish,Salmon recreational coastwide
+12,2021,223.4038,1000s fish,Salmon recreational coastwide
+12,2022,259.99832,1000s fish,Salmon recreational coastwide
+12,2023,142.07392,1000s fish,Salmon recreational coastwide
+13,1981,243.5454735,mt x 1000,Total fisheries CA
+13,1982,226.2737204,mt x 1000,Total fisheries CA
+13,1983,183.2026583,mt x 1000,Total fisheries CA
+13,1984,166.8896496,mt x 1000,Total fisheries CA
+13,1985,148.0128352,mt x 1000,Total fisheries CA
+13,1986,175.2226309,mt x 1000,Total fisheries CA
+13,1987,180.7193918,mt x 1000,Total fisheries CA
+13,1988,230.7807202,mt x 1000,Total fisheries CA
+13,1989,297.2992677,mt x 1000,Total fisheries CA
+13,1990,220.3443622,mt x 1000,Total fisheries CA
+13,1991,302.2769405,mt x 1000,Total fisheries CA
+13,1992,137.8369512,mt x 1000,Total fisheries CA
+13,1993,144.8741164,mt x 1000,Total fisheries CA
+13,1994,143.5221803,mt x 1000,Total fisheries CA
+13,1995,191.3554843,mt x 1000,Total fisheries CA
+13,1996,208.1852536,mt x 1000,Total fisheries CA
+13,1997,218.6670429,mt x 1000,Total fisheries CA
+13,1998,116.9548068,mt x 1000,Total fisheries CA
+13,1999,210.777794,mt x 1000,Total fisheries CA
+13,2000,250.0368719,mt x 1000,Total fisheries CA
+13,2001,202.1483443,mt x 1000,Total fisheries CA
+13,2002,175.4102147,mt x 1000,Total fisheries CA
+13,2003,119.8371166,mt x 1000,Total fisheries CA
+13,2004,135.7642372,mt x 1000,Total fisheries CA
+13,2005,145.0828313,mt x 1000,Total fisheries CA
+13,2006,154.8906537,mt x 1000,Total fisheries CA
+13,2007,178.5466326,mt x 1000,Total fisheries CA
+13,2008,145.9678989,mt x 1000,Total fisheries CA
+13,2009,168.9053671,mt x 1000,Total fisheries CA
+13,2010,205.0389585,mt x 1000,Total fisheries CA
+13,2011,191.5561928,mt x 1000,Total fisheries CA
+13,2012,166.7131658,mt x 1000,Total fisheries CA
+13,2013,166.1369704,mt x 1000,Total fisheries CA
+13,2014,174.0522374,mt x 1000,Total fisheries CA
+13,2015,94.99998872,mt x 1000,Total fisheries CA
+13,2016,72.42947536,mt x 1000,Total fisheries CA
+13,2017,102.0119162,mt x 1000,Total fisheries CA
+13,2018,87.14332154,mt x 1000,Total fisheries CA
+13,2019,51.76984015,mt x 1000,Total fisheries CA
+13,2020,56.9954156,mt x 1000,Total fisheries CA
+13,2021,71.20946549,mt x 1000,Total fisheries CA
+13,2022,96.79151546,mt x 1000,Total fisheries CA
+13,2023,56.01170748,mt x 1000,Total fisheries CA
+13,2024,82.89185217,mt x 1000,Total fisheries CA
+14,1981,3.159872634,mt x 1000,Salmon commercial CA
+14,1982,4.184023171,mt x 1000,Salmon commercial CA
+14,1983,1.260678901,mt x 1000,Salmon commercial CA
+14,1984,1.556847549,mt x 1000,Salmon commercial CA
+14,1985,2.42267189,mt x 1000,Salmon commercial CA
+14,1986,3.976092619,mt x 1000,Salmon commercial CA
+14,1987,4.851999795,mt x 1000,Salmon commercial CA
+14,1988,7.70475008,mt x 1000,Salmon commercial CA
+14,1989,3.050304714,mt x 1000,Salmon commercial CA
+14,1990,2.326615427,mt x 1000,Salmon commercial CA
+14,1991,1.943922799,mt x 1000,Salmon commercial CA
+14,1992,0.857779885,mt x 1000,Salmon commercial CA
+14,1993,1.325677771,mt x 1000,Salmon commercial CA
+14,1994,1.620075473,mt x 1000,Salmon commercial CA
+14,1995,3.466501378,mt x 1000,Salmon commercial CA
+14,1996,2.148225237,mt x 1000,Salmon commercial CA
+14,1997,2.757823876,mt x 1000,Salmon commercial CA
+14,1998,0.963648441,mt x 1000,Salmon commercial CA
+14,1999,2.011210203,mt x 1000,Salmon commercial CA
+14,2000,2.729105293,mt x 1000,Salmon commercial CA
+14,2001,1.260851304,mt x 1000,Salmon commercial CA
+14,2002,2.635107064,mt x 1000,Salmon commercial CA
+14,2003,3.426634989,mt x 1000,Salmon commercial CA
+14,2004,3.291513983,mt x 1000,Salmon commercial CA
+14,2005,2.258432307,mt x 1000,Salmon commercial CA
+14,2006,0.539057859,mt x 1000,Salmon commercial CA
+14,2007,0.792640057,mt x 1000,Salmon commercial CA
+14,2008,0.000616886,mt x 1000,Salmon commercial CA
+14,2009,0.000609329,mt x 1000,Salmon commercial CA
+14,2010,0.118354764,mt x 1000,Salmon commercial CA
+14,2011,0.51657207,mt x 1000,Salmon commercial CA
+14,2012,1.312859672,mt x 1000,Salmon commercial CA
+14,2013,1.974934756,mt x 1000,Salmon commercial CA
+14,2014,1.170317372,mt x 1000,Salmon commercial CA
+14,2015,0.617084324,mt x 1000,Salmon commercial CA
+14,2016,0.321455692,mt x 1000,Salmon commercial CA
+14,2017,0.259584352,mt x 1000,Salmon commercial CA
+14,2018,0.483152299,mt x 1000,Salmon commercial CA
+14,2019,1.352337426,mt x 1000,Salmon commercial CA
+14,2020,1.000592466,mt x 1000,Salmon commercial CA
+14,2021,1.192310882,mt x 1000,Salmon commercial CA
+14,2022,1.187502176,mt x 1000,Salmon commercial CA
+14,2023,0.000913882,mt x 1000,Salmon commercial CA
+14,2024,0.000636912,mt x 1000,Salmon commercial CA
+15,1981,42.56018336,mt x 1000,Non-whiting groundfish CA
+15,1982,52.65096568,mt x 1000,Non-whiting groundfish CA
+15,1983,39.88557896,mt x 1000,Non-whiting groundfish CA
+15,1984,38.36962703,mt x 1000,Non-whiting groundfish CA
+15,1985,39.96746255,mt x 1000,Non-whiting groundfish CA
+15,1986,38.79317315,mt x 1000,Non-whiting groundfish CA
+15,1987,36.91417364,mt x 1000,Non-whiting groundfish CA
+15,1988,33.35914253,mt x 1000,Non-whiting groundfish CA
+15,1989,35.71226025,mt x 1000,Non-whiting groundfish CA
+15,1990,33.83355376,mt x 1000,Non-whiting groundfish CA
+15,1991,29.93367892,mt x 1000,Non-whiting groundfish CA
+15,1992,29.90711261,mt x 1000,Non-whiting groundfish CA
+15,1993,24.98607866,mt x 1000,Non-whiting groundfish CA
+15,1994,21.17289937,mt x 1000,Non-whiting groundfish CA
+15,1995,24.62849711,mt x 1000,Non-whiting groundfish CA
+15,1996,25.8746171,mt x 1000,Non-whiting groundfish CA
+15,1997,24.22518665,mt x 1000,Non-whiting groundfish CA
+15,1998,17.66273871,mt x 1000,Non-whiting groundfish CA
+15,1999,14.12586501,mt x 1000,Non-whiting groundfish CA
+15,2000,11.62525485,mt x 1000,Non-whiting groundfish CA
+15,2001,9.681360189,mt x 1000,Non-whiting groundfish CA
+15,2002,9.491828283,mt x 1000,Non-whiting groundfish CA
+15,2003,8.885464505,mt x 1000,Non-whiting groundfish CA
+15,2004,7.539965713,mt x 1000,Non-whiting groundfish CA
+15,2005,7.300457708,mt x 1000,Non-whiting groundfish CA
+15,2006,6.657422394,mt x 1000,Non-whiting groundfish CA
+15,2007,7.581278859,mt x 1000,Non-whiting groundfish CA
+15,2008,8.272852449,mt x 1000,Non-whiting groundfish CA
+15,2009,8.547345895,mt x 1000,Non-whiting groundfish CA
+15,2010,7.760455375,mt x 1000,Non-whiting groundfish CA
+15,2011,7.366884362,mt x 1000,Non-whiting groundfish CA
+15,2012,6.431279,mt x 1000,Non-whiting groundfish CA
+15,2013,6.700645983,mt x 1000,Non-whiting groundfish CA
+15,2014,6.927439458,mt x 1000,Non-whiting groundfish CA
+15,2015,6.608496065,mt x 1000,Non-whiting groundfish CA
+15,2016,5.847436584,mt x 1000,Non-whiting groundfish CA
+15,2017,6.348057431,mt x 1000,Non-whiting groundfish CA
+15,2018,6.341998969,mt x 1000,Non-whiting groundfish CA
+15,2019,6.110939519,mt x 1000,Non-whiting groundfish CA
+15,2020,5.925380035,mt x 1000,Non-whiting groundfish CA
+15,2021,6.057470828,mt x 1000,Non-whiting groundfish CA
+15,2022,7.381155741,mt x 1000,Non-whiting groundfish CA
+15,2023,6.445393337,mt x 1000,Non-whiting groundfish CA
+15,2024,5.203328636,mt x 1000,Non-whiting groundfish CA
+16,1981,15.30254651,mt x 1000,Pacific whiting CA
+16,1982,5.332874553,mt x 1000,Pacific whiting CA
+16,1983,4.479169568,mt x 1000,Pacific whiting CA
+16,1984,4.940053607,mt x 1000,Pacific whiting CA
+16,1985,5.728854683,mt x 1000,Pacific whiting CA
+16,1986,11.61135456,mt x 1000,Pacific whiting CA
+16,1987,4.517761865,mt x 1000,Pacific whiting CA
+16,1988,33.19158425,mt x 1000,Pacific whiting CA
+16,1989,99.23387214,mt x 1000,Pacific whiting CA
+16,1990,53.99971367,mt x 1000,Pacific whiting CA
+16,1991,135.1783947,mt x 1000,Pacific whiting CA
+16,1992,5.625869474,mt x 1000,Pacific whiting CA
+16,1993,3.100121054,mt x 1000,Pacific whiting CA
+16,1994,3.650187717,mt x 1000,Pacific whiting CA
+16,1995,4.09062527,mt x 1000,Pacific whiting CA
+16,1996,2.900807577,mt x 1000,Pacific whiting CA
+16,1997,6.33237039,mt x 1000,Pacific whiting CA
+16,1998,5.723393149,mt x 1000,Pacific whiting CA
+16,1999,1.307713562,mt x 1000,Pacific whiting CA
+16,2000,4.986115946,mt x 1000,Pacific whiting CA
+16,2001,2.306169752,mt x 1000,Pacific whiting CA
+16,2002,2.773297318,mt x 1000,Pacific whiting CA
+16,2003,1.741074398,mt x 1000,Pacific whiting CA
+16,2004,4.7422025,mt x 1000,Pacific whiting CA
+16,2005,3.875808913,mt x 1000,Pacific whiting CA
+16,2006,5.429490241,mt x 1000,Pacific whiting CA
+16,2007,2.967953309,mt x 1000,Pacific whiting CA
+16,2008,5.360272014,mt x 1000,Pacific whiting CA
+16,2009,1.825757955,mt x 1000,Pacific whiting CA
+16,2010,7.55246574,mt x 1000,Pacific whiting CA
+16,2011,0.004943658,mt x 1000,Pacific whiting CA
+16,2012,0.079377435,mt x 1000,Pacific whiting CA
+16,2013,0.003771167,mt x 1000,Pacific whiting CA
+16,2014,7.376839877,mt x 1000,Pacific whiting CA
+16,2015,0.136205231,mt x 1000,Pacific whiting CA
+16,2016,0.05775534,mt x 1000,Pacific whiting CA
+16,2017,0.004993644,mt x 1000,Pacific whiting CA
+16,2018,2.534532372,mt x 1000,Pacific whiting CA
+16,2019,0.026563727,mt x 1000,Pacific whiting CA
+16,2020,5.084333189,mt x 1000,Pacific whiting CA
+16,2021,4.183647763,mt x 1000,Pacific whiting CA
+16,2022,7.27071444,mt x 1000,Pacific whiting CA
+16,2023,2.896912017,mt x 1000,Pacific whiting CA
+16,2024,0.229147345,mt x 1000,Pacific whiting CA
+17,1981,105.3168489,mt x 1000,"Coastal pelagic spp, no squid CA"
+17,1982,97.83007171,mt x 1000,"Coastal pelagic spp, no squid CA"
+17,1983,55.72349707,mt x 1000,"Coastal pelagic spp, no squid CA"
+17,1984,56.12646174,mt x 1000,"Coastal pelagic spp, no squid CA"
+17,1985,46.27932512,mt x 1000,"Coastal pelagic spp, no squid CA"
+17,1986,54.74683008,mt x 1000,"Coastal pelagic spp, no squid CA"
+17,1987,56.57234253,mt x 1000,"Coastal pelagic spp, no squid CA"
+17,1988,58.64836966,mt x 1000,"Coastal pelagic spp, no squid CA"
+17,1989,61.69916741,mt x 1000,"Coastal pelagic spp, no squid CA"
+17,1990,48.25175549,mt x 1000,"Coastal pelagic spp, no squid CA"
+17,1991,45.38208343,mt x 1000,"Coastal pelagic spp, no squid CA"
+17,1992,38.97610496,mt x 1000,"Coastal pelagic spp, no squid CA"
+17,1993,30.79573465,mt x 1000,"Coastal pelagic spp, no squid CA"
+17,1994,26.14231168,mt x 1000,"Coastal pelagic spp, no squid CA"
+17,1995,52.4218373,mt x 1000,"Coastal pelagic spp, no squid CA"
+17,1996,48.7523872,mt x 1000,"Coastal pelagic spp, no squid CA"
+17,1997,68.56983523,mt x 1000,"Coastal pelagic spp, no squid CA"
+17,1998,66.69933682,mt x 1000,"Coastal pelagic spp, no squid CA"
+17,1999,74.31589307,mt x 1000,"Coastal pelagic spp, no squid CA"
+17,2000,88.51279213,mt x 1000,"Coastal pelagic spp, no squid CA"
+17,2001,81.71830827,mt x 1000,"Coastal pelagic spp, no squid CA"
+17,2002,67.36998192,mt x 1000,"Coastal pelagic spp, no squid CA"
+17,2003,40.56299372,mt x 1000,"Coastal pelagic spp, no squid CA"
+17,2004,55.69373446,mt x 1000,"Coastal pelagic spp, no squid CA"
+17,2005,49.27204979,mt x 1000,"Coastal pelagic spp, no squid CA"
+17,2006,66.4372996,mt x 1000,"Coastal pelagic spp, no squid CA"
+17,2007,97.01894304,mt x 1000,"Coastal pelagic spp, no squid CA"
+17,2008,75.89476627,mt x 1000,"Coastal pelagic spp, no squid CA"
+17,2009,45.4436813,mt x 1000,"Coastal pelagic spp, no squid CA"
+17,2010,37.06074565,mt x 1000,"Coastal pelagic spp, no squid CA"
+17,2011,31.75220795,mt x 1000,"Coastal pelagic spp, no squid CA"
+17,2012,29.27593029,mt x 1000,"Coastal pelagic spp, no squid CA"
+17,2013,22.05672945,mt x 1000,"Coastal pelagic spp, no squid CA"
+17,2014,24.49651877,mt x 1000,"Coastal pelagic spp, no squid CA"
+17,2015,25.957133,mt x 1000,"Coastal pelagic spp, no squid CA"
+17,2016,10.80961871,mt x 1000,"Coastal pelagic spp, no squid CA"
+17,2017,8.260648977,mt x 1000,"Coastal pelagic spp, no squid CA"
+17,2018,20.30720822,mt x 1000,"Coastal pelagic spp, no squid CA"
+17,2019,15.8233015,mt x 1000,"Coastal pelagic spp, no squid CA"
+17,2020,9.135881786,mt x 1000,"Coastal pelagic spp, no squid CA"
+17,2021,5.532656109,mt x 1000,"Coastal pelagic spp, no squid CA"
+17,2022,3.851921839,mt x 1000,"Coastal pelagic spp, no squid CA"
+17,2023,5.502904453,mt x 1000,"Coastal pelagic spp, no squid CA"
+17,2024,7.234037976,mt x 1000,"Coastal pelagic spp, no squid CA"
+18,1981,22.50445782,mt x 1000,Highly migratory species CA
+18,1982,16.11759754,mt x 1000,Highly migratory species CA
+18,1983,52.93386078,mt x 1000,Highly migratory species CA
+18,1984,43.12234549,mt x 1000,Highly migratory species CA
+18,1985,13.2874428,mt x 1000,Highly migratory species CA
+18,1986,10.49473764,mt x 1000,Highly migratory species CA
+18,1987,11.13456243,mt x 1000,Highly migratory species CA
+18,1988,11.20794653,mt x 1000,Highly migratory species CA
+18,1989,7.008915499,mt x 1000,Highly migratory species CA
+18,1990,8.402131223,mt x 1000,Highly migratory species CA
+18,1991,10.09880474,mt x 1000,Highly migratory species CA
+18,1992,9.9898523,mt x 1000,Highly migratory species CA
+18,1993,12.66085061,mt x 1000,Highly migratory species CA
+18,1994,9.257503604,mt x 1000,Highly migratory species CA
+18,1995,8.807913891,mt x 1000,Highly migratory species CA
+18,1996,16.93699739,mt x 1000,Highly migratory species CA
+18,1997,15.32620982,mt x 1000,Highly migratory species CA
+18,1998,4.801670909,mt x 1000,Highly migratory species CA
+18,1999,7.649215603,mt x 1000,Highly migratory species CA
+18,2000,3.703899618,mt x 1000,Highly migratory species CA
+18,2001,4.472874057,mt x 1000,Highly migratory species CA
+18,2002,3.51235774,mt x 1000,Highly migratory species CA
+18,2003,2.696334703,mt x 1000,Highly migratory species CA
+18,2004,2.071075497,mt x 1000,Highly migratory species CA
+18,2005,1.546532463,mt x 1000,Highly migratory species CA
+18,2006,0.927405503,mt x 1000,Highly migratory species CA
+18,2007,1.790851352,mt x 1000,Highly migratory species CA
+18,2008,0.852546274,mt x 1000,Highly migratory species CA
+18,2009,1.348116523,mt x 1000,Highly migratory species CA
+18,2010,1.090253385,mt x 1000,Highly migratory species CA
+18,2011,1.372756442,mt x 1000,Highly migratory species CA
+18,2012,0.898904249,mt x 1000,Highly migratory species CA
+18,2013,0.617212618,mt x 1000,Highly migratory species CA
+18,2014,2.186722642,mt x 1000,Highly migratory species CA
+18,2015,1.136091742,mt x 1000,Highly migratory species CA
+18,2016,1.233570624,mt x 1000,Highly migratory species CA
+18,2017,2.685061995,mt x 1000,Highly migratory species CA
+18,2018,2.996548861,mt x 1000,Highly migratory species CA
+18,2019,1.335773596,mt x 1000,Highly migratory species CA
+18,2020,2.367722546,mt x 1000,Highly migratory species CA
+18,2021,0.530868081,mt x 1000,Highly migratory species CA
+18,2022,1.124260411,mt x 1000,Highly migratory species CA
+18,2023,0.600721624,mt x 1000,Highly migratory species CA
+18,2024,0.294832289,mt x 1000,Highly migratory species CA
+19,1981,23.50956464,mt x 1000,Market squid CA
+19,1982,16.30804505,mt x 1000,Market squid CA
+19,1983,1.823601447,mt x 1000,Market squid CA
+19,1984,0.564023062,mt x 1000,Market squid CA
+19,1985,10.27610204,mt x 1000,Market squid CA
+19,1986,21.27739304,mt x 1000,Market squid CA
+19,1987,19.98405695,mt x 1000,Market squid CA
+19,1988,37.31538961,mt x 1000,Market squid CA
+19,1989,40.93156769,mt x 1000,Market squid CA
+19,1990,28.44679014,mt x 1000,Market squid CA
+19,1991,37.38823563,mt x 1000,Market squid CA
+19,1992,13.11235707,mt x 1000,Market squid CA
+19,1993,42.80422515,mt x 1000,Market squid CA
+19,1994,55.38271081,mt x 1000,Market squid CA
+19,1995,70.22671254,mt x 1000,Market squid CA
+19,1996,80.54494107,mt x 1000,Market squid CA
+19,1997,70.32789494,mt x 1000,Market squid CA
+19,1998,2.89447951,mt x 1000,Market squid CA
+19,1999,91.9120095,mt x 1000,Market squid CA
+19,2000,118.8034732,mt x 1000,Market squid CA
+19,2001,86.38325591,mt x 1000,Market squid CA
+19,2002,72.87683189,mt x 1000,Market squid CA
+19,2003,45.06049357,mt x 1000,Market squid CA
+19,2004,41.02562373,mt x 1000,Market squid CA
+19,2005,55.73945531,mt x 1000,Market squid CA
+19,2006,49.15830765,mt x 1000,Market squid CA
+19,2007,49.47434722,mt x 1000,Market squid CA
+19,2008,38.1003185,mt x 1000,Market squid CA
+19,2009,93.10598381,mt x 1000,Market squid CA
+19,2010,130.8446752,mt x 1000,Market squid CA
+19,2011,121.512788,mt x 1000,Market squid CA
+19,2012,97.71631308,mt x 1000,Market squid CA
+19,2013,104.4116058,mt x 1000,Market squid CA
+19,2014,104.0733589,mt x 1000,Market squid CA
+19,2015,36.80618962,mt x 1000,Market squid CA
+19,2016,37.0915735,mt x 1000,Market squid CA
+19,2017,62.41172264,mt x 1000,Market squid CA
+19,2018,33.17818023,mt x 1000,Market squid CA
+19,2019,12.33702017,mt x 1000,Market squid CA
+19,2020,20.44832206,mt x 1000,Market squid CA
+19,2021,45.13959176,mt x 1000,Market squid CA
+19,2022,64.04447783,mt x 1000,Market squid CA
+19,2023,23.709478,mt x 1000,Market squid CA
+19,2024,57.27896627,mt x 1000,Market squid CA
+20,1981,2.847236957,mt x 1000,Shrimp CA
+20,1982,2.760339999,mt x 1000,Shrimp CA
+20,1983,1.317526625,mt x 1000,Shrimp CA
+20,1984,1.819215662,mt x 1000,Shrimp CA
+20,1985,2.682318936,mt x 1000,Shrimp CA
+20,1986,3.559950319,mt x 1000,Shrimp CA
+20,1987,3.89319783,mt x 1000,Shrimp CA
+20,1988,5.362675177,mt x 1000,Shrimp CA
+20,1989,6.821016832,mt x 1000,Shrimp CA
+20,1990,4.937996599,mt x 1000,Shrimp CA
+20,1991,5.69912505,mt x 1000,Shrimp CA
+20,1992,9.112364546,mt x 1000,Shrimp CA
+20,1993,4.179696297,mt x 1000,Shrimp CA
+20,1994,5.749520977,mt x 1000,Shrimp CA
+20,1995,3.469311677,mt x 1000,Shrimp CA
+20,1996,5.308571587,mt x 1000,Shrimp CA
+20,1997,7.654401187,mt x 1000,Shrimp CA
+20,1998,1.996916824,mt x 1000,Shrimp CA
+20,1999,3.552934048,mt x 1000,Shrimp CA
+20,2000,2.625098499,mt x 1000,Shrimp CA
+20,2001,2.543567833,mt x 1000,Shrimp CA
+20,2002,2.662663336,mt x 1000,Shrimp CA
+20,2003,1.587955321,mt x 1000,Shrimp CA
+20,2004,1.597983554,mt x 1000,Shrimp CA
+20,2005,1.336652347,mt x 1000,Shrimp CA
+20,2006,0.545247059,mt x 1000,Shrimp CA
+20,2007,0.915861963,mt x 1000,Shrimp CA
+20,2008,1.369209874,mt x 1000,Shrimp CA
+20,2009,1.635633431,mt x 1000,Shrimp CA
+20,2010,2.053246187,mt x 1000,Shrimp CA
+20,2011,3.730037293,mt x 1000,Shrimp CA
+20,2012,3.293954078,mt x 1000,Shrimp CA
+20,2013,4.407762858,mt x 1000,Shrimp CA
+20,2014,4.500241012,mt x 1000,Shrimp CA
+20,2015,4.366000223,mt x 1000,Shrimp CA
+20,2016,2.186449443,mt x 1000,Shrimp CA
+20,2017,2.363975318,mt x 1000,Shrimp CA
+20,2018,3.127103019,mt x 1000,Shrimp CA
+20,2019,1.949003544,mt x 1000,Shrimp CA
+20,2020,1.071965121,mt x 1000,Shrimp CA
+20,2021,0.557896963,mt x 1000,Shrimp CA
+20,2022,0.501753893,mt x 1000,Shrimp CA
+20,2023,0.540441365,mt x 1000,Shrimp CA
+20,2024,0.493906377,mt x 1000,Shrimp CA
+21,1981,1.777525988,mt x 1000,Crab CA
+21,1982,5.394663419,mt x 1000,Crab CA
+21,1983,3.077293111,mt x 1000,Crab CA
+21,1984,3.378936573,mt x 1000,Crab CA
+21,1985,3.120693282,mt x 1000,Crab CA
+21,1986,3.568941881,mt x 1000,Crab CA
+21,1987,4.803723732,mt x 1000,Crab CA
+21,1988,4.797262309,mt x 1000,Crab CA
+21,1989,5.084302818,mt x 1000,Crab CA
+21,1990,3.107250165,mt x 1000,Crab CA
+21,1991,6.280670839,mt x 1000,Crab CA
+21,1992,5.234342556,mt x 1000,Crab CA
+21,1993,5.250667346,mt x 1000,Crab CA
+21,1994,3.449259266,mt x 1000,Crab CA
+21,1995,6.499863909,mt x 1000,Crab CA
+21,1996,7.460537623,mt x 1000,Crab CA
+21,1997,2.480102921,mt x 1000,Crab CA
+21,1998,5.810971857,mt x 1000,Crab CA
+21,1999,4.920775652,mt x 1000,Crab CA
+21,2000,4.480183534,mt x 1000,Crab CA
+21,2001,3.173125907,mt x 1000,Crab CA
+21,2002,2.232175219,mt x 1000,Crab CA
+21,2003,7.021670534,mt x 1000,Crab CA
+21,2004,10.45503791,mt x 1000,Crab CA
+21,2005,11.94700688,mt x 1000,Crab CA
+21,2006,11.33359051,mt x 1000,Crab CA
+21,2007,6.742012835,mt x 1000,Crab CA
+21,2008,4.409296835,mt x 1000,Crab CA
+21,2009,3.425296748,mt x 1000,Crab CA
+21,2010,8.420470824,mt x 1000,Crab CA
+21,2011,13.15157928,mt x 1000,Crab CA
+21,2012,15.27303827,mt x 1000,Crab CA
+21,2013,12.02723129,mt x 1000,Crab CA
+21,2014,9.069368135,mt x 1000,Crab CA
+21,2015,8.634863789,mt x 1000,Crab CA
+21,2016,6.212191531,mt x 1000,Crab CA
+21,2017,10.89839172,mt x 1000,Crab CA
+21,2018,10.04452392,mt x 1000,Crab CA
+21,2019,6.667221808,mt x 1000,Crab CA
+21,2020,6.897057561,mt x 1000,Crab CA
+21,2021,2.26103839,mt x 1000,Crab CA
+21,2022,5.175440566,mt x 1000,Crab CA
+21,2023,10.06183244,mt x 1000,Crab CA
+21,2024,6.881882052,mt x 1000,Crab CA
+22,1981,25.33777772,mt x 1000,Other species CA
+22,1982,24.58361341,mt x 1000,Other species CA
+22,1983,22.25419301,mt x 1000,Other species CA
+22,1984,16.58414137,mt x 1000,Other species CA
+22,1985,23.77465435,mt x 1000,Other species CA
+22,1986,26.82697278,mt x 1000,Other species CA
+22,1987,37.65281792,mt x 1000,Other species CA
+22,1988,38.92140204,mt x 1000,Other species CA
+22,1989,37.41396615,mt x 1000,Other species CA
+22,1990,36.7908489,mt x 1000,Other species CA
+22,1991,30.18523409,mt x 1000,Other species CA
+22,1992,24.78209313,mt x 1000,Other species CA
+22,1993,19.54798631,mt x 1000,Other species CA
+22,1994,16.9543957,mt x 1000,Other species CA
+22,1995,17.6171949,mt x 1000,Other species CA
+22,1996,18.14769689,mt x 1000,Other species CA
+22,1997,20.93669806,mt x 1000,Other species CA
+22,1998,10.39690149,mt x 1000,Other species CA
+22,1999,10.97804807,mt x 1000,Other species CA
+22,2000,12.5684231,mt x 1000,Other species CA
+22,2001,10.60679524,mt x 1000,Other species CA
+22,2002,11.85386389,mt x 1000,Other species CA
+22,2003,8.852282675,mt x 1000,Other species CA
+22,2004,9.345476427,mt x 1000,Other species CA
+22,2005,7.139846547,mt x 1000,Other species CA
+22,2006,9.80974195,mt x 1000,Other species CA
+22,2007,8.108384662,mt x 1000,Other species CA
+22,2008,8.826224972,mt x 1000,Other species CA
+22,2009,10.58098477,mt x 1000,Other species CA
+22,2010,7.014151097,mt x 1000,Other species CA
+22,2011,8.884111716,mt x 1000,Other species CA
+22,2012,9.038565275,mt x 1000,Other species CA
+22,2013,10.28545694,mt x 1000,Other species CA
+22,2014,10.73365569,mt x 1000,Other species CA
+22,2015,6.035966859,mt x 1000,Other species CA
+22,2016,5.130977202,mt x 1000,Other species CA
+22,2017,4.907911311,mt x 1000,Other species CA
+22,2018,4.977698853,mt x 1000,Other species CA
+22,2019,2.92239172,mt x 1000,Other species CA
+22,2020,2.720262023,mt x 1000,Other species CA
+22,2021,2.760279535,mt x 1000,Other species CA
+22,2022,3.429611101,mt x 1000,Other species CA
+22,2023,3.19903924,mt x 1000,Other species CA
+22,2024,3.059201073,mt x 1000,Other species CA
+23,2005,4.664502483,mt x 1000,Recreational CA
+23,2006,4.052356137,mt x 1000,Recreational CA
+23,2007,3.153904792,mt x 1000,Recreational CA
+23,2008,2.880753413,mt x 1000,Recreational CA
+23,2009,2.991584472,mt x 1000,Recreational CA
+23,2010,3.124139944,mt x 1000,Recreational CA
+23,2011,3.264254901,mt x 1000,Recreational CA
+23,2012,3.392921766,mt x 1000,Recreational CA
+23,2013,3.651619539,mt x 1000,Recreational CA
+23,2014,3.517774913,mt x 1000,Recreational CA
+23,2015,4.701923547,mt x 1000,Recreational CA
+23,2016,3.538443847,mt x 1000,Recreational CA
+23,2017,3.871312883,mt x 1000,Recreational CA
+23,2018,3.152361094,mt x 1000,Recreational CA
+23,2019,3.243266496,mt x 1000,Recreational CA
+23,2020,2.343725125,mt x 1000,Recreational CA
+23,2021,2.993697095,mt x 1000,Recreational CA
+23,2022,2.82459313,mt x 1000,Recreational CA
+23,2023,3.052996207,mt x 1000,Recreational CA
+23,2024,2.215660949,mt x 1000,Recreational CA
+24,1981,95,1000s fish,Salmon recreational CA
+24,1982,165,1000s fish,Salmon recreational CA
+24,1983,91,1000s fish,Salmon recreational CA
+24,1984,107,1000s fish,Salmon recreational CA
+24,1985,187,1000s fish,Salmon recreational CA
+24,1986,160,1000s fish,Salmon recreational CA
+24,1987,240,1000s fish,Salmon recreational CA
+24,1988,206,1000s fish,Salmon recreational CA
+24,1989,236,1000s fish,Salmon recreational CA
+24,1990,191,1000s fish,Salmon recreational CA
+24,1991,150,1000s fish,Salmon recreational CA
+24,1992,85,1000s fish,Salmon recreational CA
+24,1993,140,1000s fish,Salmon recreational CA
+24,1994,190,1000s fish,Salmon recreational CA
+24,1995,398,1000s fish,Salmon recreational CA
+24,1996,165,1000s fish,Salmon recreational CA
+24,1997,229,1000s fish,Salmon recreational CA
+24,1998,122,1000s fish,Salmon recreational CA
+24,1999,88,1000s fish,Salmon recreational CA
+24,2000,186,1000s fish,Salmon recreational CA
+24,2001,100,1000s fish,Salmon recreational CA
+24,2002,183,1000s fish,Salmon recreational CA
+24,2003,95,1000s fish,Salmon recreational CA
+24,2004,223,1000s fish,Salmon recreational CA
+24,2005,144,1000s fish,Salmon recreational CA
+24,2006,98,1000s fish,Salmon recreational CA
+24,2007,48,1000s fish,Salmon recreational CA
+24,2008,0,1000s fish,Salmon recreational CA
+24,2009,1,1000s fish,Salmon recreational CA
+24,2010,15,1000s fish,Salmon recreational CA
+24,2011,50,1000s fish,Salmon recreational CA
+24,2012,124,1000s fish,Salmon recreational CA
+24,2013,116,1000s fish,Salmon recreational CA
+24,2014,75,1000s fish,Salmon recreational CA
+24,2015,38,1000s fish,Salmon recreational CA
+24,2016,38,1000s fish,Salmon recreational CA
+24,2017,62,1000s fish,Salmon recreational CA
+24,2018,87.509,1000s fish,Salmon recreational CA
+24,2019,89.156,1000s fish,Salmon recreational CA
+24,2020,40.193,1000s fish,Salmon recreational CA
+24,2021,56.087,1000s fish,Salmon recreational CA
+24,2022,90.423,1000s fish,Salmon recreational CA
+24,2023,0,1000s fish,Salmon recreational CA
+25,1981,83.75518199,mt x 1000,Total fisheries OR
+25,1982,74.49814298,mt x 1000,Total fisheries OR
+25,1983,68.72131716,mt x 1000,Total fisheries OR
+25,1984,94.49169832,mt x 1000,Total fisheries OR
+25,1985,97.87142145,mt x 1000,Total fisheries OR
+25,1986,144.5798085,mt x 1000,Total fisheries OR
+25,1987,162.7253584,mt x 1000,Total fisheries OR
+25,1988,137.5223422,mt x 1000,Total fisheries OR
+25,1989,162.7262972,mt x 1000,Total fisheries OR
+25,1990,155.3839734,mt x 1000,Total fisheries OR
+25,1991,114.879618,mt x 1000,Total fisheries OR
+25,1992,180.6418447,mt x 1000,Total fisheries OR
+25,1993,154.3017814,mt x 1000,Total fisheries OR
+25,1994,171.5700509,mt x 1000,Total fisheries OR
+25,1995,170.9718116,mt x 1000,Total fisheries OR
+25,1996,140.5428441,mt x 1000,Total fisheries OR
+25,1997,175.9718397,mt x 1000,Total fisheries OR
+25,1998,158.4216041,mt x 1000,Total fisheries OR
+25,1999,119.056603,mt x 1000,Total fisheries OR
+25,2000,165.4081272,mt x 1000,Total fisheries OR
+25,2001,179.3027653,mt x 1000,Total fisheries OR
+25,2002,157.5577282,mt x 1000,Total fisheries OR
+25,2003,162.1479487,mt x 1000,Total fisheries OR
+25,2004,197.7173165,mt x 1000,Total fisheries OR
+25,2005,246.9423052,mt x 1000,Total fisheries OR
+25,2006,237.1684405,mt x 1000,Total fisheries OR
+25,2007,197.1006108,mt x 1000,Total fisheries OR
+25,2008,180.1712008,mt x 1000,Total fisheries OR
+25,2009,117.9032279,mt x 1000,Total fisheries OR
+25,2010,153.7593525,mt x 1000,Total fisheries OR
+25,2011,187.3481233,mt x 1000,Total fisheries OR
+25,2012,205.2899004,mt x 1000,Total fisheries OR
+25,2013,271.2384759,mt x 1000,Total fisheries OR
+25,2014,288.2583738,mt x 1000,Total fisheries OR
+25,2015,181.2430982,mt x 1000,Total fisheries OR
+25,2016,245.7267553,mt x 1000,Total fisheries OR
+25,2017,290.963131,mt x 1000,Total fisheries OR
+25,2018,263.1847396,mt x 1000,Total fisheries OR
+25,2019,253.0456328,mt x 1000,Total fisheries OR
+25,2020,280.6307478,mt x 1000,Total fisheries OR
+25,2021,266.9462505,mt x 1000,Total fisheries OR
+25,2022,310.8358017,mt x 1000,Total fisheries OR
+25,2023,267.7647612,mt x 1000,Total fisheries OR
+25,2024,204.1801709,mt x 1000,Total fisheries OR
+26,1981,3.195611499,mt x 1000,Salmon commercial OR
+26,1982,3.917126118,mt x 1000,Salmon commercial OR
+26,1983,1.212604302,mt x 1000,Salmon commercial OR
+26,1984,1.632418646,mt x 1000,Salmon commercial OR
+26,1985,2.985408151,mt x 1000,Salmon commercial OR
+26,1986,6.288022621,mt x 1000,Salmon commercial OR
+26,1987,6.865186718,mt x 1000,Salmon commercial OR
+26,1988,8.078772069,mt x 1000,Salmon commercial OR
+26,1989,5.328790398,mt x 1000,Salmon commercial OR
+26,1990,2.462385695,mt x 1000,Salmon commercial OR
+26,1991,2.426983313,mt x 1000,Salmon commercial OR
+26,1992,1.075566332,mt x 1000,Salmon commercial OR
+26,1993,0.851635465,mt x 1000,Salmon commercial OR
+26,1994,0.587186245,mt x 1000,Salmon commercial OR
+26,1995,1.318729128,mt x 1000,Salmon commercial OR
+26,1996,1.290390996,mt x 1000,Salmon commercial OR
+26,1997,1.021142999,mt x 1000,Salmon commercial OR
+26,1998,0.898615951,mt x 1000,Salmon commercial OR
+26,1999,0.708403527,mt x 1000,Salmon commercial OR
+26,2000,1.428306475,mt x 1000,Salmon commercial OR
+26,2001,2.395055591,mt x 1000,Salmon commercial OR
+26,2002,2.781108761,mt x 1000,Salmon commercial OR
+26,2003,3.05719294,mt x 1000,Salmon commercial OR
+26,2004,2.695690494,mt x 1000,Salmon commercial OR
+26,2005,2.137434917,mt x 1000,Salmon commercial OR
+26,2006,0.824031212,mt x 1000,Salmon commercial OR
+26,2007,0.625252452,mt x 1000,Salmon commercial OR
+26,2008,0.848169504,mt x 1000,Salmon commercial OR
+26,2009,1.049025277,mt x 1000,Salmon commercial OR
+26,2010,1.259256453,mt x 1000,Salmon commercial OR
+26,2011,1.108178946,mt x 1000,Salmon commercial OR
+26,2012,0.886056387,mt x 1000,Salmon commercial OR
+26,2013,1.604278622,mt x 1000,Salmon commercial OR
+26,2014,2.92235815,mt x 1000,Salmon commercial OR
+26,2015,1.43835712,mt x 1000,Salmon commercial OR
+26,2016,0.846668632,mt x 1000,Salmon commercial OR
+26,2017,0.549694055,mt x 1000,Salmon commercial OR
+26,2018,0.452721298,mt x 1000,Salmon commercial OR
+26,2019,0.460402849,mt x 1000,Salmon commercial OR
+26,2020,0.706243846,mt x 1000,Salmon commercial OR
+26,2021,0.815721282,mt x 1000,Salmon commercial OR
+26,2022,0.983980793,mt x 1000,Salmon commercial OR
+26,2023,0.803108061,mt x 1000,Salmon commercial OR
+26,2024,0.857525934,mt x 1000,Salmon commercial OR
+27,1981,37.52251446,mt x 1000,Non-whiting groundfish OR
+27,1982,41.12125185,mt x 1000,Non-whiting groundfish OR
+27,1983,35.24278303,mt x 1000,Non-whiting groundfish OR
+27,1984,28.2465419,mt x 1000,Non-whiting groundfish OR
+27,1985,28.40117032,mt x 1000,Non-whiting groundfish OR
+27,1986,24.70117237,mt x 1000,Non-whiting groundfish OR
+27,1987,30.88663082,mt x 1000,Non-whiting groundfish OR
+27,1988,32.28936945,mt x 1000,Non-whiting groundfish OR
+27,1989,37.04493525,mt x 1000,Non-whiting groundfish OR
+27,1990,33.79773463,mt x 1000,Non-whiting groundfish OR
+27,1991,36.46493918,mt x 1000,Non-whiting groundfish OR
+27,1992,33.23222338,mt x 1000,Non-whiting groundfish OR
+27,1993,35.59879254,mt x 1000,Non-whiting groundfish OR
+27,1994,29.27346933,mt x 1000,Non-whiting groundfish OR
+27,1995,25.25251361,mt x 1000,Non-whiting groundfish OR
+27,1996,25.94002953,mt x 1000,Non-whiting groundfish OR
+27,1997,23.09565241,mt x 1000,Non-whiting groundfish OR
+27,1998,18.75238167,mt x 1000,Non-whiting groundfish OR
+27,1999,19.77773075,mt x 1000,Non-whiting groundfish OR
+27,2000,17.93624231,mt x 1000,Non-whiting groundfish OR
+27,2001,13.97201087,mt x 1000,Non-whiting groundfish OR
+27,2002,9.699528734,mt x 1000,Non-whiting groundfish OR
+27,2003,11.78870094,mt x 1000,Non-whiting groundfish OR
+27,2004,11.73076824,mt x 1000,Non-whiting groundfish OR
+27,2005,12.5208962,mt x 1000,Non-whiting groundfish OR
+27,2006,12.59815294,mt x 1000,Non-whiting groundfish OR
+27,2007,14.16427582,mt x 1000,Non-whiting groundfish OR
+27,2008,17.47087021,mt x 1000,Non-whiting groundfish OR
+27,2009,18.78215652,mt x 1000,Non-whiting groundfish OR
+27,2010,16.87410266,mt x 1000,Non-whiting groundfish OR
+27,2011,13.61728913,mt x 1000,Non-whiting groundfish OR
+27,2012,13.07981062,mt x 1000,Non-whiting groundfish OR
+27,2013,14.30937372,mt x 1000,Non-whiting groundfish OR
+27,2014,13.05715506,mt x 1000,Non-whiting groundfish OR
+27,2015,15.10566979,mt x 1000,Non-whiting groundfish OR
+27,2016,16.63641051,mt x 1000,Non-whiting groundfish OR
+27,2017,22.80445368,mt x 1000,Non-whiting groundfish OR
+27,2018,24.36902212,mt x 1000,Non-whiting groundfish OR
+27,2019,22.98766204,mt x 1000,Non-whiting groundfish OR
+27,2020,18.86519751,mt x 1000,Non-whiting groundfish OR
+27,2021,21.28063586,mt x 1000,Non-whiting groundfish OR
+27,2022,23.95479906,mt x 1000,Non-whiting groundfish OR
+27,2023,22.64225023,mt x 1000,Non-whiting groundfish OR
+27,2024,20.92445587,mt x 1000,Non-whiting groundfish OR
+28,1981,17.74040711,mt x 1000,Pacific whiting OR
+28,1982,14.81150393,mt x 1000,Pacific whiting OR
+28,1983,23.62665324,mt x 1000,Pacific whiting OR
+28,1984,56.28018078,mt x 1000,Pacific whiting OR
+28,1985,54.36053642,mt x 1000,Pacific whiting OR
+28,1986,91.27233545,mt x 1000,Pacific whiting OR
+28,1987,99.78466754,mt x 1000,Pacific whiting OR
+28,1988,70.52438956,mt x 1000,Pacific whiting OR
+28,1989,87.8218651,mt x 1000,Pacific whiting OR
+28,1990,94.33208995,mt x 1000,Pacific whiting OR
+28,1991,58.77848148,mt x 1000,Pacific whiting OR
+28,1992,115.7092914,mt x 1000,Pacific whiting OR
+28,1993,95.90092208,mt x 1000,Pacific whiting OR
+28,1994,125.4845562,mt x 1000,Pacific whiting OR
+28,1995,128.0000593,mt x 1000,Pacific whiting OR
+28,1996,92.71756755,mt x 1000,Pacific whiting OR
+28,1997,132.6183718,mt x 1000,Pacific whiting OR
+28,1998,125.4351072,mt x 1000,Pacific whiting OR
+28,1999,80.71279143,mt x 1000,Pacific whiting OR
+28,2000,112.3884189,mt x 1000,Pacific whiting OR
+28,2001,127.8984234,mt x 1000,Pacific whiting OR
+28,2002,94.13476627,mt x 1000,Pacific whiting OR
+28,2003,99.34050602,mt x 1000,Pacific whiting OR
+28,2004,124.4412553,mt x 1000,Pacific whiting OR
+28,2005,158.2284117,mt x 1000,Pacific whiting OR
+28,2006,163.3164172,mt x 1000,Pacific whiting OR
+28,2007,116.0869519,mt x 1000,Pacific whiting OR
+28,2008,112.851467,mt x 1000,Pacific whiting OR
+28,2009,51.82953849,mt x 1000,Pacific whiting OR
+28,2010,82.45842596,mt x 1000,Pacific whiting OR
+28,2011,123.2775731,mt x 1000,Pacific whiting OR
+28,2012,111.0665601,mt x 1000,Pacific whiting OR
+28,2013,190.8481562,mt x 1000,Pacific whiting OR
+28,2014,225.6067545,mt x 1000,Pacific whiting OR
+28,2015,127.3993615,mt x 1000,Pacific whiting OR
+28,2016,192.6257193,mt x 1000,Pacific whiting OR
+28,2017,241.9501416,mt x 1000,Pacific whiting OR
+28,2018,202.7488163,mt x 1000,Pacific whiting OR
+28,2019,198.9300999,mt x 1000,Pacific whiting OR
+28,2020,222.542999,mt x 1000,Pacific whiting OR
+28,2021,208.2724916,mt x 1000,Pacific whiting OR
+28,2022,249.4468969,mt x 1000,Pacific whiting OR
+28,2023,205.4659632,mt x 1000,Pacific whiting OR
+28,2024,143.6577793,mt x 1000,Pacific whiting OR
+29,1981,0.066011793,mt x 1000,"Coastal pelagic spp, no squid OR"
+29,1982,0.067128367,mt x 1000,"Coastal pelagic spp, no squid OR"
+29,1983,0.035279422,mt x 1000,"Coastal pelagic spp, no squid OR"
+29,1984,0.201049955,mt x 1000,"Coastal pelagic spp, no squid OR"
+29,1985,0.057019958,mt x 1000,"Coastal pelagic spp, no squid OR"
+29,1986,0.757001814,mt x 1000,"Coastal pelagic spp, no squid OR"
+29,1987,0.66046465,mt x 1000,"Coastal pelagic spp, no squid OR"
+29,1988,0.120648183,mt x 1000,"Coastal pelagic spp, no squid OR"
+29,1989,0.018750473,mt x 1000,"Coastal pelagic spp, no squid OR"
+29,1990,0.12722653,mt x 1000,"Coastal pelagic spp, no squid OR"
+29,1991,0.193887275,mt x 1000,"Coastal pelagic spp, no squid OR"
+29,1992,1.174411648,mt x 1000,"Coastal pelagic spp, no squid OR"
+29,1993,0.64142652,mt x 1000,"Coastal pelagic spp, no squid OR"
+29,1994,0.461347435,mt x 1000,"Coastal pelagic spp, no squid OR"
+29,1995,0.338410109,mt x 1000,"Coastal pelagic spp, no squid OR"
+29,1996,0.390132442,mt x 1000,"Coastal pelagic spp, no squid OR"
+29,1997,2.047673447,mt x 1000,"Coastal pelagic spp, no squid OR"
+29,1998,1.621478418,mt x 1000,"Coastal pelagic spp, no squid OR"
+29,1999,1.528589753,mt x 1000,"Coastal pelagic spp, no squid OR"
+29,2000,9.865895453,mt x 1000,"Coastal pelagic spp, no squid OR"
+29,2001,13.35402638,mt x 1000,"Coastal pelagic spp, no squid OR"
+29,2002,22.85385867,mt x 1000,"Coastal pelagic spp, no squid OR"
+29,2003,25.54261886,mt x 1000,"Coastal pelagic spp, no squid OR"
+29,2004,36.41433419,mt x 1000,"Coastal pelagic spp, no squid OR"
+29,2005,45.56982635,mt x 1000,"Coastal pelagic spp, no squid OR"
+29,2006,36.36052661,mt x 1000,"Coastal pelagic spp, no squid OR"
+29,2007,42.86489718,mt x 1000,"Coastal pelagic spp, no squid OR"
+29,2008,23.31540798,mt x 1000,"Coastal pelagic spp, no squid OR"
+29,2009,21.57701625,mt x 1000,"Coastal pelagic spp, no squid OR"
+29,2010,21.04325527,mt x 1000,"Coastal pelagic spp, no squid OR"
+29,2011,11.07993346,mt x 1000,"Coastal pelagic spp, no squid OR"
+29,2012,44.5593854,mt x 1000,"Coastal pelagic spp, no squid OR"
+29,2013,26.95314174,mt x 1000,"Coastal pelagic spp, no squid OR"
+29,2014,9.870942107,mt x 1000,"Coastal pelagic spp, no squid OR"
+29,2015,2.739149498,mt x 1000,"Coastal pelagic spp, no squid OR"
+29,2016,5.689754725,mt x 1000,"Coastal pelagic spp, no squid OR"
+29,2017,0.959241273,mt x 1000,"Coastal pelagic spp, no squid OR"
+29,2018,0.35152624,mt x 1000,"Coastal pelagic spp, no squid OR"
+29,2019,1.312020357,mt x 1000,"Coastal pelagic spp, no squid OR"
+29,2020,0.594939218,mt x 1000,"Coastal pelagic spp, no squid OR"
+29,2021,2.730472125,mt x 1000,"Coastal pelagic spp, no squid OR"
+29,2022,1.70857858,mt x 1000,"Coastal pelagic spp, no squid OR"
+29,2023,1.001082524,mt x 1000,"Coastal pelagic spp, no squid OR"
+29,2024,0.294546869,mt x 1000,"Coastal pelagic spp, no squid OR"
+30,1981,3.505858351,mt x 1000,Highly migratory species OR
+30,1982,0.863724695,mt x 1000,Highly migratory species OR
+30,1983,1.541934929,mt x 1000,Highly migratory species OR
+30,1984,0.736742872,mt x 1000,Highly migratory species OR
+30,1985,0.695445212,mt x 1000,Highly migratory species OR
+30,1986,1.540611971,mt x 1000,Highly migratory species OR
+30,1987,1.133073681,mt x 1000,Highly migratory species OR
+30,1988,1.881026977,mt x 1000,Highly migratory species OR
+30,1989,0.489737786,mt x 1000,Highly migratory species OR
+30,1990,0.943482563,mt x 1000,Highly migratory species OR
+30,1991,0.571105628,mt x 1000,Highly migratory species OR
+30,1992,1.767671693,mt x 1000,Highly migratory species OR
+30,1993,2.157131092,mt x 1000,Highly migratory species OR
+30,1994,2.131140249,mt x 1000,Highly migratory species OR
+30,1995,2.28869516,mt x 1000,Highly migratory species OR
+30,1996,4.083459418,mt x 1000,Highly migratory species OR
+30,1997,4.169166776,mt x 1000,Highly migratory species OR
+30,1998,4.866788471,mt x 1000,Highly migratory species OR
+30,1999,2.081363023,mt x 1000,Highly migratory species OR
+30,2000,3.973900682,mt x 1000,Highly migratory species OR
+30,2001,4.100182494,mt x 1000,Highly migratory species OR
+30,2002,1.980247522,mt x 1000,Highly migratory species OR
+30,2003,4.159342426,mt x 1000,Highly migratory species OR
+30,2004,4.879423058,mt x 1000,Highly migratory species OR
+30,2005,3.670599514,mt x 1000,Highly migratory species OR
+30,2006,3.865612358,mt x 1000,Highly migratory species OR
+30,2007,4.74876648,mt x 1000,Highly migratory species OR
+30,2008,4.032287132,mt x 1000,Highly migratory species OR
+30,2009,4.573980582,mt x 1000,Highly migratory species OR
+30,2010,4.855200039,mt x 1000,Highly migratory species OR
+30,2011,4.393282,mt x 1000,Highly migratory species OR
+30,2012,4.512140204,mt x 1000,Highly migratory species OR
+30,2013,4.632149987,mt x 1000,Highly migratory species OR
+30,2014,3.979437926,mt x 1000,Highly migratory species OR
+30,2015,3.442769184,mt x 1000,Highly migratory species OR
+30,2016,3.292534424,mt x 1000,Highly migratory species OR
+30,2017,2.157551509,mt x 1000,Highly migratory species OR
+30,2018,2.642234286,mt x 1000,Highly migratory species OR
+30,2019,2.98983252,mt x 1000,Highly migratory species OR
+30,2020,2.012474856,mt x 1000,Highly migratory species OR
+30,2021,1.468200421,mt x 1000,Highly migratory species OR
+30,2022,2.850969866,mt x 1000,Highly migratory species OR
+30,2023,1.120240039,mt x 1000,Highly migratory species OR
+30,2024,2.265984763,mt x 1000,Highly migratory species OR
+31,1981,0.000102058,mt x 1000,Market squid OR
+31,1982,0.051318534,mt x 1000,Market squid OR
+31,1983,0.134902907,mt x 1000,Market squid OR
+31,1984,0.429427237,mt x 1000,Market squid OR
+31,1985,0.794590867,mt x 1000,Market squid OR
+31,1986,0.011961684,mt x 1000,Market squid OR
+31,1987,1.32E-05,mt x 1000,Market squid OR
+31,1988,2.27E-06,mt x 1000,Market squid OR
+31,1989,0.043556207,mt x 1000,Market squid OR
+31,1990,0,mt x 1000,Market squid OR
+31,1991,4.31E-05,mt x 1000,Market squid OR
+31,1992,0.006052737,mt x 1000,Market squid OR
+31,1993,0.059260029,mt x 1000,Market squid OR
+31,1994,0.105688383,mt x 1000,Market squid OR
+31,1995,0.111767882,mt x 1000,Market squid OR
+31,1996,0.104019163,mt x 1000,Market squid OR
+31,1997,0.123035116,mt x 1000,Market squid OR
+31,1998,0.008813753,mt x 1000,Market squid OR
+31,1999,0.001120827,mt x 1000,Market squid OR
+31,2000,0.005671719,mt x 1000,Market squid OR
+31,2001,0.00186744,mt x 1000,Market squid OR
+31,2002,0.002006693,mt x 1000,Market squid OR
+31,2003,0.012207078,mt x 1000,Market squid OR
+31,2004,0.019726732,mt x 1000,Market squid OR
+31,2005,0.01448139,mt x 1000,Market squid OR
+31,2006,0.027171997,mt x 1000,Market squid OR
+31,2007,0.000636844,mt x 1000,Market squid OR
+31,2008,4.54E-06,mt x 1000,Market squid OR
+31,2009,0.000177355,mt x 1000,Market squid OR
+31,2010,0.007576807,mt x 1000,Market squid OR
+31,2011,2.45E-05,mt x 1000,Market squid OR
+31,2012,5.03E-05,mt x 1000,Market squid OR
+31,2013,6.17E-05,mt x 1000,Market squid OR
+31,2014,0.000470829,mt x 1000,Market squid OR
+31,2015,0,mt x 1000,Market squid OR
+31,2016,1.26021659,mt x 1000,Market squid OR
+31,2017,3.63E-05,mt x 1000,Market squid OR
+31,2018,3.19616561,mt x 1000,Market squid OR
+31,2019,2.380550736,mt x 1000,Market squid OR
+31,2020,4.670769004,mt x 1000,Market squid OR
+31,2021,3.555190321,mt x 1000,Market squid OR
+31,2022,2.504431348,mt x 1000,Market squid OR
+31,2023,2.72E-06,mt x 1000,Market squid OR
+31,2024,0.173416981,mt x 1000,Market squid OR
+32,1981,11.78391611,mt x 1000,Shrimp OR
+32,1982,8.405400921,mt x 1000,Shrimp OR
+32,1983,3.001410736,mt x 1000,Shrimp OR
+32,1984,2.249487035,mt x 1000,Shrimp OR
+32,1985,6.790297743,mt x 1000,Shrimp OR
+32,1986,15.42766399,mt x 1000,Shrimp OR
+32,1987,20.268419,mt x 1000,Shrimp OR
+32,1988,19.03150844,mt x 1000,Shrimp OR
+32,1989,22.33399157,mt x 1000,Shrimp OR
+32,1990,14.5183392,mt x 1000,Shrimp OR
+32,1991,9.918616366,mt x 1000,Shrimp OR
+32,1992,21.85625686,mt x 1000,Shrimp OR
+32,1993,12.28505104,mt x 1000,Shrimp OR
+32,1994,7.503157324,mt x 1000,Shrimp OR
+32,1995,5.54232997,mt x 1000,Shrimp OR
+32,1996,7.169075495,mt x 1000,Shrimp OR
+32,1997,8.94034248,mt x 1000,Shrimp OR
+32,1998,2.856049803,mt x 1000,Shrimp OR
+32,1999,9.315751283,mt x 1000,Shrimp OR
+32,2000,11.62136905,mt x 1000,Shrimp OR
+32,2001,12.99002648,mt x 1000,Shrimp OR
+32,2002,18.93380984,mt x 1000,Shrimp OR
+32,2003,9.359588292,mt x 1000,Shrimp OR
+32,2004,5.574343695,mt x 1000,Shrimp OR
+32,2005,7.188005541,mt x 1000,Shrimp OR
+32,2006,5.54964277,mt x 1000,Shrimp OR
+32,2007,9.145593602,mt x 1000,Shrimp OR
+32,2008,11.59072199,mt x 1000,Shrimp OR
+32,2009,10.07856828,mt x 1000,Shrimp OR
+32,2010,14.34062682,mt x 1000,Shrimp OR
+32,2011,21.9503599,mt x 1000,Shrimp OR
+32,2012,22.31213933,mt x 1000,Shrimp OR
+32,2013,21.632497,mt x 1000,Shrimp OR
+32,2014,23.61713327,mt x 1000,Shrimp OR
+32,2015,24.30088119,mt x 1000,Shrimp OR
+32,2016,16.14139295,mt x 1000,Shrimp OR
+32,2017,10.48146171,mt x 1000,Shrimp OR
+32,2018,16.288473,mt x 1000,Shrimp OR
+32,2019,12.19498073,mt x 1000,Shrimp OR
+32,2020,19.58446589,mt x 1000,Shrimp OR
+32,2021,21.18634125,mt x 1000,Shrimp OR
+32,2022,18.7134242,mt x 1000,Shrimp OR
+32,2023,20.04119087,mt x 1000,Shrimp OR
+32,2024,22.4407924,mt x 1000,Shrimp OR
+33,1981,1.720652308,mt x 1000,Crab OR
+33,1982,3.970989375,mt x 1000,Crab OR
+33,1983,1.979732477,mt x 1000,Crab OR
+33,1984,2.244423129,mt x 1000,Crab OR
+33,1985,2.271582426,mt x 1000,Crab OR
+33,1986,3.222553346,mt x 1000,Crab OR
+33,1987,2.148941482,mt x 1000,Crab OR
+33,1988,3.950780474,mt x 1000,Crab OR
+33,1989,5.091557121,mt x 1000,Crab OR
+33,1990,4.224660001,mt x 1000,Crab OR
+33,1991,3.784454502,mt x 1000,Crab OR
+33,1992,3.478616218,mt x 1000,Crab OR
+33,1993,4.957681601,mt x 1000,Crab OR
+33,1994,4.698163716,mt x 1000,Crab OR
+33,1995,6.912079129,mt x 1000,Crab OR
+33,1996,8.029227696,mt x 1000,Crab OR
+33,1997,3.227126464,mt x 1000,Crab OR
+33,1998,3.228822899,mt x 1000,Crab OR
+33,1999,4.138933765,mt x 1000,Crab OR
+33,2000,7.14692159,mt x 1000,Crab OR
+33,2001,3.390544909,mt x 1000,Crab OR
+33,2002,5.97923104,mt x 1000,Crab OR
+33,2003,7.840125491,mt x 1000,Crab OR
+33,2004,10.78240774,mt x 1000,Crab OR
+33,2005,15.29602014,mt x 1000,Crab OR
+33,2006,12.53756754,mt x 1000,Crab OR
+33,2007,6.91766013,mt x 1000,Crab OR
+33,2008,5.613983494,mt x 1000,Crab OR
+33,2009,5.912729862,mt x 1000,Crab OR
+33,2010,10.5530669,mt x 1000,Crab OR
+33,2011,9.674798674,mt x 1000,Crab OR
+33,2012,6.521230377,mt x 1000,Crab OR
+33,2013,8.276679571,mt x 1000,Crab OR
+33,2014,6.54753556,mt x 1000,Crab OR
+33,2015,3.7517641,mt x 1000,Crab OR
+33,2016,6.461439645,mt x 1000,Crab OR
+33,2017,9.28359612,mt x 1000,Crab OR
+33,2018,10.49615058,mt x 1000,Crab OR
+33,2019,8.487808222,mt x 1000,Crab OR
+33,2020,9.096119135,mt x 1000,Crab OR
+33,2021,5.522611847,mt x 1000,Crab OR
+33,2022,7.805580803,mt x 1000,Crab OR
+33,2023,14.35958323,mt x 1000,Crab OR
+33,2024,11.14535421,mt x 1000,Crab OR
+34,1981,0.523129044,mt x 1000,Other species OR
+34,1982,0.534544186,mt x 1000,Other species OR
+34,1983,0.669826907,mt x 1000,Other species OR
+34,1984,0.88756911,mt x 1000,Other species OR
+34,1985,1.054199454,mt x 1000,Other species OR
+34,1986,1.25455278,mt x 1000,Other species OR
+34,1987,0.91537752,mt x 1000,Other species OR
+34,1988,1.573916262,mt x 1000,Other species OR
+34,1989,4.48147877,mt x 1000,Other species OR
+34,1990,4.917805244,mt x 1000,Other species OR
+34,1991,2.673868062,mt x 1000,Other species OR
+34,1992,2.301329599,mt x 1000,Other species OR
+34,1993,1.651710868,mt x 1000,Other species OR
+34,1994,1.155680307,mt x 1000,Other species OR
+34,1995,1.111092674,mt x 1000,Other species OR
+34,1996,0.785864681,mt x 1000,Other species OR
+34,1997,0.688757771,mt x 1000,Other species OR
+34,1998,0.70359254,mt x 1000,Other species OR
+34,1999,0.751172904,mt x 1000,Other species OR
+34,2000,0.962084828,mt x 1000,Other species OR
+34,2001,1.143621057,mt x 1000,Other species OR
+34,2002,1.081330175,mt x 1000,Other species OR
+34,2003,0.949416829,mt x 1000,Other species OR
+34,2004,1.073517449,mt x 1000,Other species OR
+34,2005,1.68516034,mt x 1000,Other species OR
+34,2006,1.464973039,mt x 1000,Other species OR
+34,2007,1.529668773,mt x 1000,Other species OR
+34,2008,3.773833498,mt x 1000,Other species OR
+34,2009,3.183110219,mt x 1000,Other species OR
+34,2010,1.434328083,mt x 1000,Other species OR
+34,2011,1.48418724,mt x 1000,Other species OR
+34,2012,1.27962002,mt x 1000,Other species OR
+34,2013,2.004276172,mt x 1000,Other species OR
+34,2014,1.4926455,mt x 1000,Other species OR
+34,2015,1.73490195,mt x 1000,Other species OR
+34,2016,1.518963934,mt x 1000,Other species OR
+34,2017,1.603584366,mt x 1000,Other species OR
+34,2018,1.426159258,mt x 1000,Other species OR
+34,2019,1.677238879,mt x 1000,Other species OR
+34,2020,1.458406621,mt x 1000,Other species OR
+34,2021,1.002308781,mt x 1000,Other species OR
+34,2022,1.450702056,mt x 1000,Other species OR
+34,2023,0.974860741,mt x 1000,Other species OR
+34,2024,1.112932449,mt x 1000,Other species OR
+35,2005,0.566617963,mt x 1000,Recreational OR
+35,2006,0.548836456,mt x 1000,Recreational OR
+35,2007,0.933045863,mt x 1000,Recreational OR
+35,2008,0.592062794,mt x 1000,Recreational OR
+35,2009,0.790983498,mt x 1000,Recreational OR
+35,2010,0.796216117,mt x 1000,Recreational OR
+35,2011,0.649039241,mt x 1000,Recreational OR
+35,2012,0.96308456,mt x 1000,Recreational OR
+35,2013,0.831415776,mt x 1000,Recreational OR
+35,2014,0.991405339,mt x 1000,Recreational OR
+35,2015,1.048856951,mt x 1000,Recreational OR
+35,2016,0.898448463,mt x 1000,Recreational OR
+35,2017,0.836168241,mt x 1000,Recreational OR
+35,2018,0.825659419,mt x 1000,Recreational OR
+35,2019,1.255178059,mt x 1000,Recreational OR
+35,2020,0.698496042,mt x 1000,Recreational OR
+35,2021,0.763978509,mt x 1000,Recreational OR
+35,2022,0.94450081,mt x 1000,Recreational OR
+35,2023,1.017991731,mt x 1000,Recreational OR
+35,2024,1.000696414,mt x 1000,Recreational OR
+36,1981,229,1000s fish,Salmon recreational OR
+36,1982,214,1000s fish,Salmon recreational OR
+36,1983,172,1000s fish,Salmon recreational OR
+36,1984,140,1000s fish,Salmon recreational OR
+36,1985,238,1000s fish,Salmon recreational OR
+36,1986,234,1000s fish,Salmon recreational OR
+36,1987,240,1000s fish,Salmon recreational OR
+36,1988,265,1000s fish,Salmon recreational OR
+36,1989,305,1000s fish,Salmon recreational OR
+36,1990,227,1000s fish,Salmon recreational OR
+36,1991,274,1000s fish,Salmon recreational OR
+36,1992,198,1000s fish,Salmon recreational OR
+36,1993,65,1000s fish,Salmon recreational OR
+36,1994,6,1000s fish,Salmon recreational OR
+36,1995,19,1000s fish,Salmon recreational OR
+36,1996,18,1000s fish,Salmon recreational OR
+36,1997,14,1000s fish,Salmon recreational OR
+36,1998,6,1000s fish,Salmon recreational OR
+36,1999,21,1000s fish,Salmon recreational OR
+36,2000,59,1000s fish,Salmon recreational OR
+36,2001,122,1000s fish,Salmon recreational OR
+36,2002,84,1000s fish,Salmon recreational OR
+36,2003,154,1000s fish,Salmon recreational OR
+36,2004,128,1000s fish,Salmon recreational OR
+36,2005,42,1000s fish,Salmon recreational OR
+36,2006,27,1000s fish,Salmon recreational OR
+36,2007,68,1000s fish,Salmon recreational OR
+36,2008,14,1000s fish,Salmon recreational OR
+36,2009,91,1000s fish,Salmon recreational OR
+36,2010,23,1000s fish,Salmon recreational OR
+36,2011,24,1000s fish,Salmon recreational OR
+36,2012,35,1000s fish,Salmon recreational OR
+36,2013,45,1000s fish,Salmon recreational OR
+36,2014,118,1000s fish,Salmon recreational OR
+36,2015,38,1000s fish,Salmon recreational OR
+36,2016,13,1000s fish,Salmon recreational OR
+36,2017,26,1000s fish,Salmon recreational OR
+36,2018,30.662,1000s fish,Salmon recreational OR
+36,2019,72.919,1000s fish,Salmon recreational OR
+36,2020,27.988,1000s fish,Salmon recreational OR
+36,2021,101.571,1000s fish,Salmon recreational OR
+36,2022,87.3,1000s fish,Salmon recreational OR
+36,2023,69.16,1000s fish,Salmon recreational OR
+37,1981,72.4349721,mt x 1000,Total fisheries WA
+37,1982,116.1262186,mt x 1000,Total fisheries WA
+37,1983,98.64205424,mt x 1000,Total fisheries WA
+37,1984,85.5889049,mt x 1000,Total fisheries WA
+37,1985,91.55031733,mt x 1000,Total fisheries WA
+37,1986,107.6109616,mt x 1000,Total fisheries WA
+37,1987,117.6421675,mt x 1000,Total fisheries WA
+37,1988,126.5417486,mt x 1000,Total fisheries WA
+37,1989,96.20354419,mt x 1000,Total fisheries WA
+37,1990,90.03485663,mt x 1000,Total fisheries WA
+37,1991,94.18037519,mt x 1000,Total fisheries WA
+37,1992,139.6318861,mt x 1000,Total fisheries WA
+37,1993,96.07276693,mt x 1000,Total fisheries WA
+37,1994,174.3051137,mt x 1000,Total fisheries WA
+37,1995,90.34221782,mt x 1000,Total fisheries WA
+37,1996,159.534269,mt x 1000,Total fisheries WA
+37,1997,132.6806031,mt x 1000,Total fisheries WA
+37,1998,136.1247016,mt x 1000,Total fisheries WA
+37,1999,172.3949044,mt x 1000,Total fisheries WA
+37,2000,129.989241,mt x 1000,Total fisheries WA
+37,2001,96.28024629,mt x 1000,Total fisheries WA
+37,2002,101.400681,mt x 1000,Total fisheries WA
+37,2003,108.7976733,mt x 1000,Total fisheries WA
+37,2004,147.4225243,mt x 1000,Total fisheries WA
+37,2005,149.4167547,mt x 1000,Total fisheries WA
+37,2006,149.128692,mt x 1000,Total fisheries WA
+37,2007,140.7339493,mt x 1000,Total fisheries WA
+37,2008,176.9860451,mt x 1000,Total fisheries WA
+37,2009,123.8359771,mt x 1000,Total fisheries WA
+37,2010,139.1416449,mt x 1000,Total fisheries WA
+37,2011,169.4684557,mt x 1000,Total fisheries WA
+37,2012,127.8981714,mt x 1000,Total fisheries WA
+37,2013,132.2689305,mt x 1000,Total fisheries WA
+37,2014,92.73644896,mt x 1000,Total fisheries WA
+37,2015,81.7415438,mt x 1000,Total fisheries WA
+37,2016,111.2397977,mt x 1000,Total fisheries WA
+37,2017,153.5568735,mt x 1000,Total fisheries WA
+37,2018,152.2119633,mt x 1000,Total fisheries WA
+37,2019,153.4212847,mt x 1000,Total fisheries WA
+37,2020,91.2458233,mt x 1000,Total fisheries WA
+37,2021,91.76326859,mt x 1000,Total fisheries WA
+37,2022,80.10505667,mt x 1000,Total fisheries WA
+37,2023,70.91552997,mt x 1000,Total fisheries WA
+37,2024,58.76325823,mt x 1000,Total fisheries WA
+38,1981,21.45845636,mt x 1000,Salmon commercial WA
+38,1982,22.59800556,mt x 1000,Salmon commercial WA
+38,1983,12.03324324,mt x 1000,Salmon commercial WA
+38,1984,12.62488858,mt x 1000,Salmon commercial WA
+38,1985,29.93654147,mt x 1000,Salmon commercial WA
+38,1986,22.85367117,mt x 1000,Salmon commercial WA
+38,1987,26.26578094,mt x 1000,Salmon commercial WA
+38,1988,19.29903327,mt x 1000,Salmon commercial WA
+38,1989,24.88029037,mt x 1000,Salmon commercial WA
+38,1990,18.33272722,mt x 1000,Salmon commercial WA
+38,1991,20.74455149,mt x 1000,Salmon commercial WA
+38,1992,11.57220246,mt x 1000,Salmon commercial WA
+38,1993,16.73119266,mt x 1000,Salmon commercial WA
+38,1994,13.52194032,mt x 1000,Salmon commercial WA
+38,1995,11.43770278,mt x 1000,Salmon commercial WA
+38,1996,6.946322494,mt x 1000,Salmon commercial WA
+38,1997,10.34988763,mt x 1000,Salmon commercial WA
+38,1998,6.939612484,mt x 1000,Salmon commercial WA
+38,1999,3.440502542,mt x 1000,Salmon commercial WA
+38,2000,5.959317277,mt x 1000,Salmon commercial WA
+38,2001,13.56368398,mt x 1000,Salmon commercial WA
+38,2002,15.32700696,mt x 1000,Salmon commercial WA
+38,2003,14.46552152,mt x 1000,Salmon commercial WA
+38,2004,14.43620576,mt x 1000,Salmon commercial WA
+38,2005,8.789274535,mt x 1000,Salmon commercial WA
+38,2006,12.76092976,mt x 1000,Salmon commercial WA
+38,2007,10.07261959,mt x 1000,Salmon commercial WA
+38,2008,8.155216552,mt x 1000,Salmon commercial WA
+38,2009,14.75110165,mt x 1000,Salmon commercial WA
+38,2010,13.46769693,mt x 1000,Salmon commercial WA
+38,2011,17.74062432,mt x 1000,Salmon commercial WA
+38,2012,9.175676921,mt x 1000,Salmon commercial WA
+38,2013,22.56670828,mt x 1000,Salmon commercial WA
+38,2014,12.92151366,mt x 1000,Salmon commercial WA
+38,2015,9.958694503,mt x 1000,Salmon commercial WA
+38,2016,7.61284603,mt x 1000,Salmon commercial WA
+38,2017,9.577051042,mt x 1000,Salmon commercial WA
+38,2018,8.152146918,mt x 1000,Salmon commercial WA
+38,2019,3.565278207,mt x 1000,Salmon commercial WA
+38,2020,2.992291701,mt x 1000,Salmon commercial WA
+38,2021,3.967533529,mt x 1000,Salmon commercial WA
+38,2022,7.787420338,mt x 1000,Salmon commercial WA
+38,2023,4.238796711,mt x 1000,Salmon commercial WA
+38,2024,4.71466807,mt x 1000,Salmon commercial WA
+39,1981,28.82617263,mt x 1000,Non-whiting groundfish WA
+39,1982,30.97578377,mt x 1000,Non-whiting groundfish WA
+39,1983,27.86005624,mt x 1000,Non-whiting groundfish WA
+39,1984,25.56799875,mt x 1000,Non-whiting groundfish WA
+39,1985,22.18234479,mt x 1000,Non-whiting groundfish WA
+39,1986,19.42395367,mt x 1000,Non-whiting groundfish WA
+39,1987,23.63143061,mt x 1000,Non-whiting groundfish WA
+39,1988,23.80042674,mt x 1000,Non-whiting groundfish WA
+39,1989,22.47628385,mt x 1000,Non-whiting groundfish WA
+39,1990,20.07529144,mt x 1000,Non-whiting groundfish WA
+39,1991,19.2963504,mt x 1000,Non-whiting groundfish WA
+39,1992,17.41726571,mt x 1000,Non-whiting groundfish WA
+39,1993,15.99141681,mt x 1000,Non-whiting groundfish WA
+39,1994,14.24404504,mt x 1000,Non-whiting groundfish WA
+39,1995,12.77647535,mt x 1000,Non-whiting groundfish WA
+39,1996,12.39296973,mt x 1000,Non-whiting groundfish WA
+39,1997,10.52244643,mt x 1000,Non-whiting groundfish WA
+39,1998,8.81939496,mt x 1000,Non-whiting groundfish WA
+39,1999,10.96421209,mt x 1000,Non-whiting groundfish WA
+39,2000,9.563367678,mt x 1000,Non-whiting groundfish WA
+39,2001,8.393181772,mt x 1000,Non-whiting groundfish WA
+39,2002,12.48325009,mt x 1000,Non-whiting groundfish WA
+39,2003,8.95732488,mt x 1000,Non-whiting groundfish WA
+39,2004,7.999959509,mt x 1000,Non-whiting groundfish WA
+39,2005,8.10483054,mt x 1000,Non-whiting groundfish WA
+39,2006,5.584361265,mt x 1000,Non-whiting groundfish WA
+39,2007,4.948315401,mt x 1000,Non-whiting groundfish WA
+39,2008,5.393756745,mt x 1000,Non-whiting groundfish WA
+39,2009,6.11322126,mt x 1000,Non-whiting groundfish WA
+39,2010,5.428871895,mt x 1000,Non-whiting groundfish WA
+39,2011,5.657751958,mt x 1000,Non-whiting groundfish WA
+39,2012,5.454179288,mt x 1000,Non-whiting groundfish WA
+39,2013,4.202881284,mt x 1000,Non-whiting groundfish WA
+39,2014,3.268357485,mt x 1000,Non-whiting groundfish WA
+39,2015,3.981660916,mt x 1000,Non-whiting groundfish WA
+39,2016,3.861816049,mt x 1000,Non-whiting groundfish WA
+39,2017,5.117948331,mt x 1000,Non-whiting groundfish WA
+39,2018,7.1700504,mt x 1000,Non-whiting groundfish WA
+39,2019,7.403956137,mt x 1000,Non-whiting groundfish WA
+39,2020,4.671326996,mt x 1000,Non-whiting groundfish WA
+39,2021,4.916052138,mt x 1000,Non-whiting groundfish WA
+39,2022,5.155781816,mt x 1000,Non-whiting groundfish WA
+39,2023,5.246835184,mt x 1000,Non-whiting groundfish WA
+39,2024,4.529558039,mt x 1000,Non-whiting groundfish WA
+40,1981,6.960765577,mt x 1000,Pacific whiting WA
+40,1982,49.35315304,mt x 1000,Pacific whiting WA
+40,1983,44.70715606,mt x 1000,Pacific whiting WA
+40,1984,34.54589515,mt x 1000,Pacific whiting WA
+40,1985,24.47175404,mt x 1000,Pacific whiting WA
+40,1986,48.24166543,mt x 1000,Pacific whiting WA
+40,1987,50.9413696,mt x 1000,Pacific whiting WA
+40,1988,54.12890649,mt x 1000,Pacific whiting WA
+40,1989,21.32547943,mt x 1000,Pacific whiting WA
+40,1990,33.31391501,mt x 1000,Pacific whiting WA
+40,1991,36.00411328,mt x 1000,Pacific whiting WA
+40,1992,89.42792236,mt x 1000,Pacific whiting WA
+40,1993,41.09646487,mt x 1000,Pacific whiting WA
+40,1994,124.2940079,mt x 1000,Pacific whiting WA
+40,1995,44.96786507,mt x 1000,Pacific whiting WA
+40,1996,117.6337347,mt x 1000,Pacific whiting WA
+40,1997,94.49787117,mt x 1000,Pacific whiting WA
+40,1998,101.7180328,mt x 1000,Pacific whiting WA
+40,1999,142.5701821,mt x 1000,Pacific whiting WA
+40,2000,89.39431981,mt x 1000,Pacific whiting WA
+40,2001,43.74130144,mt x 1000,Pacific whiting WA
+40,2002,33.55084948,mt x 1000,Pacific whiting WA
+40,2003,40.86250087,mt x 1000,Pacific whiting WA
+40,2004,88.05637672,mt x 1000,Pacific whiting WA
+40,2005,98.01619526,mt x 1000,Pacific whiting WA
+40,2006,98.20698691,mt x 1000,Pacific whiting WA
+40,2007,98.62551137,mt x 1000,Pacific whiting WA
+40,2008,130.1882566,mt x 1000,Pacific whiting WA
+40,2009,67.9162347,mt x 1000,Pacific whiting WA
+40,2010,80.9557448,mt x 1000,Pacific whiting WA
+40,2011,107.9794571,mt x 1000,Pacific whiting WA
+40,2012,48.99771223,mt x 1000,Pacific whiting WA
+40,2013,42.72853884,mt x 1000,Pacific whiting WA
+40,2014,31.15458333,mt x 1000,Pacific whiting WA
+40,2015,26.62369731,mt x 1000,Pacific whiting WA
+40,2016,69.64440053,mt x 1000,Pacific whiting WA
+40,2017,111.8891858,mt x 1000,Pacific whiting WA
+40,2018,112.5448895,mt x 1000,Pacific whiting WA
+40,2019,117.6693313,mt x 1000,Pacific whiting WA
+40,2020,59.15735497,mt x 1000,Pacific whiting WA
+40,2021,56.84565733,mt x 1000,Pacific whiting WA
+40,2022,34.98390052,mt x 1000,Pacific whiting WA
+40,2023,31.9937062,mt x 1000,Pacific whiting WA
+40,2024,22.99373599,mt x 1000,Pacific whiting WA
+41,1981,0.001322222,mt x 1000,"Coastal pelagic spp, no squid WA"
+41,1982,0.010058462,mt x 1000,"Coastal pelagic spp, no squid WA"
+41,1983,0.013926124,mt x 1000,"Coastal pelagic spp, no squid WA"
+41,1984,0.015205828,mt x 1000,"Coastal pelagic spp, no squid WA"
+41,1985,0.012056485,mt x 1000,"Coastal pelagic spp, no squid WA"
+41,1986,0.025098567,mt x 1000,"Coastal pelagic spp, no squid WA"
+41,1987,0.103614644,mt x 1000,"Coastal pelagic spp, no squid WA"
+41,1988,0.082350216,mt x 1000,"Coastal pelagic spp, no squid WA"
+41,1989,0.065073209,mt x 1000,"Coastal pelagic spp, no squid WA"
+41,1990,0.119445373,mt x 1000,"Coastal pelagic spp, no squid WA"
+41,1991,0.210192582,mt x 1000,"Coastal pelagic spp, no squid WA"
+41,1992,1.50645006,mt x 1000,"Coastal pelagic spp, no squid WA"
+41,1993,0.081194591,mt x 1000,"Coastal pelagic spp, no squid WA"
+41,1994,0.196794658,mt x 1000,"Coastal pelagic spp, no squid WA"
+41,1995,0.130649363,mt x 1000,"Coastal pelagic spp, no squid WA"
+41,1996,0.380469147,mt x 1000,"Coastal pelagic spp, no squid WA"
+41,1997,0.312862447,mt x 1000,"Coastal pelagic spp, no squid WA"
+41,1998,0.685672601,mt x 1000,"Coastal pelagic spp, no squid WA"
+41,1999,0.595414002,mt x 1000,"Coastal pelagic spp, no squid WA"
+41,2000,4.976257557,mt x 1000,"Coastal pelagic spp, no squid WA"
+41,2001,11.71800304,mt x 1000,"Coastal pelagic spp, no squid WA"
+41,2002,16.32217568,mt x 1000,"Coastal pelagic spp, no squid WA"
+41,2003,12.19123593,mt x 1000,"Coastal pelagic spp, no squid WA"
+41,2004,9.178513216,mt x 1000,"Coastal pelagic spp, no squid WA"
+41,2005,6.920230184,mt x 1000,"Coastal pelagic spp, no squid WA"
+41,2006,4.568938178,mt x 1000,"Coastal pelagic spp, no squid WA"
+41,2007,4.857700116,mt x 1000,"Coastal pelagic spp, no squid WA"
+41,2008,6.556305449,mt x 1000,"Coastal pelagic spp, no squid WA"
+41,2009,8.842373869,mt x 1000,"Coastal pelagic spp, no squid WA"
+41,2010,12.51375031,mt x 1000,"Coastal pelagic spp, no squid WA"
+41,2011,8.21017647,mt x 1000,"Coastal pelagic spp, no squid WA"
+41,2012,36.7235582,mt x 1000,"Coastal pelagic spp, no squid WA"
+41,2013,30.86619649,mt x 1000,"Coastal pelagic spp, no squid WA"
+41,2014,8.684864861,mt x 1000,"Coastal pelagic spp, no squid WA"
+41,2015,0.386228247,mt x 1000,"Coastal pelagic spp, no squid WA"
+41,2016,0.428464321,mt x 1000,"Coastal pelagic spp, no squid WA"
+41,2017,0.244720788,mt x 1000,"Coastal pelagic spp, no squid WA"
+41,2018,0.184909783,mt x 1000,"Coastal pelagic spp, no squid WA"
+41,2019,0.181175267,mt x 1000,"Coastal pelagic spp, no squid WA"
+41,2020,0.153785531,mt x 1000,"Coastal pelagic spp, no squid WA"
+41,2021,0.266042998,mt x 1000,"Coastal pelagic spp, no squid WA"
+41,2022,0.503561547,mt x 1000,"Coastal pelagic spp, no squid WA"
+41,2023,0.321281512,mt x 1000,"Coastal pelagic spp, no squid WA"
+41,2024,0.080995244,mt x 1000,"Coastal pelagic spp, no squid WA"
+42,1981,0.873775395,mt x 1000,Highly migratory species WA
+42,1982,0.265682659,mt x 1000,Highly migratory species WA
+42,1983,0.482357384,mt x 1000,Highly migratory species WA
+42,1984,0.066581917,mt x 1000,Highly migratory species WA
+42,1985,0.173211787,mt x 1000,Highly migratory species WA
+42,1986,0.927340118,mt x 1000,Highly migratory species WA
+42,1987,0.594650979,mt x 1000,Highly migratory species WA
+42,1988,1.906874656,mt x 1000,Highly migratory species WA
+42,1989,0.195470642,mt x 1000,Highly migratory species WA
+42,1990,0.508566858,mt x 1000,Highly migratory species WA
+42,1991,0.306104066,mt x 1000,Highly migratory species WA
+42,1992,1.828767411,mt x 1000,Highly migratory species WA
+42,1993,2.096449051,mt x 1000,Highly migratory species WA
+42,1994,4.642541044,mt x 1000,Highly migratory species WA
+42,1995,2.914300616,mt x 1000,Highly migratory species WA
+42,1996,4.914298666,mt x 1000,Highly migratory species WA
+42,1997,3.642354682,mt x 1000,Highly migratory species WA
+42,1998,6.642099851,mt x 1000,Highly migratory species WA
+42,1999,2.135707298,mt x 1000,Highly migratory species WA
+42,2000,3.260638174,mt x 1000,Highly migratory species WA
+42,2001,4.145858256,mt x 1000,Highly migratory species WA
+42,2002,5.341682923,mt x 1000,Highly migratory species WA
+42,2003,10.78038591,mt x 1000,Highly migratory species WA
+42,2004,8.231705026,mt x 1000,Highly migratory species WA
+42,2005,4.824308405,mt x 1000,Highly migratory species WA
+42,2006,8.741281802,mt x 1000,Highly migratory species WA
+42,2007,5.979859706,mt x 1000,Highly migratory species WA
+42,2008,6.725491251,mt x 1000,Highly migratory species WA
+42,2009,7.32519424,mt x 1000,Highly migratory species WA
+42,2010,5.979812747,mt x 1000,Highly migratory species WA
+42,2011,6.014735915,mt x 1000,Highly migratory species WA
+42,2012,8.778499243,mt x 1000,Highly migratory species WA
+42,2013,7.855344875,mt x 1000,Highly migratory species WA
+42,2014,8.205321764,mt x 1000,Highly migratory species WA
+42,2015,7.800890799,mt x 1000,Highly migratory species WA
+42,2016,7.030518691,mt x 1000,Highly migratory species WA
+42,2017,5.163816702,mt x 1000,Highly migratory species WA
+42,2018,4.151489501,mt x 1000,Highly migratory species WA
+42,2019,4.062806355,mt x 1000,Highly migratory species WA
+42,2020,4.539853722,mt x 1000,Highly migratory species WA
+42,2021,1.8274142,mt x 1000,Highly migratory species WA
+42,2022,4.270146959,mt x 1000,Highly migratory species WA
+42,2023,1.478934936,mt x 1000,Highly migratory species WA
+42,2024,2.066092077,mt x 1000,Highly migratory species WA
+43,1981,0,Landings (1000s mt),Dummy variable in place of Market squid WA
+43,1982,0,Landings (1000s mt),Dummy variable in place of Market squid WA
+43,1983,0,Landings (1000s mt),Dummy variable in place of Market squid WA
+43,1984,0,Landings (1000s mt),Dummy variable in place of Market squid WA
+43,1985,0,Landings (1000s mt),Dummy variable in place of Market squid WA
+43,1986,0,Landings (1000s mt),Dummy variable in place of Market squid WA
+43,1987,0,Landings (1000s mt),Dummy variable in place of Market squid WA
+43,1988,0,Landings (1000s mt),Dummy variable in place of Market squid WA
+43,1989,0,Landings (1000s mt),Dummy variable in place of Market squid WA
+43,1990,0,Landings (1000s mt),Dummy variable in place of Market squid WA
+43,1991,0,Landings (1000s mt),Dummy variable in place of Market squid WA
+43,1992,0,Landings (1000s mt),Dummy variable in place of Market squid WA
+43,1993,0,Landings (1000s mt),Dummy variable in place of Market squid WA
+43,1994,0,Landings (1000s mt),Dummy variable in place of Market squid WA
+43,1995,0,Landings (1000s mt),Dummy variable in place of Market squid WA
+43,1996,0,Landings (1000s mt),Dummy variable in place of Market squid WA
+43,1997,0,Landings (1000s mt),Dummy variable in place of Market squid WA
+43,1998,0,Landings (1000s mt),Dummy variable in place of Market squid WA
+43,1999,0,Landings (1000s mt),Dummy variable in place of Market squid WA
+43,2000,0,Landings (1000s mt),Dummy variable in place of Market squid WA
+43,2001,0,Landings (1000s mt),Dummy variable in place of Market squid WA
+43,2002,0,Landings (1000s mt),Dummy variable in place of Market squid WA
+43,2003,0,Landings (1000s mt),Dummy variable in place of Market squid WA
+43,2004,0,Landings (1000s mt),Dummy variable in place of Market squid WA
+43,2005,0,Landings (1000s mt),Dummy variable in place of Market squid WA
+43,2006,0,Landings (1000s mt),Dummy variable in place of Market squid WA
+43,2007,0,Landings (1000s mt),Dummy variable in place of Market squid WA
+43,2008,0,Landings (1000s mt),Dummy variable in place of Market squid WA
+43,2009,0,Landings (1000s mt),Dummy variable in place of Market squid WA
+43,2010,0,Landings (1000s mt),Dummy variable in place of Market squid WA
+43,2011,0,Landings (1000s mt),Dummy variable in place of Market squid WA
+43,2012,0,Landings (1000s mt),Dummy variable in place of Market squid WA
+43,2013,0,Landings (1000s mt),Dummy variable in place of Market squid WA
+43,2014,0,Landings (1000s mt),Dummy variable in place of Market squid WA
+43,2015,0,Landings (1000s mt),Dummy variable in place of Market squid WA
+43,2016,0,Landings (1000s mt),Dummy variable in place of Market squid WA
+43,2017,0,Landings (1000s mt),Dummy variable in place of Market squid WA
+43,2018,0,Landings (1000s mt),Dummy variable in place of Market squid WA
+43,2019,0,Landings (1000s mt),Dummy variable in place of Market squid WA
+43,2020,0,Landings (1000s mt),Dummy variable in place of Market squid WA
+43,2021,0,Landings (1000s mt),Dummy variable in place of Market squid WA
+43,2022,0,Landings (1000s mt),Dummy variable in place of Market squid WA
+43,2023,0,Landings (1000s mt),Dummy variable in place of Market squid WA
+43,2024,0,Landings (1000s mt),Dummy variable in place of Market squid WA
+44,1981,4.600298894,mt x 1000,Shrimp WA
+44,1982,2.314962186,mt x 1000,Shrimp WA
+44,1983,2.603613856,mt x 1000,Shrimp WA
+44,1984,1.592229422,mt x 1000,Shrimp WA
+44,1985,4.180619811,mt x 1000,Shrimp WA
+44,1986,7.969503189,mt x 1000,Shrimp WA
+44,1987,7.406245791,mt x 1000,Shrimp WA
+44,1988,8.524412219,mt x 1000,Shrimp WA
+44,1989,7.308691226,mt x 1000,Shrimp WA
+44,1990,6.243495315,mt x 1000,Shrimp WA
+44,1991,4.694199318,mt x 1000,Shrimp WA
+44,1992,5.70637344,mt x 1000,Shrimp WA
+44,1993,7.28809984,mt x 1000,Shrimp WA
+44,1994,2.866824373,mt x 1000,Shrimp WA
+44,1995,3.928783175,mt x 1000,Shrimp WA
+44,1996,3.08818341,mt x 1000,Shrimp WA
+44,1997,2.788094429,mt x 1000,Shrimp WA
+44,1998,1.424119281,mt x 1000,Shrimp WA
+44,1999,1.895579353,mt x 1000,Shrimp WA
+44,2000,2.511244189,mt x 1000,Shrimp WA
+44,2001,3.523435325,mt x 1000,Shrimp WA
+44,2002,5.106642028,mt x 1000,Shrimp WA
+44,2003,4.044919252,mt x 1000,Shrimp WA
+44,2004,2.999649471,mt x 1000,Shrimp WA
+44,2005,3.332699897,mt x 1000,Shrimp WA
+44,2006,3.156798311,mt x 1000,Shrimp WA
+44,2007,2.039753218,mt x 1000,Shrimp WA
+44,2008,3.358469332,mt x 1000,Shrimp WA
+44,2009,3.535763645,mt x 1000,Shrimp WA
+44,2010,4.608200089,mt x 1000,Shrimp WA
+44,2011,4.620018753,mt x 1000,Shrimp WA
+44,2012,4.557501391,mt x 1000,Shrimp WA
+44,2013,6.48427311,mt x 1000,Shrimp WA
+44,2014,14.24826854,mt x 1000,Shrimp WA
+44,2015,19.1179751,mt x 1000,Shrimp WA
+44,2016,6.761663861,mt x 1000,Shrimp WA
+44,2017,3.404874052,mt x 1000,Shrimp WA
+44,2018,4.224165372,mt x 1000,Shrimp WA
+44,2019,4.676770108,mt x 1000,Shrimp WA
+44,2020,6.817943158,mt x 1000,Shrimp WA
+44,2021,10.14957454,mt x 1000,Shrimp WA
+44,2022,11.39797766,mt x 1000,Shrimp WA
+44,2023,6.809561434,mt x 1000,Shrimp WA
+44,2024,9.132779392,mt x 1000,Shrimp WA
+45,1981,1.286507257,mt x 1000,Crab WA
+45,1982,1.746621832,mt x 1000,Crab WA
+45,1983,2.400025271,mt x 1000,Crab WA
+45,1984,2.738802072,mt x 1000,Crab WA
+45,1985,2.034393986,mt x 1000,Crab WA
+45,1986,2.42489574,mt x 1000,Crab WA
+45,1987,2.205997052,mt x 1000,Crab WA
+45,1988,8.22690047,mt x 1000,Crab WA
+45,1989,10.8638371,mt x 1000,Crab WA
+45,1990,3.993401374,mt x 1000,Crab WA
+45,1991,3.754091483,mt x 1000,Crab WA
+45,1992,4.344376635,mt x 1000,Crab WA
+45,1993,7.174959041,mt x 1000,Crab WA
+45,1994,10.44045216,mt x 1000,Crab WA
+45,1995,10.86873816,mt x 1000,Crab WA
+45,1996,10.51038567,mt x 1000,Crab WA
+45,1997,6.96847064,mt x 1000,Crab WA
+45,1998,6.436406336,mt x 1000,Crab WA
+45,1999,6.794153731,mt x 1000,Crab WA
+45,2000,10.73592495,mt x 1000,Crab WA
+45,2001,7.193350851,mt x 1000,Crab WA
+45,2002,8.865813506,mt x 1000,Crab WA
+45,2003,13.16364022,mt x 1000,Crab WA
+45,2004,11.62026588,mt x 1000,Crab WA
+45,2005,14.47750727,mt x 1000,Crab WA
+45,2006,11.29097641,mt x 1000,Crab WA
+45,2007,9.318523186,mt x 1000,Crab WA
+45,2008,10.06334182,mt x 1000,Crab WA
+45,2009,7.972350842,mt x 1000,Crab WA
+45,2010,10.91292169,mt x 1000,Crab WA
+45,2011,13.52999862,mt x 1000,Crab WA
+45,2012,8.148967464,mt x 1000,Crab WA
+45,2013,11.7907658,mt x 1000,Crab WA
+45,2014,8.662096101,mt x 1000,Crab WA
+45,2015,8.041251976,mt x 1000,Crab WA
+45,2016,10.18412076,mt x 1000,Crab WA
+45,2017,12.81773067,mt x 1000,Crab WA
+45,2018,10.20753336,mt x 1000,Crab WA
+45,2019,9.951367412,mt x 1000,Crab WA
+45,2020,8.632836732,mt x 1000,Crab WA
+45,2021,9.025058764,mt x 1000,Crab WA
+45,2022,11.20094259,mt x 1000,Crab WA
+45,2023,16.19914052,mt x 1000,Crab WA
+45,2024,11.87854096,mt x 1000,Crab WA
+46,1981,2.543628634,mt x 1000,Other species WA
+46,1982,2.655681191,mt x 1000,Other species WA
+46,1983,2.834085623,mt x 1000,Other species WA
+46,1984,1.391309068,mt x 1000,Other species WA
+46,1985,1.988284385,mt x 1000,Other species WA
+46,1986,4.006400636,mt x 1000,Other species WA
+46,1987,3.901940966,mt x 1000,Other species WA
+46,1988,8.063034904,mt x 1000,Other species WA
+46,1989,6.90932161,mt x 1000,Other species WA
+46,1990,5.234231789,mt x 1000,Other species WA
+46,1991,7.171604908,mt x 1000,Other species WA
+46,1992,6.601781985,mt x 1000,Other species WA
+46,1993,4.023188581,mt x 1000,Other species WA
+46,1994,2.601379838,mt x 1000,Other species WA
+46,1995,2.249382499,mt x 1000,Other species WA
+46,1996,2.072537055,mt x 1000,Other species WA
+46,1997,1.612258027,mt x 1000,Other species WA
+46,1998,1.451558572,mt x 1000,Other species WA
+46,1999,1.645625382,mt x 1000,Other species WA
+46,2000,1.611317523,mt x 1000,Other species WA
+46,2001,1.724720971,mt x 1000,Other species WA
+46,2002,1.862280085,mt x 1000,Other species WA
+46,2003,2.041560348,mt x 1000,Other species WA
+46,2004,2.336354883,mt x 1000,Other species WA
+46,2005,1.828804261,mt x 1000,Other species WA
+46,2006,1.65472601,mt x 1000,Other species WA
+46,2007,1.745045105,mt x 1000,Other species WA
+46,2008,3.132793485,mt x 1000,Other species WA
+46,2009,3.873449515,mt x 1000,Other species WA
+46,2010,1.92661902,mt x 1000,Other species WA
+46,2011,1.977766696,mt x 1000,Other species WA
+46,2012,2.573158679,mt x 1000,Other species WA
+46,2013,2.176947712,mt x 1000,Other species WA
+46,2014,1.669778204,mt x 1000,Other species WA
+46,2015,1.985554601,mt x 1000,Other species WA
+46,2016,1.839029345,mt x 1000,Other species WA
+46,2017,1.892602413,mt x 1000,Other species WA
+46,2018,1.913043761,mt x 1000,Other species WA
+46,2019,1.941494244,mt x 1000,Other species WA
+46,2020,1.626400663,mt x 1000,Other species WA
+46,2021,1.589393801,mt x 1000,Other species WA
+46,2022,1.563606528,mt x 1000,Other species WA
+46,2023,1.373509695,mt x 1000,Other species WA
+46,2024,1.095763813,mt x 1000,Other species WA
+35,2005,0.475625456,mt x 1000,Recreational WA
+35,2006,0.566169122,mt x 1000,Recreational WA
+35,2007,0.548270991,mt x 1000,Recreational WA
+35,2008,0.444551658,mt x 1000,Recreational WA
+35,2009,0.528279711,mt x 1000,Recreational WA
+35,2010,0.599927307,mt x 1000,Recreational WA
+35,2011,0.56713031,mt x 1000,Recreational WA
+35,2012,0.851078884,mt x 1000,Recreational WA
+35,2013,0.90850403,mt x 1000,Recreational WA
+35,2014,1.080529514,mt x 1000,Recreational WA
+35,2015,1.159767513,mt x 1000,Recreational WA
+35,2016,0.991231663,mt x 1000,Recreational WA
+35,2017,0.68947077,mt x 1000,Recreational WA
+35,2018,0.670521708,mt x 1000,Recreational WA
+35,2019,1.242709581,mt x 1000,Recreational WA
+35,2020,0.57387261,mt x 1000,Recreational WA
+35,2021,0.572159613,mt x 1000,Recreational WA
+35,2022,0.902502371,mt x 1000,Recreational WA
+35,2023,0.782407795,mt x 1000,Recreational WA
+35,2024,0.529284797,mt x 1000,Recreational WA
+48,1981,323,1000s fish,Salmon recreational WA
+48,1982,313,1000s fish,Salmon recreational WA
+48,1983,258,1000s fish,Salmon recreational WA
+48,1984,47,1000s fish,Salmon recreational WA
+48,1985,194,1000s fish,Salmon recreational WA
+48,1986,196,1000s fish,Salmon recreational WA
+48,1987,164,1000s fish,Salmon recreational WA
+48,1988,108,1000s fish,Salmon recreational WA
+48,1989,233,1000s fish,Salmon recreational WA
+48,1990,255,1000s fish,Salmon recreational WA
+48,1991,220,1000s fish,Salmon recreational WA
+48,1992,142,1000s fish,Salmon recreational WA
+48,1993,139,1000s fish,Salmon recreational WA
+48,1994,,1000s fish,Salmon recreational WA
+48,1995,69,1000s fish,Salmon recreational WA
+48,1996,52,1000s fish,Salmon recreational WA
+48,1997,31,1000s fish,Salmon recreational WA
+48,1998,23,1000s fish,Salmon recreational WA
+48,1999,50,1000s fish,Salmon recreational WA
+48,2000,77,1000s fish,Salmon recreational WA
+48,2001,191,1000s fish,Salmon recreational WA
+48,2002,132,1000s fish,Salmon recreational WA
+48,2003,173,1000s fish,Salmon recreational WA
+48,2004,138,1000s fish,Salmon recreational WA
+48,2005,88,1000s fish,Salmon recreational WA
+48,2006,47,1000s fish,Salmon recreational WA
+48,2007,93,1000s fish,Salmon recreational WA
+48,2008,34,1000s fish,Salmon recreational WA
+48,2009,151,1000s fish,Salmon recreational WA
+48,2010,73,1000s fish,Salmon recreational WA
+48,2011,69,1000s fish,Salmon recreational WA
+48,2012,65,1000s fish,Salmon recreational WA
+48,2013,75,1000s fish,Salmon recreational WA
+48,2014,163,1000s fish,Salmon recreational WA
+48,2015,114,1000s fish,Salmon recreational WA
+48,2016,33,1000s fish,Salmon recreational WA
+48,2017,56,1000s fish,Salmon recreational WA
+48,2018,44.62319,1000s fish,Salmon recreational WA
+48,2019,74.00781,1000s fish,Salmon recreational WA
+48,2020,27.7578,1000s fish,Salmon recreational WA
+48,2021,65.7458,1000s fish,Salmon recreational WA
+48,2022,82.27532,1000s fish,Salmon recreational WA
+48,2023,72.91392,1000s fish,Salmon recreational WA
