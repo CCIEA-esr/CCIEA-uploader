@@ -37,11 +37,11 @@
             run: Rscript get_status.R
 
           - name: Install Quarto and render project
-            uses: quarto-dev/quarto-action/render@v2 # Use the official Quarto render action
+            uses: quarto-dev/quarto-action/render@v2
             with:
               quarto-version: '1.7.34'
 
-         - name: Commit results
+          - name: Commit results
             run: |
               git config --local user.email "actions@github.com"
               git config --local user.name "GitHub Actions"
