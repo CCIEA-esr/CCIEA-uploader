@@ -38,8 +38,6 @@
 
           - name: Install Quarto and render project
             uses: quarto-dev/quarto-action/render@v2
-            with:
-              quarto-version: '1.7.34'
 
           - name: Commit results
             run: |
