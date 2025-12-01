@@ -42,7 +42,7 @@
             run: Rscript get_status.R
 
           - name: Install Quarto and render project
-            uses: quarto-dev/quarto-action/render@v2
+            uses: quarto-dev/quarto-actions/render@v2
             env:
               GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
