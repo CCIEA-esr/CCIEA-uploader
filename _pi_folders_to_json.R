@@ -268,7 +268,7 @@ check_upload_status <- function(esr_year,metadata_spreadsheet_folder,meta_file_s
           ## clean up the file if needed
           df_cleaned <- clean_file(df,datares)
           outfile <- paste0("data/timeseries_data/",pifiles$name[f],sep="")
-          write_csv(df_cleaned,outfile,row.names = FALSE)
+          write_csv(df_cleaned,outfile)
 #          write.csv(df_cleaned, file = "temp.csv",row.names = FALSE)
           drive_upload(outfile,name=pifiles$name[f],path=this_yearfolder,type="text/csv",overwrite=TRUE)
           ## to-do could check for backup folder and create it if not already there -
