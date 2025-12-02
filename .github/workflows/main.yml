@@ -38,10 +38,13 @@
               cache: always
               packages: |
                 any::tidyverse
-                any::flextable
-                any::jsonlite
-                any::tibble
                 any::officer
+                
+          - name: Install flextable
+            run: |
+              install.packages("flextable")
+            shell: Rscript {0} # Execute the R command using Rscript
+
           - name: Import data
             run: Rscript get_status.R
 
