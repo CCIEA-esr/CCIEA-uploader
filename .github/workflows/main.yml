@@ -38,6 +38,10 @@
               cache: always
               packages: |
                 any::tidyverse
+                any::flextable
+                any::jsonlite
+                any::tibble
+                any::officer
           - name: Import data
             run: Rscript get_status.R
 
