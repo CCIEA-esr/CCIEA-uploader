@@ -1,0 +1,1761 @@
+order,year,index,metric,timeseries
+1,1981,891.7227987,Million $,Commercial fisheries coastwide
+1,1982,862.1511904,Million $,Commercial fisheries coastwide
+1,1983,691.7633773,Million $,Commercial fisheries coastwide
+1,1984,686.4399551,Million $,Commercial fisheries coastwide
+1,1985,700.7565227,Million $,Commercial fisheries coastwide
+1,1986,771.7641047,Million $,Commercial fisheries coastwide
+1,1987,1009.085248,Million $,Commercial fisheries coastwide
+1,1988,1058.020594,Million $,Commercial fisheries coastwide
+1,1989,829.3599538,Million $,Commercial fisheries coastwide
+1,1990,718.0025164,Million $,Commercial fisheries coastwide
+1,1991,683.1319747,Million $,Commercial fisheries coastwide
+1,1992,608.347051,Million $,Commercial fisheries coastwide
+1,1993,572.6108259,Million $,Commercial fisheries coastwide
+1,1994,598.807813,Million $,Commercial fisheries coastwide
+1,1995,685.4286198,Million $,Commercial fisheries coastwide
+1,1996,664.6613585,Million $,Commercial fisheries coastwide
+1,1997,630.8529423,Million $,Commercial fisheries coastwide
+1,1998,439.5290782,Million $,Commercial fisheries coastwide
+1,1999,524.1435973,Million $,Commercial fisheries coastwide
+1,2000,605.8938618,Million $,Commercial fisheries coastwide
+1,2001,462.6880729,Million $,Commercial fisheries coastwide
+1,2002,463.2576719,Million $,Commercial fisheries coastwide
+1,2003,517.3887745,Million $,Commercial fisheries coastwide
+1,2004,585.2763875,Million $,Commercial fisheries coastwide
+1,2005,624.8059837,Million $,Commercial fisheries coastwide
+1,2006,580.0648936,Million $,Commercial fisheries coastwide
+1,2007,563.4366069,Million $,Commercial fisheries coastwide
+1,2008,616.5860613,Million $,Commercial fisheries coastwide
+1,2009,546.6328925,Million $,Commercial fisheries coastwide
+1,2010,703.6299738,Million $,Commercial fisheries coastwide
+1,2011,901.0782134,Million $,Commercial fisheries coastwide
+1,2012,855.498858,Million $,Commercial fisheries coastwide
+1,2013,898.1404614,Million $,Commercial fisheries coastwide
+1,2014,875.854526,Million $,Commercial fisheries coastwide
+1,2015,726.7099238,Million $,Commercial fisheries coastwide
+1,2016,746.0507862,Million $,Commercial fisheries coastwide
+1,2017,833.722171,Million $,Commercial fisheries coastwide
+1,2018,775.8603932,Million $,Commercial fisheries coastwide
+1,2019,655.9760214,Million $,Commercial fisheries coastwide
+1,2020,570.5367932,Million $,Commercial fisheries coastwide
+1,2021,669.0400137,Million $,Commercial fisheries coastwide
+1,2022,802.8123788,Million $,Commercial fisheries coastwide
+1,2023,561.0164262,Million $,Commercial fisheries coastwide
+1,2024,575.4536652,Million $,Commercial fisheries coastwide
+2,1981,254.4555156,Million $,Salmon coastwide
+2,1982,278.0297534,Million $,Salmon coastwide
+2,1983,85.484786,Million $,Salmon coastwide
+2,1984,136.246746,Million $,Salmon coastwide
+2,1985,209.0053943,Million $,Salmon coastwide
+2,1986,239.6173642,Million $,Salmon coastwide
+2,1987,371.0318437,Million $,Salmon coastwide
+2,1988,413.4134962,Million $,Salmon coastwide
+2,1989,215.1089396,Million $,Salmon coastwide
+2,1990,180.7022445,Million $,Salmon coastwide
+2,1991,108.9413595,Million $,Salmon coastwide
+2,1992,68.55471346,Million $,Salmon coastwide
+2,1993,73.15074983,Million $,Salmon coastwide
+2,1994,71.3039705,Million $,Salmon coastwide
+2,1995,54.65320271,Million $,Salmon coastwide
+2,1996,36.48235187,Million $,Salmon coastwide
+2,1997,46.31564309,Million $,Salmon coastwide
+2,1998,29.78490922,Million $,Salmon coastwide
+2,1999,27.38113545,Million $,Salmon coastwide
+2,2000,44.54740751,Million $,Salmon coastwide
+2,2001,36.86211267,Million $,Salmon coastwide
+2,2002,46.11050516,Million $,Salmon coastwide
+2,2003,53.96782795,Million $,Salmon coastwide
+2,2004,81.46584788,Million $,Salmon coastwide
+2,2005,61.36379072,Million $,Salmon coastwide
+2,2006,54.83178946,Million $,Salmon coastwide
+2,2007,52.61201521,Million $,Salmon coastwide
+2,2008,40.32928895,Million $,Salmon coastwide
+2,2009,38.04009949,Million $,Salmon coastwide
+2,2010,72.72938024,Million $,Salmon coastwide
+2,2011,76.18529118,Million $,Salmon coastwide
+2,2012,66.08507043,Million $,Salmon coastwide
+2,2013,104.1442167,Million $,Salmon coastwide
+2,2014,94.1686748,Million $,Salmon coastwide
+2,2015,63.74914251,Million $,Salmon coastwide
+2,2016,53.45378566,Million $,Salmon coastwide
+2,2017,54.49402651,Million $,Salmon coastwide
+2,2018,57.28019393,Million $,Salmon coastwide
+2,2019,41.43282585,Million $,Salmon coastwide
+2,2020,35.91322394,Million $,Salmon coastwide
+2,2021,46.99073997,Million $,Salmon coastwide
+2,2022,55.3046638,Million $,Salmon coastwide
+2,2023,19.30535305,Million $,Salmon coastwide
+2,2024,21.298664,Million $,Salmon coastwide
+3,1981,165.6762494,Million $,Non-whiting groundfish coastwide
+3,1982,199.9479888,Million $,Non-whiting groundfish coastwide
+3,1983,169.28281,Million $,Non-whiting groundfish coastwide
+3,1984,150.4262728,Million $,Non-whiting groundfish coastwide
+3,1985,165.3711357,Million $,Non-whiting groundfish coastwide
+3,1986,160.9756478,Million $,Non-whiting groundfish coastwide
+3,1987,201.6412301,Million $,Non-whiting groundfish coastwide
+3,1988,183.4037673,Million $,Non-whiting groundfish coastwide
+3,1989,175.7318296,Million $,Non-whiting groundfish coastwide
+3,1990,154.3075661,Million $,Non-whiting groundfish coastwide
+3,1991,159.9941794,Million $,Non-whiting groundfish coastwide
+3,1992,148.2661888,Million $,Non-whiting groundfish coastwide
+3,1993,133.6559324,Million $,Non-whiting groundfish coastwide
+3,1994,133.9246541,Million $,Non-whiting groundfish coastwide
+3,1995,163.4837568,Million $,Non-whiting groundfish coastwide
+3,1996,155.345645,Million $,Non-whiting groundfish coastwide
+3,1997,141.58784,Million $,Non-whiting groundfish coastwide
+3,1998,93.55981006,Million $,Non-whiting groundfish coastwide
+3,1999,95.12458781,Million $,Non-whiting groundfish coastwide
+3,2000,98.72831328,Million $,Non-whiting groundfish coastwide
+3,2001,79.98663358,Million $,Non-whiting groundfish coastwide
+3,2002,66.93107718,Million $,Non-whiting groundfish coastwide
+3,2003,72.84772482,Million $,Non-whiting groundfish coastwide
+3,2004,65.93797684,Million $,Non-whiting groundfish coastwide
+3,2005,69.76727082,Million $,Non-whiting groundfish coastwide
+3,2006,69.93459534,Million $,Non-whiting groundfish coastwide
+3,2007,68.65835068,Million $,Non-whiting groundfish coastwide
+3,2008,79.94272667,Million $,Non-whiting groundfish coastwide
+3,2009,87.14722524,Million $,Non-whiting groundfish coastwide
+3,2010,82.17066754,Million $,Non-whiting groundfish coastwide
+3,2011,96.54630483,Million $,Non-whiting groundfish coastwide
+3,2012,73.06421655,Million $,Non-whiting groundfish coastwide
+3,2013,64.58247591,Million $,Non-whiting groundfish coastwide
+3,2014,68.08898094,Million $,Non-whiting groundfish coastwide
+3,2015,77.53937656,Million $,Non-whiting groundfish coastwide
+3,2016,80.08484842,Million $,Non-whiting groundfish coastwide
+3,2017,87.53800408,Million $,Non-whiting groundfish coastwide
+3,2018,74.07917321,Million $,Non-whiting groundfish coastwide
+3,2019,65.7266477,Million $,Non-whiting groundfish coastwide
+3,2020,42.59412375,Million $,Non-whiting groundfish coastwide
+3,2021,50.49581095,Million $,Non-whiting groundfish coastwide
+3,2022,60.82293581,Million $,Non-whiting groundfish coastwide
+3,2023,50.1557927,Million $,Non-whiting groundfish coastwide
+3,2024,42.50841882,Million $,Non-whiting groundfish coastwide
+4,1981,1.214586604,Million $,Pacific whiting coastwide
+4,1982,1.691959602,Million $,Pacific whiting coastwide
+4,1983,2.256982997,Million $,Pacific whiting coastwide
+4,1984,2.080779644,Million $,Pacific whiting coastwide
+4,1985,2.431459137,Million $,Pacific whiting coastwide
+4,1986,1.594225386,Million $,Pacific whiting coastwide
+4,1987,1.933999137,Million $,Pacific whiting coastwide
+4,1988,3.091224349,Million $,Pacific whiting coastwide
+4,1989,2.71764455,Million $,Pacific whiting coastwide
+4,1990,3.544110192,Million $,Pacific whiting coastwide
+4,1991,8.908162522,Million $,Pacific whiting coastwide
+4,1992,13.24395037,Million $,Pacific whiting coastwide
+4,1993,6.308353196,Million $,Pacific whiting coastwide
+4,1994,10.64541147,Million $,Pacific whiting coastwide
+4,1995,16.13811127,Million $,Pacific whiting coastwide
+4,1996,10.30097628,Million $,Pacific whiting coastwide
+4,1997,42.86932442,Million $,Pacific whiting coastwide
+4,1998,26.25357074,Million $,Pacific whiting coastwide
+4,1999,36.0133279,Million $,Pacific whiting coastwide
+4,2000,38.46961794,Million $,Pacific whiting coastwide
+4,2001,22.63181456,Million $,Pacific whiting coastwide
+4,2002,22.26847868,Million $,Pacific whiting coastwide
+4,2003,23.44378932,Million $,Pacific whiting coastwide
+4,2004,33.70877198,Million $,Pacific whiting coastwide
+4,2005,47.21211178,Million $,Pacific whiting coastwide
+4,2006,53.26416434,Million $,Pacific whiting coastwide
+4,2007,52.35914681,Million $,Pacific whiting coastwide
+4,2008,91.73312659,Million $,Pacific whiting coastwide
+4,2009,23.74903573,Million $,Pacific whiting coastwide
+4,2010,42.0757158,Million $,Pacific whiting coastwide
+4,2011,79.46185534,Million $,Pacific whiting coastwide
+4,2012,66.18397168,Million $,Pacific whiting coastwide
+4,2013,86.89036508,Million $,Pacific whiting coastwide
+4,2014,84.52957678,Million $,Pacific whiting coastwide
+4,2015,33.27086002,Million $,Pacific whiting coastwide
+4,2016,60.97936958,Million $,Pacific whiting coastwide
+4,2017,76.66161277,Million $,Pacific whiting coastwide
+4,2018,65.65800347,Million $,Pacific whiting coastwide
+4,2019,78.58868984,Million $,Pacific whiting coastwide
+4,2020,49.00106781,Million $,Pacific whiting coastwide
+4,2021,69.18699898,Million $,Pacific whiting coastwide
+4,2022,74.78908976,Million $,Pacific whiting coastwide
+4,2023,47.44815483,Million $,Pacific whiting coastwide
+4,2024,38.43629724,Million $,Pacific whiting coastwide
+5,1981,50.33777113,Million $,"Coastal pelagic spp, no squid coastwide"
+5,1982,43.86380271,Million $,"Coastal pelagic spp, no squid coastwide"
+5,1983,32.30144187,Million $,"Coastal pelagic spp, no squid coastwide"
+5,1984,30.46140658,Million $,"Coastal pelagic spp, no squid coastwide"
+5,1985,23.66660469,Million $,"Coastal pelagic spp, no squid coastwide"
+5,1986,25.09786262,Million $,"Coastal pelagic spp, no squid coastwide"
+5,1987,22.86097836,Million $,"Coastal pelagic spp, no squid coastwide"
+5,1988,25.58479297,Million $,"Coastal pelagic spp, no squid coastwide"
+5,1989,24.44086831,Million $,"Coastal pelagic spp, no squid coastwide"
+5,1990,16.00865511,Million $,"Coastal pelagic spp, no squid coastwide"
+5,1991,16.34648718,Million $,"Coastal pelagic spp, no squid coastwide"
+5,1992,14.16960569,Million $,"Coastal pelagic spp, no squid coastwide"
+5,1993,8.226003385,Million $,"Coastal pelagic spp, no squid coastwide"
+5,1994,8.191705158,Million $,"Coastal pelagic spp, no squid coastwide"
+5,1995,11.00233074,Million $,"Coastal pelagic spp, no squid coastwide"
+5,1996,10.90504548,Million $,"Coastal pelagic spp, no squid coastwide"
+5,1997,16.05130039,Million $,"Coastal pelagic spp, no squid coastwide"
+5,1998,12.94267959,Million $,"Coastal pelagic spp, no squid coastwide"
+5,1999,13.34101431,Million $,"Coastal pelagic spp, no squid coastwide"
+5,2000,21.33166179,Million $,"Coastal pelagic spp, no squid coastwide"
+5,2001,21.22695334,Million $,"Coastal pelagic spp, no squid coastwide"
+5,2002,20.39343814,Million $,"Coastal pelagic spp, no squid coastwide"
+5,2003,13.71476236,Million $,"Coastal pelagic spp, no squid coastwide"
+5,2004,19.00724454,Million $,"Coastal pelagic spp, no squid coastwide"
+5,2005,18.74318753,Million $,"Coastal pelagic spp, no squid coastwide"
+5,2006,18.1936282,Million $,"Coastal pelagic spp, no squid coastwide"
+5,2007,23.45156095,Million $,"Coastal pelagic spp, no squid coastwide"
+5,2008,24.82256908,Million $,"Coastal pelagic spp, no squid coastwide"
+5,2009,20.53010384,Million $,"Coastal pelagic spp, no squid coastwide"
+5,2010,18.90207669,Million $,"Coastal pelagic spp, no squid coastwide"
+5,2011,15.40154838,Million $,"Coastal pelagic spp, no squid coastwide"
+5,2012,31.26957058,Million $,"Coastal pelagic spp, no squid coastwide"
+5,2013,24.2217883,Million $,"Coastal pelagic spp, no squid coastwide"
+5,2014,16.62461162,Million $,"Coastal pelagic spp, no squid coastwide"
+5,2015,6.357877088,Million $,"Coastal pelagic spp, no squid coastwide"
+5,2016,3.93234425,Million $,"Coastal pelagic spp, no squid coastwide"
+5,2017,2.072405067,Million $,"Coastal pelagic spp, no squid coastwide"
+5,2018,3.891328882,Million $,"Coastal pelagic spp, no squid coastwide"
+5,2019,5.658253973,Million $,"Coastal pelagic spp, no squid coastwide"
+5,2020,4.204489269,Million $,"Coastal pelagic spp, no squid coastwide"
+5,2021,14.04130998,Million $,"Coastal pelagic spp, no squid coastwide"
+5,2022,3.206453834,Million $,"Coastal pelagic spp, no squid coastwide"
+5,2023,2.274349257,Million $,"Coastal pelagic spp, no squid coastwide"
+5,2024,2.309036348,Million $,"Coastal pelagic spp, no squid coastwide"
+6,1981,155.26787,Million $,Highly migratory species coastwide
+6,1982,79.62852023,Million $,Highly migratory species coastwide
+6,1983,186.0175179,Million $,Highly migratory species coastwide
+6,1984,167.5054042,Million $,Highly migratory species coastwide
+6,1985,76.72079765,Million $,Highly migratory species coastwide
+6,1986,71.27878171,Million $,Highly migratory species coastwide
+6,1987,83.0229837,Million $,Highly migratory species coastwide
+6,1988,84.05197603,Million $,Highly migratory species coastwide
+6,1989,45.4101626,Million $,Highly migratory species coastwide
+6,1990,44.89691407,Million $,Highly migratory species coastwide
+6,1991,38.99083199,Million $,Highly migratory species coastwide
+6,1992,56.44652645,Million $,Highly migratory species coastwide
+6,1993,63.77687384,Million $,Highly migratory species coastwide
+6,1994,63.54961165,Million $,Highly migratory species coastwide
+6,1995,44.99527514,Million $,Highly migratory species coastwide
+6,1996,82.26450238,Million $,Highly migratory species coastwide
+6,1997,68.42028429,Million $,Highly migratory species coastwide
+6,1998,49.01356773,Million $,Highly migratory species coastwide
+6,1999,43.9676219,Million $,Highly migratory species coastwide
+6,2000,41.56418139,Million $,Highly migratory species coastwide
+6,2001,42.68115202,Million $,Highly migratory species coastwide
+6,2002,29.96188882,Million $,Highly migratory species coastwide
+6,2003,47.71658274,Million $,Highly migratory species coastwide
+6,2004,49.11610261,Million $,Highly migratory species coastwide
+6,2005,37.16064404,Million $,Highly migratory species coastwide
+6,2006,41.81018011,Million $,Highly migratory species coastwide
+6,2007,38.59897612,Million $,Highly migratory species coastwide
+6,2008,45.39752148,Million $,Highly migratory species coastwide
+6,2009,44.04317938,Million $,Highly migratory species coastwide
+6,2010,43.94400123,Million $,Highly migratory species coastwide
+6,2011,65.26145078,Million $,Highly migratory species coastwide
+6,2012,63.94261428,Million $,Highly migratory species coastwide
+6,2013,57.3212702,Million $,Highly migratory species coastwide
+6,2014,49.43490318,Million $,Highly migratory species coastwide
+6,2015,41.93318106,Million $,Highly migratory species coastwide
+6,2016,53.67147565,Million $,Highly migratory species coastwide
+6,2017,50.00404884,Million $,Highly migratory species coastwide
+6,2018,36.38216898,Million $,Highly migratory species coastwide
+6,2019,36.75073915,Million $,Highly migratory species coastwide
+6,2020,32.38013875,Million $,Highly migratory species coastwide
+6,2021,21.31106675,Million $,Highly migratory species coastwide
+6,2022,42.71436962,Million $,Highly migratory species coastwide
+6,2023,11.89310248,Million $,Highly migratory species coastwide
+6,2024,18.07803325,Million $,Highly migratory species coastwide
+7,1981,18.00123612,Million $,Market squid coastwide
+7,1982,11.72371787,Million $,Market squid coastwide
+7,1983,2.642434735,Million $,Market squid coastwide
+7,1984,1.521515753,Million $,Market squid coastwide
+7,1985,12.52068925,Million $,Market squid coastwide
+7,1986,12.71543349,Million $,Market squid coastwide
+7,1987,10.96918563,Million $,Market squid coastwide
+7,1988,20.15003506,Million $,Market squid coastwide
+7,1989,19.1373009,Million $,Market squid coastwide
+7,1990,11.45036864,Million $,Market squid coastwide
+7,1991,13.91387914,Million $,Market squid coastwide
+7,1992,5.462928992,Million $,Market squid coastwide
+7,1993,22.26827748,Million $,Market squid coastwide
+7,1994,30.32943225,Million $,Market squid coastwide
+7,1995,45.8773662,Million $,Market squid coastwide
+7,1996,43.73732706,Million $,Market squid coastwide
+7,1997,40.12841911,Million $,Market squid coastwide
+7,1998,3.10586128,Million $,Market squid coastwide
+7,1999,61.65975636,Million $,Market squid coastwide
+7,2000,49.52172947,Million $,Market squid coastwide
+7,2001,29.87617493,Million $,Market squid coastwide
+7,2002,31.78504571,Million $,Market squid coastwide
+7,2003,43.08585264,Million $,Market squid coastwide
+7,2004,33.64589548,Million $,Market squid coastwide
+7,2005,50.89694924,Million $,Market squid coastwide
+7,2006,41.9370517,Million $,Market squid coastwide
+7,2007,44.33351369,Million $,Market squid coastwide
+7,2008,38.65698548,Million $,Market squid coastwide
+7,2009,83.07492022,Million $,Market squid coastwide
+7,2010,101.2829336,Million $,Market squid coastwide
+7,2011,93.15795499,Million $,Market squid coastwide
+7,2012,86.95784123,Million $,Market squid coastwide
+7,2013,98.74709389,Million $,Market squid coastwide
+7,2014,96.10523112,Million $,Market squid coastwide
+7,2015,32.2696462,Million $,Market squid coastwide
+7,2016,52.41440932,Million $,Market squid coastwide
+7,2017,87.25576359,Million $,Market squid coastwide
+7,2018,48.32939558,Million $,Market squid coastwide
+7,2019,20.04401431,Million $,Market squid coastwide
+7,2020,38.39151899,Million $,Market squid coastwide
+7,2021,75.52166012,Million $,Market squid coastwide
+7,2022,96.24858513,Million $,Market squid coastwide
+7,2023,31.4301516,Million $,Market squid coastwide
+7,2024,74.4133279,Million $,Market squid coastwide
+8,1981,83.36739415,Million $,Shrimp coastwide
+8,1982,58.65322603,Million $,Shrimp coastwide
+8,1983,41.16088409,Million $,Shrimp coastwide
+8,1984,30.62879456,Million $,Shrimp coastwide
+8,1985,39.38350492,Million $,Shrimp coastwide
+8,1986,95.13357852,Million $,Shrimp coastwide
+8,1987,135.4985488,Million $,Shrimp coastwide
+8,1988,84.11252756,Million $,Shrimp coastwide
+8,1989,78.03683974,Million $,Shrimp coastwide
+8,1990,71.05040467,Million $,Shrimp coastwide
+8,1991,61.26139311,Million $,Shrimp coastwide
+8,1992,67.29314399,Million $,Shrimp coastwide
+8,1993,43.92328116,Million $,Shrimp coastwide
+8,1994,50.76636979,Million $,Shrimp coastwide
+8,1995,48.61022491,Million $,Shrimp coastwide
+8,1996,50.56102357,Million $,Shrimp coastwide
+8,1997,46.70807664,Million $,Shrimp coastwide
+8,1998,28.69733087,Million $,Shrimp coastwide
+8,1999,39.69919521,Million $,Shrimp coastwide
+8,2000,39.77367705,Million $,Shrimp coastwide
+8,2001,31.44894637,Million $,Shrimp coastwide
+8,2002,39.0242652,Million $,Shrimp coastwide
+8,2003,21.29288093,Million $,Shrimp coastwide
+8,2004,20.47375761,Million $,Shrimp coastwide
+8,2005,25.40334659,Million $,Shrimp coastwide
+8,2006,19.42561564,Million $,Shrimp coastwide
+8,2007,26.50531602,Million $,Shrimp coastwide
+8,2008,36.70880452,Million $,Shrimp coastwide
+8,2009,24.30943304,Million $,Shrimp coastwide
+8,2010,31.13896901,Million $,Shrimp coastwide
+8,2011,56.81892052,Million $,Shrimp coastwide
+8,2012,54.70420904,Million $,Shrimp coastwide
+8,2013,56.90733619,Million $,Shrimp coastwide
+8,2014,80.4827198,Million $,Shrimp coastwide
+8,2015,115.6414235,Million $,Shrimp coastwide
+8,2016,62.79030433,Million $,Shrimp coastwide
+8,2017,37.81282885,Million $,Shrimp coastwide
+8,2018,61.26152673,Million $,Shrimp coastwide
+8,2019,50.30382981,Million $,Shrimp coastwide
+8,2020,50.64051543,Million $,Shrimp coastwide
+8,2021,53.97639634,Million $,Shrimp coastwide
+8,2022,47.61573498,Million $,Shrimp coastwide
+8,2023,38.56284204,Million $,Shrimp coastwide
+8,2024,48.22022456,Million $,Shrimp coastwide
+9,1981,35.79582754,Million $,Crab coastwide
+9,1982,79.06858453,Million $,Crab coastwide
+9,1983,62.69888912,Million $,Crab coastwide
+9,1984,84.04822374,Million $,Crab coastwide
+9,1985,70.16897396,Million $,Crab coastwide
+9,1986,76.49428741,Million $,Crab coastwide
+9,1987,76.50713655,Million $,Crab coastwide
+9,1988,118.9288706,Million $,Crab coastwide
+9,1989,132.3554868,Million $,Crab coastwide
+9,1990,84.12034657,Million $,Crab coastwide
+9,1991,108.1771194,Million $,Crab coastwide
+9,1992,80.62314001,Million $,Crab coastwide
+9,1993,89.28308734,Million $,Crab coastwide
+9,1994,106.4248422,Million $,Crab coastwide
+9,1995,180.088888,Million $,Crab coastwide
+9,1996,148.5162519,Million $,Crab coastwide
+9,1997,105.6815099,Million $,Crab coastwide
+9,1998,120.9059749,Million $,Crab coastwide
+9,1999,122.9373921,Million $,Crab coastwide
+9,2000,182.5550243,Million $,Crab coastwide
+9,2001,111.2884357,Million $,Crab coastwide
+9,2002,119.7653955,Million $,Crab coastwide
+9,2003,166.0913484,Million $,Crab coastwide
+9,2004,202.4130739,Million $,Crab coastwide
+9,2005,228.8708513,Million $,Crab coastwide
+9,2006,198.9256084,Million $,Crab coastwide
+9,2007,173.2626766,Million $,Crab coastwide
+9,2008,163.9564343,Million $,Crab coastwide
+9,2009,123.2251383,Million $,Crab coastwide
+9,2010,200.6525542,Million $,Crab coastwide
+9,2011,272.255622,Million $,Crab coastwide
+9,2012,274.9559843,Million $,Crab coastwide
+9,2013,270.8502281,Million $,Crab coastwide
+9,2014,251.2194573,Million $,Crab coastwide
+9,2015,231.7149923,Million $,Crab coastwide
+9,2016,241.7195754,Million $,Crab coastwide
+9,2017,301.6600437,Million $,Crab coastwide
+9,2018,297.2797246,Million $,Crab coastwide
+9,2019,251.079618,Million $,Crab coastwide
+9,2020,232.9727835,Million $,Crab coastwide
+9,2021,221.3082366,Million $,Crab coastwide
+9,2022,301.3899361,Million $,Crab coastwide
+9,2023,252.5779004,Million $,Crab coastwide
+9,2024,243.3871627,Million $,Crab coastwide
+10,1981,71.16398446,Million $,Other species coastwide
+10,1982,73.46203242,Million $,Other species coastwide
+10,1983,81.47493416,Million $,Other species coastwide
+10,1984,45.52464819,Million $,Other species coastwide
+10,1985,65.69467357,Million $,Other species coastwide
+10,1986,79.62951454,Million $,Other species coastwide
+10,1987,93.52382611,Million $,Other species coastwide
+10,1988,115.2698785,Million $,Other species coastwide
+10,1989,120.3560277,Million $,Other species coastwide
+10,1990,137.1193289,Million $,Other species coastwide
+10,1991,153.2180684,Million $,Other species coastwide
+10,1992,136.5322091,Million $,Other species coastwide
+10,1993,107.1014992,Million $,Other species coastwide
+10,1994,96.8991605,Million $,Other species coastwide
+10,1995,101.2548487,Million $,Other species coastwide
+10,1996,99.74298953,Million $,Other species coastwide
+10,1997,92.88455618,Million $,Other species coastwide
+10,1998,44.15970665,Million $,Other species coastwide
+10,1999,52.93801453,Million $,Other species coastwide
+10,2000,58.77746424,Million $,Other species coastwide
+10,2001,51.50792032,Million $,Other species coastwide
+10,2002,48.91119651,Million $,Other species coastwide
+10,2003,42.16318874,Million $,Other species coastwide
+10,2004,42.68097392,Million $,Other species coastwide
+10,2005,39.31130125,Million $,Other species coastwide
+10,2006,41.57977615,Million $,Other species coastwide
+10,2007,37.75450618,Million $,Other species coastwide
+10,2008,46.05988238,Million $,Other species coastwide
+10,2009,44.78824868,Million $,Other species coastwide
+10,2010,46.96130043,Million $,Other species coastwide
+10,2011,59.0048546,Million $,Other species coastwide
+10,2012,58.98111749,Million $,Other species coastwide
+10,2013,58.86229649,Million $,Other species coastwide
+10,2014,60.85283724,Million $,Other species coastwide
+10,2015,56.31983564,Million $,Other species coastwide
+10,2016,51.95899161,Million $,Other species coastwide
+10,2017,51.51283393,Million $,Other species coastwide
+10,2018,49.62602931,Million $,Other species coastwide
+10,2019,44.25458919,Million $,Other species coastwide
+10,2020,41.44094686,Million $,Other species coastwide
+10,2021,47.98555652,Million $,Other species coastwide
+10,2022,56.32225827,Million $,Other species coastwide
+10,2023,51.70779627,Million $,Other species coastwide
+10,2024,47.6654199,Million $,Other species coastwide
+11,1981,432.4686085,Million $,Commercial fisheries CA
+11,1982,423.1446788,Million $,Commercial fisheries CA
+11,1983,413.9340386,Million $,Commercial fisheries CA
+11,1984,383.6948645,Million $,Commercial fisheries CA
+11,1985,324.8778778,Million $,Commercial fisheries CA
+11,1986,338.2723849,Million $,Commercial fisheries CA
+11,1987,409.7582829,Million $,Commercial fisheries CA
+11,1988,448.1397487,Million $,Commercial fisheries CA
+11,1989,348.2885963,Million $,Commercial fisheries CA
+11,1990,318.5833452,Million $,Commercial fisheries CA
+11,1991,340.8120028,Million $,Commercial fisheries CA
+11,1992,295.0673531,Million $,Commercial fisheries CA
+11,1993,267.640526,Million $,Commercial fisheries CA
+11,1994,267.2407202,Million $,Commercial fisheries CA
+11,1995,331.4108142,Million $,Commercial fisheries CA
+11,1996,342.7946803,Million $,Commercial fisheries CA
+11,1997,304.2782685,Million $,Commercial fisheries CA
+11,1998,182.2101265,Million $,Commercial fisheries CA
+11,1999,251.9672588,Million $,Commercial fisheries CA
+11,2000,239.7234221,Million $,Commercial fisheries CA
+11,2001,177.245401,Million $,Commercial fisheries CA
+11,2002,164.6425865,Million $,Commercial fisheries CA
+11,2003,188.3835472,Million $,Commercial fisheries CA
+11,2004,206.164886,Million $,Commercial fisheries CA
+11,2005,213.8834675,Million $,Commercial fisheries CA
+11,2006,197.1264855,Million $,Commercial fisheries CA
+11,2007,191.3299597,Million $,Commercial fisheries CA
+11,2008,168.1654048,Million $,Commercial fisheries CA
+11,2009,199.1751296,Million $,Commercial fisheries CA
+11,2010,244.4373521,Million $,Commercial fisheries CA
+11,2011,291.0479789,Million $,Commercial fisheries CA
+11,2012,330.7253137,Million $,Commercial fisheries CA
+11,2013,318.8143525,Million $,Commercial fisheries CA
+11,2014,306.0200188,Million $,Commercial fisheries CA
+11,2015,225.3108601,Million $,Commercial fisheries CA
+11,2016,198.2126412,Million $,Commercial fisheries CA
+11,2017,274.8848577,Million $,Commercial fisheries CA
+11,2018,230.1315581,Million $,Commercial fisheries CA
+11,2019,174.679143,Million $,Commercial fisheries CA
+11,2020,176.7514941,Million $,Commercial fisheries CA
+11,2021,198.6582227,Million $,Commercial fisheries CA
+11,2022,253.4353941,Million $,Commercial fisheries CA
+11,2023,164.8587896,Million $,Commercial fisheries CA
+11,2024,194.560066,Million $,Commercial fisheries CA
+12,1981,53.80829901,Million $,Salmon CA
+12,1982,65.61950391,Million $,Salmon CA
+12,1983,14.89345632,Million $,Salmon CA
+12,1984,24.32084945,Million $,Salmon CA
+12,1985,34.35040946,Million $,Salmon CA
+12,1986,42.55164702,Million $,Salmon CA
+12,1987,71.10709866,Million $,Salmon CA
+12,1988,111.8133129,Million $,Salmon CA
+12,1989,35.00092847,Million $,Salmon CA
+12,1990,29.20677771,Million $,Salmon CA
+12,1991,20.74025862,Million $,Salmon CA
+12,1992,10.02328047,Million $,Salmon CA
+12,1993,12.37295024,Million $,Salmon CA
+12,1994,13.58233686,Million $,Salmon CA
+12,1995,24.01482229,Million $,Salmon CA
+12,1996,11.96871797,Million $,Salmon CA
+12,1997,14.2084176,Million $,Salmon CA
+12,1998,5.836312363,Million $,Salmon CA
+12,1999,13.98230375,Million $,Salmon CA
+12,2000,19.19726228,Million $,Salmon CA
+12,2001,8.429440799,Million $,Salmon CA
+12,2002,13.55582254,Million $,Salmon CA
+12,2003,21.19635616,Million $,Salmon CA
+12,2004,30.08639983,Million $,Salmon CA
+12,2005,20.77386387,Million $,Salmon CA
+12,2006,8.18586406,Million $,Salmon CA
+12,2007,11.95195548,Million $,Salmon CA
+12,2008,0.00792578,Million $,Salmon CA
+12,2009,1.96172e-4,Million $,Salmon CA
+12,2010,1.728881015,Million $,Salmon CA
+12,2011,7.135300558,Million $,Salmon CA
+12,2012,17.54791886,Million $,Salmon CA
+12,2013,30.73812901,Million $,Salmon CA
+12,2014,15.99849578,Million $,Salmon CA
+12,2015,10.71712136,Million $,Salmon CA
+12,2016,6.796527222,Million $,Salmon CA
+12,2017,6.093916659,Million $,Salmon CA
+12,2018,9.540069183,Million $,Salmon CA
+12,2019,20.32390795,Million $,Salmon CA
+12,2020,16.57440055,Million $,Salmon CA
+12,2021,20.66250425,Million $,Salmon CA
+12,2022,17.89601825,Million $,Salmon CA
+12,2023,0,Million $,Salmon CA
+12,2024,0,Million $,Salmon CA
+13,1981,75.30892997,Million $,Non-whiting groundfish CA
+13,1982,91.22442349,Million $,Non-whiting groundfish CA
+13,1983,70.89353672,Million $,Non-whiting groundfish CA
+13,1984,68.35140629,Million $,Non-whiting groundfish CA
+13,1985,75.99299764,Million $,Non-whiting groundfish CA
+13,1986,80.23649075,Million $,Non-whiting groundfish CA
+13,1987,83.8121973,Million $,Non-whiting groundfish CA
+13,1988,73.22258356,Million $,Non-whiting groundfish CA
+13,1989,73.30287382,Million $,Non-whiting groundfish CA
+13,1990,68.2327744,Million $,Non-whiting groundfish CA
+13,1991,60.32786392,Million $,Non-whiting groundfish CA
+13,1992,62.53525652,Million $,Non-whiting groundfish CA
+13,1993,50.55943284,Million $,Non-whiting groundfish CA
+13,1994,51.13334847,Million $,Non-whiting groundfish CA
+13,1995,69.61745919,Million $,Non-whiting groundfish CA
+13,1996,67.61692327,Million $,Non-whiting groundfish CA
+13,1997,61.28714481,Million $,Non-whiting groundfish CA
+13,1998,41.81657181,Million $,Non-whiting groundfish CA
+13,1999,36.19791903,Million $,Non-whiting groundfish CA
+13,2000,35.79494592,Million $,Non-whiting groundfish CA
+13,2001,28.57632005,Million $,Non-whiting groundfish CA
+13,2002,27.50945957,Million $,Non-whiting groundfish CA
+13,2003,25.12996007,Million $,Non-whiting groundfish CA
+13,2004,21.85096071,Million $,Non-whiting groundfish CA
+13,2005,21.7107431,Million $,Non-whiting groundfish CA
+13,2006,21.84770512,Million $,Non-whiting groundfish CA
+13,2007,23.82950573,Million $,Non-whiting groundfish CA
+13,2008,26.32959686,Million $,Non-whiting groundfish CA
+13,2009,28.81344257,Million $,Non-whiting groundfish CA
+13,2010,28.6806431,Million $,Non-whiting groundfish CA
+13,2011,34.50850816,Million $,Non-whiting groundfish CA
+13,2012,24.51807152,Million $,Non-whiting groundfish CA
+13,2013,23.60765245,Million $,Non-whiting groundfish CA
+13,2014,26.73339475,Million $,Non-whiting groundfish CA
+13,2015,26.45173695,Million $,Non-whiting groundfish CA
+13,2016,24.49954871,Million $,Non-whiting groundfish CA
+13,2017,26.31221707,Million $,Non-whiting groundfish CA
+13,2018,22.14383571,Million $,Non-whiting groundfish CA
+13,2019,21.11261402,Million $,Non-whiting groundfish CA
+13,2020,16.08887905,Million $,Non-whiting groundfish CA
+13,2021,17.11329244,Million $,Non-whiting groundfish CA
+13,2022,19.87862974,Million $,Non-whiting groundfish CA
+13,2023,17.45588151,Million $,Non-whiting groundfish CA
+13,2024,15.59224427,Million $,Non-whiting groundfish CA
+14,1981,0.40436766,Million $,Pacific whiting CA
+14,1982,0.59286036,Million $,Pacific whiting CA
+14,1983,0.510884028,Million $,Pacific whiting CA
+14,1984,1.031219173,Million $,Pacific whiting CA
+14,1985,1.155071943,Million $,Pacific whiting CA
+14,1986,1.0841892,Million $,Pacific whiting CA
+14,1987,1.69337847,Million $,Pacific whiting CA
+14,1988,2.833941335,Million $,Pacific whiting CA
+14,1989,2.643571622,Million $,Pacific whiting CA
+14,1990,1.871731882,Million $,Pacific whiting CA
+14,1991,2.019136375,Million $,Pacific whiting CA
+14,1992,1.334175774,Million $,Pacific whiting CA
+14,1993,0.742639366,Million $,Pacific whiting CA
+14,1994,0.746632565,Million $,Pacific whiting CA
+14,1995,0.936681689,Million $,Pacific whiting CA
+14,1996,0.478185673,Million $,Pacific whiting CA
+14,1997,1.130259464,Million $,Pacific whiting CA
+14,1998,0.7516306,Million $,Pacific whiting CA
+14,1999,0.216974264,Million $,Pacific whiting CA
+14,2000,1.377681588,Million $,Pacific whiting CA
+14,2001,0.302050964,Million $,Pacific whiting CA
+14,2002,0.463616923,Million $,Pacific whiting CA
+14,2003,0.288693359,Million $,Pacific whiting CA
+14,2004,1.0621885,Million $,Pacific whiting CA
+14,2005,0.695886209,Million $,Pacific whiting CA
+14,2006,0.982461158,Million $,Pacific whiting CA
+14,2007,0.588711754,Million $,Pacific whiting CA
+14,2008,1.74884284,Million $,Pacific whiting CA
+14,2009,0.293817932,Million $,Pacific whiting CA
+14,2010,2.001310599,Million $,Pacific whiting CA
+14,2011,3.27781e-4,Million $,Pacific whiting CA
+14,2012,0.033851965,Million $,Pacific whiting CA
+14,2013,2.14826e-4,Million $,Pacific whiting CA
+14,2014,2.486014849,Million $,Pacific whiting CA
+14,2015,0.031194033,Million $,Pacific whiting CA
+14,2016,0.013090607,Million $,Pacific whiting CA
+14,2017,6.01494e-4,Million $,Pacific whiting CA
+14,2018,0.581217041,Million $,Pacific whiting CA
+14,2019,0.006998911,Million $,Pacific whiting CA
+14,2020,0.845105305,Million $,Pacific whiting CA
+14,2021,0.936319956,Million $,Pacific whiting CA
+14,2022,1.713380222,Million $,Pacific whiting CA
+14,2023,0.562833136,Million $,Pacific whiting CA
+14,2024,0.05019985,Million $,Pacific whiting CA
+15,1981,50.33671933,Million $,"Coastal pelagic spp, no squid CA"
+15,1982,43.83233823,Million $,"Coastal pelagic spp, no squid CA"
+15,1983,32.25976061,Million $,"Coastal pelagic spp, no squid CA"
+15,1984,30.42841561,Million $,"Coastal pelagic spp, no squid CA"
+15,1985,23.63128425,Million $,"Coastal pelagic spp, no squid CA"
+15,1986,25.04207643,Million $,"Coastal pelagic spp, no squid CA"
+15,1987,22.69663236,Million $,"Coastal pelagic spp, no squid CA"
+15,1988,25.49692837,Million $,"Coastal pelagic spp, no squid CA"
+15,1989,24.30008492,Million $,"Coastal pelagic spp, no squid CA"
+15,1990,15.89855598,Million $,"Coastal pelagic spp, no squid CA"
+15,1991,16.25502267,Million $,"Coastal pelagic spp, no squid CA"
+15,1992,14.08766587,Million $,"Coastal pelagic spp, no squid CA"
+15,1993,8.154062401,Million $,"Coastal pelagic spp, no squid CA"
+15,1994,8.046970883,Million $,"Coastal pelagic spp, no squid CA"
+15,1995,10.82188701,Million $,"Coastal pelagic spp, no squid CA"
+15,1996,10.74495712,Million $,"Coastal pelagic spp, no squid CA"
+15,1997,15.93214171,Million $,"Coastal pelagic spp, no squid CA"
+15,1998,12.70351821,Million $,"Coastal pelagic spp, no squid CA"
+15,1999,13.0175503,Million $,"Coastal pelagic spp, no squid CA"
+15,2000,18.24299799,Million $,"Coastal pelagic spp, no squid CA"
+15,2001,16.36881243,Million $,"Coastal pelagic spp, no squid CA"
+15,2002,12.32650164,Million $,"Coastal pelagic spp, no squid CA"
+15,2003,6.509829503,Million $,"Coastal pelagic spp, no squid CA"
+15,2004,9.173191325,Million $,"Coastal pelagic spp, no squid CA"
+15,2005,7.81593012,Million $,"Coastal pelagic spp, no squid CA"
+15,2006,11.55441357,Million $,"Coastal pelagic spp, no squid CA"
+15,2007,15.62995684,Million $,"Coastal pelagic spp, no squid CA"
+15,2008,14.43998684,Million $,"Coastal pelagic spp, no squid CA"
+15,2009,10.149855670000001,Million $,"Coastal pelagic spp, no squid CA"
+15,2010,7.461772985,Million $,"Coastal pelagic spp, no squid CA"
+15,2011,7.812034661,Million $,"Coastal pelagic spp, no squid CA"
+15,2012,7.661942884,Million $,"Coastal pelagic spp, no squid CA"
+15,2013,5.714189718,Million $,"Coastal pelagic spp, no squid CA"
+15,2014,6.599530151,Million $,"Coastal pelagic spp, no squid CA"
+15,2015,4.985752802,Million $,"Coastal pelagic spp, no squid CA"
+15,2016,2.236283102,Million $,"Coastal pelagic spp, no squid CA"
+15,2017,1.965429216,Million $,"Coastal pelagic spp, no squid CA"
+15,2018,3.832552028,Million $,"Coastal pelagic spp, no squid CA"
+15,2019,5.542251386,Million $,"Coastal pelagic spp, no squid CA"
+15,2020,4.129149931,Million $,"Coastal pelagic spp, no squid CA"
+15,2021,13.86369682,Million $,"Coastal pelagic spp, no squid CA"
+15,2022,2.888936816,Million $,"Coastal pelagic spp, no squid CA"
+15,2023,2.180662068,Million $,"Coastal pelagic spp, no squid CA"
+15,2024,2.239672378,Million $,"Coastal pelagic spp, no squid CA"
+16,1981,125.6500438,Million $,Highly migratory species CA
+16,1982,74.29884582,Million $,Highly migratory species CA
+16,1983,178.2273247,Million $,Highly migratory species CA
+16,1984,164.4981632,Million $,Highly migratory species CA
+16,1985,73.72833842,Million $,Highly migratory species CA
+16,1986,62.56791994,Million $,Highly migratory species CA
+16,1987,75.00899635,Million $,Highly migratory species CA
+16,1988,65.42228416,Million $,Highly migratory species CA
+16,1989,42.39572573,Million $,Highly migratory species CA
+16,1990,38.41846187,Million $,Highly migratory species CA
+16,1991,35.6446803,Million $,Highly migratory species CA
+16,1992,38.0330169,Million $,Highly migratory species CA
+16,1993,46.78786569,Million $,Highly migratory species CA
+16,1994,38.01368685,Million $,Highly migratory species CA
+16,1995,26.09408298,Million $,Highly migratory species CA
+16,1996,49.26310077,Million $,Highly migratory species CA
+16,1997,41.36620471,Million $,Highly migratory species CA
+16,1998,18.86457624,Million $,Highly migratory species CA
+16,1999,29.58002535,Million $,Highly migratory species CA
+16,2000,16.9655479,Million $,Highly migratory species CA
+16,2001,15.35619895,Million $,Highly migratory species CA
+16,2002,11.96020278,Million $,Highly migratory species CA
+16,2003,10.69276122,Million $,Highly migratory species CA
+16,2004,7.811043685,Million $,Highly migratory species CA
+16,2005,5.686923965,Million $,Highly migratory species CA
+16,2006,5.583517437,Million $,Highly migratory species CA
+16,2007,8.23932522,Million $,Highly migratory species CA
+16,2008,4.573904771,Million $,Highly migratory species CA
+16,2009,5.216416061,Million $,Highly migratory species CA
+16,2010,5.514961182,Million $,Highly migratory species CA
+16,2011,7.813466516,Million $,Highly migratory species CA
+16,2012,4.572111135,Million $,Highly migratory species CA
+16,2013,3.404220391,Million $,Highly migratory species CA
+16,2014,6.978654895,Million $,Highly migratory species CA
+16,2015,3.423963439,Million $,Highly migratory species CA
+16,2016,5.275530746,Million $,Highly migratory species CA
+16,2017,6.696892742,Million $,Highly migratory species CA
+16,2018,6.037420783,Million $,Highly migratory species CA
+16,2019,5.31308456,Million $,Highly migratory species CA
+16,2020,6.223744688,Million $,Highly migratory species CA
+16,2021,4.084163745,Million $,Highly migratory species CA
+16,2022,5.39430263,Million $,Highly migratory species CA
+16,2023,4.127884067,Million $,Highly migratory species CA
+16,2024,2.861944296,Million $,Highly migratory species CA
+17,1981,18.00107659,Million $,Market squid CA
+17,1982,11.69387658,Million $,Market squid CA
+17,1983,2.39044092,Million $,Market squid CA
+17,1984,0.916269843,Million $,Market squid CA
+17,1985,11.58899001,Million $,Market squid CA
+17,1986,12.70788374,Million $,Market squid CA
+17,1987,10.9691755,Million $,Market squid CA
+17,1988,20.15003239,Million $,Market squid CA
+17,1989,19.11773088,Million $,Market squid CA
+17,1990,11.45036864,Million $,Market squid CA
+17,1991,13.91381384,Million $,Market squid CA
+17,1992,5.45934135,Million $,Market squid CA
+17,1993,22.20071231,Million $,Market squid CA
+17,1994,30.25418421,Million $,Market squid CA
+17,1995,45.79225351,Million $,Market squid CA
+17,1996,43.66362706,Million $,Market squid CA
+17,1997,40.03254899,Million $,Market squid CA
+17,1998,3.098939265,Million $,Market squid CA
+17,1999,61.65975542,Million $,Market squid CA
+17,2000,49.52162276,Million $,Market squid CA
+17,2001,29.875716100000002,Million $,Market squid CA
+17,2002,31.78402346,Million $,Market squid CA
+17,2003,43.07718828,Million $,Market squid CA
+17,2004,33.63667062,Million $,Market squid CA
+17,2005,50.88851613,Million $,Market squid CA
+17,2006,41.91273309,Million $,Market squid CA
+17,2007,44.33306396,Million $,Market squid CA
+17,2008,38.65698526,Million $,Market squid CA
+17,2009,83.07492022,Million $,Market squid CA
+17,2010,101.2829336,Million $,Market squid CA
+17,2011,93.15795331,Million $,Market squid CA
+17,2012,86.95784123,Million $,Market squid CA
+17,2013,98.74709389,Million $,Market squid CA
+17,2014,96.10469212,Million $,Market squid CA
+17,2015,32.2696462,Million $,Market squid CA
+17,2016,50.92924011,Million $,Market squid CA
+17,2017,87.25576359,Million $,Market squid CA
+17,2018,44.50515106,Million $,Market squid CA
+17,2019,16.50808944,Million $,Market squid CA
+17,2020,31.21842344,Million $,Market squid CA
+17,2021,70.16319098,Million $,Market squid CA
+17,2022,92.54436264,Million $,Market squid CA
+17,2023,31.4301516,Million $,Market squid CA
+17,2024,74.1686399,Million $,Market squid CA
+18,1981,18.40828959,Million $,Shrimp CA
+18,1982,18.84271041,Million $,Shrimp CA
+18,1983,12.45311919,Million $,Shrimp CA
+18,1984,18.40499387,Million $,Shrimp CA
+18,1985,13.42563478,Million $,Shrimp CA
+18,1986,16.55421414,Million $,Shrimp CA
+18,1987,18.96035236,Million $,Shrimp CA
+18,1988,16.2159566,Million $,Shrimp CA
+18,1989,16.17028803,Million $,Shrimp CA
+18,1990,15.61137089,Million $,Shrimp CA
+18,1991,19.10990867,Million $,Shrimp CA
+18,1992,18.48441923,Million $,Shrimp CA
+18,1993,11.64843018,Million $,Shrimp CA
+18,1994,21.38471359,Million $,Shrimp CA
+18,1995,16.76637872,Million $,Shrimp CA
+18,1996,22.14717662,Million $,Shrimp CA
+18,1997,24.14119461,Million $,Shrimp CA
+18,1998,16.31815725,Million $,Shrimp CA
+18,1999,15.88836453,Million $,Shrimp CA
+18,2000,13.43075074,Million $,Shrimp CA
+18,2001,10.47441991,Million $,Shrimp CA
+18,2002,10.27238526,Million $,Shrimp CA
+18,2003,5.964531393,Million $,Shrimp CA
+18,2004,6.284411319,Million $,Shrimp CA
+18,2005,7.05249466,Million $,Shrimp CA
+18,2006,6.563289531,Million $,Shrimp CA
+18,2007,6.226044803,Million $,Shrimp CA
+18,2008,8.312866747,Million $,Shrimp CA
+18,2009,8.050376946,Million $,Shrimp CA
+18,2010,7.036886006,Million $,Shrimp CA
+18,2011,11.95802259,Million $,Shrimp CA
+18,2012,11.38873268,Million $,Shrimp CA
+18,2013,12.58392637,Million $,Shrimp CA
+18,2014,15.49970935,Million $,Shrimp CA
+18,2015,18.57379708,Million $,Shrimp CA
+18,2016,14.1235882,Million $,Shrimp CA
+18,2017,12.38008494,Million $,Shrimp CA
+18,2018,15.44055372,Million $,Shrimp CA
+18,2019,11.84447112,Million $,Shrimp CA
+18,2020,9.370018725,Million $,Shrimp CA
+18,2021,6.798600595,Million $,Shrimp CA
+18,2022,6.155035891,Million $,Shrimp CA
+18,2023,6.483898008,Million $,Shrimp CA
+18,2024,6.38798111,Million $,Shrimp CA
+19,1981,13.32998651,Million $,Crab CA
+19,1982,37.98380368,Million $,Crab CA
+19,1983,23.4816068,Million $,Crab CA
+19,1984,32.16843494,Million $,Crab CA
+19,1985,27.71047857,Million $,Crab CA
+19,1986,28.14627976,Million $,Crab CA
+19,1987,38.72483014,Million $,Crab CA
+19,1988,34.67239521,Million $,Crab CA
+19,1989,34.97231414,Million $,Crab CA
+19,1990,20.82276599,Million $,Crab CA
+19,1991,47.42049737,Million $,Crab CA
+19,1992,32.28202384,Million $,Crab CA
+19,1993,27.40590098,Million $,Crab CA
+19,1994,19.10148823,Million $,Crab CA
+19,1995,45.19871932,Million $,Crab CA
+19,1996,42.7164403,Million $,Crab CA
+19,1997,19.67552941,Million $,Crab CA
+19,1998,45.14729513,Million $,Crab CA
+19,1999,34.88410032,Million $,Crab CA
+19,2000,35.05048992,Million $,Crab CA
+19,2001,25.26244738,Million $,Crab CA
+19,2002,16.31583813,Million $,Crab CA
+19,2003,41.77674296,Million $,Crab CA
+19,2004,62.8068729,Million $,Crab CA
+19,2005,65.83076584,Million $,Crab CA
+19,2006,64.12899346,Million $,Crab CA
+19,2007,49.3085853,Million $,Crab CA
+19,2008,36.27190579,Million $,Crab CA
+19,2009,24.10850303,Million $,Crab CA
+19,2010,51.33849314,Million $,Crab CA
+19,2011,82.18600242,Million $,Crab CA
+19,2012,133.4847536,Million $,Crab CA
+19,2013,97.45935502,Million $,Crab CA
+19,2014,84.92916485,Million $,Crab CA
+19,2015,84.12587934,Million $,Crab CA
+19,2016,54.40003644,Million $,Crab CA
+19,2017,94.71197406,Million $,Crab CA
+19,2018,89.60362385,Million $,Crab CA
+19,2019,61.4520221,Million $,Crab CA
+19,2020,59.26150589,Million $,Crab CA
+19,2021,27.273253,Million $,Crab CA
+19,2022,61.9576348,Million $,Crab CA
+19,2023,58.74808946,Million $,Crab CA
+19,2024,52.0949906,Million $,Crab CA
+20,1981,63.27424986,Million $,Other species CA
+20,1982,65.83710516,Million $,Other species CA
+20,1983,73.0568343,Million $,Other species CA
+20,1984,36.81491955,Million $,Other species CA
+20,1985,55.9888192,Million $,Other species CA
+20,1986,63.92295122,Million $,Other species CA
+20,1987,79.82734861,Million $,Other species CA
+20,1988,92.90351107,Million $,Other species CA
+20,1989,92.35232294,Million $,Other species CA
+20,1990,110.900814,Million $,Other species CA
+20,1991,121.1361856,Million $,Other species CA
+20,1992,106.5921191,Million $,Other species CA
+20,1993,80.96718059,Million $,Other species CA
+20,1994,79.36924572,Million $,Other species CA
+20,1995,87.00704537,Million $,Other species CA
+20,1996,89.80584832,Million $,Other species CA
+20,1997,84.43408586,Million $,Other species CA
+20,1998,37.65277391,Million $,Other species CA
+20,1999,46.52501087,Million $,Other species CA
+20,2000,50.13547137,Million $,Other species CA
+20,2001,42.59227417,Million $,Other species CA
+20,2002,40.45153224,Million $,Other species CA
+20,2003,33.74286685,Million $,Other species CA
+20,2004,33.45158053,Million $,Other species CA
+20,2005,28.7562756,Million $,Other species CA
+20,2006,32.3067702,Million $,Other species CA
+20,2007,28.06735171,Million $,Other species CA
+20,2008,34.94064392,Million $,Other species CA
+20,2009,36.47531468,Million $,Other species CA
+20,2010,36.26733055,Million $,Other species CA
+20,2011,43.21210795,Million $,Other species CA
+20,2012,41.16712725,Million $,Other species CA
+20,2013,42.90795124,Million $,Other species CA
+20,2014,47.17258712,Million $,Other species CA
+20,2015,40.02951257,Million $,Other species CA
+20,2016,36.40034396,Million $,Other species CA
+20,2017,35.59059907,Million $,Other species CA
+20,2018,35.2947652,Million $,Other species CA
+20,2019,29.32854312,Million $,Other species CA
+20,2020,30.69654135,Million $,Other species CA
+20,2021,34.7695038,Million $,Other species CA
+20,2022,42.18230309,Million $,Other species CA
+20,2023,40.81236047,Million $,Other species CA
+20,2024,38.94870369,Million $,Other species CA
+21,1981,194.2884285,Million $,Commercial fisheries OR
+21,1982,174.6113195,Million $,Commercial fisheries OR
+21,1983,113.2807088,Million $,Commercial fisheries OR
+21,1984,102.4161945,Million $,Commercial fisheries OR
+21,1985,124.8289356,Million $,Commercial fisheries OR
+21,1986,183.7508808,Million $,Commercial fisheries OR
+21,1987,255.6185864,Million $,Commercial fisheries OR
+21,1988,257.4064025,Million $,Commercial fisheries OR
+21,1989,192.215188,Million $,Commercial fisheries OR
+21,1990,166.5011958,Million $,Commercial fisheries OR
+21,1991,152.600168,Million $,Commercial fisheries OR
+21,1992,154.0771568,Million $,Commercial fisheries OR
+21,1993,127.3319204,Million $,Commercial fisheries OR
+21,1994,131.8776902,Million $,Commercial fisheries OR
+21,1995,167.189498,Million $,Commercial fisheries OR
+21,1996,156.4725048,Million $,Commercial fisheries OR
+21,1997,141.027394,Million $,Commercial fisheries OR
+21,1998,100.8426077,Million $,Commercial fisheries OR
+21,1999,115.8326905,Million $,Commercial fisheries OR
+21,2000,166.3370148,Million $,Commercial fisheries OR
+21,2001,122.4499398,Million $,Commercial fisheries OR
+21,2002,126.8900173,Million $,Commercial fisheries OR
+21,2003,131.1397481,Million $,Commercial fisheries OR
+21,2004,169.0268304,Million $,Commercial fisheries OR
+21,2005,193.4285723,Million $,Commercial fisheries OR
+21,2006,167.8502501,Million $,Commercial fisheries OR
+21,2007,156.724593,Million $,Commercial fisheries OR
+21,2008,180.5202911,Million $,Commercial fisheries OR
+21,2009,131.4141009,Million $,Commercial fisheries OR
+21,2010,179.1283476,Million $,Commercial fisheries OR
+21,2011,232.605385,Million $,Commercial fisheries OR
+21,2012,215.8260354,Million $,Commercial fisheries OR
+21,2013,252.2066181,Million $,Commercial fisheries OR
+21,2014,257.7296931,Million $,Commercial fisheries OR
+21,2015,198.4843776,Million $,Commercial fisheries OR
+21,2016,225.7560848,Million $,Commercial fisheries OR
+21,2017,224.2631997,Million $,Commercial fisheries OR
+21,2018,241.7548141,Million $,Commercial fisheries OR
+21,2019,222.0118803,Million $,Commercial fisheries OR
+21,2020,203.924906,Million $,Commercial fisheries OR
+21,2021,210.0056501,Million $,Commercial fisheries OR
+21,2022,256.0558321,Million $,Commercial fisheries OR
+21,2023,190.4201742,Million $,Commercial fisheries OR
+21,2024,196.6050762,Million $,Commercial fisheries OR
+22,1981,39.30662744,Million $,Salmon OR
+22,1982,40.6264801,Million $,Salmon OR
+22,1983,9.602767419,Million $,Salmon OR
+22,1984,15.49852169,Million $,Salmon OR
+22,1985,26.49016091,Million $,Salmon OR
+22,1986,42.74092004,Million $,Salmon OR
+22,1987,74.8660413,Million $,Salmon OR
+22,1988,103.9678511,Million $,Salmon OR
+22,1989,36.23501737,Million $,Salmon OR
+22,1990,23.17363578,Million $,Salmon OR
+22,1991,13.35241215,Million $,Salmon OR
+22,1992,8.233065437,Million $,Salmon OR
+22,1993,5.244875509,Million $,Salmon OR
+22,1994,3.078415871,Million $,Salmon OR
+22,1995,7.333011392,Million $,Salmon OR
+22,1996,6.567610921,Million $,Salmon OR
+22,1997,5.372942453,Million $,Salmon OR
+22,1998,4.942926324,Million $,Salmon OR
+22,1999,3.833084848,Million $,Salmon OR
+22,2000,7.361245888,Million $,Salmon OR
+22,2001,10.29774169,Million $,Salmon OR
+22,2002,12.07382957,Million $,Salmon OR
+22,2003,15.05250171,Million $,Salmon OR
+22,2004,21.63911722,Million $,Salmon OR
+22,2005,16.87874231,Million $,Salmon OR
+22,2006,7.693265884,Million $,Salmon OR
+22,2007,7.080781263,Million $,Salmon OR
+22,2008,6.0877386,Million $,Salmon OR
+22,2009,5.179801435,Million $,Salmon OR
+22,2010,10.95617498,Million $,Salmon OR
+22,2011,9.43518872,Million $,Salmon OR
+22,2012,9.456600495,Million $,Salmon OR
+22,2013,16.63657148,Million $,Salmon OR
+22,2014,26.52104086,Million $,Salmon OR
+22,2015,15.66351906,Million $,Salmon OR
+22,2016,10.82131279,Million $,Salmon OR
+22,2017,7.056683179,Million $,Salmon OR
+22,2018,7.127142016,Million $,Salmon OR
+22,2019,5.127901558,Million $,Salmon OR
+22,2020,6.094639086,Million $,Salmon OR
+22,2021,7.6940062319999996,Million $,Salmon OR
+22,2022,8.407473935,Million $,Salmon OR
+22,2023,5.406875467,Million $,Salmon OR
+22,2024,7.29312221,Million $,Salmon OR
+23,1981,51.48614046,Million $,Non-whiting groundfish OR
+23,1982,65.89283436,Million $,Non-whiting groundfish OR
+23,1983,57.87443265,Million $,Non-whiting groundfish OR
+23,1984,45.44185034,Million $,Non-whiting groundfish OR
+23,1985,49.47367817,Million $,Non-whiting groundfish OR
+23,1986,47.10759471,Million $,Non-whiting groundfish OR
+23,1987,67.07124431,Million $,Non-whiting groundfish OR
+23,1988,63.69277234,Million $,Non-whiting groundfish OR
+23,1989,64.21133355,Million $,Non-whiting groundfish OR
+23,1990,55.80872229,Million $,Non-whiting groundfish OR
+23,1991,65.0168728,Million $,Non-whiting groundfish OR
+23,1992,57.99951058,Million $,Non-whiting groundfish OR
+23,1993,57.76153422,Million $,Non-whiting groundfish OR
+23,1994,59.7933597,Million $,Non-whiting groundfish OR
+23,1995,63.2612324,Million $,Non-whiting groundfish OR
+23,1996,60.20335008,Million $,Non-whiting groundfish OR
+23,1997,52.97464852,Million $,Non-whiting groundfish OR
+23,1998,36.52683311,Million $,Non-whiting groundfish OR
+23,1999,41.2264693,Million $,Non-whiting groundfish OR
+23,2000,43.54364377,Million $,Non-whiting groundfish OR
+23,2001,34.00242664,Million $,Non-whiting groundfish OR
+23,2002,23.82935911,Million $,Non-whiting groundfish OR
+23,2003,29.13132854,Million $,Non-whiting groundfish OR
+23,2004,26.7113721,Million $,Non-whiting groundfish OR
+23,2005,29.42816314,Million $,Non-whiting groundfish OR
+23,2006,30.99541207,Million $,Non-whiting groundfish OR
+23,2007,31.22469094,Million $,Non-whiting groundfish OR
+23,2008,39.36016498,Million $,Non-whiting groundfish OR
+23,2009,41.0489066,Million $,Non-whiting groundfish OR
+23,2010,36.52962127,Million $,Non-whiting groundfish OR
+23,2011,39.82784092,Million $,Non-whiting groundfish OR
+23,2012,32.43236812,Million $,Non-whiting groundfish OR
+23,2013,29.89765869,Million $,Non-whiting groundfish OR
+23,2014,28.75629224,Million $,Non-whiting groundfish OR
+23,2015,37.94404225,Million $,Non-whiting groundfish OR
+23,2016,41.70916591,Million $,Non-whiting groundfish OR
+23,2017,45.34406989,Million $,Non-whiting groundfish OR
+23,2018,39.35386293,Million $,Non-whiting groundfish OR
+23,2019,34.53280097,Million $,Non-whiting groundfish OR
+23,2020,22.06578751,Million $,Non-whiting groundfish OR
+23,2021,26.57486795,Million $,Non-whiting groundfish OR
+23,2022,33.17614143,Million $,Non-whiting groundfish OR
+23,2023,27.10882766,Million $,Non-whiting groundfish OR
+23,2024,21.77703128,Million $,Non-whiting groundfish OR
+24,1981,0.089348251,Million $,Pacific whiting OR
+24,1982,2.21059e-4,Million $,Pacific whiting OR
+24,1983,0.074998803,Million $,Pacific whiting OR
+24,1984,0.177586965,Million $,Pacific whiting OR
+24,1985,0.506436053,Million $,Pacific whiting OR
+24,1986,0.169105335,Million $,Pacific whiting OR
+24,1987,0.094957948,Million $,Pacific whiting OR
+24,1988,0.109631142,Million $,Pacific whiting OR
+24,1989,0.037379632,Million $,Pacific whiting OR
+24,1990,0.531752005,Million $,Pacific whiting OR
+24,1991,3.139731977,Million $,Pacific whiting OR
+24,1992,11.34155573,Million $,Pacific whiting OR
+24,1993,4.951244858,Million $,Pacific whiting OR
+24,1994,9.066689932,Million $,Pacific whiting OR
+24,1995,14.36467084,Million $,Pacific whiting OR
+24,1996,8.283117475,Million $,Pacific whiting OR
+24,1997,23.81339565,Million $,Pacific whiting OR
+24,1998,13.29222618,Million $,Pacific whiting OR
+24,1999,12.36598701,Million $,Pacific whiting OR
+24,2000,18.71091819,Million $,Pacific whiting OR
+24,2001,16.48794164,Million $,Pacific whiting OR
+24,2002,16.05268472,Million $,Pacific whiting OR
+24,2003,16.42324119,Million $,Pacific whiting OR
+24,2004,21.49226277,Million $,Pacific whiting OR
+24,2005,28.3294683,Million $,Pacific whiting OR
+24,2006,32.81412767,Million $,Pacific whiting OR
+24,2007,27.78504546,Million $,Pacific whiting OR
+24,2008,42.87236934,Million $,Pacific whiting OR
+24,2009,10.5252207,Million $,Pacific whiting OR
+24,2010,22.27967319,Million $,Pacific whiting OR
+24,2011,43.84498914,Million $,Pacific whiting OR
+24,2012,44.50557058,Million $,Pacific whiting OR
+24,2013,70.83924346,Million $,Pacific whiting OR
+24,2014,72.02381728,Million $,Pacific whiting OR
+24,2015,27.48517917,Million $,Pacific whiting OR
+24,2016,48.44895224,Million $,Pacific whiting OR
+24,2017,55.71382839,Million $,Pacific whiting OR
+24,2018,46.74923744,Million $,Pacific whiting OR
+24,2019,52.14004852,Million $,Pacific whiting OR
+24,2020,39.89465254,Million $,Pacific whiting OR
+24,2021,57.77196113,Million $,Pacific whiting OR
+24,2022,66.47428798,Million $,Pacific whiting OR
+24,2023,41.82030336,Million $,Pacific whiting OR
+24,2024,34.98873572,Million $,Pacific whiting OR
+25,1981,4.61e-6,Million $,"Coastal pelagic spp, no squid OR"
+25,1982,4.61863e-4,Million $,"Coastal pelagic spp, no squid OR"
+25,1983,0.024611264,Million $,"Coastal pelagic spp, no squid OR"
+25,1984,0.002444518,Million $,"Coastal pelagic spp, no squid OR"
+25,1985,1.2201e-4,Million $,"Coastal pelagic spp, no squid OR"
+25,1986,2.25e-6,Million $,"Coastal pelagic spp, no squid OR"
+25,1987,0.001443713,Million $,"Coastal pelagic spp, no squid OR"
+25,1988,9.18587e-4,Million $,"Coastal pelagic spp, no squid OR"
+25,1989,0.002890428,Million $,"Coastal pelagic spp, no squid OR"
+25,1990,0.008733312,Million $,"Coastal pelagic spp, no squid OR"
+25,1991,0.005946731,Million $,"Coastal pelagic spp, no squid OR"
+25,1992,0.002128814,Million $,"Coastal pelagic spp, no squid OR"
+25,1993,0.007607724,Million $,"Coastal pelagic spp, no squid OR"
+25,1994,0.03702828,Million $,"Coastal pelagic spp, no squid OR"
+25,1995,0.023058245,Million $,"Coastal pelagic spp, no squid OR"
+25,1996,0.022954655,Million $,"Coastal pelagic spp, no squid OR"
+25,1997,0.00584299,Million $,"Coastal pelagic spp, no squid OR"
+25,1998,0.101458024,Million $,"Coastal pelagic spp, no squid OR"
+25,1999,0.170257477,Million $,"Coastal pelagic spp, no squid OR"
+25,2000,2.044436509,Million $,"Coastal pelagic spp, no squid OR"
+25,2001,2.734375469,Million $,"Coastal pelagic spp, no squid OR"
+25,2002,4.577648844,Million $,"Coastal pelagic spp, no squid OR"
+25,2003,4.634088646,Million $,"Coastal pelagic spp, no squid OR"
+25,2004,7.677324551,Million $,"Coastal pelagic spp, no squid OR"
+25,2005,9.532009399,Million $,"Coastal pelagic spp, no squid OR"
+25,2006,5.876025958,Million $,"Coastal pelagic spp, no squid OR"
+25,2007,7.014833299,Million $,"Coastal pelagic spp, no squid OR"
+25,2008,8.372597241,Million $,"Coastal pelagic spp, no squid OR"
+25,2009,7.747620751,Million $,"Coastal pelagic spp, no squid OR"
+25,2010,7.520954991,Million $,"Coastal pelagic spp, no squid OR"
+25,2011,4.483426711,Million $,"Coastal pelagic spp, no squid OR"
+25,2012,12.45842202,Million $,"Coastal pelagic spp, no squid OR"
+25,2013,8.56573787,Million $,"Coastal pelagic spp, no squid OR"
+25,2014,5.264696258,Million $,"Coastal pelagic spp, no squid OR"
+25,2015,1.187849782,Million $,"Coastal pelagic spp, no squid OR"
+25,2016,1.505640976,Million $,"Coastal pelagic spp, no squid OR"
+25,2017,0.01071789,Million $,"Coastal pelagic spp, no squid OR"
+25,2018,0.007541385,Million $,"Coastal pelagic spp, no squid OR"
+25,2019,0.056221309,Million $,"Coastal pelagic spp, no squid OR"
+25,2020,0.009935028,Million $,"Coastal pelagic spp, no squid OR"
+25,2021,0.052984228,Million $,"Coastal pelagic spp, no squid OR"
+25,2022,0.182288236,Million $,"Coastal pelagic spp, no squid OR"
+25,2023,0.029678164,Million $,"Coastal pelagic spp, no squid OR"
+25,2024,0.00734962,Million $,"Coastal pelagic spp, no squid OR"
+26,1981,23.7028401,Million $,Highly migratory species OR
+26,1982,4.139115026,Million $,Highly migratory species OR
+26,1983,5.940978786,Million $,Highly migratory species OR
+26,1984,2.732330198,Million $,Highly migratory species OR
+26,1985,2.410245979,Million $,Highly migratory species OR
+26,1986,5.452900502,Million $,Highly migratory species OR
+26,1987,5.089714961,Million $,Highly migratory species OR
+26,1988,9.232352158,Million $,Highly migratory species OR
+26,1989,2.257813323,Million $,Highly migratory species OR
+26,1990,4.270892456,Million $,Highly migratory species OR
+26,1991,2.244612883,Million $,Highly migratory species OR
+26,1992,8.865901339,Million $,Highly migratory species OR
+26,1993,8.398434312,Million $,Highly migratory species OR
+26,1994,7.910548706,Million $,Highly migratory species OR
+26,1995,8.363842384,Million $,Highly migratory species OR
+26,1996,15.08377333,Million $,Highly migratory species OR
+26,1997,14.33588561,Million $,Highly migratory species OR
+26,1998,13.02175434,Million $,Highly migratory species OR
+26,1999,7.269362675,Million $,Highly migratory species OR
+26,2000,13.69077048,Million $,Highly migratory species OR
+26,2001,13.38927151,Million $,Highly migratory species OR
+26,2002,5.158678009,Million $,Highly migratory species OR
+26,2003,10.47848728,Million $,Highly migratory species OR
+26,2004,15.23055569,Million $,Highly migratory species OR
+26,2005,14.259172,Million $,Highly migratory species OR
+26,2006,12.51877968,Million $,Highly migratory species OR
+26,2007,14.42699256,Million $,Highly migratory species OR
+26,2008,15.65511904,Million $,Highly migratory species OR
+26,2009,14.88579176,Million $,Highly migratory species OR
+26,2010,17.68425442,Million $,Highly migratory species OR
+26,2011,26.28209985,Million $,Highly migratory species OR
+26,2012,20.638823,Million $,Highly migratory species OR
+26,2013,21.54702972,Million $,Highly migratory species OR
+26,2014,14.53380644,Million $,Highly migratory species OR
+26,2015,12.16710444,Million $,Highly migratory species OR
+26,2016,16.27663478,Million $,Highly migratory species OR
+26,2017,13.72239891,Million $,Highly migratory species OR
+26,2018,12.09998371,Million $,Highly migratory species OR
+26,2019,13.30589322,Million $,Highly migratory species OR
+26,2020,8.435429606,Million $,Highly migratory species OR
+26,2021,7.802403461,Million $,Highly migratory species OR
+26,2022,15.74967382,Million $,Highly migratory species OR
+26,2023,3.635211636,Million $,Highly migratory species OR
+26,2024,8.311191052,Million $,Highly migratory species OR
+27,1981,1.59526e-4,Million $,Market squid OR
+27,1982,0.029841288,Million $,Market squid OR
+27,1983,0.251993815,Million $,Market squid OR
+27,1984,0.60524591,Million $,Market squid OR
+27,1985,0.931699246,Million $,Market squid OR
+27,1986,0.007549745,Million $,Market squid OR
+27,1987,1.01e-5,Million $,Market squid OR
+27,1988,2.67e-6,Million $,Market squid OR
+27,1989,0.019570014,Million $,Market squid OR
+27,1990,0,Million $,Market squid OR
+27,1991,6.53e-5,Million $,Market squid OR
+27,1992,0.003587642,Million $,Market squid OR
+27,1993,0.067565171,Million $,Market squid OR
+27,1994,0.075248036,Million $,Market squid OR
+27,1995,0.085112692,Million $,Market squid OR
+27,1996,0.073699999,Million $,Market squid OR
+27,1997,0.09587012,Million $,Market squid OR
+27,1998,0.006922015,Million $,Market squid OR
+27,1999,9.39e-7,Million $,Market squid OR
+27,2000,1.06704e-4,Million $,Market squid OR
+27,2001,4.58839e-4,Million $,Market squid OR
+27,2002,0.001022252,Million $,Market squid OR
+27,2003,0.008664363,Million $,Market squid OR
+27,2004,0.009224866,Million $,Market squid OR
+27,2005,0.008433111,Million $,Market squid OR
+27,2006,0.024318609,Million $,Market squid OR
+27,2007,4.49729e-4,Million $,Market squid OR
+27,2008,2.19e-7,Million $,Market squid OR
+27,2009,0,Million $,Market squid OR
+27,2010,0,Million $,Market squid OR
+27,2011,1.68e-6,Million $,Market squid OR
+27,2012,0,Million $,Market squid OR
+27,2013,0,Million $,Market squid OR
+27,2014,5.39001e-4,Million $,Market squid OR
+27,2015,0,Million $,Market squid OR
+27,2016,1.485169217,Million $,Market squid OR
+27,2017,0,Million $,Market squid OR
+27,2018,3.82424452,Million $,Market squid OR
+27,2019,3.535924869,Million $,Market squid OR
+27,2020,7.173095548,Million $,Market squid OR
+27,2021,5.358469143,Million $,Market squid OR
+27,2022,3.704222484,Million $,Market squid OR
+27,2023,0,Million $,Market squid OR
+27,2024,0.244688,Million $,Market squid OR
+28,1981,46.52748209,Million $,Shrimp OR
+28,1982,30.63195822,Million $,Shrimp OR
+28,1983,14.94360326,Million $,Shrimp OR
+28,1984,6.862285721,Million $,Shrimp OR
+28,1985,15.89831662,Million $,Shrimp OR
+28,1986,51.64530263,Million $,Shrimp OR
+28,1987,84.79094303,Million $,Shrimp OR
+28,1988,46.56723316,Million $,Shrimp OR
+28,1989,46.36301201,Million $,Shrimp OR
+28,1990,38.60643598,Million $,Shrimp OR
+28,1991,28.26486237,Million $,Shrimp OR
+28,1992,38.82459882,Million $,Shrimp OR
+28,1993,19.8000223,Million $,Shrimp OR
+28,1994,20.88882581,Million $,Shrimp OR
+28,1995,17.99591764,Million $,Shrimp OR
+28,1996,18.9457593,Million $,Shrimp OR
+28,1997,16.05914871,Million $,Shrimp OR
+28,1998,7.345597767,Million $,Shrimp OR
+28,1999,18.37824717,Million $,Shrimp OR
+28,2000,19.76464715,Million $,Shrimp OR
+28,2001,14.46256204,Million $,Shrimp OR
+28,2002,20.96007149,Million $,Shrimp OR
+28,2003,9.028948329,Million $,Shrimp OR
+28,2004,8.189476066,Million $,Shrimp OR
+28,2005,11.32736818,Million $,Shrimp OR
+28,2006,7.182774358,Million $,Shrimp OR
+28,2007,14.45668608,Million $,Shrimp OR
+28,2008,20.53707662,Million $,Shrimp OR
+28,2009,10.21585852,Million $,Shrimp OR
+28,2010,16.1018946,Million $,Shrimp OR
+28,2011,34.87293786,Million $,Shrimp OR
+28,2012,33.80984298,Million $,Shrimp OR
+28,2013,32.72000141,Million $,Shrimp OR
+28,2014,39.03443643,Million $,Shrimp OR
+28,2015,53.62461304,Million $,Shrimp OR
+28,2016,32.86398115,Million $,Shrimp OR
+28,2017,16.33205518,Million $,Shrimp OR
+28,2018,33.62073329,Million $,Shrimp OR
+28,2019,24.53500209,Million $,Shrimp OR
+28,2020,27.25307293,Million $,Shrimp OR
+28,2021,27.66768114,Million $,Shrimp OR
+28,2022,20.74663632,Million $,Shrimp OR
+28,2023,19.40444376,Million $,Shrimp OR
+28,2024,26.71079078,Million $,Shrimp OR
+29,1981,13.68719486,Million $,Crab OR
+29,1982,28.89690145,Million $,Crab OR
+29,1983,18.18230713,Million $,Crab OR
+29,1984,23.1446484,Million $,Crab OR
+29,1985,22.77515148,Million $,Crab OR
+29,1986,28.11591521,Million $,Crab OR
+29,1987,18.8223908,Million $,Crab OR
+29,1988,28.4752331,Million $,Crab OR
+29,1989,32.88089117,Million $,Crab OR
+29,1990,30.73783263,Million $,Crab OR
+29,1991,30.19438771,Million $,Crab OR
+29,1992,21.48288032,Million $,Crab OR
+29,1993,24.79549859,Million $,Crab OR
+29,1994,26.65916839,Million $,Crab OR
+29,1995,51.4221694,Million $,Crab OR
+29,1996,44.87509314,Million $,Crab OR
+29,1997,25.97981363,Million $,Crab OR
+29,1998,23.96271155,Million $,Crab OR
+29,1999,30.57317142,Million $,Crab OR
+29,2000,58.16196825,Million $,Crab OR
+29,2001,27.74179812,Million $,Crab OR
+29,2002,41.10567983,Million $,Crab OR
+29,2003,43.85131054,Million $,Crab OR
+29,2004,65.38218171,Million $,Crab OR
+29,2005,80.05828364,Million $,Crab OR
+29,2006,67.40143673,Million $,Crab OR
+29,2007,50.69140334,Million $,Crab OR
+29,2008,43.11054673,Million $,Crab OR
+29,2009,38.16064226,Million $,Crab OR
+29,2010,63.94799487,Million $,Crab OR
+29,2011,68.69170757,Million $,Crab OR
+29,2012,57.76593636,Million $,Crab OR
+29,2013,65.61660829,Million $,Crab OR
+29,2014,66.20395446,Million $,Crab OR
+29,2015,44.51454496,Million $,Crab OR
+29,2016,66.81199282,Million $,Crab OR
+29,2017,80.13149986,Million $,Crab OR
+29,2018,92.73149145,Million $,Crab OR
+29,2019,82.01030721,Million $,Crab OR
+29,2020,87.17543356,Million $,Crab OR
+29,2021,71.3878816,Million $,Crab OR
+29,2022,100.656218,Million $,Crab OR
+29,2023,87.9027699,Million $,Crab OR
+29,2024,93.20721934,Million $,Crab OR
+30,1981,2.550907469,Million $,Other species OR
+30,1982,2.601986444,Million $,Other species OR
+30,1983,3.632623683,Million $,Other species OR
+30,1984,4.533856593,Million $,Other species OR
+30,1985,4.765441473,Million $,Other species OR
+30,1986,8.136118639,Million $,Other species OR
+30,1987,4.50768272,Million $,Other species OR
+30,1988,4.967977941,Million $,Other species OR
+30,1989,9.809990439,Million $,Other species OR
+30,1990,13.07307383,Million $,Other species OR
+30,1991,10.05397021,Million $,Other species OR
+30,1992,7.207758463,Million $,Other species OR
+30,1993,5.78641747,Million $,Other species OR
+30,1994,3.980523452,Million $,Other species OR
+30,1995,3.962935837,Million $,Other species OR
+30,1996,2.341835145,Million $,Other species OR
+30,1997,2.288383963,Million $,Other species OR
+30,1998,1.540978583,Million $,Other species OR
+30,1999,1.939285439,Million $,Other species OR
+30,2000,2.927883048,Million $,Other species OR
+30,2001,3.166722355,Million $,Other species OR
+30,2002,2.705307576,Million $,Other species OR
+30,2003,2.342574208,Million $,Other species OR
+30,2004,2.366808519,Million $,Other species OR
+30,2005,2.845451538,Million $,Other species OR
+30,2006,2.557311761,Million $,Other species OR
+30,2007,2.8855961,Million $,Other species OR
+30,2008,3.738753848,Million $,Other species OR
+30,2009,2.468910275,Million $,Other species OR
+30,2010,2.955402512,Million $,Other species OR
+30,2011,4.28720423,Million $,Other species OR
+30,2012,3.561125971,Million $,Other species OR
+30,2013,5.128009751,Million $,Other species OR
+30,2014,3.963834358,Million $,Other species OR
+30,2015,4.125880482,Million $,Other species OR
+30,2016,3.753042111,Million $,Other species OR
+30,2017,4.243762243,Million $,Other species OR
+30,2018,4.219096233,Million $,Other species OR
+30,2019,4.401553931,Million $,Other species OR
+30,2020,3.906972329,Million $,Other species OR
+30,2021,3.89030799,Million $,Other species OR
+30,2022,3.694953477,Million $,Other species OR
+30,2023,2.946207962,Million $,Other species OR
+30,2024,2.07637305,Million $,Other species OR
+31,1981,264.9657618,Million $,Commercial fisheries WA
+31,1982,264.3951922,Million $,Commercial fisheries WA
+31,1983,164.5486298,Million $,Commercial fisheries WA
+31,1984,200.3288961,Million $,Commercial fisheries WA
+31,1985,251.0497093,Million $,Commercial fisheries WA
+31,1986,249.740839,Million $,Commercial fisheries WA
+31,1987,343.7083792,Million $,Commercial fisheries WA
+31,1988,352.4744428,Million $,Commercial fisheries WA
+31,1989,288.8561695,Million $,Commercial fisheries WA
+31,1990,232.9179754,Million $,Commercial fisheries WA
+31,1991,189.7197549,Million $,Commercial fisheries WA
+31,1992,159.2025023,Million $,Commercial fisheries WA
+31,1993,177.6383655,Million $,Commercial fisheries WA
+31,1994,199.6893783,Million $,Commercial fisheries WA
+31,1995,186.8282868,Million $,Commercial fisheries WA
+31,1996,165.3941605,Million $,Commercial fisheries WA
+31,1997,185.5472799,Million $,Commercial fisheries WA
+31,1998,156.476344,Million $,Commercial fisheries WA
+31,1999,156.343648,Million $,Commercial fisheries WA
+31,2000,199.8334249,Million $,Commercial fisheries WA
+31,2001,162.9927321,Million $,Commercial fisheries WA
+31,2002,171.7250681,Million $,Commercial fisheries WA
+31,2003,197.8654792,Million $,Commercial fisheries WA
+31,2004,210.084671,Million $,Commercial fisheries WA
+31,2005,217.493944,Million $,Commercial fisheries WA
+31,2006,215.088158,Million $,Commercial fisheries WA
+31,2007,215.3820542,Million $,Commercial fisheries WA
+31,2008,267.9003654,Million $,Commercial fisheries WA
+31,2009,216.043662,Million $,Commercial fisheries WA
+31,2010,280.0642741,Million $,Commercial fisheries WA
+31,2011,377.4248495,Million $,Commercial fisheries WA
+31,2012,308.9475089,Million $,Commercial fisheries WA
+31,2013,327.1194908,Million $,Commercial fisheries WA
+31,2014,312.1048141,Million $,Commercial fisheries WA
+31,2015,302.9146861,Million $,Commercial fisheries WA
+31,2016,322.0820603,Million $,Commercial fisheries WA
+31,2017,334.5741136,Million $,Commercial fisheries WA
+31,2018,303.974021,Million $,Commercial fisheries WA
+31,2019,259.2849981,Million $,Commercial fisheries WA
+31,2020,189.8603931,Million $,Commercial fisheries WA
+31,2021,260.3761409,Million $,Commercial fisheries WA
+31,2022,293.3211526,Million $,Commercial fisheries WA
+31,2023,205.7374624,Million $,Commercial fisheries WA
+31,2024,184.288523,Million $,Commercial fisheries WA
+32,1981,161.3405892,Million $,Salmon WA
+32,1982,171.7837693,Million $,Salmon WA
+32,1983,60.98856227,Million $,Salmon WA
+32,1984,96.42737483,Million $,Salmon WA
+32,1985,148.164824,Million $,Salmon WA
+32,1986,154.3247971,Million $,Salmon WA
+32,1987,225.0587037,Million $,Salmon WA
+32,1988,197.6323322,Million $,Salmon WA
+32,1989,143.8729937,Million $,Salmon WA
+32,1990,128.321831,Million $,Salmon WA
+32,1991,74.8486887,Million $,Salmon WA
+32,1992,50.29836755,Million $,Salmon WA
+32,1993,55.53292408,Million $,Salmon WA
+32,1994,54.64321777,Million $,Salmon WA
+32,1995,23.30536903,Million $,Salmon WA
+32,1996,17.94602298,Million $,Salmon WA
+32,1997,26.73428304,Million $,Salmon WA
+32,1998,19.00567054,Million $,Salmon WA
+32,1999,9.565746854,Million $,Salmon WA
+32,2000,17.98889935,Million $,Salmon WA
+32,2001,18.13493018,Million $,Salmon WA
+32,2002,20.48085305,Million $,Salmon WA
+32,2003,17.71897008,Million $,Salmon WA
+32,2004,29.74033083,Million $,Salmon WA
+32,2005,23.71118454,Million $,Salmon WA
+32,2006,38.95265952,Million $,Salmon WA
+32,2007,33.57927847,Million $,Salmon WA
+32,2008,34.23362457,Million $,Salmon WA
+32,2009,32.86010188,Million $,Salmon WA
+32,2010,60.04432424,Million $,Salmon WA
+32,2011,59.6148019,Million $,Salmon WA
+32,2012,39.08055107,Million $,Salmon WA
+32,2013,56.7695162,Million $,Salmon WA
+32,2014,51.64913816,Million $,Salmon WA
+32,2015,37.3685021,Million $,Salmon WA
+32,2016,35.83594565,Million $,Salmon WA
+32,2017,41.34342667,Million $,Salmon WA
+32,2018,40.61298273,Million $,Salmon WA
+32,2019,15.98101634,Million $,Salmon WA
+32,2020,13.2441843,Million $,Salmon WA
+32,2021,18.63422949,Million $,Salmon WA
+32,2022,29.00117161,Million $,Salmon WA
+32,2023,13.89847758,Million $,Salmon WA
+32,2024,14.00554179,Million $,Salmon WA
+33,1981,38.88117893,Million $,Non-whiting groundfish WA
+33,1982,42.83073091,Million $,Non-whiting groundfish WA
+33,1983,40.51484068,Million $,Non-whiting groundfish WA
+33,1984,36.63301617,Million $,Non-whiting groundfish WA
+33,1985,39.90445987,Million $,Non-whiting groundfish WA
+33,1986,33.6315623,Million $,Non-whiting groundfish WA
+33,1987,50.75778845,Million $,Non-whiting groundfish WA
+33,1988,46.48841137,Million $,Non-whiting groundfish WA
+33,1989,38.21762219,Million $,Non-whiting groundfish WA
+33,1990,30.26606938,Million $,Non-whiting groundfish WA
+33,1991,34.64944266,Million $,Non-whiting groundfish WA
+33,1992,27.73142172,Million $,Non-whiting groundfish WA
+33,1993,25.33496535,Million $,Non-whiting groundfish WA
+33,1994,22.99794596,Million $,Non-whiting groundfish WA
+33,1995,30.60506516,Million $,Non-whiting groundfish WA
+33,1996,27.52537168,Million $,Non-whiting groundfish WA
+33,1997,27.32604666,Million $,Non-whiting groundfish WA
+33,1998,15.216405140000001,Million $,Non-whiting groundfish WA
+33,1999,17.70019948,Million $,Non-whiting groundfish WA
+33,2000,19.38972359,Million $,Non-whiting groundfish WA
+33,2001,17.40788688,Million $,Non-whiting groundfish WA
+33,2002,15.59225851,Million $,Non-whiting groundfish WA
+33,2003,18.5864362,Million $,Non-whiting groundfish WA
+33,2004,17.37564403,Million $,Non-whiting groundfish WA
+33,2005,18.62836458,Million $,Non-whiting groundfish WA
+33,2006,17.09147815,Million $,Non-whiting groundfish WA
+33,2007,13.60415401,Million $,Non-whiting groundfish WA
+33,2008,14.25296483,Million $,Non-whiting groundfish WA
+33,2009,17.28487606,Million $,Non-whiting groundfish WA
+33,2010,16.96040317,Million $,Non-whiting groundfish WA
+33,2011,22.20995576,Million $,Non-whiting groundfish WA
+33,2012,16.11377691,Million $,Non-whiting groundfish WA
+33,2013,11.07716476,Million $,Non-whiting groundfish WA
+33,2014,12.59929394,Million $,Non-whiting groundfish WA
+33,2015,13.14359737,Million $,Non-whiting groundfish WA
+33,2016,13.87613381,Million $,Non-whiting groundfish WA
+33,2017,15.88171712,Million $,Non-whiting groundfish WA
+33,2018,12.58147457,Million $,Non-whiting groundfish WA
+33,2019,10.08123271,Million $,Non-whiting groundfish WA
+33,2020,4.4394572,Million $,Non-whiting groundfish WA
+33,2021,6.80765055,Million $,Non-whiting groundfish WA
+33,2022,7.76816463,Million $,Non-whiting groundfish WA
+33,2023,5.591083529,Million $,Non-whiting groundfish WA
+33,2024,5.139143274,Million $,Non-whiting groundfish WA
+34,1981,0.720870693,Million $,Pacific whiting WA
+34,1982,1.098878183,Million $,Pacific whiting WA
+34,1983,1.671100166,Million $,Pacific whiting WA
+34,1984,0.871973506,Million $,Pacific whiting WA
+34,1985,0.769951141,Million $,Pacific whiting WA
+34,1986,0.340930851,Million $,Pacific whiting WA
+34,1987,0.145662719,Million $,Pacific whiting WA
+34,1988,0.147651872,Million $,Pacific whiting WA
+34,1989,0.036693296,Million $,Pacific whiting WA
+34,1990,1.140626304,Million $,Pacific whiting WA
+34,1991,3.749245206,Million $,Pacific whiting WA
+34,1992,0.568180081,Million $,Pacific whiting WA
+34,1993,0.614455004,Million $,Pacific whiting WA
+34,1994,0.83206473,Million $,Pacific whiting WA
+34,1995,0.836737884,Million $,Pacific whiting WA
+34,1996,1.53966022,Million $,Pacific whiting WA
+34,1997,17.92566931,Million $,Pacific whiting WA
+34,1998,12.20971396,Million $,Pacific whiting WA
+34,1999,23.43036663,Million $,Pacific whiting WA
+34,2000,18.38101816,Million $,Pacific whiting WA
+34,2001,5.841821957,Million $,Pacific whiting WA
+34,2002,5.752177042,Million $,Pacific whiting WA
+34,2003,6.731854775,Million $,Pacific whiting WA
+34,2004,11.15432071,Million $,Pacific whiting WA
+34,2005,18.18675727,Million $,Pacific whiting WA
+34,2006,19.46757551,Million $,Pacific whiting WA
+34,2007,23.9853896,Million $,Pacific whiting WA
+34,2008,47.11191441,Million $,Pacific whiting WA
+34,2009,12.9299971,Million $,Pacific whiting WA
+34,2010,17.79473201,Million $,Pacific whiting WA
+34,2011,35.61653842,Million $,Pacific whiting WA
+34,2012,21.64454914,Million $,Pacific whiting WA
+34,2013,16.0509068,Million $,Pacific whiting WA
+34,2014,10.01974465,Million $,Pacific whiting WA
+34,2015,5.754486819,Million $,Pacific whiting WA
+34,2016,12.51732674,Million $,Pacific whiting WA
+34,2017,20.94718289,Million $,Pacific whiting WA
+34,2018,18.32754899,Million $,Pacific whiting WA
+34,2019,26.44164241,Million $,Pacific whiting WA
+34,2020,8.261309964,Million $,Pacific whiting WA
+34,2021,10.47871789,Million $,Pacific whiting WA
+34,2022,6.601421551,Million $,Pacific whiting WA
+34,2023,5.065018342,Million $,Pacific whiting WA
+34,2024,3.397361666,Million $,Pacific whiting WA
+35,1981,0.0010472,Million $,"Coastal pelagic spp, no squid WA"
+35,1982,0.03100261,Million $,"Coastal pelagic spp, no squid WA"
+35,1983,0.01707,Million $,"Coastal pelagic spp, no squid WA"
+35,1984,0.030546452,Million $,"Coastal pelagic spp, no squid WA"
+35,1985,0.035198423,Million $,"Coastal pelagic spp, no squid WA"
+35,1986,0.055783945,Million $,"Coastal pelagic spp, no squid WA"
+35,1987,0.162902287,Million $,"Coastal pelagic spp, no squid WA"
+35,1988,0.086946016,Million $,"Coastal pelagic spp, no squid WA"
+35,1989,0.137892964,Million $,"Coastal pelagic spp, no squid WA"
+35,1990,0.101365823,Million $,"Coastal pelagic spp, no squid WA"
+35,1991,0.085517782,Million $,"Coastal pelagic spp, no squid WA"
+35,1992,0.079811004,Million $,"Coastal pelagic spp, no squid WA"
+35,1993,0.064333259,Million $,"Coastal pelagic spp, no squid WA"
+35,1994,0.107705995,Million $,"Coastal pelagic spp, no squid WA"
+35,1995,0.15738549,Million $,"Coastal pelagic spp, no squid WA"
+35,1996,0.137133707,Million $,"Coastal pelagic spp, no squid WA"
+35,1997,0.113315686,Million $,"Coastal pelagic spp, no squid WA"
+35,1998,0.137703351,Million $,"Coastal pelagic spp, no squid WA"
+35,1999,0.153206533,Million $,"Coastal pelagic spp, no squid WA"
+35,2000,1.044227285,Million $,"Coastal pelagic spp, no squid WA"
+35,2001,2.123765435,Million $,"Coastal pelagic spp, no squid WA"
+35,2002,3.489287654,Million $,"Coastal pelagic spp, no squid WA"
+35,2003,2.570844212,Million $,"Coastal pelagic spp, no squid WA"
+35,2004,2.156728661,Million $,"Coastal pelagic spp, no squid WA"
+35,2005,1.395248013,Million $,"Coastal pelagic spp, no squid WA"
+35,2006,0.763188674,Million $,"Coastal pelagic spp, no squid WA"
+35,2007,0.806770818,Million $,"Coastal pelagic spp, no squid WA"
+35,2008,2.009985007,Million $,"Coastal pelagic spp, no squid WA"
+35,2009,2.632627425,Million $,"Coastal pelagic spp, no squid WA"
+35,2010,3.919348713,Million $,"Coastal pelagic spp, no squid WA"
+35,2011,3.106087012,Million $,"Coastal pelagic spp, no squid WA"
+35,2012,11.14920568,Million $,"Coastal pelagic spp, no squid WA"
+35,2013,9.941860716,Million $,"Coastal pelagic spp, no squid WA"
+35,2014,4.760385207,Million $,"Coastal pelagic spp, no squid WA"
+35,2015,0.184274505,Million $,"Coastal pelagic spp, no squid WA"
+35,2016,0.190420172,Million $,"Coastal pelagic spp, no squid WA"
+35,2017,0.096257961,Million $,"Coastal pelagic spp, no squid WA"
+35,2018,0.051235468,Million $,"Coastal pelagic spp, no squid WA"
+35,2019,0.059781278,Million $,"Coastal pelagic spp, no squid WA"
+35,2020,0.06540431,Million $,"Coastal pelagic spp, no squid WA"
+35,2021,0.124628936,Million $,"Coastal pelagic spp, no squid WA"
+35,2022,0.135228783,Million $,"Coastal pelagic spp, no squid WA"
+35,2023,0.064009025,Million $,"Coastal pelagic spp, no squid WA"
+35,2024,0.06201435,Million $,"Coastal pelagic spp, no squid WA"
+36,1981,5.914986079,Million $,Highly migratory species WA
+36,1982,1.190559383,Million $,Highly migratory species WA
+36,1983,1.849214445,Million $,Highly migratory species WA
+36,1984,0.27491085,Million $,Highly migratory species WA
+36,1985,0.582213247,Million $,Highly migratory species WA
+36,1986,3.257961276,Million $,Highly migratory species WA
+36,1987,2.924272394,Million $,Highly migratory species WA
+36,1988,9.39733971,Million $,Highly migratory species WA
+36,1989,0.756623547,Million $,Highly migratory species WA
+36,1990,2.207559749,Million $,Highly migratory species WA
+36,1991,1.101538808,Million $,Highly migratory species WA
+36,1992,9.547608209,Million $,Highly migratory species WA
+36,1993,8.590573835,Million $,Highly migratory species WA
+36,1994,17.62537609,Million $,Highly migratory species WA
+36,1995,10.53734977,Million $,Highly migratory species WA
+36,1996,17.91762828,Million $,Highly migratory species WA
+36,1997,12.71819397,Million $,Highly migratory species WA
+36,1998,17.12723715,Million $,Highly migratory species WA
+36,1999,7.118233876,Million $,Highly migratory species WA
+36,2000,10.907863,Million $,Highly migratory species WA
+36,2001,13.93568157,Million $,Highly migratory species WA
+36,2002,12.84300802,Million $,Highly migratory species WA
+36,2003,26.54533425,Million $,Highly migratory species WA
+36,2004,26.07450324,Million $,Highly migratory species WA
+36,2005,17.21454808,Million $,Highly migratory species WA
+36,2006,23.70788299,Million $,Highly migratory species WA
+36,2007,15.93265834,Million $,Highly migratory species WA
+36,2008,25.16849767,Million $,Highly migratory species WA
+36,2009,23.94097156,Million $,Highly migratory species WA
+36,2010,20.74478562,Million $,Highly migratory species WA
+36,2011,31.16588441,Million $,Highly migratory species WA
+36,2012,38.73168015,Million $,Highly migratory species WA
+36,2013,32.37002009,Million $,Highly migratory species WA
+36,2014,27.92244184,Million $,Highly migratory species WA
+36,2015,26.34211318,Million $,Highly migratory species WA
+36,2016,32.11931012,Million $,Highly migratory species WA
+36,2017,29.58475719,Million $,Highly migratory species WA
+36,2018,18.24476449,Million $,Highly migratory species WA
+36,2019,18.13176137,Million $,Highly migratory species WA
+36,2020,17.72096446,Million $,Highly migratory species WA
+36,2021,9.424499545,Million $,Highly migratory species WA
+36,2022,21.57039317,Million $,Highly migratory species WA
+36,2023,4.130006776,Million $,Highly migratory species WA
+36,2024,6.9048979,Million $,Highly migratory species WA
+37,1981,0,Million $,Dummy variable in place of Market squid WA
+37,1982,0,Million $,Dummy variable in place of Market squid WA
+37,1983,0,Million $,Dummy variable in place of Market squid WA
+37,1984,0,Million $,Dummy variable in place of Market squid WA
+37,1985,0,Million $,Dummy variable in place of Market squid WA
+37,1986,0,Million $,Dummy variable in place of Market squid WA
+37,1987,0,Million $,Dummy variable in place of Market squid WA
+37,1988,0,Million $,Dummy variable in place of Market squid WA
+37,1989,0,Million $,Dummy variable in place of Market squid WA
+37,1990,0,Million $,Dummy variable in place of Market squid WA
+37,1991,0,Million $,Dummy variable in place of Market squid WA
+37,1992,0,Million $,Dummy variable in place of Market squid WA
+37,1993,0,Million $,Dummy variable in place of Market squid WA
+37,1994,0,Million $,Dummy variable in place of Market squid WA
+37,1995,0,Million $,Dummy variable in place of Market squid WA
+37,1996,0,Million $,Dummy variable in place of Market squid WA
+37,1997,0,Million $,Dummy variable in place of Market squid WA
+37,1998,0,Million $,Dummy variable in place of Market squid WA
+37,1999,0,Million $,Dummy variable in place of Market squid WA
+37,2000,0,Million $,Dummy variable in place of Market squid WA
+37,2001,0,Million $,Dummy variable in place of Market squid WA
+37,2002,0,Million $,Dummy variable in place of Market squid WA
+37,2003,0,Million $,Dummy variable in place of Market squid WA
+37,2004,0,Million $,Dummy variable in place of Market squid WA
+37,2005,0,Million $,Dummy variable in place of Market squid WA
+37,2006,0,Million $,Dummy variable in place of Market squid WA
+37,2007,0,Million $,Dummy variable in place of Market squid WA
+37,2008,0,Million $,Dummy variable in place of Market squid WA
+37,2009,0,Million $,Dummy variable in place of Market squid WA
+37,2010,0,Million $,Dummy variable in place of Market squid WA
+37,2011,0,Million $,Dummy variable in place of Market squid WA
+37,2012,0,Million $,Dummy variable in place of Market squid WA
+37,2013,0,Million $,Dummy variable in place of Market squid WA
+37,2014,0,Million $,Dummy variable in place of Market squid WA
+37,2015,0,Million $,Dummy variable in place of Market squid WA
+37,2016,0,Million $,Dummy variable in place of Market squid WA
+37,2017,0,Million $,Dummy variable in place of Market squid WA
+37,2018,0,Million $,Dummy variable in place of Market squid WA
+37,2019,0,Million $,Dummy variable in place of Market squid WA
+37,2020,0,Million $,Dummy variable in place of Market squid WA
+37,2021,0,Million $,Dummy variable in place of Market squid WA
+37,2022,0,Million $,Dummy variable in place of Market squid WA
+37,2023,0,Million $,Dummy variable in place of Market squid WA
+37,2024,0,Million $,Dummy variable in place of Market squid WA
+38,1981,18.43162248,Million $,Shrimp WA
+38,1982,9.178557397,Million $,Shrimp WA
+38,1983,13.76416163,Million $,Shrimp WA
+38,1984,5.36151496,Million $,Shrimp WA
+38,1985,10.05955352,Million $,Shrimp WA
+38,1986,26.93406174,Million $,Shrimp WA
+38,1987,31.74725342,Million $,Shrimp WA
+38,1988,21.32933781,Million $,Shrimp WA
+38,1989,15.50353971,Million $,Shrimp WA
+38,1990,16.8325978,Million $,Shrimp WA
+38,1991,13.88662207,Million $,Shrimp WA
+38,1992,9.984125936,Million $,Shrimp WA
+38,1993,12.47482869,Million $,Shrimp WA
+38,1994,8.492830389,Million $,Shrimp WA
+38,1995,13.84792854,Million $,Shrimp WA
+38,1996,9.468087651,Million $,Shrimp WA
+38,1997,6.507733327,Million $,Shrimp WA
+38,1998,5.033575861,Million $,Shrimp WA
+38,1999,5.432583508,Million $,Shrimp WA
+38,2000,6.578279154,Million $,Shrimp WA
+38,2001,6.511964412,Million $,Shrimp WA
+38,2002,7.791808457,Million $,Shrimp WA
+38,2003,6.299401211,Million $,Shrimp WA
+38,2004,5.999870227,Million $,Shrimp WA
+38,2005,7.023483742,Million $,Shrimp WA
+38,2006,5.679551753,Million $,Shrimp WA
+38,2007,5.822585135,Million $,Shrimp WA
+38,2008,7.858861156,Million $,Shrimp WA
+38,2009,6.043197575,Million $,Shrimp WA
+38,2010,8.000188408,Million $,Shrimp WA
+38,2011,9.987960065,Million $,Shrimp WA
+38,2012,9.505633376,Million $,Shrimp WA
+38,2013,11.60340841,Million $,Shrimp WA
+38,2014,25.94857403,Million $,Shrimp WA
+38,2015,43.44301339,Million $,Shrimp WA
+38,2016,15.80273499,Million $,Shrimp WA
+38,2017,9.100688731,Million $,Shrimp WA
+38,2018,12.20023972,Million $,Shrimp WA
+38,2019,13.9243566,Million $,Shrimp WA
+38,2020,14.01742378,Million $,Shrimp WA
+38,2021,19.5101146,Million $,Shrimp WA
+38,2022,20.71406276,Million $,Shrimp WA
+38,2023,12.67450027,Million $,Shrimp WA
+38,2024,15.12145267,Million $,Shrimp WA
+39,1981,8.77864617,Million $,Crab WA
+39,1982,12.18787941,Million $,Crab WA
+39,1983,21.03497519,Million $,Crab WA
+39,1984,28.73514039,Million $,Crab WA
+39,1985,19.6833439,Million $,Crab WA
+39,1986,20.23209243,Million $,Crab WA
+39,1987,18.95991561,Million $,Crab WA
+39,1988,55.78124227,Million $,Crab WA
+39,1989,64.50228149,Million $,Crab WA
+39,1990,32.55974795,Million $,Crab WA
+39,1991,30.56223431,Million $,Crab WA
+39,1992,26.85823585,Million $,Crab WA
+39,1993,37.08168776,Million $,Crab WA
+39,1994,60.66418557,Million $,Crab WA
+39,1995,83.46799929,Million $,Crab WA
+39,1996,60.92471848,Million $,Crab WA
+39,1997,60.02616685,Million $,Crab WA
+39,1998,51.79596822,Million $,Crab WA
+39,1999,57.48012036,Million $,Crab WA
+39,2000,89.34256611,Million $,Crab WA
+39,2001,58.28419017,Million $,Crab WA
+39,2002,62.34387756,Million $,Crab WA
+39,2003,80.46329486,Million $,Crab WA
+39,2004,74.22401933,Million $,Crab WA
+39,2005,82.98180185,Million $,Crab WA
+39,2006,67.39517824,Million $,Crab WA
+39,2007,73.26268797,Million $,Crab WA
+39,2008,84.57398181,Million $,Crab WA
+39,2009,60.95599297,Million $,Crab WA
+39,2010,85.36606616,Million $,Crab WA
+39,2011,121.377912,Million $,Crab WA
+39,2012,83.70529432,Million $,Crab WA
+39,2013,107.7742648,Million $,Crab WA
+39,2014,100.086338,Million $,Crab WA
+39,2015,103.074568,Million $,Crab WA
+39,2016,120.5075462,Million $,Crab WA
+39,2017,126.8165698,Million $,Crab WA
+39,2018,114.9446093,Million $,Crab WA
+39,2019,107.6172887,Million $,Crab WA
+39,2020,86.53584402,Million $,Crab WA
+39,2021,122.647102,Million $,Crab WA
+39,2022,138.7760833,Million $,Crab WA
+39,2023,105.927041,Million $,Crab WA
+39,2024,98.08495272,Million $,Crab WA
+40,1981,5.338827129,Million $,Other species WA
+40,1982,5.02294081,Million $,Other species WA
+40,1983,4.785476181,Million $,Other species WA
+40,1984,4.175872045,Million $,Other species WA
+40,1985,4.94041289,Million $,Other species WA
+40,1986,7.570444681,Million $,Other species WA
+40,1987,9.188794786,Million $,Other species WA
+40,1988,17.39838946,Million $,Other species WA
+40,1989,18.19371428,Million $,Other species WA
+40,1990,13.14544111,Million $,Other species WA
+40,1991,22.02791258,Million $,Other species WA
+40,1992,22.73233159,Million $,Other species WA
+40,1993,20.34790114,Million $,Other species WA
+40,1994,13.54939132,Million $,Other species WA
+40,1995,10.28486745,Million $,Other species WA
+40,1996,7.595306063,Million $,Other species WA
+40,1997,6.162086357,Million $,Other species WA
+40,1998,4.96595416,Million $,Other species WA
+40,1999,4.473718223,Million $,Other species WA
+40,2000,5.714109829,Million $,Other species WA
+40,2001,5.74892379,Million $,Other species WA
+40,2002,5.754356692,Million $,Other species WA
+40,2003,6.077747683,Million $,Other species WA
+40,2004,6.862584879,Million $,Other species WA
+40,2005,7.709574114,Million $,Other species WA
+40,2006,6.715694191,Million $,Other species WA
+40,2007,6.801558379,Million $,Other species WA
+40,2008,7.380484614,Million $,Other species WA
+40,2009,5.844023728,Million $,Other species WA
+40,2010,7.738567373,Million $,Other species WA
+40,2011,11.50554242,Million $,Other species WA
+40,2012,14.25286427,Million $,Other species WA
+40,2013,10.8263355,Million $,Other species WA
+40,2014,9.716415758,Million $,Other species WA
+40,2015,12.16444259,Million $,Other species WA
+40,2016,11.80560554,Million $,Other species WA
+40,2017,11.67847262,Million $,Other species WA
+40,2018,10.11216788,Million $,Other species WA
+40,2019,10.52449214,Million $,Other species WA
+40,2020,6.837433187,Million $,Other species WA
+40,2021,9.325744734,Million $,Other species WA
+40,2022,10.44500171,Million $,Other species WA
+40,2023,7.949227834,Million $,Other species WA
+40,2024,6.640343162,Million $,Other species WA

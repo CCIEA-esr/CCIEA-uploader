@@ -1,0 +1,141 @@
+year,data,metric,timeseries
+2009,0.108743109,mean % albacore diet,anchovy
+2010,0.146435066,mean % albacore diet,anchovy
+2011,0.799232613,mean % albacore diet,anchovy
+2012,0.14070667,mean % albacore diet,anchovy
+2013,0.285604801,mean % albacore diet,anchovy
+2014,0.19908161,mean % albacore diet,anchovy
+2015,0.15964203,mean % albacore diet,anchovy
+2017,0.513223249,mean % albacore diet,anchovy
+2018,0.00835346,mean % albacore diet,anchovy
+2019,0.101775096,mean % albacore diet,anchovy
+2020,0.152439494,mean % albacore diet,anchovy
+2021,0.088518751,mean % albacore diet,anchovy
+2022,0.268396571,mean % albacore diet,anchovy
+2023,0.058680927,mean % albacore diet,anchovy
+2009,0.356724757,mean % albacore diet,Euphausiidae
+2010,0.038410162,mean % albacore diet,Euphausiidae
+2011,0.002769632,mean % albacore diet,Euphausiidae
+2012,0.073794699,mean % albacore diet,Euphausiidae
+2013,0.054213563,mean % albacore diet,Euphausiidae
+2014,0.230762154,mean % albacore diet,Euphausiidae
+2015,0.091982678,mean % albacore diet,Euphausiidae
+2017,0.099130435,mean % albacore diet,Euphausiidae
+2018,0.329093389,mean % albacore diet,Euphausiidae
+2019,0.255955574,mean % albacore diet,Euphausiidae
+2020,0.154393984,mean % albacore diet,Euphausiidae
+2021,0.184545819,mean % albacore diet,Euphausiidae
+2022,0.032959717,mean % albacore diet,Euphausiidae
+2023,0.098387932,mean % albacore diet,Euphausiidae
+2009,0,mean % albacore diet,hake
+2010,0.056305436,mean % albacore diet,hake
+2011,0,mean % albacore diet,hake
+2012,0,mean % albacore diet,hake
+2013,0,mean % albacore diet,hake
+2014,0,mean % albacore diet,hake
+2015,0,mean % albacore diet,hake
+2017,0,mean % albacore diet,hake
+2018,0,mean % albacore diet,hake
+2019,0,mean % albacore diet,hake
+2020,0,mean % albacore diet,hake
+2021,0,mean % albacore diet,hake
+2022,0,mean % albacore diet,hake
+2023,0,mean % albacore diet,hake
+2009,0,mean % albacore diet,jack mackerel
+2010,0,mean % albacore diet,jack mackerel
+2011,0,mean % albacore diet,jack mackerel
+2012,0,mean % albacore diet,jack mackerel
+2013,0.004267773,mean % albacore diet,jack mackerel
+2014,0,mean % albacore diet,jack mackerel
+2015,0.045989103,mean % albacore diet,jack mackerel
+2017,0,mean % albacore diet,jack mackerel
+2018,0.004379506,mean % albacore diet,jack mackerel
+2019,0.004076996,mean % albacore diet,jack mackerel
+2020,0.02010631,mean % albacore diet,jack mackerel
+2021,0.034747128,mean % albacore diet,jack mackerel
+2022,0.004084625,mean % albacore diet,jack mackerel
+2023,0,mean % albacore diet,jack mackerel
+2009,0,mean % albacore diet,market squid
+2010,0.000980392,mean % albacore diet,market squid
+2011,0,mean % albacore diet,market squid
+2012,0.02664806,mean % albacore diet,market squid
+2013,0.000315259,mean % albacore diet,market squid
+2014,0,mean % albacore diet,market squid
+2015,0,mean % albacore diet,market squid
+2017,0,mean % albacore diet,market squid
+2018,0,mean % albacore diet,market squid
+2019,0,mean % albacore diet,market squid
+2020,0,mean % albacore diet,market squid
+2021,0,mean % albacore diet,market squid
+2022,0,mean % albacore diet,market squid
+2023,0.004166667,mean % albacore diet,market squid
+2009,0.529714321,mean % albacore diet,other
+2010,0.718828487,mean % albacore diet,other
+2011,0.170257543,mean % albacore diet,other
+2012,0.589035267,mean % albacore diet,other
+2013,0.452817182,mean % albacore diet,other
+2014,0.521578099,mean % albacore diet,other
+2015,0.611085711,mean % albacore diet,other
+2017,0.257821437,mean % albacore diet,other
+2018,0.462264762,mean % albacore diet,other
+2019,0.437415138,mean % albacore diet,other
+2020,0.44718338,mean % albacore diet,other
+2021,0.449770172,mean % albacore diet,other
+2022,0.121167443,mean % albacore diet,other
+2023,0.365915989,mean % albacore diet,other
+2009,0,mean % albacore diet,Pacific mackerel
+2010,0,mean % albacore diet,Pacific mackerel
+2011,0,mean % albacore diet,Pacific mackerel
+2012,0,mean % albacore diet,Pacific mackerel
+2013,0,mean % albacore diet,Pacific mackerel
+2014,0,mean % albacore diet,Pacific mackerel
+2015,0.00035461,mean % albacore diet,Pacific mackerel
+2017,0,mean % albacore diet,Pacific mackerel
+2018,0,mean % albacore diet,Pacific mackerel
+2019,0.001983742,mean % albacore diet,Pacific mackerel
+2020,0.004590465,mean % albacore diet,Pacific mackerel
+2021,0,mean % albacore diet,Pacific mackerel
+2022,0.001988701,mean % albacore diet,Pacific mackerel
+2023,0,mean % albacore diet,Pacific mackerel
+2009,0,mean % albacore diet,Pacific saury
+2010,0.030575496,mean % albacore diet,Pacific saury
+2011,0.002072002,mean % albacore diet,Pacific saury
+2012,0.114366883,mean % albacore diet,Pacific saury
+2013,0.081647022,mean % albacore diet,Pacific saury
+2014,0.02478565,mean % albacore diet,Pacific saury
+2015,0.046224614,mean % albacore diet,Pacific saury
+2017,0.010694444,mean % albacore diet,Pacific saury
+2018,0.033264263,mean % albacore diet,Pacific saury
+2019,0.114451069,mean % albacore diet,Pacific saury
+2020,0.02821889,mean % albacore diet,Pacific saury
+2021,0.155970433,mean % albacore diet,Pacific saury
+2022,0.011656797,mean % albacore diet,Pacific saury
+2023,0.1075,mean % albacore diet,Pacific saury
+2009,0.004817814,mean % albacore diet,rockfishes
+2010,0.00846496,mean % albacore diet,rockfishes
+2011,0.02566821,mean % albacore diet,rockfishes
+2012,0.055448421,mean % albacore diet,rockfishes
+2013,0.1211344,mean % albacore diet,rockfishes
+2014,0.023792487,mean % albacore diet,rockfishes
+2015,0.044721254,mean % albacore diet,rockfishes
+2017,0.051630435,mean % albacore diet,rockfishes
+2018,0.107521368,mean % albacore diet,rockfishes
+2019,0.070500352,mean % albacore diet,rockfishes
+2020,0.115229582,mean % albacore diet,rockfishes
+2021,0.045939095,mean % albacore diet,rockfishes
+2022,0.001112347,mean % albacore diet,rockfishes
+2023,0.009166667,mean % albacore diet,rockfishes
+2009,0,mean % albacore diet,sardine
+2010,0,mean % albacore diet,sardine
+2011,0,mean % albacore diet,sardine
+2012,0,mean % albacore diet,sardine
+2013,0,mean % albacore diet,sardine
+2014,0,mean % albacore diet,sardine
+2015,0,mean % albacore diet,sardine
+2017,0.0675,mean % albacore diet,sardine
+2018,0.055123252,mean % albacore diet,sardine
+2019,0.013842034,mean % albacore diet,sardine
+2020,0.077837896,mean % albacore diet,sardine
+2021,0.040508603,mean % albacore diet,sardine
+2022,0.558633799,mean % albacore diet,sardine
+2023,0.356181818,mean % albacore diet,sardine
