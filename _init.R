@@ -9,7 +9,7 @@ headervarsmon=c("time","index","timeseries","metric","SEup","SElo")
 # CCIEA folder names on Google Drive so we don't have to remember them
 cciea_folders=c("_CCIEA","CCIEA ESR data","CCIEA Data Upload")
 # name of Greg's file naming conventions spreadsheet
-file_name_conventions="Data Figure Naming Conventions"
+file_name_conventions="Data File Naming Conventions"
 # name of folder where metadata spreadsheet is located
 metadata_spreadsheet_folder="ERDDAP metadata spreadsheet"
 # partial name of metadata file, the rest of the name can be the date and version, but there can only be one metadata file in the folder
