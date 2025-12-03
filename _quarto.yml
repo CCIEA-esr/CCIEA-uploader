@@ -7,6 +7,7 @@ website:
   favicon: "figures/favicon.ico"
   search: false
   navbar:
+    title: false
     background: "#276189"
     collapse: false
     search: false
@@ -14,7 +15,7 @@ website:
     logo-alt: "California Current Integrated Ecosystem Assessment Website"
     logo-href: "https://www.integratedecosystemassessment.noaa.gov/regions/california-current"
     left:
-    - text: "Uploader"
+    - text: "CCIEA Uploader"
       href: index.qmd
     - text: "How To"
       href: work_flow1.qmd
