@@ -310,16 +310,20 @@ clean_file <- function(df,datares){
   cn[cn%in%c("se","standard.error","error")]<-"SE"
   cn[cn%in%c("sd","standard.deviation", "stdev")]<-"SD"
   colnames(df) <- cn
+  yr=grep("year",cn)
   mth = grep("month",cn)
   day = grep("day",cn)
+  tim = grep("time",cn)
   if(length(day==1)){DAY = df$day}else{DAY=15}
   if(length(mth)==1){
     df$month = ifelse(nchar(df$month)==1,paste(0,df$month,sep=""),df$month)
     df$year = paste(df$year,df$month,DAY,sep='-')
   }
   # fix year to 10 places
-  df$year = as.character(df$year)
-  df$year = ifelse(nchar(df$year)>10,substring(df$year,1,10),df$year)
+  if(length(yr)==1){
+    df$year = as.character(df$year)
+    df$year = ifelse(nchar(df$year)>10,substring(df$year,1,10),df$year)
+    }
   # check year of data
   # yr = grep(report.year,x2)
   # if(length(yr)==0){df$type="old.data"}else{df$type="current.data"}
