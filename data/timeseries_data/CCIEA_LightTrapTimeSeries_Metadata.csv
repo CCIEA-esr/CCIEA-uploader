@@ -1,0 +1,3 @@
+Dataset_Title,Title,Long_variable_name,Units,Background_Info,Institution,region,latitude,latitude2,longitude,longitude2,Sampling_frequency,Source_Data,Additional_Calculations,CCIEA_timeseries_ID,serve_flag,PI_ID
+Dungeness Megalopae Annual,Annual number of Dungeness megalopae,NA,Number megalopae,NA,OIMB ODFW,NA,NA,NA,NA,NA,Annualy (April to September),NA,NA,NA,NA,NA
+Dungeness Megalopae Daily,Daily number of Dungeness megalopae - 2025,NA,Number megalopae,NA,OIMB ODFW,NA,NA,NA,NA,NA,Daily (April to September),NA,NA,NA,NA,NA
