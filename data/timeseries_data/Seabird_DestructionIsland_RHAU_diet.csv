@@ -1,91 +1,86 @@
-year,index,metric,order,timeseries
-2008,0.495870653,% auklet chick diet,1,Northern anchovy (No CC Rhinoceros auklet)
-2009,0.8374613,% auklet chick diet,1,Northern anchovy (No CC Rhinoceros auklet)
-2010,0.815605381,% auklet chick diet,1,Northern anchovy (No CC Rhinoceros auklet)
-2011,NA,% auklet chick diet,1,Northern anchovy (No CC Rhinoceros auklet)
-2012,NA,% auklet chick diet,1,Northern anchovy (No CC Rhinoceros auklet)
-2013,0.820125786,% auklet chick diet,1,Northern anchovy (No CC Rhinoceros auklet)
-2014,NA,% auklet chick diet,1,Northern anchovy (No CC Rhinoceros auklet)
-2015,1,% auklet chick diet,1,Northern anchovy (No CC Rhinoceros auklet)
-2016,0.573356603,% auklet chick diet,1,Northern anchovy (No CC Rhinoceros auklet)
-2017,0.357288689,% auklet chick diet,1,Northern anchovy (No CC Rhinoceros auklet)
-2018,0.070958647,% auklet chick diet,1,Northern anchovy (No CC Rhinoceros auklet)
-2019,0.052759346,% auklet chick diet,1,Northern anchovy (No CC Rhinoceros auklet)
-2020,NA,% auklet chick diet,1,Northern anchovy (No CC Rhinoceros auklet)
-2021,0.028141269,% auklet chick diet,1,Northern anchovy (No CC Rhinoceros auklet)
-2022,0.032945419,% auklet chick diet,1,Northern anchovy (No CC Rhinoceros auklet)
-2023,0.014090709,% auklet chick diet,1,Northern anchovy (No CC Rhinoceros auklet)
-2024,0.170748863,% auklet chick diet,1,Northern anchovy (No CC Rhinoceros auklet)
-2025,0.059687317,% auklet chick diet,1,Northern anchovy (No CC Rhinoceros auklet)
-2008,0.116940018,% auklet chick diet,2,Pacific herring (No CC Rhinoceros auklet)
-2009,0.065766019,% auklet chick diet,2,Pacific herring (No CC Rhinoceros auklet)
-2010,0.029910314,% auklet chick diet,2,Pacific herring (No CC Rhinoceros auklet)
-2011,NA,% auklet chick diet,2,Pacific herring (No CC Rhinoceros auklet)
-2012,NA,% auklet chick diet,2,Pacific herring (No CC Rhinoceros auklet)
-2013,0.023180593,% auklet chick diet,2,Pacific herring (No CC Rhinoceros auklet)
-2014,NA,% auklet chick diet,2,Pacific herring (No CC Rhinoceros auklet)
-2015,0,% auklet chick diet,2,Pacific herring (No CC Rhinoceros auklet)
-2016,0,% auklet chick diet,2,Pacific herring (No CC Rhinoceros auklet)
-2017,0.261467266,% auklet chick diet,2,Pacific herring (No CC Rhinoceros auklet)
-2018,0.624765038,% auklet chick diet,2,Pacific herring (No CC Rhinoceros auklet)
-2019,0.152937369,% auklet chick diet,2,Pacific herring (No CC Rhinoceros auklet)
-2020,NA,% auklet chick diet,2,Pacific herring (No CC Rhinoceros auklet)
-2021,0.227662868,% auklet chick diet,2,Pacific herring (No CC Rhinoceros auklet)
-2022,0.490165547,% auklet chick diet,2,Pacific herring (No CC Rhinoceros auklet)
-2023,0.134805309,% auklet chick diet,2,Pacific herring (No CC Rhinoceros auklet)
-2024,0.211888312,% auklet chick diet,2,Pacific herring (No CC Rhinoceros auklet)
-2025,0.094170076,% auklet chick diet,2,Pacific herring (No CC Rhinoceros auklet)
-2008,0.130006591,% auklet chick diet,3,Rockfish juveniles (No CC Rhinoceros auklet)
-2009,0,% auklet chick diet,3,Rockfish juveniles (No CC Rhinoceros auklet)
-2010,0.024304933,% auklet chick diet,3,Rockfish juveniles (No CC Rhinoceros auklet)
-2011,NA,% auklet chick diet,3,Rockfish juveniles (No CC Rhinoceros auklet)
-2012,NA,% auklet chick diet,3,Rockfish juveniles (No CC Rhinoceros auklet)
-2013,0,% auklet chick diet,3,Rockfish juveniles (No CC Rhinoceros auklet)
-2014,NA,% auklet chick diet,3,Rockfish juveniles (No CC Rhinoceros auklet)
-2015,0,% auklet chick diet,3,Rockfish juveniles (No CC Rhinoceros auklet)
-2016,0.175450844,% auklet chick diet,3,Rockfish juveniles (No CC Rhinoceros auklet)
-2017,0.017149857,% auklet chick diet,3,Rockfish juveniles (No CC Rhinoceros auklet)
-2018,0,% auklet chick diet,3,Rockfish juveniles (No CC Rhinoceros auklet)
-2019,0.004612397,% auklet chick diet,3,Rockfish juveniles (No CC Rhinoceros auklet)
-2020,NA,% auklet chick diet,3,Rockfish juveniles (No CC Rhinoceros auklet)
-2021,0.004502603,% auklet chick diet,3,Rockfish juveniles (No CC Rhinoceros auklet)
-2022,0.035731847,% auklet chick diet,3,Rockfish juveniles (No CC Rhinoceros auklet)
-2023,0.088884695,% auklet chick diet,3,Rockfish juveniles (No CC Rhinoceros auklet)
-2024,0.037659264,% auklet chick diet,3,Rockfish juveniles (No CC Rhinoceros auklet)
-2025,0.01037405,% auklet chick diet,3,Rockfish juveniles (No CC Rhinoceros auklet)
-2008,0.145283238,% auklet chick diet,4,Smelts (No CC Rhinoceros auklet)
-2009,0.060230791,% auklet chick diet,4,Smelts (No CC Rhinoceros auklet)
-2010,0.094215247,% auklet chick diet,4,Smelts (No CC Rhinoceros auklet)
-2011,NA,% auklet chick diet,4,Smelts (No CC Rhinoceros auklet)
-2012,NA,% auklet chick diet,4,Smelts (No CC Rhinoceros auklet)
-2013,0.086373166,% auklet chick diet,4,Smelts (No CC Rhinoceros auklet)
-2014,NA,% auklet chick diet,4,Smelts (No CC Rhinoceros auklet)
-2015,0,% auklet chick diet,4,Smelts (No CC Rhinoceros auklet)
-2016,0.107038976,% auklet chick diet,4,Smelts (No CC Rhinoceros auklet)
-2017,0.048591262,% auklet chick diet,4,Smelts (No CC Rhinoceros auklet)
-2018,0.292763158,% auklet chick diet,4,Smelts (No CC Rhinoceros auklet)
-2019,0.590386794,% auklet chick diet,4,Smelts (No CC Rhinoceros auklet)
-2020,NA,% auklet chick diet,4,Smelts (No CC Rhinoceros auklet)
-2021,0.124243703,% auklet chick diet,4,Smelts (No CC Rhinoceros auklet)
-2022,0.31322734,% auklet chick diet,4,Smelts (No CC Rhinoceros auklet)
-2023,0.561237969,% auklet chick diet,4,Smelts (No CC Rhinoceros auklet)
-2024,0.422970686,% auklet chick diet,4,Smelts (No CC Rhinoceros auklet)
-2025,0.495543542,% auklet chick diet,4,Smelts (No CC Rhinoceros auklet)
-2008,0.013609399,% auklet chick diet,5,Sandlance (No CC Rhinoceros auklet)
-2009,0.019091847,% auklet chick diet,5,Sandlance (No CC Rhinoceros auklet)
-2010,0.001793722,% auklet chick diet,5,Sandlance (No CC Rhinoceros auklet)
-2011,NA,% auklet chick diet,5,Sandlance (No CC Rhinoceros auklet)
-2012,NA,% auklet chick diet,5,Sandlance (No CC Rhinoceros auklet)
-2013,0.023300389,% auklet chick diet,5,Sandlance (No CC Rhinoceros auklet)
-2014,NA,% auklet chick diet,5,Sandlance (No CC Rhinoceros auklet)
-2015,0,% auklet chick diet,5,Sandlance (No CC Rhinoceros auklet)
-2016,0.12565445,% auklet chick diet,5,Sandlance (No CC Rhinoceros auklet)
-2017,0.268000544,% auklet chick diet,5,Sandlance (No CC Rhinoceros auklet)
-2018,0,% auklet chick diet,5,Sandlance (No CC Rhinoceros auklet)
-2019,0.1345687,% auklet chick diet,5,Sandlance (No CC Rhinoceros auklet)
-2020,NA,% auklet chick diet,5,Sandlance (No CC Rhinoceros auklet)
-2021,0.615449557,% auklet chick diet,5,Sandlance (No CC Rhinoceros auklet)
-2022,0.032043927,% auklet chick diet,5,Sandlance (No CC Rhinoceros auklet)
-2023,0.145373341,% auklet chick diet,5,Sandlance (No CC Rhinoceros auklet)
-2024,0.156732876,% auklet chick diet,5,Sandlance (No CC Rhinoceros auklet)
-2025,0.333211572,% auklet chick diet,5,Sandlance (No CC Rhinoceros auklet)
+year,index,metric,order,timeseries,,,,,,,,,,,,,,,,,
+2008,0.496,% auklet chick diet,1,Northern anchovy (No CC Rhinoceros auklet),,,,,,,,,,,,,,,,,
+2009,0.837,% auklet chick diet,1,Northern anchovy (No CC Rhinoceros auklet),,,,,,,,,,,,,,,,,
+2010,0.816,% auklet chick diet,1,Northern anchovy (No CC Rhinoceros auklet),,,,,,,,,,,,,,,,,
+2011,NA,% auklet chick diet,1,Northern anchovy (No CC Rhinoceros auklet),,,,,,,,,,,,,,,,,
+2012,NA,% auklet chick diet,1,Northern anchovy (No CC Rhinoceros auklet),,,,,,,,,,,,,,,,,
+2013,0.82,% auklet chick diet,1,Northern anchovy (No CC Rhinoceros auklet),,,,,,,,,,,,,,,,,
+2014,NA,% auklet chick diet,1,Northern anchovy (No CC Rhinoceros auklet),,,,,,,,,,,,,,,,,
+2015,1,% auklet chick diet,1,Northern anchovy (No CC Rhinoceros auklet),,,,,,,,,,,,,,,,,
+2016,0.573,% auklet chick diet,1,Northern anchovy (No CC Rhinoceros auklet),,,,,,,,,,,,,,,,,
+2017,0.357,% auklet chick diet,1,Northern anchovy (No CC Rhinoceros auklet),,,,,,,,,,,,,,,,,
+2018,0.071,% auklet chick diet,1,Northern anchovy (No CC Rhinoceros auklet),,,,,,,,,,,,,,,,,
+2019,0.053,% auklet chick diet,1,Northern anchovy (No CC Rhinoceros auklet),,,,,,,,,,,,,,,,,
+2020,NA,% auklet chick diet,1,Northern anchovy (No CC Rhinoceros auklet),,,,,,,,,,,,,,,,,
+2021,0.028,% auklet chick diet,1,Northern anchovy (No CC Rhinoceros auklet),,,,,,,,,,,,,,,,,
+2022,0.033,% auklet chick diet,1,Northern anchovy (No CC Rhinoceros auklet),,,,,,,,,,,,,,,,,
+2023,0.014,% auklet chick diet,1,Northern anchovy (No CC Rhinoceros auklet),,,,,,,,,,,,,,,,,
+2024,0.171,% auklet chick diet,1,Northern anchovy (No CC Rhinoceros auklet),,,,,,,,,,,,,,,,,
+2008,0.117,% auklet chick diet,2,Pacific herring (No CC Rhinoceros auklet),,,,,,,,,,,,,,,,,
+2009,0.066,% auklet chick diet,2,Pacific herring (No CC Rhinoceros auklet),,,,,,,,,,,,,,,,,
+2010,0.03,% auklet chick diet,2,Pacific herring (No CC Rhinoceros auklet),,,,,,,,,,,,,,,,,
+2011,NA,% auklet chick diet,2,Pacific herring (No CC Rhinoceros auklet),,,,,,,,,,,,,,,,,
+2012,NA,% auklet chick diet,2,Pacific herring (No CC Rhinoceros auklet),,,,,,,,,,,,,,,,,
+2013,0.023,% auklet chick diet,2,Pacific herring (No CC Rhinoceros auklet),,,,,,,,,,,,,,,,,
+2014,NA,% auklet chick diet,2,Pacific herring (No CC Rhinoceros auklet),,,,,,,,,,,,,,,,,
+2015,0,% auklet chick diet,2,Pacific herring (No CC Rhinoceros auklet),,,,,,,,,,,,,,,,,
+2016,0,% auklet chick diet,2,Pacific herring (No CC Rhinoceros auklet),,,,,,,,,,,,,,,,,
+2017,0.261,% auklet chick diet,2,Pacific herring (No CC Rhinoceros auklet),,,,,,,,,,,,,,,,,
+2018,0.625,% auklet chick diet,2,Pacific herring (No CC Rhinoceros auklet),,,,,,,,,,,,,,,,,
+2019,0.153,% auklet chick diet,2,Pacific herring (No CC Rhinoceros auklet),,,,,,,,,,,,,,,,,
+2020,NA,% auklet chick diet,2,Pacific herring (No CC Rhinoceros auklet),,,,,,,,,,,,,,,,,
+2021,0.228,% auklet chick diet,2,Pacific herring (No CC Rhinoceros auklet),,,,,,,,,,,,,,,,,
+2022,0.049,% auklet chick diet,2,Pacific herring (No CC Rhinoceros auklet),,,,,,,,,,,,,,,,,
+2023,0.135,% auklet chick diet,2,Pacific herring (No CC Rhinoceros auklet),,,,,,,,,,,,,,,,,
+2024,0.212,% auklet chick diet,2,Pacific herring (No CC Rhinoceros auklet),,,,,,,,,,,,,,,,,
+2008,0.13,% auklet chick diet,3,Rockfish juveniles (No CC Rhinoceros auklet),,,,,,,,,,,,,,,,,
+2009,0,% auklet chick diet,3,Rockfish juveniles (No CC Rhinoceros auklet),,,,,,,,,,,,,,,,,
+2010,0.024,% auklet chick diet,3,Rockfish juveniles (No CC Rhinoceros auklet),,,,,,,,,,,,,,,,,
+2011,NA,% auklet chick diet,3,Rockfish juveniles (No CC Rhinoceros auklet),,,,,,,,,,,,,,,,,
+2012,NA,% auklet chick diet,3,Rockfish juveniles (No CC Rhinoceros auklet),,,,,,,,,,,,,,,,,
+2013,0,% auklet chick diet,3,Rockfish juveniles (No CC Rhinoceros auklet),,,,,,,,,,,,,,,,,
+2014,NA,% auklet chick diet,3,Rockfish juveniles (No CC Rhinoceros auklet),,,,,,,,,,,,,,,,,
+2015,0,% auklet chick diet,3,Rockfish juveniles (No CC Rhinoceros auklet),,,,,,,,,,,,,,,,,
+2016,0.176,% auklet chick diet,3,Rockfish juveniles (No CC Rhinoceros auklet),,,,,,,,,,,,,,,,,
+2017,0.017,% auklet chick diet,3,Rockfish juveniles (No CC Rhinoceros auklet),,,,,,,,,,,,,,,,,
+2018,0,% auklet chick diet,3,Rockfish juveniles (No CC Rhinoceros auklet),,,,,,,,,,,,,,,,,
+2019,0.005,% auklet chick diet,3,Rockfish juveniles (No CC Rhinoceros auklet),,,,,,,,,,,,,,,,,
+2020,NA,% auklet chick diet,3,Rockfish juveniles (No CC Rhinoceros auklet),,,,,,,,,,,,,,,,,
+2021,0.0045,% auklet chick diet,3,Rockfish juveniles (No CC Rhinoceros auklet),,,,,,,,,,,,,,,,,
+2022,0.0357,% auklet chick diet,3,Rockfish juveniles (No CC Rhinoceros auklet),,,,,,,,,,,,,,,,,
+2023,0.09,% auklet chick diet,3,Rockfish juveniles (No CC Rhinoceros auklet),,,,,,,,,,,,,,,,,
+2024,0.0377,% auklet chick diet,3,Rockfish juveniles (No CC Rhinoceros auklet),,,,,,,,,,,,,,,,,
+2008,0.145,% auklet chick diet,4,Smelts (No CC Rhinoceros auklet),,,,,,,,,,,,,,,,,
+2009,0.06,% auklet chick diet,4,Smelts (No CC Rhinoceros auklet),,,,,,,,,,,,,,,,,
+2010,0.094,% auklet chick diet,4,Smelts (No CC Rhinoceros auklet),,,,,,,,,,,,,,,,,
+2011,NA,% auklet chick diet,4,Smelts (No CC Rhinoceros auklet),,,,,,,,,,,,,,,,,
+2012,NA,% auklet chick diet,4,Smelts (No CC Rhinoceros auklet),,,,,,,,,,,,,,,,,
+2013,0.086,% auklet chick diet,4,Smelts (No CC Rhinoceros auklet),,,,,,,,,,,,,,,,,
+2014,NA,% auklet chick diet,4,Smelts (No CC Rhinoceros auklet),,,,,,,,,,,,,,,,,
+2015,0,% auklet chick diet,4,Smelts (No CC Rhinoceros auklet),,,,,,,,,,,,,,,,,
+2016,0.107,% auklet chick diet,4,Smelts (No CC Rhinoceros auklet),,,,,,,,,,,,,,,,,
+2017,0.049,% auklet chick diet,4,Smelts (No CC Rhinoceros auklet),,,,,,,,,,,,,,,,,
+2018,0.293,% auklet chick diet,4,Smelts (No CC Rhinoceros auklet),,,,,,,,,,,,,,,,,
+2019,0.59,% auklet chick diet,4,Smelts (No CC Rhinoceros auklet),,,,,,,,,,,,,,,,,
+2020,NA,% auklet chick diet,4,Smelts (No CC Rhinoceros auklet),,,,,,,,,,,,,,,,,
+2021,0.124,% auklet chick diet,4,Smelts (No CC Rhinoceros auklet),,,,,,,,,,,,,,,,,
+2022,0.313,% auklet chick diet,4,Smelts (No CC Rhinoceros auklet),,,,,,,,,,,,,,,,,
+2023,0.561,% auklet chick diet,4,Smelts (No CC Rhinoceros auklet),,,,,,,,,,,,,,,,,
+2024,0.423,% auklet chick diet,4,Smelts (No CC Rhinoceros auklet),,,,,,,,,,,,,,,,,
+2008,0.014,% auklet chick diet,5,Sandlance (No CC Rhinoceros auklet),,,,,,,,,,,,,,,,,
+2009,0.019,% auklet chick diet,5,Sandlance (No CC Rhinoceros auklet),,,,,,,,,,,,,,,,,
+2010,0.002,% auklet chick diet,5,Sandlance (No CC Rhinoceros auklet),,,,,,,,,,,,,,,,,
+2011,NA,% auklet chick diet,5,Sandlance (No CC Rhinoceros auklet),,,,,,,,,,,,,,,,,
+2012,NA,% auklet chick diet,5,Sandlance (No CC Rhinoceros auklet),,,,,,,,,,,,,,,,,
+2013,0.023,% auklet chick diet,5,Sandlance (No CC Rhinoceros auklet),,,,,,,,,,,,,,,,,
+2014,NA,% auklet chick diet,5,Sandlance (No CC Rhinoceros auklet),,,,,,,,,,,,,,,,,
+2015,0,% auklet chick diet,5,Sandlance (No CC Rhinoceros auklet),,,,,,,,,,,,,,,,,
+2016,0.126,% auklet chick diet,5,Sandlance (No CC Rhinoceros auklet),,,,,,,,,,,,,,,,,
+2017,0.268,% auklet chick diet,5,Sandlance (No CC Rhinoceros auklet),,,,,,,,,,,,,,,,,
+2018,0,% auklet chick diet,5,Sandlance (No CC Rhinoceros auklet),,,,,,,,,,,,,,,,,
+2019,0.135,% auklet chick diet,5,Sandlance (No CC Rhinoceros auklet),,,,,,,,,,,,,,,,,
+2020,NA,% auklet chick diet,5,Sandlance (No CC Rhinoceros auklet),,,,,,,,,,,,,,,,,
+2021,0.615,% auklet chick diet,5,Sandlance (No CC Rhinoceros auklet),,,,,,,,,,,,,,,,,
+2022,0.032,% auklet chick diet,5,Sandlance (No CC Rhinoceros auklet),,,,,,,,,,,,,,,,,
+2023,0.145,% auklet chick diet,5,Sandlance (No CC Rhinoceros auklet),,,,,,,,,,,,,,,,,
+2024,0.157,% auklet chick diet,5,Sandlance (No CC Rhinoceros auklet),,,,,,,,,,,,,,,,,
