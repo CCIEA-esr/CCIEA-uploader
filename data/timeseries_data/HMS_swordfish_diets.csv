@@ -16,6 +16,7 @@ year,index,metric,timeseries
 2021,0.280191704,mean % swordfish diet,anchovy
 2022,0.129370065,mean % swordfish diet,anchovy
 2023,0.353785827,mean % swordfish diet,anchovy
+2024,0.110245781,mean % swordfish diet,anchovy
 2007,0,mean % swordfish diet,Euphausiidae
 2008,0,mean % swordfish diet,Euphausiidae
 2009,0,mean % swordfish diet,Euphausiidae
@@ -33,6 +34,7 @@ year,index,metric,timeseries
 2021,0,mean % swordfish diet,Euphausiidae
 2022,0,mean % swordfish diet,Euphausiidae
 2023,0,mean % swordfish diet,Euphausiidae
+2024,0,mean % swordfish diet,Euphausiidae
 2007,0.00177305,mean % swordfish diet,hake
 2008,0,mean % swordfish diet,hake
 2009,0,mean % swordfish diet,hake
@@ -50,6 +52,7 @@ year,index,metric,timeseries
 2021,0.334724408,mean % swordfish diet,hake
 2022,0.388383954,mean % swordfish diet,hake
 2023,0.260559841,mean % swordfish diet,hake
+2024,0.443857332,mean % swordfish diet,hake
 2007,0.010035,mean % swordfish diet,jack mackerel
 2008,0.0078125,mean % swordfish diet,jack mackerel
 2009,0.013513514,mean % swordfish diet,jack mackerel
@@ -64,9 +67,10 @@ year,index,metric,timeseries
 2018,0.004059829,mean % swordfish diet,jack mackerel
 2019,0,mean % swordfish diet,jack mackerel
 2020,0.002415459,mean % swordfish diet,jack mackerel
-2021,0.000582298,mean % swordfish diet,jack mackerel
+2021,5.82298e-4,mean % swordfish diet,jack mackerel
 2022,0,mean % swordfish diet,jack mackerel
 2023,0.00282169,mean % swordfish diet,jack mackerel
+2024,0.005147137,mean % swordfish diet,jack mackerel
 2007,0.005694217,mean % swordfish diet,market squid
 2008,0.032939189,mean % swordfish diet,market squid
 2009,0.093165447,mean % swordfish diet,market squid
@@ -84,6 +88,7 @@ year,index,metric,timeseries
 2021,0.056073009,mean % swordfish diet,market squid
 2022,0.15528176,mean % swordfish diet,market squid
 2023,0.160293803,mean % swordfish diet,market squid
+2024,0.175748627,mean % swordfish diet,market squid
 2007,0.969106868,mean % swordfish diet,other
 2008,0.94043262,mean % swordfish diet,other
 2009,0.880441126,mean % swordfish diet,other
@@ -101,6 +106,7 @@ year,index,metric,timeseries
 2021,0.31374931,mean % swordfish diet,other
 2022,0.313388357,mean % swordfish diet,other
 2023,0.202923363,mean % swordfish diet,other
+2024,0.221539311,mean % swordfish diet,other
 2007,0,mean % swordfish diet,Pacific mackerel
 2008,0.003378378,mean % swordfish diet,Pacific mackerel
 2009,0.001930502,mean % swordfish diet,Pacific mackerel
@@ -118,6 +124,7 @@ year,index,metric,timeseries
 2021,0.012631824,mean % swordfish diet,Pacific mackerel
 2022,0.003216098,mean % swordfish diet,Pacific mackerel
 2023,0.003963964,mean % swordfish diet,Pacific mackerel
+2024,0.009186688,mean % swordfish diet,Pacific mackerel
 2007,0.00953302,mean % swordfish diet,Pacific saury
 2008,0.005208333,mean % swordfish diet,Pacific saury
 2009,0,mean % swordfish diet,Pacific saury
@@ -132,9 +139,10 @@ year,index,metric,timeseries
 2018,0,mean % swordfish diet,Pacific saury
 2019,0,mean % swordfish diet,Pacific saury
 2020,0,mean % swordfish diet,Pacific saury
-2021,0.00042517,mean % swordfish diet,Pacific saury
+2021,4.2517e-4,mean % swordfish diet,Pacific saury
 2022,0.001680672,mean % swordfish diet,Pacific saury
 2023,0,mean % swordfish diet,Pacific saury
+2024,0,mean % swordfish diet,Pacific saury
 2007,0,mean % swordfish diet,rockfishes
 2008,0,mean % swordfish diet,rockfishes
 2009,0.009009009,mean % swordfish diet,rockfishes
@@ -152,6 +160,7 @@ year,index,metric,timeseries
 2021,0.001319613,mean % swordfish diet,rockfishes
 2022,0.006760326,mean % swordfish diet,rockfishes
 2023,0.009097067,mean % swordfish diet,rockfishes
+2024,0.026220237,mean % swordfish diet,rockfishes
 2007,0,mean % swordfish diet,sardine
 2008,0.006756757,mean % swordfish diet,sardine
 2009,0.001940402,mean % swordfish diet,sardine
@@ -166,6 +175,7 @@ year,index,metric,timeseries
 2018,0.00245102,mean % swordfish diet,sardine
 2019,0.0114462,mean % swordfish diet,sardine
 2020,0.00479119,mean % swordfish diet,sardine
-2021,0.000302663,mean % swordfish diet,sardine
+2021,3.02663e-4,mean % swordfish diet,sardine
 2022,0.001918768,mean % swordfish diet,sardine
 2023,0.006554446,mean % swordfish diet,sardine
+2024,0.003032732,mean % swordfish diet,sardine
