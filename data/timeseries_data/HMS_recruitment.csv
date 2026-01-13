@@ -1,268 +1,264 @@
-year,index,SD,SE,metric,species,data.type,data.type2,SElo,SEup,Notes,SE_type,timeseries
-1994,239937,42464,NA,Recruits (x1000),Albacore,recruitment,NA,197473,282401,NA,SD,Albacore:Recruits (x1000)
-1995,149427,31637.1,NA,Recruits (x1000),Albacore,recruitment,NA,117789.9,181064.1,NA,SD,Albacore:Recruits (x1000)
-1996,232014,43603.6,NA,Recruits (x1000),Albacore,recruitment,NA,188410.4,275617.6,NA,SD,Albacore:Recruits (x1000)
-1997,195155,36854.4,NA,Recruits (x1000),Albacore,recruitment,NA,158300.6,232009.4,NA,SD,Albacore:Recruits (x1000)
-1998,127084,27663.5,NA,Recruits (x1000),Albacore,recruitment,NA,99420.5,154747.5,NA,SD,Albacore:Recruits (x1000)
-1999,328327,42370.9,NA,Recruits (x1000),Albacore,recruitment,NA,285956.1,370697.9,NA,SD,Albacore:Recruits (x1000)
-2000,125091,24107.9,NA,Recruits (x1000),Albacore,recruitment,NA,100983.1,149198.9,NA,SD,Albacore:Recruits (x1000)
-2001,214979,30664.7,NA,Recruits (x1000),Albacore,recruitment,NA,184314.3,245643.7,NA,SD,Albacore:Recruits (x1000)
-2002,115502,17094.4,NA,Recruits (x1000),Albacore,recruitment,NA,98407.6,132596.4,NA,SD,Albacore:Recruits (x1000)
-2003,226092,33915.1,NA,Recruits (x1000),Albacore,recruitment,NA,192176.9,260007.1,NA,SD,Albacore:Recruits (x1000)
-2004,258194,36905,NA,Recruits (x1000),Albacore,recruitment,NA,221289,295099,NA,SD,Albacore:Recruits (x1000)
-2005,178097,27584.5,NA,Recruits (x1000),Albacore,recruitment,NA,150512.5,205681.5,NA,SD,Albacore:Recruits (x1000)
-2006,186195,30194.5,NA,Recruits (x1000),Albacore,recruitment,NA,156000.5,216389.5,NA,SD,Albacore:Recruits (x1000)
-2007,162615,26802.2,NA,Recruits (x1000),Albacore,recruitment,NA,135812.8,189417.2,NA,SD,Albacore:Recruits (x1000)
-2008,225067,35103.7,NA,Recruits (x1000),Albacore,recruitment,NA,189963.3,260170.7,NA,SD,Albacore:Recruits (x1000)
-2009,201792,31917,NA,Recruits (x1000),Albacore,recruitment,NA,169875,233709,NA,SD,Albacore:Recruits (x1000)
-2010,230510,35133.7,NA,Recruits (x1000),Albacore,recruitment,NA,195376.3,265643.7,NA,SD,Albacore:Recruits (x1000)
-2011,153820,26281.3,NA,Recruits (x1000),Albacore,recruitment,NA,127538.7,180101.3,NA,SD,Albacore:Recruits (x1000)
-2012,155274,28593.1,NA,Recruits (x1000),Albacore,recruitment,NA,126680.9,183867.1,NA,SD,Albacore:Recruits (x1000)
-2013,221188,40057.5,NA,Recruits (x1000),Albacore,recruitment,NA,181130.5,261245.5,NA,SD,Albacore:Recruits (x1000)
-2014,124967,27330.1,NA,Recruits (x1000),Albacore,recruitment,NA,97636.9,152297.1,NA,SD,Albacore:Recruits (x1000)
-2015,107914,27625.6,NA,Recruits (x1000),Albacore,recruitment,NA,80288.4,135539.6,NA,SD,Albacore:Recruits (x1000)
-2016,235903,59090.3,NA,Recruits (x1000),Albacore,recruitment,NA,176812.7,294993.3,NA,SD,Albacore:Recruits (x1000)
-2017,432503,121734,NA,Recruits (x1000),Albacore,recruitment,NA,310769,554237,NA,SD,Albacore:Recruits (x1000)
-2018,217506,92767.2,NA,Recruits (x1000),Albacore,recruitment,NA,124738.8,310273.2,NA,SD,Albacore:Recruits (x1000)
-2019,222047,102653,NA,Recruits (x1000),Albacore,recruitment,NA,119394,324700,NA,SD,Albacore:Recruits (x1000)
-2020,212904,103676,NA,Recruits (x1000),Albacore,recruitment,NA,109228,316580,NA,SD,Albacore:Recruits (x1000)
-2021,210015,102078,NA,Recruits (x1000),Albacore,recruitment,NA,107937,312093,NA,SD,Albacore:Recruits (x1000)
-1979,122433.1745,NA,NA,Recruitment,Bigeye tuna,recruitment,NA,61083.67961,235625.7452,NA,CI,Bigeye tuna:Recuitment
-1980,82105.80243,NA,NA,Recruitment,Bigeye tuna,recruitment,NA,36680.47954,178082.1073,NA,CI,Bigeye tuna:Recuitment
-1981,67984.89522,NA,NA,Recruitment,Bigeye tuna,recruitment,NA,32208.96149,137310.4913,NA,CI,Bigeye tuna:Recuitment
-1982,142792.6675,NA,NA,Recruitment,Bigeye tuna,recruitment,NA,66836.19138,260406.7212,NA,CI,Bigeye tuna:Recuitment
-1983,129248.6431,NA,NA,Recruitment,Bigeye tuna,recruitment,NA,55270.79894,250196.0276,NA,CI,Bigeye tuna:Recuitment
-1984,75199.28944,NA,NA,Recruitment,Bigeye tuna,recruitment,NA,39735.48913,135944.229,NA,CI,Bigeye tuna:Recuitment
-1985,47817.27426,NA,NA,Recruitment,Bigeye tuna,recruitment,NA,24587.66074,92041.97482,NA,CI,Bigeye tuna:Recuitment
-1986,85378.0203,NA,NA,Recruitment,Bigeye tuna,recruitment,NA,44801.63889,157944.6604,NA,CI,Bigeye tuna:Recuitment
-1987,84074.29685,NA,NA,Recruitment,Bigeye tuna,recruitment,NA,44355.85513,153276.6902,NA,CI,Bigeye tuna:Recuitment
-1988,87568.57203,NA,NA,Recruitment,Bigeye tuna,recruitment,NA,48050.12424,162754.7914,NA,CI,Bigeye tuna:Recuitment
-1989,63635.41137,NA,NA,Recruitment,Bigeye tuna,recruitment,NA,35954.15739,111301.721,NA,CI,Bigeye tuna:Recuitment
-1990,52138.54913,NA,NA,Recruitment,Bigeye tuna,recruitment,NA,29732.61885,93901.34605,NA,CI,Bigeye tuna:Recuitment
-1991,53268.62871,NA,NA,Recruitment,Bigeye tuna,recruitment,NA,30031.43664,92967.01204,NA,CI,Bigeye tuna:Recuitment
-1992,60615.44559,NA,NA,Recruitment,Bigeye tuna,recruitment,NA,36315.50267,108012.258,NA,CI,Bigeye tuna:Recuitment
-1993,74071.26996,NA,NA,Recruitment,Bigeye tuna,recruitment,NA,46630.02845,128027.4535,NA,CI,Bigeye tuna:Recuitment
-1994,86020.53978,NA,NA,Recruitment,Bigeye tuna,recruitment,NA,57526.44304,145801.2978,NA,CI,Bigeye tuna:Recuitment
-1995,67357.55313,NA,NA,Recruitment,Bigeye tuna,recruitment,NA,43044.9415,108012.258,NA,CI,Bigeye tuna:Recuitment
-1996,99280.91188,NA,NA,Recruitment,Bigeye tuna,recruitment,NA,66836.19138,166042.6563,NA,CI,Bigeye tuna:Recuitment
-1997,72058.23132,NA,NA,Recruitment,Bigeye tuna,recruitment,NA,46630.02845,121783.4809,NA,CI,Bigeye tuna:Recuitment
-1998,128496.8529,NA,NA,Recruitment,Bigeye tuna,recruitment,NA,90219.4216,217509.9771,NA,CI,Bigeye tuna:Recuitment
-1999,75897.75456,NA,NA,Recruitment,Bigeye tuna,recruitment,NA,53103.59992,129314.1508,NA,CI,Bigeye tuna:Recuitment
-2000,50813.72933,NA,NA,Recruitment,Bigeye tuna,recruitment,NA,35242.21737,85819.36849,NA,CI,Bigeye tuna:Recuitment
-2001,63019.08581,NA,NA,Recruitment,Bigeye tuna,recruitment,NA,41772.77122,100709.9619,NA,CI,Bigeye tuna:Recuitment
-2002,106286.4587,NA,NA,Recruitment,Bigeye tuna,recruitment,NA,74607.77476,181679.6045,NA,CI,Bigeye tuna:Recuitment
-2003,48535.75419,NA,NA,Recruitment,Bigeye tuna,recruitment,NA,31571.18132,82454.34292,NA,CI,Bigeye tuna:Recuitment
-2004,87319.46415,NA,NA,Recruitment,Bigeye tuna,recruitment,NA,61697.5808,148746.6794,NA,CI,Bigeye tuna:Recuitment
-2005,95643.39784,NA,NA,Recruitment,Bigeye tuna,recruitment,NA,67507.90627,154817.1466,NA,CI,Bigeye tuna:Recuitment
-2006,77097.9173,NA,NA,Recruitment,Bigeye tuna,recruitment,NA,54176.3638,130613.7796,NA,CI,Bigeye tuna:Recuitment
-2007,57533.49954,NA,NA,Recruitment,Bigeye tuna,recruitment,NA,39735.48913,98715.77101,NA,CI,Bigeye tuna:Recuitment
-2008,62503.91074,NA,NA,Recruitment,Bigeye tuna,recruitment,NA,44355.85513,101722.1138,NA,CI,Bigeye tuna:Recuitment
-2009,64157.44742,NA,NA,Recruitment,Bigeye tuna,recruitment,NA,46166.05192,106937.5181,NA,CI,Bigeye tuna:Recuitment
-2010,66140.04571,NA,NA,Recruitment,Bigeye tuna,recruitment,NA,47572.01751,109097.7993,NA,CI,Bigeye tuna:Recuitment
-2011,55081.21549,NA,NA,Recruitment,Bigeye tuna,recruitment,NA,38948.67372,92041.97482,NA,CI,Bigeye tuna:Recuitment
-2012,77382.52658,NA,NA,Recruitment,Bigeye tuna,recruitment,NA,56387.34315,128027.4535,NA,CI,Bigeye tuna:Recuitment
-2013,68542.85347,NA,NA,Recruitment,Bigeye tuna,recruitment,NA,49020.80114,114691.3631,NA,CI,Bigeye tuna:Recuitment
-2014,52441.24088,NA,NA,Recruitment,Bigeye tuna,recruitment,NA,37049.12449,88432.95736,NA,CI,Bigeye tuna:Recuitment
-2015,57975.78353,NA,NA,Recruitment,Bigeye tuna,recruitment,NA,42192.59455,95798.27907,NA,CI,Bigeye tuna:Recuitment
-2016,67915.96658,NA,NA,Recruitment,Bigeye tuna,recruitment,NA,51021.37798,109097.7993,NA,CI,Bigeye tuna:Recuitment
-2017,76273.42709,NA,NA,Recruitment,Bigeye tuna,recruitment,NA,54720.8453,123007.4252,NA,CI,Bigeye tuna:Recuitment
-2018,85068.28632,NA,NA,Recruitment,Bigeye tuna,recruitment,NA,61697.5808,140084.3472,NA,CI,Bigeye tuna:Recuitment
-2019,53839.79103,NA,NA,Recruitment,Bigeye tuna,recruitment,NA,36680.47954,91126.14187,NA,CI,Bigeye tuna:Recuitment
-2020,54013.64082,NA,NA,Recruitment,Bigeye tuna,recruitment,NA,36680.47954,92967.01204,NA,CI,Bigeye tuna:Recuitment
-2021,63946.32723,NA,NA,Recruitment,Bigeye tuna,recruitment,NA,40134.83743,114691.3631,NA,CI,Bigeye tuna:Recuitment
-2022,57523.46364,NA,NA,Recruitment,Bigeye tuna,recruitment,NA,31571.18132,113550.1649,NA,CI,Bigeye tuna:Recuitment
-2023,96263.88577,NA,NA,Recruitment,Bigeye tuna,recruitment,NA,46630.02845,202804.9584,NA,CI,Bigeye tuna:Recuitment
-1983,11827,1366.46,NA,Recruitment,Bluefin tuna,recruitment,NA,10460.54,13193.46,"1,000 fish",SD,Bluefin tuna:Recruitment
-1984,8176,2157.05,NA,Recruitment,Bluefin tuna,recruitment,NA,6018.95,10333.05,"1,000 fish",SD,Bluefin tuna:Recruitment
-1985,9207,2254.71,NA,Recruitment,Bluefin tuna,recruitment,NA,6952.29,11461.71,"1,000 fish",SD,Bluefin tuna:Recruitment
-1986,8094,1939.28,NA,Recruitment,Bluefin tuna,recruitment,NA,6154.72,10033.28,"1,000 fish",SD,Bluefin tuna:Recruitment
-1987,6956,1718.98,NA,Recruitment,Bluefin tuna,recruitment,NA,5237.02,8674.98,"1,000 fish",SD,Bluefin tuna:Recruitment
-1988,8977,1621.3,NA,Recruitment,Bluefin tuna,recruitment,NA,7355.7,10598.3,"1,000 fish",SD,Bluefin tuna:Recruitment
-1989,4187,1314.67,NA,Recruitment,Bluefin tuna,recruitment,NA,2872.33,5501.67,"1,000 fish",SD,Bluefin tuna:Recruitment
-1990,21138,1842.77,NA,Recruitment,Bluefin tuna,recruitment,NA,19295.23,22980.77,"1,000 fish",SD,Bluefin tuna:Recruitment
-1991,7400,1801.93,NA,Recruitment,Bluefin tuna,recruitment,NA,5598.07,9201.93,"1,000 fish",SD,Bluefin tuna:Recruitment
-1992,4375,1008.38,NA,Recruitment,Bluefin tuna,recruitment,NA,3366.62,5383.38,"1,000 fish",SD,Bluefin tuna:Recruitment
-1993,3985,775.191,NA,Recruitment,Bluefin tuna,recruitment,NA,3209.809,4760.191,"1,000 fish",SD,Bluefin tuna:Recruitment
-1994,30951,1618.41,NA,Recruitment,Bluefin tuna,recruitment,NA,29332.59,32569.41,"1,000 fish",SD,Bluefin tuna:Recruitment
-1995,15247,1666.55,NA,Recruitment,Bluefin tuna,recruitment,NA,13580.45,16913.55,"1,000 fish",SD,Bluefin tuna:Recruitment
-1996,17967,1254.41,NA,Recruitment,Bluefin tuna,recruitment,NA,16712.59,19221.41,"1,000 fish",SD,Bluefin tuna:Recruitment
-1997,11344,1195.25,NA,Recruitment,Bluefin tuna,recruitment,NA,10148.75,12539.25,"1,000 fish",SD,Bluefin tuna:Recruitment
-1998,15469,1297.1,NA,Recruitment,Bluefin tuna,recruitment,NA,14171.9,16766.1,"1,000 fish",SD,Bluefin tuna:Recruitment
-1999,21993,1358,NA,Recruitment,Bluefin tuna,recruitment,NA,20635,23351,"1,000 fish",SD,Bluefin tuna:Recruitment
-2000,13910,1163.82,NA,Recruitment,Bluefin tuna,recruitment,NA,12746.18,15073.82,"1,000 fish",SD,Bluefin tuna:Recruitment
-2001,16944,985.831,NA,Recruitment,Bluefin tuna,recruitment,NA,15958.169,17929.831,"1,000 fish",SD,Bluefin tuna:Recruitment
-2002,13375,1032.36,NA,Recruitment,Bluefin tuna,recruitment,NA,12342.64,14407.36,"1,000 fish",SD,Bluefin tuna:Recruitment
-2003,6748,828.03,NA,Recruitment,Bluefin tuna,recruitment,NA,5919.97,7576.03,"1,000 fish",SD,Bluefin tuna:Recruitment
-2004,27619,1071.35,NA,Recruitment,Bluefin tuna,recruitment,NA,26547.65,28690.35,"1,000 fish",SD,Bluefin tuna:Recruitment
-2005,15323,1109.64,NA,Recruitment,Bluefin tuna,recruitment,NA,14213.36,16432.64,"1,000 fish",SD,Bluefin tuna:Recruitment
-2006,13854,944.486,NA,Recruitment,Bluefin tuna,recruitment,NA,12909.514,14798.486,"1,000 fish",SD,Bluefin tuna:Recruitment
-2007,23619,965.647,NA,Recruitment,Bluefin tuna,recruitment,NA,22653.353,24584.647,"1,000 fish",SD,Bluefin tuna:Recruitment
-2008,21038,1018.61,NA,Recruitment,Bluefin tuna,recruitment,NA,20019.39,22056.61,"1,000 fish",SD,Bluefin tuna:Recruitment
-2009,7983,855.878,NA,Recruitment,Bluefin tuna,recruitment,NA,7127.122,8838.878,"1,000 fish",SD,Bluefin tuna:Recruitment
-2010,17593,964.757,NA,Recruitment,Bluefin tuna,recruitment,NA,16628.243,18557.757,"1,000 fish",SD,Bluefin tuna:Recruitment
-2011,13822,918.911,NA,Recruitment,Bluefin tuna,recruitment,NA,12903.089,14740.911,"1,000 fish",SD,Bluefin tuna:Recruitment
-2012,7663,775.436,NA,Recruitment,Bluefin tuna,recruitment,NA,6887.564,8438.436,"1,000 fish",SD,Bluefin tuna:Recruitment
-2013,14239,1040.81,NA,Recruitment,Bluefin tuna,recruitment,NA,13198.19,15279.81,"1,000 fish",SD,Bluefin tuna:Recruitment
-2014,4882,757.164,NA,Recruitment,Bluefin tuna,recruitment,NA,4124.836,5639.164,"1,000 fish",SD,Bluefin tuna:Recruitment
-2015,13367,1683.46,NA,Recruitment,Bluefin tuna,recruitment,NA,11683.54,15050.46,"1,000 fish",SD,Bluefin tuna:Recruitment
-2016,16040,2603.54,NA,Recruitment,Bluefin tuna,recruitment,NA,13436.46,18643.54,"1,000 fish",SD,Bluefin tuna:Recruitment
-2017,11417,2162.88,NA,Recruitment,Bluefin tuna,recruitment,NA,9254.12,13579.88,"1,000 fish",SD,Bluefin tuna:Recruitment
-2018,9991,2015.12,NA,Recruitment,Bluefin tuna,recruitment,NA,7975.88,12006.12,"1,000 fish",SD,Bluefin tuna:Recruitment
-2019,7485,1885.74,NA,Recruitment,Bluefin tuna,recruitment,NA,5599.26,9370.74,"1,000 fish",SD,Bluefin tuna:Recruitment
-2020,6828,2066.95,NA,Recruitment,Bluefin tuna,recruitment,NA,4761.05,8894.95,"1,000 fish",SD,Bluefin tuna:Recruitment
-2021,8275,3085.08,NA,Recruitment,Bluefin tuna,recruitment,NA,5189.92,11360.08,"1,000 fish",SD,Bluefin tuna:Recruitment
-2022,11467,6086.54,NA,Recruitment,Bluefin tuna,recruitment,NA,5380.46,17553.54,"1,000 fish",SD,Bluefin tuna:Recruitment
-1984,31015573,NA,NA,Recruitment,Yellowfin tuna NE,recruitment,NA,1178791,791943018,"1,000 fish",80%CI,Yellowfin tuna:Recruitment
-1985,27784809,NA,NA,Recruitment,Yellowfin tuna NE,recruitment,NA,1088161,695401546,"1,000 fish",80%CI,Yellowfin tuna:Recruitment
-1986,31015573,NA,NA,Recruitment,Yellowfin tuna NE,recruitment,NA,1239229,776261495,"1,000 fish",80%CI,Yellowfin tuna:Recruitment
-1987,34969961,NA,NA,Recruitment,Yellowfin tuna NE,recruitment,NA,1397227,866523684,"1,000 fish",80%CI,Yellowfin tuna:Recruitment
-1988,31642129,NA,NA,Recruitment,Yellowfin tuna NE,recruitment,NA,1251683,791943018,"1,000 fish",80%CI,Yellowfin tuna:Recruitment
-1989,26429728,NA,NA,Recruitment,Yellowfin tuna NE,recruitment,NA,1056001,654904512,"1,000 fish",80%CI,Yellowfin tuna:Recruitment
-1990,26695351,NA,NA,Recruitment,Yellowfin tuna NE,recruitment,NA,1056001,668134461,"1,000 fish",80%CI,Yellowfin tuna:Recruitment
-1991,28346100,NA,NA,Recruitment,Yellowfin tuna NE,recruitment,NA,1099098,709449589,"1,000 fish",80%CI,Yellowfin tuna:Recruitment
-1992,25648612,NA,NA,Recruitment,Yellowfin tuna NE,recruitment,NA,994505,648388103,"1,000 fish",80%CI,Yellowfin tuna:Recruitment
-1993,28918729,NA,NA,Recruitment,Yellowfin tuna NE,recruitment,NA,1099098,738402776,"1,000 fish",80%CI,Yellowfin tuna:Recruitment
-1994,22297832,NA,NA,Recruitment,Yellowfin tuna NE,recruitment,NA,873270,563681537,"1,000 fish",80%CI,Yellowfin tuna:Recruitment
-1995,26429728,NA,NA,Recruitment,Yellowfin tuna NE,recruitment,NA,1056001,654904512,"1,000 fish",80%CI,Yellowfin tuna:Recruitment
-1996,29799435,NA,NA,Recruitment,Yellowfin tuna NE,recruitment,NA,1202604,745823847,"1,000 fish",80%CI,Yellowfin tuna:Recruitment
-1997,29502926,NA,NA,Recruitment,Yellowfin tuna NE,recruitment,NA,1178791,731055545,"1,000 fish",80%CI,Yellowfin tuna:Recruitment
-1998,32933469,NA,NA,Recruitment,Yellowfin tuna NE,recruitment,NA,1329083,816061273,"1,000 fish",80%CI,Yellowfin tuna:Recruitment
-1999,51649961,NA,NA,Recruitment,Yellowfin tuna NE,recruitment,NA,2002686,1332070053,"1,000 fish",80%CI,Yellowfin tuna:Recruitment
-2000,29502926,NA,NA,Recruitment,Yellowfin tuna NE,recruitment,NA,1178791,745823847,"1,000 fish",80%CI,Yellowfin tuna:Recruitment
-2001,32605776,NA,NA,Recruitment,Yellowfin tuna NE,recruitment,NA,1329083,807941328,"1,000 fish",80%CI,Yellowfin tuna:Recruitment
-2002,27234633,NA,NA,Recruitment,Yellowfin tuna NE,recruitment,NA,1121301,674849324,"1,000 fish",80%CI,Yellowfin tuna:Recruitment
-2003,22297832,NA,NA,Recruitment,Yellowfin tuna NE,recruitment,NA,899865,552519895,"1,000 fish",80%CI,Yellowfin tuna:Recruitment
-2004,16852339,NA,NA,Recruitment,Yellowfin tuna NE,recruitment,NA,686938,417585554,"1,000 fish",80%CI,Yellowfin tuna:Recruitment
-2005,20378684,NA,NA,Recruitment,Yellowfin tuna NE,recruitment,NA,798109,515166136,"1,000 fish",80%CI,Yellowfin tuna:Recruitment
-2006,19579624,NA,NA,Recruitment,Yellowfin tuna NE,recruitment,NA,774521,499940675,"1,000 fish",80%CI,Yellowfin tuna:Recruitment
-2007,22075965,NA,NA,Recruitment,Yellowfin tuna NE,recruitment,NA,882046,563681537,"1,000 fish",80%CI,Yellowfin tuna:Recruitment
-2008,23207824,NA,NA,Recruitment,Yellowfin tuna NE,recruitment,NA,918043,586685817,"1,000 fish",80%CI,Yellowfin tuna:Recruitment
-2009,19000959,NA,NA,Recruitment,Yellowfin tuna NE,recruitment,NA,759184,480337721,"1,000 fish",80%CI,Yellowfin tuna:Recruitment
-2010,21423521,NA,NA,Recruitment,Yellowfin tuna NE,recruitment,NA,839029,547022230,"1,000 fish",80%CI,Yellowfin tuna:Recruitment
-2011,22297832,NA,NA,Recruitment,Yellowfin tuna NE,recruitment,NA,873270,575068660,"1,000 fish",80%CI,Yellowfin tuna:Recruitment
-2012,18439396,NA,NA,Recruitment,Yellowfin tuna NE,recruitment,NA,744152,466141596,"1,000 fish",80%CI,Yellowfin tuna:Recruitment
-2013,20790361,NA,NA,Recruitment,Yellowfin tuna NE,recruitment,NA,839029,520343641,"1,000 fish",80%CI,Yellowfin tuna:Recruitment
-2014,17540096,NA,NA,Recruitment,Yellowfin tuna NE,recruitment,NA,722159,434627543,"1,000 fish",80%CI,Yellowfin tuna:Recruitment
-2015,19000959,NA,NA,Recruitment,Yellowfin tuna NE,recruitment,NA,798109,466141596,"1,000 fish",80%CI,Yellowfin tuna:Recruitment
-2016,17021708,NA,NA,Recruitment,Yellowfin tuna NE,recruitment,NA,700816,421782358,"1,000 fish",80%CI,Yellowfin tuna:Recruitment
-2017,22297832,NA,NA,Recruitment,Yellowfin tuna NE,recruitment,NA,908909,563681537,"1,000 fish",80%CI,Yellowfin tuna:Recruitment
-2018,20378684,NA,NA,Recruitment,Yellowfin tuna NE,recruitment,NA,798109,530855280,"1,000 fish",80%CI,Yellowfin tuna:Recruitment
-2019,19776403,NA,NA,Recruitment,Yellowfin tuna NE,recruitment,NA,766814,515166136,"1,000 fish",80%CI,Yellowfin tuna:Recruitment
-2020,20583493,NA,NA,Recruitment,Yellowfin tuna NE,recruitment,NA,814231,525573182,"1,000 fish",80%CI,Yellowfin tuna:Recruitment
-2021,34622004,NA,NA,Recruitment,Yellowfin tuna NE,recruitment,NA,1397227,884028624,"1,000 fish",80%CI,Yellowfin tuna:Recruitment
-2022,20999307,NA,NA,Recruitment,Yellowfin tuna NE,recruitment,NA,864581,525573182,"1,000 fish",80%CI,Yellowfin tuna:Recruitment
-2023,25648612,NA,NA,Recruitment,Yellowfin tuna NE,recruitment,NA,1066614,622964442,"1,000 fish",80%CI,Yellowfin tuna:Recruitment
-1975,777,273,NA,Recruits (x1000),North Pacific swordfish,recruitment,NA,504,1050,NA,SD,North Pacific swordfish:Recruits (x1000)
-1976,768,255,NA,Recruits (x1000),North Pacific swordfish,recruitment,NA,513,1023,NA,SD,North Pacific swordfish:Recruits (x1000)
-1977,704,226,NA,Recruits (x1000),North Pacific swordfish,recruitment,NA,478,930,NA,SD,North Pacific swordfish:Recruits (x1000)
-1978,596,192,NA,Recruits (x1000),North Pacific swordfish,recruitment,NA,404,788,NA,SD,North Pacific swordfish:Recruits (x1000)
-1979,683,233,NA,Recruits (x1000),North Pacific swordfish,recruitment,NA,450,916,NA,SD,North Pacific swordfish:Recruits (x1000)
-1980,1169,383,NA,Recruits (x1000),North Pacific swordfish,recruitment,NA,786,1552,NA,SD,North Pacific swordfish:Recruits (x1000)
-1981,937,346,NA,Recruits (x1000),North Pacific swordfish,recruitment,NA,591,1283,NA,SD,North Pacific swordfish:Recruits (x1000)
-1982,772,284,NA,Recruits (x1000),North Pacific swordfish,recruitment,NA,488,1056,NA,SD,North Pacific swordfish:Recruits (x1000)
-1983,1430,394,NA,Recruits (x1000),North Pacific swordfish,recruitment,NA,1036,1824,NA,SD,North Pacific swordfish:Recruits (x1000)
-1984,1017,283,NA,Recruits (x1000),North Pacific swordfish,recruitment,NA,734,1300,NA,SD,North Pacific swordfish:Recruits (x1000)
-1985,933,235,NA,Recruits (x1000),North Pacific swordfish,recruitment,NA,698,1168,NA,SD,North Pacific swordfish:Recruits (x1000)
-1986,888,275,NA,Recruits (x1000),North Pacific swordfish,recruitment,NA,613,1163,NA,SD,North Pacific swordfish:Recruits (x1000)
-1987,825,214,NA,Recruits (x1000),North Pacific swordfish,recruitment,NA,611,1039,NA,SD,North Pacific swordfish:Recruits (x1000)
-1988,813,201,NA,Recruits (x1000),North Pacific swordfish,recruitment,NA,612,1014,NA,SD,North Pacific swordfish:Recruits (x1000)
-1989,675,217,NA,Recruits (x1000),North Pacific swordfish,recruitment,NA,458,892,NA,SD,North Pacific swordfish:Recruits (x1000)
-1990,711,222,NA,Recruits (x1000),North Pacific swordfish,recruitment,NA,489,933,NA,SD,North Pacific swordfish:Recruits (x1000)
-1991,777,230,NA,Recruits (x1000),North Pacific swordfish,recruitment,NA,547,1007,NA,SD,North Pacific swordfish:Recruits (x1000)
-1992,727,212,NA,Recruits (x1000),North Pacific swordfish,recruitment,NA,515,939,NA,SD,North Pacific swordfish:Recruits (x1000)
-1993,673,185,NA,Recruits (x1000),North Pacific swordfish,recruitment,NA,488,858,NA,SD,North Pacific swordfish:Recruits (x1000)
-1994,698,157,NA,Recruits (x1000),North Pacific swordfish,recruitment,NA,541,855,NA,SD,North Pacific swordfish:Recruits (x1000)
-1995,1323,150,NA,Recruits (x1000),North Pacific swordfish,recruitment,NA,1173,1473,NA,SD,North Pacific swordfish:Recruits (x1000)
-1996,752,99,NA,Recruits (x1000),North Pacific swordfish,recruitment,NA,653,851,NA,SD,North Pacific swordfish:Recruits (x1000)
-1997,708,94,NA,Recruits (x1000),North Pacific swordfish,recruitment,NA,614,802,NA,SD,North Pacific swordfish:Recruits (x1000)
-1998,1202,134,NA,Recruits (x1000),North Pacific swordfish,recruitment,NA,1068,1336,NA,SD,North Pacific swordfish:Recruits (x1000)
-1999,822,109,NA,Recruits (x1000),North Pacific swordfish,recruitment,NA,713,931,NA,SD,North Pacific swordfish:Recruits (x1000)
-2000,707,99,NA,Recruits (x1000),North Pacific swordfish,recruitment,NA,608,806,NA,SD,North Pacific swordfish:Recruits (x1000)
-2001,729,98,NA,Recruits (x1000),North Pacific swordfish,recruitment,NA,631,827,NA,SD,North Pacific swordfish:Recruits (x1000)
-2002,881,108,NA,Recruits (x1000),North Pacific swordfish,recruitment,NA,773,989,NA,SD,North Pacific swordfish:Recruits (x1000)
-2003,1019,121,NA,Recruits (x1000),North Pacific swordfish,recruitment,NA,898,1140,NA,SD,North Pacific swordfish:Recruits (x1000)
-2004,1192,134,NA,Recruits (x1000),North Pacific swordfish,recruitment,NA,1058,1326,NA,SD,North Pacific swordfish:Recruits (x1000)
-2005,851,110,NA,Recruits (x1000),North Pacific swordfish,recruitment,NA,741,961,NA,SD,North Pacific swordfish:Recruits (x1000)
-2006,819,101,NA,Recruits (x1000),North Pacific swordfish,recruitment,NA,718,920,NA,SD,North Pacific swordfish:Recruits (x1000)
-2007,791,96,NA,Recruits (x1000),North Pacific swordfish,recruitment,NA,695,887,NA,SD,North Pacific swordfish:Recruits (x1000)
-2008,746,91,NA,Recruits (x1000),North Pacific swordfish,recruitment,NA,655,837,NA,SD,North Pacific swordfish:Recruits (x1000)
-2009,660,84,NA,Recruits (x1000),North Pacific swordfish,recruitment,NA,576,744,NA,SD,North Pacific swordfish:Recruits (x1000)
-2010,774,93,NA,Recruits (x1000),North Pacific swordfish,recruitment,NA,681,867,NA,SD,North Pacific swordfish:Recruits (x1000)
-2011,728,92,NA,Recruits (x1000),North Pacific swordfish,recruitment,NA,636,820,NA,SD,North Pacific swordfish:Recruits (x1000)
-2012,758,96,NA,Recruits (x1000),North Pacific swordfish,recruitment,NA,662,854,NA,SD,North Pacific swordfish:Recruits (x1000)
-2013,896,112,NA,Recruits (x1000),North Pacific swordfish,recruitment,NA,784,1008,NA,SD,North Pacific swordfish:Recruits (x1000)
-2014,971,123,NA,Recruits (x1000),North Pacific swordfish,recruitment,NA,848,1094,NA,SD,North Pacific swordfish:Recruits (x1000)
-2015,1016,130,NA,Recruits (x1000),North Pacific swordfish,recruitment,NA,886,1146,NA,SD,North Pacific swordfish:Recruits (x1000)
-2016,964,130,NA,Recruits (x1000),North Pacific swordfish,recruitment,NA,834,1094,NA,SD,North Pacific swordfish:Recruits (x1000)
-2017,747,109,NA,Recruits (x1000),North Pacific swordfish,recruitment,NA,638,856,NA,SD,North Pacific swordfish:Recruits (x1000)
-2018,783,113,NA,Recruits (x1000),North Pacific swordfish,recruitment,NA,670,896,NA,SD,North Pacific swordfish:Recruits (x1000)
-2019,739,116,NA,Recruits (x1000),North Pacific swordfish,recruitment,NA,623,855,NA,SD,North Pacific swordfish:Recruits (x1000)
-2020,625,112,NA,Recruits (x1000),North Pacific swordfish,recruitment,NA,513,737,NA,SD,North Pacific swordfish:Recruits (x1000)
-2021,633,122,NA,Recruits (x1000),North Pacific swordfish,recruitment,NA,511,755,NA,SD,North Pacific swordfish:Recruits (x1000)
-1971,NA,NA,NA,Recruits (x1000),Blue marlin,recruitment,NA,NA,NA,NA,SD,Blue marlin:Recruits (x1000)
-1972,958.4886,288.1821,NA,Recruits (x1000),Blue marlin,recruitment,NA,NA,NA,NA,SD,Blue marlin:Recruits (x1000)
-1973,904.7823,280.7946,NA,Recruits (x1000),Blue marlin,recruitment,NA,NA,NA,NA,SD,Blue marlin:Recruits (x1000)
-1974,505.091,173.4704,NA,Recruits (x1000),Blue marlin,recruitment,NA,NA,NA,NA,SD,Blue marlin:Recruits (x1000)
-1975,632.4314,174.7608,NA,Recruits (x1000),Blue marlin,recruitment,NA,NA,NA,NA,SD,Blue marlin:Recruits (x1000)
-1976,782.9263,235.7535,NA,Recruits (x1000),Blue marlin,recruitment,NA,NA,NA,NA,SD,Blue marlin:Recruits (x1000)
-1977,949.3982,284.9351,NA,Recruits (x1000),Blue marlin,recruitment,NA,NA,NA,NA,SD,Blue marlin:Recruits (x1000)
-1978,1010.475,273.1507,NA,Recruits (x1000),Blue marlin,recruitment,NA,NA,NA,NA,SD,Blue marlin:Recruits (x1000)
-1979,1009.5503,275.9286,NA,Recruits (x1000),Blue marlin,recruitment,NA,NA,NA,NA,SD,Blue marlin:Recruits (x1000)
-1980,824.3738,250.9472,NA,Recruits (x1000),Blue marlin,recruitment,NA,NA,NA,NA,SD,Blue marlin:Recruits (x1000)
-1981,1031.9901,269.7186,NA,Recruits (x1000),Blue marlin,recruitment,NA,NA,NA,NA,SD,Blue marlin:Recruits (x1000)
-1982,1305.5718,308.0022,NA,Recruits (x1000),Blue marlin,recruitment,NA,NA,NA,NA,SD,Blue marlin:Recruits (x1000)
-1983,874.9064,325.2302,NA,Recruits (x1000),Blue marlin,recruitment,NA,NA,NA,NA,SD,Blue marlin:Recruits (x1000)
-1984,903.1298,245.3986,NA,Recruits (x1000),Blue marlin,recruitment,NA,NA,NA,NA,SD,Blue marlin:Recruits (x1000)
-1985,849.2683,236.5197,NA,Recruits (x1000),Blue marlin,recruitment,NA,NA,NA,NA,SD,Blue marlin:Recruits (x1000)
-1986,1055.759,256.0661,NA,Recruits (x1000),Blue marlin,recruitment,NA,NA,NA,NA,SD,Blue marlin:Recruits (x1000)
-1987,1035.1919,264.2896,NA,Recruits (x1000),Blue marlin,recruitment,NA,NA,NA,NA,SD,Blue marlin:Recruits (x1000)
-1988,1021.289,301.3954,NA,Recruits (x1000),Blue marlin,recruitment,NA,NA,NA,NA,SD,Blue marlin:Recruits (x1000)
-1989,1131.8804,287.7804,NA,Recruits (x1000),Blue marlin,recruitment,NA,NA,NA,NA,SD,Blue marlin:Recruits (x1000)
-1990,963.7727,283.6471,NA,Recruits (x1000),Blue marlin,recruitment,NA,NA,NA,NA,SD,Blue marlin:Recruits (x1000)
-1991,1072.3552,274.8069,NA,Recruits (x1000),Blue marlin,recruitment,NA,NA,NA,NA,SD,Blue marlin:Recruits (x1000)
-1992,904.6476,244.6402,NA,Recruits (x1000),Blue marlin,recruitment,NA,NA,NA,NA,SD,Blue marlin:Recruits (x1000)
-1993,1031.6584,219.4749,NA,Recruits (x1000),Blue marlin,recruitment,NA,NA,NA,NA,SD,Blue marlin:Recruits (x1000)
-1994,563.4596,150.8078,NA,Recruits (x1000),Blue marlin,recruitment,NA,NA,NA,NA,SD,Blue marlin:Recruits (x1000)
-1995,1138.5339,286.8456,NA,Recruits (x1000),Blue marlin,recruitment,NA,NA,NA,NA,SD,Blue marlin:Recruits (x1000)
-1996,805.7914,324.365,NA,Recruits (x1000),Blue marlin,recruitment,NA,NA,NA,NA,SD,Blue marlin:Recruits (x1000)
-1997,935.7153,177.9712,NA,Recruits (x1000),Blue marlin,recruitment,NA,NA,NA,NA,SD,Blue marlin:Recruits (x1000)
-1998,598.5051,146.7529,NA,Recruits (x1000),Blue marlin,recruitment,NA,NA,NA,NA,SD,Blue marlin:Recruits (x1000)
-1999,895.5486,158.3724,NA,Recruits (x1000),Blue marlin,recruitment,NA,NA,NA,NA,SD,Blue marlin:Recruits (x1000)
-2000,784.3424,158.6506,NA,Recruits (x1000),Blue marlin,recruitment,NA,NA,NA,NA,SD,Blue marlin:Recruits (x1000)
-2001,869.2313,175.6926,NA,Recruits (x1000),Blue marlin,recruitment,NA,NA,NA,NA,SD,Blue marlin:Recruits (x1000)
-2002,831.4222,156.9186,NA,Recruits (x1000),Blue marlin,recruitment,NA,NA,NA,NA,SD,Blue marlin:Recruits (x1000)
-2003,790.6506,151.383,NA,Recruits (x1000),Blue marlin,recruitment,NA,NA,NA,NA,SD,Blue marlin:Recruits (x1000)
-2004,923.6173,169.3114,NA,Recruits (x1000),Blue marlin,recruitment,NA,NA,NA,NA,SD,Blue marlin:Recruits (x1000)
-2005,775.2594,147.0518,NA,Recruits (x1000),Blue marlin,recruitment,NA,NA,NA,NA,SD,Blue marlin:Recruits (x1000)
-2006,1073.8006,184.3741,NA,Recruits (x1000),Blue marlin,recruitment,NA,NA,NA,NA,SD,Blue marlin:Recruits (x1000)
-2007,852.059,153.299,NA,Recruits (x1000),Blue marlin,recruitment,NA,NA,NA,NA,SD,Blue marlin:Recruits (x1000)
-2008,724.9441,143.6172,NA,Recruits (x1000),Blue marlin,recruitment,NA,NA,NA,NA,SD,Blue marlin:Recruits (x1000)
-2009,1093.5327,192.3167,NA,Recruits (x1000),Blue marlin,recruitment,NA,NA,NA,NA,SD,Blue marlin:Recruits (x1000)
-2010,1044.5307,173.3868,NA,Recruits (x1000),Blue marlin,recruitment,NA,NA,NA,NA,SD,Blue marlin:Recruits (x1000)
-2011,870.947,199.3712,NA,Recruits (x1000),Blue marlin,recruitment,NA,NA,NA,NA,SD,Blue marlin:Recruits (x1000)
-2012,750.9165,186.7648,NA,Recruits (x1000),Blue marlin,recruitment,NA,NA,NA,NA,SD,Blue marlin:Recruits (x1000)
-2013,944.5404,144.4018,NA,Recruits (x1000),Blue marlin,recruitment,NA,NA,NA,NA,SD,Blue marlin:Recruits (x1000)
-2014,767.4545,133.2557,NA,Recruits (x1000),Blue marlin,recruitment,NA,NA,NA,NA,SD,Blue marlin:Recruits (x1000)
-2015,594.1211,116.3672,NA,Recruits (x1000),Blue marlin,recruitment,NA,NA,NA,NA,SD,Blue marlin:Recruits (x1000)
-2016,835.8208,185.216,NA,Recruits (x1000),Blue marlin,recruitment,NA,NA,NA,NA,SD,Blue marlin:Recruits (x1000)
-2017,825.188,195.9471,NA,Recruits (x1000),Blue marlin,recruitment,NA,NA,NA,NA,SD,Blue marlin:Recruits (x1000)
-2018,1318.013,378.6111,NA,Recruits (x1000),Blue marlin,recruitment,NA,NA,NA,NA,SD,Blue marlin:Recruits (x1000)
-2019,863.6374,453.6661,NA,Recruits (x1000),Blue marlin,recruitment,NA,NA,NA,NA,SD,Blue marlin:Recruits (x1000)
-2006,40901.72,8284.382354,NA,Recruitment,Skipjack tuna,recruitment,NA,NA,NA,1000s fish,SD,Skipjack tuna:Recruitment
-2007,69072.1,12215.15348,NA,Recruitment,Skipjack tuna,recruitment,NA,NA,NA,1000s fish,SD,Skipjack tuna:Recruitment
-2008,23779.79,4534.374763,NA,Recruitment,Skipjack tuna,recruitment,NA,NA,NA,1000s fish,SD,Skipjack tuna:Recruitment
-2009,49706.04,10018.21094,NA,Recruitment,Skipjack tuna,recruitment,NA,NA,NA,1000s fish,SD,Skipjack tuna:Recruitment
-2010,74286.04,12340.85233,NA,Recruitment,Skipjack tuna,recruitment,NA,NA,NA,1000s fish,SD,Skipjack tuna:Recruitment
-2011,31701.44,5042.786271,NA,Recruitment,Skipjack tuna,recruitment,NA,NA,NA,1000s fish,SD,Skipjack tuna:Recruitment
-2012,59154.49,7004.685764,NA,Recruitment,Skipjack tuna,recruitment,NA,NA,NA,1000s fish,SD,Skipjack tuna:Recruitment
-2013,28448.09,3194.695989,NA,Recruitment,Skipjack tuna,recruitment,NA,NA,NA,1000s fish,SD,Skipjack tuna:Recruitment
-2014,36560.52,3826.068961,NA,Recruitment,Skipjack tuna,recruitment,NA,NA,NA,1000s fish,SD,Skipjack tuna:Recruitment
-2015,54856.14,6322.896892,NA,Recruitment,Skipjack tuna,recruitment,NA,NA,NA,1000s fish,SD,Skipjack tuna:Recruitment
-2016,44862.18,4840.125472,NA,Recruitment,Skipjack tuna,recruitment,NA,NA,NA,1000s fish,SD,Skipjack tuna:Recruitment
-2017,37116.45,3978.952117,NA,Recruitment,Skipjack tuna,recruitment,NA,NA,NA,1000s fish,SD,Skipjack tuna:Recruitment
-2018,46467.9,5087.492359,NA,Recruitment,Skipjack tuna,recruitment,NA,NA,NA,1000s fish,SD,Skipjack tuna:Recruitment
-2019,49649.86,6090.131072,NA,Recruitment,Skipjack tuna,recruitment,NA,NA,NA,1000s fish,SD,Skipjack tuna:Recruitment
-2020,48288.4,5770.356722,NA,Recruitment,Skipjack tuna,recruitment,NA,NA,NA,1000s fish,SD,Skipjack tuna:Recruitment
-2021,43438.21,5045.916453,NA,Recruitment,Skipjack tuna,recruitment,NA,NA,NA,1000s fish,SD,Skipjack tuna:Recruitment
-2022,47669.38,5987.590371,NA,Recruitment,Skipjack tuna,recruitment,NA,NA,NA,1000s fish,SD,Skipjack tuna:Recruitment
-2023,63268.1,12781.84851,NA,Recruitment,Skipjack tuna,recruitment,NA,NA,NA,1000s fish,SD,Skipjack tuna:Recruitment
+year,index,sd,SE,metric,species,data.type,data.type2,SElo,SEup,Notes,SE_type,timeseries
+1994,239937,42464,,Recruits (x1000),Albacore,recruitment,,197473,282401,,SD,Albacore:Recruits (x1000)
+1995,149427,31637.1,,Recruits (x1000),Albacore,recruitment,,117789.9,181064.1,,SD,Albacore:Recruits (x1000)
+1996,232014,43603.6,,Recruits (x1000),Albacore,recruitment,,188410.4,275617.6,,SD,Albacore:Recruits (x1000)
+1997,195155,36854.4,,Recruits (x1000),Albacore,recruitment,,158300.6,232009.4,,SD,Albacore:Recruits (x1000)
+1998,127084,27663.5,,Recruits (x1000),Albacore,recruitment,,99420.5,154747.5,,SD,Albacore:Recruits (x1000)
+1999,328327,42370.9,,Recruits (x1000),Albacore,recruitment,,285956.1,370697.9,,SD,Albacore:Recruits (x1000)
+2000,125091,24107.9,,Recruits (x1000),Albacore,recruitment,,100983.1,149198.9,,SD,Albacore:Recruits (x1000)
+2001,214979,30664.7,,Recruits (x1000),Albacore,recruitment,,184314.3,245643.7,,SD,Albacore:Recruits (x1000)
+2002,115502,17094.4,,Recruits (x1000),Albacore,recruitment,,98407.6,132596.4,,SD,Albacore:Recruits (x1000)
+2003,226092,33915.1,,Recruits (x1000),Albacore,recruitment,,192176.9,260007.1,,SD,Albacore:Recruits (x1000)
+2004,258194,36905,,Recruits (x1000),Albacore,recruitment,,221289,295099,,SD,Albacore:Recruits (x1000)
+2005,178097,27584.5,,Recruits (x1000),Albacore,recruitment,,150512.5,205681.5,,SD,Albacore:Recruits (x1000)
+2006,186195,30194.5,,Recruits (x1000),Albacore,recruitment,,156000.5,216389.5,,SD,Albacore:Recruits (x1000)
+2007,162615,26802.2,,Recruits (x1000),Albacore,recruitment,,135812.8,189417.2,,SD,Albacore:Recruits (x1000)
+2008,225067,35103.7,,Recruits (x1000),Albacore,recruitment,,189963.3,260170.7,,SD,Albacore:Recruits (x1000)
+2009,201792,31917,,Recruits (x1000),Albacore,recruitment,,169875,233709,,SD,Albacore:Recruits (x1000)
+2010,230510,35133.7,,Recruits (x1000),Albacore,recruitment,,195376.3,265643.7,,SD,Albacore:Recruits (x1000)
+2011,153820,26281.3,,Recruits (x1000),Albacore,recruitment,,127538.7,180101.3,,SD,Albacore:Recruits (x1000)
+2012,155274,28593.1,,Recruits (x1000),Albacore,recruitment,,126680.9,183867.1,,SD,Albacore:Recruits (x1000)
+2013,221188,40057.5,,Recruits (x1000),Albacore,recruitment,,181130.5,261245.5,,SD,Albacore:Recruits (x1000)
+2014,124967,27330.1,,Recruits (x1000),Albacore,recruitment,,97636.9,152297.1,,SD,Albacore:Recruits (x1000)
+2015,107914,27625.6,,Recruits (x1000),Albacore,recruitment,,80288.4,135539.6,,SD,Albacore:Recruits (x1000)
+2016,235903,59090.3,,Recruits (x1000),Albacore,recruitment,,176812.7,294993.3,,SD,Albacore:Recruits (x1000)
+2017,432503,121734,,Recruits (x1000),Albacore,recruitment,,310769,554237,,SD,Albacore:Recruits (x1000)
+2018,217506,92767.2,,Recruits (x1000),Albacore,recruitment,,124738.8,310273.2,,SD,Albacore:Recruits (x1000)
+2019,222047,102653,,Recruits (x1000),Albacore,recruitment,,119394,324700,,SD,Albacore:Recruits (x1000)
+2020,212904,103676,,Recruits (x1000),Albacore,recruitment,,109228,316580,,SD,Albacore:Recruits (x1000)
+2021,210015,102078,,Recruits (x1000),Albacore,recruitment,,107937,312093,,SD,Albacore:Recruits (x1000)
+1979,122433.1745,,,Recruitment,Bigeye tuna,recruitment,,61083.67961,235625.7452,,CI,Bigeye tuna:Recuitment
+1980,82105.80243,,,Recruitment,Bigeye tuna,recruitment,,36680.47954,178082.1073,,CI,Bigeye tuna:Recuitment
+1981,67984.89522,,,Recruitment,Bigeye tuna,recruitment,,32208.96149,137310.4913,,CI,Bigeye tuna:Recuitment
+1982,142792.6675,,,Recruitment,Bigeye tuna,recruitment,,66836.19138,260406.7212,,CI,Bigeye tuna:Recuitment
+1983,129248.6431,,,Recruitment,Bigeye tuna,recruitment,,55270.79894,250196.0276,,CI,Bigeye tuna:Recuitment
+1984,75199.28944,,,Recruitment,Bigeye tuna,recruitment,,39735.48913,135944.229,,CI,Bigeye tuna:Recuitment
+1985,47817.27426,,,Recruitment,Bigeye tuna,recruitment,,24587.66074,92041.97482,,CI,Bigeye tuna:Recuitment
+1986,85378.0203,,,Recruitment,Bigeye tuna,recruitment,,44801.63889,157944.6604,,CI,Bigeye tuna:Recuitment
+1987,84074.29685,,,Recruitment,Bigeye tuna,recruitment,,44355.85513,153276.6902,,CI,Bigeye tuna:Recuitment
+1988,87568.57203,,,Recruitment,Bigeye tuna,recruitment,,48050.12424,162754.7914,,CI,Bigeye tuna:Recuitment
+1989,63635.41137,,,Recruitment,Bigeye tuna,recruitment,,35954.15739,111301.721,,CI,Bigeye tuna:Recuitment
+1990,52138.54913,,,Recruitment,Bigeye tuna,recruitment,,29732.61885,93901.34605,,CI,Bigeye tuna:Recuitment
+1991,53268.62871,,,Recruitment,Bigeye tuna,recruitment,,30031.43664,92967.01204,,CI,Bigeye tuna:Recuitment
+1992,60615.44559,,,Recruitment,Bigeye tuna,recruitment,,36315.50267,108012.258,,CI,Bigeye tuna:Recuitment
+1993,74071.26996,,,Recruitment,Bigeye tuna,recruitment,,46630.02845,128027.4535,,CI,Bigeye tuna:Recuitment
+1994,86020.53978,,,Recruitment,Bigeye tuna,recruitment,,57526.44304,145801.2978,,CI,Bigeye tuna:Recuitment
+1995,67357.55313,,,Recruitment,Bigeye tuna,recruitment,,43044.9415,108012.258,,CI,Bigeye tuna:Recuitment
+1996,99280.91188,,,Recruitment,Bigeye tuna,recruitment,,66836.19138,166042.6563,,CI,Bigeye tuna:Recuitment
+1997,72058.23132,,,Recruitment,Bigeye tuna,recruitment,,46630.02845,121783.4809,,CI,Bigeye tuna:Recuitment
+1998,128496.8529,,,Recruitment,Bigeye tuna,recruitment,,90219.4216,217509.9771,,CI,Bigeye tuna:Recuitment
+1999,75897.75456,,,Recruitment,Bigeye tuna,recruitment,,53103.59992,129314.1508,,CI,Bigeye tuna:Recuitment
+2000,50813.72933,,,Recruitment,Bigeye tuna,recruitment,,35242.21737,85819.36849,,CI,Bigeye tuna:Recuitment
+2001,63019.08581,,,Recruitment,Bigeye tuna,recruitment,,41772.77122,100709.9619,,CI,Bigeye tuna:Recuitment
+2002,106286.4587,,,Recruitment,Bigeye tuna,recruitment,,74607.77476,181679.6045,,CI,Bigeye tuna:Recuitment
+2003,48535.75419,,,Recruitment,Bigeye tuna,recruitment,,31571.18132,82454.34292,,CI,Bigeye tuna:Recuitment
+2004,87319.46415,,,Recruitment,Bigeye tuna,recruitment,,61697.5808,148746.6794,,CI,Bigeye tuna:Recuitment
+2005,95643.39784,,,Recruitment,Bigeye tuna,recruitment,,67507.90627,154817.1466,,CI,Bigeye tuna:Recuitment
+2006,77097.9173,,,Recruitment,Bigeye tuna,recruitment,,54176.3638,130613.7796,,CI,Bigeye tuna:Recuitment
+2007,57533.49954,,,Recruitment,Bigeye tuna,recruitment,,39735.48913,98715.77101,,CI,Bigeye tuna:Recuitment
+2008,62503.91074,,,Recruitment,Bigeye tuna,recruitment,,44355.85513,101722.1138,,CI,Bigeye tuna:Recuitment
+2009,64157.44742,,,Recruitment,Bigeye tuna,recruitment,,46166.05192,106937.5181,,CI,Bigeye tuna:Recuitment
+2010,66140.04571,,,Recruitment,Bigeye tuna,recruitment,,47572.01751,109097.7993,,CI,Bigeye tuna:Recuitment
+2011,55081.21549,,,Recruitment,Bigeye tuna,recruitment,,38948.67372,92041.97482,,CI,Bigeye tuna:Recuitment
+2012,77382.52658,,,Recruitment,Bigeye tuna,recruitment,,56387.34315,128027.4535,,CI,Bigeye tuna:Recuitment
+2013,68542.85347,,,Recruitment,Bigeye tuna,recruitment,,49020.80114,114691.3631,,CI,Bigeye tuna:Recuitment
+2014,52441.24088,,,Recruitment,Bigeye tuna,recruitment,,37049.12449,88432.95736,,CI,Bigeye tuna:Recuitment
+2015,57975.78353,,,Recruitment,Bigeye tuna,recruitment,,42192.59455,95798.27907,,CI,Bigeye tuna:Recuitment
+2016,67915.96658,,,Recruitment,Bigeye tuna,recruitment,,51021.37798,109097.7993,,CI,Bigeye tuna:Recuitment
+2017,76273.42709,,,Recruitment,Bigeye tuna,recruitment,,54720.8453,123007.4252,,CI,Bigeye tuna:Recuitment
+2018,85068.28632,,,Recruitment,Bigeye tuna,recruitment,,61697.5808,140084.3472,,CI,Bigeye tuna:Recuitment
+2019,53839.79103,,,Recruitment,Bigeye tuna,recruitment,,36680.47954,91126.14187,,CI,Bigeye tuna:Recuitment
+2020,54013.64082,,,Recruitment,Bigeye tuna,recruitment,,36680.47954,92967.01204,,CI,Bigeye tuna:Recuitment
+2021,63946.32723,,,Recruitment,Bigeye tuna,recruitment,,40134.83743,114691.3631,,CI,Bigeye tuna:Recuitment
+2022,57523.46364,,,Recruitment,Bigeye tuna,recruitment,,31571.18132,113550.1649,,CI,Bigeye tuna:Recuitment
+2023,96263.88577,,,Recruitment,Bigeye tuna,recruitment,,46630.02845,202804.9584,,CI,Bigeye tuna:Recuitment
+1983,11827,1366.46,,Recruitment,Bluefin tuna,recruitment,,10460.54,13193.46,"1,000 fish",SD,Bluefin tuna:Recruitment
+1984,8176,2157.05,,Recruitment,Bluefin tuna,recruitment,,6018.95,10333.05,"1,000 fish",SD,Bluefin tuna:Recruitment
+1985,9207,2254.71,,Recruitment,Bluefin tuna,recruitment,,6952.29,11461.71,"1,000 fish",SD,Bluefin tuna:Recruitment
+1986,8094,1939.28,,Recruitment,Bluefin tuna,recruitment,,6154.72,10033.28,"1,000 fish",SD,Bluefin tuna:Recruitment
+1987,6956,1718.98,,Recruitment,Bluefin tuna,recruitment,,5237.02,8674.98,"1,000 fish",SD,Bluefin tuna:Recruitment
+1988,8977,1621.3,,Recruitment,Bluefin tuna,recruitment,,7355.7,10598.3,"1,000 fish",SD,Bluefin tuna:Recruitment
+1989,4187,1314.67,,Recruitment,Bluefin tuna,recruitment,,2872.33,5501.67,"1,000 fish",SD,Bluefin tuna:Recruitment
+1990,21138,1842.77,,Recruitment,Bluefin tuna,recruitment,,19295.23,22980.77,"1,000 fish",SD,Bluefin tuna:Recruitment
+1991,7400,1801.93,,Recruitment,Bluefin tuna,recruitment,,5598.07,9201.93,"1,000 fish",SD,Bluefin tuna:Recruitment
+1992,4375,1008.38,,Recruitment,Bluefin tuna,recruitment,,3366.62,5383.38,"1,000 fish",SD,Bluefin tuna:Recruitment
+1993,3985,775.191,,Recruitment,Bluefin tuna,recruitment,,3209.809,4760.191,"1,000 fish",SD,Bluefin tuna:Recruitment
+1994,30951,1618.41,,Recruitment,Bluefin tuna,recruitment,,29332.59,32569.41,"1,000 fish",SD,Bluefin tuna:Recruitment
+1995,15247,1666.55,,Recruitment,Bluefin tuna,recruitment,,13580.45,16913.55,"1,000 fish",SD,Bluefin tuna:Recruitment
+1996,17967,1254.41,,Recruitment,Bluefin tuna,recruitment,,16712.59,19221.41,"1,000 fish",SD,Bluefin tuna:Recruitment
+1997,11344,1195.25,,Recruitment,Bluefin tuna,recruitment,,10148.75,12539.25,"1,000 fish",SD,Bluefin tuna:Recruitment
+1998,15469,1297.1,,Recruitment,Bluefin tuna,recruitment,,14171.9,16766.1,"1,000 fish",SD,Bluefin tuna:Recruitment
+1999,21993,1358,,Recruitment,Bluefin tuna,recruitment,,20635,23351,"1,000 fish",SD,Bluefin tuna:Recruitment
+2000,13910,1163.82,,Recruitment,Bluefin tuna,recruitment,,12746.18,15073.82,"1,000 fish",SD,Bluefin tuna:Recruitment
+2001,16944,985.831,,Recruitment,Bluefin tuna,recruitment,,15958.169,17929.831,"1,000 fish",SD,Bluefin tuna:Recruitment
+2002,13375,1032.36,,Recruitment,Bluefin tuna,recruitment,,12342.64,14407.36,"1,000 fish",SD,Bluefin tuna:Recruitment
+2003,6748,828.03,,Recruitment,Bluefin tuna,recruitment,,5919.97,7576.03,"1,000 fish",SD,Bluefin tuna:Recruitment
+2004,27619,1071.35,,Recruitment,Bluefin tuna,recruitment,,26547.65,28690.35,"1,000 fish",SD,Bluefin tuna:Recruitment
+2005,15323,1109.64,,Recruitment,Bluefin tuna,recruitment,,14213.36,16432.64,"1,000 fish",SD,Bluefin tuna:Recruitment
+2006,13854,944.486,,Recruitment,Bluefin tuna,recruitment,,12909.514,14798.486,"1,000 fish",SD,Bluefin tuna:Recruitment
+2007,23619,965.647,,Recruitment,Bluefin tuna,recruitment,,22653.353,24584.647,"1,000 fish",SD,Bluefin tuna:Recruitment
+2008,21038,1018.61,,Recruitment,Bluefin tuna,recruitment,,20019.39,22056.61,"1,000 fish",SD,Bluefin tuna:Recruitment
+2009,7983,855.878,,Recruitment,Bluefin tuna,recruitment,,7127.122,8838.878,"1,000 fish",SD,Bluefin tuna:Recruitment
+2010,17593,964.757,,Recruitment,Bluefin tuna,recruitment,,16628.243,18557.757,"1,000 fish",SD,Bluefin tuna:Recruitment
+2011,13822,918.911,,Recruitment,Bluefin tuna,recruitment,,12903.089,14740.911,"1,000 fish",SD,Bluefin tuna:Recruitment
+2012,7663,775.436,,Recruitment,Bluefin tuna,recruitment,,6887.564,8438.436,"1,000 fish",SD,Bluefin tuna:Recruitment
+2013,14239,1040.81,,Recruitment,Bluefin tuna,recruitment,,13198.19,15279.81,"1,000 fish",SD,Bluefin tuna:Recruitment
+2014,4882,757.164,,Recruitment,Bluefin tuna,recruitment,,4124.836,5639.164,"1,000 fish",SD,Bluefin tuna:Recruitment
+2015,13367,1683.46,,Recruitment,Bluefin tuna,recruitment,,11683.54,15050.46,"1,000 fish",SD,Bluefin tuna:Recruitment
+2016,16040,2603.54,,Recruitment,Bluefin tuna,recruitment,,13436.46,18643.54,"1,000 fish",SD,Bluefin tuna:Recruitment
+2017,11417,2162.88,,Recruitment,Bluefin tuna,recruitment,,9254.12,13579.88,"1,000 fish",SD,Bluefin tuna:Recruitment
+2018,9991,2015.12,,Recruitment,Bluefin tuna,recruitment,,7975.88,12006.12,"1,000 fish",SD,Bluefin tuna:Recruitment
+2019,7485,1885.74,,Recruitment,Bluefin tuna,recruitment,,5599.26,9370.74,"1,000 fish",SD,Bluefin tuna:Recruitment
+2020,6828,2066.95,,Recruitment,Bluefin tuna,recruitment,,4761.05,8894.95,"1,000 fish",SD,Bluefin tuna:Recruitment
+2021,8275,3085.08,,Recruitment,Bluefin tuna,recruitment,,5189.92,11360.08,"1,000 fish",SD,Bluefin tuna:Recruitment
+2022,11467,6086.54,,Recruitment,Bluefin tuna,recruitment,,5380.46,17553.54,"1,000 fish",SD,Bluefin tuna:Recruitment
+1984,1409273,,,Recruitment,Yellowfin tuna,recruitment,,654547.2,3079301,,CI,Yellowfin tuna:Recruitment
+1985,1198399,,,Recruitment,Yellowfin tuna,recruitment,,705631.5,2355989,,CI,Yellowfin tuna:Recruitment
+1986,1297837,,,Recruitment,Yellowfin tuna,recruitment,,674793.9,2637992,,CI,Yellowfin tuna:Recruitment
+1987,1209255,,,Recruitment,Yellowfin tuna,recruitment,,716673.9,2319956,,CI,Yellowfin tuna:Recruitment
+1988,1363102,,,Recruitment,Yellowfin tuna,recruitment,,795284.8,2698211,,CI,Yellowfin tuna:Recruitment
+1989,1294066,,,Recruitment,Yellowfin tuna,recruitment,,681214.8,2654029,,CI,Yellowfin tuna:Recruitment
+1990,1178998,,,Recruitment,Yellowfin tuna,recruitment,,591232.6,2468266,,CI,Yellowfin tuna:Recruitment
+1991,1032157,,,Recruitment,Yellowfin tuna,recruitment,,562535.9,2031767,,CI,Yellowfin tuna:Recruitment
+1992,1304619,,,Recruitment,Yellowfin tuna,recruitment,,699801,2651291,,CI,Yellowfin tuna:Recruitment
+1993,1476699,,,Recruitment,Yellowfin tuna,recruitment,,783078,3001893,,CI,Yellowfin tuna:Recruitment
+1994,871238.8,,,Recruitment,Yellowfin tuna,recruitment,,520498.5,1657758,,CI,Yellowfin tuna:Recruitment
+1995,1063234,,,Recruitment,Yellowfin tuna,recruitment,,667294.4,1975619,,CI,Yellowfin tuna:Recruitment
+1996,1132275,,,Recruitment,Yellowfin tuna,recruitment,,644302.5,2159202,,CI,Yellowfin tuna:Recruitment
+1997,1030252,,,Recruitment,Yellowfin tuna,recruitment,,631357.1,1857180,,CI,Yellowfin tuna:Recruitment
+1998,1369656,,,Recruitment,Yellowfin tuna,recruitment,,810707.4,2295236,,CI,Yellowfin tuna:Recruitment
+1999,2035279,,,Recruitment,Yellowfin tuna,recruitment,,1244589,3308169,,CI,Yellowfin tuna:Recruitment
+2000,1094839,,,Recruitment,Yellowfin tuna,recruitment,,727945.7,1763885,,CI,Yellowfin tuna:Recruitment
+2001,1142496,,,Recruitment,Yellowfin tuna,recruitment,,767977.3,1922451,,CI,Yellowfin tuna:Recruitment
+2002,922452,,,Recruitment,Yellowfin tuna,recruitment,,608436.3,1589854,,CI,Yellowfin tuna:Recruitment
+2003,924689.3,,,Recruitment,Yellowfin tuna,recruitment,,621738.4,1558045,,CI,Yellowfin tuna:Recruitment
+2004,598155.6,,,Recruitment,Yellowfin tuna,recruitment,,384056.3,1032929,,CI,Yellowfin tuna:Recruitment
+2005,825547.1,,,Recruitment,Yellowfin tuna,recruitment,,528028.7,1480983,,CI,Yellowfin tuna:Recruitment
+2006,973117.9,,,Recruitment,Yellowfin tuna,recruitment,,560720.5,1855196,,CI,Yellowfin tuna:Recruitment
+2007,794432.2,,,Recruitment,Yellowfin tuna,recruitment,,528500.5,1398207,,CI,Yellowfin tuna:Recruitment
+2008,856294,,,Recruitment,Yellowfin tuna,recruitment,,562678.2,1486857,,CI,Yellowfin tuna:Recruitment
+2009,781654.9,,,Recruitment,Yellowfin tuna,recruitment,,494584.8,1399636,,CI,Yellowfin tuna:Recruitment
+2010,790273.5,,,Recruitment,Yellowfin tuna,recruitment,,534279.8,1356377,,CI,Yellowfin tuna:Recruitment
+2011,795319.1,,,Recruitment,Yellowfin tuna,recruitment,,521701.1,1382154,,CI,Yellowfin tuna:Recruitment
+2012,757525.6,,,Recruitment,Yellowfin tuna,recruitment,,502494,1273070,,CI,Yellowfin tuna:Recruitment
+2013,711983.7,,,Recruitment,Yellowfin tuna,recruitment,,502941.8,1108335,,CI,Yellowfin tuna:Recruitment
+2014,608772.9,,,Recruitment,Yellowfin tuna,recruitment,,423367.8,911885,,CI,Yellowfin tuna:Recruitment
+2015,842962.6,,,Recruitment,Yellowfin tuna,recruitment,,617476,1267655,,CI,Yellowfin tuna:Recruitment
+2016,714256.1,,,Recruitment,Yellowfin tuna,recruitment,,487459.8,1107587,,CI,Yellowfin tuna:Recruitment
+2017,808253.7,,,Recruitment,Yellowfin tuna,recruitment,,563772.3,1243886,,CI,Yellowfin tuna:Recruitment
+2018,978221.8,,,Recruitment,Yellowfin tuna,recruitment,,488062.5,1798578,,CI,Yellowfin tuna:Recruitment
+2019,1486848,,,Recruitment,Yellowfin tuna,recruitment,,246326.1,3226259,,CI,Yellowfin tuna:Recruitment
+1975,777,273,,Recruits (x1000),North Pacific swordfish,recruitment,,504,1050,,SD,North Pacific swordfish:Recruits (x1000)
+1976,768,255,,Recruits (x1000),North Pacific swordfish,recruitment,,513,1023,,SD,North Pacific swordfish:Recruits (x1000)
+1977,704,226,,Recruits (x1000),North Pacific swordfish,recruitment,,478,930,,SD,North Pacific swordfish:Recruits (x1000)
+1978,596,192,,Recruits (x1000),North Pacific swordfish,recruitment,,404,788,,SD,North Pacific swordfish:Recruits (x1000)
+1979,683,233,,Recruits (x1000),North Pacific swordfish,recruitment,,450,916,,SD,North Pacific swordfish:Recruits (x1000)
+1980,1169,383,,Recruits (x1000),North Pacific swordfish,recruitment,,786,1552,,SD,North Pacific swordfish:Recruits (x1000)
+1981,937,346,,Recruits (x1000),North Pacific swordfish,recruitment,,591,1283,,SD,North Pacific swordfish:Recruits (x1000)
+1982,772,284,,Recruits (x1000),North Pacific swordfish,recruitment,,488,1056,,SD,North Pacific swordfish:Recruits (x1000)
+1983,1430,394,,Recruits (x1000),North Pacific swordfish,recruitment,,1036,1824,,SD,North Pacific swordfish:Recruits (x1000)
+1984,1017,283,,Recruits (x1000),North Pacific swordfish,recruitment,,734,1300,,SD,North Pacific swordfish:Recruits (x1000)
+1985,933,235,,Recruits (x1000),North Pacific swordfish,recruitment,,698,1168,,SD,North Pacific swordfish:Recruits (x1000)
+1986,888,275,,Recruits (x1000),North Pacific swordfish,recruitment,,613,1163,,SD,North Pacific swordfish:Recruits (x1000)
+1987,825,214,,Recruits (x1000),North Pacific swordfish,recruitment,,611,1039,,SD,North Pacific swordfish:Recruits (x1000)
+1988,813,201,,Recruits (x1000),North Pacific swordfish,recruitment,,612,1014,,SD,North Pacific swordfish:Recruits (x1000)
+1989,675,217,,Recruits (x1000),North Pacific swordfish,recruitment,,458,892,,SD,North Pacific swordfish:Recruits (x1000)
+1990,711,222,,Recruits (x1000),North Pacific swordfish,recruitment,,489,933,,SD,North Pacific swordfish:Recruits (x1000)
+1991,777,230,,Recruits (x1000),North Pacific swordfish,recruitment,,547,1007,,SD,North Pacific swordfish:Recruits (x1000)
+1992,727,212,,Recruits (x1000),North Pacific swordfish,recruitment,,515,939,,SD,North Pacific swordfish:Recruits (x1000)
+1993,673,185,,Recruits (x1000),North Pacific swordfish,recruitment,,488,858,,SD,North Pacific swordfish:Recruits (x1000)
+1994,698,157,,Recruits (x1000),North Pacific swordfish,recruitment,,541,855,,SD,North Pacific swordfish:Recruits (x1000)
+1995,1323,150,,Recruits (x1000),North Pacific swordfish,recruitment,,1173,1473,,SD,North Pacific swordfish:Recruits (x1000)
+1996,752,99,,Recruits (x1000),North Pacific swordfish,recruitment,,653,851,,SD,North Pacific swordfish:Recruits (x1000)
+1997,708,94,,Recruits (x1000),North Pacific swordfish,recruitment,,614,802,,SD,North Pacific swordfish:Recruits (x1000)
+1998,1202,134,,Recruits (x1000),North Pacific swordfish,recruitment,,1068,1336,,SD,North Pacific swordfish:Recruits (x1000)
+1999,822,109,,Recruits (x1000),North Pacific swordfish,recruitment,,713,931,,SD,North Pacific swordfish:Recruits (x1000)
+2000,707,99,,Recruits (x1000),North Pacific swordfish,recruitment,,608,806,,SD,North Pacific swordfish:Recruits (x1000)
+2001,729,98,,Recruits (x1000),North Pacific swordfish,recruitment,,631,827,,SD,North Pacific swordfish:Recruits (x1000)
+2002,881,108,,Recruits (x1000),North Pacific swordfish,recruitment,,773,989,,SD,North Pacific swordfish:Recruits (x1000)
+2003,1019,121,,Recruits (x1000),North Pacific swordfish,recruitment,,898,1140,,SD,North Pacific swordfish:Recruits (x1000)
+2004,1192,134,,Recruits (x1000),North Pacific swordfish,recruitment,,1058,1326,,SD,North Pacific swordfish:Recruits (x1000)
+2005,851,110,,Recruits (x1000),North Pacific swordfish,recruitment,,741,961,,SD,North Pacific swordfish:Recruits (x1000)
+2006,819,101,,Recruits (x1000),North Pacific swordfish,recruitment,,718,920,,SD,North Pacific swordfish:Recruits (x1000)
+2007,791,96,,Recruits (x1000),North Pacific swordfish,recruitment,,695,887,,SD,North Pacific swordfish:Recruits (x1000)
+2008,746,91,,Recruits (x1000),North Pacific swordfish,recruitment,,655,837,,SD,North Pacific swordfish:Recruits (x1000)
+2009,660,84,,Recruits (x1000),North Pacific swordfish,recruitment,,576,744,,SD,North Pacific swordfish:Recruits (x1000)
+2010,774,93,,Recruits (x1000),North Pacific swordfish,recruitment,,681,867,,SD,North Pacific swordfish:Recruits (x1000)
+2011,728,92,,Recruits (x1000),North Pacific swordfish,recruitment,,636,820,,SD,North Pacific swordfish:Recruits (x1000)
+2012,758,96,,Recruits (x1000),North Pacific swordfish,recruitment,,662,854,,SD,North Pacific swordfish:Recruits (x1000)
+2013,896,112,,Recruits (x1000),North Pacific swordfish,recruitment,,784,1008,,SD,North Pacific swordfish:Recruits (x1000)
+2014,971,123,,Recruits (x1000),North Pacific swordfish,recruitment,,848,1094,,SD,North Pacific swordfish:Recruits (x1000)
+2015,1016,130,,Recruits (x1000),North Pacific swordfish,recruitment,,886,1146,,SD,North Pacific swordfish:Recruits (x1000)
+2016,964,130,,Recruits (x1000),North Pacific swordfish,recruitment,,834,1094,,SD,North Pacific swordfish:Recruits (x1000)
+2017,747,109,,Recruits (x1000),North Pacific swordfish,recruitment,,638,856,,SD,North Pacific swordfish:Recruits (x1000)
+2018,783,113,,Recruits (x1000),North Pacific swordfish,recruitment,,670,896,,SD,North Pacific swordfish:Recruits (x1000)
+2019,739,116,,Recruits (x1000),North Pacific swordfish,recruitment,,623,855,,SD,North Pacific swordfish:Recruits (x1000)
+2020,625,112,,Recruits (x1000),North Pacific swordfish,recruitment,,513,737,,SD,North Pacific swordfish:Recruits (x1000)
+2021,633,122,,Recruits (x1000),North Pacific swordfish,recruitment,,511,755,,SD,North Pacific swordfish:Recruits (x1000)
+1971,NA,NA,,Recruits (x1000),Blue marlin,recruitment,,,,,SD,Blue marlin:Recruits (x1000)
+1972,958.4886,288.1821,,Recruits (x1000),Blue marlin,recruitment,,,,,SD,Blue marlin:Recruits (x1000)
+1973,904.7823,280.7946,,Recruits (x1000),Blue marlin,recruitment,,,,,SD,Blue marlin:Recruits (x1000)
+1974,505.091,173.4704,,Recruits (x1000),Blue marlin,recruitment,,,,,SD,Blue marlin:Recruits (x1000)
+1975,632.4314,174.7608,,Recruits (x1000),Blue marlin,recruitment,,,,,SD,Blue marlin:Recruits (x1000)
+1976,782.9263,235.7535,,Recruits (x1000),Blue marlin,recruitment,,,,,SD,Blue marlin:Recruits (x1000)
+1977,949.3982,284.9351,,Recruits (x1000),Blue marlin,recruitment,,,,,SD,Blue marlin:Recruits (x1000)
+1978,1010.475,273.1507,,Recruits (x1000),Blue marlin,recruitment,,,,,SD,Blue marlin:Recruits (x1000)
+1979,1009.5503,275.9286,,Recruits (x1000),Blue marlin,recruitment,,,,,SD,Blue marlin:Recruits (x1000)
+1980,824.3738,250.9472,,Recruits (x1000),Blue marlin,recruitment,,,,,SD,Blue marlin:Recruits (x1000)
+1981,1031.9901,269.7186,,Recruits (x1000),Blue marlin,recruitment,,,,,SD,Blue marlin:Recruits (x1000)
+1982,1305.5718,308.0022,,Recruits (x1000),Blue marlin,recruitment,,,,,SD,Blue marlin:Recruits (x1000)
+1983,874.9064,325.2302,,Recruits (x1000),Blue marlin,recruitment,,,,,SD,Blue marlin:Recruits (x1000)
+1984,903.1298,245.3986,,Recruits (x1000),Blue marlin,recruitment,,,,,SD,Blue marlin:Recruits (x1000)
+1985,849.2683,236.5197,,Recruits (x1000),Blue marlin,recruitment,,,,,SD,Blue marlin:Recruits (x1000)
+1986,1055.759,256.0661,,Recruits (x1000),Blue marlin,recruitment,,,,,SD,Blue marlin:Recruits (x1000)
+1987,1035.1919,264.2896,,Recruits (x1000),Blue marlin,recruitment,,,,,SD,Blue marlin:Recruits (x1000)
+1988,1021.289,301.3954,,Recruits (x1000),Blue marlin,recruitment,,,,,SD,Blue marlin:Recruits (x1000)
+1989,1131.8804,287.7804,,Recruits (x1000),Blue marlin,recruitment,,,,,SD,Blue marlin:Recruits (x1000)
+1990,963.7727,283.6471,,Recruits (x1000),Blue marlin,recruitment,,,,,SD,Blue marlin:Recruits (x1000)
+1991,1072.3552,274.8069,,Recruits (x1000),Blue marlin,recruitment,,,,,SD,Blue marlin:Recruits (x1000)
+1992,904.6476,244.6402,,Recruits (x1000),Blue marlin,recruitment,,,,,SD,Blue marlin:Recruits (x1000)
+1993,1031.6584,219.4749,,Recruits (x1000),Blue marlin,recruitment,,,,,SD,Blue marlin:Recruits (x1000)
+1994,563.4596,150.8078,,Recruits (x1000),Blue marlin,recruitment,,,,,SD,Blue marlin:Recruits (x1000)
+1995,1138.5339,286.8456,,Recruits (x1000),Blue marlin,recruitment,,,,,SD,Blue marlin:Recruits (x1000)
+1996,805.7914,324.365,,Recruits (x1000),Blue marlin,recruitment,,,,,SD,Blue marlin:Recruits (x1000)
+1997,935.7153,177.9712,,Recruits (x1000),Blue marlin,recruitment,,,,,SD,Blue marlin:Recruits (x1000)
+1998,598.5051,146.7529,,Recruits (x1000),Blue marlin,recruitment,,,,,SD,Blue marlin:Recruits (x1000)
+1999,895.5486,158.3724,,Recruits (x1000),Blue marlin,recruitment,,,,,SD,Blue marlin:Recruits (x1000)
+2000,784.3424,158.6506,,Recruits (x1000),Blue marlin,recruitment,,,,,SD,Blue marlin:Recruits (x1000)
+2001,869.2313,175.6926,,Recruits (x1000),Blue marlin,recruitment,,,,,SD,Blue marlin:Recruits (x1000)
+2002,831.4222,156.9186,,Recruits (x1000),Blue marlin,recruitment,,,,,SD,Blue marlin:Recruits (x1000)
+2003,790.6506,151.383,,Recruits (x1000),Blue marlin,recruitment,,,,,SD,Blue marlin:Recruits (x1000)
+2004,923.6173,169.3114,,Recruits (x1000),Blue marlin,recruitment,,,,,SD,Blue marlin:Recruits (x1000)
+2005,775.2594,147.0518,,Recruits (x1000),Blue marlin,recruitment,,,,,SD,Blue marlin:Recruits (x1000)
+2006,1073.8006,184.3741,,Recruits (x1000),Blue marlin,recruitment,,,,,SD,Blue marlin:Recruits (x1000)
+2007,852.059,153.299,,Recruits (x1000),Blue marlin,recruitment,,,,,SD,Blue marlin:Recruits (x1000)
+2008,724.9441,143.6172,,Recruits (x1000),Blue marlin,recruitment,,,,,SD,Blue marlin:Recruits (x1000)
+2009,1093.5327,192.3167,,Recruits (x1000),Blue marlin,recruitment,,,,,SD,Blue marlin:Recruits (x1000)
+2010,1044.5307,173.3868,,Recruits (x1000),Blue marlin,recruitment,,,,,SD,Blue marlin:Recruits (x1000)
+2011,870.947,199.3712,,Recruits (x1000),Blue marlin,recruitment,,,,,SD,Blue marlin:Recruits (x1000)
+2012,750.9165,186.7648,,Recruits (x1000),Blue marlin,recruitment,,,,,SD,Blue marlin:Recruits (x1000)
+2013,944.5404,144.4018,,Recruits (x1000),Blue marlin,recruitment,,,,,SD,Blue marlin:Recruits (x1000)
+2014,767.4545,133.2557,,Recruits (x1000),Blue marlin,recruitment,,,,,SD,Blue marlin:Recruits (x1000)
+2015,594.1211,116.3672,,Recruits (x1000),Blue marlin,recruitment,,,,,SD,Blue marlin:Recruits (x1000)
+2016,835.8208,185.216,,Recruits (x1000),Blue marlin,recruitment,,,,,SD,Blue marlin:Recruits (x1000)
+2017,825.188,195.9471,,Recruits (x1000),Blue marlin,recruitment,,,,,SD,Blue marlin:Recruits (x1000)
+2018,1318.013,378.6111,,Recruits (x1000),Blue marlin,recruitment,,,,,SD,Blue marlin:Recruits (x1000)
+2019,863.6374,453.6661,,Recruits (x1000),Blue marlin,recruitment,,,,,SD,Blue marlin:Recruits (x1000)
+2006,40901.72,8284.382354,,Recruitment,Skipjack tuna,recruitment,,,,1000s fish,SD,Skipjack tuna:Recruitment
+2007,69072.1,12215.15348,,Recruitment,Skipjack tuna,recruitment,,,,1000s fish,SD,Skipjack tuna:Recruitment
+2008,23779.79,4534.374763,,Recruitment,Skipjack tuna,recruitment,,,,1000s fish,SD,Skipjack tuna:Recruitment
+2009,49706.04,10018.21094,,Recruitment,Skipjack tuna,recruitment,,,,1000s fish,SD,Skipjack tuna:Recruitment
+2010,74286.04,12340.85233,,Recruitment,Skipjack tuna,recruitment,,,,1000s fish,SD,Skipjack tuna:Recruitment
+2011,31701.44,5042.786271,,Recruitment,Skipjack tuna,recruitment,,,,1000s fish,SD,Skipjack tuna:Recruitment
+2012,59154.49,7004.685764,,Recruitment,Skipjack tuna,recruitment,,,,1000s fish,SD,Skipjack tuna:Recruitment
+2013,28448.09,3194.695989,,Recruitment,Skipjack tuna,recruitment,,,,1000s fish,SD,Skipjack tuna:Recruitment
+2014,36560.52,3826.068961,,Recruitment,Skipjack tuna,recruitment,,,,1000s fish,SD,Skipjack tuna:Recruitment
+2015,54856.14,6322.896892,,Recruitment,Skipjack tuna,recruitment,,,,1000s fish,SD,Skipjack tuna:Recruitment
+2016,44862.18,4840.125472,,Recruitment,Skipjack tuna,recruitment,,,,1000s fish,SD,Skipjack tuna:Recruitment
+2017,37116.45,3978.952117,,Recruitment,Skipjack tuna,recruitment,,,,1000s fish,SD,Skipjack tuna:Recruitment
+2018,46467.9,5087.492359,,Recruitment,Skipjack tuna,recruitment,,,,1000s fish,SD,Skipjack tuna:Recruitment
+2019,49649.86,6090.131072,,Recruitment,Skipjack tuna,recruitment,,,,1000s fish,SD,Skipjack tuna:Recruitment
+2020,48288.4,5770.356722,,Recruitment,Skipjack tuna,recruitment,,,,1000s fish,SD,Skipjack tuna:Recruitment
+2021,43438.21,5045.916453,,Recruitment,Skipjack tuna,recruitment,,,,1000s fish,SD,Skipjack tuna:Recruitment
+2022,47669.38,5987.590371,,Recruitment,Skipjack tuna,recruitment,,,,1000s fish,SD,Skipjack tuna:Recruitment
+2023,63268.1,12781.84851,,Recruitment,Skipjack tuna,recruitment,,,,1000s fish,SD,Skipjack tuna:Recruitment
