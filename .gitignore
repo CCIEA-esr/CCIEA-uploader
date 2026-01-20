@@ -10,6 +10,8 @@
 /_old/
 /_dev/
 /docs/
+/docs/data/
+/docs/timeseries_data/
 /.secrets/
 /status_cache/
 /_extensions/
