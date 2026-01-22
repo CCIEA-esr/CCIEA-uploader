@@ -11,7 +11,7 @@
 CallPlotTimeSeries <-function(df,Ylabel,title,timename,varname,PERIOD,datatype,timesp,seastyp,firstyr,lastyr,showmean,showsmo,showreg,showsd,outdir,outid,Ymin,Ymax,query,usepise){
 
 library("png")
-source("_dev/PlotTimeSeries.R")
+source("PlotTimeSeries.R")
 
 data01=data.frame()  # input data
 data02=data.frame()  # stores seasonal aves, etc.
