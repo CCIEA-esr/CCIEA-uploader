@@ -2,6 +2,7 @@ library("jsonlite")
 library("tidyverse")
 library("dplyr")
 library("data.table")
+library("readxl")
 
 ##---------get_PI_folders----------------------------------
 #' Get a dribble of PI folder names and ID's
@@ -247,6 +248,16 @@ check_upload_status <- function(esr_year,metadata_spreadsheet_folder,meta_file_s
       ## Loop through all the files in the upload folder
       if (length(pifiles$name) > 0) {
         for(f in 1:length(pifiles$name)){
+          # check file format. If excel file download it, convert to csv, re-upload it as csv
+          # move excel file to PI_original folder
+          # change file extension to .csv and rename pifiles$name[f]
+          # pifiles$id[f] will also need changing
+          # maybe do in a separate loop then run find_PI_files.. again?
+          
+          
+          
+          
+          
           fileobj <- list()
           print(pifiles$name[f])
           ## if this is a metadata file, incorporate it back into the full spreadsheet
@@ -300,6 +311,7 @@ clean_file <- function(df,datares){
   if(df[1,1]=="UTC"){df = data.frame(read.table(Data.File, header = TRUE, skip=1, sep=","))}
   cn = colnames(df)
   if(datares=="Annual")cn[cn%in%c("Year","date","Date","time","UTC","time..UTC.")]<-"year"
+  ## need to add qualifier to not do the following if there is already a time column!!!
   if(datares=="Monthly")cn[cn%in%c("Year","date","Date","year","UTC","time..UTC.")]<-"time"
   cn[cn%in%c("data","Data","fitted.data","Fitted.data","mean","count","kg.day","anomaly", "kg", "km","Annual.Anomaly","ln.catch.1.","ONI","PDO","NPGO")]<-"index"
   cn[cn%in%c("raw.data","Raw.Data")]<-"Y2"
@@ -358,7 +370,7 @@ update_metadata <- function(PIid,meta_uploaded_fileid,metadata_spreadsheet_folde
     filter(.[[2]] == 1) %>% # Filter rows where the second column is 1
     { setNames(.$`name in csv file`, .$`ERDDAP name`) }
 
-# 
+# read large metadata file on drive
   old_meta =read_sheet(new_meta_file$id)
   old_meta$ERDDAP_query_value <- as.character(old_meta$ERDDAP_query_value)
   column_types <- sapply(old_meta,class) # returns named vector
