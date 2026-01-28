@@ -26,6 +26,10 @@ run_plot <- function(timesp, dframe, varname, ylab, title, seastyp, PERIOD,
   return(file_stats)
 }
 
+######################## signif_util ###########################
+signif_util = function(x, digits){
+  return( floor(x) + signif(x %% 1, digits) )
+  }
 ################# CallPlotTimeSeries ###########################
 # column order should be:
 # Year 
@@ -548,7 +552,8 @@ PlotTimeSeries <-function(
   if(length(YLIM==2)){
     if(is.na(YLIM[2])==TRUE){ymax = max(Y,Y2,SEup, Usd, na.rm=TRUE)}else{ymax=YLIM[2]}
   }
-  
+  ydatamin=min(Y)
+  ydatamax=max(Y)
   if(is.na(Y.axis.labels[1]) == TRUE){yats = pretty(c(ymin,ymax), n=YATS)}else{yats = Y.axis.labels}
   # format maintains decimal places for integers
   maxats = max(yats)
@@ -1124,8 +1129,7 @@ PlotTimeSeries <-function(
     }
   }
   
-  file_stats <- list(trend=tr,status=st)
-
+  file_stats <- list(trend=tr,status=st,min=signif_util(ydatamin,6),max=signif_util(ydatamax,6))
   return(file_stats)
 }  # end funtion  
 
