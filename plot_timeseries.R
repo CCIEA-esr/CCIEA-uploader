@@ -16,7 +16,7 @@ source("_plot_functions.R")
 # Set global variables.
 
 seastyp <- 0
-outdir <- "figures/test/"
+outdir <- "figures/timeseries_images/"
 
 meta_file <- "data/CCIEA_metadata.csv"
 # Read the metadata directly from the URL into a data frame.
@@ -165,6 +165,8 @@ for (i in 1:nrow(metadata)) {
         info$default_figure=file_stats$plotfilename
         info$trend=file_stats$trend
         info$status=file_stats$status
+        info$min=file_stats$min
+        info$max=file_stats$max
         
         metadata = update_metadata_line(metadata,info)
         write_csv(x = metadata, file = "data/CCIEA_metadata_updated.csv",na="")
