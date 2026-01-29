@@ -1,5 +1,7 @@
 ## Working version
-# !!Add case where data file name is missing in metadata spreadsheet (HMS data)
+# For now run on laptop Rscript plot_timeseries.R
+# push new images to GitHub and metadata spreadsheet to Drive
+# Open spreadsheet in Google Sheets before running
 
 ## Main code ##
 
