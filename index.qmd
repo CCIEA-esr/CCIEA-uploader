@@ -90,6 +90,21 @@ meta_download = meta.filter(metadownload=>{
 downloadColumns = ['ID', 'Name', 'Funds'];
 
 m=filtered[0]
+base="https://github.com/CCIEA-esr/CCIEA-uploader/blob/master/data/timeseries_data/";
+
+function getcsvurl(base,m){
+  var csvurl=base+m.cciea_filename;
+  var urlstatus=true
+  urlstatus = fetch(csvurl, { method: 'HEAD', mode: 'no-cors' })
+    // Note: 'no-cors' mode restricts access to response status, 
+    // but a successful fetch (even opaque) indicates it exists.
+    .then(response => response.ok)
+  .catch(() => false)
+if(urlstatus!=true)csvurl=base+m.PI_filename;
+return(csvurl)
+}
+
+
 		function year(longdate){
 			var datestr=String(longdate);
 			if(datestr)return (datestr.replace("-01-01T00:00:00Z",""));
@@ -108,7 +123,6 @@ m=filtered[0]
 			if(type.search(/png/i)>=0||type.search('graph')>=0){url+='&.draw=lines';}
 			return url;
 			}
-
 
 html`
 			<div>
@@ -156,10 +170,8 @@ html`
 				</div>
 				<div>
 				${m.no_download_flag ? html `<span class="bold">No download, private data</span>`
-					: html `<span class="bold">ERDDAP data links:</span> <span>(ERDDAP dataset id: ${m.ERDDAP_Dataset_ID}) </span>
-						&nbsp;|&nbsp;<span><a class="noline" href='${geterddapurl(m.ERDDAP_Dataset_ID,m.ERDDAP_query_parameter,m.ERDDAP_query_value,m.ERDDAP_variable_name,"htmlTable")}' target='_blank'>View data as html</a></span>
-						&nbsp;|&nbsp;<span><a class="noline" href='${geterddapurl(m.ERDDAP_Dataset_ID,m.ERDDAP_query_parameter,m.ERDDAP_query_value,m.ERDDAP_variable_name,"csv")}' target='_blank'>Download a csv file</a></span>
-						&nbsp;|&nbsp;<span><a class="noline" href='${geterddapurl(m.ERDDAP_Dataset_ID,m.ERDDAP_query_parameter,m.ERDDAP_query_value,m.ERDDAP_variable_name,"html")}' target='_blank'>ERDDAP link</a></span>
+					: html `<span class="bold">Download data:</span>
+						&nbsp;&nbsp;<span><a class="noline" href='${getcsvurl(base,m)}' target='_blank'>csv file</a></span>
 					`}
 				</div>
 				<div>
