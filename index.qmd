@@ -93,18 +93,35 @@ m=filtered[0]
 base="https://github.com/CCIEA-esr/CCIEA-uploader/blob/master/data/timeseries_data/";
 raw_base="https://raw.githubusercontent.com/CCIEA-esr/CCIEA-uploader/refs/heads/master/data/timeseries_data/";
 
-function getcsvurl(base,m){
-  var csvurl=base+m.cciea_filename;
-  var urlstatus=true
-  urlstatus = fetch(csvurl, { method: 'HEAD', mode: 'no-cors' })
+
+function check_csvurl(base,m){
+  const cciea_url = base + m.cciea_filename;
+  const pi_url = base + m.PI_filename;
+  
+  return fetch(cciea_url, { method: 'HEAD'})
     // Note: 'no-cors' mode restricts access to response status, 
     // but a successful fetch (even opaque) indicates it exists.
-    .then(response => response.ok)
-  .catch(() => false)
-if(urlstatus!=true)csvurl=base+m.PI_filename;
-return(csvurl)
+    .then(response => {
+      if(response.ok){
+        return cciea_url;
+        }
+      return pi_url;
+    })
+    .catch(error => {
+      console.log("Fetch failed, defaulting to PI:", error.message);
+      return pi_url
+  });
+
 }
 
+csvurl = {
+  const cciea_url = raw_base + m.cciea_filename;
+  const pi_url = raw_base + m.PI_filename;
+
+  return fetch(cciea_url, { method: 'HEAD' })
+    .then(res => res.ok ? cciea_url : pi_url)
+    .catch(() => pi_url);
+}
 
 		function year(longdate){
 			var datestr=String(longdate);
@@ -172,7 +189,7 @@ html`
 				<div>
 				${m.no_download_flag ? html `<span class="bold">No download, private data</span>`
 					: html `<span class="bold">Download data:</span>
-						&nbsp;&nbsp;<span><a class="noline" href='${getcsvurl(raw_base,m)}' target='_blank'>csv file</a></span>
+						&nbsp;&nbsp;<span><a class="noline" href='${csvurl}' target='_blank'>csv file</a></span>
 					`}
 				</div>
 				<div>
