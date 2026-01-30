@@ -153,20 +153,17 @@ html`
 				<div><span class="bold">Institution: </span><span>${m.Institution}</span></div>
 				<div><span class="bold">Units: </span><span>${m.Units}</span></div>
 				<div>
-				${m.region ? html `<span class="bold">Region: </span><span>${m.region}</span>` : html ``}
-				${m.latitude ? html `<span class="bold">Latitude: </span><span>${m.latitude} N</span>` : ``}
-				${m.latitude2 ? html `<span class="bold"> - </span><span>${m.latitude2} N</span>` : ``}
-				${m.longitude ? html `<span class="bold">Longitude: </span><span>${m.longitude} E</span>` : ``}
-				${m.longitude2 ? html `<span class="bold"> - </span><span>${m.longitude2}</span>` : ``}
-				</div>
-				<div>
-				${m.sampling_frequency ? html `<span class="bold">Sampling frequency: </span><span>${m.Sampling_frequency}</span>` : ``}
+				${m.region!="" ? html `<span class="bold">Region: </span><span>${m.region}</span>` :  ``}
+				${m.latitude!="NA" ? html `<span class="bold">Latitude: </span><span>${m.latitude} N</span>` : ``}
+				${m.latitude2!="NA" ? html `<span class="bold"> - </span><span>${m.latitude2} N</span>` : ``}
+				${m.longitude!="NA" ? html `<span class="bold">Longitude: </span><span>${m.longitude} E</span>` : ``}
+				${m.longitude2!="NA" ? html `<span class="bold"> - </span><span>${m.longitude2}</span>` : ``}
 				</div>
 				<div>
 				${m.Sampling_frequency ? html `<span class="bold">Sampling frequency: </span><span>${m.Sampling_frequency}</span>` : ``}
 				</div>
 				<div>
-				${m.scientific_name ? html `<span class="bold">Scientific name: </span><span>${m.scientific_name}</span>` : ``}
+				${m.Scientific_name!="" ? html `<span class="bold">Scientific name: </span><span>${m.Scientific_name}</span>` : ``}
 				</div>
 				<div>
 				${m.Source_Data ? html `<span class="bold">Source Data: </span><span>${m.Source_Data}</span>` : ``}
@@ -178,16 +175,16 @@ html`
 				${m.filename ? html `<span class="bold">PI filename: </span><span>${m.filename}</span>` : ``}
 				</div>
 				<div>
-				${m.year_begin ? html `<span class="bold">Date range: </span><span>${year(m.year_begin)} - ${year(m.year_end)}</span>` : ``}
+				${m.year_begin!="NA" ? html `<span class="bold">Date range: </span><span>${year(m.year_begin)} - ${year(m.year_end)}</span>` : ``}
 				</div>
 				<div>
-				${m.min ? html `<span class="bold">Indicator range: </span><span>min: ${m.min} max: ${m.max}</span>` : ``}
+				${m.min!="NA" ? html `<span class="bold">Indicator range: </span><span>min: ${m.min} max: ${m.max}</span>` : ``}
 				</div>
 				<div>
-				<span class="bold">Serve this data for CCIEA? </span><span>${yesno(m.currently_served)}</span> <span class="bold">Whale Entanglement dataset? </span><span>${yesno(m.whale_entanglement_flag)}</span> <span class="bold">Salmon web page? </span><span>${yesno(m.salmon_web_flag)}</span>
+				<span class="bold">Serve this data for CCIEA? </span><span>${yesno(m.serve_flag)}</span><br><span class="bold">Whale Entanglement dataset? </span><span>${yesno(m.whale_entanglement)}</span><br><span class="bold">Salmon web page? </span><span>${yesno(m.Salmon_Web)}</span>
 				</div>
 				<div>
-				${m.no_download_flag ? html `<span class="bold">No download, private data</span>`
+				${m.no_download==1 ? html `<span class="bold">No download, private data</span>`
 					: html `<span class="bold">Download data:</span>
 						&nbsp;&nbsp;<span><a class="noline" href='${csvurl}' target='_blank'>csv file</a></span>
 					`}
