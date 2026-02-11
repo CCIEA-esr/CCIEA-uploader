@@ -16,10 +16,10 @@ docs/
 mermaid_code.txt
 data/items_meta.json
 data/uploader_status_2024-2025.json
-data/Seabird_SEFarallon_BRAC_diet.csv
-data/Seabird_SEFarallon_CAAU_diet.csv
-data/Seabird_SEFarallon_COMU_diet.csv
-data/Seabird_SEFarallon_PIGU_diet.csv
-data/Seabird_SEFarallon_RHAU_diet.csv
+data/timeseries_data/Seabird_SEFarallon_BRAC_diet.csv
+data/timeseries_data/Seabird_SEFarallon_CAAU_diet.csv
+data/timeseries_data/Seabird_SEFarallon_COMU_diet.csv
+data/timeseries_data/Seabird_SEFarallon_PIGU_diet.csv
+data/timeseries_data/Seabird_SEFarallon_RHAU_diet.csv
 figures/timeseries_images/test/
 figures/test/
