@@ -378,7 +378,7 @@ update_metadata <- function(PIid,meta_uploaded_fileid,metadata_spreadsheet_folde
   col_list=as.list(column_types)
 
 csv=drive_read_string(meta_uploaded_fileid)
-new_meta_header <- read_csv(csv,n_max=1, show_col_types = FALSE)  # (lat/lon are "logical")
+new_meta_header <- read_csv(csv,n_max=1, show_col_types = FALSE,na.strings = c("NA", "NULL", ""))  # (lat/lon are "logical")
 
 temp=old_meta[0,]
 common_cols <- intersect(names(new_meta_header),names(temp))
@@ -396,6 +396,7 @@ if (!"CCIEA_timeseries_ID" %in% colnames(new_meta_chunk)) {
 new_meta_chunk <- new_meta_chunk %>% filter(!is.na(CCIEA_timeseries_ID))
 
 old_meta <- rows_update(old_meta,new_meta_chunk,by = "CCIEA_timeseries_ID")
+old_meta[is.na(old_meta)] <- ""
 
 ## write to Google Drive
 sheet_write(data = old_meta, ss=new_meta_file$id, sheet = 1)
