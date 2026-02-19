@@ -64,6 +64,7 @@
               git config --local user.name "GitHub Actions"
               git add data/*.json
               git add data/CCIEA_metadata.csv
+              git add data/timeseries_data/*.csv
               git commit -m 'Data updated' || echo "No changes to commit"
               git push origin || echo "No changes to commit"
               
