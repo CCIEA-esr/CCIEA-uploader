@@ -285,7 +285,8 @@ check_upload_status <- function(esr_year,metadata_spreadsheet_folder,meta_file_s
            outfile <- paste0("data/timeseries_data/",pifiles$name[f],sep="")
            write_csv(df_cleaned,outfile)
 #          write.csv(df_cleaned, file = "temp.csv",row.names = FALSE)
-           drive_upload(outfile,name=pifiles$name[f],path=this_yearfolder,type="text/csv",overwrite=TRUE)
+           # use drive_put instead of drive_upload, drive_upload fails when file already exists, even if overwrite=TRUE
+           drive_put(outfile,name=pifiles$name[f],path=this_yearfolder,type="text/csv")
            ## to-do could check for backup folder and create it if not already there -
            ##		backup=drive_mkdir("PI_original",path=pifolderid,overwrite=FALSE)
             drive_mv(file = pifiles$id[f], path = backup_folder_id)     	
