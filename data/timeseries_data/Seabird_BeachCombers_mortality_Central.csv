@@ -1,139 +1,124 @@
 year,index,metric,timeseries_original,order,timeseries,outlier
-1997,0,Encounter rate,Cassins auklet (Oct - Feb) Central,1,Cassins auklet encounter rate (Ce/So CC) Central,
-1998,0,Encounter rate,Cassins auklet (Oct - Feb) Central,1,Cassins auklet encounter rate (Ce/So CC) Central,
-1999,0,Encounter rate,Cassins auklet (Oct - Feb) Central,1,Cassins auklet encounter rate (Ce/So CC) Central,
-2000,0,Encounter rate,Cassins auklet (Oct - Feb) Central,1,Cassins auklet encounter rate (Ce/So CC) Central,
-2001,0,Encounter rate,Cassins auklet (Oct - Feb) Central,1,Cassins auklet encounter rate (Ce/So CC) Central,
-2002,0,Encounter rate,Cassins auklet (Oct - Feb) Central,1,Cassins auklet encounter rate (Ce/So CC) Central,
-2003,0,Encounter rate,Cassins auklet (Oct - Feb) Central,1,Cassins auklet encounter rate (Ce/So CC) Central,
-2004,0,Encounter rate,Cassins auklet (Oct - Feb) Central,1,Cassins auklet encounter rate (Ce/So CC) Central,
-2005,0.081433225,Encounter rate,Cassins auklet (Oct - Feb) Central,1,Cassins auklet encounter rate (Ce/So CC) Central,
-2006,0,Encounter rate,Cassins auklet (Oct - Feb) Central,1,Cassins auklet encounter rate (Ce/So CC) Central,
-2007,0,Encounter rate,Cassins auklet (Oct - Feb) Central,1,Cassins auklet encounter rate (Ce/So CC) Central,
-2008,0,Encounter rate,Cassins auklet (Oct - Feb) Central,1,Cassins auklet encounter rate (Ce/So CC) Central,
-2009,0,Encounter rate,Cassins auklet (Oct - Feb) Central,1,Cassins auklet encounter rate (Ce/So CC) Central,
-2010,0.204798128,Encounter rate,Cassins auklet (Oct - Feb) Central,1,Cassins auklet encounter rate (Ce/So CC) Central,
-2011,0.058513751,Encounter rate,Cassins auklet (Oct - Feb) Central,1,Cassins auklet encounter rate (Ce/So CC) Central,
-2012,0,Encounter rate,Cassins auklet (Oct - Feb) Central,1,Cassins auklet encounter rate (Ce/So CC) Central,
-2013,0,Encounter rate,Cassins auklet (Oct - Feb) Central,1,Cassins auklet encounter rate (Ce/So CC) Central,
-2014,0.322038645,Encounter rate,Cassins auklet (Oct - Feb) Central,1,Cassins auklet encounter rate (Ce/So CC) Central,outlier
-2015,0,Encounter rate,Cassins auklet (Oct - Feb) Central,1,Cassins auklet encounter rate (Ce/So CC) Central,
-2016,0.051679587,Encounter rate,Cassins auklet (Oct - Feb) Central,1,Cassins auklet encounter rate (Ce/So CC) Central,
-2017,0.231053604,Encounter rate,Cassins auklet (Oct - Feb) Central,1,Cassins auklet encounter rate (Ce/So CC) Central,outlier
-2018,0.121212121,Encounter rate,Cassins auklet (Oct - Feb) Central,1,Cassins auklet encounter rate (Ce/So CC) Central,
-2019,0.044464206,Encounter rate,Cassins auklet (Oct - Feb) Central,1,Cassins auklet encounter rate (Ce/So CC) Central,
-2020,0.059171598,Encounter rate,Cassins auklet (Oct - Feb) Central,1,Cassins auklet encounter rate (Ce/So CC) Central,
-2021,0,Encounter rate,Cassins auklet (Oct - Feb) Central,1,Cassins auklet encounter rate (Ce/So CC) Central,
-2022,0.055309735,Encounter rate,Cassins auklet (Oct - Feb) Central,1,Cassins auklet encounter rate (Ce/So CC) Central,
-2023,0.081124932,Encounter rate,Cassins auklet (Oct - Feb) Central,1,Cassins auklet encounter rate (Ce/So CC) Central,
-1997,0,Encounter rate,Common murre (Jun- Dec) Central,2,Common murre encounter rate(Ce/So CC) Central,
-1998,0,Encounter rate,Common murre (Jun- Dec) Central,2,Common murre encounter rate(Ce/So CC) Central,
-1999,0,Encounter rate,Common murre (Jun- Dec) Central,2,Common murre encounter rate(Ce/So CC) Central,
-2000,0,Encounter rate,Common murre (Jun- Dec) Central,2,Common murre encounter rate(Ce/So CC) Central,
-2001,0.1443,Encounter rate,Common murre (Jun- Dec) Central,2,Common murre encounter rate(Ce/So CC) Central,
-2002,0.346320346,Encounter rate,Common murre (Jun- Dec) Central,2,Common murre encounter rate(Ce/So CC) Central,
-2003,0.127118644,Encounter rate,Common murre (Jun- Dec) Central,2,Common murre encounter rate(Ce/So CC) Central,
-2004,0.092250923,Encounter rate,Common murre (Jun- Dec) Central,2,Common murre encounter rate(Ce/So CC) Central,
-2005,0.38517092,Encounter rate,Common murre (Jun- Dec) Central,2,Common murre encounter rate(Ce/So CC) Central,
-2006,0.216262976,Encounter rate,Common murre (Jun- Dec) Central,2,Common murre encounter rate(Ce/So CC) Central,
-2007,0.223941368,Encounter rate,Common murre (Jun- Dec) Central,2,Common murre encounter rate(Ce/So CC) Central,
-2008,0.299102692,Encounter rate,Common murre (Jun- Dec) Central,2,Common murre encounter rate(Ce/So CC) Central,
-2009,0.254420557,Encounter rate,Common murre (Jun- Dec) Central,2,Common murre encounter rate(Ce/So CC) Central,
-2010,0.083699519,Encounter rate,Common murre (Jun- Dec) Central,2,Common murre encounter rate(Ce/So CC) Central,
-2011,0.711917301,Encounter rate,Common murre (Jun- Dec) Central,2,Common murre encounter rate(Ce/So CC) Central,
-2012,0.370587088,Encounter rate,Common murre (Jun- Dec) Central,2,Common murre encounter rate(Ce/So CC) Central,
-2013,0.121724187,Encounter rate,Common murre (Jun- Dec) Central,2,Common murre encounter rate(Ce/So CC) Central,
-2014,0.16642547,Encounter rate,Common murre (Jun- Dec) Central,2,Common murre encounter rate(Ce/So CC) Central,
-2015,5.253404985,Encounter rate,Common murre (Jun- Dec) Central,2,Common murre encounter rate(Ce/So CC) Central,outlier
-2016,0.254755435,Encounter rate,Common murre (Jun- Dec) Central,2,Common murre encounter rate(Ce/So CC) Central,
-2017,0.330607273,Encounter rate,Common murre (Jun- Dec) Central,2,Common murre encounter rate(Ce/So CC) Central,
-2018,0.258750809,Encounter rate,Common murre (Jun- Dec) Central,2,Common murre encounter rate(Ce/So CC) Central,
-2019,0.419474625,Encounter rate,Common murre (Jun- Dec) Central,2,Common murre encounter rate(Ce/So CC) Central,
-2020,0.178041543,Encounter rate,Common murre (Jun- Dec) Central,2,Common murre encounter rate(Ce/So CC) Central,
-2021,0.089405454,Encounter rate,Common murre (Jun- Dec) Central,2,Common murre encounter rate(Ce/So CC) Central,
-2022,0.212863007,Encounter rate,Common murre (Jun- Dec) Central,2,Common murre encounter rate(Ce/So CC) Central,
-2023,0.373443983,Encounter rate,Common murre (Jun- Dec) Central,2,Common murre encounter rate(Ce/So CC) Central,
-2024,0.493015612,Encounter rate,Common murre (Jun- Dec) Central,2,Common murre encounter rate(Ce/So CC) Central,
-1997,0,Encounter rate,Sooty shearwater (May - Oct) Central,3,Sooty shearwater encounter rate (Ce/So CC) Central,
-1998,0,Encounter rate,Sooty shearwater (May - Oct) Central,3,Sooty shearwater encounter rate (Ce/So CC) Central,
-1999,0,Encounter rate,Sooty shearwater (May - Oct) Central,3,Sooty shearwater encounter rate (Ce/So CC) Central,
-2000,0,Encounter rate,Sooty shearwater (May - Oct) Central,3,Sooty shearwater encounter rate (Ce/So CC) Central,
-2001,0,Encounter rate,Sooty shearwater (May - Oct) Central,3,Sooty shearwater encounter rate (Ce/So CC) Central,
-2002,0,Encounter rate,Sooty shearwater (May - Oct) Central,3,Sooty shearwater encounter rate (Ce/So CC) Central,
-2003,0.144300144,Encounter rate,Sooty shearwater (May - Oct) Central,3,Sooty shearwater encounter rate (Ce/So CC) Central,
-2004,0,Encounter rate,Sooty shearwater (May - Oct) Central,3,Sooty shearwater encounter rate (Ce/So CC) Central,
-2005,0.122149837,Encounter rate,Sooty shearwater (May - Oct) Central,3,Sooty shearwater encounter rate (Ce/So CC) Central,
-2006,0.081433225,Encounter rate,Sooty shearwater (May - Oct) Central,3,Sooty shearwater encounter rate (Ce/So CC) Central,
-2007,0,Encounter rate,Sooty shearwater (May - Oct) Central,3,Sooty shearwater encounter rate (Ce/So CC) Central,
-2008,0,Encounter rate,Sooty shearwater (May - Oct) Central,3,Sooty shearwater encounter rate (Ce/So CC) Central,
-2009,0,Encounter rate,Sooty shearwater (May - Oct) Central,3,Sooty shearwater encounter rate (Ce/So CC) Central,
-2010,0,Encounter rate,Sooty shearwater (May - Oct) Central,3,Sooty shearwater encounter rate (Ce/So CC) Central,
-2011,0.331577921,Encounter rate,Sooty shearwater (May - Oct) Central,3,Sooty shearwater encounter rate (Ce/So CC) Central,outlier
-2012,0.140433002,Encounter rate,Sooty shearwater (May - Oct) Central,3,Sooty shearwater encounter rate (Ce/So CC) Central,
-2013,0.121439611,Encounter rate,Sooty shearwater (May - Oct) Central,3,Sooty shearwater encounter rate (Ce/So CC) Central,
-2014,0.065703022,Encounter rate,Sooty shearwater (May - Oct) Central,3,Sooty shearwater encounter rate (Ce/So CC) Central,
-2015,0.270548828,Encounter rate,Sooty shearwater (May - Oct) Central,3,Sooty shearwater encounter rate (Ce/So CC) Central,
-2016,0.086306099,Encounter rate,Sooty shearwater (May - Oct) Central,3,Sooty shearwater encounter rate (Ce/So CC) Central,
-2017,0.087950748,Encounter rate,Sooty shearwater (May - Oct) Central,3,Sooty shearwater encounter rate (Ce/So CC) Central,
-2018,0.114772914,Encounter rate,Sooty shearwater (May - Oct) Central,3,Sooty shearwater encounter rate (Ce/So CC) Central,
-2019,0.051502146,Encounter rate,Sooty shearwater (May - Oct) Central,3,Sooty shearwater encounter rate (Ce/So CC) Central,
-2020,0.124610592,Encounter rate,Sooty shearwater (May - Oct) Central,3,Sooty shearwater encounter rate (Ce/So CC) Central,
-2021,0.062305296,Encounter rate,Sooty shearwater (May - Oct) Central,3,Sooty shearwater encounter rate (Ce/So CC) Central,
-2022,0.113410831,Encounter rate,Sooty shearwater (May - Oct) Central,3,Sooty shearwater encounter rate (Ce/So CC) Central,
-2023,0,Encounter rate,Sooty shearwater (May - Oct) Central,3,Sooty shearwater encounter rate (Ce/So CC) Central,
-2024,0.107903965,Encounter rate,Sooty shearwater (May - Oct) Central,3,Sooty shearwater encounter rate (Ce/So CC) Central,
-1997,0,Encounter rate,Northern fulmar (Oct - Feb) Central,4,Northern fulmar encounter rate (Ce/So CC) Central,
-1998,0,Encounter rate,Northern fulmar (Oct - Feb) Central,4,Northern fulmar encounter rate (Ce/So CC) Central,
-1999,0,Encounter rate,Northern fulmar (Oct - Feb) Central,4,Northern fulmar encounter rate (Ce/So CC) Central,
-2000,0,Encounter rate,Northern fulmar (Oct - Feb) Central,4,Northern fulmar encounter rate (Ce/So CC) Central,
-2001,0,Encounter rate,Northern fulmar (Oct - Feb) Central,4,Northern fulmar encounter rate (Ce/So CC) Central,
-2002,0.288600289,Encounter rate,Northern fulmar (Oct - Feb) Central,4,Northern fulmar encounter rate (Ce/So CC) Central,
-2003,0.428015564,Encounter rate,Northern fulmar (Oct - Feb) Central,4,Northern fulmar encounter rate (Ce/So CC) Central,
-2004,0,Encounter rate,Northern fulmar (Oct - Feb) Central,4,Northern fulmar encounter rate (Ce/So CC) Central,
-2005,0.09380863,Encounter rate,Northern fulmar (Oct - Feb) Central,4,Northern fulmar encounter rate (Ce/So CC) Central,
-2006,0,Encounter rate,Northern fulmar (Oct - Feb) Central,4,Northern fulmar encounter rate (Ce/So CC) Central,
-2007,0.119789171,Encounter rate,Northern fulmar (Oct - Feb) Central,4,Northern fulmar encounter rate (Ce/So CC) Central,
-2008,0.1001001,Encounter rate,Northern fulmar (Oct - Feb) Central,4,Northern fulmar encounter rate (Ce/So CC) Central,
-2009,0.358818659,Encounter rate,Northern fulmar (Oct - Feb) Central,4,Northern fulmar encounter rate (Ce/So CC) Central,
-2010,0.930515697,Encounter rate,Northern fulmar (Oct - Feb) Central,4,Northern fulmar encounter rate (Ce/So CC) Central,outlier
-2011,0.16578896,Encounter rate,Northern fulmar (Oct - Feb) Central,4,Northern fulmar encounter rate (Ce/So CC) Central,
-2012,0.179838146,Encounter rate,Northern fulmar (Oct - Feb) Central,4,Northern fulmar encounter rate (Ce/So CC) Central,
-2013,0.324330699,Encounter rate,Northern fulmar (Oct - Feb) Central,4,Northern fulmar encounter rate (Ce/So CC) Central,
-2014,0.135473114,Encounter rate,Northern fulmar (Oct - Feb) Central,4,Northern fulmar encounter rate (Ce/So CC) Central,
-2015,0.278256261,Encounter rate,Northern fulmar (Oct - Feb) Central,4,Northern fulmar encounter rate (Ce/So CC) Central,
-2016,0.051150895,Encounter rate,Northern fulmar (Oct - Feb) Central,4,Northern fulmar encounter rate (Ce/So CC) Central,
-2017,0.198468954,Encounter rate,Northern fulmar (Oct - Feb) Central,4,Northern fulmar encounter rate (Ce/So CC) Central,
-2018,0.194457948,Encounter rate,Northern fulmar (Oct - Feb) Central,4,Northern fulmar encounter rate (Ce/So CC) Central,
-2019,0.285491825,Encounter rate,Northern fulmar (Oct - Feb) Central,4,Northern fulmar encounter rate (Ce/So CC) Central,
-2020,0.196493349,Encounter rate,Northern fulmar (Oct - Feb) Central,4,Northern fulmar encounter rate (Ce/So CC) Central,
-2021,0.104712042,Encounter rate,Northern fulmar (Oct - Feb) Central,4,Northern fulmar encounter rate (Ce/So CC) Central,
-2022,0.16256096,Encounter rate,Northern fulmar (Oct - Feb) Central,4,Northern fulmar encounter rate (Ce/So CC) Central,
-2023,0.050403226,Encounter rate,Northern fulmar (Oct - Feb) Central,4,Northern fulmar encounter rate (Ce/So CC) Central,
-1997,0,Encounter rate,Brandts Cormorant(Apr - Nov) Central,5,Brandts cormorant encounter rate (Ce/So CC) Central,
-1998,0,Encounter rate,Brandts Cormorant(Apr - Nov) Central,5,Brandts cormorant encounter rate (Ce/So CC) Central,
-1999,0,Encounter rate,Brandts Cormorant(Apr - Nov) Central,5,Brandts cormorant encounter rate (Ce/So CC) Central,
-2000,0,Encounter rate,Brandts Cormorant(Apr - Nov) Central,5,Brandts cormorant encounter rate (Ce/So CC) Central,
-2001,0.179937022,Encounter rate,Brandts Cormorant(Apr - Nov) Central,5,Brandts cormorant encounter rate (Ce/So CC) Central,
-2002,0.144300144,Encounter rate,Brandts Cormorant(Apr - Nov) Central,5,Brandts cormorant encounter rate (Ce/So CC) Central,
-2003,0.140498771,Encounter rate,Brandts Cormorant(Apr - Nov) Central,5,Brandts cormorant encounter rate (Ce/So CC) Central,
-2004,0.110701107,Encounter rate,Brandts Cormorant(Apr - Nov) Central,5,Brandts cormorant encounter rate (Ce/So CC) Central,
-2005,0.252768416,Encounter rate,Brandts Cormorant(Apr - Nov) Central,5,Brandts cormorant encounter rate (Ce/So CC) Central,
-2006,0.229196051,Encounter rate,Brandts Cormorant(Apr - Nov) Central,5,Brandts cormorant encounter rate (Ce/So CC) Central,
-2007,0.164287915,Encounter rate,Brandts Cormorant(Apr - Nov) Central,5,Brandts cormorant encounter rate (Ce/So CC) Central,
-2008,0.099700897,Encounter rate,Brandts Cormorant(Apr - Nov) Central,5,Brandts cormorant encounter rate (Ce/So CC) Central,
-2009,0.249968754,Encounter rate,Brandts Cormorant(Apr - Nov) Central,5,Brandts cormorant encounter rate (Ce/So CC) Central,
-2010,0.142007633,Encounter rate,Brandts Cormorant(Apr - Nov) Central,5,Brandts cormorant encounter rate (Ce/So CC) Central,
-2011,0.38033938,Encounter rate,Brandts Cormorant(Apr - Nov) Central,5,Brandts cormorant encounter rate (Ce/So CC) Central,
-2012,0.351082504,Encounter rate,Brandts Cormorant(Apr - Nov) Central,5,Brandts cormorant encounter rate (Ce/So CC) Central,
-2013,0.083003448,Encounter rate,Brandts Cormorant(Apr - Nov) Central,5,Brandts cormorant encounter rate (Ce/So CC) Central,
-2014,0.438040954,Encounter rate,Brandts Cormorant(Apr - Nov) Central,5,Brandts cormorant encounter rate (Ce/So CC) Central,
-2015,0.518881522,Encounter rate,Brandts Cormorant(Apr - Nov) Central,5,Brandts cormorant encounter rate (Ce/So CC) Central,
-2016,0.088116818,Encounter rate,Brandts Cormorant(Apr - Nov) Central,5,Brandts cormorant encounter rate (Ce/So CC) Central,
-2017,0.096370061,Encounter rate,Brandts Cormorant(Apr - Nov) Central,5,Brandts cormorant encounter rate (Ce/So CC) Central,
-2018,0.134206995,Encounter rate,Brandts Cormorant(Apr - Nov) Central,5,Brandts cormorant encounter rate (Ce/So CC) Central,
-2019,0.084935526,Encounter rate,Brandts Cormorant(Apr - Nov) Central,5,Brandts cormorant encounter rate (Ce/So CC) Central,
-2020,0.208333333,Encounter rate,Brandts Cormorant(Apr - Nov) Central,5,Brandts cormorant encounter rate (Ce/So CC) Central,
-2021,0.057471264,Encounter rate,Brandts Cormorant(Apr - Nov) Central,5,Brandts cormorant encounter rate (Ce/So CC) Central,
-2022,0.082186152,Encounter rate,Brandts Cormorant(Apr - Nov) Central,5,Brandts cormorant encounter rate (Ce/So CC) Central,
-2023,0.220230863,Encounter rate,Brandts Cormorant(Apr - Nov) Central,5,Brandts cormorant encounter rate (Ce/So CC) Central,
-2024,0.207039337,Encounter rate,Brandts Cormorant(Apr - Nov) Central,5,Brandts cormorant encounter rate (Ce/So CC) Central,
+2001,0,Encounter rate,Cassins auklet (Oct - Feb) Central,1,Cassins auklet encounter rate (Ce/So CC) Central,NA
+2002,0,Encounter rate,Cassins auklet (Oct - Feb) Central,1,Cassins auklet encounter rate (Ce/So CC) Central,NA
+2003,0,Encounter rate,Cassins auklet (Oct - Feb) Central,1,Cassins auklet encounter rate (Ce/So CC) Central,NA
+2004,0,Encounter rate,Cassins auklet (Oct - Feb) Central,1,Cassins auklet encounter rate (Ce/So CC) Central,NA
+2005,0.0167,Encounter rate,Cassins auklet (Oct - Feb) Central,1,Cassins auklet encounter rate (Ce/So CC) Central,NA
+2006,0,Encounter rate,Cassins auklet (Oct - Feb) Central,1,Cassins auklet encounter rate (Ce/So CC) Central,NA
+2007,0,Encounter rate,Cassins auklet (Oct - Feb) Central,1,Cassins auklet encounter rate (Ce/So CC) Central,NA
+2008,0,Encounter rate,Cassins auklet (Oct - Feb) Central,1,Cassins auklet encounter rate (Ce/So CC) Central,NA
+2009,0,Encounter rate,Cassins auklet (Oct - Feb) Central,1,Cassins auklet encounter rate (Ce/So CC) Central,NA
+2010,0.0866,Encounter rate,Cassins auklet (Oct - Feb) Central,1,Cassins auklet encounter rate (Ce/So CC) Central,outlier
+2011,0.0234,Encounter rate,Cassins auklet (Oct - Feb) Central,1,Cassins auklet encounter rate (Ce/So CC) Central,NA
+2012,0,Encounter rate,Cassins auklet (Oct - Feb) Central,1,Cassins auklet encounter rate (Ce/So CC) Central,NA
+2013,0,Encounter rate,Cassins auklet (Oct - Feb) Central,1,Cassins auklet encounter rate (Ce/So CC) Central,NA
+2014,0.1909,Encounter rate,Cassins auklet (Oct - Feb) Central,1,Cassins auklet encounter rate (Ce/So CC) Central,outlier
+2015,0,Encounter rate,Cassins auklet (Oct - Feb) Central,1,Cassins auklet encounter rate (Ce/So CC) Central,NA
+2016,0.011,Encounter rate,Cassins auklet (Oct - Feb) Central,1,Cassins auklet encounter rate (Ce/So CC) Central,NA
+2017,0.0477,Encounter rate,Cassins auklet (Oct - Feb) Central,1,Cassins auklet encounter rate (Ce/So CC) Central,NA
+2018,0.02,Encounter rate,Cassins auklet (Oct - Feb) Central,1,Cassins auklet encounter rate (Ce/So CC) Central,NA
+2019,0.0095,Encounter rate,Cassins auklet (Oct - Feb) Central,1,Cassins auklet encounter rate (Ce/So CC) Central,NA
+2020,0.0176,Encounter rate,Cassins auklet (Oct - Feb) Central,1,Cassins auklet encounter rate (Ce/So CC) Central,NA
+2021,0,Encounter rate,Cassins auklet (Oct - Feb) Central,1,Cassins auklet encounter rate (Ce/So CC) Central,NA
+2022,0.0314,Encounter rate,Cassins auklet (Oct - Feb) Central,1,Cassins auklet encounter rate (Ce/So CC) Central,NA
+2023,0.0335,Encounter rate,Cassins auklet (Oct - Feb) Central,1,Cassins auklet encounter rate (Ce/So CC) Central,NA
+2024,0,Encounter rate,Cassins auklet (Oct - Feb) Central,1,Cassins auklet encounter rate (Ce/So CC) Central,NA
+2001,0.0835,Encounter rate,Common murre (Jun- Dec) Central,2,Common murre encounter rate(Ce/So CC) Central,NA
+2002,0.2474,Encounter rate,Common murre (Jun- Dec) Central,2,Common murre encounter rate(Ce/So CC) Central,NA
+2003,0.0527,Encounter rate,Common murre (Jun- Dec) Central,2,Common murre encounter rate(Ce/So CC) Central,NA
+2004,0.0132,Encounter rate,Common murre (Jun- Dec) Central,2,Common murre encounter rate(Ce/So CC) Central,NA
+2005,0.2248,Encounter rate,Common murre (Jun- Dec) Central,2,Common murre encounter rate(Ce/So CC) Central,NA
+2006,0.1204,Encounter rate,Common murre (Jun- Dec) Central,2,Common murre encounter rate(Ce/So CC) Central,NA
+2007,0.1301,Encounter rate,Common murre (Jun- Dec) Central,2,Common murre encounter rate(Ce/So CC) Central,NA
+2008,0.2564,Encounter rate,Common murre (Jun- Dec) Central,2,Common murre encounter rate(Ce/So CC) Central,NA
+2009,0.2544,Encounter rate,Common murre (Jun- Dec) Central,2,Common murre encounter rate(Ce/So CC) Central,NA
+2010,0.071,Encounter rate,Common murre (Jun- Dec) Central,2,Common murre encounter rate(Ce/So CC) Central,NA
+2011,0.6102,Encounter rate,Common murre (Jun- Dec) Central,2,Common murre encounter rate(Ce/So CC) Central,NA
+2012,0.3176,Encounter rate,Common murre (Jun- Dec) Central,2,Common murre encounter rate(Ce/So CC) Central,NA
+2013,0.106,Encounter rate,Common murre (Jun- Dec) Central,2,Common murre encounter rate(Ce/So CC) Central,NA
+2014,0.1413,Encounter rate,Common murre (Jun- Dec) Central,2,Common murre encounter rate(Ce/So CC) Central,NA
+2015,4.4847,Encounter rate,Common murre (Jun- Dec) Central,2,Common murre encounter rate(Ce/So CC) Central,outlier
+2016,0.2217,Encounter rate,Common murre (Jun- Dec) Central,2,Common murre encounter rate(Ce/So CC) Central,NA
+2017,0.2931,Encounter rate,Common murre (Jun- Dec) Central,2,Common murre encounter rate(Ce/So CC) Central,NA
+2018,0.2588,Encounter rate,Common murre (Jun- Dec) Central,2,Common murre encounter rate(Ce/So CC) Central,NA
+2019,0.4195,Encounter rate,Common murre (Jun- Dec) Central,2,Common murre encounter rate(Ce/So CC) Central,NA
+2020,0.178,Encounter rate,Common murre (Jun- Dec) Central,2,Common murre encounter rate(Ce/So CC) Central,NA
+2021,0.0494,Encounter rate,Common murre (Jun- Dec) Central,2,Common murre encounter rate(Ce/So CC) Central,NA
+2022,0.2129,Encounter rate,Common murre (Jun- Dec) Central,2,Common murre encounter rate(Ce/So CC) Central,NA
+2023,0.3133,Encounter rate,Common murre (Jun- Dec) Central,2,Common murre encounter rate(Ce/So CC) Central,NA
+2024,0.4174,Encounter rate,Common murre (Jun- Dec) Central,2,Common murre encounter rate(Ce/So CC) Central,NA
+2025,0.1795,Encounter rate,Common murre (Jun- Dec) Central,2,Common murre encounter rate(Ce/So CC) Central,NA
+2001,0,Encounter rate,Sooty shearwater (May - Oct) Central,3,Sooty shearwater encounter rate (Ce/So CC) Central,NA
+2002,0,Encounter rate,Sooty shearwater (May - Oct) Central,3,Sooty shearwater encounter rate (Ce/So CC) Central,NA
+2003,0.0239,Encounter rate,Sooty shearwater (May - Oct) Central,3,Sooty shearwater encounter rate (Ce/So CC) Central,NA
+2004,0,Encounter rate,Sooty shearwater (May - Oct) Central,3,Sooty shearwater encounter rate (Ce/So CC) Central,NA
+2005,0.0424,Encounter rate,Sooty shearwater (May - Oct) Central,3,Sooty shearwater encounter rate (Ce/So CC) Central,NA
+2006,0.0271,Encounter rate,Sooty shearwater (May - Oct) Central,3,Sooty shearwater encounter rate (Ce/So CC) Central,NA
+2007,0,Encounter rate,Sooty shearwater (May - Oct) Central,3,Sooty shearwater encounter rate (Ce/So CC) Central,NA
+2008,0,Encounter rate,Sooty shearwater (May - Oct) Central,3,Sooty shearwater encounter rate (Ce/So CC) Central,NA
+2009,0,Encounter rate,Sooty shearwater (May - Oct) Central,3,Sooty shearwater encounter rate (Ce/So CC) Central,NA
+2010,0,Encounter rate,Sooty shearwater (May - Oct) Central,3,Sooty shearwater encounter rate (Ce/So CC) Central,NA
+2011,0.3316,Encounter rate,Sooty shearwater (May - Oct) Central,3,Sooty shearwater encounter rate (Ce/So CC) Central,outlier
+2012,0.117,Encounter rate,Sooty shearwater (May - Oct) Central,3,Sooty shearwater encounter rate (Ce/So CC) Central,NA
+2013,0.0833,Encounter rate,Sooty shearwater (May - Oct) Central,3,Sooty shearwater encounter rate (Ce/So CC) Central,NA
+2014,0.0427,Encounter rate,Sooty shearwater (May - Oct) Central,3,Sooty shearwater encounter rate (Ce/So CC) Central,NA
+2015,0.1869,Encounter rate,Sooty shearwater (May - Oct) Central,3,Sooty shearwater encounter rate (Ce/So CC) Central,outlier
+2016,0.0256,Encounter rate,Sooty shearwater (May - Oct) Central,3,Sooty shearwater encounter rate (Ce/So CC) Central,NA
+2017,0.0469,Encounter rate,Sooty shearwater (May - Oct) Central,3,Sooty shearwater encounter rate (Ce/So CC) Central,NA
+2018,0.0557,Encounter rate,Sooty shearwater (May - Oct) Central,3,Sooty shearwater encounter rate (Ce/So CC) Central,NA
+2019,0.0239,Encounter rate,Sooty shearwater (May - Oct) Central,3,Sooty shearwater encounter rate (Ce/So CC) Central,NA
+2020,0.057,Encounter rate,Sooty shearwater (May - Oct) Central,3,Sooty shearwater encounter rate (Ce/So CC) Central,NA
+2021,0.0094,Encounter rate,Sooty shearwater (May - Oct) Central,3,Sooty shearwater encounter rate (Ce/So CC) Central,NA
+2022,0.0361,Encounter rate,Sooty shearwater (May - Oct) Central,3,Sooty shearwater encounter rate (Ce/So CC) Central,NA
+2023,0,Encounter rate,Sooty shearwater (May - Oct) Central,3,Sooty shearwater encounter rate (Ce/So CC) Central,NA
+2024,0.0757,Encounter rate,Sooty shearwater (May - Oct) Central,3,Sooty shearwater encounter rate (Ce/So CC) Central,NA
+2025,0.1002,Encounter rate,Sooty shearwater (May - Oct) Central,3,Sooty shearwater encounter rate (Ce/So CC) Central,NA
+2001,0,Encounter rate,Northern fulmar (Oct - Feb) Central,4,Northern fulmar encounter rate (Ce/So CC) Central,NA
+2002,0.0428,Encounter rate,Northern fulmar (Oct - Feb) Central,4,Northern fulmar encounter rate (Ce/So CC) Central,NA
+2003,0.3206,Encounter rate,Northern fulmar (Oct - Feb) Central,4,Northern fulmar encounter rate (Ce/So CC) Central,NA
+2004,0,Encounter rate,Northern fulmar (Oct - Feb) Central,4,Northern fulmar encounter rate (Ce/So CC) Central,NA
+2005,0.0256,Encounter rate,Northern fulmar (Oct - Feb) Central,4,Northern fulmar encounter rate (Ce/So CC) Central,NA
+2006,0,Encounter rate,Northern fulmar (Oct - Feb) Central,4,Northern fulmar encounter rate (Ce/So CC) Central,NA
+2007,0.0702,Encounter rate,Northern fulmar (Oct - Feb) Central,4,Northern fulmar encounter rate (Ce/So CC) Central,NA
+2008,0.014,Encounter rate,Northern fulmar (Oct - Feb) Central,4,Northern fulmar encounter rate (Ce/So CC) Central,NA
+2009,0.1542,Encounter rate,Northern fulmar (Oct - Feb) Central,4,Northern fulmar encounter rate (Ce/So CC) Central,NA
+2010,0.9305,Encounter rate,Northern fulmar (Oct - Feb) Central,4,Northern fulmar encounter rate (Ce/So CC) Central,outlier
+2011,0.1421,Encounter rate,Northern fulmar (Oct - Feb) Central,4,Northern fulmar encounter rate (Ce/So CC) Central,NA
+2012,0.1341,Encounter rate,Northern fulmar (Oct - Feb) Central,4,Northern fulmar encounter rate (Ce/So CC) Central,NA
+2013,0.3243,Encounter rate,Northern fulmar (Oct - Feb) Central,4,Northern fulmar encounter rate (Ce/So CC) Central,NA
+2014,0.0866,Encounter rate,Northern fulmar (Oct - Feb) Central,4,Northern fulmar encounter rate (Ce/So CC) Central,NA
+2015,0.156,Encounter rate,Northern fulmar (Oct - Feb) Central,4,Northern fulmar encounter rate (Ce/So CC) Central,NA
+2016,0.0077,Encounter rate,Northern fulmar (Oct - Feb) Central,4,Northern fulmar encounter rate (Ce/So CC) Central,NA
+2017,0.1424,Encounter rate,Northern fulmar (Oct - Feb) Central,4,Northern fulmar encounter rate (Ce/So CC) Central,NA
+2018,0.0555,Encounter rate,Northern fulmar (Oct - Feb) Central,4,Northern fulmar encounter rate (Ce/So CC) Central,NA
+2019,0.1781,Encounter rate,Northern fulmar (Oct - Feb) Central,4,Northern fulmar encounter rate (Ce/So CC) Central,NA
+2020,0.1778,Encounter rate,Northern fulmar (Oct - Feb) Central,4,Northern fulmar encounter rate (Ce/So CC) Central,NA
+2021,0.0765,Encounter rate,Northern fulmar (Oct - Feb) Central,4,Northern fulmar encounter rate (Ce/So CC) Central,NA
+2022,0.0998,Encounter rate,Northern fulmar (Oct - Feb) Central,4,Northern fulmar encounter rate (Ce/So CC) Central,NA
+2023,0.008,Encounter rate,Northern fulmar (Oct - Feb) Central,4,Northern fulmar encounter rate (Ce/So CC) Central,NA
+2024,0.014,Encounter rate,Northern fulmar (Oct - Feb) Central,4,Northern fulmar encounter rate (Ce/So CC) Central,NA
+2001,0.081,Encounter rate,Brandts Cormorant(Apr - Nov) Central,5,Brandts cormorant encounter rate (Ce/So CC) Central,NA
+2002,0.018,Encounter rate,Brandts Cormorant(Apr - Nov) Central,5,Brandts cormorant encounter rate (Ce/So CC) Central,NA
+2003,0.0688,Encounter rate,Brandts Cormorant(Apr - Nov) Central,5,Brandts cormorant encounter rate (Ce/So CC) Central,NA
+2004,0.0692,Encounter rate,Brandts Cormorant(Apr - Nov) Central,5,Brandts cormorant encounter rate (Ce/So CC) Central,NA
+2005,0.2236,Encounter rate,Brandts Cormorant(Apr - Nov) Central,5,Brandts cormorant encounter rate (Ce/So CC) Central,NA
+2006,0.1389,Encounter rate,Brandts Cormorant(Apr - Nov) Central,5,Brandts cormorant encounter rate (Ce/So CC) Central,NA
+2007,0.1643,Encounter rate,Brandts Cormorant(Apr - Nov) Central,5,Brandts cormorant encounter rate (Ce/So CC) Central,NA
+2008,0.0125,Encounter rate,Brandts Cormorant(Apr - Nov) Central,5,Brandts cormorant encounter rate (Ce/So CC) Central,NA
+2009,0.2187,Encounter rate,Brandts Cormorant(Apr - Nov) Central,5,Brandts cormorant encounter rate (Ce/So CC) Central,NA
+2010,0.1255,Encounter rate,Brandts Cormorant(Apr - Nov) Central,5,Brandts cormorant encounter rate (Ce/So CC) Central,NA
+2011,0.2853,Encounter rate,Brandts Cormorant(Apr - Nov) Central,5,Brandts cormorant encounter rate (Ce/So CC) Central,NA
+2012,0.1317,Encounter rate,Brandts Cormorant(Apr - Nov) Central,5,Brandts cormorant encounter rate (Ce/So CC) Central,NA
+2013,0.0733,Encounter rate,Brandts Cormorant(Apr - Nov) Central,5,Brandts cormorant encounter rate (Ce/So CC) Central,NA
+2014,0.438,Encounter rate,Brandts Cormorant(Apr - Nov) Central,5,Brandts cormorant encounter rate (Ce/So CC) Central,NA
+2015,0.3821,Encounter rate,Brandts Cormorant(Apr - Nov) Central,5,Brandts cormorant encounter rate (Ce/So CC) Central,NA
+2016,0.0451,Encounter rate,Brandts Cormorant(Apr - Nov) Central,5,Brandts cormorant encounter rate (Ce/So CC) Central,NA
+2017,0.0828,Encounter rate,Brandts Cormorant(Apr - Nov) Central,5,Brandts cormorant encounter rate (Ce/So CC) Central,NA
+2018,0.1028,Encounter rate,Brandts Cormorant(Apr - Nov) Central,5,Brandts cormorant encounter rate (Ce/So CC) Central,NA
+2019,0.0644,Encounter rate,Brandts Cormorant(Apr - Nov) Central,5,Brandts cormorant encounter rate (Ce/So CC) Central,NA
+2020,0.1308,Encounter rate,Brandts Cormorant(Apr - Nov) Central,5,Brandts cormorant encounter rate (Ce/So CC) Central,NA
+2021,0.0213,Encounter rate,Brandts Cormorant(Apr - Nov) Central,5,Brandts cormorant encounter rate (Ce/So CC) Central,NA
+2022,0.0526,Encounter rate,Brandts Cormorant(Apr - Nov) Central,5,Brandts cormorant encounter rate (Ce/So CC) Central,NA
+2023,0.2202,Encounter rate,Brandts Cormorant(Apr - Nov) Central,5,Brandts cormorant encounter rate (Ce/So CC) Central,NA
+2024,0.1778,Encounter rate,Brandts Cormorant(Apr - Nov) Central,5,Brandts cormorant encounter rate (Ce/So CC) Central,NA
+2025,0.0792,Encounter rate,Brandts Cormorant(Apr - Nov) Central,5,Brandts cormorant encounter rate (Ce/So CC) Central,NA

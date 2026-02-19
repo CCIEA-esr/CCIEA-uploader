@@ -1,18 +1,19 @@
-year,index,metric,order,timeseries,,,,,
-2008,-0.062,Productivity anomaly,1,Rhinoceros auklet productivity anomaly (No CC - DI),,,,,-0.062
-2009,0.065,Productivity anomaly,1,Rhinoceros auklet productivity anomaly (No CC - DI),,,,,0.065
-2010,-0.059,Productivity anomaly,1,Rhinoceros auklet productivity anomaly (No CC - DI),,,,,-0.059
-2011,-0.006,Productivity anomaly,1,Rhinoceros auklet productivity anomaly (No CC - DI),,,,,
-2012,-0.06,Productivity anomaly,1,Rhinoceros auklet productivity anomaly (No CC - DI),,,,,-0.06
-2013,0.124,Productivity anomaly,1,Rhinoceros auklet productivity anomaly (No CC - DI),,,,,0.124
-2014,0.122,Productivity anomaly,1,Rhinoceros auklet productivity anomaly (No CC - DI),,,,,0.122
-2015,0.018,Productivity anomaly,1,Rhinoceros auklet productivity anomaly (No CC - DI),,,,,0.018
-2016,-0.008,Productivity anomaly,1,Rhinoceros auklet productivity anomaly (No CC - DI),,,,,-0.008
-2017,0.045,Productivity anomaly,1,Rhinoceros auklet productivity anomaly (No CC - DI),,,,,0.045
-2018,-0.094,Productivity anomaly,1,Rhinoceros auklet productivity anomaly (No CC - DI),,,,,-0.094
-2019,0.051,Productivity anomaly,1,Rhinoceros auklet productivity anomaly (No CC - DI),,,,,0.051
-2020,NA,Productivity anomaly,1,Rhinoceros auklet productivity anomaly (No CC - DI),,,,,
-2021,-0.125,Productivity anomaly,1,Rhinoceros auklet productivity anomaly (No CC - DI),,,,,-0.125
-2022,-0.052,Productivity anomaly,1,Rhinoceros auklet productivity anomaly (No CC - DI),,,,,-0.052
-2023,0.052,Productivity anomaly,1,Rhinoceros auklet productivity anomaly (No CC - DI),,,,,0.052
-2024,-0.01,Productivity anomaly,1,Rhinoceros auklet productivity anomaly (No CC - DI),,,,,-0.01
+year,index,metric,order,timeseries
+2008,-0.0626,Productivity anomaly,1,Rhinoceros auklet productivity anomaly (No CC - DI)
+2009,0.0638,Productivity anomaly,1,Rhinoceros auklet productivity anomaly (No CC - DI)
+2010,-0.0604,Productivity anomaly,1,Rhinoceros auklet productivity anomaly (No CC - DI)
+2011,-0.0067,Productivity anomaly,1,Rhinoceros auklet productivity anomaly (No CC - DI)
+2012,-0.0612,Productivity anomaly,1,Rhinoceros auklet productivity anomaly (No CC - DI)
+2013,0.1233,Productivity anomaly,1,Rhinoceros auklet productivity anomaly (No CC - DI)
+2014,0.1208,Productivity anomaly,1,Rhinoceros auklet productivity anomaly (No CC - DI)
+2015,0.0167,Productivity anomaly,1,Rhinoceros auklet productivity anomaly (No CC - DI)
+2016,-0.0091,Productivity anomaly,1,Rhinoceros auklet productivity anomaly (No CC - DI)
+2017,0.0437,Productivity anomaly,1,Rhinoceros auklet productivity anomaly (No CC - DI)
+2018,-0.0953,Productivity anomaly,1,Rhinoceros auklet productivity anomaly (No CC - DI)
+2019,0.0503,Productivity anomaly,1,Rhinoceros auklet productivity anomaly (No CC - DI)
+2020,NA,Productivity anomaly,1,Rhinoceros auklet productivity anomaly (No CC - DI)
+2021,-0.1256,Productivity anomaly,1,Rhinoceros auklet productivity anomaly (No CC - DI)
+2022,-0.0529,Productivity anomaly,1,Rhinoceros auklet productivity anomaly (No CC - DI)
+2023,0.051,Productivity anomaly,1,Rhinoceros auklet productivity anomaly (No CC - DI)
+2024,-0.0108,Productivity anomaly,1,Rhinoceros auklet productivity anomaly (No CC - DI)
+2025,0.015,Productivity anomaly,1,Rhinoceros auklet productivity anomaly (No CC - DI)

@@ -1,139 +1,144 @@
 year,index,metric,timeseries_original,order,timeseries,outlier
-1997,0.020973154,Encounter rate,Cassins auklet (Oct - Feb) North,1,Cassins auklet encounter rate (Ce/So CC) North,
-1998,0.041946309,Encounter rate,Cassins auklet (Oct - Feb) North,1,Cassins auklet encounter rate (Ce/So CC) North,
-1999,0.019888624,Encounter rate,Cassins auklet (Oct - Feb) North,1,Cassins auklet encounter rate (Ce/So CC) North,
-2000,0,Encounter rate,Cassins auklet (Oct - Feb) North,1,Cassins auklet encounter rate (Ce/So CC) North,
-2001,0.039777247,Encounter rate,Cassins auklet (Oct - Feb) North,1,Cassins auklet encounter rate (Ce/So CC) North,
-2002,0.019888624,Encounter rate,Cassins auklet (Oct - Feb) North,1,Cassins auklet encounter rate (Ce/So CC) North,
-2003,0.034831069,Encounter rate,Cassins auklet (Oct - Feb) North,1,Cassins auklet encounter rate (Ce/So CC) North,
-2004,0.429487179,Encounter rate,Cassins auklet (Oct - Feb) North,1,Cassins auklet encounter rate (Ce/So CC) North,outlier
-2005,0.071831709,Encounter rate,Cassins auklet (Oct - Feb) North,1,Cassins auklet encounter rate (Ce/So CC) North,
-2006,0.017265193,Encounter rate,Cassins auklet (Oct - Feb) North,1,Cassins auklet encounter rate (Ce/So CC) North,
-2007,0,Encounter rate,Cassins auklet (Oct - Feb) North,1,Cassins auklet encounter rate (Ce/So CC) North,
-2008,0.046520283,Encounter rate,Cassins auklet (Oct - Feb) North,1,Cassins auklet encounter rate (Ce/So CC) North,
-2009,0.034530387,Encounter rate,Cassins auklet (Oct - Feb) North,1,Cassins auklet encounter rate (Ce/So CC) North,
-2010,0.07769337,Encounter rate,Cassins auklet (Oct - Feb) North,1,Cassins auklet encounter rate (Ce/So CC) North,
-2011,0.017265193,Encounter rate,Cassins auklet (Oct - Feb) North,1,Cassins auklet encounter rate (Ce/So CC) North,
-2012,0.05179558,Encounter rate,Cassins auklet (Oct - Feb) North,1,Cassins auklet encounter rate (Ce/So CC) North,
-2013,0.016550811,Encounter rate,Cassins auklet (Oct - Feb) North,1,Cassins auklet encounter rate (Ce/So CC) North,
-2014,1.109958038,Encounter rate,Cassins auklet (Oct - Feb) North,1,Cassins auklet encounter rate (Ce/So CC) North,outlier
-2015,0.028402031,Encounter rate,Cassins auklet (Oct - Feb) North,1,Cassins auklet encounter rate (Ce/So CC) North,
-2016,0,Encounter rate,Cassins auklet (Oct - Feb) North,1,Cassins auklet encounter rate (Ce/So CC) North,
-2017,0.026872089,Encounter rate,Cassins auklet (Oct - Feb) North,1,Cassins auklet encounter rate (Ce/So CC) North,
-2018,0.19514636,Encounter rate,Cassins auklet (Oct - Feb) North,1,Cassins auklet encounter rate (Ce/So CC) North,
-2019,0,Encounter rate,Cassins auklet (Oct - Feb) North,1,Cassins auklet encounter rate (Ce/So CC) North,
-2020,0,Encounter rate,Cassins auklet (Oct - Feb) North,1,Cassins auklet encounter rate (Ce/So CC) North,
-2021,0.028113579,Encounter rate,Cassins auklet (Oct - Feb) North,1,Cassins auklet encounter rate (Ce/So CC) North,
-2022,0.129769011,Encounter rate,Cassins auklet (Oct - Feb) North,1,Cassins auklet encounter rate (Ce/So CC) North,
-2023,0.119250426,Encounter rate,Cassins auklet (Oct - Feb) North,1,Cassins auklet encounter rate (Ce/So CC) North,
-1997,3.256831256,Encounter rate,Common murre (Jun- Dec) North,2,Common murre encounter rate(Ce/So CC) North,
-1998,3.186216663,Encounter rate,Common murre (Jun- Dec) North,2,Common murre encounter rate(Ce/So CC) North,
-1999,0.494374361,Encounter rate,Common murre (Jun- Dec) North,2,Common murre encounter rate(Ce/So CC) North,
-2000,0.937606546,Encounter rate,Common murre (Jun- Dec) North,2,Common murre encounter rate(Ce/So CC) North,
-2001,0.525627912,Encounter rate,Common murre (Jun- Dec) North,2,Common murre encounter rate(Ce/So CC) North,
-2002,0.715393625,Encounter rate,Common murre (Jun- Dec) North,2,Common murre encounter rate(Ce/So CC) North,
-2003,0.954573675,Encounter rate,Common murre (Jun- Dec) North,2,Common murre encounter rate(Ce/So CC) North,
-2004,0.823786143,Encounter rate,Common murre (Jun- Dec) North,2,Common murre encounter rate(Ce/So CC) North,
-2005,1.506559458,Encounter rate,Common murre (Jun- Dec) North,2,Common murre encounter rate(Ce/So CC) North,
-2006,2.38856686,Encounter rate,Common murre (Jun- Dec) North,2,Common murre encounter rate(Ce/So CC) North,
-2007,3.496991141,Encounter rate,Common murre (Jun- Dec) North,2,Common murre encounter rate(Ce/So CC) North,
-2008,3.296294327,Encounter rate,Common murre (Jun- Dec) North,2,Common murre encounter rate(Ce/So CC) North,
-2009,1.576065509,Encounter rate,Common murre (Jun- Dec) North,2,Common murre encounter rate(Ce/So CC) North,
-2010,0.35023678,Encounter rate,Common murre (Jun- Dec) North,2,Common murre encounter rate(Ce/So CC) North,
-2011,1.346685083,Encounter rate,Common murre (Jun- Dec) North,2,Common murre encounter rate(Ce/So CC) North,
-2012,0.747336227,Encounter rate,Common murre (Jun- Dec) North,2,Common murre encounter rate(Ce/So CC) North,
-2013,0.41418965,Encounter rate,Common murre (Jun- Dec) North,2,Common murre encounter rate(Ce/So CC) North,
-2014,0.751879699,Encounter rate,Common murre (Jun- Dec) North,2,Common murre encounter rate(Ce/So CC) North,
-2015,8.737758136,Encounter rate,Common murre (Jun- Dec) North,2,Common murre encounter rate(Ce/So CC) North,outlier
-2016,0.56083882,Encounter rate,Common murre (Jun- Dec) North,2,Common murre encounter rate(Ce/So CC) North,
-2017,1.008048761,Encounter rate,Common murre (Jun- Dec) North,2,Common murre encounter rate(Ce/So CC) North,
-2018,1.024632277,Encounter rate,Common murre (Jun- Dec) North,2,Common murre encounter rate(Ce/So CC) North,
-2019,1.4066538,Encounter rate,Common murre (Jun- Dec) North,2,Common murre encounter rate(Ce/So CC) North,
-2020,1.360429963,Encounter rate,Common murre (Jun- Dec) North,2,Common murre encounter rate(Ce/So CC) North,
-2021,0.542069291,Encounter rate,Common murre (Jun- Dec) North,2,Common murre encounter rate(Ce/So CC) North,
-2022,0.896512199,Encounter rate,Common murre (Jun- Dec) North,2,Common murre encounter rate(Ce/So CC) North,
-2023,0.937624684,Encounter rate,Common murre (Jun- Dec) North,2,Common murre encounter rate(Ce/So CC) North,
-2024,0.485654513,Encounter rate,Common murre (Jun- Dec) North,2,Common murre encounter rate(Ce/So CC) North,
-1997,0.814457494,Encounter rate,Sooty shearwater (May - Oct) North,3,Sooty shearwater encounter rate (Ce/So CC) North,
-1998,2.237136465,Encounter rate,Sooty shearwater (May - Oct) North,3,Sooty shearwater encounter rate (Ce/So CC) North,
-1999,0.341421374,Encounter rate,Sooty shearwater (May - Oct) North,3,Sooty shearwater encounter rate (Ce/So CC) North,
-2000,1.338354967,Encounter rate,Sooty shearwater (May - Oct) North,3,Sooty shearwater encounter rate (Ce/So CC) North,
-2001,0.48395651,Encounter rate,Sooty shearwater (May - Oct) North,3,Sooty shearwater encounter rate (Ce/So CC) North,
-2002,0.275432175,Encounter rate,Sooty shearwater (May - Oct) North,3,Sooty shearwater encounter rate (Ce/So CC) North,
-2003,0.242248062,Encounter rate,Sooty shearwater (May - Oct) North,3,Sooty shearwater encounter rate (Ce/So CC) North,
-2004,0.196264641,Encounter rate,Sooty shearwater (May - Oct) North,3,Sooty shearwater encounter rate (Ce/So CC) North,
-2005,0.347249317,Encounter rate,Sooty shearwater (May - Oct) North,3,Sooty shearwater encounter rate (Ce/So CC) North,
-2006,0.360140485,Encounter rate,Sooty shearwater (May - Oct) North,3,Sooty shearwater encounter rate (Ce/So CC) North,
-2007,0.288931252,Encounter rate,Sooty shearwater (May - Oct) North,3,Sooty shearwater encounter rate (Ce/So CC) North,
-2008,0.207790597,Encounter rate,Sooty shearwater (May - Oct) North,3,Sooty shearwater encounter rate (Ce/So CC) North,
-2009,0.497813076,Encounter rate,Sooty shearwater (May - Oct) North,3,Sooty shearwater encounter rate (Ce/So CC) North,
-2010,0.198549724,Encounter rate,Sooty shearwater (May - Oct) North,3,Sooty shearwater encounter rate (Ce/So CC) North,
-2011,1.568255064,Encounter rate,Sooty shearwater (May - Oct) North,3,Sooty shearwater encounter rate (Ce/So CC) North,
-2012,0.707872928,Encounter rate,Sooty shearwater (May - Oct) North,3,Sooty shearwater encounter rate (Ce/So CC) North,
-2013,0.552486188,Encounter rate,Sooty shearwater (May - Oct) North,3,Sooty shearwater encounter rate (Ce/So CC) North,
-2014,0.383427121,Encounter rate,Sooty shearwater (May - Oct) North,3,Sooty shearwater encounter rate (Ce/So CC) North,
-2015,0.572232032,Encounter rate,Sooty shearwater (May - Oct) North,3,Sooty shearwater encounter rate (Ce/So CC) North,
-2016,0.091857731,Encounter rate,Sooty shearwater (May - Oct) North,3,Sooty shearwater encounter rate (Ce/So CC) North,
-2017,0.420671232,Encounter rate,Sooty shearwater (May - Oct) North,3,Sooty shearwater encounter rate (Ce/So CC) North,
-2018,0.256739409,Encounter rate,Sooty shearwater (May - Oct) North,3,Sooty shearwater encounter rate (Ce/So CC) North,
-2019,0.255828347,Encounter rate,Sooty shearwater (May - Oct) North,3,Sooty shearwater encounter rate (Ce/So CC) North,
-2020,0.111801242,Encounter rate,Sooty shearwater (May - Oct) North,3,Sooty shearwater encounter rate (Ce/So CC) North,
-2021,0.078732864,Encounter rate,Sooty shearwater (May - Oct) North,3,Sooty shearwater encounter rate (Ce/So CC) North,
-2022,0.10968253,Encounter rate,Sooty shearwater (May - Oct) North,3,Sooty shearwater encounter rate (Ce/So CC) North,
-2023,0.089867446,Encounter rate,Sooty shearwater (May - Oct) North,3,Sooty shearwater encounter rate (Ce/So CC) North,
-2024,0.270738575,Encounter rate,Sooty shearwater (May - Oct) North,3,Sooty shearwater encounter rate (Ce/So CC) North,
-1997,0.622203579,Encounter rate,Northern fulmar (Oct - Feb) North,4,Northern fulmar encounter rate (Ce/So CC) North,
-1998,0.119937914,Encounter rate,Northern fulmar (Oct - Feb) North,4,Northern fulmar encounter rate (Ce/So CC) North,
-1999,0.276928402,Encounter rate,Northern fulmar (Oct - Feb) North,4,Northern fulmar encounter rate (Ce/So CC) North,
-2000,1.020002273,Encounter rate,Northern fulmar (Oct - Feb) North,4,Northern fulmar encounter rate (Ce/So CC) North,
-2001,0.369928401,Encounter rate,Northern fulmar (Oct - Feb) North,4,Northern fulmar encounter rate (Ce/So CC) North,
-2002,0.323913108,Encounter rate,Northern fulmar (Oct - Feb) North,4,Northern fulmar encounter rate (Ce/So CC) North,
-2003,3.662984018,Encounter rate,Northern fulmar (Oct - Feb) North,4,Northern fulmar encounter rate (Ce/So CC) North,
-2004,0.373626374,Encounter rate,Northern fulmar (Oct - Feb) North,4,Northern fulmar encounter rate (Ce/So CC) North,
-2005,0.742929506,Encounter rate,Northern fulmar (Oct - Feb) North,4,Northern fulmar encounter rate (Ce/So CC) North,
-2006,0.175685172,Encounter rate,Northern fulmar (Oct - Feb) North,4,Northern fulmar encounter rate (Ce/So CC) North,
-2007,1.099218976,Encounter rate,Northern fulmar (Oct - Feb) North,4,Northern fulmar encounter rate (Ce/So CC) North,
-2008,0.216340036,Encounter rate,Northern fulmar (Oct - Feb) North,4,Northern fulmar encounter rate (Ce/So CC) North,
-2009,0.772000789,Encounter rate,Northern fulmar (Oct - Feb) North,4,Northern fulmar encounter rate (Ce/So CC) North,
-2010,3.494968429,Encounter rate,Northern fulmar (Oct - Feb) North,4,Northern fulmar encounter rate (Ce/So CC) North,
-2011,0.458760852,Encounter rate,Northern fulmar (Oct - Feb) North,4,Northern fulmar encounter rate (Ce/So CC) North,
-2012,0.73253749,Encounter rate,Northern fulmar (Oct - Feb) North,4,Northern fulmar encounter rate (Ce/So CC) North,
-2013,3.015888117,Encounter rate,Northern fulmar (Oct - Feb) North,4,Northern fulmar encounter rate (Ce/So CC) North,
-2014,0.283428227,Encounter rate,Northern fulmar (Oct - Feb) North,4,Northern fulmar encounter rate (Ce/So CC) North,
-2015,0.521726168,Encounter rate,Northern fulmar (Oct - Feb) North,4,Northern fulmar encounter rate (Ce/So CC) North,
-2016,0.101986701,Encounter rate,Northern fulmar (Oct - Feb) North,4,Northern fulmar encounter rate (Ce/So CC) North,
-2017,0.459205468,Encounter rate,Northern fulmar (Oct - Feb) North,4,Northern fulmar encounter rate (Ce/So CC) North,
-2018,0.376972943,Encounter rate,Northern fulmar (Oct - Feb) North,4,Northern fulmar encounter rate (Ce/So CC) North,
-2019,1.718573165,Encounter rate,Northern fulmar (Oct - Feb) North,4,Northern fulmar encounter rate (Ce/So CC) North,
-2020,0.293829579,Encounter rate,Northern fulmar (Oct - Feb) North,4,Northern fulmar encounter rate (Ce/So CC) North,
-2021,1.331864286,Encounter rate,Northern fulmar (Oct - Feb) North,4,Northern fulmar encounter rate (Ce/So CC) North,
-2022,0.64243184,Encounter rate,Northern fulmar (Oct - Feb) North,4,Northern fulmar encounter rate (Ce/So CC) North,
-2023,0.0390625,Encounter rate,Northern fulmar (Oct - Feb) North,4,Northern fulmar encounter rate (Ce/So CC) North,
-1997,0.245685523,Encounter rate,Brandts Cormorant(Apr - Nov) North,5,Brandts cormorant encounter rate (Ce/So CC) North,
-1998,0.282435486,Encounter rate,Brandts Cormorant(Apr - Nov) North,5,Brandts cormorant encounter rate (Ce/So CC) North,
-1999,0.062507103,Encounter rate,Brandts Cormorant(Apr - Nov) North,5,Brandts cormorant encounter rate (Ce/So CC) North,
-2000,0.160828266,Encounter rate,Brandts Cormorant(Apr - Nov) North,5,Brandts cormorant encounter rate (Ce/So CC) North,
-2001,0.283412888,Encounter rate,Brandts Cormorant(Apr - Nov) North,5,Brandts cormorant encounter rate (Ce/So CC) North,
-2002,0.231593688,Encounter rate,Brandts Cormorant(Apr - Nov) North,5,Brandts cormorant encounter rate (Ce/So CC) North,
-2003,0.235120557,Encounter rate,Brandts Cormorant(Apr - Nov) North,5,Brandts cormorant encounter rate (Ce/So CC) North,
-2004,0.303893637,Encounter rate,Brandts Cormorant(Apr - Nov) North,5,Brandts cormorant encounter rate (Ce/So CC) North,
-2005,1.57652195,Encounter rate,Brandts Cormorant(Apr - Nov) North,5,Brandts cormorant encounter rate (Ce/So CC) North,
-2006,0.410002253,Encounter rate,Brandts Cormorant(Apr - Nov) North,5,Brandts cormorant encounter rate (Ce/So CC) North,
-2007,2.174060892,Encounter rate,Brandts Cormorant(Apr - Nov) North,5,Brandts cormorant encounter rate (Ce/So CC) North,
-2008,0.774562709,Encounter rate,Brandts Cormorant(Apr - Nov) North,5,Brandts cormorant encounter rate (Ce/So CC) North,
-2009,3.075362569,Encounter rate,Brandts Cormorant(Apr - Nov) North,5,Brandts cormorant encounter rate (Ce/So CC) North,outlier
-2010,0.267610497,Encounter rate,Brandts Cormorant(Apr - Nov) North,5,Brandts cormorant encounter rate (Ce/So CC) North,
-2011,0.949585635,Encounter rate,Brandts Cormorant(Apr - Nov) North,5,Brandts cormorant encounter rate (Ce/So CC) North,
-2012,0.332354972,Encounter rate,Brandts Cormorant(Apr - Nov) North,5,Brandts cormorant encounter rate (Ce/So CC) North,
-2013,0.148113167,Encounter rate,Brandts Cormorant(Apr - Nov) North,5,Brandts cormorant encounter rate (Ce/So CC) North,
-2014,0.682720953,Encounter rate,Brandts Cormorant(Apr - Nov) North,5,Brandts cormorant encounter rate (Ce/So CC) North,
-2015,1.145028987,Encounter rate,Brandts Cormorant(Apr - Nov) North,5,Brandts cormorant encounter rate (Ce/So CC) North,
-2016,0.788495139,Encounter rate,Brandts Cormorant(Apr - Nov) North,5,Brandts cormorant encounter rate (Ce/So CC) North,
-2017,0.28643367,Encounter rate,Brandts Cormorant(Apr - Nov) North,5,Brandts cormorant encounter rate (Ce/So CC) North,
-2018,0.248612541,Encounter rate,Brandts Cormorant(Apr - Nov) North,5,Brandts cormorant encounter rate (Ce/So CC) North,
-2019,0.428766835,Encounter rate,Brandts Cormorant(Apr - Nov) North,5,Brandts cormorant encounter rate (Ce/So CC) North,
-2020,0.690993789,Encounter rate,Brandts Cormorant(Apr - Nov) North,5,Brandts cormorant encounter rate (Ce/So CC) North,
-2021,0.234562834,Encounter rate,Brandts Cormorant(Apr - Nov) North,5,Brandts cormorant encounter rate (Ce/So CC) North,
-2022,0.279577673,Encounter rate,Brandts Cormorant(Apr - Nov) North,5,Brandts cormorant encounter rate (Ce/So CC) North,
-2023,0.455362493,Encounter rate,Brandts Cormorant(Apr - Nov) North,5,Brandts cormorant encounter rate (Ce/So CC) North,
-2024,0.276354813,Encounter rate,Brandts Cormorant(Apr - Nov) North,5,Brandts cormorant encounter rate (Ce/So CC) North,
+1997,0.0042,Encounter rate,Cassins auklet (Oct - Feb) North,1,Cassins auklet encounter rate (Ce/So CC) North,NA
+1998,0.0082,Encounter rate,Cassins auklet (Oct - Feb) North,1,Cassins auklet encounter rate (Ce/So CC) North,NA
+1999,0.0041,Encounter rate,Cassins auklet (Oct - Feb) North,1,Cassins auklet encounter rate (Ce/So CC) North,NA
+2000,0,Encounter rate,Cassins auklet (Oct - Feb) North,1,Cassins auklet encounter rate (Ce/So CC) North,NA
+2001,0.008,Encounter rate,Cassins auklet (Oct - Feb) North,1,Cassins auklet encounter rate (Ce/So CC) North,NA
+2002,0.0042,Encounter rate,Cassins auklet (Oct - Feb) North,1,Cassins auklet encounter rate (Ce/So CC) North,NA
+2003,0.0074,Encounter rate,Cassins auklet (Oct - Feb) North,1,Cassins auklet encounter rate (Ce/So CC) North,NA
+2004,0.2577,Encounter rate,Cassins auklet (Oct - Feb) North,1,Cassins auklet encounter rate (Ce/So CC) North,outlier
+2005,0.0277,Encounter rate,Cassins auklet (Oct - Feb) North,1,Cassins auklet encounter rate (Ce/So CC) North,NA
+2006,0.007,Encounter rate,Cassins auklet (Oct - Feb) North,1,Cassins auklet encounter rate (Ce/So CC) North,NA
+2007,0,Encounter rate,Cassins auklet (Oct - Feb) North,1,Cassins auklet encounter rate (Ce/So CC) North,NA
+2008,0.018,Encounter rate,Cassins auklet (Oct - Feb) North,1,Cassins auklet encounter rate (Ce/So CC) North,NA
+2009,0.0138,Encounter rate,Cassins auklet (Oct - Feb) North,1,Cassins auklet encounter rate (Ce/So CC) North,NA
+2010,0.0311,Encounter rate,Cassins auklet (Oct - Feb) North,1,Cassins auklet encounter rate (Ce/So CC) North,NA
+2011,0.0069,Encounter rate,Cassins auklet (Oct - Feb) North,1,Cassins auklet encounter rate (Ce/So CC) North,NA
+2012,0.0207,Encounter rate,Cassins auklet (Oct - Feb) North,1,Cassins auklet encounter rate (Ce/So CC) North,NA
+2013,0.01,Encounter rate,Cassins auklet (Oct - Feb) North,1,Cassins auklet encounter rate (Ce/So CC) North,NA
+2014,0.8722,Encounter rate,Cassins auklet (Oct - Feb) North,1,Cassins auklet encounter rate (Ce/So CC) North,outlier
+2015,0.0284,Encounter rate,Cassins auklet (Oct - Feb) North,1,Cassins auklet encounter rate (Ce/So CC) North,NA
+2016,0,Encounter rate,Cassins auklet (Oct - Feb) North,1,Cassins auklet encounter rate (Ce/So CC) North,NA
+2017,0.0112,Encounter rate,Cassins auklet (Oct - Feb) North,1,Cassins auklet encounter rate (Ce/So CC) North,NA
+2018,0.163,Encounter rate,Cassins auklet (Oct - Feb) North,1,Cassins auklet encounter rate (Ce/So CC) North,NA
+2019,0,Encounter rate,Cassins auklet (Oct - Feb) North,1,Cassins auklet encounter rate (Ce/So CC) North,NA
+2020,0,Encounter rate,Cassins auklet (Oct - Feb) North,1,Cassins auklet encounter rate (Ce/So CC) North,NA
+2021,0.0046,Encounter rate,Cassins auklet (Oct - Feb) North,1,Cassins auklet encounter rate (Ce/So CC) North,NA
+2022,0.0783,Encounter rate,Cassins auklet (Oct - Feb) North,1,Cassins auklet encounter rate (Ce/So CC) North,NA
+2023,0.0666,Encounter rate,Cassins auklet (Oct - Feb) North,1,Cassins auklet encounter rate (Ce/So CC) North,NA
+2024,0,Encounter rate,Cassins auklet (Oct - Feb) North,1,Cassins auklet encounter rate (Ce/So CC) North,NA
+1997,3.2568,Encounter rate,Common murre (Jun- Dec) North,2,Common murre encounter rate(Ce/So CC) North,NA
+1998,3.1862,Encounter rate,Common murre (Jun- Dec) North,2,Common murre encounter rate(Ce/So CC) North,NA
+1999,0.4944,Encounter rate,Common murre (Jun- Dec) North,2,Common murre encounter rate(Ce/So CC) North,NA
+2000,0.9376,Encounter rate,Common murre (Jun- Dec) North,2,Common murre encounter rate(Ce/So CC) North,NA
+2001,0.5256,Encounter rate,Common murre (Jun- Dec) North,2,Common murre encounter rate(Ce/So CC) North,NA
+2002,0.7154,Encounter rate,Common murre (Jun- Dec) North,2,Common murre encounter rate(Ce/So CC) North,NA
+2003,0.9546,Encounter rate,Common murre (Jun- Dec) North,2,Common murre encounter rate(Ce/So CC) North,NA
+2004,0.8238,Encounter rate,Common murre (Jun- Dec) North,2,Common murre encounter rate(Ce/So CC) North,NA
+2005,1.5066,Encounter rate,Common murre (Jun- Dec) North,2,Common murre encounter rate(Ce/So CC) North,NA
+2006,2.3886,Encounter rate,Common murre (Jun- Dec) North,2,Common murre encounter rate(Ce/So CC) North,NA
+2007,3.497,Encounter rate,Common murre (Jun- Dec) North,2,Common murre encounter rate(Ce/So CC) North,NA
+2008,3.2963,Encounter rate,Common murre (Jun- Dec) North,2,Common murre encounter rate(Ce/So CC) North,NA
+2009,1.5761,Encounter rate,Common murre (Jun- Dec) North,2,Common murre encounter rate(Ce/So CC) North,NA
+2010,0.3502,Encounter rate,Common murre (Jun- Dec) North,2,Common murre encounter rate(Ce/So CC) North,NA
+2011,1.3467,Encounter rate,Common murre (Jun- Dec) North,2,Common murre encounter rate(Ce/So CC) North,NA
+2012,0.7473,Encounter rate,Common murre (Jun- Dec) North,2,Common murre encounter rate(Ce/So CC) North,NA
+2013,0.4142,Encounter rate,Common murre (Jun- Dec) North,2,Common murre encounter rate(Ce/So CC) North,NA
+2014,0.7519,Encounter rate,Common murre (Jun- Dec) North,2,Common murre encounter rate(Ce/So CC) North,NA
+2015,8.7378,Encounter rate,Common murre (Jun- Dec) North,2,Common murre encounter rate(Ce/So CC) North,outlier
+2016,0.5558,Encounter rate,Common murre (Jun- Dec) North,2,Common murre encounter rate(Ce/So CC) North,NA
+2017,1.0049,Encounter rate,Common murre (Jun- Dec) North,2,Common murre encounter rate(Ce/So CC) North,NA
+2018,1.0246,Encounter rate,Common murre (Jun- Dec) North,2,Common murre encounter rate(Ce/So CC) North,NA
+2019,1.4067,Encounter rate,Common murre (Jun- Dec) North,2,Common murre encounter rate(Ce/So CC) North,NA
+2020,1.3604,Encounter rate,Common murre (Jun- Dec) North,2,Common murre encounter rate(Ce/So CC) North,NA
+2021,0.5421,Encounter rate,Common murre (Jun- Dec) North,2,Common murre encounter rate(Ce/So CC) North,NA
+2022,0.8965,Encounter rate,Common murre (Jun- Dec) North,2,Common murre encounter rate(Ce/So CC) North,NA
+2023,0.9376,Encounter rate,Common murre (Jun- Dec) North,2,Common murre encounter rate(Ce/So CC) North,NA
+2024,0.4857,Encounter rate,Common murre (Jun- Dec) North,2,Common murre encounter rate(Ce/So CC) North,NA
+2025,0.6461,Encounter rate,Common murre (Jun- Dec) North,2,Common murre encounter rate(Ce/So CC) North,NA
+1997,0.8145,Encounter rate,Sooty shearwater (May - Oct) North,3,Sooty shearwater encounter rate (Ce/So CC) North,NA
+1998,2.2371,Encounter rate,Sooty shearwater (May - Oct) North,3,Sooty shearwater encounter rate (Ce/So CC) North,outlier
+1999,0.3414,Encounter rate,Sooty shearwater (May - Oct) North,3,Sooty shearwater encounter rate (Ce/So CC) North,NA
+2000,1.3384,Encounter rate,Sooty shearwater (May - Oct) North,3,Sooty shearwater encounter rate (Ce/So CC) North,NA
+2001,0.484,Encounter rate,Sooty shearwater (May - Oct) North,3,Sooty shearwater encounter rate (Ce/So CC) North,NA
+2002,0.2754,Encounter rate,Sooty shearwater (May - Oct) North,3,Sooty shearwater encounter rate (Ce/So CC) North,NA
+2003,0.2422,Encounter rate,Sooty shearwater (May - Oct) North,3,Sooty shearwater encounter rate (Ce/So CC) North,NA
+2004,0.1963,Encounter rate,Sooty shearwater (May - Oct) North,3,Sooty shearwater encounter rate (Ce/So CC) North,NA
+2005,0.2887,Encounter rate,Sooty shearwater (May - Oct) North,3,Sooty shearwater encounter rate (Ce/So CC) North,NA
+2006,0.3601,Encounter rate,Sooty shearwater (May - Oct) North,3,Sooty shearwater encounter rate (Ce/So CC) North,NA
+2007,0.2889,Encounter rate,Sooty shearwater (May - Oct) North,3,Sooty shearwater encounter rate (Ce/So CC) North,NA
+2008,0.2078,Encounter rate,Sooty shearwater (May - Oct) North,3,Sooty shearwater encounter rate (Ce/So CC) North,NA
+2009,0.4978,Encounter rate,Sooty shearwater (May - Oct) North,3,Sooty shearwater encounter rate (Ce/So CC) North,NA
+2010,0.1985,Encounter rate,Sooty shearwater (May - Oct) North,3,Sooty shearwater encounter rate (Ce/So CC) North,NA
+2011,1.5683,Encounter rate,Sooty shearwater (May - Oct) North,3,Sooty shearwater encounter rate (Ce/So CC) North,NA
+2012,0.7079,Encounter rate,Sooty shearwater (May - Oct) North,3,Sooty shearwater encounter rate (Ce/So CC) North,NA
+2013,0.5525,Encounter rate,Sooty shearwater (May - Oct) North,3,Sooty shearwater encounter rate (Ce/So CC) North,NA
+2014,0.3834,Encounter rate,Sooty shearwater (May - Oct) North,3,Sooty shearwater encounter rate (Ce/So CC) North,NA
+2015,0.5722,Encounter rate,Sooty shearwater (May - Oct) North,3,Sooty shearwater encounter rate (Ce/So CC) North,NA
+2016,0.0755,Encounter rate,Sooty shearwater (May - Oct) North,3,Sooty shearwater encounter rate (Ce/So CC) North,NA
+2017,0.4228,Encounter rate,Sooty shearwater (May - Oct) North,3,Sooty shearwater encounter rate (Ce/So CC) North,NA
+2018,0.2567,Encounter rate,Sooty shearwater (May - Oct) North,3,Sooty shearwater encounter rate (Ce/So CC) North,NA
+2019,0.2164,Encounter rate,Sooty shearwater (May - Oct) North,3,Sooty shearwater encounter rate (Ce/So CC) North,NA
+2020,0.1118,Encounter rate,Sooty shearwater (May - Oct) North,3,Sooty shearwater encounter rate (Ce/So CC) North,NA
+2021,0.0665,Encounter rate,Sooty shearwater (May - Oct) North,3,Sooty shearwater encounter rate (Ce/So CC) North,NA
+2022,0.0768,Encounter rate,Sooty shearwater (May - Oct) North,3,Sooty shearwater encounter rate (Ce/So CC) North,NA
+2023,0.0616,Encounter rate,Sooty shearwater (May - Oct) North,3,Sooty shearwater encounter rate (Ce/So CC) North,NA
+2024,0.2251,Encounter rate,Sooty shearwater (May - Oct) North,3,Sooty shearwater encounter rate (Ce/So CC) North,NA
+2025,0.0532,Encounter rate,Sooty shearwater (May - Oct) North,3,Sooty shearwater encounter rate (Ce/So CC) North,NA
+1997,0.5333,Encounter rate,Northern fulmar (Oct - Feb) North,4,Northern fulmar encounter rate (Ce/So CC) North,NA
+1998,0.1019,Encounter rate,Northern fulmar (Oct - Feb) North,4,Northern fulmar encounter rate (Ce/So CC) North,NA
+1999,0.2769,Encounter rate,Northern fulmar (Oct - Feb) North,4,Northern fulmar encounter rate (Ce/So CC) North,NA
+2000,1.02,Encounter rate,Northern fulmar (Oct - Feb) North,4,Northern fulmar encounter rate (Ce/So CC) North,NA
+2001,0.2642,Encounter rate,Northern fulmar (Oct - Feb) North,4,Northern fulmar encounter rate (Ce/So CC) North,NA
+2002,0.3239,Encounter rate,Northern fulmar (Oct - Feb) North,4,Northern fulmar encounter rate (Ce/So CC) North,NA
+2003,3.663,Encounter rate,Northern fulmar (Oct - Feb) North,4,Northern fulmar encounter rate (Ce/So CC) North,outlier
+2004,0.3736,Encounter rate,Northern fulmar (Oct - Feb) North,4,Northern fulmar encounter rate (Ce/So CC) North,NA
+2005,0.7429,Encounter rate,Northern fulmar (Oct - Feb) North,4,Northern fulmar encounter rate (Ce/So CC) North,NA
+2006,0.1757,Encounter rate,Northern fulmar (Oct - Feb) North,4,Northern fulmar encounter rate (Ce/So CC) North,NA
+2007,1.0992,Encounter rate,Northern fulmar (Oct - Feb) North,4,Northern fulmar encounter rate (Ce/So CC) North,NA
+2008,0.2163,Encounter rate,Northern fulmar (Oct - Feb) North,4,Northern fulmar encounter rate (Ce/So CC) North,NA
+2009,0.772,Encounter rate,Northern fulmar (Oct - Feb) North,4,Northern fulmar encounter rate (Ce/So CC) North,NA
+2010,3.495,Encounter rate,Northern fulmar (Oct - Feb) North,4,Northern fulmar encounter rate (Ce/So CC) North,outlier
+2011,0.4588,Encounter rate,Northern fulmar (Oct - Feb) North,4,Northern fulmar encounter rate (Ce/So CC) North,NA
+2012,0.7325,Encounter rate,Northern fulmar (Oct - Feb) North,4,Northern fulmar encounter rate (Ce/So CC) North,NA
+2013,3.0159,Encounter rate,Northern fulmar (Oct - Feb) North,4,Northern fulmar encounter rate (Ce/So CC) North,NA
+2014,0.2834,Encounter rate,Northern fulmar (Oct - Feb) North,4,Northern fulmar encounter rate (Ce/So CC) North,NA
+2015,0.5217,Encounter rate,Northern fulmar (Oct - Feb) North,4,Northern fulmar encounter rate (Ce/So CC) North,NA
+2016,0.07,Encounter rate,Northern fulmar (Oct - Feb) North,4,Northern fulmar encounter rate (Ce/So CC) North,NA
+2017,0.4586,Encounter rate,Northern fulmar (Oct - Feb) North,4,Northern fulmar encounter rate (Ce/So CC) North,NA
+2018,0.3217,Encounter rate,Northern fulmar (Oct - Feb) North,4,Northern fulmar encounter rate (Ce/So CC) North,NA
+2019,1.7186,Encounter rate,Northern fulmar (Oct - Feb) North,4,Northern fulmar encounter rate (Ce/So CC) North,NA
+2020,0.2928,Encounter rate,Northern fulmar (Oct - Feb) North,4,Northern fulmar encounter rate (Ce/So CC) North,NA
+2021,1.3319,Encounter rate,Northern fulmar (Oct - Feb) North,4,Northern fulmar encounter rate (Ce/So CC) North,NA
+2022,0.5127,Encounter rate,Northern fulmar (Oct - Feb) North,4,Northern fulmar encounter rate (Ce/So CC) North,NA
+2023,0.0068,Encounter rate,Northern fulmar (Oct - Feb) North,4,Northern fulmar encounter rate (Ce/So CC) North,NA
+2024,0.0389,Encounter rate,Northern fulmar (Oct - Feb) North,4,Northern fulmar encounter rate (Ce/So CC) North,NA
+1997,0.2457,Encounter rate,Brandts Cormorant(Apr - Nov) North,5,Brandts cormorant encounter rate (Ce/So CC) North,NA
+1998,0.2474,Encounter rate,Brandts Cormorant(Apr - Nov) North,5,Brandts cormorant encounter rate (Ce/So CC) North,NA
+1999,0.0554,Encounter rate,Brandts Cormorant(Apr - Nov) North,5,Brandts cormorant encounter rate (Ce/So CC) North,NA
+2000,0.1608,Encounter rate,Brandts Cormorant(Apr - Nov) North,5,Brandts cormorant encounter rate (Ce/So CC) North,NA
+2001,0.2834,Encounter rate,Brandts Cormorant(Apr - Nov) North,5,Brandts cormorant encounter rate (Ce/So CC) North,NA
+2002,0.2316,Encounter rate,Brandts Cormorant(Apr - Nov) North,5,Brandts cormorant encounter rate (Ce/So CC) North,NA
+2003,0.2351,Encounter rate,Brandts Cormorant(Apr - Nov) North,5,Brandts cormorant encounter rate (Ce/So CC) North,NA
+2004,0.3039,Encounter rate,Brandts Cormorant(Apr - Nov) North,5,Brandts cormorant encounter rate (Ce/So CC) North,NA
+2005,1.5765,Encounter rate,Brandts Cormorant(Apr - Nov) North,5,Brandts cormorant encounter rate (Ce/So CC) North,NA
+2006,0.41,Encounter rate,Brandts Cormorant(Apr - Nov) North,5,Brandts cormorant encounter rate (Ce/So CC) North,NA
+2007,2.1741,Encounter rate,Brandts Cormorant(Apr - Nov) North,5,Brandts cormorant encounter rate (Ce/So CC) North,NA
+2008,0.7746,Encounter rate,Brandts Cormorant(Apr - Nov) North,5,Brandts cormorant encounter rate (Ce/So CC) North,NA
+2009,3.0754,Encounter rate,Brandts Cormorant(Apr - Nov) North,5,Brandts cormorant encounter rate (Ce/So CC) North,outlier
+2010,0.2676,Encounter rate,Brandts Cormorant(Apr - Nov) North,5,Brandts cormorant encounter rate (Ce/So CC) North,NA
+2011,0.9496,Encounter rate,Brandts Cormorant(Apr - Nov) North,5,Brandts cormorant encounter rate (Ce/So CC) North,NA
+2012,0.3324,Encounter rate,Brandts Cormorant(Apr - Nov) North,5,Brandts cormorant encounter rate (Ce/So CC) North,NA
+2013,0.1481,Encounter rate,Brandts Cormorant(Apr - Nov) North,5,Brandts cormorant encounter rate (Ce/So CC) North,NA
+2014,0.6827,Encounter rate,Brandts Cormorant(Apr - Nov) North,5,Brandts cormorant encounter rate (Ce/So CC) North,NA
+2015,1.145,Encounter rate,Brandts Cormorant(Apr - Nov) North,5,Brandts cormorant encounter rate (Ce/So CC) North,NA
+2016,0.7885,Encounter rate,Brandts Cormorant(Apr - Nov) North,5,Brandts cormorant encounter rate (Ce/So CC) North,NA
+2017,0.286,Encounter rate,Brandts Cormorant(Apr - Nov) North,5,Brandts cormorant encounter rate (Ce/So CC) North,NA
+2018,0.2486,Encounter rate,Brandts Cormorant(Apr - Nov) North,5,Brandts cormorant encounter rate (Ce/So CC) North,NA
+2019,0.4288,Encounter rate,Brandts Cormorant(Apr - Nov) North,5,Brandts cormorant encounter rate (Ce/So CC) North,NA
+2020,0.691,Encounter rate,Brandts Cormorant(Apr - Nov) North,5,Brandts cormorant encounter rate (Ce/So CC) North,NA
+2021,0.2346,Encounter rate,Brandts Cormorant(Apr - Nov) North,5,Brandts cormorant encounter rate (Ce/So CC) North,NA
+2022,0.2796,Encounter rate,Brandts Cormorant(Apr - Nov) North,5,Brandts cormorant encounter rate (Ce/So CC) North,NA
+2023,0.4554,Encounter rate,Brandts Cormorant(Apr - Nov) North,5,Brandts cormorant encounter rate (Ce/So CC) North,NA
+2024,0.2764,Encounter rate,Brandts Cormorant(Apr - Nov) North,5,Brandts cormorant encounter rate (Ce/So CC) North,NA
+2025,0.3416,Encounter rate,Brandts Cormorant(Apr - Nov) North,5,Brandts cormorant encounter rate (Ce/So CC) North,NA
