@@ -32,6 +32,8 @@ format:
     theme:
       - cosmo
       - custom.css
+    link-external-newwindow: true
+    link-external-icon: true # Optional: shows an icon next to the link
     grid:
       body-width: 1400px
       margin-width: 20px
