@@ -23,26 +23,27 @@ order,year,index,metric,timeseries
 1,2002,434.3686239,mt x 1000,Total fisheries coastwide
 1,2003,390.7827385,mt x 1000,Total fisheries coastwide
 1,2004,480.9040781,mt x 1000,Total fisheries coastwide
-1,2005,541.4418911,mt x 1000,Total fisheries coastwide
-1,2006,541.1877862,mt x 1000,Total fisheries coastwide
-1,2007,516.3811927,mt x 1000,Total fisheries coastwide
-1,2008,503.1251449,mt x 1000,Total fisheries coastwide
-1,2009,410.6445721,mt x 1000,Total fisheries coastwide
-1,2010,497.9399559,mt x 1000,Total fisheries coastwide
-1,2011,548.3727718,mt x 1000,Total fisheries coastwide
-1,2012,499.9012376,mt x 1000,Total fisheries coastwide
-1,2013,569.6443768,mt x 1000,Total fisheries coastwide
-1,2014,555.0470602,mt x 1000,Total fisheries coastwide
-1,2015,357.9846308,mt x 1000,Total fisheries coastwide
-1,2016,429.3960283,mt x 1000,Total fisheries coastwide
-1,2017,546.5319206,mt x 1000,Total fisheries coastwide
-1,2018,502.5400244,mt x 1000,Total fisheries coastwide
-1,2019,458.2367576,mt x 1000,Total fisheries coastwide
-1,2020,428.8719868,mt x 1000,Total fisheries coastwide
-1,2021,429.9189845,mt x 1000,Total fisheries coastwide
-1,2022,487.7323738,mt x 1000,Total fisheries coastwide
-1,2023,394.6919987,mt x 1000,Total fisheries coastwide
-1,2024,345.8352813,mt x 1000,Total fisheries coastwide
+1,2005,541.4557504,mt x 1000,Total fisheries coastwide
+1,2006,541.196571,mt x 1000,Total fisheries coastwide
+1,2007,516.3891182,mt x 1000,Total fisheries coastwide
+1,2008,503.1313655,mt x 1000,Total fisheries coastwide
+1,2009,410.6528193,mt x 1000,Total fisheries coastwide
+1,2010,497.9521974,mt x 1000,Total fisheries coastwide
+1,2011,548.3877614,mt x 1000,Total fisheries coastwide
+1,2012,499.9121796,mt x 1000,Total fisheries coastwide
+1,2013,569.694888,mt x 1000,Total fisheries coastwide
+1,2014,555.0644216,mt x 1000,Total fisheries coastwide
+1,2015,357.9997148,mt x 1000,Total fisheries coastwide
+1,2016,429.4197246,mt x 1000,Total fisheries coastwide
+1,2017,546.5447308,mt x 1000,Total fisheries coastwide
+1,2018,502.5536842,mt x 1000,Total fisheries coastwide
+1,2019,458.24428,mt x 1000,Total fisheries coastwide
+1,2020,428.9073354,mt x 1000,Total fisheries coastwide
+1,2021,430.3305841,mt x 1000,Total fisheries coastwide
+1,2022,488.1372721,mt x 1000,Total fisheries coastwide
+1,2023,395.2353752,mt x 1000,Total fisheries coastwide
+1,2024,352.3753918,mt x 1000,Total fisheries coastwide
+1,2025,443.1931235,mt x 1000,Total fisheries coastwide
 2,1981,27.81394049,mt x 1000,Salmon commercial coastwide
 2,1982,30.69915485,mt x 1000,Salmon commercial coastwide
 2,1983,14.50652644,mt x 1000,Salmon commercial coastwide
@@ -74,19 +75,20 @@ order,year,index,metric,timeseries
 2,2009,15.80073625,mt x 1000,Salmon commercial coastwide
 2,2010,14.84530815,mt x 1000,Salmon commercial coastwide
 2,2011,19.36537533,mt x 1000,Salmon commercial coastwide
-2,2012,11.37459298,mt x 1000,Salmon commercial coastwide
-2,2013,26.14592166,mt x 1000,Salmon commercial coastwide
-2,2014,17.01418919,mt x 1000,Salmon commercial coastwide
-2,2015,12.01413595,mt x 1000,Salmon commercial coastwide
+2,2012,11.37349286,mt x 1000,Salmon commercial coastwide
+2,2013,26.14593783,mt x 1000,Salmon commercial coastwide
+2,2014,17.01500554,mt x 1000,Salmon commercial coastwide
+2,2015,12.01415733,mt x 1000,Salmon commercial coastwide
 2,2016,8.780970354,mt x 1000,Salmon commercial coastwide
 2,2017,10.38632945,mt x 1000,Salmon commercial coastwide
-2,2018,9.088020516,mt x 1000,Salmon commercial coastwide
+2,2018,9.087952182,mt x 1000,Salmon commercial coastwide
 2,2019,5.378018482,mt x 1000,Salmon commercial coastwide
-2,2020,4.699128013,mt x 1000,Salmon commercial coastwide
-2,2021,5.975565694,mt x 1000,Salmon commercial coastwide
-2,2022,9.958903307,mt x 1000,Salmon commercial coastwide
-2,2023,5.042818654,mt x 1000,Salmon commercial coastwide
-2,2024,5.572830915,mt x 1000,Salmon commercial coastwide
+2,2020,4.699926336,mt x 1000,Salmon commercial coastwide
+2,2021,5.98511176,mt x 1000,Salmon commercial coastwide
+2,2022,9.963393679,mt x 1000,Salmon commercial coastwide
+2,2023,5.066630842,mt x 1000,Salmon commercial coastwide
+2,2024,9.736899839,mt x 1000,Salmon commercial coastwide
+2,2025,6.616944758,mt x 1000,Salmon commercial coastwide
 3,1981,108.9088704,mt x 1000,Non-whiting groundfish coastwide
 3,1982,124.7480013,mt x 1000,Non-whiting groundfish coastwide
 3,1983,102.9884182,mt x 1000,Non-whiting groundfish coastwide
@@ -118,19 +120,20 @@ order,year,index,metric,timeseries
 3,2009,33.44272367,mt x 1000,Non-whiting groundfish coastwide
 3,2010,30.06342993,mt x 1000,Non-whiting groundfish coastwide
 3,2011,26.64192545,mt x 1000,Non-whiting groundfish coastwide
-3,2012,24.9652689,mt x 1000,Non-whiting groundfish coastwide
-3,2013,25.21290099,mt x 1000,Non-whiting groundfish coastwide
+3,2012,24.96563994,mt x 1000,Non-whiting groundfish coastwide
+3,2013,25.2655873,mt x 1000,Non-whiting groundfish coastwide
 3,2014,23.25295201,mt x 1000,Non-whiting groundfish coastwide
-3,2015,25.69582677,mt x 1000,Non-whiting groundfish coastwide
-3,2016,26.34566314,mt x 1000,Non-whiting groundfish coastwide
+3,2015,25.70059559,mt x 1000,Non-whiting groundfish coastwide
+3,2016,26.35440115,mt x 1000,Non-whiting groundfish coastwide
 3,2017,34.27045944,mt x 1000,Non-whiting groundfish coastwide
-3,2018,37.88107149,mt x 1000,Non-whiting groundfish coastwide
+3,2018,37.88264545,mt x 1000,Non-whiting groundfish coastwide
 3,2019,36.5025577,mt x 1000,Non-whiting groundfish coastwide
-3,2020,29.46190454,mt x 1000,Non-whiting groundfish coastwide
-3,2021,32.25415883,mt x 1000,Non-whiting groundfish coastwide
-3,2022,36.49173662,mt x 1000,Non-whiting groundfish coastwide
-3,2023,34.33447875,mt x 1000,Non-whiting groundfish coastwide
-3,2024,30.65734254,mt x 1000,Non-whiting groundfish coastwide
+3,2020,29.4620366,mt x 1000,Non-whiting groundfish coastwide
+3,2021,32.2542532,mt x 1000,Non-whiting groundfish coastwide
+3,2022,36.49379962,mt x 1000,Non-whiting groundfish coastwide
+3,2023,34.34393577,mt x 1000,Non-whiting groundfish coastwide
+3,2024,30.83463395,mt x 1000,Non-whiting groundfish coastwide
+3,2025,36.15191844,mt x 1000,Non-whiting groundfish coastwide
 4,1981,110.3687192,mt x 1000,Pacific whiting coastwide
 4,1982,69.49753152,mt x 1000,Pacific whiting coastwide
 4,1983,72.81297887,mt x 1000,Pacific whiting coastwide
@@ -164,9 +167,9 @@ order,year,index,metric,timeseries
 4,2011,231.2619739,mt x 1000,Pacific whiting coastwide
 4,2012,160.1436497,mt x 1000,Pacific whiting coastwide
 4,2013,233.5804662,mt x 1000,Pacific whiting coastwide
-4,2014,264.1381777,mt x 1000,Pacific whiting coastwide
+4,2014,264.13817770000003,mt x 1000,Pacific whiting coastwide
 4,2015,154.1592641,mt x 1000,Pacific whiting coastwide
-4,2016,262.3278751,mt x 1000,Pacific whiting coastwide
+4,2016,262.32787510000003,mt x 1000,Pacific whiting coastwide
 4,2017,353.844321,mt x 1000,Pacific whiting coastwide
 4,2018,317.8282381,mt x 1000,Pacific whiting coastwide
 4,2019,316.6259949,mt x 1000,Pacific whiting coastwide
@@ -174,7 +177,8 @@ order,year,index,metric,timeseries
 4,2021,269.3017967,mt x 1000,Pacific whiting coastwide
 4,2022,291.7015119,mt x 1000,Pacific whiting coastwide
 4,2023,240.3565814,mt x 1000,Pacific whiting coastwide
-4,2024,166.8806626,mt x 1000,Pacific whiting coastwide
+4,2024,165.9058684,mt x 1000,Pacific whiting coastwide
+4,2025,239.3186475,mt x 1000,Pacific whiting coastwide
 5,1981,105.384183,mt x 1000,"Coastal pelagic spp, no squid coastwide"
 5,1982,97.90725854,mt x 1000,"Coastal pelagic spp, no squid coastwide"
 5,1983,55.77270261,mt x 1000,"Coastal pelagic spp, no squid coastwide"
@@ -217,8 +221,9 @@ order,year,index,metric,timeseries
 5,2020,9.884606535,mt x 1000,"Coastal pelagic spp, no squid coastwide"
 5,2021,8.529171232,mt x 1000,"Coastal pelagic spp, no squid coastwide"
 5,2022,6.064061966,mt x 1000,"Coastal pelagic spp, no squid coastwide"
-5,2023,6.825268489,mt x 1000,"Coastal pelagic spp, no squid coastwide"
-5,2024,7.609580089,mt x 1000,"Coastal pelagic spp, no squid coastwide"
+5,2023,6.827204875,mt x 1000,"Coastal pelagic spp, no squid coastwide"
+5,2024,7.709398418,mt x 1000,"Coastal pelagic spp, no squid coastwide"
+5,2025,4.765228539,mt x 1000,"Coastal pelagic spp, no squid coastwide"
 6,1981,26.88409156,mt x 1000,Highly migratory species coastwide
 6,1982,17.24700489,mt x 1000,Highly migratory species coastwide
 6,1983,54.9581531,mt x 1000,Highly migratory species coastwide
@@ -251,18 +256,19 @@ order,year,index,metric,timeseries
 6,2010,11.92526617,mt x 1000,Highly migratory species coastwide
 6,2011,11.78077436,mt x 1000,Highly migratory species coastwide
 6,2012,14.18954369,mt x 1000,Highly migratory species coastwide
-6,2013,13.10470748,mt x 1000,Highly migratory species coastwide
-6,2014,14.37148233,mt x 1000,Highly migratory species coastwide
-6,2015,12.37975173,mt x 1000,Highly migratory species coastwide
+6,2013,13.10467164,mt x 1000,Highly migratory species coastwide
+6,2014,14.37182661,mt x 1000,Highly migratory species coastwide
+6,2015,12.37962789,mt x 1000,Highly migratory species coastwide
 6,2016,11.55662374,mt x 1000,Highly migratory species coastwide
 6,2017,10.00643021,mt x 1000,Highly migratory species coastwide
-6,2018,9.790272648,mt x 1000,Highly migratory species coastwide
-6,2019,8.388412471,mt x 1000,Highly migratory species coastwide
-6,2020,8.920051124,mt x 1000,Highly migratory species coastwide
-6,2021,3.826482702,mt x 1000,Highly migratory species coastwide
-6,2022,8.245377236,mt x 1000,Highly migratory species coastwide
-6,2023,3.199896599,mt x 1000,Highly migratory species coastwide
-6,2024,4.62690913,mt x 1000,Highly migratory species coastwide
+6,2018,9.790250876,mt x 1000,Highly migratory species coastwide
+6,2019,8.381606771,mt x 1000,Highly migratory species coastwide
+6,2020,8.94727347,mt x 1000,Highly migratory species coastwide
+6,2021,4.214483801,mt x 1000,Highly migratory species coastwide
+6,2022,8.632812252,mt x 1000,Highly migratory species coastwide
+6,2023,3.623440571,mt x 1000,Highly migratory species coastwide
+6,2024,4.712294516,mt x 1000,Highly migratory species coastwide
+6,2025,8.899319903,mt x 1000,Highly migratory species coastwide
 7,1981,23.5096667,mt x 1000,Market squid coastwide
 7,1982,16.35936358,mt x 1000,Market squid coastwide
 7,1983,1.958504354,mt x 1000,Market squid coastwide
@@ -295,18 +301,19 @@ order,year,index,metric,timeseries
 7,2010,130.852252,mt x 1000,Market squid coastwide
 7,2011,121.5128125,mt x 1000,Market squid coastwide
 7,2012,97.71636343,mt x 1000,Market squid coastwide
-7,2013,104.4116675,mt x 1000,Market squid coastwide
+7,2013,104.4133372,mt x 1000,Market squid coastwide
 7,2014,104.0738297,mt x 1000,Market squid coastwide
 7,2015,36.80618962,mt x 1000,Market squid coastwide
 7,2016,38.35179009,mt x 1000,Market squid coastwide
 7,2017,62.41175893,mt x 1000,Market squid coastwide
-7,2018,36.37434584,mt x 1000,Market squid coastwide
+7,2018,36.39912559,mt x 1000,Market squid coastwide
 7,2019,14.71757091,mt x 1000,Market squid coastwide
 7,2020,25.11909107,mt x 1000,Market squid coastwide
 7,2021,48.69478208,mt x 1000,Market squid coastwide
-7,2022,66.54890917,mt x 1000,Market squid coastwide
-7,2023,23.70948072,mt x 1000,Market squid coastwide
-7,2024,57.45238326,mt x 1000,Market squid coastwide
+7,2022,66.57384995,mt x 1000,Market squid coastwide
+7,2023,23.71029718,mt x 1000,Market squid coastwide
+7,2024,57.53286733,mt x 1000,Market squid coastwide
+7,2025,79.28551046,mt x 1000,Market squid coastwide
 8,1981,19.23145196,mt x 1000,Shrimp coastwide
 8,1982,13.48070311,mt x 1000,Shrimp coastwide
 8,1983,6.922551216,mt x 1000,Shrimp coastwide
@@ -339,18 +346,19 @@ order,year,index,metric,timeseries
 8,2010,21.00207309,mt x 1000,Shrimp coastwide
 8,2011,30.30041595,mt x 1000,Shrimp coastwide
 8,2012,30.1635948,mt x 1000,Shrimp coastwide
-8,2013,32.52453297,mt x 1000,Shrimp coastwide
+8,2013,32.52499291,mt x 1000,Shrimp coastwide
 8,2014,42.36564282,mt x 1000,Shrimp coastwide
 8,2015,47.78485651,mt x 1000,Shrimp coastwide
 8,2016,25.08950626,mt x 1000,Shrimp coastwide
-8,2017,16.25031108,mt x 1000,Shrimp coastwide
-8,2018,23.63974139,mt x 1000,Shrimp coastwide
+8,2017,16.24990829,mt x 1000,Shrimp coastwide
+8,2018,23.63966473,mt x 1000,Shrimp coastwide
 8,2019,18.82075439,mt x 1000,Shrimp coastwide
 8,2020,27.47437416,mt x 1000,Shrimp coastwide
 8,2021,31.89381274,mt x 1000,Shrimp coastwide
 8,2022,30.61315576,mt x 1000,Shrimp coastwide
-8,2023,27.39119367,mt x 1000,Shrimp coastwide
-8,2024,32.06747817,mt x 1000,Shrimp coastwide
+8,2023,27.3930593,mt x 1000,Shrimp coastwide
+8,2024,32.02946291,mt x 1000,Shrimp coastwide
+8,2025,36.6995467,mt x 1000,Shrimp coastwide
 9,1981,4.784685553,mt x 1000,Crab coastwide
 9,1982,11.11227463,mt x 1000,Crab coastwide
 9,1983,7.457050858,mt x 1000,Crab coastwide
@@ -382,19 +390,20 @@ order,year,index,metric,timeseries
 9,2009,17.31037745,mt x 1000,Crab coastwide
 9,2010,29.88645941,mt x 1000,Crab coastwide
 9,2011,36.35637657,mt x 1000,Crab coastwide
-9,2012,29.94323611,mt x 1000,Crab coastwide
-9,2013,32.09467666,mt x 1000,Crab coastwide
-9,2014,24.2789998,mt x 1000,Crab coastwide
-9,2015,20.42787987,mt x 1000,Crab coastwide
-9,2016,22.85775194,mt x 1000,Crab coastwide
-9,2017,32.99971851,mt x 1000,Crab coastwide
-9,2018,30.74820786,mt x 1000,Crab coastwide
-9,2019,25.10639744,mt x 1000,Crab coastwide
-9,2020,24.62601343,mt x 1000,Crab coastwide
-9,2021,16.808709,mt x 1000,Crab coastwide
-9,2022,24.18196396,mt x 1000,Crab coastwide
-9,2023,40.62055619,mt x 1000,Crab coastwide
-9,2024,29.90577723,mt x 1000,Crab coastwide
+9,2012,29.9431827,mt x 1000,Crab coastwide
+9,2013,32.1037801,mt x 1000,Crab coastwide
+9,2014,24.28987195,mt x 1000,Crab coastwide
+9,2015,20.42887323,mt x 1000,Crab coastwide
+9,2016,22.85700533,mt x 1000,Crab coastwide
+9,2017,33.00047102,mt x 1000,Crab coastwide
+9,2018,30.74783093,mt x 1000,Crab coastwide
+9,2019,25.10668502,mt x 1000,Crab coastwide
+9,2020,24.6258642,mt x 1000,Crab coastwide
+9,2021,16.81266115,mt x 1000,Crab coastwide
+9,2022,24.18267497,mt x 1000,Crab coastwide
+9,2023,40.65285174,mt x 1000,Crab coastwide
+9,2024,31.07291694,mt x 1000,Crab coastwide
+9,2025,20.97255531,mt x 1000,Crab coastwide
 10,1981,28.40453539,mt x 1000,Other species coastwide
 10,1982,27.77383878,mt x 1000,Other species coastwide
 10,1983,25.75810554,mt x 1000,Other species coastwide
@@ -426,39 +435,41 @@ order,year,index,metric,timeseries
 10,2009,17.63754451,mt x 1000,Other species coastwide
 10,2010,10.3750982,mt x 1000,Other species coastwide
 10,2011,12.34606565,mt x 1000,Other species coastwide
-10,2012,12.89134397,mt x 1000,Other species coastwide
-10,2013,14.46668082,mt x 1000,Other species coastwide
-10,2014,13.89607939,mt x 1000,Other species coastwide
-10,2015,9.75642341,mt x 1000,Other species coastwide
+10,2012,12.88949147,mt x 1000,Other species coastwide
+10,2013,14.44116978,mt x 1000,Other species coastwide
+10,2014,13.88746331,mt x 1000,Other species coastwide
+10,2015,9.753435642,mt x 1000,Other species coastwide
 10,2016,8.488970481,mt x 1000,Other species coastwide
 10,2017,8.404098089,mt x 1000,Other species coastwide
-10,2018,8.316901873,mt x 1000,Other species coastwide
+10,2018,8.292198779,mt x 1000,Other species coastwide
 10,2019,6.541124843,mt x 1000,Other species coastwide
-10,2020,5.805069307,mt x 1000,Other species coastwide
-10,2021,5.351982117,mt x 1000,Other species coastwide
-10,2022,6.443919685,mt x 1000,Other species coastwide
-10,2023,5.547409676,mt x 1000,Other species coastwide
-10,2024,5.267897335,mt x 1000,Other species coastwide
-11,2005,5.706745902,mt x 1000,Recreational coastwide
-11,2006,5.167361715,mt x 1000,Recreational coastwide
-11,2007,4.635221646,mt x 1000,Recreational coastwide
-11,2008,3.917367865,mt x 1000,Recreational coastwide
-11,2009,4.310847682,mt x 1000,Recreational coastwide
-11,2010,4.520283369,mt x 1000,Recreational coastwide
-11,2011,4.480424451,mt x 1000,Recreational coastwide
-11,2012,5.20708521,mt x 1000,Recreational coastwide
-11,2013,5.391539345,mt x 1000,Recreational coastwide
-11,2014,5.589709765,mt x 1000,Recreational coastwide
-11,2015,6.910548011,mt x 1000,Recreational coastwide
-11,2016,5.428123973,mt x 1000,Recreational coastwide
-11,2017,5.396951895,mt x 1000,Recreational coastwide
-11,2018,4.64854222,mt x 1000,Recreational coastwide
-11,2019,5.741154136,mt x 1000,Recreational coastwide
-11,2020,3.616093777,mt x 1000,Recreational coastwide
-11,2021,4.329835217,mt x 1000,Recreational coastwide
-11,2022,4.671596312,mt x 1000,Recreational coastwide
-11,2023,4.853395733,mt x 1000,Recreational coastwide
-11,2024,3.74564216,mt x 1000,Recreational coastwide
+10,2020,5.80555379,mt x 1000,Other species coastwide
+10,2021,5.352015048,mt x 1000,Other species coastwide
+10,2022,6.418978908,mt x 1000,Other species coastwide
+10,2023,5.58372413,mt x 1000,Other species coastwide
+10,2024,5.356942689,mt x 1000,Other species coastwide
+10,2025,4.968583604,mt x 1000,Other species coastwide
+11,2005,5.720605234,mt x 1000,Recreational coastwide
+11,2006,5.176146434,mt x 1000,Recreational coastwide
+11,2007,4.643147181,mt x 1000,Recreational coastwide
+11,2008,3.92358849,mt x 1000,Recreational coastwide
+11,2009,4.319094915,mt x 1000,Recreational coastwide
+11,2010,4.53252486,mt x 1000,Recreational coastwide
+11,2011,4.495414104,mt x 1000,Recreational coastwide
+11,2012,5.220662249,mt x 1000,Recreational coastwide
+11,2013,5.403661931,mt x 1000,Recreational coastwide
+11,2014,5.603654505,mt x 1000,Recreational coastwide
+11,2015,6.92295239,mt x 1000,Recreational coastwide
+11,2016,5.44382886,mt x 1000,Recreational coastwide
+11,2017,5.409412334,mt x 1000,Recreational coastwide
+11,2018,4.661095028,mt x 1000,Recreational coastwide
+11,2019,5.755194697,mt x 1000,Recreational coastwide
+11,2020,3.62295443,mt x 1000,Recreational coastwide
+11,2021,4.339808202,mt x 1000,Recreational coastwide
+11,2022,4.681795258,mt x 1000,Recreational coastwide
+11,2023,4.866824018,mt x 1000,Recreational coastwide
+11,2024,4.577719797,mt x 1000,Recreational coastwide
+11,2025,3.700193129,mt x 1000,Recreational coastwide
 12,1981,646,1000s fish,Salmon recreational coastwide
 12,1982,693,1000s fish,Salmon recreational coastwide
 12,1983,520,1000s fish,Salmon recreational coastwide
@@ -496,13 +507,14 @@ order,year,index,metric,timeseries
 12,2015,189,1000s fish,Salmon recreational coastwide
 12,2016,84,1000s fish,Salmon recreational coastwide
 12,2017,144,1000s fish,Salmon recreational coastwide
-12,2018,162.79419,1000s fish,Salmon recreational coastwide
-12,2019,236.08281,1000s fish,Salmon recreational coastwide
-12,2020,95.9388,1000s fish,Salmon recreational coastwide
-12,2021,223.4038,1000s fish,Salmon recreational coastwide
-12,2022,259.99832,1000s fish,Salmon recreational coastwide
-12,2023,142.07392,1000s fish,Salmon recreational coastwide
-13,1981,243.5454735,mt x 1000,Total fisheries CA
+12,2018,163,1000s fish,Salmon recreational coastwide
+12,2019,236,1000s fish,Salmon recreational coastwide
+12,2020,96,1000s fish,Salmon recreational coastwide
+12,2021,223,1000s fish,Salmon recreational coastwide
+12,2022,260,1000s fish,Salmon recreational coastwide
+12,2023,142,1000s fish,Salmon recreational coastwide
+12,2024,158,1000s fish,Salmon recreational coastwide
+13,1981,243.54547350000001,mt x 1000,Total fisheries CA
 13,1982,226.2737204,mt x 1000,Total fisheries CA
 13,1983,183.2026583,mt x 1000,Total fisheries CA
 13,1984,166.8896496,mt x 1000,Total fisheries CA
@@ -533,19 +545,20 @@ order,year,index,metric,timeseries
 13,2009,168.9053671,mt x 1000,Total fisheries CA
 13,2010,205.0389585,mt x 1000,Total fisheries CA
 13,2011,191.5561928,mt x 1000,Total fisheries CA
-13,2012,166.7131658,mt x 1000,Total fisheries CA
-13,2013,166.1369704,mt x 1000,Total fisheries CA
-13,2014,174.0522374,mt x 1000,Total fisheries CA
-13,2015,94.99998872,mt x 1000,Total fisheries CA
-13,2016,72.42947536,mt x 1000,Total fisheries CA
-13,2017,102.0119162,mt x 1000,Total fisheries CA
-13,2018,87.14332154,mt x 1000,Total fisheries CA
-13,2019,51.76984015,mt x 1000,Total fisheries CA
-13,2020,56.9954156,mt x 1000,Total fisheries CA
-13,2021,71.20946549,mt x 1000,Total fisheries CA
-13,2022,96.79151546,mt x 1000,Total fisheries CA
-13,2023,56.01170748,mt x 1000,Total fisheries CA
-13,2024,82.89185217,mt x 1000,Total fisheries CA
+13,2012,166.7105308,mt x 1000,Total fisheries CA
+13,2013,166.1257946,mt x 1000,Total fisheries CA
+13,2014,174.0556541,mt x 1000,Total fisheries CA
+13,2015,94.99940315,mt x 1000,Total fisheries CA
+13,2016,72.42872875,mt x 1000,Total fisheries CA
+13,2017,102.0122659,mt x 1000,Total fisheries CA
+13,2018,87.14442847,mt x 1000,Total fisheries CA
+13,2019,51.76332203,mt x 1000,Total fisheries CA
+13,2020,56.99526637,mt x 1000,Total fisheries CA
+13,2021,71.20973882,mt x 1000,Total fisheries CA
+13,2022,96.79169077,mt x 1000,Total fisheries CA
+13,2023,56.01534248,mt x 1000,Total fisheries CA
+13,2024,83.30677946,mt x 1000,Total fisheries CA
+13,2025,100.7262714,mt x 1000,Total fisheries CA
 14,1981,3.159872634,mt x 1000,Salmon commercial CA
 14,1982,4.184023171,mt x 1000,Salmon commercial CA
 14,1983,1.260678901,mt x 1000,Salmon commercial CA
@@ -573,23 +586,24 @@ order,year,index,metric,timeseries
 14,2005,2.258432307,mt x 1000,Salmon commercial CA
 14,2006,0.539057859,mt x 1000,Salmon commercial CA
 14,2007,0.792640057,mt x 1000,Salmon commercial CA
-14,2008,0.000616886,mt x 1000,Salmon commercial CA
-14,2009,0.000609329,mt x 1000,Salmon commercial CA
+14,2008,6.16886e-4,mt x 1000,Salmon commercial CA
+14,2009,6.09329e-4,mt x 1000,Salmon commercial CA
 14,2010,0.118354764,mt x 1000,Salmon commercial CA
 14,2011,0.51657207,mt x 1000,Salmon commercial CA
-14,2012,1.312859672,mt x 1000,Salmon commercial CA
-14,2013,1.974934756,mt x 1000,Salmon commercial CA
-14,2014,1.170317372,mt x 1000,Salmon commercial CA
-14,2015,0.617084324,mt x 1000,Salmon commercial CA
+14,2012,1.311759552,mt x 1000,Salmon commercial CA
+14,2013,1.974950927,mt x 1000,Salmon commercial CA
+14,2014,1.171133725,mt x 1000,Salmon commercial CA
+14,2015,0.617105711,mt x 1000,Salmon commercial CA
 14,2016,0.321455692,mt x 1000,Salmon commercial CA
 14,2017,0.259584352,mt x 1000,Salmon commercial CA
-14,2018,0.483152299,mt x 1000,Salmon commercial CA
+14,2018,0.483083966,mt x 1000,Salmon commercial CA
 14,2019,1.352337426,mt x 1000,Salmon commercial CA
 14,2020,1.000592466,mt x 1000,Salmon commercial CA
 14,2021,1.192310882,mt x 1000,Salmon commercial CA
 14,2022,1.187502176,mt x 1000,Salmon commercial CA
-14,2023,0.000913882,mt x 1000,Salmon commercial CA
-14,2024,0.000636912,mt x 1000,Salmon commercial CA
+14,2023,9.13882e-4,mt x 1000,Salmon commercial CA
+14,2024,6.43171e-4,mt x 1000,Salmon commercial CA
+14,2025,4.57493e-4,mt x 1000,Salmon commercial CA
 15,1981,42.56018336,mt x 1000,Non-whiting groundfish CA
 15,1982,52.65096568,mt x 1000,Non-whiting groundfish CA
 15,1983,39.88557896,mt x 1000,Non-whiting groundfish CA
@@ -621,19 +635,20 @@ order,year,index,metric,timeseries
 15,2009,8.547345895,mt x 1000,Non-whiting groundfish CA
 15,2010,7.760455375,mt x 1000,Non-whiting groundfish CA
 15,2011,7.366884362,mt x 1000,Non-whiting groundfish CA
-15,2012,6.431279,mt x 1000,Non-whiting groundfish CA
-15,2013,6.700645983,mt x 1000,Non-whiting groundfish CA
+15,2012,6.431650038,mt x 1000,Non-whiting groundfish CA
+15,2013,6.703823602,mt x 1000,Non-whiting groundfish CA
 15,2014,6.927439458,mt x 1000,Non-whiting groundfish CA
-15,2015,6.608496065,mt x 1000,Non-whiting groundfish CA
+15,2015,6.610035467,mt x 1000,Non-whiting groundfish CA
 15,2016,5.847436584,mt x 1000,Non-whiting groundfish CA
 15,2017,6.348057431,mt x 1000,Non-whiting groundfish CA
-15,2018,6.341998969,mt x 1000,Non-whiting groundfish CA
+15,2018,6.343572935,mt x 1000,Non-whiting groundfish CA
 15,2019,6.110939519,mt x 1000,Non-whiting groundfish CA
 15,2020,5.925380035,mt x 1000,Non-whiting groundfish CA
-15,2021,6.057470828,mt x 1000,Non-whiting groundfish CA
+15,2021,6.057472643,mt x 1000,Non-whiting groundfish CA
 15,2022,7.381155741,mt x 1000,Non-whiting groundfish CA
-15,2023,6.445393337,mt x 1000,Non-whiting groundfish CA
-15,2024,5.203328636,mt x 1000,Non-whiting groundfish CA
+15,2023,6.447842282,mt x 1000,Non-whiting groundfish CA
+15,2024,5.207192549,mt x 1000,Non-whiting groundfish CA
+15,2025,5.844011506,mt x 1000,Non-whiting groundfish CA
 16,1981,15.30254651,mt x 1000,Pacific whiting CA
 16,1982,5.332874553,mt x 1000,Pacific whiting CA
 16,1983,4.479169568,mt x 1000,Pacific whiting CA
@@ -677,7 +692,8 @@ order,year,index,metric,timeseries
 16,2021,4.183647763,mt x 1000,Pacific whiting CA
 16,2022,7.27071444,mt x 1000,Pacific whiting CA
 16,2023,2.896912017,mt x 1000,Pacific whiting CA
-16,2024,0.229147345,mt x 1000,Pacific whiting CA
+16,2024,0.230566635,mt x 1000,Pacific whiting CA
+16,2025,0.841070288,mt x 1000,Pacific whiting CA
 17,1981,105.3168489,mt x 1000,"Coastal pelagic spp, no squid CA"
 17,1982,97.83007171,mt x 1000,"Coastal pelagic spp, no squid CA"
 17,1983,55.72349707,mt x 1000,"Coastal pelagic spp, no squid CA"
@@ -721,12 +737,13 @@ order,year,index,metric,timeseries
 17,2021,5.532656109,mt x 1000,"Coastal pelagic spp, no squid CA"
 17,2022,3.851921839,mt x 1000,"Coastal pelagic spp, no squid CA"
 17,2023,5.502904453,mt x 1000,"Coastal pelagic spp, no squid CA"
-17,2024,7.234037976,mt x 1000,"Coastal pelagic spp, no squid CA"
+17,2024,7.33272581,mt x 1000,"Coastal pelagic spp, no squid CA"
+17,2025,4.14968076,mt x 1000,"Coastal pelagic spp, no squid CA"
 18,1981,22.50445782,mt x 1000,Highly migratory species CA
 18,1982,16.11759754,mt x 1000,Highly migratory species CA
 18,1983,52.93386078,mt x 1000,Highly migratory species CA
 18,1984,43.12234549,mt x 1000,Highly migratory species CA
-18,1985,13.2874428,mt x 1000,Highly migratory species CA
+18,1985,13.287442800000001,mt x 1000,Highly migratory species CA
 18,1986,10.49473764,mt x 1000,Highly migratory species CA
 18,1987,11.13456243,mt x 1000,Highly migratory species CA
 18,1988,11.20794653,mt x 1000,Highly migratory species CA
@@ -744,7 +761,7 @@ order,year,index,metric,timeseries
 18,2000,3.703899618,mt x 1000,Highly migratory species CA
 18,2001,4.472874057,mt x 1000,Highly migratory species CA
 18,2002,3.51235774,mt x 1000,Highly migratory species CA
-18,2003,2.696334703,mt x 1000,Highly migratory species CA
+18,2003,2.6963347030000002,mt x 1000,Highly migratory species CA
 18,2004,2.071075497,mt x 1000,Highly migratory species CA
 18,2005,1.546532463,mt x 1000,Highly migratory species CA
 18,2006,0.927405503,mt x 1000,Highly migratory species CA
@@ -754,18 +771,19 @@ order,year,index,metric,timeseries
 18,2010,1.090253385,mt x 1000,Highly migratory species CA
 18,2011,1.372756442,mt x 1000,Highly migratory species CA
 18,2012,0.898904249,mt x 1000,Highly migratory species CA
-18,2013,0.617212618,mt x 1000,Highly migratory species CA
-18,2014,2.186722642,mt x 1000,Highly migratory species CA
-18,2015,1.136091742,mt x 1000,Highly migratory species CA
+18,2013,0.617176773,mt x 1000,Highly migratory species CA
+18,2014,2.187066919,mt x 1000,Highly migratory species CA
+18,2015,1.135967912,mt x 1000,Highly migratory species CA
 18,2016,1.233570624,mt x 1000,Highly migratory species CA
 18,2017,2.685061995,mt x 1000,Highly migratory species CA
-18,2018,2.996548861,mt x 1000,Highly migratory species CA
-18,2019,1.335773596,mt x 1000,Highly migratory species CA
+18,2018,2.996527089,mt x 1000,Highly migratory species CA
+18,2019,1.328967896,mt x 1000,Highly migratory species CA
 18,2020,2.367722546,mt x 1000,Highly migratory species CA
 18,2021,0.530868081,mt x 1000,Highly migratory species CA
 18,2022,1.124260411,mt x 1000,Highly migratory species CA
-18,2023,0.600721624,mt x 1000,Highly migratory species CA
-18,2024,0.294832289,mt x 1000,Highly migratory species CA
+18,2023,0.600781316,mt x 1000,Highly migratory species CA
+18,2024,0.301434519,mt x 1000,Highly migratory species CA
+18,2025,0.415971935,mt x 1000,Highly migratory species CA
 19,1981,23.50956464,mt x 1000,Market squid CA
 19,1982,16.30804505,mt x 1000,Market squid CA
 19,1983,1.823601447,mt x 1000,Market squid CA
@@ -798,18 +816,19 @@ order,year,index,metric,timeseries
 19,2010,130.8446752,mt x 1000,Market squid CA
 19,2011,121.512788,mt x 1000,Market squid CA
 19,2012,97.71631308,mt x 1000,Market squid CA
-19,2013,104.4116058,mt x 1000,Market squid CA
+19,2013,104.4132755,mt x 1000,Market squid CA
 19,2014,104.0733589,mt x 1000,Market squid CA
 19,2015,36.80618962,mt x 1000,Market squid CA
 19,2016,37.0915735,mt x 1000,Market squid CA
 19,2017,62.41172264,mt x 1000,Market squid CA
-19,2018,33.17818023,mt x 1000,Market squid CA
+19,2018,33.20295998,mt x 1000,Market squid CA
 19,2019,12.33702017,mt x 1000,Market squid CA
 19,2020,20.44832206,mt x 1000,Market squid CA
 19,2021,45.13959176,mt x 1000,Market squid CA
-19,2022,64.04447783,mt x 1000,Market squid CA
-19,2023,23.709478,mt x 1000,Market squid CA
-19,2024,57.27896627,mt x 1000,Market squid CA
+19,2022,64.0694186,mt x 1000,Market squid CA
+19,2023,23.71029446,mt x 1000,Market squid CA
+19,2024,57.34809421,mt x 1000,Market squid CA
+19,2025,78.69656477,mt x 1000,Market squid CA
 20,1981,2.847236957,mt x 1000,Shrimp CA
 20,1982,2.760339999,mt x 1000,Shrimp CA
 20,1983,1.317526625,mt x 1000,Shrimp CA
@@ -842,18 +861,19 @@ order,year,index,metric,timeseries
 20,2010,2.053246187,mt x 1000,Shrimp CA
 20,2011,3.730037293,mt x 1000,Shrimp CA
 20,2012,3.293954078,mt x 1000,Shrimp CA
-20,2013,4.407762858,mt x 1000,Shrimp CA
+20,2013,4.408222801,mt x 1000,Shrimp CA
 20,2014,4.500241012,mt x 1000,Shrimp CA
 20,2015,4.366000223,mt x 1000,Shrimp CA
 20,2016,2.186449443,mt x 1000,Shrimp CA
-20,2017,2.363975318,mt x 1000,Shrimp CA
-20,2018,3.127103019,mt x 1000,Shrimp CA
+20,2017,2.363572528,mt x 1000,Shrimp CA
+20,2018,3.127026362,mt x 1000,Shrimp CA
 20,2019,1.949003544,mt x 1000,Shrimp CA
 20,2020,1.071965121,mt x 1000,Shrimp CA
 20,2021,0.557896963,mt x 1000,Shrimp CA
 20,2022,0.501753893,mt x 1000,Shrimp CA
 20,2023,0.540441365,mt x 1000,Shrimp CA
-20,2024,0.493906377,mt x 1000,Shrimp CA
+20,2024,0.494527458,mt x 1000,Shrimp CA
+20,2025,0.614845138,mt x 1000,Shrimp CA
 21,1981,1.777525988,mt x 1000,Crab CA
 21,1982,5.394663419,mt x 1000,Crab CA
 21,1983,3.077293111,mt x 1000,Crab CA
@@ -885,19 +905,20 @@ order,year,index,metric,timeseries
 21,2009,3.425296748,mt x 1000,Crab CA
 21,2010,8.420470824,mt x 1000,Crab CA
 21,2011,13.15157928,mt x 1000,Crab CA
-21,2012,15.27303827,mt x 1000,Crab CA
-21,2013,12.02723129,mt x 1000,Crab CA
-21,2014,9.069368135,mt x 1000,Crab CA
-21,2015,8.634863789,mt x 1000,Crab CA
-21,2016,6.212191531,mt x 1000,Crab CA
-21,2017,10.89839172,mt x 1000,Crab CA
-21,2018,10.04452392,mt x 1000,Crab CA
-21,2019,6.667221808,mt x 1000,Crab CA
-21,2020,6.897057561,mt x 1000,Crab CA
-21,2021,2.26103839,mt x 1000,Crab CA
-21,2022,5.175440566,mt x 1000,Crab CA
-21,2023,10.06183244,mt x 1000,Crab CA
-21,2024,6.881882052,mt x 1000,Crab CA
+21,2012,15.27298486,mt x 1000,Crab CA
+21,2013,12.03633473,mt x 1000,Crab CA
+21,2014,9.080240291,mt x 1000,Crab CA
+21,2015,8.635844002,mt x 1000,Crab CA
+21,2016,6.211444918,mt x 1000,Crab CA
+21,2017,10.89914423,mt x 1000,Crab CA
+21,2018,10.04414698,mt x 1000,Crab CA
+21,2019,6.667509385,mt x 1000,Crab CA
+21,2020,6.896908329,mt x 1000,Crab CA
+21,2021,2.26127698,mt x 1000,Crab CA
+21,2022,5.175615879,mt x 1000,Crab CA
+21,2023,10.06189798,mt x 1000,Crab CA
+21,2024,6.882709858,mt x 1000,Crab CA
+21,2025,4.471910367,mt x 1000,Crab CA
 22,1981,25.33777772,mt x 1000,Other species CA
 22,1982,24.58361341,mt x 1000,Other species CA
 22,1983,22.25419301,mt x 1000,Other species CA
@@ -929,19 +950,20 @@ order,year,index,metric,timeseries
 22,2009,10.58098477,mt x 1000,Other species CA
 22,2010,7.014151097,mt x 1000,Other species CA
 22,2011,8.884111716,mt x 1000,Other species CA
-22,2012,9.038565275,mt x 1000,Other species CA
-22,2013,10.28545694,mt x 1000,Other species CA
-22,2014,10.73365569,mt x 1000,Other species CA
-22,2015,6.035966859,mt x 1000,Other species CA
+22,2012,9.036712772,mt x 1000,Other species CA
+22,2013,10.2598901,mt x 1000,Other species CA
+22,2014,10.72503961,mt x 1000,Other species CA
+22,2015,6.032964123,mt x 1000,Other species CA
 22,2016,5.130977202,mt x 1000,Other species CA
 22,2017,4.907911311,mt x 1000,Other species CA
-22,2018,4.977698853,mt x 1000,Other species CA
+22,2018,4.952995759,mt x 1000,Other species CA
 22,2019,2.92239172,mt x 1000,Other species CA
 22,2020,2.720262023,mt x 1000,Other species CA
-22,2021,2.760279535,mt x 1000,Other species CA
-22,2022,3.429611101,mt x 1000,Other species CA
-22,2023,3.19903924,mt x 1000,Other species CA
-22,2024,3.059201073,mt x 1000,Other species CA
+22,2021,2.760312465,mt x 1000,Other species CA
+22,2022,3.404670324,mt x 1000,Other species CA
+22,2023,3.19928359,mt x 1000,Other species CA
+22,2024,2.985637583,mt x 1000,Other species CA
+22,2025,3.365318299,mt x 1000,Other species CA
 23,2005,4.664502483,mt x 1000,Recreational CA
 23,2006,4.052356137,mt x 1000,Recreational CA
 23,2007,3.153904792,mt x 1000,Recreational CA
@@ -961,7 +983,8 @@ order,year,index,metric,timeseries
 23,2021,2.993697095,mt x 1000,Recreational CA
 23,2022,2.82459313,mt x 1000,Recreational CA
 23,2023,3.052996207,mt x 1000,Recreational CA
-23,2024,2.215660949,mt x 1000,Recreational CA
+23,2024,2.522995384,mt x 1000,Recreational CA
+23,2025,2.279213847,mt x 1000,Recreational CA
 24,1981,95,1000s fish,Salmon recreational CA
 24,1982,165,1000s fish,Salmon recreational CA
 24,1983,91,1000s fish,Salmon recreational CA
@@ -999,12 +1022,13 @@ order,year,index,metric,timeseries
 24,2015,38,1000s fish,Salmon recreational CA
 24,2016,38,1000s fish,Salmon recreational CA
 24,2017,62,1000s fish,Salmon recreational CA
-24,2018,87.509,1000s fish,Salmon recreational CA
-24,2019,89.156,1000s fish,Salmon recreational CA
-24,2020,40.193,1000s fish,Salmon recreational CA
-24,2021,56.087,1000s fish,Salmon recreational CA
-24,2022,90.423,1000s fish,Salmon recreational CA
+24,2018,88,1000s fish,Salmon recreational CA
+24,2019,89,1000s fish,Salmon recreational CA
+24,2020,40,1000s fish,Salmon recreational CA
+24,2021,56,1000s fish,Salmon recreational CA
+24,2022,90,1000s fish,Salmon recreational CA
 24,2023,0,1000s fish,Salmon recreational CA
+24,2024,0,1000s fish,Salmon recreational CA
 25,1981,83.75518199,mt x 1000,Total fisheries OR
 25,1982,74.49814298,mt x 1000,Total fisheries OR
 25,1983,68.72131716,mt x 1000,Total fisheries OR
@@ -1029,26 +1053,27 @@ order,year,index,metric,timeseries
 25,2002,157.5577282,mt x 1000,Total fisheries OR
 25,2003,162.1479487,mt x 1000,Total fisheries OR
 25,2004,197.7173165,mt x 1000,Total fisheries OR
-25,2005,246.9423052,mt x 1000,Total fisheries OR
-25,2006,237.1684405,mt x 1000,Total fisheries OR
-25,2007,197.1006108,mt x 1000,Total fisheries OR
-25,2008,180.1712008,mt x 1000,Total fisheries OR
-25,2009,117.9032279,mt x 1000,Total fisheries OR
-25,2010,153.7593525,mt x 1000,Total fisheries OR
-25,2011,187.3481233,mt x 1000,Total fisheries OR
-25,2012,205.2899004,mt x 1000,Total fisheries OR
-25,2013,271.2384759,mt x 1000,Total fisheries OR
-25,2014,288.2583738,mt x 1000,Total fisheries OR
-25,2015,181.2430982,mt x 1000,Total fisheries OR
-25,2016,245.7267553,mt x 1000,Total fisheries OR
-25,2017,290.963131,mt x 1000,Total fisheries OR
-25,2018,263.1847396,mt x 1000,Total fisheries OR
-25,2019,253.0456328,mt x 1000,Total fisheries OR
-25,2020,280.6307478,mt x 1000,Total fisheries OR
-25,2021,266.9462505,mt x 1000,Total fisheries OR
-25,2022,310.8358017,mt x 1000,Total fisheries OR
-25,2023,267.7647612,mt x 1000,Total fisheries OR
-25,2024,204.1801709,mt x 1000,Total fisheries OR
+25,2005,246.9422304,mt x 1000,Total fisheries OR
+25,2006,237.1684017,mt x 1000,Total fisheries OR
+25,2007,197.1005931,mt x 1000,Total fisheries OR
+25,2008,180.1711861,mt x 1000,Total fisheries OR
+25,2009,117.9032272,mt x 1000,Total fisheries OR
+25,2010,153.7593491,mt x 1000,Total fisheries OR
+25,2011,187.3481181,mt x 1000,Total fisheries OR
+25,2012,205.2899042,mt x 1000,Total fisheries OR
+25,2013,271.238476,mt x 1000,Total fisheries OR
+25,2014,288.2583682,mt x 1000,Total fisheries OR
+25,2015,181.2430827,mt x 1000,Total fisheries OR
+25,2016,245.7267651,mt x 1000,Total fisheries OR
+25,2017,290.9631148,mt x 1000,Total fisheries OR
+25,2018,263.1847321,mt x 1000,Total fisheries OR
+25,2019,253.0456291,mt x 1000,Total fisheries OR
+25,2020,280.6307253,mt x 1000,Total fisheries OR
+25,2021,266.9462182,mt x 1000,Total fisheries OR
+25,2022,310.8357588,mt x 1000,Total fisheries OR
+25,2023,267.7647505,mt x 1000,Total fisheries OR
+25,2024,203.1707209,mt x 1000,Total fisheries OR
+25,2025,275.396857,mt x 1000,Total fisheries OR
 26,1981,3.195611499,mt x 1000,Salmon commercial OR
 26,1982,3.917126118,mt x 1000,Salmon commercial OR
 26,1983,1.212604302,mt x 1000,Salmon commercial OR
@@ -1092,7 +1117,8 @@ order,year,index,metric,timeseries
 26,2021,0.815721282,mt x 1000,Salmon commercial OR
 26,2022,0.983980793,mt x 1000,Salmon commercial OR
 26,2023,0.803108061,mt x 1000,Salmon commercial OR
-26,2024,0.857525934,mt x 1000,Salmon commercial OR
+26,2024,0.857499258,mt x 1000,Salmon commercial OR
+26,2025,1.026787748,mt x 1000,Salmon commercial OR
 27,1981,37.52251446,mt x 1000,Non-whiting groundfish OR
 27,1982,41.12125185,mt x 1000,Non-whiting groundfish OR
 27,1983,35.24278303,mt x 1000,Non-whiting groundfish OR
@@ -1132,11 +1158,12 @@ order,year,index,metric,timeseries
 27,2017,22.80445368,mt x 1000,Non-whiting groundfish OR
 27,2018,24.36902212,mt x 1000,Non-whiting groundfish OR
 27,2019,22.98766204,mt x 1000,Non-whiting groundfish OR
-27,2020,18.86519751,mt x 1000,Non-whiting groundfish OR
+27,2020,18.86519747,mt x 1000,Non-whiting groundfish OR
 27,2021,21.28063586,mt x 1000,Non-whiting groundfish OR
 27,2022,23.95479906,mt x 1000,Non-whiting groundfish OR
 27,2023,22.64225023,mt x 1000,Non-whiting groundfish OR
-27,2024,20.92445587,mt x 1000,Non-whiting groundfish OR
+27,2024,20.87607141,mt x 1000,Non-whiting groundfish OR
+27,2025,24.51709801,mt x 1000,Non-whiting groundfish OR
 28,1981,17.74040711,mt x 1000,Pacific whiting OR
 28,1982,14.81150393,mt x 1000,Pacific whiting OR
 28,1983,23.62665324,mt x 1000,Pacific whiting OR
@@ -1180,7 +1207,8 @@ order,year,index,metric,timeseries
 28,2021,208.2724916,mt x 1000,Pacific whiting OR
 28,2022,249.4468969,mt x 1000,Pacific whiting OR
 28,2023,205.4659632,mt x 1000,Pacific whiting OR
-28,2024,143.6577793,mt x 1000,Pacific whiting OR
+28,2024,142.6825725,mt x 1000,Pacific whiting OR
+28,2025,209.8555774,mt x 1000,Pacific whiting OR
 29,1981,0.066011793,mt x 1000,"Coastal pelagic spp, no squid OR"
 29,1982,0.067128367,mt x 1000,"Coastal pelagic spp, no squid OR"
 29,1983,0.035279422,mt x 1000,"Coastal pelagic spp, no squid OR"
@@ -1224,7 +1252,8 @@ order,year,index,metric,timeseries
 29,2021,2.730472125,mt x 1000,"Coastal pelagic spp, no squid OR"
 29,2022,1.70857858,mt x 1000,"Coastal pelagic spp, no squid OR"
 29,2023,1.001082524,mt x 1000,"Coastal pelagic spp, no squid OR"
-29,2024,0.294546869,mt x 1000,"Coastal pelagic spp, no squid OR"
+29,2024,0.294536125,mt x 1000,"Coastal pelagic spp, no squid OR"
+29,2025,0.493010329,mt x 1000,"Coastal pelagic spp, no squid OR"
 30,1981,3.505858351,mt x 1000,Highly migratory species OR
 30,1982,0.863724695,mt x 1000,Highly migratory species OR
 30,1983,1.541934929,mt x 1000,Highly migratory species OR
@@ -1268,18 +1297,19 @@ order,year,index,metric,timeseries
 30,2021,1.468200421,mt x 1000,Highly migratory species OR
 30,2022,2.850969866,mt x 1000,Highly migratory species OR
 30,2023,1.120240039,mt x 1000,Highly migratory species OR
-30,2024,2.265984763,mt x 1000,Highly migratory species OR
-31,1981,0.000102058,mt x 1000,Market squid OR
+30,2024,2.265669575,mt x 1000,Highly migratory species OR
+30,2025,3.904535373,mt x 1000,Highly migratory species OR
+31,1981,1.02058e-4,mt x 1000,Market squid OR
 31,1982,0.051318534,mt x 1000,Market squid OR
 31,1983,0.134902907,mt x 1000,Market squid OR
 31,1984,0.429427237,mt x 1000,Market squid OR
 31,1985,0.794590867,mt x 1000,Market squid OR
 31,1986,0.011961684,mt x 1000,Market squid OR
-31,1987,1.32E-05,mt x 1000,Market squid OR
-31,1988,2.27E-06,mt x 1000,Market squid OR
+31,1987,1.32e-5,mt x 1000,Market squid OR
+31,1988,2.27e-6,mt x 1000,Market squid OR
 31,1989,0.043556207,mt x 1000,Market squid OR
 31,1990,0,mt x 1000,Market squid OR
-31,1991,4.31E-05,mt x 1000,Market squid OR
+31,1991,4.31e-5,mt x 1000,Market squid OR
 31,1992,0.006052737,mt x 1000,Market squid OR
 31,1993,0.059260029,mt x 1000,Market squid OR
 31,1994,0.105688383,mt x 1000,Market squid OR
@@ -1295,24 +1325,25 @@ order,year,index,metric,timeseries
 31,2004,0.019726732,mt x 1000,Market squid OR
 31,2005,0.01448139,mt x 1000,Market squid OR
 31,2006,0.027171997,mt x 1000,Market squid OR
-31,2007,0.000636844,mt x 1000,Market squid OR
-31,2008,4.54E-06,mt x 1000,Market squid OR
-31,2009,0.000177355,mt x 1000,Market squid OR
+31,2007,6.36844e-4,mt x 1000,Market squid OR
+31,2008,4.54e-6,mt x 1000,Market squid OR
+31,2009,1.77355e-4,mt x 1000,Market squid OR
 31,2010,0.007576807,mt x 1000,Market squid OR
-31,2011,2.45E-05,mt x 1000,Market squid OR
-31,2012,5.03E-05,mt x 1000,Market squid OR
-31,2013,6.17E-05,mt x 1000,Market squid OR
-31,2014,0.000470829,mt x 1000,Market squid OR
+31,2011,2.45e-5,mt x 1000,Market squid OR
+31,2012,5.03e-5,mt x 1000,Market squid OR
+31,2013,6.17e-5,mt x 1000,Market squid OR
+31,2014,4.70829e-4,mt x 1000,Market squid OR
 31,2015,0,mt x 1000,Market squid OR
 31,2016,1.26021659,mt x 1000,Market squid OR
-31,2017,3.63E-05,mt x 1000,Market squid OR
+31,2017,3.63e-5,mt x 1000,Market squid OR
 31,2018,3.19616561,mt x 1000,Market squid OR
 31,2019,2.380550736,mt x 1000,Market squid OR
 31,2020,4.670769004,mt x 1000,Market squid OR
 31,2021,3.555190321,mt x 1000,Market squid OR
 31,2022,2.504431348,mt x 1000,Market squid OR
-31,2023,2.72E-06,mt x 1000,Market squid OR
-31,2024,0.173416981,mt x 1000,Market squid OR
+31,2023,2.72e-6,mt x 1000,Market squid OR
+31,2024,0.18477312,mt x 1000,Market squid OR
+31,2025,0.588945694,mt x 1000,Market squid OR
 32,1981,11.78391611,mt x 1000,Shrimp OR
 32,1982,8.405400921,mt x 1000,Shrimp OR
 32,1983,3.001410736,mt x 1000,Shrimp OR
@@ -1356,7 +1387,8 @@ order,year,index,metric,timeseries
 32,2021,21.18634125,mt x 1000,Shrimp OR
 32,2022,18.7134242,mt x 1000,Shrimp OR
 32,2023,20.04119087,mt x 1000,Shrimp OR
-32,2024,22.4407924,mt x 1000,Shrimp OR
+32,2024,22.44085364,mt x 1000,Shrimp OR
+32,2025,25.88031937,mt x 1000,Shrimp OR
 33,1981,1.720652308,mt x 1000,Crab OR
 33,1982,3.970989375,mt x 1000,Crab OR
 33,1983,1.979732477,mt x 1000,Crab OR
@@ -1401,13 +1433,14 @@ order,year,index,metric,timeseries
 33,2022,7.805580803,mt x 1000,Crab OR
 33,2023,14.35958323,mt x 1000,Crab OR
 33,2024,11.14535421,mt x 1000,Crab OR
+33,2025,7.159403545,mt x 1000,Crab OR
 34,1981,0.523129044,mt x 1000,Other species OR
 34,1982,0.534544186,mt x 1000,Other species OR
 34,1983,0.669826907,mt x 1000,Other species OR
 34,1984,0.88756911,mt x 1000,Other species OR
 34,1985,1.054199454,mt x 1000,Other species OR
 34,1986,1.25455278,mt x 1000,Other species OR
-34,1987,0.91537752,mt x 1000,Other species OR
+34,1987,0.91537751999999994,mt x 1000,Other species OR
 34,1988,1.573916262,mt x 1000,Other species OR
 34,1989,4.48147877,mt x 1000,Other species OR
 34,1990,4.917805244,mt x 1000,Other species OR
@@ -1440,31 +1473,33 @@ order,year,index,metric,timeseries
 34,2017,1.603584366,mt x 1000,Other species OR
 34,2018,1.426159258,mt x 1000,Other species OR
 34,2019,1.677238879,mt x 1000,Other species OR
-34,2020,1.458406621,mt x 1000,Other species OR
+34,2020,1.458406667,mt x 1000,Other species OR
 34,2021,1.002308781,mt x 1000,Other species OR
 34,2022,1.450702056,mt x 1000,Other species OR
 34,2023,0.974860741,mt x 1000,Other species OR
-34,2024,1.112932449,mt x 1000,Other species OR
-35,2005,0.566617963,mt x 1000,Recreational OR
-35,2006,0.548836456,mt x 1000,Recreational OR
-35,2007,0.933045863,mt x 1000,Recreational OR
-35,2008,0.592062794,mt x 1000,Recreational OR
-35,2009,0.790983498,mt x 1000,Recreational OR
-35,2010,0.796216117,mt x 1000,Recreational OR
-35,2011,0.649039241,mt x 1000,Recreational OR
-35,2012,0.96308456,mt x 1000,Recreational OR
-35,2013,0.831415776,mt x 1000,Recreational OR
-35,2014,0.991405339,mt x 1000,Recreational OR
-35,2015,1.048856951,mt x 1000,Recreational OR
-35,2016,0.898448463,mt x 1000,Recreational OR
-35,2017,0.836168241,mt x 1000,Recreational OR
-35,2018,0.825659419,mt x 1000,Recreational OR
-35,2019,1.255178059,mt x 1000,Recreational OR
-35,2020,0.698496042,mt x 1000,Recreational OR
-35,2021,0.763978509,mt x 1000,Recreational OR
-35,2022,0.94450081,mt x 1000,Recreational OR
-35,2023,1.017991731,mt x 1000,Recreational OR
-35,2024,1.000696414,mt x 1000,Recreational OR
+34,2024,1.097398142,mt x 1000,Other species OR
+34,2025,0.70681837300000006,mt x 1000,Other species OR
+35,2005,0.566543226,mt x 1000,Recreational OR
+35,2006,0.548797593,mt x 1000,Recreational OR
+35,2007,0.933028102,mt x 1000,Recreational OR
+35,2008,0.592048153,mt x 1000,Recreational OR
+35,2009,0.790982833,mt x 1000,Recreational OR
+35,2010,0.796212655,mt x 1000,Recreational OR
+35,2011,0.649034083,mt x 1000,Recreational OR
+35,2012,0.963088303,mt x 1000,Recreational OR
+35,2013,0.831415883,mt x 1000,Recreational OR
+35,2014,0.99139977,mt x 1000,Recreational OR
+35,2015,1.048841382,mt x 1000,Recreational OR
+35,2016,0.898458249,mt x 1000,Recreational OR
+35,2017,0.836152078,mt x 1000,Recreational OR
+35,2018,0.825651989,mt x 1000,Recreational OR
+35,2019,1.25517439,mt x 1000,Recreational OR
+35,2020,0.698473502,mt x 1000,Recreational OR
+35,2021,0.763946266,mt x 1000,Recreational OR
+35,2022,0.944457985,mt x 1000,Recreational OR
+35,2023,1.017981,mt x 1000,Recreational OR
+35,2024,1.019816384,mt x 1000,Recreational OR
+35,2025,0.919840373,mt x 1000,Recreational OR
 36,1981,229,1000s fish,Salmon recreational OR
 36,1982,214,1000s fish,Salmon recreational OR
 36,1983,172,1000s fish,Salmon recreational OR
@@ -1502,12 +1537,13 @@ order,year,index,metric,timeseries
 36,2015,38,1000s fish,Salmon recreational OR
 36,2016,13,1000s fish,Salmon recreational OR
 36,2017,26,1000s fish,Salmon recreational OR
-36,2018,30.662,1000s fish,Salmon recreational OR
-36,2019,72.919,1000s fish,Salmon recreational OR
-36,2020,27.988,1000s fish,Salmon recreational OR
-36,2021,101.571,1000s fish,Salmon recreational OR
-36,2022,87.3,1000s fish,Salmon recreational OR
-36,2023,69.16,1000s fish,Salmon recreational OR
+36,2018,31,1000s fish,Salmon recreational OR
+36,2019,73,1000s fish,Salmon recreational OR
+36,2020,28,1000s fish,Salmon recreational OR
+36,2021,102,1000s fish,Salmon recreational OR
+36,2022,87,1000s fish,Salmon recreational OR
+36,2023,69,1000s fish,Salmon recreational OR
+36,2024,76,1000s fish,Salmon recreational OR
 37,1981,72.4349721,mt x 1000,Total fisheries WA
 37,1982,116.1262186,mt x 1000,Total fisheries WA
 37,1983,98.64205424,mt x 1000,Total fisheries WA
@@ -1532,26 +1568,27 @@ order,year,index,metric,timeseries
 37,2002,101.400681,mt x 1000,Total fisheries WA
 37,2003,108.7976733,mt x 1000,Total fisheries WA
 37,2004,147.4225243,mt x 1000,Total fisheries WA
-37,2005,149.4167547,mt x 1000,Total fisheries WA
-37,2006,149.128692,mt x 1000,Total fisheries WA
-37,2007,140.7339493,mt x 1000,Total fisheries WA
-37,2008,176.9860451,mt x 1000,Total fisheries WA
-37,2009,123.8359771,mt x 1000,Total fisheries WA
-37,2010,139.1416449,mt x 1000,Total fisheries WA
-37,2011,169.4684557,mt x 1000,Total fisheries WA
-37,2012,127.8981714,mt x 1000,Total fisheries WA
-37,2013,132.2689305,mt x 1000,Total fisheries WA
-37,2014,92.73644896,mt x 1000,Total fisheries WA
-37,2015,81.7415438,mt x 1000,Total fisheries WA
-37,2016,111.2397977,mt x 1000,Total fisheries WA
-37,2017,153.5568735,mt x 1000,Total fisheries WA
-37,2018,152.2119633,mt x 1000,Total fisheries WA
-37,2019,153.4212847,mt x 1000,Total fisheries WA
-37,2020,91.2458233,mt x 1000,Total fisheries WA
-37,2021,91.76326859,mt x 1000,Total fisheries WA
-37,2022,80.10505667,mt x 1000,Total fisheries WA
-37,2023,70.91552997,mt x 1000,Total fisheries WA
-37,2024,58.76325823,mt x 1000,Total fisheries WA
+37,2005,149.4306887,mt x 1000,Total fisheries WA
+37,2006,149.1375156,mt x 1000,Total fisheries WA
+37,2007,140.7418926,mt x 1000,Total fisheries WA
+37,2008,176.9922804,mt x 1000,Total fisheries WA
+37,2009,123.844225,mt x 1000,Total fisheries WA
+37,2010,139.1538898,mt x 1000,Total fisheries WA
+37,2011,169.4834505,mt x 1000,Total fisheries WA
+37,2012,127.9117446,mt x 1000,Total fisheries WA
+37,2013,132.3306175,mt x 1000,Total fisheries WA
+37,2014,92.75039927,mt x 1000,Total fisheries WA
+37,2015,81.757229,mt x 1000,Total fisheries WA
+37,2016,111.26423080000001,mt x 1000,Total fisheries WA
+37,2017,153.5693501,mt x 1000,Total fisheries WA
+37,2018,152.2245236,mt x 1000,Total fisheries WA
+37,2019,153.4353289,mt x 1000,Total fisheries WA
+37,2020,91.2813437,mt x 1000,Total fisheries WA
+37,2021,92.1746271,mt x 1000,Total fisheries WA
+37,2022,80.50982252,mt x 1000,Total fisheries WA
+37,2023,71.45528221,mt x 1000,Total fisheries WA
+37,2024,65.89789141,mt x 1000,Total fisheries WA
+37,2025,67.06999512,mt x 1000,Total fisheries WA
 38,1981,21.45845636,mt x 1000,Salmon commercial WA
 38,1982,22.59800556,mt x 1000,Salmon commercial WA
 38,1983,12.03324324,mt x 1000,Salmon commercial WA
@@ -1591,11 +1628,12 @@ order,year,index,metric,timeseries
 38,2017,9.577051042,mt x 1000,Salmon commercial WA
 38,2018,8.152146918,mt x 1000,Salmon commercial WA
 38,2019,3.565278207,mt x 1000,Salmon commercial WA
-38,2020,2.992291701,mt x 1000,Salmon commercial WA
-38,2021,3.967533529,mt x 1000,Salmon commercial WA
-38,2022,7.787420338,mt x 1000,Salmon commercial WA
-38,2023,4.238796711,mt x 1000,Salmon commercial WA
-38,2024,4.71466807,mt x 1000,Salmon commercial WA
+38,2020,2.993090024,mt x 1000,Salmon commercial WA
+38,2021,3.977079596,mt x 1000,Salmon commercial WA
+38,2022,7.79191071,mt x 1000,Salmon commercial WA
+38,2023,4.2626089,mt x 1000,Salmon commercial WA
+38,2024,8.87875741,mt x 1000,Salmon commercial WA
+38,2025,5.589699516,mt x 1000,Salmon commercial WA
 39,1981,28.82617263,mt x 1000,Non-whiting groundfish WA
 39,1982,30.97578377,mt x 1000,Non-whiting groundfish WA
 39,1983,27.86005624,mt x 1000,Non-whiting groundfish WA
@@ -1628,18 +1666,19 @@ order,year,index,metric,timeseries
 39,2010,5.428871895,mt x 1000,Non-whiting groundfish WA
 39,2011,5.657751958,mt x 1000,Non-whiting groundfish WA
 39,2012,5.454179288,mt x 1000,Non-whiting groundfish WA
-39,2013,4.202881284,mt x 1000,Non-whiting groundfish WA
+39,2013,4.252389977,mt x 1000,Non-whiting groundfish WA
 39,2014,3.268357485,mt x 1000,Non-whiting groundfish WA
-39,2015,3.981660916,mt x 1000,Non-whiting groundfish WA
-39,2016,3.861816049,mt x 1000,Non-whiting groundfish WA
+39,2015,3.984890331,mt x 1000,Non-whiting groundfish WA
+39,2016,3.870554051,mt x 1000,Non-whiting groundfish WA
 39,2017,5.117948331,mt x 1000,Non-whiting groundfish WA
 39,2018,7.1700504,mt x 1000,Non-whiting groundfish WA
 39,2019,7.403956137,mt x 1000,Non-whiting groundfish WA
-39,2020,4.671326996,mt x 1000,Non-whiting groundfish WA
-39,2021,4.916052138,mt x 1000,Non-whiting groundfish WA
-39,2022,5.155781816,mt x 1000,Non-whiting groundfish WA
-39,2023,5.246835184,mt x 1000,Non-whiting groundfish WA
-39,2024,4.529558039,mt x 1000,Non-whiting groundfish WA
+39,2020,4.671459095,mt x 1000,Non-whiting groundfish WA
+39,2021,4.916144696,mt x 1000,Non-whiting groundfish WA
+39,2022,5.157844819,mt x 1000,Non-whiting groundfish WA
+39,2023,5.253843261,mt x 1000,Non-whiting groundfish WA
+39,2024,4.751369981,mt x 1000,Non-whiting groundfish WA
+39,2025,5.790808919,mt x 1000,Non-whiting groundfish WA
 40,1981,6.960765577,mt x 1000,Pacific whiting WA
 40,1982,49.35315304,mt x 1000,Pacific whiting WA
 40,1983,44.70715606,mt x 1000,Pacific whiting WA
@@ -1683,7 +1722,8 @@ order,year,index,metric,timeseries
 40,2021,56.84565733,mt x 1000,Pacific whiting WA
 40,2022,34.98390052,mt x 1000,Pacific whiting WA
 40,2023,31.9937062,mt x 1000,Pacific whiting WA
-40,2024,22.99373599,mt x 1000,Pacific whiting WA
+40,2024,22.9927293,mt x 1000,Pacific whiting WA
+40,2025,28.62199973,mt x 1000,Pacific whiting WA
 41,1981,0.001322222,mt x 1000,"Coastal pelagic spp, no squid WA"
 41,1982,0.010058462,mt x 1000,"Coastal pelagic spp, no squid WA"
 41,1983,0.013926124,mt x 1000,"Coastal pelagic spp, no squid WA"
@@ -1726,8 +1766,9 @@ order,year,index,metric,timeseries
 41,2020,0.153785531,mt x 1000,"Coastal pelagic spp, no squid WA"
 41,2021,0.266042998,mt x 1000,"Coastal pelagic spp, no squid WA"
 41,2022,0.503561547,mt x 1000,"Coastal pelagic spp, no squid WA"
-41,2023,0.321281512,mt x 1000,"Coastal pelagic spp, no squid WA"
-41,2024,0.080995244,mt x 1000,"Coastal pelagic spp, no squid WA"
+41,2023,0.323217899,mt x 1000,"Coastal pelagic spp, no squid WA"
+41,2024,0.082136483,mt x 1000,"Coastal pelagic spp, no squid WA"
+41,2025,0.122537451,mt x 1000,"Coastal pelagic spp, no squid WA"
 42,1981,0.873775395,mt x 1000,Highly migratory species WA
 42,1982,0.265682659,mt x 1000,Highly migratory species WA
 42,1983,0.482357384,mt x 1000,Highly migratory species WA
@@ -1767,11 +1808,12 @@ order,year,index,metric,timeseries
 42,2017,5.163816702,mt x 1000,Highly migratory species WA
 42,2018,4.151489501,mt x 1000,Highly migratory species WA
 42,2019,4.062806355,mt x 1000,Highly migratory species WA
-42,2020,4.539853722,mt x 1000,Highly migratory species WA
-42,2021,1.8274142,mt x 1000,Highly migratory species WA
-42,2022,4.270146959,mt x 1000,Highly migratory species WA
-42,2023,1.478934936,mt x 1000,Highly migratory species WA
-42,2024,2.066092077,mt x 1000,Highly migratory species WA
+42,2020,4.567076068,mt x 1000,Highly migratory species WA
+42,2021,2.215415299,mt x 1000,Highly migratory species WA
+42,2022,4.657581975,mt x 1000,Highly migratory species WA
+42,2023,1.902419215,mt x 1000,Highly migratory species WA
+42,2024,2.145190422,mt x 1000,Highly migratory species WA
+42,2025,4.578812596,mt x 1000,Highly migratory species WA
 43,1981,0,Landings (1000s mt),Dummy variable in place of Market squid WA
 43,1982,0,Landings (1000s mt),Dummy variable in place of Market squid WA
 43,1983,0,Landings (1000s mt),Dummy variable in place of Market squid WA
@@ -1816,6 +1858,7 @@ order,year,index,metric,timeseries
 43,2022,0,Landings (1000s mt),Dummy variable in place of Market squid WA
 43,2023,0,Landings (1000s mt),Dummy variable in place of Market squid WA
 43,2024,0,Landings (1000s mt),Dummy variable in place of Market squid WA
+43,2025,0,Landings (1000s mt),Dummy variable in place of Market squid WA
 44,1981,4.600298894,mt x 1000,Shrimp WA
 44,1982,2.314962186,mt x 1000,Shrimp WA
 44,1983,2.603613856,mt x 1000,Shrimp WA
@@ -1837,7 +1880,7 @@ order,year,index,metric,timeseries
 44,1999,1.895579353,mt x 1000,Shrimp WA
 44,2000,2.511244189,mt x 1000,Shrimp WA
 44,2001,3.523435325,mt x 1000,Shrimp WA
-44,2002,5.106642028,mt x 1000,Shrimp WA
+44,2002,5.1066420280000004,mt x 1000,Shrimp WA
 44,2003,4.044919252,mt x 1000,Shrimp WA
 44,2004,2.999649471,mt x 1000,Shrimp WA
 44,2005,3.332699897,mt x 1000,Shrimp WA
@@ -1858,8 +1901,9 @@ order,year,index,metric,timeseries
 44,2020,6.817943158,mt x 1000,Shrimp WA
 44,2021,10.14957454,mt x 1000,Shrimp WA
 44,2022,11.39797766,mt x 1000,Shrimp WA
-44,2023,6.809561434,mt x 1000,Shrimp WA
-44,2024,9.132779392,mt x 1000,Shrimp WA
+44,2023,6.811427059,mt x 1000,Shrimp WA
+44,2024,9.09408182,mt x 1000,Shrimp WA
+44,2025,10.2043822,mt x 1000,Shrimp WA
 45,1981,1.286507257,mt x 1000,Crab WA
 45,1982,1.746621832,mt x 1000,Crab WA
 45,1983,2.400025271,mt x 1000,Crab WA
@@ -1894,16 +1938,17 @@ order,year,index,metric,timeseries
 45,2012,8.148967464,mt x 1000,Crab WA
 45,2013,11.7907658,mt x 1000,Crab WA
 45,2014,8.662096101,mt x 1000,Crab WA
-45,2015,8.041251976,mt x 1000,Crab WA
+45,2015,8.04126513,mt x 1000,Crab WA
 45,2016,10.18412076,mt x 1000,Crab WA
 45,2017,12.81773067,mt x 1000,Crab WA
 45,2018,10.20753336,mt x 1000,Crab WA
 45,2019,9.951367412,mt x 1000,Crab WA
 45,2020,8.632836732,mt x 1000,Crab WA
-45,2021,9.025058764,mt x 1000,Crab WA
-45,2022,11.20094259,mt x 1000,Crab WA
-45,2023,16.19914052,mt x 1000,Crab WA
-45,2024,11.87854096,mt x 1000,Crab WA
+45,2021,9.028772325,mt x 1000,Crab WA
+45,2022,11.20147829,mt x 1000,Crab WA
+45,2023,16.23137053,mt x 1000,Crab WA
+45,2024,13.04485287,mt x 1000,Crab WA
+45,2025,9.3412414,mt x 1000,Crab WA
 46,1981,2.543628634,mt x 1000,Other species WA
 46,1982,2.655681191,mt x 1000,Other species WA
 46,1983,2.834085623,mt x 1000,Other species WA
@@ -1936,38 +1981,40 @@ order,year,index,metric,timeseries
 46,2010,1.92661902,mt x 1000,Other species WA
 46,2011,1.977766696,mt x 1000,Other species WA
 46,2012,2.573158679,mt x 1000,Other species WA
-46,2013,2.176947712,mt x 1000,Other species WA
+46,2013,2.177003504,mt x 1000,Other species WA
 46,2014,1.669778204,mt x 1000,Other species WA
-46,2015,1.985554601,mt x 1000,Other species WA
+46,2015,1.98556957,mt x 1000,Other species WA
 46,2016,1.839029345,mt x 1000,Other species WA
 46,2017,1.892602413,mt x 1000,Other species WA
 46,2018,1.913043761,mt x 1000,Other species WA
 46,2019,1.941494244,mt x 1000,Other species WA
-46,2020,1.626400663,mt x 1000,Other species WA
+46,2020,1.626885099,mt x 1000,Other species WA
 46,2021,1.589393801,mt x 1000,Other species WA
 46,2022,1.563606528,mt x 1000,Other species WA
-46,2023,1.373509695,mt x 1000,Other species WA
-46,2024,1.095763813,mt x 1000,Other species WA
-35,2005,0.475625456,mt x 1000,Recreational WA
-35,2006,0.566169122,mt x 1000,Recreational WA
-35,2007,0.548270991,mt x 1000,Recreational WA
-35,2008,0.444551658,mt x 1000,Recreational WA
-35,2009,0.528279711,mt x 1000,Recreational WA
-35,2010,0.599927307,mt x 1000,Recreational WA
-35,2011,0.56713031,mt x 1000,Recreational WA
-35,2012,0.851078884,mt x 1000,Recreational WA
-35,2013,0.90850403,mt x 1000,Recreational WA
-35,2014,1.080529514,mt x 1000,Recreational WA
-35,2015,1.159767513,mt x 1000,Recreational WA
-35,2016,0.991231663,mt x 1000,Recreational WA
-35,2017,0.68947077,mt x 1000,Recreational WA
-35,2018,0.670521708,mt x 1000,Recreational WA
-35,2019,1.242709581,mt x 1000,Recreational WA
-35,2020,0.57387261,mt x 1000,Recreational WA
-35,2021,0.572159613,mt x 1000,Recreational WA
-35,2022,0.902502371,mt x 1000,Recreational WA
-35,2023,0.782407795,mt x 1000,Recreational WA
-35,2024,0.529284797,mt x 1000,Recreational WA
+46,2023,1.409579798,mt x 1000,Other species WA
+46,2024,1.273906964,mt x 1000,Other species WA
+46,2025,0.896446932,mt x 1000,Other species WA
+47,2005,0.489559525,mt x 1000,Recreational WA
+47,2006,0.574992704,mt x 1000,Recreational WA
+47,2007,0.556214287,mt x 1000,Recreational WA
+47,2008,0.450786923,mt x 1000,Recreational WA
+47,2009,0.53652761,mt x 1000,Recreational WA
+47,2010,0.61217226,mt x 1000,Recreational WA
+47,2011,0.582125121,mt x 1000,Recreational WA
+47,2012,0.86465218,mt x 1000,Recreational WA
+47,2013,0.92062651,mt x 1000,Recreational WA
+47,2014,1.094479823,mt x 1000,Recreational WA
+47,2015,1.17218746,mt x 1000,Recreational WA
+47,2016,1.006926764,mt x 1000,Recreational WA
+47,2017,0.701947372,mt x 1000,Recreational WA
+47,2018,0.683081945,mt x 1000,Recreational WA
+47,2019,1.256753811,mt x 1000,Recreational WA
+47,2020,0.580755803,mt x 1000,Recreational WA
+47,2021,0.582164841,mt x 1000,Recreational WA
+47,2022,0.912744143,mt x 1000,Recreational WA
+47,2023,0.795846811,mt x 1000,Recreational WA
+47,2024,1.03490803,mt x 1000,Recreational WA
+47,2025,0.501138909,mt x 1000,Recreational WA
 48,1981,323,1000s fish,Salmon recreational WA
 48,1982,313,1000s fish,Salmon recreational WA
 48,1983,258,1000s fish,Salmon recreational WA
@@ -2005,9 +2052,10 @@ order,year,index,metric,timeseries
 48,2015,114,1000s fish,Salmon recreational WA
 48,2016,33,1000s fish,Salmon recreational WA
 48,2017,56,1000s fish,Salmon recreational WA
-48,2018,44.62319,1000s fish,Salmon recreational WA
-48,2019,74.00781,1000s fish,Salmon recreational WA
-48,2020,27.7578,1000s fish,Salmon recreational WA
-48,2021,65.7458,1000s fish,Salmon recreational WA
-48,2022,82.27532,1000s fish,Salmon recreational WA
-48,2023,72.91392,1000s fish,Salmon recreational WA
+48,2018,45,1000s fish,Salmon recreational WA
+48,2019,74,1000s fish,Salmon recreational WA
+48,2020,28,1000s fish,Salmon recreational WA
+48,2021,66,1000s fish,Salmon recreational WA
+48,2022,82,1000s fish,Salmon recreational WA
+48,2023,73,1000s fish,Salmon recreational WA
+48,2024,82,1000s fish,Salmon recreational WA
