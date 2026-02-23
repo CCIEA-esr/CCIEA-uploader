@@ -85,7 +85,8 @@ generate_file_status <- function(esr_year,headervars,headervarsmon){
           datares="Annual"
           fileobj <- list(name=pifiles$name[f],updated=pifiles$drive_resource[[f]]$modifiedTime,typechk=0,namechk=9,datares=datares)
           if(grepl(".csv",pifiles$name[f]))fileobj$typechk=1
-          if(grepl("_M.csv",pifiles$name[f]) || grepl("Monthly",pifiles$name[f]))datares="Monthly"
+          # hack for copepods because Zoop file name doesn't contain monthly designation and sampling_frequency column in metadata is inconsistent
+          if(grepl("_M.csv",pifiles$name[f]) || grepl("Monthly",pifiles$name[f]) || grep("copepods",pifiles$name[f]))datares="Monthly"
           fileobj$datares=datares
           if(length(allowednames) > 0)(if(pifiles$name[f] %in% allowednames)fileobj$namechk=1 else fileobj$namechk=0)
           headercols <- list()
@@ -270,8 +271,9 @@ check_upload_status <- function(esr_year,metadata_spreadsheet_folder,meta_file_s
           ## if this is an indicator csv data file or spreadsheet - clean it, move it to esr_year folder, and plot it
           else if(grepl(".csv",pifiles$name[f])){
            datares="Annual"
-           if(grepl("_M.csv",pifiles$name[f]) || grepl("Monthly",pifiles$name[f]))datares="Monthly"  
-            mime_type <- pifiles$drive_resource[[f]]$mimeType
+           # hack for copepods because Zoop file name doesn't contain monthly designation and sampling_frequency column in metadata is inconsistent
+           if(grepl("_M.csv",pifiles$name[f]) || grepl("Monthly",pifiles$name[f]) || grep("copepods",pifiles$name[f]))datares="Monthly"
+           mime_type <- pifiles$drive_resource[[f]]$mimeType
            created_time <- pifiles$drive_resource[[f]]$createdTime
            if(mime_type=="text/csv"){
              content <- drive_read_string(pifiles$id[f])
@@ -316,7 +318,9 @@ clean_file <- function(df,datares){
   cn = colnames(df)
   if(datares=="Annual")cn[cn%in%c("Year","date","Date","time","UTC","time..UTC.")]<-"year"
   ## need to add qualifier to not do the following if there is already a time column!!!
-  if(datares=="Monthly")cn[cn%in%c("Year","date","Date","year","UTC","time..UTC.")]<-"time"
+  if (datares == "Monthly" & !("time" %in% cn)) {
+    cn[cn %in% c("Year", "date", "Date", "year", "UTC", "time..UTC.")] <- "time"
+  }
   cn[cn%in%c("data","Data","fitted.data","Fitted.data","mean","count","kg.day","anomaly", "kg", "km","Annual.Anomaly","ln.catch.1.","ONI","PDO","NPGO")]<-"index"
   cn[cn%in%c("raw.data","Raw.Data")]<-"Y2"
   cn[cn%in%c("time.series","TimeSeries","Time.Series")]<-"timeseries"
