@@ -123,8 +123,9 @@ for (i in 1:nrow(metadata)) {
       # Determine data type (monthly vs. yearly).
       # `startsWith()` is the R equivalent of checking if strpos() === 0.
       # For now, just ignore the option to plot part of a timeseries, use max/min year of data
-      
-      if ((startsWith(pltvar, "cciea_OC_") && subcomponent != "Annual" ) || pltvar == "cciea_EI_KRILLEN") {
+
+# Monthly      
+        if(grepl("_M.csv",info$cciea_filename) || grepl("Monthly",info$cciea_filename) || grepl("copepods",info$cciea_filename) || pltvar == "cciea_EI_KRILLEN") {
         datatype <- 0 # Monthly data
         tmin=min(dframe$time)
         tmax=max(dframe$time)
@@ -204,7 +205,7 @@ for (i in 1:nrow(metadata)) {
 }
 
 # write updated metadata back out to file
-print(metadata)
-#update_metadata_file(metadata_spreadsheet_folder,meta_file_search)
+#print(metadata)
+update_metadata_file(metadata_spreadsheet_folder,meta_file_search)
 
 

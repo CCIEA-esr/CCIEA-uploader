@@ -314,7 +314,7 @@ update_metadata_file <- function(metadata_spreadsheet_folder,meta_file_search){
   sheet_write(data = metadata, ss=new_meta_file$id, sheet = 1)
   
   ## also write to GitHub as csv file
-  write_csv(x = old_meta, file = "data/CCIEA_metadata.csv",na="")
+  write_csv(x = metadata, file = "data/CCIEA_metadata.csv",na="")
   
 }
 

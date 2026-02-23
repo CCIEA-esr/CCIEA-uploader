@@ -316,37 +316,34 @@ clean_file <- function(df,datares){
   # fix columns
   #if(df[1,1]=="UTC"){df = data.frame(read.table(Data.File, header = TRUE, skip=1, sep=","))}
   cn = colnames(df)
-  if(datares=="Annual")cn[cn%in%c("Year","date","Date","time","UTC","time..UTC.")]<-"year"
-  ## need to add qualifier to not do the following if there is already a time column!!!
-  if (datares == "Monthly" & !("time" %in% cn)) {
-    cn[cn %in% c("Year", "date", "Date", "year", "UTC", "time..UTC.")] <- "time"
-  }
   if(!("index" %in% cn))cn[cn%in%c("data","Data","fitted.data","Fitted.data","mean","count","kg.day","anomaly", "kg", "km","Annual.Anomaly","ln.catch.1.","ONI","PDO","NPGO")]<-"index"
-  cn[cn%in%c("raw.data","Raw.Data")]<-"Y2"
   if(!("timeseries" %in% cn))cn[cn%in%c("time.series","TimeSeries","Time.Series")]<-"timeseries"
   cn[cn%in%c("Metric")]<-"metric"
   cn[cn%in%c("Month")]<-"month"
   cn[cn%in%c('Day','day')]<- 'day'
   cn[cn%in%c("se","standard.error","error")]<-"SE"
   cn[cn%in%c("sd","standard.deviation", "stdev")]<-"SD"
+  cn[cn%in%c("raw.data","Raw.Data")]<-"Y2"
+  if(datares=="Annual")cn[cn%in%c("Year","date","Date","time","UTC","time..UTC.")]<-"year"
   colnames(df) <- cn
-  yr=grep("year",cn)
-  mth = grep("month",cn)
-  day = grep("day",cn)
-  tim = grep("time",cn)
-  if(length(day==1)){DAY = df$day}else{DAY=15}
-  if(length(mth)==1){
-    df$month = ifelse(nchar(df$month)==1,paste(0,df$month,sep=""),df$month)
-    df$year = paste(df$year,df$month,DAY,sep='-')
-  }
-  # fix year to 10 places
-  if(length(yr)==1){
-    df$year = as.character(df$year)
-    df$year = ifelse(nchar(df$year)>10,substring(df$year,1,10),df$year)
+
+  ## don't change year column to time if there is already a time column
+  if (datares == "Monthly" & !("time" %in% cn)) {
+    # if there's not a time column, but there are year, month, day columns -> make year and month into time
+      yr=grep("year",cn)
+      mth = grep("month",cn)
+      day = grep("day",cn)
+      if(length(day==1)){DAY = df$day}else{DAY=15}
+      if(length(mth)==1){
+        df$month = ifelse(nchar(df$month)==1,paste(0,df$month,sep=""),df$month)
+        df$time = paste(df$year,df$month,DAY,sep='-')
+        }
+      # fix time to 10 places
+        df$time = as.character(df$time)
+        df$time = ifelse(nchar(df$time)>10,substring(df$time,1,10),df$time)
+       #cn[cn %in% c("Year", "date", "Date", "year", "UTC", "time..UTC.")] <- "time"
     }
-  # check year of data
-  # yr = grep(report.year,x2)
-  # if(length(yr)==0){df$type="old.data"}else{df$type="current.data"}
+
   return(df)
 }
 
