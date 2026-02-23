@@ -86,7 +86,7 @@ generate_file_status <- function(esr_year,headervars,headervarsmon){
           fileobj <- list(name=pifiles$name[f],updated=pifiles$drive_resource[[f]]$modifiedTime,typechk=0,namechk=9,datares=datares)
           if(grepl(".csv",pifiles$name[f]))fileobj$typechk=1
           # hack for copepods because Zoop file name doesn't contain monthly designation and sampling_frequency column in metadata is inconsistent
-          if(grepl("_M.csv",pifiles$name[f]) || grepl("Monthly",pifiles$name[f]) || grep("copepods",pifiles$name[f]))datares="Monthly"
+          if(grepl("_M.csv",pifiles$name[f]) || grepl("Monthly",pifiles$name[f]) || grepl("copepods",pifiles$name[f]))datares="Monthly"
           fileobj$datares=datares
           if(length(allowednames) > 0)(if(pifiles$name[f] %in% allowednames)fileobj$namechk=1 else fileobj$namechk=0)
           headercols <- list()
