@@ -314,16 +314,16 @@ check_upload_status <- function(esr_year,metadata_spreadsheet_folder,meta_file_s
 ## apply Nick's file cleaning code to df
 clean_file <- function(df,datares){
   # fix columns
-  if(df[1,1]=="UTC"){df = data.frame(read.table(Data.File, header = TRUE, skip=1, sep=","))}
+  #if(df[1,1]=="UTC"){df = data.frame(read.table(Data.File, header = TRUE, skip=1, sep=","))}
   cn = colnames(df)
   if(datares=="Annual")cn[cn%in%c("Year","date","Date","time","UTC","time..UTC.")]<-"year"
   ## need to add qualifier to not do the following if there is already a time column!!!
   if (datares == "Monthly" & !("time" %in% cn)) {
     cn[cn %in% c("Year", "date", "Date", "year", "UTC", "time..UTC.")] <- "time"
   }
-  cn[cn%in%c("data","Data","fitted.data","Fitted.data","mean","count","kg.day","anomaly", "kg", "km","Annual.Anomaly","ln.catch.1.","ONI","PDO","NPGO")]<-"index"
+  if(!("index" %in% cn))cn[cn%in%c("data","Data","fitted.data","Fitted.data","mean","count","kg.day","anomaly", "kg", "km","Annual.Anomaly","ln.catch.1.","ONI","PDO","NPGO")]<-"index"
   cn[cn%in%c("raw.data","Raw.Data")]<-"Y2"
-  cn[cn%in%c("time.series","TimeSeries","Time.Series")]<-"timeseries"
+  if(!("timeseries" %in% cn))cn[cn%in%c("time.series","TimeSeries","Time.Series")]<-"timeseries"
   cn[cn%in%c("Metric")]<-"metric"
   cn[cn%in%c("Month")]<-"month"
   cn[cn%in%c('Day','day')]<- 'day'
