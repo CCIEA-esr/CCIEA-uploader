@@ -255,10 +255,6 @@ check_upload_status <- function(esr_year,metadata_spreadsheet_folder,meta_file_s
           # pifiles$id[f] will also need changing
           # maybe do in a separate loop then run find_PI_files.. again?
           
-          
-          
-          
-          
           fileobj <- list()
           print(pifiles$name[f])
           ## if this is a metadata file, incorporate it back into the full spreadsheet
