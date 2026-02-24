@@ -172,7 +172,7 @@ for (i in 1:nrow(metadata)) {
         info$max=file_stats$max
         
         metadata = update_metadata_line(metadata,info)
-        write_csv(x = metadata, file = "data/CCIEA_metadata_updated.csv",na="")
+#        write_csv(x = metadata, file = "data/CCIEA_metadata_updated.csv",na="")
         
         }
       
