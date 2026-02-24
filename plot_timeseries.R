@@ -87,10 +87,15 @@ for (i in 1:nrow(metadata)) {
       
       #df=indata[indata$timeseries==timeseries[j],]
       suppressMessages(dframe <- indata %>% filter(timeseries==timeseriesname))
+      
       # Seabird Farallon Islands have "ND" text mixed in with data
       if (info$ERDDAP_Dataset_ID == "cciea_B_AS_DIET_ND") {
         dframe$index[dframe$index == "ND"] <- ""
         dframe$index <- as.numeric(dframe$index)
+      }
+      # Hack for copepod data: extra column "station" needs to be added to timeseriesname
+      if (info$ERDDAP_Dataset_ID == "cciea_EI_COP") {
+        suppressMessages(dframe <- indata %>% filter(timeseries==timeseriesname,station == "NH05"))
       }
       
       PERIOD <- 5
