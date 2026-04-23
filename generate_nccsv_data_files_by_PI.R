@@ -15,7 +15,8 @@ source("_init.R")
 
 #cat("generating nccsv for PI", PI_id, "\n")
 
-path <- "/home/ldewitt/Documents/GitHub/CCIEA-uploader/data/"
+#path <- "/home/ldewitt/Documents/GitHub/CCIEA-uploader/data/"
+path <- "data/"
 infile <- paste0(path, "CCIEA_metadata.csv")
 inpath <- paste0(path, "timeseries_data")
 nccsvoutpath <- paste0(path, "erddap_files/nccsv")
