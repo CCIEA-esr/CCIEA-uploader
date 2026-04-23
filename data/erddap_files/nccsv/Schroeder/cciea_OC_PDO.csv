@@ -1,5 +1,5 @@
 *GLOBAL*,Conventions,"COARDS, CF-1.6, ACDD-1.3, NCCSV-1.1"
-*GLOBAL*,history,"last updated: 2026-02-24 00:41:15"
+*GLOBAL*,history,"last updated: 2026-04-22 14:49:35"
 *GLOBAL*,title,"Pacific Decadal Oscillation Index"
 *GLOBAL*,institution,"NOAA SWFSC/FED"
 *GLOBAL*,summary,"PDO index is defined as the projections of the ERSST V5 monthly SSTA onto the 1st EOF pattern of North Pacific 20N-60N.  1900-1993 DATA from ERSST V3b is used to derived the climatology and the 1st EOF pattern. Reference: Wen, C., A. Kumar, and Y. Xue, 2014: Factors contributing to uncertainty in Pacific decadal oscillation index. Geophys. Res. Lett., 41, 7980-7986, doi:<a href="https://doi.org/10.1002/2014GL061992" target="_blank">https://doi.org/10.1002/2014GL061992</a>  ERSST.V5 : Huang, B., Peter W. Thorne, et. al, 2017: Extended Reconstructed Sea Surface Temperature version 5 (ERSSTv5), Upgrades, validations, and intercomparisons. J. Climate Smith, T. M., Reynolds, R. W., Peterson, T. C., and Lawrimore, J. (2008), Improvements to NOAA's historical merged land-ocean surface temperature analysis (1880-2006), J. Clim., 21( 10), 2283-2296. *Note: 2023-03-10 UW-JISAO PDO is not longer being updated. This PDO is now ERSST V5*"

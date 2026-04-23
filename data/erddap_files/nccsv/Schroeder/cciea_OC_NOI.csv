@@ -1,5 +1,5 @@
 *GLOBAL*,Conventions,"COARDS, CF-1.6, ACDD-1.3, NCCSV-1.1"
-*GLOBAL*,history,"last updated: 2026-02-24 00:41:15"
+*GLOBAL*,history,"last updated: 2026-04-22 14:49:35"
 *GLOBAL*,title,"Extratropical-based Northern Oscillation Index"
 *GLOBAL*,institution,"NOAA, NMPFS, SWFSC, Environmental Research Division (ERD)"
 *GLOBAL*,summary,"<a href="http://upwell.pfeg.noaa.gov/erddap/index.html" target="_blank">NOAA/ERD</a>) The NOI is the sea-level pressure difference between the climatological location of the North Pacific High and Darwin, Australia. The NOI measures teh equatorial and extratropical teleconnections and represents both local and remote climate variability."

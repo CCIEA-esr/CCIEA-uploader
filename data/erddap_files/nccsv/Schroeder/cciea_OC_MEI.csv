@@ -1,5 +1,5 @@
 *GLOBAL*,Conventions,"COARDS, CF-1.6, ACDD-1.3, NCCSV-1.1"
-*GLOBAL*,history,"last updated: 2026-02-24 00:41:15"
+*GLOBAL*,history,"last updated: 2026-04-22 14:49:35"
 *GLOBAL*,title,"Multivariate ENSO Index"
 *GLOBAL*,institution,"NOAA, Earth System Research Laboratory (ESRL)"
 *GLOBAL*,summary,"<a href="https://www.esrl.noaa.gov/psd/enso/mei/table.html" target="_blank">NOAA/ESRL</a> The Multivariate ENSO Index (MEI) uses Principal Component  analysis on six observed variables that represent coupled ocean-atmosphere varability in the tropical Pacific. The six variables are sea-level pressure, u and v components of the surface wind vector, sea surface temperature, surface air temperature, and cloudiness fraction."

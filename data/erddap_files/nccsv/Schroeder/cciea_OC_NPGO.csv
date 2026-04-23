@@ -1,5 +1,5 @@
 *GLOBAL*,Conventions,"COARDS, CF-1.6, ACDD-1.3, NCCSV-1.1"
-*GLOBAL*,history,"last updated: 2026-02-24 00:41:15"
+*GLOBAL*,history,"last updated: 2026-04-22 14:49:35"
 *GLOBAL*,title,"North Pacific Gyre Oscillation Index"
 *GLOBAL*,institution,"Georgia Institute of Technology (GT)"
 *GLOBAL*,summary,"The  <a href="https://www.o3d.org/npgo/data/NPGO.txt" target="_blank">NPGO</a> is calculated from an Empirical Orthogonal Function analysis of sea-surface height in the Northeast Pacific. The NPGO is the second dominant mode."

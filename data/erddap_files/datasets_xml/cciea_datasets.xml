@@ -2,7 +2,7 @@
 <erddapDatasets>
   <dataset type="EDDTableFromNccsvFiles" datasetID="cciea_AC_landings" active="true">
     <reloadEveryNMinutes>2628000</reloadEveryNMinutes>
-    <fileDir>/home/ldewitt/Documents/GitHub/CCIEA-uploader/data/erddap_files/nccsv/Andrews</fileDir>
+    <fileDir>data/erddap_files/nccsv/Andrews</fileDir>
     <fileNameRegex>cciea_AC_landings.csv</fileNameRegex>
     <recursive>false</recursive>
     <columnNamesRow>1</columnNamesRow>
@@ -42,7 +42,7 @@
   </dataset>
   <dataset type="EDDTableFromNccsvFiles" datasetID="cciea_AC_revenue" active="true">
     <reloadEveryNMinutes>2628000</reloadEveryNMinutes>
-    <fileDir>/home/ldewitt/Documents/GitHub/CCIEA-uploader/data/erddap_files/nccsv/Andrews</fileDir>
+    <fileDir>data/erddap_files/nccsv/Andrews</fileDir>
     <fileNameRegex>cciea_AC_revenue.csv</fileNameRegex>
     <recursive>false</recursive>
     <columnNamesRow>1</columnNamesRow>
@@ -82,7 +82,7 @@
   </dataset>
   <dataset type="EDDTableFromNccsvFiles" datasetID="cciea_EI_FBN" active="true">
     <reloadEveryNMinutes>2628000</reloadEveryNMinutes>
-    <fileDir>/home/ldewitt/Documents/GitHub/CCIEA-uploader/data/erddap_files/nccsv/Burke</fileDir>
+    <fileDir>data/erddap_files/nccsv/Burke</fileDir>
     <fileNameRegex>cciea_EI_FBN.csv</fileNameRegex>
     <recursive>false</recursive>
     <columnNamesRow>1</columnNamesRow>
@@ -138,7 +138,7 @@
   </dataset>
   <dataset type="EDDTableFromNccsvFiles" datasetID="cciea_EI_FPN" active="true">
     <reloadEveryNMinutes>2628000</reloadEveryNMinutes>
-    <fileDir>/home/ldewitt/Documents/GitHub/CCIEA-uploader/data/erddap_files/nccsv/Burke</fileDir>
+    <fileDir>data/erddap_files/nccsv/Burke</fileDir>
     <fileNameRegex>cciea_EI_FPN.csv</fileNameRegex>
     <recursive>false</recursive>
     <columnNamesRow>1</columnNamesRow>
@@ -178,7 +178,7 @@
   </dataset>
   <dataset type="EDDTableFromNccsvFiles" datasetID="cciea_SM_FBN" active="true">
     <reloadEveryNMinutes>2628000</reloadEveryNMinutes>
-    <fileDir>/home/ldewitt/Documents/GitHub/CCIEA-uploader/data/erddap_files/nccsv/Burke</fileDir>
+    <fileDir>data/erddap_files/nccsv/Burke</fileDir>
     <fileNameRegex>cciea_SM_FBN.csv</fileNameRegex>
     <recursive>false</recursive>
     <columnNamesRow>1</columnNamesRow>
@@ -234,7 +234,7 @@
   </dataset>
   <dataset type="EDDTableFromNccsvFiles" datasetID="cciea_EI_FBC" active="true">
     <reloadEveryNMinutes>2628000</reloadEveryNMinutes>
-    <fileDir>/home/ldewitt/Documents/GitHub/CCIEA-uploader/data/erddap_files/nccsv/Field</fileDir>
+    <fileDir>data/erddap_files/nccsv/Field</fileDir>
     <fileNameRegex>cciea_EI_FBC.csv</fileNameRegex>
     <recursive>false</recursive>
     <columnNamesRow>1</columnNamesRow>
@@ -290,7 +290,7 @@
   </dataset>
   <dataset type="EDDTableFromNccsvFiles" datasetID="cciea_B_AS_DENS" active="true">
     <reloadEveryNMinutes>2628000</reloadEveryNMinutes>
-    <fileDir>/home/ldewitt/Documents/GitHub/CCIEA-uploader/data/erddap_files/nccsv/Good</fileDir>
+    <fileDir>data/erddap_files/nccsv/Good</fileDir>
     <fileNameRegex>cciea_B_AS_DENS.csv</fileNameRegex>
     <recursive>false</recursive>
     <columnNamesRow>1</columnNamesRow>
@@ -330,7 +330,7 @@
   </dataset>
   <dataset type="EDDTableFromNccsvFiles" datasetID="cciea_B_AS_DIET" active="true">
     <reloadEveryNMinutes>2628000</reloadEveryNMinutes>
-    <fileDir>/home/ldewitt/Documents/GitHub/CCIEA-uploader/data/erddap_files/nccsv/Good</fileDir>
+    <fileDir>data/erddap_files/nccsv/Good</fileDir>
     <fileNameRegex>cciea_B_AS_DIET.csv</fileNameRegex>
     <recursive>false</recursive>
     <columnNamesRow>1</columnNamesRow>
@@ -370,7 +370,7 @@
   </dataset>
   <dataset type="EDDTableFromNccsvFiles" datasetID="cciea_B_B_MORT" active="true">
     <reloadEveryNMinutes>2628000</reloadEveryNMinutes>
-    <fileDir>/home/ldewitt/Documents/GitHub/CCIEA-uploader/data/erddap_files/nccsv/Good</fileDir>
+    <fileDir>data/erddap_files/nccsv/Good</fileDir>
     <fileNameRegex>cciea_B_B_MORT.csv</fileNameRegex>
     <recursive>false</recursive>
     <columnNamesRow>1</columnNamesRow>
@@ -410,7 +410,7 @@
   </dataset>
   <dataset type="EDDTableFromNccsvFiles" datasetID="cciea_B_PR_ANOM" active="true">
     <reloadEveryNMinutes>2628000</reloadEveryNMinutes>
-    <fileDir>/home/ldewitt/Documents/GitHub/CCIEA-uploader/data/erddap_files/nccsv/Good</fileDir>
+    <fileDir>data/erddap_files/nccsv/Good</fileDir>
     <fileNameRegex>cciea_B_PR_ANOM.csv</fileNameRegex>
     <recursive>false</recursive>
     <columnNamesRow>1</columnNamesRow>
@@ -450,7 +450,7 @@
   </dataset>
   <dataset type="EDDTableFromNccsvFiles" datasetID="cciea_HB_FLOW" active="true">
     <reloadEveryNMinutes>2628000</reloadEveryNMinutes>
-    <fileDir>/home/ldewitt/Documents/GitHub/CCIEA-uploader/data/erddap_files/nccsv/Greene-Munsch</fileDir>
+    <fileDir>data/erddap_files/nccsv/Greene-Munsch</fileDir>
     <fileNameRegex>cciea_HB_FLOW.csv</fileNameRegex>
     <recursive>false</recursive>
     <columnNamesRow>1</columnNamesRow>
@@ -506,7 +506,7 @@
   </dataset>
   <dataset type="EDDTableFromNccsvFiles" datasetID="cciea_HD_ESI_VESS" active="true">
     <reloadEveryNMinutes>2628000</reloadEveryNMinutes>
-    <fileDir>/home/ldewitt/Documents/GitHub/CCIEA-uploader/data/erddap_files/nccsv/Holland-Kasperski</fileDir>
+    <fileDir>data/erddap_files/nccsv/Holland-Kasperski</fileDir>
     <fileNameRegex>cciea_HD_ESI_VESS.csv</fileNameRegex>
     <recursive>false</recursive>
     <columnNamesRow>1</columnNamesRow>
@@ -546,7 +546,7 @@
   </dataset>
   <dataset type="EDDTableFromNccsvFiles" datasetID="cciea_EI_WH_ENT" active="true">
     <reloadEveryNMinutes>2628000</reloadEveryNMinutes>
-    <fileDir>/home/ldewitt/Documents/GitHub/CCIEA-uploader/data/erddap_files/nccsv/Lawson</fileDir>
+    <fileDir>data/erddap_files/nccsv/Lawson</fileDir>
     <fileNameRegex>cciea_EI_WH_ENT.csv</fileNameRegex>
     <recursive>false</recursive>
     <columnNamesRow>1</columnNamesRow>
@@ -586,7 +586,7 @@
   </dataset>
   <dataset type="EDDTableFromNccsvFiles" datasetID="cciea_HMS_biomass" active="true">
     <reloadEveryNMinutes>2628000</reloadEveryNMinutes>
-    <fileDir>/home/ldewitt/Documents/GitHub/CCIEA-uploader/data/erddap_files/nccsv/Muhling</fileDir>
+    <fileDir>data/erddap_files/nccsv/Muhling</fileDir>
     <fileNameRegex>cciea_HMS_biomass.csv</fileNameRegex>
     <recursive>false</recursive>
     <columnNamesRow>1</columnNamesRow>
@@ -642,7 +642,7 @@
   </dataset>
   <dataset type="EDDTableFromNccsvFiles" datasetID="cciea_HMS_recruit" active="true">
     <reloadEveryNMinutes>2628000</reloadEveryNMinutes>
-    <fileDir>/home/ldewitt/Documents/GitHub/CCIEA-uploader/data/erddap_files/nccsv/Muhling</fileDir>
+    <fileDir>data/erddap_files/nccsv/Muhling</fileDir>
     <fileNameRegex>cciea_HMS_recruit.csv</fileNameRegex>
     <recursive>false</recursive>
     <columnNamesRow>1</columnNamesRow>
@@ -698,7 +698,7 @@
   </dataset>
   <dataset type="EDDTableFromNccsvFiles" datasetID="cciea_EI_COP" active="true">
     <reloadEveryNMinutes>2628000</reloadEveryNMinutes>
-    <fileDir>/home/ldewitt/Documents/GitHub/CCIEA-uploader/data/erddap_files/nccsv/Newport Line</fileDir>
+    <fileDir>data/erddap_files/nccsv/Newport Line</fileDir>
     <fileNameRegex>cciea_EI_COP.csv</fileNameRegex>
     <recursive>false</recursive>
     <columnNamesRow>1</columnNamesRow>
@@ -738,7 +738,7 @@
   </dataset>
   <dataset type="EDDTableFromNccsvFiles" datasetID="cciea_HD_Soc_Vuln_Indx" active="true">
     <reloadEveryNMinutes>2628000</reloadEveryNMinutes>
-    <fileDir>/home/ldewitt/Documents/GitHub/CCIEA-uploader/data/erddap_files/nccsv/Norman</fileDir>
+    <fileDir>data/erddap_files/nccsv/Norman</fileDir>
     <fileNameRegex>cciea_HD_Soc_Vuln_Indx.csv</fileNameRegex>
     <recursive>false</recursive>
     <columnNamesRow>1</columnNamesRow>
@@ -778,7 +778,7 @@
   </dataset>
   <dataset type="EDDTableFromNccsvFiles" datasetID="cciea_HD_THEIL" active="true">
     <reloadEveryNMinutes>2628000</reloadEveryNMinutes>
-    <fileDir>/home/ldewitt/Documents/GitHub/CCIEA-uploader/data/erddap_files/nccsv/Norman</fileDir>
+    <fileDir>data/erddap_files/nccsv/Norman</fileDir>
     <fileNameRegex>cciea_HD_THEIL.csv</fileNameRegex>
     <recursive>false</recursive>
     <columnNamesRow>1</columnNamesRow>
@@ -818,7 +818,7 @@
   </dataset>
   <dataset type="EDDTableFromNccsvFiles" datasetID="cciea_HMS_ALB_DIET" active="true">
     <reloadEveryNMinutes>2628000</reloadEveryNMinutes>
-    <fileDir>/home/ldewitt/Documents/GitHub/CCIEA-uploader/data/erddap_files/nccsv/Preti</fileDir>
+    <fileDir>data/erddap_files/nccsv/Preti</fileDir>
     <fileNameRegex>cciea_HMS_ALB_DIET.csv</fileNameRegex>
     <recursive>false</recursive>
     <columnNamesRow>1</columnNamesRow>
@@ -858,7 +858,7 @@
   </dataset>
   <dataset type="EDDTableFromNccsvFiles" datasetID="cciea_HMS_BLF_DIET" active="true">
     <reloadEveryNMinutes>2628000</reloadEveryNMinutes>
-    <fileDir>/home/ldewitt/Documents/GitHub/CCIEA-uploader/data/erddap_files/nccsv/Preti</fileDir>
+    <fileDir>data/erddap_files/nccsv/Preti</fileDir>
     <fileNameRegex>cciea_HMS_BLF_DIET.csv</fileNameRegex>
     <recursive>false</recursive>
     <columnNamesRow>1</columnNamesRow>
@@ -898,7 +898,7 @@
   </dataset>
   <dataset type="EDDTableFromNccsvFiles" datasetID="cciea_HMS_SWD_DIET" active="true">
     <reloadEveryNMinutes>2628000</reloadEveryNMinutes>
-    <fileDir>/home/ldewitt/Documents/GitHub/CCIEA-uploader/data/erddap_files/nccsv/Preti</fileDir>
+    <fileDir>data/erddap_files/nccsv/Preti</fileDir>
     <fileNameRegex>cciea_HMS_SWD_DIET.csv</fileNameRegex>
     <recursive>false</recursive>
     <columnNamesRow>1</columnNamesRow>
@@ -938,7 +938,7 @@
   </dataset>
   <dataset type="EDDTableFromNccsvFiles" datasetID="cciea_OC_ARG" active="true">
     <reloadEveryNMinutes>2628000</reloadEveryNMinutes>
-    <fileDir>/home/ldewitt/Documents/GitHub/CCIEA-uploader/data/erddap_files/nccsv/Schroeder</fileDir>
+    <fileDir>data/erddap_files/nccsv/Schroeder</fileDir>
     <fileNameRegex>cciea_OC_ARG.csv</fileNameRegex>
     <recursive>false</recursive>
     <columnNamesRow>1</columnNamesRow>
@@ -994,7 +994,7 @@
   </dataset>
   <dataset type="EDDTableFromNccsvFiles" datasetID="cciea_OC_BEUTI" active="true">
     <reloadEveryNMinutes>2628000</reloadEveryNMinutes>
-    <fileDir>/home/ldewitt/Documents/GitHub/CCIEA-uploader/data/erddap_files/nccsv/Schroeder</fileDir>
+    <fileDir>data/erddap_files/nccsv/Schroeder</fileDir>
     <fileNameRegex>cciea_OC_BEUTI.csv</fileNameRegex>
     <recursive>false</recursive>
     <columnNamesRow>1</columnNamesRow>
@@ -1034,7 +1034,7 @@
   </dataset>
   <dataset type="EDDTableFromNccsvFiles" datasetID="cciea_OC_CUTI" active="true">
     <reloadEveryNMinutes>2628000</reloadEveryNMinutes>
-    <fileDir>/home/ldewitt/Documents/GitHub/CCIEA-uploader/data/erddap_files/nccsv/Schroeder</fileDir>
+    <fileDir>data/erddap_files/nccsv/Schroeder</fileDir>
     <fileNameRegex>cciea_OC_CUTI.csv</fileNameRegex>
     <recursive>false</recursive>
     <columnNamesRow>1</columnNamesRow>
@@ -1074,7 +1074,7 @@
   </dataset>
   <dataset type="EDDTableFromNccsvFiles" datasetID="cciea_OC_DO" active="true">
     <reloadEveryNMinutes>2628000</reloadEveryNMinutes>
-    <fileDir>/home/ldewitt/Documents/GitHub/CCIEA-uploader/data/erddap_files/nccsv/Schroeder</fileDir>
+    <fileDir>data/erddap_files/nccsv/Schroeder</fileDir>
     <fileNameRegex>cciea_OC_DO.csv</fileNameRegex>
     <recursive>false</recursive>
     <columnNamesRow>1</columnNamesRow>
@@ -1130,7 +1130,7 @@
   </dataset>
   <dataset type="EDDTableFromNccsvFiles" datasetID="cciea_OC_HCI" active="true">
     <reloadEveryNMinutes>2628000</reloadEveryNMinutes>
-    <fileDir>/home/ldewitt/Documents/GitHub/CCIEA-uploader/data/erddap_files/nccsv/Schroeder</fileDir>
+    <fileDir>data/erddap_files/nccsv/Schroeder</fileDir>
     <fileNameRegex>cciea_OC_HCI.csv</fileNameRegex>
     <recursive>false</recursive>
     <columnNamesRow>1</columnNamesRow>
@@ -1186,7 +1186,7 @@
   </dataset>
   <dataset type="EDDTableFromNccsvFiles" datasetID="cciea_OC_LUSI" active="true">
     <reloadEveryNMinutes>2628000</reloadEveryNMinutes>
-    <fileDir>/home/ldewitt/Documents/GitHub/CCIEA-uploader/data/erddap_files/nccsv/Schroeder</fileDir>
+    <fileDir>data/erddap_files/nccsv/Schroeder</fileDir>
     <fileNameRegex>cciea_OC_LUSI.csv</fileNameRegex>
     <recursive>false</recursive>
     <columnNamesRow>1</columnNamesRow>
@@ -1242,7 +1242,7 @@
   </dataset>
   <dataset type="EDDTableFromNccsvFiles" datasetID="cciea_OC_MEI" active="true">
     <reloadEveryNMinutes>2628000</reloadEveryNMinutes>
-    <fileDir>/home/ldewitt/Documents/GitHub/CCIEA-uploader/data/erddap_files/nccsv/Schroeder</fileDir>
+    <fileDir>data/erddap_files/nccsv/Schroeder</fileDir>
     <fileNameRegex>cciea_OC_MEI.csv</fileNameRegex>
     <recursive>false</recursive>
     <columnNamesRow>1</columnNamesRow>
@@ -1282,7 +1282,7 @@
   </dataset>
   <dataset type="EDDTableFromNccsvFiles" datasetID="cciea_OC_NOI" active="true">
     <reloadEveryNMinutes>2628000</reloadEveryNMinutes>
-    <fileDir>/home/ldewitt/Documents/GitHub/CCIEA-uploader/data/erddap_files/nccsv/Schroeder</fileDir>
+    <fileDir>data/erddap_files/nccsv/Schroeder</fileDir>
     <fileNameRegex>cciea_OC_NOI.csv</fileNameRegex>
     <recursive>false</recursive>
     <columnNamesRow>1</columnNamesRow>
@@ -1322,7 +1322,7 @@
   </dataset>
   <dataset type="EDDTableFromNccsvFiles" datasetID="cciea_OC_NPGO" active="true">
     <reloadEveryNMinutes>2628000</reloadEveryNMinutes>
-    <fileDir>/home/ldewitt/Documents/GitHub/CCIEA-uploader/data/erddap_files/nccsv/Schroeder</fileDir>
+    <fileDir>data/erddap_files/nccsv/Schroeder</fileDir>
     <fileNameRegex>cciea_OC_NPGO.csv</fileNameRegex>
     <recursive>false</recursive>
     <columnNamesRow>1</columnNamesRow>
@@ -1362,7 +1362,7 @@
   </dataset>
   <dataset type="EDDTableFromNccsvFiles" datasetID="cciea_OC_NPH" active="true">
     <reloadEveryNMinutes>2628000</reloadEveryNMinutes>
-    <fileDir>/home/ldewitt/Documents/GitHub/CCIEA-uploader/data/erddap_files/nccsv/Schroeder</fileDir>
+    <fileDir>data/erddap_files/nccsv/Schroeder</fileDir>
     <fileNameRegex>cciea_OC_NPH.csv</fileNameRegex>
     <recursive>false</recursive>
     <columnNamesRow>1</columnNamesRow>
@@ -1418,7 +1418,7 @@
   </dataset>
   <dataset type="EDDTableFromNccsvFiles" datasetID="cciea_OC_NPH_JF" active="true">
     <reloadEveryNMinutes>2628000</reloadEveryNMinutes>
-    <fileDir>/home/ldewitt/Documents/GitHub/CCIEA-uploader/data/erddap_files/nccsv/Schroeder</fileDir>
+    <fileDir>data/erddap_files/nccsv/Schroeder</fileDir>
     <fileNameRegex>cciea_OC_NPH_JF.csv</fileNameRegex>
     <recursive>false</recursive>
     <columnNamesRow>1</columnNamesRow>
@@ -1474,7 +1474,7 @@
   </dataset>
   <dataset type="EDDTableFromNccsvFiles" datasetID="cciea_OC_ONI" active="true">
     <reloadEveryNMinutes>2628000</reloadEveryNMinutes>
-    <fileDir>/home/ldewitt/Documents/GitHub/CCIEA-uploader/data/erddap_files/nccsv/Schroeder</fileDir>
+    <fileDir>data/erddap_files/nccsv/Schroeder</fileDir>
     <fileNameRegex>cciea_OC_ONI.csv</fileNameRegex>
     <recursive>false</recursive>
     <columnNamesRow>1</columnNamesRow>
@@ -1514,7 +1514,7 @@
   </dataset>
   <dataset type="EDDTableFromNccsvFiles" datasetID="cciea_OC_PDO" active="true">
     <reloadEveryNMinutes>2628000</reloadEveryNMinutes>
-    <fileDir>/home/ldewitt/Documents/GitHub/CCIEA-uploader/data/erddap_files/nccsv/Schroeder</fileDir>
+    <fileDir>data/erddap_files/nccsv/Schroeder</fileDir>
     <fileNameRegex>cciea_OC_PDO.csv</fileNameRegex>
     <recursive>false</recursive>
     <columnNamesRow>1</columnNamesRow>
@@ -1554,7 +1554,7 @@
   </dataset>
   <dataset type="EDDTableFromNccsvFiles" datasetID="cciea_OC_SST" active="true">
     <reloadEveryNMinutes>2628000</reloadEveryNMinutes>
-    <fileDir>/home/ldewitt/Documents/GitHub/CCIEA-uploader/data/erddap_files/nccsv/Schroeder</fileDir>
+    <fileDir>data/erddap_files/nccsv/Schroeder</fileDir>
     <fileNameRegex>cciea_OC_SST.csv</fileNameRegex>
     <recursive>false</recursive>
     <columnNamesRow>1</columnNamesRow>
@@ -1610,7 +1610,7 @@
   </dataset>
   <dataset type="EDDTableFromNccsvFiles" datasetID="cciea_OC_STI" active="true">
     <reloadEveryNMinutes>2628000</reloadEveryNMinutes>
-    <fileDir>/home/ldewitt/Documents/GitHub/CCIEA-uploader/data/erddap_files/nccsv/Schroeder</fileDir>
+    <fileDir>data/erddap_files/nccsv/Schroeder</fileDir>
     <fileNameRegex>cciea_OC_STI.csv</fileNameRegex>
     <recursive>false</recursive>
     <columnNamesRow>1</columnNamesRow>
@@ -1666,7 +1666,7 @@
   </dataset>
   <dataset type="EDDTableFromNccsvFiles" datasetID="cciea_OC_TUMI" active="true">
     <reloadEveryNMinutes>2628000</reloadEveryNMinutes>
-    <fileDir>/home/ldewitt/Documents/GitHub/CCIEA-uploader/data/erddap_files/nccsv/Schroeder</fileDir>
+    <fileDir>data/erddap_files/nccsv/Schroeder</fileDir>
     <fileNameRegex>cciea_OC_TUMI.csv</fileNameRegex>
     <recursive>false</recursive>
     <columnNamesRow>1</columnNamesRow>
@@ -1722,7 +1722,7 @@
   </dataset>
   <dataset type="EDDTableFromNccsvFiles" datasetID="cciea_OC_UI" active="true">
     <reloadEveryNMinutes>2628000</reloadEveryNMinutes>
-    <fileDir>/home/ldewitt/Documents/GitHub/CCIEA-uploader/data/erddap_files/nccsv/Schroeder</fileDir>
+    <fileDir>data/erddap_files/nccsv/Schroeder</fileDir>
     <fileNameRegex>cciea_OC_UI.csv</fileNameRegex>
     <recursive>false</recursive>
     <columnNamesRow>1</columnNamesRow>
@@ -1778,7 +1778,7 @@
   </dataset>
   <dataset type="EDDTableFromNccsvFiles" datasetID="cciea_OC_VWND" active="true">
     <reloadEveryNMinutes>2628000</reloadEveryNMinutes>
-    <fileDir>/home/ldewitt/Documents/GitHub/CCIEA-uploader/data/erddap_files/nccsv/Schroeder</fileDir>
+    <fileDir>data/erddap_files/nccsv/Schroeder</fileDir>
     <fileNameRegex>cciea_OC_VWND.csv</fileNameRegex>
     <recursive>false</recursive>
     <columnNamesRow>1</columnNamesRow>
@@ -1834,7 +1834,7 @@
   </dataset>
   <dataset type="EDDTableFromNccsvFiles" datasetID="cciea_EI_FBS" active="true">
     <reloadEveryNMinutes>2628000</reloadEveryNMinutes>
-    <fileDir>/home/ldewitt/Documents/GitHub/CCIEA-uploader/data/erddap_files/nccsv/Thompson</fileDir>
+    <fileDir>data/erddap_files/nccsv/Thompson</fileDir>
     <fileNameRegex>cciea_EI_FBS.csv</fileNameRegex>
     <recursive>false</recursive>
     <columnNamesRow>1</columnNamesRow>
@@ -1890,7 +1890,7 @@
   </dataset>
   <dataset type="EDDTableFromNccsvFiles" datasetID="cciea_EI_CRAB_FINF" active="true">
     <reloadEveryNMinutes>2628000</reloadEveryNMinutes>
-    <fileDir>/home/ldewitt/Documents/GitHub/CCIEA-uploader/data/erddap_files/nccsv/Tolimieri</fileDir>
+    <fileDir>data/erddap_files/nccsv/Tolimieri</fileDir>
     <fileNameRegex>cciea_EI_CRAB_FINF.csv</fileNameRegex>
     <recursive>false</recursive>
     <columnNamesRow>1</columnNamesRow>
@@ -1946,7 +1946,7 @@
   </dataset>
   <dataset type="EDDTableFromNccsvFiles" datasetID="cciea_EI_MTL" active="true">
     <reloadEveryNMinutes>2628000</reloadEveryNMinutes>
-    <fileDir>/home/ldewitt/Documents/GitHub/CCIEA-uploader/data/erddap_files/nccsv/Tolimieri</fileDir>
+    <fileDir>data/erddap_files/nccsv/Tolimieri</fileDir>
     <fileNameRegex>cciea_EI_MTL.csv</fileNameRegex>
     <recursive>false</recursive>
     <columnNamesRow>1</columnNamesRow>
@@ -2002,7 +2002,7 @@
   </dataset>
   <dataset type="EDDTableFromNccsvFiles" datasetID="cciea_EI_SCAV_RAT" active="true">
     <reloadEveryNMinutes>2628000</reloadEveryNMinutes>
-    <fileDir>/home/ldewitt/Documents/GitHub/CCIEA-uploader/data/erddap_files/nccsv/Tolimieri</fileDir>
+    <fileDir>data/erddap_files/nccsv/Tolimieri</fileDir>
     <fileNameRegex>cciea_EI_SCAV_RAT.csv</fileNameRegex>
     <recursive>false</recursive>
     <columnNamesRow>1</columnNamesRow>
@@ -2058,7 +2058,7 @@
   </dataset>
   <dataset type="EDDTableFromNccsvFiles" datasetID="cciea_EI_SIMP" active="true">
     <reloadEveryNMinutes>2628000</reloadEveryNMinutes>
-    <fileDir>/home/ldewitt/Documents/GitHub/CCIEA-uploader/data/erddap_files/nccsv/Tolimieri</fileDir>
+    <fileDir>data/erddap_files/nccsv/Tolimieri</fileDir>
     <fileNameRegex>cciea_EI_SIMP.csv</fileNameRegex>
     <recursive>false</recursive>
     <columnNamesRow>1</columnNamesRow>
@@ -2114,7 +2114,7 @@
   </dataset>
   <dataset type="EDDTableFromNccsvFiles" datasetID="cciea_EI_SP_RICH" active="true">
     <reloadEveryNMinutes>2628000</reloadEveryNMinutes>
-    <fileDir>/home/ldewitt/Documents/GitHub/CCIEA-uploader/data/erddap_files/nccsv/Tolimieri</fileDir>
+    <fileDir>data/erddap_files/nccsv/Tolimieri</fileDir>
     <fileNameRegex>cciea_EI_SP_RICH.csv</fileNameRegex>
     <recursive>false</recursive>
     <columnNamesRow>1</columnNamesRow>
