@@ -3,6 +3,8 @@
 ## Google Drive folders for each data provider must exist for esr_year and be named consistently
 esr_year="2025-2026"
 last_year="2024-2025"
+## Default URL for CCIEA information
+global_info_url="https://www.integratedecosystemassessment.noaa.gov/regions/california-current/about-california-current-integrated-ecosystem-assessment"
 # CCIEA required/optional file column headers
 headervars=c("year","index","timeseries","metric","SEup","SElo")
 headervarsmon=c("time","index","timeseries","metric","SEup","SElo")

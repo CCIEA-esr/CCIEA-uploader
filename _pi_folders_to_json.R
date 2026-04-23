@@ -144,7 +144,7 @@ get_indices <- function(esr_year,last_year,metadata_spreadsheet_folder,meta_file
   file=search_file_in_folder(meta_file_search,metadata_spreadsheet_folder_id)
   print(file$name)
   df <- read_sheet(file$id)
-  df1<- apply(df,2,as.character)
+  df1<- apply(df,2,as.character) # convert columns to character
   fwrite(df1, file="data/CCIEA_metadata.csv",sep=",",quote="auto",na="")
   df_trimmed<- df %>% select(c('PI_ID','PI', 'Contact', 'Title','Component_Section','serve_flag'))
   meta <- df_trimmed %>% filter(serve_flag==1)

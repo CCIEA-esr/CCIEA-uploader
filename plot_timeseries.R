@@ -1,7 +1,7 @@
 ## Working version
 # For now run on laptop Rscript plot_timeseries.R
 # push new images to GitHub and metadata spreadsheet to Drive
-# Open spreadsheet in Google Sheets before running
+# Open metadata spreadsheet in Google Sheets before running
 
 ## Main code ##
 
