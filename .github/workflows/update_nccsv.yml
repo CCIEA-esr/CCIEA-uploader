@@ -1,0 +1,48 @@
+# Github Actions to read CCIEA Google Drive and update Uploader Status table
+# Need to grant read/write permissions for Action to do the commits
+# Settings -> Actions -> General -> Workflow permissions
+    name: Generate ERDDAP xml and nccsv files
+# Use the following to update on push
+#    on:
+#      push:
+#        branches: main
+    on:
+      workflow_dispatch:
+      
+    jobs:
+      generate-html:
+        runs-on: ubuntu-latest
+        steps:
+          - name: Check out repository
+            uses: actions/checkout@v4
+            # Important: set fetch-depth to 0 so the action can push back to the repo
+            with:
+              fetch-depth: 0
+
+          - name: Authenticate to Google Cloud
+            uses: google-github-actions/auth@v2
+            with:
+              credentials_json: ${{ secrets.GOOGLE_APPLICATION_CREDENTIALS }}
+              
+          - name: Set up R
+            uses: r-lib/actions/setup-r@v2
+              
+          - name: Install packages
+            uses: r-lib/actions/setup-r-dependencies@v2
+            with:
+              cache: always
+              packages: |
+                any::tidyverse
+                
+          - name: Generate ERDDAP xml and nccsv files
+            run: Rscript generate_nccsv_data_files_by_PI.R
+
+          - name: Commit results
+            run: |
+              git config --local user.email "actions@github.com"
+              git config --local user.name "GitHub Actions"
+              git add icon_link.csv
+              git add data/erddap_files/*
+              git commit -m 'nccsv files updated' || echo "No changes to commit"
+              git push origin || echo "No changes to commit"
+
