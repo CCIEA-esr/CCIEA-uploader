@@ -18,11 +18,12 @@ source("_init.R")
 #path <- "/home/ldewitt/Documents/GitHub/CCIEA-uploader/data/"
 path <- "data/"
 infile <- paste0(path, "CCIEA_metadata.csv")
-inpath <- paste0(path, "timeseries_data")
-nccsvoutpath <- paste0(path, "erddap_files/nccsv")
-xmloutpath <- paste0(path, "erddap_files/datasets_xml")
-newfilelist <- paste0(path, "uploader_status_",esr_year,".json")
+inpath <- paste0(path, "timeseries_data") # where to find the input data files
+nccsvoutpath <- paste0(path, "erddap_files/nccsv") # where to write the nccsv files on GitHub
+xmloutpath <- paste0(path, "erddap_files/datasets_xml") # where to write the output xml files on GitHub
+newfilelist <- paste0(path, "uploader_status_",esr_year,".json")  # output of uploader github ction
 erdsettype <- "EDDTableFromNccsvFiles"
+serverdatapath <- paste0("/data/cciea_uploader_",esr_year,"/nccsv/") # data path on server for data in datasets.xml
 
 # --- Helper: Load Filename Fixes ---
 #file_fixnames <- "rename_files.csv"
