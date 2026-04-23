@@ -41,8 +41,7 @@
             run: |
               git config --local user.email "actions@github.com"
               git config --local user.name "GitHub Actions"
-              git add icon_link.csv
-              git add data/erddap_files/*
+              git add data/erddap_files
               git commit -m 'nccsv files updated' || echo "No changes to commit"
               git push origin || echo "No changes to commit"
 
