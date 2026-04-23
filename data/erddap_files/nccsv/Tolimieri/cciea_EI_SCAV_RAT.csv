@@ -1,0 +1,86 @@
+*GLOBAL*,Conventions,"COARDS, CF-1.6, ACDD-1.3, NCCSV-1.1"
+*GLOBAL*,history,"last updated: 2026-02-24 00:41:15"
+*GLOBAL*,title,"Scavenger biomass ratio"
+*GLOBAL*,institution,"NOAA NWFSC"
+*GLOBAL*,summary,"Groundfish data are from the <a href="http://www.nwfsc.noaa.gov/research/divisions/fram/groundfish/bottom_trawl.cfm" target="_blank">NMFS U.S. West Coast Groundfish Bottom Trawl Survey</a> and were downloaded from the FRAM data warehouse at https://www.nwfsc.noaa.gov/data/map  <a href='https://www.nwfsc.noaa.gov/data/api/v1/source/trawl.catch_fact/selection.csv?variables=program,trawl_id,date_dim$year,date_dim$yyyymmdd,vessel,performance,year_stn_invalid,depth_m,latitude_dd,longitude_dd,scientific_name,common_name,species_category,partition,total_catch_numbers,total_catch_wt_kg,cpue_kg_per_ha_der,cpue_numbers_per_ha_der,"actual_station_design_dim$station_invalid_survey_year", "actual_station_design_dim$reason_station_invalid","reason_stn_invalid (target station)", "year_stn_invalid"' target="_blank">with this API query</a>; Additional Calculations: Ratio of groundfish and crab scavengers to total biomass for the West Coast shelf and slope. For details, see <a href="https://www.integratedecosystemassessment.noaa.gov/sites/default/files/2022-05/2012_CCIEA_Ecosystem_Status_Report.pdf" target="_blank">Tolimieri et al. 2012 CCIEA Phase II Report 2012: Ecosystem Components - Ecological Integrity, Appendix EN</a>Groundfish data are from the <a href="http://www.nwfsc.noaa.gov/research/divisions/fram/groundfish/bottom_trawl.cfm" target="_blank">NMFS U.S. West Coast Groundfish Bottom Trawl Survey</a> and were downloaded from the FRAM data warehouse at https://www.nwfsc.noaa.gov/data/map  <a href='https://www.nwfsc.noaa.gov/data/api/v1/source/trawl.catch_fact/selection.csv?variables=program,trawl_id,date_dim$year,date_dim$yyyymmdd,vessel,performance,year_stn_invalid,depth_m,latitude_dd,longitude_dd,scientific_name,common_name,species_category,partition,total_catch_numbers,total_catch_wt_kg,cpue_kg_per_ha_der,cpue_numbers_per_ha_der,"actual_station_design_dim$station_invalid_survey_year", "actual_station_design_dim$reason_station_invalid","reason_stn_invalid (target station)", "year_stn_invalid"' target="_blank">with this API query</a>; Additional Calculations: Ratio of groundfish and crab scavengers to total biomass for the West Coast shelf and slope north of Cape Mendocino (40.4 deg N). For details, see <a href="https://www.integratedecosystemassessment.noaa.gov/sites/default/files/2022-05/2012_CCIEA_Ecosystem_Status_Report.pdf" target="_blank">Tolimieri et al. 2012 CCIEA Phase II Report 2012: Ecosystem Components - Ecological Integrity, Appendix EN</a>Groundfish data are from the <a href="http://www.nwfsc.noaa.gov/research/divisions/fram/groundfish/bottom_trawl.cfm" target="_blank">NMFS U.S. West Coast Groundfish Bottom Trawl Survey</a> and were downloaded from the FRAM data warehouse at https://www.nwfsc.noaa.gov/data/map  <a href='https://www.nwfsc.noaa.gov/data/api/v1/source/trawl.catch_fact/selection.csv?variables=program,trawl_id,date_dim$year,date_dim$yyyymmdd,vessel,performance,year_stn_invalid,depth_m,latitude_dd,longitude_dd,scientific_name,common_name,species_category,partition,total_catch_numbers,total_catch_wt_kg,cpue_kg_per_ha_der,cpue_numbers_per_ha_der,"actual_station_design_dim$station_invalid_survey_year", "actual_station_design_dim$reason_station_invalid","reason_stn_invalid (target station)", "year_stn_invalid"' target="_blank">with this API query</a>; Additional Calculations: Ratio of groundfish and crab scavengers to total biomass for the West Coast shelf and slope south of Cape Mendocino (40.4 deg N). For details, see <a href="https://www.integratedecosystemassessment.noaa.gov/sites/default/files/2022-05/2012_CCIEA_Ecosystem_Status_Report.pdf" target="_blank">Tolimieri et al. 2012 CCIEA Phase II Report 2012: Ecosystem Components - Ecological Integrity, Appendix EN</a>"
+*GLOBAL*,infoUrl,"https://www.integratedecosystemassessment.noaa.gov/regions/california-current/about-california-current-integrated-ecosystem-assessment"
+*GLOBAL*,contributor_name,"Tolimieri"
+*GLOBAL*,contributor_email,"nick.tolimieri@noaa.gov"
+year,*DATA_TYPE*,String
+year,units,"yyyy"
+index,*DATA_TYPE*,float
+index,units,"Ratio"
+index,long_name,"NA"
+timeseries,*DATA_TYPE*,String
+metric,*DATA_TYPE*,String
+SEup,*DATA_TYPE*,float
+SElo,*DATA_TYPE*,float
+*END_METADATA*
+"year","index","timeseries","metric","SEup","SElo"
+2003,0.224699542017618,"Scavenger ratio - Coastwide","Ratio",0.237857564155274,0.211541519879962
+2004,0.198221042734215,"Scavenger ratio - Coastwide","Ratio",0.210554615403668,0.185887470064762
+2005,0.219277372999277,"Scavenger ratio - Coastwide","Ratio",0.230173800084625,0.208380945913929
+2006,0.216572063343303,"Scavenger ratio - Coastwide","Ratio",0.22781562676274,0.205328499923866
+2007,0.213526726664293,"Scavenger ratio - Coastwide","Ratio",0.22425661990931,0.202796833419276
+2008,0.214103300366148,"Scavenger ratio - Coastwide","Ratio",0.224956923355088,0.203249677377208
+2009,0.238854771516141,"Scavenger ratio - Coastwide","Ratio",0.249587993375442,0.22812154965684
+2010,0.271677350239729,"Scavenger ratio - Coastwide","Ratio",0.28259698474423,0.260757715735228
+2011,0.257746841335226,"Scavenger ratio - Coastwide","Ratio",0.268248495898106,0.247245186772346
+2012,0.248058343195508,"Scavenger ratio - Coastwide","Ratio",0.258573617969728,0.237543068421288
+2013,0.207813102423284,"Scavenger ratio - Coastwide","Ratio",0.220216535548341,0.195409669298227
+2014,0.213305352071575,"Scavenger ratio - Coastwide","Ratio",0.224033891900276,0.202576812242874
+2015,0.222433946768034,"Scavenger ratio - Coastwide","Ratio",0.233304522173628,0.21156337136244
+2016,0.257438990222838,"Scavenger ratio - Coastwide","Ratio",0.268497655277741,0.246380325167935
+2017,0.274664229301206,"Scavenger ratio - Coastwide","Ratio",0.285070316113103,0.264258142489309
+2018,0.246827004685123,"Scavenger ratio - Coastwide","Ratio",0.257455521589733,0.236198487780513
+2019,0.208543811529994,"Scavenger ratio - Coastwide","Ratio",0.222836908982955,0.194250714077033
+2021,0.273508695688626,"Scavenger ratio - Coastwide","Ratio",0.284576032264794,0.262441359112458
+2022,0.257394129636966,"Scavenger ratio - Coastwide","Ratio",0.26817123883108,0.246617020442852
+2023,0.27434443609291,"Scavenger ratio - Coastwide","Ratio",0.285258534448939,0.263430337736881
+2024,0.298795045665486,"Scavenger ratio - Coastwide","Ratio",0.310199081950053,0.287391009380919
+2025,0.272634581547331,"Scavenger ratio - Coastwide","Ratio",0.283146941372819,0.262122221721843
+2003,0.210696060557244,"Scavenger ratio - North","Ratio",0.227362104824099,0.194030016290389
+2004,0.154517957322129,"Scavenger ratio - North","Ratio",0.169601559341968,0.13943435530229
+2005,0.191042644002849,"Scavenger ratio - North","Ratio",0.204980744316575,0.177104543689123
+2006,0.172143895948876,"Scavenger ratio - North","Ratio",0.186048727900009,0.158239063997743
+2007,0.175098158108417,"Scavenger ratio - North","Ratio",0.188253545392443,0.161942770824391
+2008,0.170246153026933,"Scavenger ratio - North","Ratio",0.18404805876701,0.156444247286856
+2009,0.1945544468352,"Scavenger ratio - North","Ratio",0.208217663344638,0.180891230325762
+2010,0.219636544668867,"Scavenger ratio - North","Ratio",0.233903908422588,0.205369180915146
+2011,0.213548547842856,"Scavenger ratio - North","Ratio",0.227013693430609,0.200083402255103
+2012,0.224182348401222,"Scavenger ratio - North","Ratio",0.23788764553575,0.210477051266694
+2013,0.188716815837654,"Scavenger ratio - North","Ratio",0.203891312553213,0.173542319122095
+2014,0.182273863166007,"Scavenger ratio - North","Ratio",0.195976234282341,0.168571492049673
+2015,0.175435231961394,"Scavenger ratio - North","Ratio",0.189130206543152,0.161740257379636
+2016,0.2249062154951,"Scavenger ratio - North","Ratio",0.238880161967323,0.210932269022877
+2017,0.260991463853302,"Scavenger ratio - North","Ratio",0.274509117332234,0.24747381037437
+2018,0.211087501124253,"Scavenger ratio - North","Ratio",0.224917103404065,0.197257898844441
+2019,0.178504786721124,"Scavenger ratio - North","Ratio",0.196905323712631,0.160104249729617
+2021,0.274323125032715,"Scavenger ratio - North","Ratio",0.289414202062234,0.259232048003196
+2022,0.259134661335331,"Scavenger ratio - North","Ratio",0.27387819776269,0.244391124907972
+2023,0.266966685557117,"Scavenger ratio - North","Ratio",0.281224535245182,0.252708835869052
+2024,0.306404300933104,"Scavenger ratio - North","Ratio",0.321504040460987,0.291304561405221
+2025,0.265457498112074,"Scavenger ratio - North","Ratio",0.27893841057729,0.251976585646858
+2003,0.255136241573431,"Scavenger ratio - South","Ratio",0.276580997086956,0.233691486059906
+2004,0.27689473278541,"Scavenger ratio - South","Ratio",0.296958524640984,0.256830940929836
+2005,0.271388179794021,"Scavenger ratio - South","Ratio",0.288683083488665,0.254093276099377
+2006,0.294629235445891,"Scavenger ratio - South","Ratio",0.312735390140917,0.276523080750865
+2007,0.289687202230944,"Scavenger ratio - South","Ratio",0.307463443094279,0.271910961367609
+2008,0.286551758376652,"Scavenger ratio - South","Ratio",0.303443607357391,0.269659909395913
+2009,0.312025283800002,"Scavenger ratio - South","Ratio",0.328669736524009,0.295380831075995
+2010,0.356397963012178,"Scavenger ratio - South","Ratio",0.372541094957497,0.340254831066859
+2011,0.33193981013731,"Scavenger ratio - South","Ratio",0.348048171855748,0.315831448418872
+2012,0.286426389123857,"Scavenger ratio - South","Ratio",0.30274748146721,0.270105296780504
+2013,0.247199154486424,"Scavenger ratio - South","Ratio",0.268568088747508,0.22583022022534
+2014,0.271380046164212,"Scavenger ratio - South","Ratio",0.28845913498535,0.254300957343074
+2015,0.298947109893311,"Scavenger ratio - South","Ratio",0.31591847131274,0.281975748473883
+2016,0.311758517809174,"Scavenger ratio - South","Ratio",0.329460833290785,0.294056202327563
+2017,0.298839884066648,"Scavenger ratio - South","Ratio",0.315309758886933,0.282370009246363
+2018,0.306514039643647,"Scavenger ratio - South","Ratio",0.32286265339378,0.290165425893514
+2019,0.260371095171831,"Scavenger ratio - South","Ratio",0.282886880225652,0.23785531011801
+2021,0.272203517094724,"Scavenger ratio - South","Ratio",0.28865562550546,0.255751408683988
+2022,0.254597624187904,"Scavenger ratio - South","Ratio",0.270644854130531,0.238550394245277
+2023,0.288086747636668,"Scavenger ratio - South","Ratio",0.305331587942399,0.270841907330936
+2024,0.285108044705982,"Scavenger ratio - South","Ratio",0.302668694341467,0.267547395070497
+2025,0.28505159199987,"Scavenger ratio - South","Ratio",0.302011536255395,0.268091647744345
+*END_DATA*

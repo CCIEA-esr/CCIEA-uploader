@@ -1,0 +1,197 @@
+*GLOBAL*,Conventions,"COARDS, CF-1.6, ACDD-1.3, NCCSV-1.1"
+*GLOBAL*,history,"last updated: 2026-02-24 00:41:15"
+*GLOBAL*,title,"Length of Upwelling Season Index (LUSI)"
+*GLOBAL*,institution,"NOAA/SWFSC/ERD"
+*GLOBAL*,summary,"NANANA"
+*GLOBAL*,infoUrl,"https://www.integratedecosystemassessment.noaa.gov/regions/california-current/about-california-current-integrated-ecosystem-assessment"
+*GLOBAL*,contributor_name,"Schroeder"
+*GLOBAL*,contributor_email,"isaac.schroeder@noaa.gov"
+year,*DATA_TYPE*,String
+year,units,"yyyy"
+index,*DATA_TYPE*,float
+index,units,"days"
+index,long_name,"LUSI"
+timeseries,*DATA_TYPE*,String
+metric,*DATA_TYPE*,String
+SEup,*DATA_TYPE*,float
+SElo,*DATA_TYPE*,float
+*END_METADATA*
+"year","index","timeseries","metric","SEup","SElo"
+1967,336,"Length of Upwelling Season Index @ 33N","LUSI (days)",336,336
+1968,341,"Length of Upwelling Season Index @ 33N","LUSI (days)",341,341
+1969,357,"Length of Upwelling Season Index @ 33N","LUSI (days)",357,357
+1970,355,"Length of Upwelling Season Index @ 33N","LUSI (days)",355,355
+1971,349,"Length of Upwelling Season Index @ 33N","LUSI (days)",349,349
+1972,350,"Length of Upwelling Season Index @ 33N","LUSI (days)",350,350
+1973,365,"Length of Upwelling Season Index @ 33N","LUSI (days)",365,365
+1974,342,"Length of Upwelling Season Index @ 33N","LUSI (days)",342,342
+1975,363,"Length of Upwelling Season Index @ 33N","LUSI (days)",363,363
+1976,310,"Length of Upwelling Season Index @ 33N","LUSI (days)",310,310
+1977,352,"Length of Upwelling Season Index @ 33N","LUSI (days)",352,352
+1978,326,"Length of Upwelling Season Index @ 33N","LUSI (days)",326,326
+1979,324,"Length of Upwelling Season Index @ 33N","LUSI (days)",324,324
+1980,282,"Length of Upwelling Season Index @ 33N","LUSI (days)",282,282
+1981,343,"Length of Upwelling Season Index @ 33N","LUSI (days)",343,343
+1982,351,"Length of Upwelling Season Index @ 33N","LUSI (days)",351,351
+1983,322,"Length of Upwelling Season Index @ 33N","LUSI (days)",322,322
+1984,347,"Length of Upwelling Season Index @ 33N","LUSI (days)",347,347
+1985,341,"Length of Upwelling Season Index @ 33N","LUSI (days)",341,341
+1986,351,"Length of Upwelling Season Index @ 33N","LUSI (days)",351,351
+1987,348,"Length of Upwelling Season Index @ 33N","LUSI (days)",348,348
+1988,361,"Length of Upwelling Season Index @ 33N","LUSI (days)",361,361
+1989,363,"Length of Upwelling Season Index @ 33N","LUSI (days)",363,363
+1990,356,"Length of Upwelling Season Index @ 33N","LUSI (days)",356,356
+1991,349,"Length of Upwelling Season Index @ 33N","LUSI (days)",349,349
+1992,361,"Length of Upwelling Season Index @ 33N","LUSI (days)",361,361
+1993,334,"Length of Upwelling Season Index @ 33N","LUSI (days)",334,334
+1994,364,"Length of Upwelling Season Index @ 33N","LUSI (days)",364,364
+1995,341,"Length of Upwelling Season Index @ 33N","LUSI (days)",341,341
+1996,348,"Length of Upwelling Season Index @ 33N","LUSI (days)",348,348
+1997,336,"Length of Upwelling Season Index @ 33N","LUSI (days)",336,336
+1998,319,"Length of Upwelling Season Index @ 33N","LUSI (days)",319,319
+1999,338,"Length of Upwelling Season Index @ 33N","LUSI (days)",338,338
+2000,350,"Length of Upwelling Season Index @ 33N","LUSI (days)",350,350
+2001,353,"Length of Upwelling Season Index @ 33N","LUSI (days)",353,353
+2002,359,"Length of Upwelling Season Index @ 33N","LUSI (days)",359,359
+2003,287,"Length of Upwelling Season Index @ 33N","LUSI (days)",287,287
+2004,348,"Length of Upwelling Season Index @ 33N","LUSI (days)",348,348
+2005,356,"Length of Upwelling Season Index @ 33N","LUSI (days)",356,356
+2006,365,"Length of Upwelling Season Index @ 33N","LUSI (days)",365,365
+2007,363,"Length of Upwelling Season Index @ 33N","LUSI (days)",363,363
+2008,339,"Length of Upwelling Season Index @ 33N","LUSI (days)",339,339
+2009,365,"Length of Upwelling Season Index @ 33N","LUSI (days)",365,365
+2010,345,"Length of Upwelling Season Index @ 33N","LUSI (days)",345,345
+2011,360,"Length of Upwelling Season Index @ 33N","LUSI (days)",360,360
+2012,365,"Length of Upwelling Season Index @ 33N","LUSI (days)",365,365
+2013,339,"Length of Upwelling Season Index @ 33N","LUSI (days)",339,339
+2014,322,"Length of Upwelling Season Index @ 33N","LUSI (days)",322,322
+2015,336,"Length of Upwelling Season Index @ 33N","LUSI (days)",336,336
+2016,356,"Length of Upwelling Season Index @ 33N","LUSI (days)",356,356
+2017,365,"Length of Upwelling Season Index @ 33N","LUSI (days)",365,365
+2018,365,"Length of Upwelling Season Index @ 33N","LUSI (days)",365,365
+2019,335,"Length of Upwelling Season Index @ 33N","LUSI (days)",335,335
+2020,365,"Length of Upwelling Season Index @ 33N","LUSI (days)",365,365
+2021,342,"Length of Upwelling Season Index @ 33N","LUSI (days)",342,342
+2022,364,"Length of Upwelling Season Index @ 33N","LUSI (days)",364,364
+2023,338,"Length of Upwelling Season Index @ 33N","LUSI (days)",338,338
+2024,365,"Length of Upwelling Season Index @ 33N","LUSI (days)",365,365
+2025,355,"Length of Upwelling Season Index @ 33N","LUSI (days)",355,355
+1967,278,"Length of Upwelling Season Index @ 39N","LUSI (days)",278,278
+1968,217,"Length of Upwelling Season Index @ 39N","LUSI (days)",217,217
+1969,273,"Length of Upwelling Season Index @ 39N","LUSI (days)",273,273
+1970,219,"Length of Upwelling Season Index @ 39N","LUSI (days)",219,219
+1971,333,"Length of Upwelling Season Index @ 39N","LUSI (days)",333,333
+1972,234,"Length of Upwelling Season Index @ 39N","LUSI (days)",234,234
+1973,244,"Length of Upwelling Season Index @ 39N","LUSI (days)",244,244
+1974,305,"Length of Upwelling Season Index @ 39N","LUSI (days)",305,305
+1975,299,"Length of Upwelling Season Index @ 39N","LUSI (days)",299,299
+1976,355,"Length of Upwelling Season Index @ 39N","LUSI (days)",355,355
+1977,322,"Length of Upwelling Season Index @ 39N","LUSI (days)",322,322
+1978,299,"Length of Upwelling Season Index @ 39N","LUSI (days)",299,299
+1979,238,"Length of Upwelling Season Index @ 39N","LUSI (days)",238,238
+1980,268,"Length of Upwelling Season Index @ 39N","LUSI (days)",268,268
+1981,249,"Length of Upwelling Season Index @ 39N","LUSI (days)",249,249
+1982,189,"Length of Upwelling Season Index @ 39N","LUSI (days)",189,189
+1983,213,"Length of Upwelling Season Index @ 39N","LUSI (days)",213,213
+1984,296,"Length of Upwelling Season Index @ 39N","LUSI (days)",296,296
+1985,298,"Length of Upwelling Season Index @ 39N","LUSI (days)",298,298
+1986,271,"Length of Upwelling Season Index @ 39N","LUSI (days)",271,271
+1987,238,"Length of Upwelling Season Index @ 39N","LUSI (days)",238,238
+1988,348,"Length of Upwelling Season Index @ 39N","LUSI (days)",348,348
+1989,272,"Length of Upwelling Season Index @ 39N","LUSI (days)",272,272
+1990,353,"Length of Upwelling Season Index @ 39N","LUSI (days)",353,353
+1991,285,"Length of Upwelling Season Index @ 39N","LUSI (days)",285,285
+1992,277,"Length of Upwelling Season Index @ 39N","LUSI (days)",277,277
+1993,177,"Length of Upwelling Season Index @ 39N","LUSI (days)",177,177
+1994,282,"Length of Upwelling Season Index @ 39N","LUSI (days)",282,282
+1995,238,"Length of Upwelling Season Index @ 39N","LUSI (days)",238,238
+1996,250,"Length of Upwelling Season Index @ 39N","LUSI (days)",250,250
+1997,272,"Length of Upwelling Season Index @ 39N","LUSI (days)",272,272
+1998,257,"Length of Upwelling Season Index @ 39N","LUSI (days)",257,257
+1999,227,"Length of Upwelling Season Index @ 39N","LUSI (days)",227,227
+2000,260,"Length of Upwelling Season Index @ 39N","LUSI (days)",260,260
+2001,249,"Length of Upwelling Season Index @ 39N","LUSI (days)",249,249
+2002,298,"Length of Upwelling Season Index @ 39N","LUSI (days)",298,298
+2003,234,"Length of Upwelling Season Index @ 39N","LUSI (days)",234,234
+2004,303,"Length of Upwelling Season Index @ 39N","LUSI (days)",303,303
+2005,270,"Length of Upwelling Season Index @ 39N","LUSI (days)",270,270
+2006,239,"Length of Upwelling Season Index @ 39N","LUSI (days)",239,239
+2007,333,"Length of Upwelling Season Index @ 39N","LUSI (days)",333,333
+2008,347,"Length of Upwelling Season Index @ 39N","LUSI (days)",347,347
+2009,279,"Length of Upwelling Season Index @ 39N","LUSI (days)",279,279
+2010,268,"Length of Upwelling Season Index @ 39N","LUSI (days)",268,268
+2011,360,"Length of Upwelling Season Index @ 39N","LUSI (days)",360,360
+2012,275,"Length of Upwelling Season Index @ 39N","LUSI (days)",275,275
+2013,360,"Length of Upwelling Season Index @ 39N","LUSI (days)",360,360
+2014,220,"Length of Upwelling Season Index @ 39N","LUSI (days)",220,220
+2015,292,"Length of Upwelling Season Index @ 39N","LUSI (days)",292,292
+2016,214,"Length of Upwelling Season Index @ 39N","LUSI (days)",214,214
+2017,281,"Length of Upwelling Season Index @ 39N","LUSI (days)",281,281
+2018,294,"Length of Upwelling Season Index @ 39N","LUSI (days)",294,294
+2019,288,"Length of Upwelling Season Index @ 39N","LUSI (days)",288,288
+2020,331,"Length of Upwelling Season Index @ 39N","LUSI (days)",331,331
+2021,278,"Length of Upwelling Season Index @ 39N","LUSI (days)",278,278
+2022,322,"Length of Upwelling Season Index @ 39N","LUSI (days)",322,322
+2023,302,"Length of Upwelling Season Index @ 39N","LUSI (days)",302,302
+2024,248,"Length of Upwelling Season Index @ 39N","LUSI (days)",248,248
+2025,303,"Length of Upwelling Season Index @ 39N","LUSI (days)",303,303
+1967,188,"Length of Upwelling Season Index @ 45N","LUSI (days)",188,188
+1968,195,"Length of Upwelling Season Index @ 45N","LUSI (days)",195,195
+1969,143,"Length of Upwelling Season Index @ 45N","LUSI (days)",143,143
+1970,213,"Length of Upwelling Season Index @ 45N","LUSI (days)",213,213
+1971,188,"Length of Upwelling Season Index @ 45N","LUSI (days)",188,188
+1972,202,"Length of Upwelling Season Index @ 45N","LUSI (days)",202,202
+1973,179,"Length of Upwelling Season Index @ 45N","LUSI (days)",179,179
+1974,195,"Length of Upwelling Season Index @ 45N","LUSI (days)",195,195
+1975,192,"Length of Upwelling Season Index @ 45N","LUSI (days)",192,192
+1976,197,"Length of Upwelling Season Index @ 45N","LUSI (days)",197,197
+1977,220,"Length of Upwelling Season Index @ 45N","LUSI (days)",220,220
+1978,139,"Length of Upwelling Season Index @ 45N","LUSI (days)",139,139
+1979,160,"Length of Upwelling Season Index @ 45N","LUSI (days)",160,160
+1980,160,"Length of Upwelling Season Index @ 45N","LUSI (days)",160,160
+1981,86,"Length of Upwelling Season Index @ 45N","LUSI (days)",86,86
+1982,160,"Length of Upwelling Season Index @ 45N","LUSI (days)",160,160
+1983,161,"Length of Upwelling Season Index @ 45N","LUSI (days)",161,161
+1984,130,"Length of Upwelling Season Index @ 45N","LUSI (days)",130,130
+1985,159,"Length of Upwelling Season Index @ 45N","LUSI (days)",159,159
+1986,139,"Length of Upwelling Season Index @ 45N","LUSI (days)",139,139
+1987,196,"Length of Upwelling Season Index @ 45N","LUSI (days)",196,196
+1988,113,"Length of Upwelling Season Index @ 45N","LUSI (days)",113,113
+1989,193,"Length of Upwelling Season Index @ 45N","LUSI (days)",193,193
+1990,203,"Length of Upwelling Season Index @ 45N","LUSI (days)",203,203
+1991,207,"Length of Upwelling Season Index @ 45N","LUSI (days)",207,207
+1992,147,"Length of Upwelling Season Index @ 45N","LUSI (days)",147,147
+1993,162,"Length of Upwelling Season Index @ 45N","LUSI (days)",162,162
+1994,177,"Length of Upwelling Season Index @ 45N","LUSI (days)",177,177
+1995,166,"Length of Upwelling Season Index @ 45N","LUSI (days)",166,166
+1996,134,"Length of Upwelling Season Index @ 45N","LUSI (days)",134,134
+1997,107,"Length of Upwelling Season Index @ 45N","LUSI (days)",107,107
+1998,192,"Length of Upwelling Season Index @ 45N","LUSI (days)",192,192
+1999,206,"Length of Upwelling Season Index @ 45N","LUSI (days)",206,206
+2000,152,"Length of Upwelling Season Index @ 45N","LUSI (days)",152,152
+2001,175,"Length of Upwelling Season Index @ 45N","LUSI (days)",175,175
+2002,198,"Length of Upwelling Season Index @ 45N","LUSI (days)",198,198
+2003,154,"Length of Upwelling Season Index @ 45N","LUSI (days)",154,154
+2004,179,"Length of Upwelling Season Index @ 45N","LUSI (days)",179,179
+2005,130,"Length of Upwelling Season Index @ 45N","LUSI (days)",130,130
+2006,196,"Length of Upwelling Season Index @ 45N","LUSI (days)",196,196
+2007,155,"Length of Upwelling Season Index @ 45N","LUSI (days)",155,155
+2008,180,"Length of Upwelling Season Index @ 45N","LUSI (days)",180,180
+2009,202,"Length of Upwelling Season Index @ 45N","LUSI (days)",202,202
+2010,104,"Length of Upwelling Season Index @ 45N","LUSI (days)",104,104
+2011,142,"Length of Upwelling Season Index @ 45N","LUSI (days)",142,142
+2012,162,"Length of Upwelling Season Index @ 45N","LUSI (days)",162,162
+2013,162,"Length of Upwelling Season Index @ 45N","LUSI (days)",162,162
+2014,134,"Length of Upwelling Season Index @ 45N","LUSI (days)",134,134
+2015,176,"Length of Upwelling Season Index @ 45N","LUSI (days)",176,176
+2016,161,"Length of Upwelling Season Index @ 45N","LUSI (days)",161,161
+2017,167,"Length of Upwelling Season Index @ 45N","LUSI (days)",167,167
+2018,188,"Length of Upwelling Season Index @ 45N","LUSI (days)",188,188
+2019,143,"Length of Upwelling Season Index @ 45N","LUSI (days)",143,143
+2020,116,"Length of Upwelling Season Index @ 45N","LUSI (days)",116,116
+2021,179,"Length of Upwelling Season Index @ 45N","LUSI (days)",179,179
+2022,135,"Length of Upwelling Season Index @ 45N","LUSI (days)",135,135
+2023,152,"Length of Upwelling Season Index @ 45N","LUSI (days)",152,152
+2024,166,"Length of Upwelling Season Index @ 45N","LUSI (days)",166,166
+2025,171,"Length of Upwelling Season Index @ 45N","LUSI (days)",171,171
+*END_DATA*

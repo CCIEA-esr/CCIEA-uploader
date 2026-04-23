@@ -22,7 +22,6 @@ data/timeseries_data/Seabird_SEFarallon_COMU_diet.csv
 data/timeseries_data/Seabird_SEFarallon_PIGU_diet.csv
 data/timeseries_data/Seabird_SEFarallon_RHAU_diet.csv
 data/timeseries_data/Seabird_Farallon_productivity.csv
-data/erddap_files/
 figures/timeseries_images/test/
 figures/test/
 data/old/

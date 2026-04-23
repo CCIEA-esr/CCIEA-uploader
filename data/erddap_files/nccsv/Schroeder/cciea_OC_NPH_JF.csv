@@ -1,0 +1,79 @@
+*GLOBAL*,Conventions,"COARDS, CF-1.6, ACDD-1.3, NCCSV-1.1"
+*GLOBAL*,history,"last updated: 2026-02-24 00:41:15"
+*GLOBAL*,title,"North Pacific High Area, January - February Mean"
+*GLOBAL*,institution,"NOAA SWFSC/ERD"
+*GLOBAL*,summary,"Variations in large-scale atmospheric forcing influence upwelling dynamics and ecosystem productivity in the California Current System.The area of the North Pacific High (NPH) is characterized by areal extent of the 1020 Pa isobar. Winter values (January - February mean) of the NPH area can be used as an ecosystem pre-conditioning index (Schroeder et al., doi:10.1002/grl.50100).The area of the NPH are calculated from monthly mean sea level pressure (SLP) fields created by the U.S. Navy Fleet Numerical Meterology and Oceanography Center (FNMOC). Monthly SLP data available at <a href="https://coastwatch.pfeg.noaa.gov/erddap/griddap/erdlasFnWPr.html" target="_blank">https://coastwatch.pfeg.noaa.gov/erddap/griddap/erdlasFnWPr.html</a>. The area is the areal extent of the 1020 hPa contour for a given month. The January - February mean is the average of the January and February areas for a given year.; Additional Calculations: The NRT ROMS temperature data downloaded from the UCSC website (<a href="http://oceanmodeling.ucsc.edu/index.html" target="_blank">http://oceanmodeling.ucsc.edu/index.html</a>) has grid points with 2 m temperature data reported as Not-A-Number, these values are  2 m temperatu. Tdata at these grid points are obtained by extrapolating the data to 2 m depth using the interp1d routine from the Python library scipy.interpolate sub-package."
+*GLOBAL*,infoUrl,"https://www.integratedecosystemassessment.noaa.gov/regions/california-current/about-california-current-integrated-ecosystem-assessment"
+*GLOBAL*,contributor_name,"Schroeder"
+*GLOBAL*,contributor_email,"isaac.schroeder@noaa.gov"
+year,*DATA_TYPE*,String
+year,units,"yyyy"
+index,*DATA_TYPE*,float
+index,units,"10^6 km^2"
+index,long_name,"NPH Area Jan Feb"
+timeseries,*DATA_TYPE*,String
+metric,*DATA_TYPE*,String
+SEup,*DATA_TYPE*,float
+SElo,*DATA_TYPE*,float
+*END_METADATA*
+"year","index","timeseries","metric","SEup","SElo"
+1967,4.48253262715804,"North Pacific High January - February Area","Area (10^6 km^2)",5.71543233820722,3.24963291610885
+1968,0.45825428039984,"North Pacific High January - February Area","Area (10^6 km^2)",0.916508560799679,0
+1969,1.24884757183082,"North Pacific High January - February Area","Area (10^6 km^2)",2.48694622575898,0.0107489179026616
+1970,0.0814999124435243,"North Pacific High January - February Area","Area (10^6 km^2)",0.162999824887049,0
+1971,4.28806364645403,"North Pacific High January - February Area","Area (10^6 km^2)",4.93861689854447,3.63751039436359
+1972,2.26612600488172,"North Pacific High January - February Area","Area (10^6 km^2)",3.90338940412003,0.628862605643401
+1973,1.41867143108199,"North Pacific High January - February Area","Area (10^6 km^2)",1.56602184903711,1.27132101312688
+1974,3.07650887411432,"North Pacific High January - February Area","Area (10^6 km^2)",5.86780661825706,0.285211129971576
+1975,3.46937223006794,"North Pacific High January - February Area","Area (10^6 km^2)",5.32567339096457,1.61307106917131
+1976,4.19674930208701,"North Pacific High January - February Area","Area (10^6 km^2)",5.0996928855434,3.29380571863062
+1977,2.3670352324548,"North Pacific High January - February Area","Area (10^6 km^2)",3.71870054638087,1.01536991852872
+1978,0.0329910635801668,"North Pacific High January - February Area","Area (10^6 km^2)",0.0659821271603336,0
+1979,2.58771742199793,"North Pacific High January - February Area","Area (10^6 km^2)",4.56320067664276,0.612234167353102
+1980,0.00569756202654271,"North Pacific High January - February Area","Area (10^6 km^2)",0.0113951240530854,0
+1981,0.413496605114168,"North Pacific High January - February Area","Area (10^6 km^2)",0.804996944446166,0.0219962657821706
+1982,2.25277075067711,"North Pacific High January - February Area","Area (10^6 km^2)",3.53655661834608,0.968984883008143
+1983,0.0166118025239188,"North Pacific High January - February Area","Area (10^6 km^2)",0.0219962657821706,0.0112273392656669
+1984,3.67436077770278,"North Pacific High January - February Area","Area (10^6 km^2)",4.32569767070801,3.02302388469756
+1985,3.06992315115486,"North Pacific High January - February Area","Area (10^6 km^2)",4.98935664301268,1.15048965929704
+1986,0.0273673896404123,"North Pacific High January - February Area","Area (10^6 km^2)",0.0325504440971499,0.0221843351836746
+1987,1.52243745186124,"North Pacific High January - February Area","Area (10^6 km^2)",3.04487490372248,0
+1988,2.18542376041438,"North Pacific High January - February Area","Area (10^6 km^2)",2.95620997608802,1.41463754474075
+1989,5.62765035647577,"North Pacific High January - February Area","Area (10^6 km^2)",6.87831646268736,4.37698425026418
+1990,5.01690097775804,"North Pacific High January - February Area","Area (10^6 km^2)",5.70282902036847,4.33097293514762
+1991,0.989322199790552,"North Pacific High January - February Area","Area (10^6 km^2)",1.52377595877869,0.454868440802418
+1992,0.264064014456725,"North Pacific High January - February Area","Area (10^6 km^2)",0.494716354464108,0.0334116744493415
+1993,0.00561366963283346,"North Pacific High January - February Area","Area (10^6 km^2)",0.0112273392656669,0
+1994,2.07335885768747,"North Pacific High January - February Area","Area (10^6 km^2)",2.2959327156895,1.85078499968544
+1995,0.0594009697328203,"North Pacific High January - February Area","Area (10^6 km^2)",0.0733858148558881,0.0454161246097524
+1996,0.958314758451944,"North Pacific High January - February Area","Area (10^6 km^2)",1.84953921676373,0.0670903001401586
+1997,2.93034608287221,"North Pacific High January - February Area","Area (10^6 km^2)",4.83255070596213,1.02814145978228
+1998,0.795194050552076,"North Pacific High January - February Area","Area (10^6 km^2)",1.59038810110415,0
+1999,5.21827388179764,"North Pacific High January - February Area","Area (10^6 km^2)",5.59485581239887,4.8416919511964
+2000,4.1288613549381,"North Pacific High January - February Area","Area (10^6 km^2)",5.00672208900195,3.25100062087425
+2001,3.91391407528479,"North Pacific High January - February Area","Area (10^6 km^2)",4.35054659366017,3.47728155690941
+2002,4.16947238096741,"North Pacific High January - February Area","Area (10^6 km^2)",4.74979078956467,3.58915397237014
+2003,1.04536208182841,"North Pacific High January - February Area","Area (10^6 km^2)",1.80952146577462,0.281202697882196
+2004,1.30686405919329,"North Pacific High January - February Area","Area (10^6 km^2)",1.56480464452173,1.04892347386485
+2005,0.157422331528818,"North Pacific High January - February Area","Area (10^6 km^2)",0.160890813140975,0.15395384991666
+2006,5.12113669349076,"North Pacific High January - February Area","Area (10^6 km^2)",5.32817900477191,4.91409438220961
+2007,5.04361219664247,"North Pacific High January - February Area","Area (10^6 km^2)",5.35843645650564,4.7287879367793
+2008,5.22963279664263,"North Pacific High January - February Area","Area (10^6 km^2)",5.24967871413174,5.20958687915352
+2009,5.2279608200088,"North Pacific High January - February Area","Area (10^6 km^2)",5.50681047477813,4.94911116523947
+2010,0.0997304415150004,"North Pacific High January - February Area","Area (10^6 km^2)",0.154818499244256,0.0446423837857452
+2011,4.30808256975682,"North Pacific High January - February Area","Area (10^6 km^2)",5.76939955182418,2.84676558768945
+2012,4.40589400286346,"North Pacific High January - February Area","Area (10^6 km^2)",5.23087009033444,3.58091791539247
+2013,5.8033111469999,"North Pacific High January - February Area","Area (10^6 km^2)",7.09358273087644,4.51303956312336
+2014,0.898627525419006,"North Pacific High January - February Area","Area (10^6 km^2)",1.65774013838759,0.13951491245042
+2015,0.600821431238546,"North Pacific High January - February Area","Area (10^6 km^2)",1.18035623020941,0.0212866322676849
+2016,0.691330092332413,"North Pacific High January - February Area","Area (10^6 km^2)",1.38266018466483,0
+2017,0.296342809673526,"North Pacific High January - February Area","Area (10^6 km^2)",0.592685619347053,0
+2018,3.68222499998247,"North Pacific High January - February Area","Area (10^6 km^2)",5.29773155266823,2.06671844729671
+2019,1.49581431606829,"North Pacific High January - February Area","Area (10^6 km^2)",2.68579032396868,0.305838308167907
+2020,5.80205956175164,"North Pacific High January - February Area","Area (10^6 km^2)",6.38975558745924,5.21436353604403
+2021,5.08757509136269,"North Pacific High January - February Area","Area (10^6 km^2)",5.84232210518641,4.33282807753898
+2022,3.76658206044913,"North Pacific High January - February Area","Area (10^6 km^2)",5.11005895962505,2.42310516127322
+2023,3.98704763717981,"North Pacific High January - February Area","Area (10^6 km^2)",7.02274540511374,0.951349869245878
+2024,1.63791791449816,"North Pacific High January - February Area","Area (10^6 km^2)",2.41039994320834,0.865435885787982
+2025,2.79562427277628,"North Pacific High January - February Area","Area (10^6 km^2)",3.75300575520761,1.83824279034495
+*END_DATA*

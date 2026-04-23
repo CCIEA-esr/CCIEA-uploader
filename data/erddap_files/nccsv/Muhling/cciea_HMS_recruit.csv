@@ -1,0 +1,283 @@
+*GLOBAL*,Conventions,"COARDS, CF-1.6, ACDD-1.3, NCCSV-1.1"
+*GLOBAL*,history,"last updated: 2026-02-24 00:41:15"
+*GLOBAL*,title,"Highly Migratory Species Recruitment"
+*GLOBAL*,institution,"NOAA SWFSC/FRD"
+*GLOBAL*,summary,"Estimates of annual recruitment are derived from the stock assessment model. The latest (2023) stock assessment report was completed through the International Scientific Committee for Tuna and Tuna-like Species in the North Pacific Ocean (ISC). North Pacific albacore are considered to be one stock throughout the North Pacific Ocean. They are fished throughout their range by multiple countries, mostly using surface gear (troll and pole and line), as well as pelagic longlines and other gears. Their population dynamics are assessed using an age-, length- and sex-structured model (Stock Synthesis v3). The assessment model used was similar to that in the 2017 benchmark assessment, with four important changes: 1) adjusting coefficients of variation for the abundance index in 2020-21 to better reflect uncertainty surrounding disruptions from the COVID-19 pandemic, 2) adjustments to Japan longline fleet structure, 3) adjustments to adult abundance indices, and 4) adjustments to age selectivity. The full assessment is available from <a href="http://isc.fra.go.jp/reports/stock_assessments.html" target="_blank">http://isc.fra.go.jp/reports/stock_assessments.html</a>. The next benchmark assessment is expected in 2026.This index shows modeled recruitment of bigeye tuna from the 2024 benchmark stock assessment report, which was completed through the Inter-American Tropical Tuna Commission (IATTC), using Stock Synthesis V3. The assessment assumes that there is one stock of bigeye in the eastern Pacific. The reference models for the 2024 benchmark assessment of bigeye were built based on three overarching hypotheses. The regime shift in recruitment evident in the last assessment has largely disappeared, resulting from improvements to the assessment model. The bimodality in model results from the last assessment has also been resolved. Overall results of a risk analysis, based on thirty-three converged reference models, show a 46.6% probability that the spawning biomass at the beginning of 2024 is below the target reference point, and a 24.7% probability that the fishing mortality in 2021-2023 is above the target reference point. Information and model outputs were provided by Haikun Xu and Carolina Minte-Vera (IATTC). More information is available at <a href="https://www.iattc.org/en-US/Event/DetailMeeting/Meeting-SAC-15" target="_blank">https://www.iattc.org/en-US/Event/DetailMeeting/Meeting-SAC-15</a>.Estimates of annual recruitment are derived from the stock assessment model. The modeled spawning stock biomass from the latest (2021) stock assessment report was completed through the International Scientific Committee for Tuna and Tuna-like Species in the North Pacific Ocean (ISC). Blue marlin are considered to be one stock throughout the Pacific Ocean, and the majority of catch is from pelagic longlines. Their population dynamics are assessed using an age-, length- and sex-structured model (Stock Synthesis v3). The full assessment is available from <a href="http://isc.fra.go.jp/reports/stock_assessments.html" target="_blank">http://isc.fra.go.jp/reports/stock_assessments.html</a>.This index represents modeled recruitment from the latest (2024) stock assessment report, completed through the International Scientific Committee for Tuna and Tuna-like Species in the North Pacific Ocean (ISC). Pacific bluefin tuna are considered to be one stock throughout the Pacific Ocean, and are fished throughout their range by multiple countries and fishing gears. At present, the majority are caught by purse seine gear. Their population dynamics are assessed using a fully integrated age-structured model (Stock Synthesis v3). The full assessment is available from <a href="http://isc.fra.go.jp/reports/stock_assessments.html" target="_blank">http://isc.fra.go.jp/reports/stock_assessments.html</a>, and the assessment lead is Hui-Hua Lee (NOAA Fisheries). The next benchmark assessment is expected in 2026. Annual recruitment is derived from the stock assessment model, and is primarily indexed by catches from troll fisheries on age-0 juvenile fish near Japan.This index represents annual recruitment for the North Pacific swordfish stock from the latest (2023) stock assessment report, completed through the International Scientific Committee for Tuna and Tuna-like Species in the North Pacific Ocean (ISC). Stock definitions for swordfish have changed since the last assessment in 2018. The North Pacific swordfish stock area is now defined to be the waters of the North Pacific Ocean contained in the Western and Central Pacific Fisheries Commission Convention Area bounded by the equator and the waters of the Inter-American Tropical Tuna Commission Convention Area north of 10N. The highest catches of swordfish in the North Pacific are from pelagic longline gears. The North Pacific stock assessment uses Stock Synthesis, and the full assessment is available from <a href="http://isc.fra.go.jp/reports/stock_assessments.html" target="_blank">http://isc.fra.go.jp/reports/stock_assessments.html</a>.This index shows recruitment of skipjack tuna from the 2024 stock assessment model. Skipjack tuna are assumed to comprise one contiguous stock throughout the Pacific ocean. In the eastern Pacific, they are primarily fished in tropical waters, using purse seine gear. Skipjack have historically been difficult to assess with standard stock assessment methods, due to high and variable productivity, and uncertainties in natural mortality and growth. The 2024 assessment used an integrated statistical age-structured catch-at-length model in Stock Synthesis. A conservative proxy for the target biomass of spawning biomass ratio (SBR) = 0.3, and the fishing mortality corresponding to that biomass, were used as the target reference points. The reference model estimated that the current fishing mortality is below the level corresponding to the Maximum Sustainable Yield (MSY) proxy and the spawning biomass is above the dynamic level corresponding to the MSY proxy. In addition, the spawning biomass does not have a 10% or more probability of exceeding the limit. The stock assessment is completed through the Inter-American Tropical Tuna Commission (IATTC). Indices were provided by Rujia Bi and Carolina Minte-Vera (IATTC). More information is available at <a href="https://www.iattc.org/en-US/Event/DetailMeeting/Meeting-SAC-15" target="_blank">https://www.iattc.org/en-US/Event/DetailMeeting/Meeting-SAC-15</a>.This index shows annual recruitment of yellowfin tuna in the Northeast Tropical EPI spatial unit, which is a subset of the 2025 benchmark stock assessment for yellowfin tuna in the EPO(https://www.iattc.org/GetAttachment/11b8757d-ad0f-435c-b2c6-40f5658c56c0/SAC-16-03_Yellowfin-benchmark-assessment---2025.pdf)."
+*GLOBAL*,infoUrl,"http://isc.fra.go.jp/reports/stock_assessments.html"
+*GLOBAL*,contributor_name,"Muhling"
+*GLOBAL*,contributor_email,"barbara.muhling@noaa.gov"
+year,*DATA_TYPE*,String
+year,units,"yyyy"
+index,*DATA_TYPE*,float
+index,units,"thousands of fish"
+index,long_name,"Recruitment"
+timeseries,*DATA_TYPE*,String
+metric,*DATA_TYPE*,String
+SEup,*DATA_TYPE*,float
+SElo,*DATA_TYPE*,float
+*END_METADATA*
+"year","index","timeseries","metric","SEup","SElo"
+1994,239937,"Albacore:Recruits (x1000)","Recruits (x1000)",282401,197473
+1995,149427,"Albacore:Recruits (x1000)","Recruits (x1000)",181064.1,117789.9
+1996,232014,"Albacore:Recruits (x1000)","Recruits (x1000)",275617.6,188410.4
+1997,195155,"Albacore:Recruits (x1000)","Recruits (x1000)",232009.4,158300.6
+1998,127084,"Albacore:Recruits (x1000)","Recruits (x1000)",154747.5,99420.5
+1999,328327,"Albacore:Recruits (x1000)","Recruits (x1000)",370697.9,285956.1
+2000,125091,"Albacore:Recruits (x1000)","Recruits (x1000)",149198.9,100983.1
+2001,214979,"Albacore:Recruits (x1000)","Recruits (x1000)",245643.7,184314.3
+2002,115502,"Albacore:Recruits (x1000)","Recruits (x1000)",132596.4,98407.6
+2003,226092,"Albacore:Recruits (x1000)","Recruits (x1000)",260007.1,192176.9
+2004,258194,"Albacore:Recruits (x1000)","Recruits (x1000)",295099,221289
+2005,178097,"Albacore:Recruits (x1000)","Recruits (x1000)",205681.5,150512.5
+2006,186195,"Albacore:Recruits (x1000)","Recruits (x1000)",216389.5,156000.5
+2007,162615,"Albacore:Recruits (x1000)","Recruits (x1000)",189417.2,135812.8
+2008,225067,"Albacore:Recruits (x1000)","Recruits (x1000)",260170.7,189963.3
+2009,201792,"Albacore:Recruits (x1000)","Recruits (x1000)",233709,169875
+2010,230510,"Albacore:Recruits (x1000)","Recruits (x1000)",265643.7,195376.3
+2011,153820,"Albacore:Recruits (x1000)","Recruits (x1000)",180101.3,127538.7
+2012,155274,"Albacore:Recruits (x1000)","Recruits (x1000)",183867.1,126680.9
+2013,221188,"Albacore:Recruits (x1000)","Recruits (x1000)",261245.5,181130.5
+2014,124967,"Albacore:Recruits (x1000)","Recruits (x1000)",152297.1,97636.9
+2015,107914,"Albacore:Recruits (x1000)","Recruits (x1000)",135539.6,80288.4
+2016,235903,"Albacore:Recruits (x1000)","Recruits (x1000)",294993.3,176812.7
+2017,432503,"Albacore:Recruits (x1000)","Recruits (x1000)",554237,310769
+2018,217506,"Albacore:Recruits (x1000)","Recruits (x1000)",310273.2,124738.8
+2019,222047,"Albacore:Recruits (x1000)","Recruits (x1000)",324700,119394
+2020,212904,"Albacore:Recruits (x1000)","Recruits (x1000)",316580,109228
+2021,210015,"Albacore:Recruits (x1000)","Recruits (x1000)",312093,107937
+1979,122433.1745,"Bigeye tuna:Recuitment","Recruitment",235625.7452,61083.67961
+1980,82105.80243,"Bigeye tuna:Recuitment","Recruitment",178082.1073,36680.47954
+1981,67984.89522,"Bigeye tuna:Recuitment","Recruitment",137310.4913,32208.96149
+1982,142792.6675,"Bigeye tuna:Recuitment","Recruitment",260406.7212,66836.19138
+1983,129248.6431,"Bigeye tuna:Recuitment","Recruitment",250196.0276,55270.79894
+1984,75199.28944,"Bigeye tuna:Recuitment","Recruitment",135944.229,39735.48913
+1985,47817.27426,"Bigeye tuna:Recuitment","Recruitment",92041.97482,24587.66074
+1986,85378.0203,"Bigeye tuna:Recuitment","Recruitment",157944.6604,44801.63889
+1987,84074.29685,"Bigeye tuna:Recuitment","Recruitment",153276.6902,44355.85513
+1988,87568.57203,"Bigeye tuna:Recuitment","Recruitment",162754.7914,48050.12424
+1989,63635.41137,"Bigeye tuna:Recuitment","Recruitment",111301.721,35954.15739
+1990,52138.54913,"Bigeye tuna:Recuitment","Recruitment",93901.34605,29732.61885
+1991,53268.62871,"Bigeye tuna:Recuitment","Recruitment",92967.01204,30031.43664
+1992,60615.44559,"Bigeye tuna:Recuitment","Recruitment",108012.258,36315.50267
+1993,74071.26996,"Bigeye tuna:Recuitment","Recruitment",128027.4535,46630.02845
+1994,86020.53978,"Bigeye tuna:Recuitment","Recruitment",145801.2978,57526.44304
+1995,67357.55313,"Bigeye tuna:Recuitment","Recruitment",108012.258,43044.9415
+1996,99280.91188,"Bigeye tuna:Recuitment","Recruitment",166042.6563,66836.19138
+1997,72058.23132,"Bigeye tuna:Recuitment","Recruitment",121783.4809,46630.02845
+1998,128496.8529,"Bigeye tuna:Recuitment","Recruitment",217509.9771,90219.4216
+1999,75897.75456,"Bigeye tuna:Recuitment","Recruitment",129314.1508,53103.59992
+2000,50813.72933,"Bigeye tuna:Recuitment","Recruitment",85819.36849,35242.21737
+2001,63019.08581,"Bigeye tuna:Recuitment","Recruitment",100709.9619,41772.77122
+2002,106286.4587,"Bigeye tuna:Recuitment","Recruitment",181679.6045,74607.77476
+2003,48535.75419,"Bigeye tuna:Recuitment","Recruitment",82454.34292,31571.18132
+2004,87319.46415,"Bigeye tuna:Recuitment","Recruitment",148746.6794,61697.5808
+2005,95643.39784,"Bigeye tuna:Recuitment","Recruitment",154817.1466,67507.90627
+2006,77097.9173,"Bigeye tuna:Recuitment","Recruitment",130613.7796,54176.3638
+2007,57533.49954,"Bigeye tuna:Recuitment","Recruitment",98715.77101,39735.48913
+2008,62503.91074,"Bigeye tuna:Recuitment","Recruitment",101722.1138,44355.85513
+2009,64157.44742,"Bigeye tuna:Recuitment","Recruitment",106937.5181,46166.05192
+2010,66140.04571,"Bigeye tuna:Recuitment","Recruitment",109097.7993,47572.01751
+2011,55081.21549,"Bigeye tuna:Recuitment","Recruitment",92041.97482,38948.67372
+2012,77382.52658,"Bigeye tuna:Recuitment","Recruitment",128027.4535,56387.34315
+2013,68542.85347,"Bigeye tuna:Recuitment","Recruitment",114691.3631,49020.80114
+2014,52441.24088,"Bigeye tuna:Recuitment","Recruitment",88432.95736,37049.12449
+2015,57975.78353,"Bigeye tuna:Recuitment","Recruitment",95798.27907,42192.59455
+2016,67915.96658,"Bigeye tuna:Recuitment","Recruitment",109097.7993,51021.37798
+2017,76273.42709,"Bigeye tuna:Recuitment","Recruitment",123007.4252,54720.8453
+2018,85068.28632,"Bigeye tuna:Recuitment","Recruitment",140084.3472,61697.5808
+2019,53839.79103,"Bigeye tuna:Recuitment","Recruitment",91126.14187,36680.47954
+2020,54013.64082,"Bigeye tuna:Recuitment","Recruitment",92967.01204,36680.47954
+2021,63946.32723,"Bigeye tuna:Recuitment","Recruitment",114691.3631,40134.83743
+2022,57523.46364,"Bigeye tuna:Recuitment","Recruitment",113550.1649,31571.18132
+2023,96263.88577,"Bigeye tuna:Recuitment","Recruitment",202804.9584,46630.02845
+1983,11827,"Bluefin tuna:Recruitment","Recruitment",13193.46,10460.54
+1984,8176,"Bluefin tuna:Recruitment","Recruitment",10333.05,6018.95
+1985,9207,"Bluefin tuna:Recruitment","Recruitment",11461.71,6952.29
+1986,8094,"Bluefin tuna:Recruitment","Recruitment",10033.28,6154.72
+1987,6956,"Bluefin tuna:Recruitment","Recruitment",8674.98,5237.02
+1988,8977,"Bluefin tuna:Recruitment","Recruitment",10598.3,7355.7
+1989,4187,"Bluefin tuna:Recruitment","Recruitment",5501.67,2872.33
+1990,21138,"Bluefin tuna:Recruitment","Recruitment",22980.77,19295.23
+1991,7400,"Bluefin tuna:Recruitment","Recruitment",9201.93,5598.07
+1992,4375,"Bluefin tuna:Recruitment","Recruitment",5383.38,3366.62
+1993,3985,"Bluefin tuna:Recruitment","Recruitment",4760.191,3209.809
+1994,30951,"Bluefin tuna:Recruitment","Recruitment",32569.41,29332.59
+1995,15247,"Bluefin tuna:Recruitment","Recruitment",16913.55,13580.45
+1996,17967,"Bluefin tuna:Recruitment","Recruitment",19221.41,16712.59
+1997,11344,"Bluefin tuna:Recruitment","Recruitment",12539.25,10148.75
+1998,15469,"Bluefin tuna:Recruitment","Recruitment",16766.1,14171.9
+1999,21993,"Bluefin tuna:Recruitment","Recruitment",23351,20635
+2000,13910,"Bluefin tuna:Recruitment","Recruitment",15073.82,12746.18
+2001,16944,"Bluefin tuna:Recruitment","Recruitment",17929.831,15958.169
+2002,13375,"Bluefin tuna:Recruitment","Recruitment",14407.36,12342.64
+2003,6748,"Bluefin tuna:Recruitment","Recruitment",7576.03,5919.97
+2004,27619,"Bluefin tuna:Recruitment","Recruitment",28690.35,26547.65
+2005,15323,"Bluefin tuna:Recruitment","Recruitment",16432.64,14213.36
+2006,13854,"Bluefin tuna:Recruitment","Recruitment",14798.486,12909.514
+2007,23619,"Bluefin tuna:Recruitment","Recruitment",24584.647,22653.353
+2008,21038,"Bluefin tuna:Recruitment","Recruitment",22056.61,20019.39
+2009,7983,"Bluefin tuna:Recruitment","Recruitment",8838.878,7127.122
+2010,17593,"Bluefin tuna:Recruitment","Recruitment",18557.757,16628.243
+2011,13822,"Bluefin tuna:Recruitment","Recruitment",14740.911,12903.089
+2012,7663,"Bluefin tuna:Recruitment","Recruitment",8438.436,6887.564
+2013,14239,"Bluefin tuna:Recruitment","Recruitment",15279.81,13198.19
+2014,4882,"Bluefin tuna:Recruitment","Recruitment",5639.164,4124.836
+2015,13367,"Bluefin tuna:Recruitment","Recruitment",15050.46,11683.54
+2016,16040,"Bluefin tuna:Recruitment","Recruitment",18643.54,13436.46
+2017,11417,"Bluefin tuna:Recruitment","Recruitment",13579.88,9254.12
+2018,9991,"Bluefin tuna:Recruitment","Recruitment",12006.12,7975.88
+2019,7485,"Bluefin tuna:Recruitment","Recruitment",9370.74,5599.26
+2020,6828,"Bluefin tuna:Recruitment","Recruitment",8894.95,4761.05
+2021,8275,"Bluefin tuna:Recruitment","Recruitment",11360.08,5189.92
+2022,11467,"Bluefin tuna:Recruitment","Recruitment",17553.54,5380.46
+1984,1409273,"Yellowfin tuna:Recruitment","Recruitment",3079301,654547.2
+1985,1198399,"Yellowfin tuna:Recruitment","Recruitment",2355989,705631.5
+1986,1297837,"Yellowfin tuna:Recruitment","Recruitment",2637992,674793.9
+1987,1209255,"Yellowfin tuna:Recruitment","Recruitment",2319956,716673.9
+1988,1363102,"Yellowfin tuna:Recruitment","Recruitment",2698211,795284.8
+1989,1294066,"Yellowfin tuna:Recruitment","Recruitment",2654029,681214.8
+1990,1178998,"Yellowfin tuna:Recruitment","Recruitment",2468266,591232.6
+1991,1032157,"Yellowfin tuna:Recruitment","Recruitment",2031767,562535.9
+1992,1304619,"Yellowfin tuna:Recruitment","Recruitment",2651291,699801
+1993,1476699,"Yellowfin tuna:Recruitment","Recruitment",3001893,783078
+1994,871238.8,"Yellowfin tuna:Recruitment","Recruitment",1657758,520498.5
+1995,1063234,"Yellowfin tuna:Recruitment","Recruitment",1975619,667294.4
+1996,1132275,"Yellowfin tuna:Recruitment","Recruitment",2159202,644302.5
+1997,1030252,"Yellowfin tuna:Recruitment","Recruitment",1857180,631357.1
+1998,1369656,"Yellowfin tuna:Recruitment","Recruitment",2295236,810707.4
+1999,2035279,"Yellowfin tuna:Recruitment","Recruitment",3308169,1244589
+2000,1094839,"Yellowfin tuna:Recruitment","Recruitment",1763885,727945.7
+2001,1142496,"Yellowfin tuna:Recruitment","Recruitment",1922451,767977.3
+2002,922452,"Yellowfin tuna:Recruitment","Recruitment",1589854,608436.3
+2003,924689.3,"Yellowfin tuna:Recruitment","Recruitment",1558045,621738.4
+2004,598155.6,"Yellowfin tuna:Recruitment","Recruitment",1032929,384056.3
+2005,825547.1,"Yellowfin tuna:Recruitment","Recruitment",1480983,528028.7
+2006,973117.9,"Yellowfin tuna:Recruitment","Recruitment",1855196,560720.5
+2007,794432.2,"Yellowfin tuna:Recruitment","Recruitment",1398207,528500.5
+2008,856294,"Yellowfin tuna:Recruitment","Recruitment",1486857,562678.2
+2009,781654.9,"Yellowfin tuna:Recruitment","Recruitment",1399636,494584.8
+2010,790273.5,"Yellowfin tuna:Recruitment","Recruitment",1356377,534279.8
+2011,795319.1,"Yellowfin tuna:Recruitment","Recruitment",1382154,521701.1
+2012,757525.6,"Yellowfin tuna:Recruitment","Recruitment",1273070,502494
+2013,711983.7,"Yellowfin tuna:Recruitment","Recruitment",1108335,502941.8
+2014,608772.9,"Yellowfin tuna:Recruitment","Recruitment",911885,423367.8
+2015,842962.6,"Yellowfin tuna:Recruitment","Recruitment",1267655,617476
+2016,714256.1,"Yellowfin tuna:Recruitment","Recruitment",1107587,487459.8
+2017,808253.7,"Yellowfin tuna:Recruitment","Recruitment",1243886,563772.3
+2018,978221.8,"Yellowfin tuna:Recruitment","Recruitment",1798578,488062.5
+2019,1486848,"Yellowfin tuna:Recruitment","Recruitment",3226259,246326.1
+1975,777,"North Pacific swordfish:Recruits (x1000)","Recruits (x1000)",1050,504
+1976,768,"North Pacific swordfish:Recruits (x1000)","Recruits (x1000)",1023,513
+1977,704,"North Pacific swordfish:Recruits (x1000)","Recruits (x1000)",930,478
+1978,596,"North Pacific swordfish:Recruits (x1000)","Recruits (x1000)",788,404
+1979,683,"North Pacific swordfish:Recruits (x1000)","Recruits (x1000)",916,450
+1980,1169,"North Pacific swordfish:Recruits (x1000)","Recruits (x1000)",1552,786
+1981,937,"North Pacific swordfish:Recruits (x1000)","Recruits (x1000)",1283,591
+1982,772,"North Pacific swordfish:Recruits (x1000)","Recruits (x1000)",1056,488
+1983,1430,"North Pacific swordfish:Recruits (x1000)","Recruits (x1000)",1824,1036
+1984,1017,"North Pacific swordfish:Recruits (x1000)","Recruits (x1000)",1300,734
+1985,933,"North Pacific swordfish:Recruits (x1000)","Recruits (x1000)",1168,698
+1986,888,"North Pacific swordfish:Recruits (x1000)","Recruits (x1000)",1163,613
+1987,825,"North Pacific swordfish:Recruits (x1000)","Recruits (x1000)",1039,611
+1988,813,"North Pacific swordfish:Recruits (x1000)","Recruits (x1000)",1014,612
+1989,675,"North Pacific swordfish:Recruits (x1000)","Recruits (x1000)",892,458
+1990,711,"North Pacific swordfish:Recruits (x1000)","Recruits (x1000)",933,489
+1991,777,"North Pacific swordfish:Recruits (x1000)","Recruits (x1000)",1007,547
+1992,727,"North Pacific swordfish:Recruits (x1000)","Recruits (x1000)",939,515
+1993,673,"North Pacific swordfish:Recruits (x1000)","Recruits (x1000)",858,488
+1994,698,"North Pacific swordfish:Recruits (x1000)","Recruits (x1000)",855,541
+1995,1323,"North Pacific swordfish:Recruits (x1000)","Recruits (x1000)",1473,1173
+1996,752,"North Pacific swordfish:Recruits (x1000)","Recruits (x1000)",851,653
+1997,708,"North Pacific swordfish:Recruits (x1000)","Recruits (x1000)",802,614
+1998,1202,"North Pacific swordfish:Recruits (x1000)","Recruits (x1000)",1336,1068
+1999,822,"North Pacific swordfish:Recruits (x1000)","Recruits (x1000)",931,713
+2000,707,"North Pacific swordfish:Recruits (x1000)","Recruits (x1000)",806,608
+2001,729,"North Pacific swordfish:Recruits (x1000)","Recruits (x1000)",827,631
+2002,881,"North Pacific swordfish:Recruits (x1000)","Recruits (x1000)",989,773
+2003,1019,"North Pacific swordfish:Recruits (x1000)","Recruits (x1000)",1140,898
+2004,1192,"North Pacific swordfish:Recruits (x1000)","Recruits (x1000)",1326,1058
+2005,851,"North Pacific swordfish:Recruits (x1000)","Recruits (x1000)",961,741
+2006,819,"North Pacific swordfish:Recruits (x1000)","Recruits (x1000)",920,718
+2007,791,"North Pacific swordfish:Recruits (x1000)","Recruits (x1000)",887,695
+2008,746,"North Pacific swordfish:Recruits (x1000)","Recruits (x1000)",837,655
+2009,660,"North Pacific swordfish:Recruits (x1000)","Recruits (x1000)",744,576
+2010,774,"North Pacific swordfish:Recruits (x1000)","Recruits (x1000)",867,681
+2011,728,"North Pacific swordfish:Recruits (x1000)","Recruits (x1000)",820,636
+2012,758,"North Pacific swordfish:Recruits (x1000)","Recruits (x1000)",854,662
+2013,896,"North Pacific swordfish:Recruits (x1000)","Recruits (x1000)",1008,784
+2014,971,"North Pacific swordfish:Recruits (x1000)","Recruits (x1000)",1094,848
+2015,1016,"North Pacific swordfish:Recruits (x1000)","Recruits (x1000)",1146,886
+2016,964,"North Pacific swordfish:Recruits (x1000)","Recruits (x1000)",1094,834
+2017,747,"North Pacific swordfish:Recruits (x1000)","Recruits (x1000)",856,638
+2018,783,"North Pacific swordfish:Recruits (x1000)","Recruits (x1000)",896,670
+2019,739,"North Pacific swordfish:Recruits (x1000)","Recruits (x1000)",855,623
+2020,625,"North Pacific swordfish:Recruits (x1000)","Recruits (x1000)",737,513
+2021,633,"North Pacific swordfish:Recruits (x1000)","Recruits (x1000)",755,511
+1971,NaN,"Blue marlin:Recruits (x1000)","Recruits (x1000)",NaN,NaN
+1972,958.4886,"Blue marlin:Recruits (x1000)","Recruits (x1000)",NaN,NaN
+1973,904.7823,"Blue marlin:Recruits (x1000)","Recruits (x1000)",NaN,NaN
+1974,505.091,"Blue marlin:Recruits (x1000)","Recruits (x1000)",NaN,NaN
+1975,632.4314,"Blue marlin:Recruits (x1000)","Recruits (x1000)",NaN,NaN
+1976,782.9263,"Blue marlin:Recruits (x1000)","Recruits (x1000)",NaN,NaN
+1977,949.3982,"Blue marlin:Recruits (x1000)","Recruits (x1000)",NaN,NaN
+1978,1010.475,"Blue marlin:Recruits (x1000)","Recruits (x1000)",NaN,NaN
+1979,1009.5503,"Blue marlin:Recruits (x1000)","Recruits (x1000)",NaN,NaN
+1980,824.3738,"Blue marlin:Recruits (x1000)","Recruits (x1000)",NaN,NaN
+1981,1031.9901,"Blue marlin:Recruits (x1000)","Recruits (x1000)",NaN,NaN
+1982,1305.5718,"Blue marlin:Recruits (x1000)","Recruits (x1000)",NaN,NaN
+1983,874.9064,"Blue marlin:Recruits (x1000)","Recruits (x1000)",NaN,NaN
+1984,903.1298,"Blue marlin:Recruits (x1000)","Recruits (x1000)",NaN,NaN
+1985,849.2683,"Blue marlin:Recruits (x1000)","Recruits (x1000)",NaN,NaN
+1986,1055.759,"Blue marlin:Recruits (x1000)","Recruits (x1000)",NaN,NaN
+1987,1035.1919,"Blue marlin:Recruits (x1000)","Recruits (x1000)",NaN,NaN
+1988,1021.289,"Blue marlin:Recruits (x1000)","Recruits (x1000)",NaN,NaN
+1989,1131.8804,"Blue marlin:Recruits (x1000)","Recruits (x1000)",NaN,NaN
+1990,963.7727,"Blue marlin:Recruits (x1000)","Recruits (x1000)",NaN,NaN
+1991,1072.3552,"Blue marlin:Recruits (x1000)","Recruits (x1000)",NaN,NaN
+1992,904.6476,"Blue marlin:Recruits (x1000)","Recruits (x1000)",NaN,NaN
+1993,1031.6584,"Blue marlin:Recruits (x1000)","Recruits (x1000)",NaN,NaN
+1994,563.4596,"Blue marlin:Recruits (x1000)","Recruits (x1000)",NaN,NaN
+1995,1138.5339,"Blue marlin:Recruits (x1000)","Recruits (x1000)",NaN,NaN
+1996,805.7914,"Blue marlin:Recruits (x1000)","Recruits (x1000)",NaN,NaN
+1997,935.7153,"Blue marlin:Recruits (x1000)","Recruits (x1000)",NaN,NaN
+1998,598.5051,"Blue marlin:Recruits (x1000)","Recruits (x1000)",NaN,NaN
+1999,895.5486,"Blue marlin:Recruits (x1000)","Recruits (x1000)",NaN,NaN
+2000,784.3424,"Blue marlin:Recruits (x1000)","Recruits (x1000)",NaN,NaN
+2001,869.2313,"Blue marlin:Recruits (x1000)","Recruits (x1000)",NaN,NaN
+2002,831.4222,"Blue marlin:Recruits (x1000)","Recruits (x1000)",NaN,NaN
+2003,790.6506,"Blue marlin:Recruits (x1000)","Recruits (x1000)",NaN,NaN
+2004,923.6173,"Blue marlin:Recruits (x1000)","Recruits (x1000)",NaN,NaN
+2005,775.2594,"Blue marlin:Recruits (x1000)","Recruits (x1000)",NaN,NaN
+2006,1073.8006,"Blue marlin:Recruits (x1000)","Recruits (x1000)",NaN,NaN
+2007,852.059,"Blue marlin:Recruits (x1000)","Recruits (x1000)",NaN,NaN
+2008,724.9441,"Blue marlin:Recruits (x1000)","Recruits (x1000)",NaN,NaN
+2009,1093.5327,"Blue marlin:Recruits (x1000)","Recruits (x1000)",NaN,NaN
+2010,1044.5307,"Blue marlin:Recruits (x1000)","Recruits (x1000)",NaN,NaN
+2011,870.947,"Blue marlin:Recruits (x1000)","Recruits (x1000)",NaN,NaN
+2012,750.9165,"Blue marlin:Recruits (x1000)","Recruits (x1000)",NaN,NaN
+2013,944.5404,"Blue marlin:Recruits (x1000)","Recruits (x1000)",NaN,NaN
+2014,767.4545,"Blue marlin:Recruits (x1000)","Recruits (x1000)",NaN,NaN
+2015,594.1211,"Blue marlin:Recruits (x1000)","Recruits (x1000)",NaN,NaN
+2016,835.8208,"Blue marlin:Recruits (x1000)","Recruits (x1000)",NaN,NaN
+2017,825.188,"Blue marlin:Recruits (x1000)","Recruits (x1000)",NaN,NaN
+2018,1318.013,"Blue marlin:Recruits (x1000)","Recruits (x1000)",NaN,NaN
+2019,863.6374,"Blue marlin:Recruits (x1000)","Recruits (x1000)",NaN,NaN
+2006,40901.72,"Skipjack tuna:Recruitment","Recruitment",NaN,NaN
+2007,69072.1,"Skipjack tuna:Recruitment","Recruitment",NaN,NaN
+2008,23779.79,"Skipjack tuna:Recruitment","Recruitment",NaN,NaN
+2009,49706.04,"Skipjack tuna:Recruitment","Recruitment",NaN,NaN
+2010,74286.04,"Skipjack tuna:Recruitment","Recruitment",NaN,NaN
+2011,31701.44,"Skipjack tuna:Recruitment","Recruitment",NaN,NaN
+2012,59154.49,"Skipjack tuna:Recruitment","Recruitment",NaN,NaN
+2013,28448.09,"Skipjack tuna:Recruitment","Recruitment",NaN,NaN
+2014,36560.52,"Skipjack tuna:Recruitment","Recruitment",NaN,NaN
+2015,54856.14,"Skipjack tuna:Recruitment","Recruitment",NaN,NaN
+2016,44862.18,"Skipjack tuna:Recruitment","Recruitment",NaN,NaN
+2017,37116.45,"Skipjack tuna:Recruitment","Recruitment",NaN,NaN
+2018,46467.9,"Skipjack tuna:Recruitment","Recruitment",NaN,NaN
+2019,49649.86,"Skipjack tuna:Recruitment","Recruitment",NaN,NaN
+2020,48288.4,"Skipjack tuna:Recruitment","Recruitment",NaN,NaN
+2021,43438.21,"Skipjack tuna:Recruitment","Recruitment",NaN,NaN
+2022,47669.38,"Skipjack tuna:Recruitment","Recruitment",NaN,NaN
+2023,63268.1,"Skipjack tuna:Recruitment","Recruitment",NaN,NaN
+*END_DATA*

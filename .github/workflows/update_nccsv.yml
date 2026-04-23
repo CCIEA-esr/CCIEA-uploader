@@ -10,7 +10,7 @@
       workflow_dispatch:
       
     jobs:
-      generate-html:
+      generate-nccsv:
         runs-on: ubuntu-latest
         steps:
           - name: Check out repository

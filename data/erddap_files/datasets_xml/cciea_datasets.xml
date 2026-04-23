@@ -1,0 +1,2171 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<erddapDatasets>
+  <dataset type="EDDTableFromNccsvFiles" datasetID="cciea_AC_landings" active="true">
+    <reloadEveryNMinutes>2628000</reloadEveryNMinutes>
+    <fileDir>/home/ldewitt/Documents/GitHub/CCIEA-uploader/data/erddap_files/nccsv/Andrews</fileDir>
+    <fileNameRegex>cciea_AC_landings.csv</fileNameRegex>
+    <recursive>false</recursive>
+    <columnNamesRow>1</columnNamesRow>
+    <firstDataRow>2</firstDataRow>
+    <defaultGraphQuery>time,landings&amp;indicator="Coastal pelagic spp, no squid CA"&amp;.draw=linesAndMarkers</defaultGraphQuery>
+    <addAttributes>
+      <att name="cdm_data_type">Other</att>
+      <att name="license">[standard]</att>
+      <att name="sourceUrl">(local files)</att>
+      <att name="standard_name_vocabulary">CF Standard Name Table v70</att>
+      <att name="subsetVariables">indicator</att>
+    </addAttributes>
+    <dataVariable>
+      <sourceName>year</sourceName>
+      <destinationName>time</destinationName>
+      <dataType>String</dataType>
+      <addAttributes>
+        <att name="ioos_category">Time</att>
+      </addAttributes>
+    </dataVariable>
+    <dataVariable>
+      <sourceName>index</sourceName>
+      <destinationName>landings</destinationName>
+      <dataType>float</dataType>
+      <addAttributes>
+        <att name="ioos_category">Other</att>
+      </addAttributes>
+    </dataVariable>
+    <dataVariable>
+      <sourceName>timeseries</sourceName>
+      <destinationName>indicator</destinationName>
+      <dataType>String</dataType>
+      <addAttributes>
+        <att name="ioos_category">Other</att>
+      </addAttributes>
+    </dataVariable>
+  </dataset>
+  <dataset type="EDDTableFromNccsvFiles" datasetID="cciea_AC_revenue" active="true">
+    <reloadEveryNMinutes>2628000</reloadEveryNMinutes>
+    <fileDir>/home/ldewitt/Documents/GitHub/CCIEA-uploader/data/erddap_files/nccsv/Andrews</fileDir>
+    <fileNameRegex>cciea_AC_revenue.csv</fileNameRegex>
+    <recursive>false</recursive>
+    <columnNamesRow>1</columnNamesRow>
+    <firstDataRow>2</firstDataRow>
+    <defaultGraphQuery>time,revenue&amp;indicator="Coastal pelagic spp, no squid CA"&amp;.draw=linesAndMarkers</defaultGraphQuery>
+    <addAttributes>
+      <att name="cdm_data_type">Other</att>
+      <att name="license">[standard]</att>
+      <att name="sourceUrl">(local files)</att>
+      <att name="standard_name_vocabulary">CF Standard Name Table v70</att>
+      <att name="subsetVariables">indicator</att>
+    </addAttributes>
+    <dataVariable>
+      <sourceName>year</sourceName>
+      <destinationName>time</destinationName>
+      <dataType>String</dataType>
+      <addAttributes>
+        <att name="ioos_category">Time</att>
+      </addAttributes>
+    </dataVariable>
+    <dataVariable>
+      <sourceName>index</sourceName>
+      <destinationName>revenue</destinationName>
+      <dataType>float</dataType>
+      <addAttributes>
+        <att name="ioos_category">Other</att>
+      </addAttributes>
+    </dataVariable>
+    <dataVariable>
+      <sourceName>timeseries</sourceName>
+      <destinationName>indicator</destinationName>
+      <dataType>String</dataType>
+      <addAttributes>
+        <att name="ioos_category">Other</att>
+      </addAttributes>
+    </dataVariable>
+  </dataset>
+  <dataset type="EDDTableFromNccsvFiles" datasetID="cciea_EI_FBN" active="true">
+    <reloadEveryNMinutes>2628000</reloadEveryNMinutes>
+    <fileDir>/home/ldewitt/Documents/GitHub/CCIEA-uploader/data/erddap_files/nccsv/Burke</fileDir>
+    <fileNameRegex>cciea_EI_FBN.csv</fileNameRegex>
+    <recursive>false</recursive>
+    <columnNamesRow>1</columnNamesRow>
+    <firstDataRow>2</firstDataRow>
+    <defaultGraphQuery>time,mean_density&amp;species_group="Market squid"&amp;.draw=linesAndMarkers</defaultGraphQuery>
+    <addAttributes>
+      <att name="cdm_data_type">Other</att>
+      <att name="license">[standard]</att>
+      <att name="sourceUrl">(local files)</att>
+      <att name="standard_name_vocabulary">CF Standard Name Table v70</att>
+      <att name="subsetVariables">species_group</att>
+    </addAttributes>
+    <dataVariable>
+      <sourceName>year</sourceName>
+      <destinationName>time</destinationName>
+      <dataType>String</dataType>
+      <addAttributes>
+        <att name="ioos_category">Time</att>
+      </addAttributes>
+    </dataVariable>
+    <dataVariable>
+      <sourceName>index</sourceName>
+      <destinationName>mean_density</destinationName>
+      <dataType>float</dataType>
+      <addAttributes>
+        <att name="ioos_category">Other</att>
+      </addAttributes>
+    </dataVariable>
+    <dataVariable>
+      <sourceName>timeseries</sourceName>
+      <destinationName>species_group</destinationName>
+      <dataType>String</dataType>
+      <addAttributes>
+        <att name="ioos_category">Other</att>
+      </addAttributes>
+    </dataVariable>
+    <dataVariable>
+      <sourceName>SEup</sourceName>
+      <destinationName>SEup</destinationName>
+      <dataType>float</dataType>
+      <addAttributes>
+        <att name="ioos_category">Other</att>
+      </addAttributes>
+    </dataVariable>
+    <dataVariable>
+      <sourceName>SElo</sourceName>
+      <destinationName>SElo</destinationName>
+      <dataType>float</dataType>
+      <addAttributes>
+        <att name="ioos_category">Other</att>
+      </addAttributes>
+    </dataVariable>
+  </dataset>
+  <dataset type="EDDTableFromNccsvFiles" datasetID="cciea_EI_FPN" active="true">
+    <reloadEveryNMinutes>2628000</reloadEveryNMinutes>
+    <fileDir>/home/ldewitt/Documents/GitHub/CCIEA-uploader/data/erddap_files/nccsv/Burke</fileDir>
+    <fileNameRegex>cciea_EI_FPN.csv</fileNameRegex>
+    <recursive>false</recursive>
+    <columnNamesRow>1</columnNamesRow>
+    <firstDataRow>2</firstDataRow>
+    <defaultGraphQuery>time,prevalence&amp;species_group="Jack mackerel"&amp;.draw=linesAndMarkers</defaultGraphQuery>
+    <addAttributes>
+      <att name="cdm_data_type">Other</att>
+      <att name="license">[standard]</att>
+      <att name="sourceUrl">(local files)</att>
+      <att name="standard_name_vocabulary">CF Standard Name Table v70</att>
+      <att name="subsetVariables">species_group</att>
+    </addAttributes>
+    <dataVariable>
+      <sourceName>year</sourceName>
+      <destinationName>time</destinationName>
+      <dataType>String</dataType>
+      <addAttributes>
+        <att name="ioos_category">Time</att>
+      </addAttributes>
+    </dataVariable>
+    <dataVariable>
+      <sourceName>index</sourceName>
+      <destinationName>prevalence</destinationName>
+      <dataType>float</dataType>
+      <addAttributes>
+        <att name="ioos_category">Other</att>
+      </addAttributes>
+    </dataVariable>
+    <dataVariable>
+      <sourceName>timeseries</sourceName>
+      <destinationName>species_group</destinationName>
+      <dataType>String</dataType>
+      <addAttributes>
+        <att name="ioos_category">Other</att>
+      </addAttributes>
+    </dataVariable>
+  </dataset>
+  <dataset type="EDDTableFromNccsvFiles" datasetID="cciea_SM_FBN" active="true">
+    <reloadEveryNMinutes>2628000</reloadEveryNMinutes>
+    <fileDir>/home/ldewitt/Documents/GitHub/CCIEA-uploader/data/erddap_files/nccsv/Burke</fileDir>
+    <fileNameRegex>cciea_SM_FBN.csv</fileNameRegex>
+    <recursive>false</recursive>
+    <columnNamesRow>1</columnNamesRow>
+    <firstDataRow>2</firstDataRow>
+    <defaultGraphQuery>time,mean_density&amp;species_group="Subyearling Chinook"&amp;.draw=linesAndMarkers</defaultGraphQuery>
+    <addAttributes>
+      <att name="cdm_data_type">Other</att>
+      <att name="license">[standard]</att>
+      <att name="sourceUrl">(local files)</att>
+      <att name="standard_name_vocabulary">CF Standard Name Table v70</att>
+      <att name="subsetVariables">species_group</att>
+    </addAttributes>
+    <dataVariable>
+      <sourceName>year</sourceName>
+      <destinationName>time</destinationName>
+      <dataType>String</dataType>
+      <addAttributes>
+        <att name="ioos_category">Time</att>
+      </addAttributes>
+    </dataVariable>
+    <dataVariable>
+      <sourceName>index</sourceName>
+      <destinationName>mean_density</destinationName>
+      <dataType>float</dataType>
+      <addAttributes>
+        <att name="ioos_category">Other</att>
+      </addAttributes>
+    </dataVariable>
+    <dataVariable>
+      <sourceName>timeseries</sourceName>
+      <destinationName>species_group</destinationName>
+      <dataType>String</dataType>
+      <addAttributes>
+        <att name="ioos_category">Other</att>
+      </addAttributes>
+    </dataVariable>
+    <dataVariable>
+      <sourceName>SEup</sourceName>
+      <destinationName>SEup</destinationName>
+      <dataType>float</dataType>
+      <addAttributes>
+        <att name="ioos_category">Other</att>
+      </addAttributes>
+    </dataVariable>
+    <dataVariable>
+      <sourceName>SElo</sourceName>
+      <destinationName>SElo</destinationName>
+      <dataType>float</dataType>
+      <addAttributes>
+        <att name="ioos_category">Other</att>
+      </addAttributes>
+    </dataVariable>
+  </dataset>
+  <dataset type="EDDTableFromNccsvFiles" datasetID="cciea_EI_FBC" active="true">
+    <reloadEveryNMinutes>2628000</reloadEveryNMinutes>
+    <fileDir>/home/ldewitt/Documents/GitHub/CCIEA-uploader/data/erddap_files/nccsv/Field</fileDir>
+    <fileNameRegex>cciea_EI_FBC.csv</fileNameRegex>
+    <recursive>false</recursive>
+    <columnNamesRow>1</columnNamesRow>
+    <firstDataRow>2</firstDataRow>
+    <defaultGraphQuery>time,mean_cpue&amp;species_group="Adult Anchovy"&amp;.draw=linesAndMarkers</defaultGraphQuery>
+    <addAttributes>
+      <att name="cdm_data_type">Other</att>
+      <att name="license">[standard]</att>
+      <att name="sourceUrl">(local files)</att>
+      <att name="standard_name_vocabulary">CF Standard Name Table v70</att>
+      <att name="subsetVariables">species_group</att>
+    </addAttributes>
+    <dataVariable>
+      <sourceName>year</sourceName>
+      <destinationName>time</destinationName>
+      <dataType>String</dataType>
+      <addAttributes>
+        <att name="ioos_category">Time</att>
+      </addAttributes>
+    </dataVariable>
+    <dataVariable>
+      <sourceName>index</sourceName>
+      <destinationName>mean_cpue</destinationName>
+      <dataType>float</dataType>
+      <addAttributes>
+        <att name="ioos_category">Other</att>
+      </addAttributes>
+    </dataVariable>
+    <dataVariable>
+      <sourceName>timeseries</sourceName>
+      <destinationName>species_group</destinationName>
+      <dataType>String</dataType>
+      <addAttributes>
+        <att name="ioos_category">Other</att>
+      </addAttributes>
+    </dataVariable>
+    <dataVariable>
+      <sourceName>SEup</sourceName>
+      <destinationName>SEup</destinationName>
+      <dataType>float</dataType>
+      <addAttributes>
+        <att name="ioos_category">Other</att>
+      </addAttributes>
+    </dataVariable>
+    <dataVariable>
+      <sourceName>SElo</sourceName>
+      <destinationName>SElo</destinationName>
+      <dataType>float</dataType>
+      <addAttributes>
+        <att name="ioos_category">Other</att>
+      </addAttributes>
+    </dataVariable>
+  </dataset>
+  <dataset type="EDDTableFromNccsvFiles" datasetID="cciea_B_AS_DENS" active="true">
+    <reloadEveryNMinutes>2628000</reloadEveryNMinutes>
+    <fileDir>/home/ldewitt/Documents/GitHub/CCIEA-uploader/data/erddap_files/nccsv/Good</fileDir>
+    <fileNameRegex>cciea_B_AS_DENS.csv</fileNameRegex>
+    <recursive>false</recursive>
+    <columnNamesRow>1</columnNamesRow>
+    <firstDataRow>2</firstDataRow>
+    <defaultGraphQuery>time,density_anomaly&amp;species_cohort="Cassins auklet (So CC, Summer)"&amp;.draw=linesAndMarkers</defaultGraphQuery>
+    <addAttributes>
+      <att name="cdm_data_type">Other</att>
+      <att name="license">[standard]</att>
+      <att name="sourceUrl">(local files)</att>
+      <att name="standard_name_vocabulary">CF Standard Name Table v70</att>
+      <att name="subsetVariables">species_cohort</att>
+    </addAttributes>
+    <dataVariable>
+      <sourceName>year</sourceName>
+      <destinationName>time</destinationName>
+      <dataType>String</dataType>
+      <addAttributes>
+        <att name="ioos_category">Time</att>
+      </addAttributes>
+    </dataVariable>
+    <dataVariable>
+      <sourceName>index</sourceName>
+      <destinationName>density_anomaly</destinationName>
+      <dataType>float</dataType>
+      <addAttributes>
+        <att name="ioos_category">Other</att>
+      </addAttributes>
+    </dataVariable>
+    <dataVariable>
+      <sourceName>timeseries</sourceName>
+      <destinationName>species_cohort</destinationName>
+      <dataType>String</dataType>
+      <addAttributes>
+        <att name="ioos_category">Other</att>
+      </addAttributes>
+    </dataVariable>
+  </dataset>
+  <dataset type="EDDTableFromNccsvFiles" datasetID="cciea_B_AS_DIET" active="true">
+    <reloadEveryNMinutes>2628000</reloadEveryNMinutes>
+    <fileDir>/home/ldewitt/Documents/GitHub/CCIEA-uploader/data/erddap_files/nccsv/Good</fileDir>
+    <fileNameRegex>cciea_B_AS_DIET.csv</fileNameRegex>
+    <recursive>false</recursive>
+    <columnNamesRow>1</columnNamesRow>
+    <firstDataRow>2</firstDataRow>
+    <defaultGraphQuery>time,percent_diet&amp;diet_species_cohort="Flatfishes (No CC YH Common murre)"&amp;.draw=linesAndMarkers</defaultGraphQuery>
+    <addAttributes>
+      <att name="cdm_data_type">Other</att>
+      <att name="license">[standard]</att>
+      <att name="sourceUrl">(local files)</att>
+      <att name="standard_name_vocabulary">CF Standard Name Table v70</att>
+      <att name="subsetVariables">diet_species_cohort</att>
+    </addAttributes>
+    <dataVariable>
+      <sourceName>year</sourceName>
+      <destinationName>time</destinationName>
+      <dataType>String</dataType>
+      <addAttributes>
+        <att name="ioos_category">Time</att>
+      </addAttributes>
+    </dataVariable>
+    <dataVariable>
+      <sourceName>index</sourceName>
+      <destinationName>percent_diet</destinationName>
+      <dataType>float</dataType>
+      <addAttributes>
+        <att name="ioos_category">Other</att>
+      </addAttributes>
+    </dataVariable>
+    <dataVariable>
+      <sourceName>timeseries</sourceName>
+      <destinationName>diet_species_cohort</destinationName>
+      <dataType>String</dataType>
+      <addAttributes>
+        <att name="ioos_category">Other</att>
+      </addAttributes>
+    </dataVariable>
+  </dataset>
+  <dataset type="EDDTableFromNccsvFiles" datasetID="cciea_B_B_MORT" active="true">
+    <reloadEveryNMinutes>2628000</reloadEveryNMinutes>
+    <fileDir>/home/ldewitt/Documents/GitHub/CCIEA-uploader/data/erddap_files/nccsv/Good</fileDir>
+    <fileNameRegex>cciea_B_B_MORT.csv</fileNameRegex>
+    <recursive>false</recursive>
+    <columnNamesRow>1</columnNamesRow>
+    <firstDataRow>2</firstDataRow>
+    <defaultGraphQuery>time,encounter_rate&amp;species_cohort="Cassins auklet (No CC Oct - Feb)"&amp;.draw=linesAndMarkers</defaultGraphQuery>
+    <addAttributes>
+      <att name="cdm_data_type">Other</att>
+      <att name="license">[standard]</att>
+      <att name="sourceUrl">(local files)</att>
+      <att name="standard_name_vocabulary">CF Standard Name Table v70</att>
+      <att name="subsetVariables">species_cohort</att>
+    </addAttributes>
+    <dataVariable>
+      <sourceName>year</sourceName>
+      <destinationName>time</destinationName>
+      <dataType>String</dataType>
+      <addAttributes>
+        <att name="ioos_category">Time</att>
+      </addAttributes>
+    </dataVariable>
+    <dataVariable>
+      <sourceName>index</sourceName>
+      <destinationName>encounter_rate</destinationName>
+      <dataType>float</dataType>
+      <addAttributes>
+        <att name="ioos_category">Other</att>
+      </addAttributes>
+    </dataVariable>
+    <dataVariable>
+      <sourceName>timeseries</sourceName>
+      <destinationName>species_cohort</destinationName>
+      <dataType>String</dataType>
+      <addAttributes>
+        <att name="ioos_category">Other</att>
+      </addAttributes>
+    </dataVariable>
+  </dataset>
+  <dataset type="EDDTableFromNccsvFiles" datasetID="cciea_B_PR_ANOM" active="true">
+    <reloadEveryNMinutes>2628000</reloadEveryNMinutes>
+    <fileDir>/home/ldewitt/Documents/GitHub/CCIEA-uploader/data/erddap_files/nccsv/Good</fileDir>
+    <fileNameRegex>cciea_B_PR_ANOM.csv</fileNameRegex>
+    <recursive>false</recursive>
+    <columnNamesRow>1</columnNamesRow>
+    <firstDataRow>2</firstDataRow>
+    <defaultGraphQuery>time,productivity_anomaly&amp;species_cohort="Rhinoceros auklet productivity anomaly (No CC - DI)"&amp;.draw=linesAndMarkers</defaultGraphQuery>
+    <addAttributes>
+      <att name="cdm_data_type">Other</att>
+      <att name="license">[standard]</att>
+      <att name="sourceUrl">(local files)</att>
+      <att name="standard_name_vocabulary">CF Standard Name Table v70</att>
+      <att name="subsetVariables">species_cohort</att>
+    </addAttributes>
+    <dataVariable>
+      <sourceName>year</sourceName>
+      <destinationName>time</destinationName>
+      <dataType>String</dataType>
+      <addAttributes>
+        <att name="ioos_category">Time</att>
+      </addAttributes>
+    </dataVariable>
+    <dataVariable>
+      <sourceName>index</sourceName>
+      <destinationName>productivity_anomaly</destinationName>
+      <dataType>float</dataType>
+      <addAttributes>
+        <att name="ioos_category">Other</att>
+      </addAttributes>
+    </dataVariable>
+    <dataVariable>
+      <sourceName>timeseries</sourceName>
+      <destinationName>species_cohort</destinationName>
+      <dataType>String</dataType>
+      <addAttributes>
+        <att name="ioos_category">Other</att>
+      </addAttributes>
+    </dataVariable>
+  </dataset>
+  <dataset type="EDDTableFromNccsvFiles" datasetID="cciea_HB_FLOW" active="true">
+    <reloadEveryNMinutes>2628000</reloadEveryNMinutes>
+    <fileDir>/home/ldewitt/Documents/GitHub/CCIEA-uploader/data/erddap_files/nccsv/Greene-Munsch</fileDir>
+    <fileNameRegex>cciea_HB_FLOW.csv</fileNameRegex>
+    <recursive>false</recursive>
+    <columnNamesRow>1</columnNamesRow>
+    <firstDataRow>2</firstDataRow>
+    <defaultGraphQuery>time,freshwater_indicator&amp;region_and_type="CVF 7 day min flow"&amp;.draw=linesAndMarkers</defaultGraphQuery>
+    <addAttributes>
+      <att name="cdm_data_type">Other</att>
+      <att name="license">[standard]</att>
+      <att name="sourceUrl">(local files)</att>
+      <att name="standard_name_vocabulary">CF Standard Name Table v70</att>
+      <att name="subsetVariables">region_and_type</att>
+    </addAttributes>
+    <dataVariable>
+      <sourceName>year</sourceName>
+      <destinationName>time</destinationName>
+      <dataType>String</dataType>
+      <addAttributes>
+        <att name="ioos_category">Time</att>
+      </addAttributes>
+    </dataVariable>
+    <dataVariable>
+      <sourceName>index</sourceName>
+      <destinationName>freshwater_indicator</destinationName>
+      <dataType>float</dataType>
+      <addAttributes>
+        <att name="ioos_category">Other</att>
+      </addAttributes>
+    </dataVariable>
+    <dataVariable>
+      <sourceName>timeseries</sourceName>
+      <destinationName>region_and_type</destinationName>
+      <dataType>String</dataType>
+      <addAttributes>
+        <att name="ioos_category">Other</att>
+      </addAttributes>
+    </dataVariable>
+    <dataVariable>
+      <sourceName>SEup</sourceName>
+      <destinationName>SEup</destinationName>
+      <dataType>float</dataType>
+      <addAttributes>
+        <att name="ioos_category">Other</att>
+      </addAttributes>
+    </dataVariable>
+    <dataVariable>
+      <sourceName>SElo</sourceName>
+      <destinationName>SElo</destinationName>
+      <dataType>float</dataType>
+      <addAttributes>
+        <att name="ioos_category">Other</att>
+      </addAttributes>
+    </dataVariable>
+  </dataset>
+  <dataset type="EDDTableFromNccsvFiles" datasetID="cciea_HD_ESI_VESS" active="true">
+    <reloadEveryNMinutes>2628000</reloadEveryNMinutes>
+    <fileDir>/home/ldewitt/Documents/GitHub/CCIEA-uploader/data/erddap_files/nccsv/Holland-Kasperski</fileDir>
+    <fileNameRegex>cciea_HD_ESI_VESS.csv</fileNameRegex>
+    <recursive>false</recursive>
+    <columnNamesRow>1</columnNamesRow>
+    <firstDataRow>2</firstDataRow>
+    <defaultGraphQuery>time,average_ESI&amp;vessel_category="Port of Astoria, OR"&amp;.draw=linesAndMarkers</defaultGraphQuery>
+    <addAttributes>
+      <att name="cdm_data_type">Other</att>
+      <att name="license">[standard]</att>
+      <att name="sourceUrl">(local files)</att>
+      <att name="standard_name_vocabulary">CF Standard Name Table v70</att>
+      <att name="subsetVariables">vessel_category</att>
+    </addAttributes>
+    <dataVariable>
+      <sourceName>year</sourceName>
+      <destinationName>time</destinationName>
+      <dataType>String</dataType>
+      <addAttributes>
+        <att name="ioos_category">Time</att>
+      </addAttributes>
+    </dataVariable>
+    <dataVariable>
+      <sourceName>index</sourceName>
+      <destinationName>average_ESI</destinationName>
+      <dataType>float</dataType>
+      <addAttributes>
+        <att name="ioos_category">Other</att>
+      </addAttributes>
+    </dataVariable>
+    <dataVariable>
+      <sourceName>timeseries</sourceName>
+      <destinationName>vessel_category</destinationName>
+      <dataType>String</dataType>
+      <addAttributes>
+        <att name="ioos_category">Other</att>
+      </addAttributes>
+    </dataVariable>
+  </dataset>
+  <dataset type="EDDTableFromNccsvFiles" datasetID="cciea_EI_WH_ENT" active="true">
+    <reloadEveryNMinutes>2628000</reloadEveryNMinutes>
+    <fileDir>/home/ldewitt/Documents/GitHub/CCIEA-uploader/data/erddap_files/nccsv/Lawson</fileDir>
+    <fileNameRegex>cciea_EI_WH_ENT.csv</fileNameRegex>
+    <recursive>false</recursive>
+    <columnNamesRow>1</columnNamesRow>
+    <firstDataRow>2</firstDataRow>
+    <defaultGraphQuery>time,number_of_entanglements&amp;species="Blue Whale"&amp;.draw=linesAndMarkers</defaultGraphQuery>
+    <addAttributes>
+      <att name="cdm_data_type">Other</att>
+      <att name="license">[standard]</att>
+      <att name="sourceUrl">(local files)</att>
+      <att name="standard_name_vocabulary">CF Standard Name Table v70</att>
+      <att name="subsetVariables">species</att>
+    </addAttributes>
+    <dataVariable>
+      <sourceName>year</sourceName>
+      <destinationName>time</destinationName>
+      <dataType>String</dataType>
+      <addAttributes>
+        <att name="ioos_category">Time</att>
+      </addAttributes>
+    </dataVariable>
+    <dataVariable>
+      <sourceName>index</sourceName>
+      <destinationName>number_of_entanglements</destinationName>
+      <dataType>float</dataType>
+      <addAttributes>
+        <att name="ioos_category">Other</att>
+      </addAttributes>
+    </dataVariable>
+    <dataVariable>
+      <sourceName>timeseries</sourceName>
+      <destinationName>species</destinationName>
+      <dataType>String</dataType>
+      <addAttributes>
+        <att name="ioos_category">Other</att>
+      </addAttributes>
+    </dataVariable>
+  </dataset>
+  <dataset type="EDDTableFromNccsvFiles" datasetID="cciea_HMS_biomass" active="true">
+    <reloadEveryNMinutes>2628000</reloadEveryNMinutes>
+    <fileDir>/home/ldewitt/Documents/GitHub/CCIEA-uploader/data/erddap_files/nccsv/Muhling</fileDir>
+    <fileNameRegex>cciea_HMS_biomass.csv</fileNameRegex>
+    <recursive>false</recursive>
+    <columnNamesRow>1</columnNamesRow>
+    <firstDataRow>2</firstDataRow>
+    <defaultGraphQuery>time,biomass&amp;species_measurement="Albacore:Spawning biomass (mt)"&amp;.draw=linesAndMarkers</defaultGraphQuery>
+    <addAttributes>
+      <att name="cdm_data_type">Other</att>
+      <att name="license">[standard]</att>
+      <att name="sourceUrl">(local files)</att>
+      <att name="standard_name_vocabulary">CF Standard Name Table v70</att>
+      <att name="subsetVariables">species_measurement</att>
+    </addAttributes>
+    <dataVariable>
+      <sourceName>year</sourceName>
+      <destinationName>time</destinationName>
+      <dataType>String</dataType>
+      <addAttributes>
+        <att name="ioos_category">Time</att>
+      </addAttributes>
+    </dataVariable>
+    <dataVariable>
+      <sourceName>index</sourceName>
+      <destinationName>biomass</destinationName>
+      <dataType>float</dataType>
+      <addAttributes>
+        <att name="ioos_category">Other</att>
+      </addAttributes>
+    </dataVariable>
+    <dataVariable>
+      <sourceName>timeseries</sourceName>
+      <destinationName>species_measurement</destinationName>
+      <dataType>String</dataType>
+      <addAttributes>
+        <att name="ioos_category">Other</att>
+      </addAttributes>
+    </dataVariable>
+    <dataVariable>
+      <sourceName>SEup</sourceName>
+      <destinationName>SEup</destinationName>
+      <dataType>float</dataType>
+      <addAttributes>
+        <att name="ioos_category">Other</att>
+      </addAttributes>
+    </dataVariable>
+    <dataVariable>
+      <sourceName>SElo</sourceName>
+      <destinationName>SElo</destinationName>
+      <dataType>float</dataType>
+      <addAttributes>
+        <att name="ioos_category">Other</att>
+      </addAttributes>
+    </dataVariable>
+  </dataset>
+  <dataset type="EDDTableFromNccsvFiles" datasetID="cciea_HMS_recruit" active="true">
+    <reloadEveryNMinutes>2628000</reloadEveryNMinutes>
+    <fileDir>/home/ldewitt/Documents/GitHub/CCIEA-uploader/data/erddap_files/nccsv/Muhling</fileDir>
+    <fileNameRegex>cciea_HMS_recruit.csv</fileNameRegex>
+    <recursive>false</recursive>
+    <columnNamesRow>1</columnNamesRow>
+    <firstDataRow>2</firstDataRow>
+    <defaultGraphQuery>time,recruitment&amp;species_measurement="Albacore:Recruits (x1000)"&amp;.draw=linesAndMarkers</defaultGraphQuery>
+    <addAttributes>
+      <att name="cdm_data_type">Other</att>
+      <att name="license">[standard]</att>
+      <att name="sourceUrl">(local files)</att>
+      <att name="standard_name_vocabulary">CF Standard Name Table v70</att>
+      <att name="subsetVariables">species_measurement</att>
+    </addAttributes>
+    <dataVariable>
+      <sourceName>year</sourceName>
+      <destinationName>time</destinationName>
+      <dataType>String</dataType>
+      <addAttributes>
+        <att name="ioos_category">Time</att>
+      </addAttributes>
+    </dataVariable>
+    <dataVariable>
+      <sourceName>index</sourceName>
+      <destinationName>recruitment</destinationName>
+      <dataType>float</dataType>
+      <addAttributes>
+        <att name="ioos_category">Other</att>
+      </addAttributes>
+    </dataVariable>
+    <dataVariable>
+      <sourceName>timeseries</sourceName>
+      <destinationName>species_measurement</destinationName>
+      <dataType>String</dataType>
+      <addAttributes>
+        <att name="ioos_category">Other</att>
+      </addAttributes>
+    </dataVariable>
+    <dataVariable>
+      <sourceName>SEup</sourceName>
+      <destinationName>SEup</destinationName>
+      <dataType>float</dataType>
+      <addAttributes>
+        <att name="ioos_category">Other</att>
+      </addAttributes>
+    </dataVariable>
+    <dataVariable>
+      <sourceName>SElo</sourceName>
+      <destinationName>SElo</destinationName>
+      <dataType>float</dataType>
+      <addAttributes>
+        <att name="ioos_category">Other</att>
+      </addAttributes>
+    </dataVariable>
+  </dataset>
+  <dataset type="EDDTableFromNccsvFiles" datasetID="cciea_EI_COP" active="true">
+    <reloadEveryNMinutes>2628000</reloadEveryNMinutes>
+    <fileDir>/home/ldewitt/Documents/GitHub/CCIEA-uploader/data/erddap_files/nccsv/Newport Line</fileDir>
+    <fileNameRegex>cciea_EI_COP.csv</fileNameRegex>
+    <recursive>false</recursive>
+    <columnNamesRow>1</columnNamesRow>
+    <firstDataRow>2</firstDataRow>
+    <defaultGraphQuery>time,biomass_anomaly&amp;cohort="NH05 NorthernBiomassAnomaly"&amp;.draw=linesAndMarkers</defaultGraphQuery>
+    <addAttributes>
+      <att name="cdm_data_type">Other</att>
+      <att name="license">[standard]</att>
+      <att name="sourceUrl">(local files)</att>
+      <att name="standard_name_vocabulary">CF Standard Name Table v70</att>
+      <att name="subsetVariables">cohort</att>
+    </addAttributes>
+    <dataVariable>
+      <sourceName>time</sourceName>
+      <destinationName>time</destinationName>
+      <dataType>String</dataType>
+      <addAttributes>
+        <att name="ioos_category">Time</att>
+      </addAttributes>
+    </dataVariable>
+    <dataVariable>
+      <sourceName>index</sourceName>
+      <destinationName>biomass_anomaly</destinationName>
+      <dataType>float</dataType>
+      <addAttributes>
+        <att name="ioos_category">Other</att>
+      </addAttributes>
+    </dataVariable>
+    <dataVariable>
+      <sourceName>timeseries</sourceName>
+      <destinationName>cohort</destinationName>
+      <dataType>String</dataType>
+      <addAttributes>
+        <att name="ioos_category">Other</att>
+      </addAttributes>
+    </dataVariable>
+  </dataset>
+  <dataset type="EDDTableFromNccsvFiles" datasetID="cciea_HD_Soc_Vuln_Indx" active="true">
+    <reloadEveryNMinutes>2628000</reloadEveryNMinutes>
+    <fileDir>/home/ldewitt/Documents/GitHub/CCIEA-uploader/data/erddap_files/nccsv/Norman</fileDir>
+    <fileNameRegex>cciea_HD_Soc_Vuln_Indx.csv</fileNameRegex>
+    <recursive>false</recursive>
+    <columnNamesRow>1</columnNamesRow>
+    <firstDataRow>2</firstDataRow>
+    <defaultGraphQuery>time,social_vulnerability_index&amp;location="Anacortes, WA"&amp;.draw=linesAndMarkers</defaultGraphQuery>
+    <addAttributes>
+      <att name="cdm_data_type">Other</att>
+      <att name="license">[standard]</att>
+      <att name="sourceUrl">(local files)</att>
+      <att name="standard_name_vocabulary">CF Standard Name Table v70</att>
+      <att name="subsetVariables">location</att>
+    </addAttributes>
+    <dataVariable>
+      <sourceName>year</sourceName>
+      <destinationName>time</destinationName>
+      <dataType>String</dataType>
+      <addAttributes>
+        <att name="ioos_category">Time</att>
+      </addAttributes>
+    </dataVariable>
+    <dataVariable>
+      <sourceName>index</sourceName>
+      <destinationName>social_vulnerability_index</destinationName>
+      <dataType>String</dataType>
+      <addAttributes>
+        <att name="ioos_category">Other</att>
+      </addAttributes>
+    </dataVariable>
+    <dataVariable>
+      <sourceName>timeseries</sourceName>
+      <destinationName>location</destinationName>
+      <dataType>String</dataType>
+      <addAttributes>
+        <att name="ioos_category">Other</att>
+      </addAttributes>
+    </dataVariable>
+  </dataset>
+  <dataset type="EDDTableFromNccsvFiles" datasetID="cciea_HD_THEIL" active="true">
+    <reloadEveryNMinutes>2628000</reloadEveryNMinutes>
+    <fileDir>/home/ldewitt/Documents/GitHub/CCIEA-uploader/data/erddap_files/nccsv/Norman</fileDir>
+    <fileNameRegex>cciea_HD_THEIL.csv</fileNameRegex>
+    <recursive>false</recursive>
+    <columnNamesRow>1</columnNamesRow>
+    <firstDataRow>2</firstDataRow>
+    <defaultGraphQuery>time,theil_rev&amp;management_group="AFSH"&amp;.draw=linesAndMarkers</defaultGraphQuery>
+    <addAttributes>
+      <att name="cdm_data_type">Other</att>
+      <att name="license">[standard]</att>
+      <att name="sourceUrl">(local files)</att>
+      <att name="standard_name_vocabulary">CF Standard Name Table v70</att>
+      <att name="subsetVariables">management_group</att>
+    </addAttributes>
+    <dataVariable>
+      <sourceName>year</sourceName>
+      <destinationName>time</destinationName>
+      <dataType>String</dataType>
+      <addAttributes>
+        <att name="ioos_category">Time</att>
+      </addAttributes>
+    </dataVariable>
+    <dataVariable>
+      <sourceName>index</sourceName>
+      <destinationName>theil_rev</destinationName>
+      <dataType>float</dataType>
+      <addAttributes>
+        <att name="ioos_category">Other</att>
+      </addAttributes>
+    </dataVariable>
+    <dataVariable>
+      <sourceName>timeseries</sourceName>
+      <destinationName>management_group</destinationName>
+      <dataType>String</dataType>
+      <addAttributes>
+        <att name="ioos_category">Other</att>
+      </addAttributes>
+    </dataVariable>
+  </dataset>
+  <dataset type="EDDTableFromNccsvFiles" datasetID="cciea_HMS_ALB_DIET" active="true">
+    <reloadEveryNMinutes>2628000</reloadEveryNMinutes>
+    <fileDir>/home/ldewitt/Documents/GitHub/CCIEA-uploader/data/erddap_files/nccsv/Preti</fileDir>
+    <fileNameRegex>cciea_HMS_ALB_DIET.csv</fileNameRegex>
+    <recursive>false</recursive>
+    <columnNamesRow>1</columnNamesRow>
+    <firstDataRow>2</firstDataRow>
+    <defaultGraphQuery>time,proportion_diet&amp;species="anchovy"&amp;.draw=linesAndMarkers</defaultGraphQuery>
+    <addAttributes>
+      <att name="cdm_data_type">Other</att>
+      <att name="license">[standard]</att>
+      <att name="sourceUrl">(local files)</att>
+      <att name="standard_name_vocabulary">CF Standard Name Table v70</att>
+      <att name="subsetVariables">species</att>
+    </addAttributes>
+    <dataVariable>
+      <sourceName>year</sourceName>
+      <destinationName>time</destinationName>
+      <dataType>String</dataType>
+      <addAttributes>
+        <att name="ioos_category">Time</att>
+      </addAttributes>
+    </dataVariable>
+    <dataVariable>
+      <sourceName>index</sourceName>
+      <destinationName>proportion_diet</destinationName>
+      <dataType>float</dataType>
+      <addAttributes>
+        <att name="ioos_category">Other</att>
+      </addAttributes>
+    </dataVariable>
+    <dataVariable>
+      <sourceName>timeseries</sourceName>
+      <destinationName>species</destinationName>
+      <dataType>String</dataType>
+      <addAttributes>
+        <att name="ioos_category">Other</att>
+      </addAttributes>
+    </dataVariable>
+  </dataset>
+  <dataset type="EDDTableFromNccsvFiles" datasetID="cciea_HMS_BLF_DIET" active="true">
+    <reloadEveryNMinutes>2628000</reloadEveryNMinutes>
+    <fileDir>/home/ldewitt/Documents/GitHub/CCIEA-uploader/data/erddap_files/nccsv/Preti</fileDir>
+    <fileNameRegex>cciea_HMS_BLF_DIET.csv</fileNameRegex>
+    <recursive>false</recursive>
+    <columnNamesRow>1</columnNamesRow>
+    <firstDataRow>2</firstDataRow>
+    <defaultGraphQuery>time,proportion_diet&amp;species="anchovy"&amp;.draw=linesAndMarkers</defaultGraphQuery>
+    <addAttributes>
+      <att name="cdm_data_type">Other</att>
+      <att name="license">[standard]</att>
+      <att name="sourceUrl">(local files)</att>
+      <att name="standard_name_vocabulary">CF Standard Name Table v70</att>
+      <att name="subsetVariables">species</att>
+    </addAttributes>
+    <dataVariable>
+      <sourceName>year</sourceName>
+      <destinationName>time</destinationName>
+      <dataType>String</dataType>
+      <addAttributes>
+        <att name="ioos_category">Time</att>
+      </addAttributes>
+    </dataVariable>
+    <dataVariable>
+      <sourceName>index</sourceName>
+      <destinationName>proportion_diet</destinationName>
+      <dataType>float</dataType>
+      <addAttributes>
+        <att name="ioos_category">Other</att>
+      </addAttributes>
+    </dataVariable>
+    <dataVariable>
+      <sourceName>timeseries</sourceName>
+      <destinationName>species</destinationName>
+      <dataType>String</dataType>
+      <addAttributes>
+        <att name="ioos_category">Other</att>
+      </addAttributes>
+    </dataVariable>
+  </dataset>
+  <dataset type="EDDTableFromNccsvFiles" datasetID="cciea_HMS_SWD_DIET" active="true">
+    <reloadEveryNMinutes>2628000</reloadEveryNMinutes>
+    <fileDir>/home/ldewitt/Documents/GitHub/CCIEA-uploader/data/erddap_files/nccsv/Preti</fileDir>
+    <fileNameRegex>cciea_HMS_SWD_DIET.csv</fileNameRegex>
+    <recursive>false</recursive>
+    <columnNamesRow>1</columnNamesRow>
+    <firstDataRow>2</firstDataRow>
+    <defaultGraphQuery>time,proportion_diet&amp;species="anchovy"&amp;.draw=linesAndMarkers</defaultGraphQuery>
+    <addAttributes>
+      <att name="cdm_data_type">Other</att>
+      <att name="license">[standard]</att>
+      <att name="sourceUrl">(local files)</att>
+      <att name="standard_name_vocabulary">CF Standard Name Table v70</att>
+      <att name="subsetVariables">species</att>
+    </addAttributes>
+    <dataVariable>
+      <sourceName>year</sourceName>
+      <destinationName>time</destinationName>
+      <dataType>String</dataType>
+      <addAttributes>
+        <att name="ioos_category">Time</att>
+      </addAttributes>
+    </dataVariable>
+    <dataVariable>
+      <sourceName>index</sourceName>
+      <destinationName>proportion_diet</destinationName>
+      <dataType>float</dataType>
+      <addAttributes>
+        <att name="ioos_category">Other</att>
+      </addAttributes>
+    </dataVariable>
+    <dataVariable>
+      <sourceName>timeseries</sourceName>
+      <destinationName>species</destinationName>
+      <dataType>String</dataType>
+      <addAttributes>
+        <att name="ioos_category">Other</att>
+      </addAttributes>
+    </dataVariable>
+  </dataset>
+  <dataset type="EDDTableFromNccsvFiles" datasetID="cciea_OC_ARG" active="true">
+    <reloadEveryNMinutes>2628000</reloadEveryNMinutes>
+    <fileDir>/home/ldewitt/Documents/GitHub/CCIEA-uploader/data/erddap_files/nccsv/Schroeder</fileDir>
+    <fileNameRegex>cciea_OC_ARG.csv</fileNameRegex>
+    <recursive>false</recursive>
+    <columnNamesRow>1</columnNamesRow>
+    <firstDataRow>2</firstDataRow>
+    <defaultGraphQuery>time,aragonite_saturation_state&amp;location="Monthly Aragonite Saturation at 150 m: NH25 (44.65N -124.65W)"&amp;.draw=linesAndMarkers</defaultGraphQuery>
+    <addAttributes>
+      <att name="cdm_data_type">Other</att>
+      <att name="license">[standard]</att>
+      <att name="sourceUrl">(local files)</att>
+      <att name="standard_name_vocabulary">CF Standard Name Table v70</att>
+      <att name="subsetVariables">location</att>
+    </addAttributes>
+    <dataVariable>
+      <sourceName>time</sourceName>
+      <destinationName>time</destinationName>
+      <dataType>String</dataType>
+      <addAttributes>
+        <att name="ioos_category">Time</att>
+      </addAttributes>
+    </dataVariable>
+    <dataVariable>
+      <sourceName>index</sourceName>
+      <destinationName>aragonite_saturation_state</destinationName>
+      <dataType>float</dataType>
+      <addAttributes>
+        <att name="ioos_category">Other</att>
+      </addAttributes>
+    </dataVariable>
+    <dataVariable>
+      <sourceName>timeseries</sourceName>
+      <destinationName>location</destinationName>
+      <dataType>String</dataType>
+      <addAttributes>
+        <att name="ioos_category">Other</att>
+      </addAttributes>
+    </dataVariable>
+    <dataVariable>
+      <sourceName>SEup</sourceName>
+      <destinationName>SEup</destinationName>
+      <dataType>float</dataType>
+      <addAttributes>
+        <att name="ioos_category">Other</att>
+      </addAttributes>
+    </dataVariable>
+    <dataVariable>
+      <sourceName>SElo</sourceName>
+      <destinationName>SElo</destinationName>
+      <dataType>float</dataType>
+      <addAttributes>
+        <att name="ioos_category">Other</att>
+      </addAttributes>
+    </dataVariable>
+  </dataset>
+  <dataset type="EDDTableFromNccsvFiles" datasetID="cciea_OC_BEUTI" active="true">
+    <reloadEveryNMinutes>2628000</reloadEveryNMinutes>
+    <fileDir>/home/ldewitt/Documents/GitHub/CCIEA-uploader/data/erddap_files/nccsv/Schroeder</fileDir>
+    <fileNameRegex>cciea_OC_BEUTI.csv</fileNameRegex>
+    <recursive>false</recursive>
+    <columnNamesRow>1</columnNamesRow>
+    <firstDataRow>2</firstDataRow>
+    <defaultGraphQuery>time,beuti&amp;lat="33N"&amp;.draw=linesAndMarkers</defaultGraphQuery>
+    <addAttributes>
+      <att name="cdm_data_type">Other</att>
+      <att name="license">[standard]</att>
+      <att name="sourceUrl">(local files)</att>
+      <att name="standard_name_vocabulary">CF Standard Name Table v70</att>
+      <att name="subsetVariables">lat</att>
+    </addAttributes>
+    <dataVariable>
+      <sourceName>time</sourceName>
+      <destinationName>time</destinationName>
+      <dataType>String</dataType>
+      <addAttributes>
+        <att name="ioos_category">Time</att>
+      </addAttributes>
+    </dataVariable>
+    <dataVariable>
+      <sourceName>index</sourceName>
+      <destinationName>beuti</destinationName>
+      <dataType>float</dataType>
+      <addAttributes>
+        <att name="ioos_category">Other</att>
+      </addAttributes>
+    </dataVariable>
+    <dataVariable>
+      <sourceName>timeseries</sourceName>
+      <destinationName>lat</destinationName>
+      <dataType>String</dataType>
+      <addAttributes>
+        <att name="ioos_category">Other</att>
+      </addAttributes>
+    </dataVariable>
+  </dataset>
+  <dataset type="EDDTableFromNccsvFiles" datasetID="cciea_OC_CUTI" active="true">
+    <reloadEveryNMinutes>2628000</reloadEveryNMinutes>
+    <fileDir>/home/ldewitt/Documents/GitHub/CCIEA-uploader/data/erddap_files/nccsv/Schroeder</fileDir>
+    <fileNameRegex>cciea_OC_CUTI.csv</fileNameRegex>
+    <recursive>false</recursive>
+    <columnNamesRow>1</columnNamesRow>
+    <firstDataRow>2</firstDataRow>
+    <defaultGraphQuery>time,cuti&amp;lat="33N"&amp;.draw=linesAndMarkers</defaultGraphQuery>
+    <addAttributes>
+      <att name="cdm_data_type">Other</att>
+      <att name="license">[standard]</att>
+      <att name="sourceUrl">(local files)</att>
+      <att name="standard_name_vocabulary">CF Standard Name Table v70</att>
+      <att name="subsetVariables">lat</att>
+    </addAttributes>
+    <dataVariable>
+      <sourceName>time</sourceName>
+      <destinationName>time</destinationName>
+      <dataType>String</dataType>
+      <addAttributes>
+        <att name="ioos_category">Time</att>
+      </addAttributes>
+    </dataVariable>
+    <dataVariable>
+      <sourceName>index</sourceName>
+      <destinationName>cuti</destinationName>
+      <dataType>float</dataType>
+      <addAttributes>
+        <att name="ioos_category">Other</att>
+      </addAttributes>
+    </dataVariable>
+    <dataVariable>
+      <sourceName>timeseries</sourceName>
+      <destinationName>lat</destinationName>
+      <dataType>String</dataType>
+      <addAttributes>
+        <att name="ioos_category">Other</att>
+      </addAttributes>
+    </dataVariable>
+  </dataset>
+  <dataset type="EDDTableFromNccsvFiles" datasetID="cciea_OC_DO" active="true">
+    <reloadEveryNMinutes>2628000</reloadEveryNMinutes>
+    <fileDir>/home/ldewitt/Documents/GitHub/CCIEA-uploader/data/erddap_files/nccsv/Schroeder</fileDir>
+    <fileNameRegex>cciea_OC_DO.csv</fileNameRegex>
+    <recursive>false</recursive>
+    <columnNamesRow>1</columnNamesRow>
+    <firstDataRow>2</firstDataRow>
+    <defaultGraphQuery>time,dissolved_oxygen&amp;location="Monthly Dissolved Oxygen at 150 m: NH25 (44.65N -124.65W)"&amp;.draw=linesAndMarkers</defaultGraphQuery>
+    <addAttributes>
+      <att name="cdm_data_type">Other</att>
+      <att name="license">[standard]</att>
+      <att name="sourceUrl">(local files)</att>
+      <att name="standard_name_vocabulary">CF Standard Name Table v70</att>
+      <att name="subsetVariables">location</att>
+    </addAttributes>
+    <dataVariable>
+      <sourceName>time</sourceName>
+      <destinationName>time</destinationName>
+      <dataType>String</dataType>
+      <addAttributes>
+        <att name="ioos_category">Time</att>
+      </addAttributes>
+    </dataVariable>
+    <dataVariable>
+      <sourceName>index</sourceName>
+      <destinationName>dissolved_oxygen</destinationName>
+      <dataType>float</dataType>
+      <addAttributes>
+        <att name="ioos_category">Other</att>
+      </addAttributes>
+    </dataVariable>
+    <dataVariable>
+      <sourceName>timeseries</sourceName>
+      <destinationName>location</destinationName>
+      <dataType>String</dataType>
+      <addAttributes>
+        <att name="ioos_category">Other</att>
+      </addAttributes>
+    </dataVariable>
+    <dataVariable>
+      <sourceName>SEup</sourceName>
+      <destinationName>SEup</destinationName>
+      <dataType>float</dataType>
+      <addAttributes>
+        <att name="ioos_category">Other</att>
+      </addAttributes>
+    </dataVariable>
+    <dataVariable>
+      <sourceName>SElo</sourceName>
+      <destinationName>SElo</destinationName>
+      <dataType>float</dataType>
+      <addAttributes>
+        <att name="ioos_category">Other</att>
+      </addAttributes>
+    </dataVariable>
+  </dataset>
+  <dataset type="EDDTableFromNccsvFiles" datasetID="cciea_OC_HCI" active="true">
+    <reloadEveryNMinutes>2628000</reloadEveryNMinutes>
+    <fileDir>/home/ldewitt/Documents/GitHub/CCIEA-uploader/data/erddap_files/nccsv/Schroeder</fileDir>
+    <fileNameRegex>cciea_OC_HCI.csv</fileNameRegex>
+    <recursive>false</recursive>
+    <columnNamesRow>1</columnNamesRow>
+    <firstDataRow>2</firstDataRow>
+    <defaultGraphQuery>time,hci&amp;region="Monthly Habitat Compression Index over 30-35.5N"&amp;.draw=linesAndMarkers</defaultGraphQuery>
+    <addAttributes>
+      <att name="cdm_data_type">Other</att>
+      <att name="license">[standard]</att>
+      <att name="sourceUrl">(local files)</att>
+      <att name="standard_name_vocabulary">CF Standard Name Table v70</att>
+      <att name="subsetVariables">region</att>
+    </addAttributes>
+    <dataVariable>
+      <sourceName>time</sourceName>
+      <destinationName>time</destinationName>
+      <dataType>String</dataType>
+      <addAttributes>
+        <att name="ioos_category">Time</att>
+      </addAttributes>
+    </dataVariable>
+    <dataVariable>
+      <sourceName>index</sourceName>
+      <destinationName>hci</destinationName>
+      <dataType>float</dataType>
+      <addAttributes>
+        <att name="ioos_category">Other</att>
+      </addAttributes>
+    </dataVariable>
+    <dataVariable>
+      <sourceName>timeseries</sourceName>
+      <destinationName>region</destinationName>
+      <dataType>String</dataType>
+      <addAttributes>
+        <att name="ioos_category">Other</att>
+      </addAttributes>
+    </dataVariable>
+    <dataVariable>
+      <sourceName>SEup</sourceName>
+      <destinationName>SEup</destinationName>
+      <dataType>float</dataType>
+      <addAttributes>
+        <att name="ioos_category">Other</att>
+      </addAttributes>
+    </dataVariable>
+    <dataVariable>
+      <sourceName>SElo</sourceName>
+      <destinationName>SElo</destinationName>
+      <dataType>float</dataType>
+      <addAttributes>
+        <att name="ioos_category">Other</att>
+      </addAttributes>
+    </dataVariable>
+  </dataset>
+  <dataset type="EDDTableFromNccsvFiles" datasetID="cciea_OC_LUSI" active="true">
+    <reloadEveryNMinutes>2628000</reloadEveryNMinutes>
+    <fileDir>/home/ldewitt/Documents/GitHub/CCIEA-uploader/data/erddap_files/nccsv/Schroeder</fileDir>
+    <fileNameRegex>cciea_OC_LUSI.csv</fileNameRegex>
+    <recursive>false</recursive>
+    <columnNamesRow>1</columnNamesRow>
+    <firstDataRow>2</firstDataRow>
+    <defaultGraphQuery>time,lusi&amp;lat="Length of Upwelling Season Index @ 33N"&amp;.draw=linesAndMarkers</defaultGraphQuery>
+    <addAttributes>
+      <att name="cdm_data_type">Other</att>
+      <att name="license">[standard]</att>
+      <att name="sourceUrl">(local files)</att>
+      <att name="standard_name_vocabulary">CF Standard Name Table v70</att>
+      <att name="subsetVariables">lat</att>
+    </addAttributes>
+    <dataVariable>
+      <sourceName>year</sourceName>
+      <destinationName>time</destinationName>
+      <dataType>String</dataType>
+      <addAttributes>
+        <att name="ioos_category">Time</att>
+      </addAttributes>
+    </dataVariable>
+    <dataVariable>
+      <sourceName>index</sourceName>
+      <destinationName>lusi</destinationName>
+      <dataType>float</dataType>
+      <addAttributes>
+        <att name="ioos_category">Other</att>
+      </addAttributes>
+    </dataVariable>
+    <dataVariable>
+      <sourceName>timeseries</sourceName>
+      <destinationName>lat</destinationName>
+      <dataType>String</dataType>
+      <addAttributes>
+        <att name="ioos_category">Other</att>
+      </addAttributes>
+    </dataVariable>
+    <dataVariable>
+      <sourceName>SEup</sourceName>
+      <destinationName>SEup</destinationName>
+      <dataType>float</dataType>
+      <addAttributes>
+        <att name="ioos_category">Other</att>
+      </addAttributes>
+    </dataVariable>
+    <dataVariable>
+      <sourceName>SElo</sourceName>
+      <destinationName>SElo</destinationName>
+      <dataType>float</dataType>
+      <addAttributes>
+        <att name="ioos_category">Other</att>
+      </addAttributes>
+    </dataVariable>
+  </dataset>
+  <dataset type="EDDTableFromNccsvFiles" datasetID="cciea_OC_MEI" active="true">
+    <reloadEveryNMinutes>2628000</reloadEveryNMinutes>
+    <fileDir>/home/ldewitt/Documents/GitHub/CCIEA-uploader/data/erddap_files/nccsv/Schroeder</fileDir>
+    <fileNameRegex>cciea_OC_MEI.csv</fileNameRegex>
+    <recursive>false</recursive>
+    <columnNamesRow>1</columnNamesRow>
+    <firstDataRow>2</firstDataRow>
+    <defaultGraphQuery>time,MEI&amp;index="MEI"&amp;.draw=linesAndMarkers</defaultGraphQuery>
+    <addAttributes>
+      <att name="cdm_data_type">Other</att>
+      <att name="license">[standard]</att>
+      <att name="sourceUrl">(local files)</att>
+      <att name="standard_name_vocabulary">CF Standard Name Table v70</att>
+      <att name="subsetVariables">index</att>
+    </addAttributes>
+    <dataVariable>
+      <sourceName>time</sourceName>
+      <destinationName>time</destinationName>
+      <dataType>String</dataType>
+      <addAttributes>
+        <att name="ioos_category">Time</att>
+      </addAttributes>
+    </dataVariable>
+    <dataVariable>
+      <sourceName>index</sourceName>
+      <destinationName>MEI</destinationName>
+      <dataType>float</dataType>
+      <addAttributes>
+        <att name="ioos_category">Other</att>
+      </addAttributes>
+    </dataVariable>
+    <dataVariable>
+      <sourceName>timeseries</sourceName>
+      <destinationName>index</destinationName>
+      <dataType>String</dataType>
+      <addAttributes>
+        <att name="ioos_category">Other</att>
+      </addAttributes>
+    </dataVariable>
+  </dataset>
+  <dataset type="EDDTableFromNccsvFiles" datasetID="cciea_OC_NOI" active="true">
+    <reloadEveryNMinutes>2628000</reloadEveryNMinutes>
+    <fileDir>/home/ldewitt/Documents/GitHub/CCIEA-uploader/data/erddap_files/nccsv/Schroeder</fileDir>
+    <fileNameRegex>cciea_OC_NOI.csv</fileNameRegex>
+    <recursive>false</recursive>
+    <columnNamesRow>1</columnNamesRow>
+    <firstDataRow>2</firstDataRow>
+    <defaultGraphQuery>time,NOI&amp;index="NOI"&amp;.draw=linesAndMarkers</defaultGraphQuery>
+    <addAttributes>
+      <att name="cdm_data_type">Other</att>
+      <att name="license">[standard]</att>
+      <att name="sourceUrl">(local files)</att>
+      <att name="standard_name_vocabulary">CF Standard Name Table v70</att>
+      <att name="subsetVariables">index</att>
+    </addAttributes>
+    <dataVariable>
+      <sourceName>time</sourceName>
+      <destinationName>time</destinationName>
+      <dataType>String</dataType>
+      <addAttributes>
+        <att name="ioos_category">Time</att>
+      </addAttributes>
+    </dataVariable>
+    <dataVariable>
+      <sourceName>index</sourceName>
+      <destinationName>NOI</destinationName>
+      <dataType>float</dataType>
+      <addAttributes>
+        <att name="ioos_category">Other</att>
+      </addAttributes>
+    </dataVariable>
+    <dataVariable>
+      <sourceName>timeseries</sourceName>
+      <destinationName>index</destinationName>
+      <dataType>String</dataType>
+      <addAttributes>
+        <att name="ioos_category">Other</att>
+      </addAttributes>
+    </dataVariable>
+  </dataset>
+  <dataset type="EDDTableFromNccsvFiles" datasetID="cciea_OC_NPGO" active="true">
+    <reloadEveryNMinutes>2628000</reloadEveryNMinutes>
+    <fileDir>/home/ldewitt/Documents/GitHub/CCIEA-uploader/data/erddap_files/nccsv/Schroeder</fileDir>
+    <fileNameRegex>cciea_OC_NPGO.csv</fileNameRegex>
+    <recursive>false</recursive>
+    <columnNamesRow>1</columnNamesRow>
+    <firstDataRow>2</firstDataRow>
+    <defaultGraphQuery>time,NPGO&amp;index="NPGO"&amp;.draw=linesAndMarkers</defaultGraphQuery>
+    <addAttributes>
+      <att name="cdm_data_type">Other</att>
+      <att name="license">[standard]</att>
+      <att name="sourceUrl">(local files)</att>
+      <att name="standard_name_vocabulary">CF Standard Name Table v70</att>
+      <att name="subsetVariables">index</att>
+    </addAttributes>
+    <dataVariable>
+      <sourceName>time</sourceName>
+      <destinationName>time</destinationName>
+      <dataType>String</dataType>
+      <addAttributes>
+        <att name="ioos_category">Time</att>
+      </addAttributes>
+    </dataVariable>
+    <dataVariable>
+      <sourceName>index</sourceName>
+      <destinationName>NPGO</destinationName>
+      <dataType>float</dataType>
+      <addAttributes>
+        <att name="ioos_category">Other</att>
+      </addAttributes>
+    </dataVariable>
+    <dataVariable>
+      <sourceName>timeseries</sourceName>
+      <destinationName>index</destinationName>
+      <dataType>String</dataType>
+      <addAttributes>
+        <att name="ioos_category">Other</att>
+      </addAttributes>
+    </dataVariable>
+  </dataset>
+  <dataset type="EDDTableFromNccsvFiles" datasetID="cciea_OC_NPH" active="true">
+    <reloadEveryNMinutes>2628000</reloadEveryNMinutes>
+    <fileDir>/home/ldewitt/Documents/GitHub/CCIEA-uploader/data/erddap_files/nccsv/Schroeder</fileDir>
+    <fileNameRegex>cciea_OC_NPH.csv</fileNameRegex>
+    <recursive>false</recursive>
+    <columnNamesRow>1</columnNamesRow>
+    <firstDataRow>2</firstDataRow>
+    <defaultGraphQuery>time,nph_area&amp;index="Monthly North Pacific High Area"&amp;.draw=linesAndMarkers</defaultGraphQuery>
+    <addAttributes>
+      <att name="cdm_data_type">Other</att>
+      <att name="license">[standard]</att>
+      <att name="sourceUrl">(local files)</att>
+      <att name="standard_name_vocabulary">CF Standard Name Table v70</att>
+      <att name="subsetVariables">index</att>
+    </addAttributes>
+    <dataVariable>
+      <sourceName>time</sourceName>
+      <destinationName>time</destinationName>
+      <dataType>String</dataType>
+      <addAttributes>
+        <att name="ioos_category">Time</att>
+      </addAttributes>
+    </dataVariable>
+    <dataVariable>
+      <sourceName>index</sourceName>
+      <destinationName>nph_area</destinationName>
+      <dataType>float</dataType>
+      <addAttributes>
+        <att name="ioos_category">Other</att>
+      </addAttributes>
+    </dataVariable>
+    <dataVariable>
+      <sourceName>timeseries</sourceName>
+      <destinationName>index</destinationName>
+      <dataType>String</dataType>
+      <addAttributes>
+        <att name="ioos_category">Other</att>
+      </addAttributes>
+    </dataVariable>
+    <dataVariable>
+      <sourceName>SEup</sourceName>
+      <destinationName>SEup</destinationName>
+      <dataType>float</dataType>
+      <addAttributes>
+        <att name="ioos_category">Other</att>
+      </addAttributes>
+    </dataVariable>
+    <dataVariable>
+      <sourceName>SElo</sourceName>
+      <destinationName>SElo</destinationName>
+      <dataType>float</dataType>
+      <addAttributes>
+        <att name="ioos_category">Other</att>
+      </addAttributes>
+    </dataVariable>
+  </dataset>
+  <dataset type="EDDTableFromNccsvFiles" datasetID="cciea_OC_NPH_JF" active="true">
+    <reloadEveryNMinutes>2628000</reloadEveryNMinutes>
+    <fileDir>/home/ldewitt/Documents/GitHub/CCIEA-uploader/data/erddap_files/nccsv/Schroeder</fileDir>
+    <fileNameRegex>cciea_OC_NPH_JF.csv</fileNameRegex>
+    <recursive>false</recursive>
+    <columnNamesRow>1</columnNamesRow>
+    <firstDataRow>2</firstDataRow>
+    <defaultGraphQuery>time,nph_area&amp;index="North Pacific High January - February Area"&amp;.draw=linesAndMarkers</defaultGraphQuery>
+    <addAttributes>
+      <att name="cdm_data_type">Other</att>
+      <att name="license">[standard]</att>
+      <att name="sourceUrl">(local files)</att>
+      <att name="standard_name_vocabulary">CF Standard Name Table v70</att>
+      <att name="subsetVariables">index</att>
+    </addAttributes>
+    <dataVariable>
+      <sourceName>year</sourceName>
+      <destinationName>time</destinationName>
+      <dataType>String</dataType>
+      <addAttributes>
+        <att name="ioos_category">Time</att>
+      </addAttributes>
+    </dataVariable>
+    <dataVariable>
+      <sourceName>index</sourceName>
+      <destinationName>nph_area</destinationName>
+      <dataType>float</dataType>
+      <addAttributes>
+        <att name="ioos_category">Other</att>
+      </addAttributes>
+    </dataVariable>
+    <dataVariable>
+      <sourceName>timeseries</sourceName>
+      <destinationName>index</destinationName>
+      <dataType>String</dataType>
+      <addAttributes>
+        <att name="ioos_category">Other</att>
+      </addAttributes>
+    </dataVariable>
+    <dataVariable>
+      <sourceName>SEup</sourceName>
+      <destinationName>SEup</destinationName>
+      <dataType>float</dataType>
+      <addAttributes>
+        <att name="ioos_category">Other</att>
+      </addAttributes>
+    </dataVariable>
+    <dataVariable>
+      <sourceName>SElo</sourceName>
+      <destinationName>SElo</destinationName>
+      <dataType>float</dataType>
+      <addAttributes>
+        <att name="ioos_category">Other</att>
+      </addAttributes>
+    </dataVariable>
+  </dataset>
+  <dataset type="EDDTableFromNccsvFiles" datasetID="cciea_OC_ONI" active="true">
+    <reloadEveryNMinutes>2628000</reloadEveryNMinutes>
+    <fileDir>/home/ldewitt/Documents/GitHub/CCIEA-uploader/data/erddap_files/nccsv/Schroeder</fileDir>
+    <fileNameRegex>cciea_OC_ONI.csv</fileNameRegex>
+    <recursive>false</recursive>
+    <columnNamesRow>1</columnNamesRow>
+    <firstDataRow>2</firstDataRow>
+    <defaultGraphQuery>time,ONI&amp;index="ONI"&amp;.draw=linesAndMarkers</defaultGraphQuery>
+    <addAttributes>
+      <att name="cdm_data_type">Other</att>
+      <att name="license">[standard]</att>
+      <att name="sourceUrl">(local files)</att>
+      <att name="standard_name_vocabulary">CF Standard Name Table v70</att>
+      <att name="subsetVariables">index</att>
+    </addAttributes>
+    <dataVariable>
+      <sourceName>time</sourceName>
+      <destinationName>time</destinationName>
+      <dataType>String</dataType>
+      <addAttributes>
+        <att name="ioos_category">Time</att>
+      </addAttributes>
+    </dataVariable>
+    <dataVariable>
+      <sourceName>index</sourceName>
+      <destinationName>ONI</destinationName>
+      <dataType>float</dataType>
+      <addAttributes>
+        <att name="ioos_category">Other</att>
+      </addAttributes>
+    </dataVariable>
+    <dataVariable>
+      <sourceName>timeseries</sourceName>
+      <destinationName>index</destinationName>
+      <dataType>String</dataType>
+      <addAttributes>
+        <att name="ioos_category">Other</att>
+      </addAttributes>
+    </dataVariable>
+  </dataset>
+  <dataset type="EDDTableFromNccsvFiles" datasetID="cciea_OC_PDO" active="true">
+    <reloadEveryNMinutes>2628000</reloadEveryNMinutes>
+    <fileDir>/home/ldewitt/Documents/GitHub/CCIEA-uploader/data/erddap_files/nccsv/Schroeder</fileDir>
+    <fileNameRegex>cciea_OC_PDO.csv</fileNameRegex>
+    <recursive>false</recursive>
+    <columnNamesRow>1</columnNamesRow>
+    <firstDataRow>2</firstDataRow>
+    <defaultGraphQuery>time,PDO&amp;index="PDO"&amp;.draw=linesAndMarkers</defaultGraphQuery>
+    <addAttributes>
+      <att name="cdm_data_type">Other</att>
+      <att name="license">[standard]</att>
+      <att name="sourceUrl">(local files)</att>
+      <att name="standard_name_vocabulary">CF Standard Name Table v70</att>
+      <att name="subsetVariables">index</att>
+    </addAttributes>
+    <dataVariable>
+      <sourceName>time</sourceName>
+      <destinationName>time</destinationName>
+      <dataType>String</dataType>
+      <addAttributes>
+        <att name="ioos_category">Time</att>
+      </addAttributes>
+    </dataVariable>
+    <dataVariable>
+      <sourceName>index</sourceName>
+      <destinationName>PDO</destinationName>
+      <dataType>float</dataType>
+      <addAttributes>
+        <att name="ioos_category">Other</att>
+      </addAttributes>
+    </dataVariable>
+    <dataVariable>
+      <sourceName>timeseries</sourceName>
+      <destinationName>index</destinationName>
+      <dataType>String</dataType>
+      <addAttributes>
+        <att name="ioos_category">Other</att>
+      </addAttributes>
+    </dataVariable>
+  </dataset>
+  <dataset type="EDDTableFromNccsvFiles" datasetID="cciea_OC_SST" active="true">
+    <reloadEveryNMinutes>2628000</reloadEveryNMinutes>
+    <fileDir>/home/ldewitt/Documents/GitHub/CCIEA-uploader/data/erddap_files/nccsv/Schroeder</fileDir>
+    <fileNameRegex>cciea_OC_SST.csv</fileNameRegex>
+    <recursive>false</recursive>
+    <columnNamesRow>1</columnNamesRow>
+    <firstDataRow>2</firstDataRow>
+    <defaultGraphQuery>time,SST&amp;lat="33N"&amp;.draw=linesAndMarkers</defaultGraphQuery>
+    <addAttributes>
+      <att name="cdm_data_type">Other</att>
+      <att name="license">[standard]</att>
+      <att name="sourceUrl">(local files)</att>
+      <att name="standard_name_vocabulary">CF Standard Name Table v70</att>
+      <att name="subsetVariables">lat</att>
+    </addAttributes>
+    <dataVariable>
+      <sourceName>time</sourceName>
+      <destinationName>time</destinationName>
+      <dataType>String</dataType>
+      <addAttributes>
+        <att name="ioos_category">Time</att>
+      </addAttributes>
+    </dataVariable>
+    <dataVariable>
+      <sourceName>index</sourceName>
+      <destinationName>SST</destinationName>
+      <dataType>float</dataType>
+      <addAttributes>
+        <att name="ioos_category">Other</att>
+      </addAttributes>
+    </dataVariable>
+    <dataVariable>
+      <sourceName>timeseries</sourceName>
+      <destinationName>lat</destinationName>
+      <dataType>String</dataType>
+      <addAttributes>
+        <att name="ioos_category">Other</att>
+      </addAttributes>
+    </dataVariable>
+    <dataVariable>
+      <sourceName>SEup</sourceName>
+      <destinationName>SEup</destinationName>
+      <dataType>float</dataType>
+      <addAttributes>
+        <att name="ioos_category">Other</att>
+      </addAttributes>
+    </dataVariable>
+    <dataVariable>
+      <sourceName>SElo</sourceName>
+      <destinationName>SElo</destinationName>
+      <dataType>float</dataType>
+      <addAttributes>
+        <att name="ioos_category">Other</att>
+      </addAttributes>
+    </dataVariable>
+  </dataset>
+  <dataset type="EDDTableFromNccsvFiles" datasetID="cciea_OC_STI" active="true">
+    <reloadEveryNMinutes>2628000</reloadEveryNMinutes>
+    <fileDir>/home/ldewitt/Documents/GitHub/CCIEA-uploader/data/erddap_files/nccsv/Schroeder</fileDir>
+    <fileNameRegex>cciea_OC_STI.csv</fileNameRegex>
+    <recursive>false</recursive>
+    <columnNamesRow>1</columnNamesRow>
+    <firstDataRow>2</firstDataRow>
+    <defaultGraphQuery>time,sti&amp;lat="Spring Transition Index @ 33N"&amp;.draw=linesAndMarkers</defaultGraphQuery>
+    <addAttributes>
+      <att name="cdm_data_type">Other</att>
+      <att name="license">[standard]</att>
+      <att name="sourceUrl">(local files)</att>
+      <att name="standard_name_vocabulary">CF Standard Name Table v70</att>
+      <att name="subsetVariables">lat</att>
+    </addAttributes>
+    <dataVariable>
+      <sourceName>year</sourceName>
+      <destinationName>time</destinationName>
+      <dataType>String</dataType>
+      <addAttributes>
+        <att name="ioos_category">Time</att>
+      </addAttributes>
+    </dataVariable>
+    <dataVariable>
+      <sourceName>index</sourceName>
+      <destinationName>sti</destinationName>
+      <dataType>float</dataType>
+      <addAttributes>
+        <att name="ioos_category">Other</att>
+      </addAttributes>
+    </dataVariable>
+    <dataVariable>
+      <sourceName>timeseries</sourceName>
+      <destinationName>lat</destinationName>
+      <dataType>String</dataType>
+      <addAttributes>
+        <att name="ioos_category">Other</att>
+      </addAttributes>
+    </dataVariable>
+    <dataVariable>
+      <sourceName>SEup</sourceName>
+      <destinationName>SEup</destinationName>
+      <dataType>float</dataType>
+      <addAttributes>
+        <att name="ioos_category">Other</att>
+      </addAttributes>
+    </dataVariable>
+    <dataVariable>
+      <sourceName>SElo</sourceName>
+      <destinationName>SElo</destinationName>
+      <dataType>float</dataType>
+      <addAttributes>
+        <att name="ioos_category">Other</att>
+      </addAttributes>
+    </dataVariable>
+  </dataset>
+  <dataset type="EDDTableFromNccsvFiles" datasetID="cciea_OC_TUMI" active="true">
+    <reloadEveryNMinutes>2628000</reloadEveryNMinutes>
+    <fileDir>/home/ldewitt/Documents/GitHub/CCIEA-uploader/data/erddap_files/nccsv/Schroeder</fileDir>
+    <fileNameRegex>cciea_OC_TUMI.csv</fileNameRegex>
+    <recursive>false</recursive>
+    <columnNamesRow>1</columnNamesRow>
+    <firstDataRow>2</firstDataRow>
+    <defaultGraphQuery>time,tumi&amp;lat="Total Upwelling Magnitude Index @ 33N"&amp;.draw=linesAndMarkers</defaultGraphQuery>
+    <addAttributes>
+      <att name="cdm_data_type">Other</att>
+      <att name="license">[standard]</att>
+      <att name="sourceUrl">(local files)</att>
+      <att name="standard_name_vocabulary">CF Standard Name Table v70</att>
+      <att name="subsetVariables">lat</att>
+    </addAttributes>
+    <dataVariable>
+      <sourceName>year</sourceName>
+      <destinationName>time</destinationName>
+      <dataType>String</dataType>
+      <addAttributes>
+        <att name="ioos_category">Time</att>
+      </addAttributes>
+    </dataVariable>
+    <dataVariable>
+      <sourceName>index</sourceName>
+      <destinationName>tumi</destinationName>
+      <dataType>float</dataType>
+      <addAttributes>
+        <att name="ioos_category">Other</att>
+      </addAttributes>
+    </dataVariable>
+    <dataVariable>
+      <sourceName>timeseries</sourceName>
+      <destinationName>lat</destinationName>
+      <dataType>String</dataType>
+      <addAttributes>
+        <att name="ioos_category">Other</att>
+      </addAttributes>
+    </dataVariable>
+    <dataVariable>
+      <sourceName>SEup</sourceName>
+      <destinationName>SEup</destinationName>
+      <dataType>float</dataType>
+      <addAttributes>
+        <att name="ioos_category">Other</att>
+      </addAttributes>
+    </dataVariable>
+    <dataVariable>
+      <sourceName>SElo</sourceName>
+      <destinationName>SElo</destinationName>
+      <dataType>float</dataType>
+      <addAttributes>
+        <att name="ioos_category">Other</att>
+      </addAttributes>
+    </dataVariable>
+  </dataset>
+  <dataset type="EDDTableFromNccsvFiles" datasetID="cciea_OC_UI" active="true">
+    <reloadEveryNMinutes>2628000</reloadEveryNMinutes>
+    <fileDir>/home/ldewitt/Documents/GitHub/CCIEA-uploader/data/erddap_files/nccsv/Schroeder</fileDir>
+    <fileNameRegex>cciea_OC_UI.csv</fileNameRegex>
+    <recursive>false</recursive>
+    <columnNamesRow>1</columnNamesRow>
+    <firstDataRow>2</firstDataRow>
+    <defaultGraphQuery>time,upwelling_index&amp;lat="33N"&amp;.draw=linesAndMarkers</defaultGraphQuery>
+    <addAttributes>
+      <att name="cdm_data_type">Other</att>
+      <att name="license">[standard]</att>
+      <att name="sourceUrl">(local files)</att>
+      <att name="standard_name_vocabulary">CF Standard Name Table v70</att>
+      <att name="subsetVariables">lat</att>
+    </addAttributes>
+    <dataVariable>
+      <sourceName>time</sourceName>
+      <destinationName>time</destinationName>
+      <dataType>String</dataType>
+      <addAttributes>
+        <att name="ioos_category">Time</att>
+      </addAttributes>
+    </dataVariable>
+    <dataVariable>
+      <sourceName>index</sourceName>
+      <destinationName>upwelling_index</destinationName>
+      <dataType>float</dataType>
+      <addAttributes>
+        <att name="ioos_category">Other</att>
+      </addAttributes>
+    </dataVariable>
+    <dataVariable>
+      <sourceName>timeseries</sourceName>
+      <destinationName>lat</destinationName>
+      <dataType>String</dataType>
+      <addAttributes>
+        <att name="ioos_category">Other</att>
+      </addAttributes>
+    </dataVariable>
+    <dataVariable>
+      <sourceName>SEup</sourceName>
+      <destinationName>SEup</destinationName>
+      <dataType>float</dataType>
+      <addAttributes>
+        <att name="ioos_category">Other</att>
+      </addAttributes>
+    </dataVariable>
+    <dataVariable>
+      <sourceName>SElo</sourceName>
+      <destinationName>SElo</destinationName>
+      <dataType>float</dataType>
+      <addAttributes>
+        <att name="ioos_category">Other</att>
+      </addAttributes>
+    </dataVariable>
+  </dataset>
+  <dataset type="EDDTableFromNccsvFiles" datasetID="cciea_OC_VWND" active="true">
+    <reloadEveryNMinutes>2628000</reloadEveryNMinutes>
+    <fileDir>/home/ldewitt/Documents/GitHub/CCIEA-uploader/data/erddap_files/nccsv/Schroeder</fileDir>
+    <fileNameRegex>cciea_OC_VWND.csv</fileNameRegex>
+    <recursive>false</recursive>
+    <columnNamesRow>1</columnNamesRow>
+    <firstDataRow>2</firstDataRow>
+    <defaultGraphQuery>time,vwnd&amp;lat="33N"&amp;.draw=linesAndMarkers</defaultGraphQuery>
+    <addAttributes>
+      <att name="cdm_data_type">Other</att>
+      <att name="license">[standard]</att>
+      <att name="sourceUrl">(local files)</att>
+      <att name="standard_name_vocabulary">CF Standard Name Table v70</att>
+      <att name="subsetVariables">lat</att>
+    </addAttributes>
+    <dataVariable>
+      <sourceName>time</sourceName>
+      <destinationName>time</destinationName>
+      <dataType>String</dataType>
+      <addAttributes>
+        <att name="ioos_category">Time</att>
+      </addAttributes>
+    </dataVariable>
+    <dataVariable>
+      <sourceName>index</sourceName>
+      <destinationName>vwnd</destinationName>
+      <dataType>float</dataType>
+      <addAttributes>
+        <att name="ioos_category">Other</att>
+      </addAttributes>
+    </dataVariable>
+    <dataVariable>
+      <sourceName>timeseries</sourceName>
+      <destinationName>lat</destinationName>
+      <dataType>String</dataType>
+      <addAttributes>
+        <att name="ioos_category">Other</att>
+      </addAttributes>
+    </dataVariable>
+    <dataVariable>
+      <sourceName>SEup</sourceName>
+      <destinationName>SEup</destinationName>
+      <dataType>float</dataType>
+      <addAttributes>
+        <att name="ioos_category">Other</att>
+      </addAttributes>
+    </dataVariable>
+    <dataVariable>
+      <sourceName>SElo</sourceName>
+      <destinationName>SElo</destinationName>
+      <dataType>float</dataType>
+      <addAttributes>
+        <att name="ioos_category">Other</att>
+      </addAttributes>
+    </dataVariable>
+  </dataset>
+  <dataset type="EDDTableFromNccsvFiles" datasetID="cciea_EI_FBS" active="true">
+    <reloadEveryNMinutes>2628000</reloadEveryNMinutes>
+    <fileDir>/home/ldewitt/Documents/GitHub/CCIEA-uploader/data/erddap_files/nccsv/Thompson</fileDir>
+    <fileNameRegex>cciea_EI_FBS.csv</fileNameRegex>
+    <recursive>false</recursive>
+    <columnNamesRow>1</columnNamesRow>
+    <firstDataRow>2</firstDataRow>
+    <defaultGraphQuery>time,relative_abundance&amp;larval_species_group="anchovy"&amp;.draw=linesAndMarkers</defaultGraphQuery>
+    <addAttributes>
+      <att name="cdm_data_type">Other</att>
+      <att name="license">[standard]</att>
+      <att name="sourceUrl">(local files)</att>
+      <att name="standard_name_vocabulary">CF Standard Name Table v70</att>
+      <att name="subsetVariables">larval_species_group</att>
+    </addAttributes>
+    <dataVariable>
+      <sourceName>year</sourceName>
+      <destinationName>time</destinationName>
+      <dataType>String</dataType>
+      <addAttributes>
+        <att name="ioos_category">Time</att>
+      </addAttributes>
+    </dataVariable>
+    <dataVariable>
+      <sourceName>index</sourceName>
+      <destinationName>relative_abundance</destinationName>
+      <dataType>float</dataType>
+      <addAttributes>
+        <att name="ioos_category">Other</att>
+      </addAttributes>
+    </dataVariable>
+    <dataVariable>
+      <sourceName>timeseries</sourceName>
+      <destinationName>larval_species_group</destinationName>
+      <dataType>String</dataType>
+      <addAttributes>
+        <att name="ioos_category">Other</att>
+      </addAttributes>
+    </dataVariable>
+    <dataVariable>
+      <sourceName>SEup</sourceName>
+      <destinationName>SEup</destinationName>
+      <dataType>float</dataType>
+      <addAttributes>
+        <att name="ioos_category">Other</att>
+      </addAttributes>
+    </dataVariable>
+    <dataVariable>
+      <sourceName>SElo</sourceName>
+      <destinationName>SElo</destinationName>
+      <dataType>float</dataType>
+      <addAttributes>
+        <att name="ioos_category">Other</att>
+      </addAttributes>
+    </dataVariable>
+  </dataset>
+  <dataset type="EDDTableFromNccsvFiles" datasetID="cciea_EI_CRAB_FINF" active="true">
+    <reloadEveryNMinutes>2628000</reloadEveryNMinutes>
+    <fileDir>/home/ldewitt/Documents/GitHub/CCIEA-uploader/data/erddap_files/nccsv/Tolimieri</fileDir>
+    <fileNameRegex>cciea_EI_CRAB_FINF.csv</fileNameRegex>
+    <recursive>false</recursive>
+    <columnNamesRow>1</columnNamesRow>
+    <firstDataRow>2</firstDataRow>
+    <defaultGraphQuery>time,biomass_ratio&amp;population="Coastwide"&amp;.draw=linesAndMarkers</defaultGraphQuery>
+    <addAttributes>
+      <att name="cdm_data_type">Other</att>
+      <att name="license">[standard]</att>
+      <att name="sourceUrl">(local files)</att>
+      <att name="standard_name_vocabulary">CF Standard Name Table v70</att>
+      <att name="subsetVariables">population</att>
+    </addAttributes>
+    <dataVariable>
+      <sourceName>year</sourceName>
+      <destinationName>time</destinationName>
+      <dataType>String</dataType>
+      <addAttributes>
+        <att name="ioos_category">Time</att>
+      </addAttributes>
+    </dataVariable>
+    <dataVariable>
+      <sourceName>index</sourceName>
+      <destinationName>biomass_ratio</destinationName>
+      <dataType>float</dataType>
+      <addAttributes>
+        <att name="ioos_category">Other</att>
+      </addAttributes>
+    </dataVariable>
+    <dataVariable>
+      <sourceName>timeseries</sourceName>
+      <destinationName>population</destinationName>
+      <dataType>String</dataType>
+      <addAttributes>
+        <att name="ioos_category">Other</att>
+      </addAttributes>
+    </dataVariable>
+    <dataVariable>
+      <sourceName>SEup</sourceName>
+      <destinationName>SEup</destinationName>
+      <dataType>float</dataType>
+      <addAttributes>
+        <att name="ioos_category">Other</att>
+      </addAttributes>
+    </dataVariable>
+    <dataVariable>
+      <sourceName>SElo</sourceName>
+      <destinationName>SElo</destinationName>
+      <dataType>float</dataType>
+      <addAttributes>
+        <att name="ioos_category">Other</att>
+      </addAttributes>
+    </dataVariable>
+  </dataset>
+  <dataset type="EDDTableFromNccsvFiles" datasetID="cciea_EI_MTL" active="true">
+    <reloadEveryNMinutes>2628000</reloadEveryNMinutes>
+    <fileDir>/home/ldewitt/Documents/GitHub/CCIEA-uploader/data/erddap_files/nccsv/Tolimieri</fileDir>
+    <fileNameRegex>cciea_EI_MTL.csv</fileNameRegex>
+    <recursive>false</recursive>
+    <columnNamesRow>1</columnNamesRow>
+    <firstDataRow>2</firstDataRow>
+    <defaultGraphQuery>time,mean_trophic_level&amp;population="Coastwide"&amp;.draw=linesAndMarkers</defaultGraphQuery>
+    <addAttributes>
+      <att name="cdm_data_type">Other</att>
+      <att name="license">[standard]</att>
+      <att name="sourceUrl">(local files)</att>
+      <att name="standard_name_vocabulary">CF Standard Name Table v70</att>
+      <att name="subsetVariables">population</att>
+    </addAttributes>
+    <dataVariable>
+      <sourceName>year</sourceName>
+      <destinationName>time</destinationName>
+      <dataType>String</dataType>
+      <addAttributes>
+        <att name="ioos_category">Time</att>
+      </addAttributes>
+    </dataVariable>
+    <dataVariable>
+      <sourceName>index</sourceName>
+      <destinationName>mean_trophic_level</destinationName>
+      <dataType>float</dataType>
+      <addAttributes>
+        <att name="ioos_category">Other</att>
+      </addAttributes>
+    </dataVariable>
+    <dataVariable>
+      <sourceName>timeseries</sourceName>
+      <destinationName>population</destinationName>
+      <dataType>String</dataType>
+      <addAttributes>
+        <att name="ioos_category">Other</att>
+      </addAttributes>
+    </dataVariable>
+    <dataVariable>
+      <sourceName>SEup</sourceName>
+      <destinationName>SEup</destinationName>
+      <dataType>float</dataType>
+      <addAttributes>
+        <att name="ioos_category">Other</att>
+      </addAttributes>
+    </dataVariable>
+    <dataVariable>
+      <sourceName>SElo</sourceName>
+      <destinationName>SElo</destinationName>
+      <dataType>float</dataType>
+      <addAttributes>
+        <att name="ioos_category">Other</att>
+      </addAttributes>
+    </dataVariable>
+  </dataset>
+  <dataset type="EDDTableFromNccsvFiles" datasetID="cciea_EI_SCAV_RAT" active="true">
+    <reloadEveryNMinutes>2628000</reloadEveryNMinutes>
+    <fileDir>/home/ldewitt/Documents/GitHub/CCIEA-uploader/data/erddap_files/nccsv/Tolimieri</fileDir>
+    <fileNameRegex>cciea_EI_SCAV_RAT.csv</fileNameRegex>
+    <recursive>false</recursive>
+    <columnNamesRow>1</columnNamesRow>
+    <firstDataRow>2</firstDataRow>
+    <defaultGraphQuery>time,biomass_ratio&amp;population="Scavenger ratio - Coastwide"&amp;.draw=linesAndMarkers</defaultGraphQuery>
+    <addAttributes>
+      <att name="cdm_data_type">Other</att>
+      <att name="license">[standard]</att>
+      <att name="sourceUrl">(local files)</att>
+      <att name="standard_name_vocabulary">CF Standard Name Table v70</att>
+      <att name="subsetVariables">population</att>
+    </addAttributes>
+    <dataVariable>
+      <sourceName>year</sourceName>
+      <destinationName>time</destinationName>
+      <dataType>String</dataType>
+      <addAttributes>
+        <att name="ioos_category">Time</att>
+      </addAttributes>
+    </dataVariable>
+    <dataVariable>
+      <sourceName>index</sourceName>
+      <destinationName>biomass_ratio</destinationName>
+      <dataType>float</dataType>
+      <addAttributes>
+        <att name="ioos_category">Other</att>
+      </addAttributes>
+    </dataVariable>
+    <dataVariable>
+      <sourceName>timeseries</sourceName>
+      <destinationName>population</destinationName>
+      <dataType>String</dataType>
+      <addAttributes>
+        <att name="ioos_category">Other</att>
+      </addAttributes>
+    </dataVariable>
+    <dataVariable>
+      <sourceName>SEup</sourceName>
+      <destinationName>SEup</destinationName>
+      <dataType>float</dataType>
+      <addAttributes>
+        <att name="ioos_category">Other</att>
+      </addAttributes>
+    </dataVariable>
+    <dataVariable>
+      <sourceName>SElo</sourceName>
+      <destinationName>SElo</destinationName>
+      <dataType>float</dataType>
+      <addAttributes>
+        <att name="ioos_category">Other</att>
+      </addAttributes>
+    </dataVariable>
+  </dataset>
+  <dataset type="EDDTableFromNccsvFiles" datasetID="cciea_EI_SIMP" active="true">
+    <reloadEveryNMinutes>2628000</reloadEveryNMinutes>
+    <fileDir>/home/ldewitt/Documents/GitHub/CCIEA-uploader/data/erddap_files/nccsv/Tolimieri</fileDir>
+    <fileNameRegex>cciea_EI_SIMP.csv</fileNameRegex>
+    <recursive>false</recursive>
+    <columnNamesRow>1</columnNamesRow>
+    <firstDataRow>2</firstDataRow>
+    <defaultGraphQuery>time,simpson_diversity&amp;population="Coastwide"&amp;.draw=linesAndMarkers</defaultGraphQuery>
+    <addAttributes>
+      <att name="cdm_data_type">Other</att>
+      <att name="license">[standard]</att>
+      <att name="sourceUrl">(local files)</att>
+      <att name="standard_name_vocabulary">CF Standard Name Table v70</att>
+      <att name="subsetVariables">population</att>
+    </addAttributes>
+    <dataVariable>
+      <sourceName>year</sourceName>
+      <destinationName>time</destinationName>
+      <dataType>String</dataType>
+      <addAttributes>
+        <att name="ioos_category">Time</att>
+      </addAttributes>
+    </dataVariable>
+    <dataVariable>
+      <sourceName>index</sourceName>
+      <destinationName>simpson_diversity</destinationName>
+      <dataType>float</dataType>
+      <addAttributes>
+        <att name="ioos_category">Other</att>
+      </addAttributes>
+    </dataVariable>
+    <dataVariable>
+      <sourceName>timeseries</sourceName>
+      <destinationName>population</destinationName>
+      <dataType>String</dataType>
+      <addAttributes>
+        <att name="ioos_category">Other</att>
+      </addAttributes>
+    </dataVariable>
+    <dataVariable>
+      <sourceName>SEup</sourceName>
+      <destinationName>SEup</destinationName>
+      <dataType>float</dataType>
+      <addAttributes>
+        <att name="ioos_category">Other</att>
+      </addAttributes>
+    </dataVariable>
+    <dataVariable>
+      <sourceName>SElo</sourceName>
+      <destinationName>SElo</destinationName>
+      <dataType>float</dataType>
+      <addAttributes>
+        <att name="ioos_category">Other</att>
+      </addAttributes>
+    </dataVariable>
+  </dataset>
+  <dataset type="EDDTableFromNccsvFiles" datasetID="cciea_EI_SP_RICH" active="true">
+    <reloadEveryNMinutes>2628000</reloadEveryNMinutes>
+    <fileDir>/home/ldewitt/Documents/GitHub/CCIEA-uploader/data/erddap_files/nccsv/Tolimieri</fileDir>
+    <fileNameRegex>cciea_EI_SP_RICH.csv</fileNameRegex>
+    <recursive>false</recursive>
+    <columnNamesRow>1</columnNamesRow>
+    <firstDataRow>2</firstDataRow>
+    <defaultGraphQuery>time,species_richness&amp;population="Coastwide"&amp;.draw=linesAndMarkers</defaultGraphQuery>
+    <addAttributes>
+      <att name="cdm_data_type">Other</att>
+      <att name="license">[standard]</att>
+      <att name="sourceUrl">(local files)</att>
+      <att name="standard_name_vocabulary">CF Standard Name Table v70</att>
+      <att name="subsetVariables">population</att>
+    </addAttributes>
+    <dataVariable>
+      <sourceName>year</sourceName>
+      <destinationName>time</destinationName>
+      <dataType>String</dataType>
+      <addAttributes>
+        <att name="ioos_category">Time</att>
+      </addAttributes>
+    </dataVariable>
+    <dataVariable>
+      <sourceName>index</sourceName>
+      <destinationName>species_richness</destinationName>
+      <dataType>float</dataType>
+      <addAttributes>
+        <att name="ioos_category">Other</att>
+      </addAttributes>
+    </dataVariable>
+    <dataVariable>
+      <sourceName>timeseries</sourceName>
+      <destinationName>population</destinationName>
+      <dataType>String</dataType>
+      <addAttributes>
+        <att name="ioos_category">Other</att>
+      </addAttributes>
+    </dataVariable>
+    <dataVariable>
+      <sourceName>SEup</sourceName>
+      <destinationName>SEup</destinationName>
+      <dataType>float</dataType>
+      <addAttributes>
+        <att name="ioos_category">Other</att>
+      </addAttributes>
+    </dataVariable>
+    <dataVariable>
+      <sourceName>SElo</sourceName>
+      <destinationName>SElo</destinationName>
+      <dataType>float</dataType>
+      <addAttributes>
+        <att name="ioos_category">Other</att>
+      </addAttributes>
+    </dataVariable>
+  </dataset>
+</erddapDatasets>

@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<erddapDatasets>
+  <dataset type="EDDTableFromNccsvFiles" datasetID="cciea_HMS_ALB_DIET" active="true">
+    <reloadEveryNMinutes>2628000</reloadEveryNMinutes>
+    <fileDir>data/erddap_files/nccsv/Preti</fileDir>
+    <fileNameRegex>cciea_HMS_ALB_DIET.csv</fileNameRegex>
+    <recursive>false</recursive>
+    <columnNamesRow>1</columnNamesRow>
+    <columnNamesRow>2</columnNamesRow>
+    <firstDataRowr>2</firstDataRowr>
+    <defaultGraphQuery>time,proportion_diet&amp;species="anchovy"&amp;.draw=linesAndMarkers</defaultGraphQuery>
+    <addAttributes>
+      <att name="Other">cdm_data_type</att>
+      <att name="license">[standard]</att>
+      <att name="sourceUrl">(local files)</att>
+      <att name="standard_name_vocabulary">CF Standard Name Table v70</att>
+      <att name="subsetVariables">species</att>
+    </addAttributes>
+    <dataVariable>
+      <sourceName>year</sourceName>
+      <destinationName>time</destinationName>
+      <dataType>String</dataType>
+      <addAttributes>
+        <att name="ioos_category">Time</att>
+      </addAttributes>
+    </dataVariable>
+    <dataVariable>
+      <sourceName>index</sourceName>
+      <destinationName>proportion_diet</destinationName>
+      <dataType>float</dataType>
+      <addAttributes>
+        <att name="ioos_category">Other</att>
+      </addAttributes>
+    </dataVariable>
+    <dataVariable>
+      <sourceName>timeseries</sourceName>
+      <destinationName>indicator</destinationName>
+      <dataType>String</dataType>
+      <addAttributes>
+        <att name="ioos_category">Other</att>
+      </addAttributes>
+    </dataVariable>
+  </dataset>
+  <dataset type="EDDTableFromNccsvFiles" datasetID="cciea_HMS_BLF_DIET" active="true">
+    <reloadEveryNMinutes>2628000</reloadEveryNMinutes>
+    <fileDir>data/erddap_files/nccsv/Preti</fileDir>
+    <fileNameRegex>cciea_HMS_BLF_DIET.csv</fileNameRegex>
+    <recursive>false</recursive>
+    <columnNamesRow>1</columnNamesRow>
+    <columnNamesRow>2</columnNamesRow>
+    <firstDataRowr>2</firstDataRowr>
+    <defaultGraphQuery>time,proportion_diet&amp;species="anchovy"&amp;.draw=linesAndMarkers</defaultGraphQuery>
+    <addAttributes>
+      <att name="Other">cdm_data_type</att>
+      <att name="license">[standard]</att>
+      <att name="sourceUrl">(local files)</att>
+      <att name="standard_name_vocabulary">CF Standard Name Table v70</att>
+      <att name="subsetVariables">species</att>
+    </addAttributes>
+    <dataVariable>
+      <sourceName>year</sourceName>
+      <destinationName>time</destinationName>
+      <dataType>String</dataType>
+      <addAttributes>
+        <att name="ioos_category">Time</att>
+      </addAttributes>
+    </dataVariable>
+    <dataVariable>
+      <sourceName>index</sourceName>
+      <destinationName>proportion_diet</destinationName>
+      <dataType>float</dataType>
+      <addAttributes>
+        <att name="ioos_category">Other</att>
+      </addAttributes>
+    </dataVariable>
+    <dataVariable>
+      <sourceName>timeseries</sourceName>
+      <destinationName>indicator</destinationName>
+      <dataType>String</dataType>
+      <addAttributes>
+        <att name="ioos_category">Other</att>
+      </addAttributes>
+    </dataVariable>
+  </dataset>
+  <dataset type="EDDTableFromNccsvFiles" datasetID="cciea_HMS_SWD_DIET" active="true">
+    <reloadEveryNMinutes>2628000</reloadEveryNMinutes>
+    <fileDir>data/erddap_files/nccsv/Preti</fileDir>
+    <fileNameRegex>cciea_HMS_SWD_DIET.csv</fileNameRegex>
+    <recursive>false</recursive>
+    <columnNamesRow>1</columnNamesRow>
+    <columnNamesRow>2</columnNamesRow>
+    <firstDataRowr>2</firstDataRowr>
+    <defaultGraphQuery>time,proportion_diet&amp;species="anchovy"&amp;.draw=linesAndMarkers</defaultGraphQuery>
+    <addAttributes>
+      <att name="Other">cdm_data_type</att>
+      <att name="license">[standard]</att>
+      <att name="sourceUrl">(local files)</att>
+      <att name="standard_name_vocabulary">CF Standard Name Table v70</att>
+      <att name="subsetVariables">species</att>
+    </addAttributes>
+    <dataVariable>
+      <sourceName>year</sourceName>
+      <destinationName>time</destinationName>
+      <dataType>String</dataType>
+      <addAttributes>
+        <att name="ioos_category">Time</att>
+      </addAttributes>
+    </dataVariable>
+    <dataVariable>
+      <sourceName>index</sourceName>
+      <destinationName>proportion_diet</destinationName>
+      <dataType>float</dataType>
+      <addAttributes>
+        <att name="ioos_category">Other</att>
+      </addAttributes>
+    </dataVariable>
+    <dataVariable>
+      <sourceName>timeseries</sourceName>
+      <destinationName>indicator</destinationName>
+      <dataType>String</dataType>
+      <addAttributes>
+        <att name="ioos_category">Other</att>
+      </addAttributes>
+    </dataVariable>
+  </dataset>
+</erddapDatasets>

@@ -1,0 +1,283 @@
+*GLOBAL*,Conventions,"COARDS, CF-1.6, ACDD-1.3, NCCSV-1.1"
+*GLOBAL*,history,"last updated: 2026-02-24 00:41:15"
+*GLOBAL*,title,"Highly Migratory Species Biomass"
+*GLOBAL*,institution,"NOAA SWFSC/FRD"
+*GLOBAL*,summary,"This index represents modeled female spawning biomass from the latest (2023) stock assessment report, completed through the International Scientific Committee for Tuna and Tuna-like Species in the North Pacific Ocean (ISC). North Pacific albacore are considered to be one stock throughout the North Pacific Ocean. They are fished throughout their range by multiple countries, mostly using surface gear (troll and pole and line), as well as pelagic longlines and other gears. Their population dynamics are assessed using an age-, length- and sex-structured model (Stock Synthesis v3). The assessment model used was similar to that in the 2017 benchmark assessment, with four important changes: 1) adjusting coefficients of variation for the abundance index in 2020-21 to better reflect uncertainty surrounding disruptions from the COVID-19 pandemic, 2) adjustments to Japan longline fleet structure, 3) adjustments to adult abundance indices, and 4) adjustments to age selectivity. The full assessment is available from <a href="http://isc.fra.go.jp/reports/stock_assessments.html" target="_blank">http://isc.fra.go.jp/reports/stock_assessments.html</a>. The next benchmark assessment is expected in 2026.This index shows modeled spawning stock biomass of bigeye tuna from the 2024 benchmark stock assessment report, which was completed through the Inter-American Tropical Tuna Commission (IATTC), using Stock Synthesis V3. The assessment assumes that there is one stock of bigeye in the eastern Pacific. The reference models for the 2024 benchmark assessment of bigeye were built based on three overarching hypotheses. The regime shift in recruitment evident in the last assessment has largely disappeared, resulting from improvements to the assessment model. The bimodality in model results from the last assessment has also been resolved. Overall results of a risk analysis, based on thirty-three converged reference models, show a 46.6% probability that the spawning biomass at the beginning of 2024 is below the target reference point, and a 24.7% probability that the fishing mortality in 2021-2023 is above the target reference point. Information and model outputs were provided by Haikun Xu and Carolina Minte-Vera (IATTC). More information is available at <a href="https://www.iattc.org/en-US/Event/DetailMeeting/Meeting-SAC-15" target="_blank">https://www.iattc.org/en-US/Event/DetailMeeting/Meeting-SAC-15</a>.This index represents modeled female spawning stock biomass from the  2021 stock assessment report, completed through the International Scientific Committee for Tuna and Tuna-like Species in the North Pacific Ocean (ISC). Blue marlin are considered to be one stock throughout the Pacific Ocean, and the majority of catch is from pelagic longlines. Their population dynamics are assessed using an age-, length- and sex-structured model (Stock Synthesis v3). The full assessment is available from <a href="http://isc.fra.go.jp/reports/stock_assessments.html" target="_blank">http://isc.fra.go.jp/reports/stock_assessments.html</a>.This index represents modeled spawning stock biomass from the latest (2024) stock assessment report, completed through the International Scientific Committee for Tuna and Tuna-like Species in the North Pacific Ocean (ISC). Pacific bluefin tuna are considered to be one stock throughout the Pacific Ocean, and are fished throughout their range by multiple countries and fishing gears. At present, the majority are caught by purse seine gear. Their population dynamics are assessed using a fully integrated age-structured model (Stock Synthesis v3). The full assessment is available from <a href="http://isc.fra.go.jp/reports/stock_assessments.html" target="_blank">http://isc.fra.go.jp/reports/stock_assessments.html</a>, and the assessment lead is Hui-Hua Lee (NOAA Fisheries). The next benchmark assessment is expected in 2026.This index represents modeled spawning biomass for the North Pacific swordfish stock from the latest (2023) stock assessment report, completed through the International Scientific Committee for Tuna and Tuna-like Species in the North Pacific Ocean (ISC). Stock definitions for swordfish have changed since the last assessment in 2018. The North Pacific swordfish stock area is now defined to be the waters of the North Pacific Ocean contained in the Western and Central Pacific Fisheries Commission Convention Area bounded by the equator and the waters of the Inter-American Tropical Tuna Commission Convention Area north of 10N. The highest catches of swordfish in the North Pacific are from pelagic longline gears. The North Pacific stock assessment uses Stock Synthesis, and the full assessment is available from <a href="http://isc.fra.go.jp/reports/stock_assessments.html" target="_blank">http://isc.fra.go.jp/reports/stock_assessments.html</a>.This index shows spawning biomass of skipjack tuna from the 2024 stock assessment model. Skipjack tuna are assumed to comprise one contiguous stock throughout the Pacific ocean. In the eastern Pacific, they are primarily fished in tropical waters, using purse seine gear. Skipjack have historically been difficult to assess with standard stock assessment methods, due to high and variable productivity, and uncertainties in natural mortality and growth. The 2024 assessment used an integrated statistical age-structured catch-at-length model in Stock Synthesis. A conservative proxy for the target biomass of spawning biomass ratio (SBR) = 0.3, and the fishing mortality corresponding to that biomass, were used as the target reference points. The reference model estimated that the current fishing mortality is below the level corresponding to the Maximum Sustainable Yield (MSY) proxy and the spawning biomass is above the dynamic level corresponding to the MSY proxy. In addition, the spawning biomass does not have a 10% or more probability of exceeding the limit. The stock assessment is completed through the Inter-American Tropical Tuna Commission (IATTC). Indices were provided by Rujia Bi and Carolina Minte-Vera (IATTC). More information is available at <a href="https://www.iattc.org/en-US/Event/DetailMeeting/Meeting-SAC-15" target="_blank">https://www.iattc.org/en-US/Event/DetailMeeting/Meeting-SAC-15</a>.This index shows spawning stock biomass of yellowfin tuna in the Northeast Tropical EPI spatial unit, which is a subset of the 2025 benchmark stock assessment for yellowfin tuna in the EPO (https://www.iattc.org/GetAttachment/11b8757d-ad0f-435c-b2c6-40f5658c56c0/SAC-16-03_Yellowfin-benchmark-assessment---2025.pdf)."
+*GLOBAL*,infoUrl,"http://isc.fra.go.jp/reports/stock_assessments.html"
+*GLOBAL*,contributor_name,"Muhling"
+*GLOBAL*,contributor_email,"barbara.muhling@noaa.gov"
+year,*DATA_TYPE*,String
+year,units,"yyyy"
+index,*DATA_TYPE*,float
+index,units,"metric tonnes"
+index,long_name,"Biomass"
+timeseries,*DATA_TYPE*,String
+metric,*DATA_TYPE*,String
+SEup,*DATA_TYPE*,float
+SElo,*DATA_TYPE*,float
+*END_METADATA*
+"year","index","timeseries","metric","SEup","SElo"
+1994,76445,"Albacore:Spawning biomass (mt)","Spawning biomass (mt)",102241.5,50648.5
+1995,87564,"Albacore:Spawning biomass (mt)","Spawning biomass (mt)",111762.6,63365.4
+1996,91535,"Albacore:Spawning biomass (mt)","Spawning biomass (mt)",113196.2,69873.8
+1997,83695,"Albacore:Spawning biomass (mt)","Spawning biomass (mt)",102706.6,64683.4
+1998,88690,"Albacore:Spawning biomass (mt)","Spawning biomass (mt)",107984.5,69395.5
+1999,96031,"Albacore:Spawning biomass (mt)","Spawning biomass (mt)",116599.5,75462.5
+2000,80096,"Albacore:Spawning biomass (mt)","Spawning biomass (mt)",99264.3,60927.7
+2001,76987,"Albacore:Spawning biomass (mt)","Spawning biomass (mt)",95597.9,58376.1
+2002,75619,"Albacore:Spawning biomass (mt)","Spawning biomass (mt)",93843.7,57394.3
+2003,65676,"Albacore:Spawning biomass (mt)","Spawning biomass (mt)",81653,49699
+2004,75466,"Albacore:Spawning biomass (mt)","Spawning biomass (mt)",92344.1,58587.9
+2005,69991,"Albacore:Spawning biomass (mt)","Spawning biomass (mt)",86978.6,53003.4
+2006,67474,"Albacore:Spawning biomass (mt)","Spawning biomass (mt)",83697.3,51250.7
+2007,61770,"Albacore:Spawning biomass (mt)","Spawning biomass (mt)",76891.5,46648.5
+2008,61955,"Albacore:Spawning biomass (mt)","Spawning biomass (mt)",77196.7,46713.3
+2009,75584,"Albacore:Spawning biomass (mt)","Spawning biomass (mt)",93124.9,58043.1
+2010,76581,"Albacore:Spawning biomass (mt)","Spawning biomass (mt)",94895.6,58266.4
+2011,74659,"Albacore:Spawning biomass (mt)","Spawning biomass (mt)",92869.4,56448.6
+2012,71654,"Albacore:Spawning biomass (mt)","Spawning biomass (mt)",89536.7,53771.3
+2013,73245,"Albacore:Spawning biomass (mt)","Spawning biomass (mt)",91658.7,54831.3
+2014,75282,"Albacore:Spawning biomass (mt)","Spawning biomass (mt)",94484.2,56079.8
+2015,76946,"Albacore:Spawning biomass (mt)","Spawning biomass (mt)",96823.1,57068.9
+2016,74271,"Albacore:Spawning biomass (mt)","Spawning biomass (mt)",93679.4,54862.6
+2017,69536,"Albacore:Spawning biomass (mt)","Spawning biomass (mt)",87951.8,51120.2
+2018,73569,"Albacore:Spawning biomass (mt)","Spawning biomass (mt)",93150.4,53987.6
+2019,70849,"Albacore:Spawning biomass (mt)","Spawning biomass (mt)",90564.9,51133.1
+2020,64592,"Albacore:Spawning biomass (mt)","Spawning biomass (mt)",82762.9,46421.1
+2021,70229,"Albacore:Spawning biomass (mt)","Spawning biomass (mt)",90781.3,49676.7
+1979,477058.6521,"Bigeye tuna:Spawning biomass (mt)","Spawning biomass (mt)",927269.9404,247706.5355
+1980,446652.6287,"Bigeye tuna:Spawning biomass (mt)","Spawning biomass (mt)",882046.4518,226386.7276
+1981,398096.7405,"Bigeye tuna:Spawning biomass (mt)","Spawning biomass (mt)",798108.634,196811.166
+1982,365081.9651,"Bigeye tuna:Spawning biomass (mt)","Spawning biomass (mt)",729416.3698,181679.6045
+1983,376626.2451,"Bigeye tuna:Spawning biomass (mt)","Spawning biomass (mt)",736747.1262,194852.8622
+1984,372355.2957,"Bigeye tuna:Spawning biomass (mt)","Spawning biomass (mt)",729416.3698,192914.0438
+1985,361455.1595,"Bigeye tuna:Spawning biomass (mt)","Spawning biomass (mt)",700815.5449,190994.517
+1986,408765.0953,"Bigeye tuna:Spawning biomass (mt)","Spawning biomass (mt)",774520.9592,224134.142
+1987,435421.5443,"Bigeye tuna:Spawning biomass (mt)","Spawning biomass (mt)",839028.5387,233281.2299
+1988,387996.8056,"Bigeye tuna:Spawning biomass (mt)","Spawning biomass (mt)",766814.3468,200787.0153
+1989,332794.2056,"Bigeye tuna:Spawning biomass (mt)","Spawning biomass (mt)",660003.2248,171099.408
+1990,309071.525,"Bigeye tuna:Spawning biomass (mt)","Spawning biomass (mt)",603197.5295,166042.6563
+1991,302457.4288,"Bigeye tuna:Spawning biomass (mt)","Spawning biomass (mt)",585370.3483,166042.6563
+1992,290969.4989,"Bigeye tuna:Spawning biomass (mt)","Spawning biomass (mt)",568070.04,157944.6604
+1993,266800.3068,"Bigeye tuna:Spawning biomass (mt)","Spawning biomass (mt)",524394.7398,144350.5507
+1994,241290.1758,"Bigeye tuna:Spawning biomass (mt)","Spawning biomass (mt)",474491.9824,130613.7796
+1995,215652.3929,"Bigeye tuna:Spawning biomass (mt)","Spawning biomass (mt)",429338.1003,117008.2823
+1996,201422.3319,"Bigeye tuna:Spawning biomass (mt)","Spawning biomass (mt)",396329.0185,110194.2504
+1997,196329.9911,"Bigeye tuna:Spawning biomass (mt)","Spawning biomass (mt)",380788.7354,110194.2504
+1998,190650.1987,"Bigeye tuna:Spawning biomass (mt)","Spawning biomass (mt)",369534.7275,108012.258
+1999,181177.0657,"Bigeye tuna:Spawning biomass (mt)","Spawning biomass (mt)",351512.3061,102744.4381
+2000,191202.7236,"Bigeye tuna:Spawning biomass (mt)","Spawning biomass (mt)",358613.3258,113550.1649
+2001,193140.9468,"Bigeye tuna:Spawning biomass (mt)","Spawning biomass (mt)",362217.4496,115844.0304
+2002,198076.9194,"Bigeye tuna:Spawning biomass (mt)","Spawning biomass (mt)",369534.7275,119372.0064
+2003,167214.0558,"Bigeye tuna:Spawning biomass (mt)","Spawning biomass (mt)",331041.823,93901.34605
+2004,134109.1189,"Bigeye tuna:Spawning biomass (mt)","Spawning biomass (mt)",276509.3735,71682.36206
+2005,122611.3507,"Bigeye tuna:Spawning biomass (mt)","Spawning biomass (mt)",250196.0276,67507.90627
+2006,135826.4977,"Bigeye tuna:Spawning biomass (mt)","Spawning biomass (mt)",268337.2865,78432.99717
+2007,138567.1851,"Bigeye tuna:Spawning biomass (mt)","Spawning biomass (mt)",273758.0593,80017.44881
+2008,141231.7797,"Bigeye tuna:Spawning biomass (mt)","Spawning biomass (mt)",276509.3735,82454.34292
+2009,143753.9972,"Bigeye tuna:Spawning biomass (mt)","Spawning biomass (mt)",282095.2334,84120.03114
+2010,141847.4619,"Bigeye tuna:Spawning biomass (mt)","Spawning biomass (mt)",282095.2334,81633.9085
+2011,124724.4521,"Bigeye tuna:Spawning biomass (mt)","Spawning biomass (mt)",255250.3226,69563.8281
+2012,108682.4236,"Bigeye tuna:Spawning biomass (mt)","Spawning biomass (mt)",226386.7276,59278.38405
+2013,96204.10674,"Bigeye tuna:Spawning biomass (mt)","Spawning biomass (mt)",202804.9584,51534.15136
+2014,87225.53538,"Bigeye tuna:Spawning biomass (mt)","Spawning biomass (mt)",185349.776,46166.05192
+2015,82403.4882,"Bigeye tuna:Spawning biomass (mt)","Spawning biomass (mt)",174555.8453,43477.55035
+2016,81621.41768,"Bigeye tuna:Spawning biomass (mt)","Spawning biomass (mt)",174555.8453,42616.63717
+2017,84817.84795,"Bigeye tuna:Spawning biomass (mt)","Spawning biomass (mt)",179871.8623,44355.85513
+2018,82051.43359,"Bigeye tuna:Spawning biomass (mt)","Spawning biomass (mt)",178082.1073,41357.1252
+2019,76767.03106,"Bigeye tuna:Spawning biomass (mt)","Spawning biomass (mt)",169396.9405,37049.12449
+2020,72514.59359,"Bigeye tuna:Spawning biomass (mt)","Spawning biomass (mt)",161135.3542,34544.37471
+2021,75698.83336,"Bigeye tuna:Spawning biomass (mt)","Spawning biomass (mt)",166042.6563,36680.47954
+2022,83652.41849,"Bigeye tuna:Spawning biomass (mt)","Spawning biomass (mt)",179871.8623,41357.1252
+2023,82127.42018,"Bigeye tuna:Spawning biomass (mt)","Spawning biomass (mt)",178082.1073,40134.83743
+1983,15429,"Bluefin tuna:Spawning biomass (mt)","Spawning biomass (mt)",18895.56,11962.44
+1984,13898,"Bluefin tuna:Spawning biomass (mt)","Spawning biomass (mt)",17178.77,10617.23
+1985,14280,"Bluefin tuna:Spawning biomass (mt)","Spawning biomass (mt)",17533.16,11026.84
+1986,15925,"Bluefin tuna:Spawning biomass (mt)","Spawning biomass (mt)",19254.93,12595.07
+1987,16934,"Bluefin tuna:Spawning biomass (mt)","Spawning biomass (mt)",20608.12,13259.88
+1988,19967,"Bluefin tuna:Spawning biomass (mt)","Spawning biomass (mt)",24263.76,15670.24
+1989,20590,"Bluefin tuna:Spawning biomass (mt)","Spawning biomass (mt)",25129.42,16050.58
+1990,26079,"Bluefin tuna:Spawning biomass (mt)","Spawning biomass (mt)",31271.19,20886.81
+1991,34208,"Bluefin tuna:Spawning biomass (mt)","Spawning biomass (mt)",40069.46,28346.54
+1992,43037,"Bluefin tuna:Spawning biomass (mt)","Spawning biomass (mt)",49539.5,36534.5
+1993,55854,"Bluefin tuna:Spawning biomass (mt)","Spawning biomass (mt)",63512.53,48195.47
+1994,64267,"Bluefin tuna:Spawning biomass (mt)","Spawning biomass (mt)",72885.87,55648.13
+1995,79269,"Bluefin tuna:Spawning biomass (mt)","Spawning biomass (mt)",89584.4,68953.6
+1996,75121,"Bluefin tuna:Spawning biomass (mt)","Spawning biomass (mt)",85041.85,65200.15
+1997,68311,"Bluefin tuna:Spawning biomass (mt)","Spawning biomass (mt)",77694.36,58927.64
+1998,66696,"Bluefin tuna:Spawning biomass (mt)","Spawning biomass (mt)",75677.18,57714.82
+1999,60915,"Bluefin tuna:Spawning biomass (mt)","Spawning biomass (mt)",69849.79,51980.21
+2000,57366,"Bluefin tuna:Spawning biomass (mt)","Spawning biomass (mt)",66090.57,48641.43
+2001,54907,"Bluefin tuna:Spawning biomass (mt)","Spawning biomass (mt)",63048.81,46765.19
+2002,51822,"Bluefin tuna:Spawning biomass (mt)","Spawning biomass (mt)",59352.16,44291.84
+2003,49650,"Bluefin tuna:Spawning biomass (mt)","Spawning biomass (mt)",56510.3,42789.7
+2004,41296,"Bluefin tuna:Spawning biomass (mt)","Spawning biomass (mt)",47247.24,35344.76
+2005,33668,"Bluefin tuna:Spawning biomass (mt)","Spawning biomass (mt)",38768.95,28567.05
+2006,26737,"Bluefin tuna:Spawning biomass (mt)","Spawning biomass (mt)",30986.61,22487.39
+2007,20791,"Bluefin tuna:Spawning biomass (mt)","Spawning biomass (mt)",24179.63,17402.37
+2008,16082,"Bluefin tuna:Spawning biomass (mt)","Spawning biomass (mt)",18831.3,13332.7
+2009,12526,"Bluefin tuna:Spawning biomass (mt)","Spawning biomass (mt)",14765.39,10286.61
+2010,12275,"Bluefin tuna:Spawning biomass (mt)","Spawning biomass (mt)",14287.85,10262.15
+2011,14236,"Bluefin tuna:Spawning biomass (mt)","Spawning biomass (mt)",16404.34,12067.66
+2012,17447,"Bluefin tuna:Spawning biomass (mt)","Spawning biomass (mt)",20015.13,14878.87
+2013,19711,"Bluefin tuna:Spawning biomass (mt)","Spawning biomass (mt)",22560.27,16861.73
+2014,22690,"Bluefin tuna:Spawning biomass (mt)","Spawning biomass (mt)",25829.92,19550.08
+2015,28019,"Bluefin tuna:Spawning biomass (mt)","Spawning biomass (mt)",31846.9,24191.1
+2016,37762,"Bluefin tuna:Spawning biomass (mt)","Spawning biomass (mt)",42807.9,32716.1
+2017,44541,"Bluefin tuna:Spawning biomass (mt)","Spawning biomass (mt)",50822.37,38259.63
+2018,56986,"Bluefin tuna:Spawning biomass (mt)","Spawning biomass (mt)",65488.51,48483.49
+2019,74734,"Bluefin tuna:Spawning biomass (mt)","Spawning biomass (mt)",86743.2,62724.8
+2020,104243,"Bluefin tuna:Spawning biomass (mt)","Spawning biomass (mt)",123703.9,84782.1
+2021,131729,"Bluefin tuna:Spawning biomass (mt)","Spawning biomass (mt)",160166.2,103291.8
+2022,144483,"Bluefin tuna:Spawning biomass (mt)","Spawning biomass (mt)",179430.2,109535.8
+1984,15563.52,"Yellowfin tuna:Spawning biomass (mt)","Spawning biomass (mt)",49771.07,2981.463
+1985,22883.36,"Yellowfin tuna:Spawning biomass (mt)","Spawning biomass (mt)",60072.42,6727.819
+1986,26607.24,"Yellowfin tuna:Spawning biomass (mt)","Spawning biomass (mt)",66526.3,7899.442
+1987,23145.39,"Yellowfin tuna:Spawning biomass (mt)","Spawning biomass (mt)",57735.09,7284.956
+1988,17296.79,"Yellowfin tuna:Spawning biomass (mt)","Spawning biomass (mt)",43109.55,6006.438
+1989,17456.58,"Yellowfin tuna:Spawning biomass (mt)","Spawning biomass (mt)",43096.72,6353.725
+1990,17164.4,"Yellowfin tuna:Spawning biomass (mt)","Spawning biomass (mt)",42393.1,6248.289
+1991,16817.68,"Yellowfin tuna:Spawning biomass (mt)","Spawning biomass (mt)",41506.43,6368.113
+1992,17182.37,"Yellowfin tuna:Spawning biomass (mt)","Spawning biomass (mt)",42135.85,6550.569
+1993,17304.3,"Yellowfin tuna:Spawning biomass (mt)","Spawning biomass (mt)",42790.74,6309.742
+1994,16382.39,"Yellowfin tuna:Spawning biomass (mt)","Spawning biomass (mt)",40693.37,5722.649
+1995,16904.27,"Yellowfin tuna:Spawning biomass (mt)","Spawning biomass (mt)",41790.69,5970.959
+1996,19054.59,"Yellowfin tuna:Spawning biomass (mt)","Spawning biomass (mt)",45903.56,7191.8
+1997,14723.02,"Yellowfin tuna:Spawning biomass (mt)","Spawning biomass (mt)",35585.77,5783.111
+1998,13089.63,"Yellowfin tuna:Spawning biomass (mt)","Spawning biomass (mt)",31576.01,5421.689
+1999,13073.77,"Yellowfin tuna:Spawning biomass (mt)","Spawning biomass (mt)",31320.76,5507.45
+2000,13385.87,"Yellowfin tuna:Spawning biomass (mt)","Spawning biomass (mt)",31482.32,5415.997
+2001,16655.1,"Yellowfin tuna:Spawning biomass (mt)","Spawning biomass (mt)",35730.3,6545.48
+2002,20884.59,"Yellowfin tuna:Spawning biomass (mt)","Spawning biomass (mt)",41560.77,8664.75
+2003,16163.37,"Yellowfin tuna:Spawning biomass (mt)","Spawning biomass (mt)",32720.98,7032.078
+2004,12221.29,"Yellowfin tuna:Spawning biomass (mt)","Spawning biomass (mt)",26275.88,5575.071
+2005,10301.23,"Yellowfin tuna:Spawning biomass (mt)","Spawning biomass (mt)",23166.76,4819.981
+2006,9369.287,"Yellowfin tuna:Spawning biomass (mt)","Spawning biomass (mt)",21448.07,4271.964
+2007,8498.499,"Yellowfin tuna:Spawning biomass (mt)","Spawning biomass (mt)",19170.12,3933.637
+2008,9392.25,"Yellowfin tuna:Spawning biomass (mt)","Spawning biomass (mt)",21385,4351.706
+2009,11290.88,"Yellowfin tuna:Spawning biomass (mt)","Spawning biomass (mt)",25888.71,5194.503
+2010,10352.96,"Yellowfin tuna:Spawning biomass (mt)","Spawning biomass (mt)",24226.27,4617.471
+2011,9573.05,"Yellowfin tuna:Spawning biomass (mt)","Spawning biomass (mt)",21836.56,4513.556
+2012,9650.416,"Yellowfin tuna:Spawning biomass (mt)","Spawning biomass (mt)",21934.48,4568.323
+2013,9679.721,"Yellowfin tuna:Spawning biomass (mt)","Spawning biomass (mt)",21966.37,4596.055
+2014,9219.312,"Yellowfin tuna:Spawning biomass (mt)","Spawning biomass (mt)",20581.25,4461.684
+2015,8446.805,"Yellowfin tuna:Spawning biomass (mt)","Spawning biomass (mt)",18580.01,4077.947
+2016,7485.324,"Yellowfin tuna:Spawning biomass (mt)","Spawning biomass (mt)",16209.59,3550.388
+2017,6244.701,"Yellowfin tuna:Spawning biomass (mt)","Spawning biomass (mt)",13145.74,2892.493
+2018,6984.063,"Yellowfin tuna:Spawning biomass (mt)","Spawning biomass (mt)",14300.63,3449.599
+2019,7020.344,"Yellowfin tuna:Spawning biomass (mt)","Spawning biomass (mt)",14801.09,3327.336
+2020,7367.766,"Yellowfin tuna:Spawning biomass (mt)","Spawning biomass (mt)",15772.53,3159.202
+1975,28295,"North Pacific swordfish:Spawning biomass (mt)","Spawning biomass (mt)",46997,9593
+1976,28426,"North Pacific swordfish:Spawning biomass (mt)","Spawning biomass (mt)",44167,12685
+1977,28165,"North Pacific swordfish:Spawning biomass (mt)","Spawning biomass (mt)",41256,15074
+1978,27121,"North Pacific swordfish:Spawning biomass (mt)","Spawning biomass (mt)",38302,15940
+1979,25744,"North Pacific swordfish:Spawning biomass (mt)","Spawning biomass (mt)",35633,15855
+1980,24384,"North Pacific swordfish:Spawning biomass (mt)","Spawning biomass (mt)",33334,15434
+1981,22415,"North Pacific swordfish:Spawning biomass (mt)","Spawning biomass (mt)",30523,14307
+1982,22796,"North Pacific swordfish:Spawning biomass (mt)","Spawning biomass (mt)",30416,15176
+1983,23978,"North Pacific swordfish:Spawning biomass (mt)","Spawning biomass (mt)",31499,16457
+1984,25288,"North Pacific swordfish:Spawning biomass (mt)","Spawning biomass (mt)",32920,17656
+1985,25899,"North Pacific swordfish:Spawning biomass (mt)","Spawning biomass (mt)",33686,18112
+1986,27908,"North Pacific swordfish:Spawning biomass (mt)","Spawning biomass (mt)",36072,19744
+1987,29242,"North Pacific swordfish:Spawning biomass (mt)","Spawning biomass (mt)",37724,20760
+1988,29278,"North Pacific swordfish:Spawning biomass (mt)","Spawning biomass (mt)",37892,20664
+1989,29180,"North Pacific swordfish:Spawning biomass (mt)","Spawning biomass (mt)",37800,20560
+1990,29174,"North Pacific swordfish:Spawning biomass (mt)","Spawning biomass (mt)",37737,20611
+1991,29914,"North Pacific swordfish:Spawning biomass (mt)","Spawning biomass (mt)",38332,21496
+1992,29519,"North Pacific swordfish:Spawning biomass (mt)","Spawning biomass (mt)",37632,21406
+1993,28766,"North Pacific swordfish:Spawning biomass (mt)","Spawning biomass (mt)",36396,21136
+1994,27973,"North Pacific swordfish:Spawning biomass (mt)","Spawning biomass (mt)",34703,21243
+1995,28180,"North Pacific swordfish:Spawning biomass (mt)","Spawning biomass (mt)",34101,22259
+1996,27529,"North Pacific swordfish:Spawning biomass (mt)","Spawning biomass (mt)",32832,22226
+1997,28322,"North Pacific swordfish:Spawning biomass (mt)","Spawning biomass (mt)",33325,23319
+1998,31019,"North Pacific swordfish:Spawning biomass (mt)","Spawning biomass (mt)",36023,26015
+1999,29254,"North Pacific swordfish:Spawning biomass (mt)","Spawning biomass (mt)",34255,24253
+2000,27872,"North Pacific swordfish:Spawning biomass (mt)","Spawning biomass (mt)",32839,22905
+2001,28485,"North Pacific swordfish:Spawning biomass (mt)","Spawning biomass (mt)",33507,23463
+2002,29426,"North Pacific swordfish:Spawning biomass (mt)","Spawning biomass (mt)",34526,24326
+2003,29287,"North Pacific swordfish:Spawning biomass (mt)","Spawning biomass (mt)",34393,24181
+2004,28684,"North Pacific swordfish:Spawning biomass (mt)","Spawning biomass (mt)",33748,23620
+2005,28137,"North Pacific swordfish:Spawning biomass (mt)","Spawning biomass (mt)",33169,23105
+2006,29204,"North Pacific swordfish:Spawning biomass (mt)","Spawning biomass (mt)",34300,24108
+2007,30073,"North Pacific swordfish:Spawning biomass (mt)","Spawning biomass (mt)",35290,24856
+2008,30776,"North Pacific swordfish:Spawning biomass (mt)","Spawning biomass (mt)",36102,25450
+2009,30795,"North Pacific swordfish:Spawning biomass (mt)","Spawning biomass (mt)",36163,25427
+2010,30722,"North Pacific swordfish:Spawning biomass (mt)","Spawning biomass (mt)",36087,25357
+2011,30696,"North Pacific swordfish:Spawning biomass (mt)","Spawning biomass (mt)",36018,25374
+2012,30022,"North Pacific swordfish:Spawning biomass (mt)","Spawning biomass (mt)",35253,24791
+2013,29510,"North Pacific swordfish:Spawning biomass (mt)","Spawning biomass (mt)",34648,24372
+2014,28759,"North Pacific swordfish:Spawning biomass (mt)","Spawning biomass (mt)",33812,23706
+2015,27947,"North Pacific swordfish:Spawning biomass (mt)","Spawning biomass (mt)",32950,22944
+2016,28205,"North Pacific swordfish:Spawning biomass (mt)","Spawning biomass (mt)",33251,23159
+2017,29785,"North Pacific swordfish:Spawning biomass (mt)","Spawning biomass (mt)",34996,24574
+2018,31661,"North Pacific swordfish:Spawning biomass (mt)","Spawning biomass (mt)",37116,26206
+2019,33761,"North Pacific swordfish:Spawning biomass (mt)","Spawning biomass (mt)",39474,28048
+2020,35159,"North Pacific swordfish:Spawning biomass (mt)","Spawning biomass (mt)",41055,29263
+2021,35778,"North Pacific swordfish:Spawning biomass (mt)","Spawning biomass (mt)",41787,29769
+1972,66868.15,"Blue marlin:Spawning biomass (mt)","Spawning biomass (mt)",NaN,NaN
+1973,63645.9,"Blue marlin:Spawning biomass (mt)","Spawning biomass (mt)",NaN,NaN
+1974,61891.55,"Blue marlin:Spawning biomass (mt)","Spawning biomass (mt)",NaN,NaN
+1975,60226.76,"Blue marlin:Spawning biomass (mt)","Spawning biomass (mt)",NaN,NaN
+1976,57721.94,"Blue marlin:Spawning biomass (mt)","Spawning biomass (mt)",NaN,NaN
+1977,52837.29,"Blue marlin:Spawning biomass (mt)","Spawning biomass (mt)",NaN,NaN
+1978,48378.19,"Blue marlin:Spawning biomass (mt)","Spawning biomass (mt)",NaN,NaN
+1979,46125.87,"Blue marlin:Spawning biomass (mt)","Spawning biomass (mt)",NaN,NaN
+1980,45029.05,"Blue marlin:Spawning biomass (mt)","Spawning biomass (mt)",NaN,NaN
+1981,44754.74,"Blue marlin:Spawning biomass (mt)","Spawning biomass (mt)",NaN,NaN
+1982,43555.53,"Blue marlin:Spawning biomass (mt)","Spawning biomass (mt)",NaN,NaN
+1983,43285.8,"Blue marlin:Spawning biomass (mt)","Spawning biomass (mt)",NaN,NaN
+1984,44508.88,"Blue marlin:Spawning biomass (mt)","Spawning biomass (mt)",NaN,NaN
+1985,44866.54,"Blue marlin:Spawning biomass (mt)","Spawning biomass (mt)",NaN,NaN
+1986,44462.3,"Blue marlin:Spawning biomass (mt)","Spawning biomass (mt)",NaN,NaN
+1987,41373.57,"Blue marlin:Spawning biomass (mt)","Spawning biomass (mt)",NaN,NaN
+1988,38045.32,"Blue marlin:Spawning biomass (mt)","Spawning biomass (mt)",NaN,NaN
+1989,37646.34,"Blue marlin:Spawning biomass (mt)","Spawning biomass (mt)",NaN,NaN
+1990,38394.54,"Blue marlin:Spawning biomass (mt)","Spawning biomass (mt)",NaN,NaN
+1991,39892.71,"Blue marlin:Spawning biomass (mt)","Spawning biomass (mt)",NaN,NaN
+1992,40211.79,"Blue marlin:Spawning biomass (mt)","Spawning biomass (mt)",NaN,NaN
+1993,39546.03,"Blue marlin:Spawning biomass (mt)","Spawning biomass (mt)",NaN,NaN
+1994,37282.41,"Blue marlin:Spawning biomass (mt)","Spawning biomass (mt)",NaN,NaN
+1995,34734.69,"Blue marlin:Spawning biomass (mt)","Spawning biomass (mt)",NaN,NaN
+1996,31900.73,"Blue marlin:Spawning biomass (mt)","Spawning biomass (mt)",NaN,NaN
+1997,32124.85,"Blue marlin:Spawning biomass (mt)","Spawning biomass (mt)",NaN,NaN
+1998,31679.64,"Blue marlin:Spawning biomass (mt)","Spawning biomass (mt)",NaN,NaN
+1999,31815.05,"Blue marlin:Spawning biomass (mt)","Spawning biomass (mt)",NaN,NaN
+2000,29825.28,"Blue marlin:Spawning biomass (mt)","Spawning biomass (mt)",NaN,NaN
+2001,27158.93,"Blue marlin:Spawning biomass (mt)","Spawning biomass (mt)",NaN,NaN
+2002,24183.02,"Blue marlin:Spawning biomass (mt)","Spawning biomass (mt)",NaN,NaN
+2003,21693.96,"Blue marlin:Spawning biomass (mt)","Spawning biomass (mt)",NaN,NaN
+2004,19951.72,"Blue marlin:Spawning biomass (mt)","Spawning biomass (mt)",NaN,NaN
+2005,18167.61,"Blue marlin:Spawning biomass (mt)","Spawning biomass (mt)",NaN,NaN
+2006,17541.92,"Blue marlin:Spawning biomass (mt)","Spawning biomass (mt)",NaN,NaN
+2007,17721.95,"Blue marlin:Spawning biomass (mt)","Spawning biomass (mt)",NaN,NaN
+2008,19992.51,"Blue marlin:Spawning biomass (mt)","Spawning biomass (mt)",NaN,NaN
+2009,22131.47,"Blue marlin:Spawning biomass (mt)","Spawning biomass (mt)",NaN,NaN
+2010,22580.3,"Blue marlin:Spawning biomass (mt)","Spawning biomass (mt)",NaN,NaN
+2011,24188.95,"Blue marlin:Spawning biomass (mt)","Spawning biomass (mt)",NaN,NaN
+2012,26480.81,"Blue marlin:Spawning biomass (mt)","Spawning biomass (mt)",NaN,NaN
+2013,27268.92,"Blue marlin:Spawning biomass (mt)","Spawning biomass (mt)",NaN,NaN
+2014,25850.62,"Blue marlin:Spawning biomass (mt)","Spawning biomass (mt)",NaN,NaN
+2015,24950.56,"Blue marlin:Spawning biomass (mt)","Spawning biomass (mt)",NaN,NaN
+2016,23322.86,"Blue marlin:Spawning biomass (mt)","Spawning biomass (mt)",NaN,NaN
+2017,22178.34,"Blue marlin:Spawning biomass (mt)","Spawning biomass (mt)",NaN,NaN
+2018,22220.4,"Blue marlin:Spawning biomass (mt)","Spawning biomass (mt)",NaN,NaN
+2019,22850.87,"Blue marlin:Spawning biomass (mt)","Spawning biomass (mt)",NaN,NaN
+2006,25886.4,"Skipjack tuna:Spawning biomass (mt)","Spawning biomass (mt)",NaN,NaN
+2007,30308.5,"Skipjack tuna:Spawning biomass (mt)","Spawning biomass (mt)",NaN,NaN
+2008,29146.7,"Skipjack tuna:Spawning biomass (mt)","Spawning biomass (mt)",NaN,NaN
+2009,25938.4,"Skipjack tuna:Spawning biomass (mt)","Spawning biomass (mt)",NaN,NaN
+2010,17757,"Skipjack tuna:Spawning biomass (mt)","Spawning biomass (mt)",NaN,NaN
+2011,23580.7,"Skipjack tuna:Spawning biomass (mt)","Spawning biomass (mt)",NaN,NaN
+2012,28215.9,"Skipjack tuna:Spawning biomass (mt)","Spawning biomass (mt)",NaN,NaN
+2013,20417.4,"Skipjack tuna:Spawning biomass (mt)","Spawning biomass (mt)",NaN,NaN
+2014,18858,"Skipjack tuna:Spawning biomass (mt)","Spawning biomass (mt)",NaN,NaN
+2015,12070.1,"Skipjack tuna:Spawning biomass (mt)","Spawning biomass (mt)",NaN,NaN
+2016,11974.5,"Skipjack tuna:Spawning biomass (mt)","Spawning biomass (mt)",NaN,NaN
+2017,16069.6,"Skipjack tuna:Spawning biomass (mt)","Spawning biomass (mt)",NaN,NaN
+2018,14700.1,"Skipjack tuna:Spawning biomass (mt)","Spawning biomass (mt)",NaN,NaN
+2019,12948.9,"Skipjack tuna:Spawning biomass (mt)","Spawning biomass (mt)",NaN,NaN
+2020,14021.3,"Skipjack tuna:Spawning biomass (mt)","Spawning biomass (mt)",NaN,NaN
+2021,18550.5,"Skipjack tuna:Spawning biomass (mt)","Spawning biomass (mt)",NaN,NaN
+2022,16446.8,"Skipjack tuna:Spawning biomass (mt)","Spawning biomass (mt)",NaN,NaN
+2023,16123,"Skipjack tuna:Spawning biomass (mt)","Spawning biomass (mt)",NaN,NaN
+*END_DATA*
