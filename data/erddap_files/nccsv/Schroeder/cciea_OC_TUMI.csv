@@ -1,0 +1,197 @@
+*GLOBAL*,Conventions,"COARDS, CF-1.6, ACDD-1.3, NCCSV-1.1"
+*GLOBAL*,history,"last updated: 2026-04-22 14:49:35"
+*GLOBAL*,title,"Total Upwelling Magnitude Index (TUMI)"
+*GLOBAL*,institution,"NOAA/SWFSC/ERD"
+*GLOBAL*,summary,"NANANA"
+*GLOBAL*,infoUrl,"https://www.integratedecosystemassessment.noaa.gov/regions/california-current/about-california-current-integrated-ecosystem-assessment"
+*GLOBAL*,contributor_name,"Schroeder"
+*GLOBAL*,contributor_email,"isaac.schroeder@noaa.gov"
+year,*DATA_TYPE*,String
+year,units,"yyyy"
+index,*DATA_TYPE*,float
+index,units,"m^3/s/100m coastline"
+index,long_name,"TUMI"
+timeseries,*DATA_TYPE*,String
+metric,*DATA_TYPE*,String
+SEup,*DATA_TYPE*,float
+SElo,*DATA_TYPE*,float
+*END_METADATA*
+"year","index","timeseries","metric","SEup","SElo"
+1967,37186.8641022444,"Total Upwelling Magnitude Index @ 33N","TUMI (m$^3$/s/100m coastline)",37186.8641022444,37186.8641022444
+1968,44175.8232495785,"Total Upwelling Magnitude Index @ 33N","TUMI (m$^3$/s/100m coastline)",44175.8232495785,44175.8232495785
+1969,43032.5716457367,"Total Upwelling Magnitude Index @ 33N","TUMI (m$^3$/s/100m coastline)",43032.5716457367,43032.5716457367
+1970,42329.3616161495,"Total Upwelling Magnitude Index @ 33N","TUMI (m$^3$/s/100m coastline)",42329.3616161495,42329.3616161495
+1971,46146.3840248585,"Total Upwelling Magnitude Index @ 33N","TUMI (m$^3$/s/100m coastline)",46146.3840248585,46146.3840248585
+1972,31154.550005277,"Total Upwelling Magnitude Index @ 33N","TUMI (m$^3$/s/100m coastline)",31154.550005277,31154.550005277
+1973,34750.6330724955,"Total Upwelling Magnitude Index @ 33N","TUMI (m$^3$/s/100m coastline)",34750.6330724955,34750.6330724955
+1974,29424.7445651591,"Total Upwelling Magnitude Index @ 33N","TUMI (m$^3$/s/100m coastline)",29424.7445651591,29424.7445651591
+1975,36598.4508917332,"Total Upwelling Magnitude Index @ 33N","TUMI (m$^3$/s/100m coastline)",36598.4508917332,36598.4508917332
+1976,25943.311046958,"Total Upwelling Magnitude Index @ 33N","TUMI (m$^3$/s/100m coastline)",25943.311046958,25943.311046958
+1977,30208.0970779657,"Total Upwelling Magnitude Index @ 33N","TUMI (m$^3$/s/100m coastline)",30208.0970779657,30208.0970779657
+1978,24007.7674783468,"Total Upwelling Magnitude Index @ 33N","TUMI (m$^3$/s/100m coastline)",24007.7674783468,24007.7674783468
+1979,37378.3021919727,"Total Upwelling Magnitude Index @ 33N","TUMI (m$^3$/s/100m coastline)",37378.3021919727,37378.3021919727
+1980,40067.2598515749,"Total Upwelling Magnitude Index @ 33N","TUMI (m$^3$/s/100m coastline)",40067.2598515749,40067.2598515749
+1981,19494.9110687971,"Total Upwelling Magnitude Index @ 33N","TUMI (m$^3$/s/100m coastline)",19494.9110687971,19494.9110687971
+1982,19065.1496931016,"Total Upwelling Magnitude Index @ 33N","TUMI (m$^3$/s/100m coastline)",19065.1496931016,19065.1496931016
+1983,21067.6158097386,"Total Upwelling Magnitude Index @ 33N","TUMI (m$^3$/s/100m coastline)",21067.6158097386,21067.6158097386
+1984,28406.7025419474,"Total Upwelling Magnitude Index @ 33N","TUMI (m$^3$/s/100m coastline)",28406.7025419474,28406.7025419474
+1985,23914.8806230426,"Total Upwelling Magnitude Index @ 33N","TUMI (m$^3$/s/100m coastline)",23914.8806230426,23914.8806230426
+1986,21268.4053673744,"Total Upwelling Magnitude Index @ 33N","TUMI (m$^3$/s/100m coastline)",21268.4053673744,21268.4053673744
+1987,22740.6409057677,"Total Upwelling Magnitude Index @ 33N","TUMI (m$^3$/s/100m coastline)",22740.6409057677,22740.6409057677
+1988,24984.550829649,"Total Upwelling Magnitude Index @ 33N","TUMI (m$^3$/s/100m coastline)",24984.550829649,24984.550829649
+1989,24893.5930492878,"Total Upwelling Magnitude Index @ 33N","TUMI (m$^3$/s/100m coastline)",24893.5930492878,24893.5930492878
+1990,25895.6151089072,"Total Upwelling Magnitude Index @ 33N","TUMI (m$^3$/s/100m coastline)",25895.6151089072,25895.6151089072
+1991,26553.7301161587,"Total Upwelling Magnitude Index @ 33N","TUMI (m$^3$/s/100m coastline)",26553.7301161587,26553.7301161587
+1992,21295.312840879,"Total Upwelling Magnitude Index @ 33N","TUMI (m$^3$/s/100m coastline)",21295.312840879,21295.312840879
+1993,21878.6961670071,"Total Upwelling Magnitude Index @ 33N","TUMI (m$^3$/s/100m coastline)",21878.6961670071,21878.6961670071
+1994,28018.5420709848,"Total Upwelling Magnitude Index @ 33N","TUMI (m$^3$/s/100m coastline)",28018.5420709848,28018.5420709848
+1995,23771.9177805185,"Total Upwelling Magnitude Index @ 33N","TUMI (m$^3$/s/100m coastline)",23771.9177805185,23771.9177805185
+1996,27353.0673851967,"Total Upwelling Magnitude Index @ 33N","TUMI (m$^3$/s/100m coastline)",27353.0673851967,27353.0673851967
+1997,27261.209369421,"Total Upwelling Magnitude Index @ 33N","TUMI (m$^3$/s/100m coastline)",27261.209369421,27261.209369421
+1998,23028.1009294987,"Total Upwelling Magnitude Index @ 33N","TUMI (m$^3$/s/100m coastline)",23028.1009294987,23028.1009294987
+1999,33833.0223017931,"Total Upwelling Magnitude Index @ 33N","TUMI (m$^3$/s/100m coastline)",33833.0223017931,33833.0223017931
+2000,26640.1598565578,"Total Upwelling Magnitude Index @ 33N","TUMI (m$^3$/s/100m coastline)",26640.1598565578,26640.1598565578
+2001,28114.2158459425,"Total Upwelling Magnitude Index @ 33N","TUMI (m$^3$/s/100m coastline)",28114.2158459425,28114.2158459425
+2002,30482.0780847073,"Total Upwelling Magnitude Index @ 33N","TUMI (m$^3$/s/100m coastline)",30482.0780847073,30482.0780847073
+2003,29004.5082724094,"Total Upwelling Magnitude Index @ 33N","TUMI (m$^3$/s/100m coastline)",29004.5082724094,29004.5082724094
+2004,19164.0453616381,"Total Upwelling Magnitude Index @ 33N","TUMI (m$^3$/s/100m coastline)",19164.0453616381,19164.0453616381
+2005,23720.3622120619,"Total Upwelling Magnitude Index @ 33N","TUMI (m$^3$/s/100m coastline)",23720.3622120619,23720.3622120619
+2006,26928.7984085083,"Total Upwelling Magnitude Index @ 33N","TUMI (m$^3$/s/100m coastline)",26928.7984085083,26928.7984085083
+2007,30311.2699115276,"Total Upwelling Magnitude Index @ 33N","TUMI (m$^3$/s/100m coastline)",30311.2699115276,30311.2699115276
+2008,26230.2714153528,"Total Upwelling Magnitude Index @ 33N","TUMI (m$^3$/s/100m coastline)",26230.2714153528,26230.2714153528
+2009,27876.6150369048,"Total Upwelling Magnitude Index @ 33N","TUMI (m$^3$/s/100m coastline)",27876.6150369048,27876.6150369048
+2010,34885.6409536004,"Total Upwelling Magnitude Index @ 33N","TUMI (m$^3$/s/100m coastline)",34885.6409536004,34885.6409536004
+2011,30520.7347272635,"Total Upwelling Magnitude Index @ 33N","TUMI (m$^3$/s/100m coastline)",30520.7347272635,30520.7347272635
+2012,36684.8644294739,"Total Upwelling Magnitude Index @ 33N","TUMI (m$^3$/s/100m coastline)",36684.8644294739,36684.8644294739
+2013,36414.1431913376,"Total Upwelling Magnitude Index @ 33N","TUMI (m$^3$/s/100m coastline)",36414.1431913376,36414.1431913376
+2014,27972.8713096976,"Total Upwelling Magnitude Index @ 33N","TUMI (m$^3$/s/100m coastline)",27972.8713096976,27972.8713096976
+2015,28843.019620955,"Total Upwelling Magnitude Index @ 33N","TUMI (m$^3$/s/100m coastline)",28843.019620955,28843.019620955
+2016,34900.2847220898,"Total Upwelling Magnitude Index @ 33N","TUMI (m$^3$/s/100m coastline)",34900.2847220898,34900.2847220898
+2017,38019.0420654714,"Total Upwelling Magnitude Index @ 33N","TUMI (m$^3$/s/100m coastline)",38019.0420654714,38019.0420654714
+2018,37428.72421211,"Total Upwelling Magnitude Index @ 33N","TUMI (m$^3$/s/100m coastline)",37428.72421211,37428.72421211
+2019,33693.1722041368,"Total Upwelling Magnitude Index @ 33N","TUMI (m$^3$/s/100m coastline)",33693.1722041368,33693.1722041368
+2020,33071.5914261937,"Total Upwelling Magnitude Index @ 33N","TUMI (m$^3$/s/100m coastline)",33071.5914261937,33071.5914261937
+2021,42409.4227650166,"Total Upwelling Magnitude Index @ 33N","TUMI (m$^3$/s/100m coastline)",42409.4227650166,42409.4227650166
+2022,33354.4085572362,"Total Upwelling Magnitude Index @ 33N","TUMI (m$^3$/s/100m coastline)",33354.4085572362,33354.4085572362
+2023,33098.7681460381,"Total Upwelling Magnitude Index @ 33N","TUMI (m$^3$/s/100m coastline)",33098.7681460381,33098.7681460381
+2024,39536.4495862126,"Total Upwelling Magnitude Index @ 33N","TUMI (m$^3$/s/100m coastline)",39536.4495862126,39536.4495862126
+2025,36499.6137809157,"Total Upwelling Magnitude Index @ 33N","TUMI (m$^3$/s/100m coastline)",36499.6137809157,36499.6137809157
+1967,19814.7333536148,"Total Upwelling Magnitude Index @ 39N","TUMI (m$^3$/s/100m coastline)",19814.7333536148,19814.7333536148
+1968,22967.4041856527,"Total Upwelling Magnitude Index @ 39N","TUMI (m$^3$/s/100m coastline)",22967.4041856527,22967.4041856527
+1969,27850.9614340067,"Total Upwelling Magnitude Index @ 39N","TUMI (m$^3$/s/100m coastline)",27850.9614340067,27850.9614340067
+1970,27651.40338552,"Total Upwelling Magnitude Index @ 39N","TUMI (m$^3$/s/100m coastline)",27651.40338552,27651.40338552
+1971,22188.0230764747,"Total Upwelling Magnitude Index @ 39N","TUMI (m$^3$/s/100m coastline)",22188.0230764747,22188.0230764747
+1972,25820.9899468422,"Total Upwelling Magnitude Index @ 39N","TUMI (m$^3$/s/100m coastline)",25820.9899468422,25820.9899468422
+1973,41400.6643049717,"Total Upwelling Magnitude Index @ 39N","TUMI (m$^3$/s/100m coastline)",41400.6643049717,41400.6643049717
+1974,33308.3527392149,"Total Upwelling Magnitude Index @ 39N","TUMI (m$^3$/s/100m coastline)",33308.3527392149,33308.3527392149
+1975,36601.7399533987,"Total Upwelling Magnitude Index @ 39N","TUMI (m$^3$/s/100m coastline)",36601.7399533987,36601.7399533987
+1976,35357.8316165209,"Total Upwelling Magnitude Index @ 39N","TUMI (m$^3$/s/100m coastline)",35357.8316165209,35357.8316165209
+1977,41268.6114821434,"Total Upwelling Magnitude Index @ 39N","TUMI (m$^3$/s/100m coastline)",41268.6114821434,41268.6114821434
+1978,40469.5263849497,"Total Upwelling Magnitude Index @ 39N","TUMI (m$^3$/s/100m coastline)",40469.5263849497,40469.5263849497
+1979,26631.6745721549,"Total Upwelling Magnitude Index @ 39N","TUMI (m$^3$/s/100m coastline)",26631.6745721549,26631.6745721549
+1980,35663.8909628987,"Total Upwelling Magnitude Index @ 39N","TUMI (m$^3$/s/100m coastline)",35663.8909628987,35663.8909628987
+1981,25100.6148827076,"Total Upwelling Magnitude Index @ 39N","TUMI (m$^3$/s/100m coastline)",25100.6148827076,25100.6148827076
+1982,17004.0411581993,"Total Upwelling Magnitude Index @ 39N","TUMI (m$^3$/s/100m coastline)",17004.0411581993,17004.0411581993
+1983,16314.4732348919,"Total Upwelling Magnitude Index @ 39N","TUMI (m$^3$/s/100m coastline)",16314.4732348919,16314.4732348919
+1984,22219.2729265094,"Total Upwelling Magnitude Index @ 39N","TUMI (m$^3$/s/100m coastline)",22219.2729265094,22219.2729265094
+1985,21444.3453994393,"Total Upwelling Magnitude Index @ 39N","TUMI (m$^3$/s/100m coastline)",21444.3453994393,21444.3453994393
+1986,18338.7751977444,"Total Upwelling Magnitude Index @ 39N","TUMI (m$^3$/s/100m coastline)",18338.7751977444,18338.7751977444
+1987,17978.0396644473,"Total Upwelling Magnitude Index @ 39N","TUMI (m$^3$/s/100m coastline)",17978.0396644473,17978.0396644473
+1988,20042.2162617147,"Total Upwelling Magnitude Index @ 39N","TUMI (m$^3$/s/100m coastline)",20042.2162617147,20042.2162617147
+1989,18776.939858079,"Total Upwelling Magnitude Index @ 39N","TUMI (m$^3$/s/100m coastline)",18776.939858079,18776.939858079
+1990,19430.5156797022,"Total Upwelling Magnitude Index @ 39N","TUMI (m$^3$/s/100m coastline)",19430.5156797022,19430.5156797022
+1991,24755.9527168274,"Total Upwelling Magnitude Index @ 39N","TUMI (m$^3$/s/100m coastline)",24755.9527168274,24755.9527168274
+1992,17647.0838800669,"Total Upwelling Magnitude Index @ 39N","TUMI (m$^3$/s/100m coastline)",17647.0838800669,17647.0838800669
+1993,18616.5999706984,"Total Upwelling Magnitude Index @ 39N","TUMI (m$^3$/s/100m coastline)",18616.5999706984,18616.5999706984
+1994,23635.620195508,"Total Upwelling Magnitude Index @ 39N","TUMI (m$^3$/s/100m coastline)",23635.620195508,23635.620195508
+1995,22262.6594157219,"Total Upwelling Magnitude Index @ 39N","TUMI (m$^3$/s/100m coastline)",22262.6594157219,22262.6594157219
+1996,27122.6757736206,"Total Upwelling Magnitude Index @ 39N","TUMI (m$^3$/s/100m coastline)",27122.6757736206,27122.6757736206
+1997,34721.3058928847,"Total Upwelling Magnitude Index @ 39N","TUMI (m$^3$/s/100m coastline)",34721.3058928847,34721.3058928847
+1998,31879.7629231215,"Total Upwelling Magnitude Index @ 39N","TUMI (m$^3$/s/100m coastline)",31879.7629231215,31879.7629231215
+1999,49233.3486613631,"Total Upwelling Magnitude Index @ 39N","TUMI (m$^3$/s/100m coastline)",49233.3486613631,49233.3486613631
+2000,40918.7582116127,"Total Upwelling Magnitude Index @ 39N","TUMI (m$^3$/s/100m coastline)",40918.7582116127,40918.7582116127
+2001,52967.2514162064,"Total Upwelling Magnitude Index @ 39N","TUMI (m$^3$/s/100m coastline)",52967.2514162064,52967.2514162064
+2002,50840.3213982582,"Total Upwelling Magnitude Index @ 39N","TUMI (m$^3$/s/100m coastline)",50840.3213982582,50840.3213982582
+2003,39951.7611095905,"Total Upwelling Magnitude Index @ 39N","TUMI (m$^3$/s/100m coastline)",39951.7611095905,39951.7611095905
+2004,27623.6238363385,"Total Upwelling Magnitude Index @ 39N","TUMI (m$^3$/s/100m coastline)",27623.6238363385,27623.6238363385
+2005,27638.4746593237,"Total Upwelling Magnitude Index @ 39N","TUMI (m$^3$/s/100m coastline)",27638.4746593237,27638.4746593237
+2006,34846.223732233,"Total Upwelling Magnitude Index @ 39N","TUMI (m$^3$/s/100m coastline)",34846.223732233,34846.223732233
+2007,38014.3627940416,"Total Upwelling Magnitude Index @ 39N","TUMI (m$^3$/s/100m coastline)",38014.3627940416,38014.3627940416
+2008,44466.1081035733,"Total Upwelling Magnitude Index @ 39N","TUMI (m$^3$/s/100m coastline)",44466.1081035733,44466.1081035733
+2009,36092.2121142149,"Total Upwelling Magnitude Index @ 39N","TUMI (m$^3$/s/100m coastline)",36092.2121142149,36092.2121142149
+2010,34427.0713894367,"Total Upwelling Magnitude Index @ 39N","TUMI (m$^3$/s/100m coastline)",34427.0713894367,34427.0713894367
+2011,36652.1107738912,"Total Upwelling Magnitude Index @ 39N","TUMI (m$^3$/s/100m coastline)",36652.1107738912,36652.1107738912
+2012,43403.7176085711,"Total Upwelling Magnitude Index @ 39N","TUMI (m$^3$/s/100m coastline)",43403.7176085711,43403.7176085711
+2013,55104.2378489375,"Total Upwelling Magnitude Index @ 39N","TUMI (m$^3$/s/100m coastline)",55104.2378489375,55104.2378489375
+2014,40328.6090074182,"Total Upwelling Magnitude Index @ 39N","TUMI (m$^3$/s/100m coastline)",40328.6090074182,40328.6090074182
+2015,37551.6412434578,"Total Upwelling Magnitude Index @ 39N","TUMI (m$^3$/s/100m coastline)",37551.6412434578,37551.6412434578
+2016,39387.6559326947,"Total Upwelling Magnitude Index @ 39N","TUMI (m$^3$/s/100m coastline)",39387.6559326947,39387.6559326947
+2017,41622.8988232613,"Total Upwelling Magnitude Index @ 39N","TUMI (m$^3$/s/100m coastline)",41622.8988232613,41622.8988232613
+2018,46342.4949463308,"Total Upwelling Magnitude Index @ 39N","TUMI (m$^3$/s/100m coastline)",46342.4949463308,46342.4949463308
+2019,45533.5979263783,"Total Upwelling Magnitude Index @ 39N","TUMI (m$^3$/s/100m coastline)",45533.5979263783,45533.5979263783
+2020,48467.9662238359,"Total Upwelling Magnitude Index @ 39N","TUMI (m$^3$/s/100m coastline)",48467.9662238359,48467.9662238359
+2021,57010.9132452011,"Total Upwelling Magnitude Index @ 39N","TUMI (m$^3$/s/100m coastline)",57010.9132452011,57010.9132452011
+2022,42677.8641112447,"Total Upwelling Magnitude Index @ 39N","TUMI (m$^3$/s/100m coastline)",42677.8641112447,42677.8641112447
+2023,37558.42460078,"Total Upwelling Magnitude Index @ 39N","TUMI (m$^3$/s/100m coastline)",37558.42460078,37558.42460078
+2024,40585.6181656122,"Total Upwelling Magnitude Index @ 39N","TUMI (m$^3$/s/100m coastline)",40585.6181656122,40585.6181656122
+2025,37080.7002537251,"Total Upwelling Magnitude Index @ 39N","TUMI (m$^3$/s/100m coastline)",37080.7002537251,37080.7002537251
+1967,10259.7315738201,"Total Upwelling Magnitude Index @ 45N","TUMI (m$^3$/s/100m coastline)",10259.7315738201,10259.7315738201
+1968,9133.83015370369,"Total Upwelling Magnitude Index @ 45N","TUMI (m$^3$/s/100m coastline)",9133.83015370369,9133.83015370369
+1969,6567.23408794403,"Total Upwelling Magnitude Index @ 45N","TUMI (m$^3$/s/100m coastline)",6567.23408794403,6567.23408794403
+1970,9135.8596457839,"Total Upwelling Magnitude Index @ 45N","TUMI (m$^3$/s/100m coastline)",9135.8596457839,9135.8596457839
+1971,5446.50123494864,"Total Upwelling Magnitude Index @ 45N","TUMI (m$^3$/s/100m coastline)",5446.50123494864,5446.50123494864
+1972,6412.79015058279,"Total Upwelling Magnitude Index @ 45N","TUMI (m$^3$/s/100m coastline)",6412.79015058279,6412.79015058279
+1973,7765.87403339148,"Total Upwelling Magnitude Index @ 45N","TUMI (m$^3$/s/100m coastline)",7765.87403339148,7765.87403339148
+1974,6977.50513440371,"Total Upwelling Magnitude Index @ 45N","TUMI (m$^3$/s/100m coastline)",6977.50513440371,6977.50513440371
+1975,8047.51051187515,"Total Upwelling Magnitude Index @ 45N","TUMI (m$^3$/s/100m coastline)",8047.51051187515,8047.51051187515
+1976,4795.7049266696,"Total Upwelling Magnitude Index @ 45N","TUMI (m$^3$/s/100m coastline)",4795.7049266696,4795.7049266696
+1977,6417.88591504097,"Total Upwelling Magnitude Index @ 45N","TUMI (m$^3$/s/100m coastline)",6417.88591504097,6417.88591504097
+1978,4710.11702382565,"Total Upwelling Magnitude Index @ 45N","TUMI (m$^3$/s/100m coastline)",4710.11702382565,4710.11702382565
+1979,4967.29898262024,"Total Upwelling Magnitude Index @ 45N","TUMI (m$^3$/s/100m coastline)",4967.29898262024,4967.29898262024
+1980,7219.84033229575,"Total Upwelling Magnitude Index @ 45N","TUMI (m$^3$/s/100m coastline)",7219.84033229575,7219.84033229575
+1981,2447.99015647173,"Total Upwelling Magnitude Index @ 45N","TUMI (m$^3$/s/100m coastline)",2447.99015647173,2447.99015647173
+1982,3797.36559075117,"Total Upwelling Magnitude Index @ 45N","TUMI (m$^3$/s/100m coastline)",3797.36559075117,3797.36559075117
+1983,2209.42747464776,"Total Upwelling Magnitude Index @ 45N","TUMI (m$^3$/s/100m coastline)",2209.42747464776,2209.42747464776
+1984,3157.17619532347,"Total Upwelling Magnitude Index @ 45N","TUMI (m$^3$/s/100m coastline)",3157.17619532347,3157.17619532347
+1985,4642.36513924599,"Total Upwelling Magnitude Index @ 45N","TUMI (m$^3$/s/100m coastline)",4642.36513924599,4642.36513924599
+1986,4333.13862621784,"Total Upwelling Magnitude Index @ 45N","TUMI (m$^3$/s/100m coastline)",4333.13862621784,4333.13862621784
+1987,4741.08348846436,"Total Upwelling Magnitude Index @ 45N","TUMI (m$^3$/s/100m coastline)",4741.08348846436,4741.08348846436
+1988,3079.59270006418,"Total Upwelling Magnitude Index @ 45N","TUMI (m$^3$/s/100m coastline)",3079.59270006418,3079.59270006418
+1989,6020.56932675838,"Total Upwelling Magnitude Index @ 45N","TUMI (m$^3$/s/100m coastline)",6020.56932675838,6020.56932675838
+1990,4336.33554205298,"Total Upwelling Magnitude Index @ 45N","TUMI (m$^3$/s/100m coastline)",4336.33554205298,4336.33554205298
+1991,4904.33200758696,"Total Upwelling Magnitude Index @ 45N","TUMI (m$^3$/s/100m coastline)",4904.33200758696,4904.33200758696
+1992,4969.00794863701,"Total Upwelling Magnitude Index @ 45N","TUMI (m$^3$/s/100m coastline)",4969.00794863701,4969.00794863701
+1993,4018.06792783737,"Total Upwelling Magnitude Index @ 45N","TUMI (m$^3$/s/100m coastline)",4018.06792783737,4018.06792783737
+1994,3630.73676341772,"Total Upwelling Magnitude Index @ 45N","TUMI (m$^3$/s/100m coastline)",3630.73676341772,3630.73676341772
+1995,4346.17572686076,"Total Upwelling Magnitude Index @ 45N","TUMI (m$^3$/s/100m coastline)",4346.17572686076,4346.17572686076
+1996,6190.43928813934,"Total Upwelling Magnitude Index @ 45N","TUMI (m$^3$/s/100m coastline)",6190.43928813934,6190.43928813934
+1997,2216.89375662804,"Total Upwelling Magnitude Index @ 45N","TUMI (m$^3$/s/100m coastline)",2216.89375662804,2216.89375662804
+1998,7023.11879140139,"Total Upwelling Magnitude Index @ 45N","TUMI (m$^3$/s/100m coastline)",7023.11879140139,7023.11879140139
+1999,8364.60776430368,"Total Upwelling Magnitude Index @ 45N","TUMI (m$^3$/s/100m coastline)",8364.60776430368,8364.60776430368
+2000,5748.053193748,"Total Upwelling Magnitude Index @ 45N","TUMI (m$^3$/s/100m coastline)",5748.053193748,5748.053193748
+2001,7576.78829109669,"Total Upwelling Magnitude Index @ 45N","TUMI (m$^3$/s/100m coastline)",7576.78829109669,7576.78829109669
+2002,7877.33581475914,"Total Upwelling Magnitude Index @ 45N","TUMI (m$^3$/s/100m coastline)",7877.33581475914,7877.33581475914
+2003,6922.24573872983,"Total Upwelling Magnitude Index @ 45N","TUMI (m$^3$/s/100m coastline)",6922.24573872983,6922.24573872983
+2004,4162.3122690022,"Total Upwelling Magnitude Index @ 45N","TUMI (m$^3$/s/100m coastline)",4162.3122690022,4162.3122690022
+2005,5594.61488121748,"Total Upwelling Magnitude Index @ 45N","TUMI (m$^3$/s/100m coastline)",5594.61488121748,5594.61488121748
+2006,9743.17420697212,"Total Upwelling Magnitude Index @ 45N","TUMI (m$^3$/s/100m coastline)",9743.17420697212,9743.17420697212
+2007,4796.40668022633,"Total Upwelling Magnitude Index @ 45N","TUMI (m$^3$/s/100m coastline)",4796.40668022633,4796.40668022633
+2008,5894.59375095367,"Total Upwelling Magnitude Index @ 45N","TUMI (m$^3$/s/100m coastline)",5894.59375095367,5894.59375095367
+2009,4870.25427442789,"Total Upwelling Magnitude Index @ 45N","TUMI (m$^3$/s/100m coastline)",4870.25427442789,4870.25427442789
+2010,3673.94739377499,"Total Upwelling Magnitude Index @ 45N","TUMI (m$^3$/s/100m coastline)",3673.94739377499,3673.94739377499
+2011,3429.82626444101,"Total Upwelling Magnitude Index @ 45N","TUMI (m$^3$/s/100m coastline)",3429.82626444101,3429.82626444101
+2012,6139.56237769127,"Total Upwelling Magnitude Index @ 45N","TUMI (m$^3$/s/100m coastline)",6139.56237769127,6139.56237769127
+2013,4729.81826364994,"Total Upwelling Magnitude Index @ 45N","TUMI (m$^3$/s/100m coastline)",4729.81826364994,4729.81826364994
+2014,5309.79336458445,"Total Upwelling Magnitude Index @ 45N","TUMI (m$^3$/s/100m coastline)",5309.79336458445,5309.79336458445
+2015,6644.85980033875,"Total Upwelling Magnitude Index @ 45N","TUMI (m$^3$/s/100m coastline)",6644.85980033875,6644.85980033875
+2016,5521.30878704786,"Total Upwelling Magnitude Index @ 45N","TUMI (m$^3$/s/100m coastline)",5521.30878704786,5521.30878704786
+2017,4459.51277053356,"Total Upwelling Magnitude Index @ 45N","TUMI (m$^3$/s/100m coastline)",4459.51277053356,4459.51277053356
+2018,4416.24469184875,"Total Upwelling Magnitude Index @ 45N","TUMI (m$^3$/s/100m coastline)",4416.24469184875,4416.24469184875
+2019,3623.94336241484,"Total Upwelling Magnitude Index @ 45N","TUMI (m$^3$/s/100m coastline)",3623.94336241484,3623.94336241484
+2020,2758.64652502537,"Total Upwelling Magnitude Index @ 45N","TUMI (m$^3$/s/100m coastline)",2758.64652502537,2758.64652502537
+2021,4991.59298843145,"Total Upwelling Magnitude Index @ 45N","TUMI (m$^3$/s/100m coastline)",4991.59298843145,4991.59298843145
+2022,3525.39339748025,"Total Upwelling Magnitude Index @ 45N","TUMI (m$^3$/s/100m coastline)",3525.39339748025,3525.39339748025
+2023,5005.96747970581,"Total Upwelling Magnitude Index @ 45N","TUMI (m$^3$/s/100m coastline)",5005.96747970581,5005.96747970581
+2024,4195.50387275219,"Total Upwelling Magnitude Index @ 45N","TUMI (m$^3$/s/100m coastline)",4195.50387275219,4195.50387275219
+2025,5464.81516462564,"Total Upwelling Magnitude Index @ 45N","TUMI (m$^3$/s/100m coastline)",5464.81516462564,5464.81516462564
+*END_DATA*

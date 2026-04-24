@@ -1,0 +1,16 @@
+*GLOBAL*,Conventions,"COARDS, CF-1.6, ACDD-1.3, NCCSV-1.1"
+*GLOBAL*,history,"last updated: 2026-02-24 00:41:15"
+*GLOBAL*,title,""
+*GLOBAL*,institution,""
+*GLOBAL*,summary,""
+*GLOBAL*,contributor_name,""
+*GLOBAL*,contributor_email,""
+time,*DATA_TYPE*,String
+time,units,"yyyy-MM-dd"
+index,*DATA_TYPE*,float
+index,units,""
+index,long_name,""
+timeseries,*DATA_TYPE*,String
+*END_METADATA*
+""
+*END_DATA*

@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<erddapDatasets>
+  <dataset type="EDDTableFromNccsvFiles" datasetID="cciea_HMS_biomass" active="true">
+    <reloadEveryNMinutes>2628000</reloadEveryNMinutes>
+    <fileDir>data/erddap_files/nccsv/Muhling</fileDir>
+    <fileNameRegex>cciea_HMS_biomass.csv</fileNameRegex>
+    <recursive>false</recursive>
+    <columnNamesRow>1</columnNamesRow>
+    <columnNamesRow>2</columnNamesRow>
+    <firstDataRowr>2</firstDataRowr>
+    <defaultGraphQuery>time,biomass&amp;species_measurement="Albacore:Spawning biomass (mt)"&amp;.draw=linesAndMarkers</defaultGraphQuery>
+    <addAttributes>
+      <att name="Other">cdm_data_type</att>
+      <att name="license">[standard]</att>
+      <att name="sourceUrl">(local files)</att>
+      <att name="standard_name_vocabulary">CF Standard Name Table v70</att>
+      <att name="subsetVariables">species_measurement</att>
+    </addAttributes>
+    <dataVariable>
+      <sourceName>year</sourceName>
+      <destinationName>time</destinationName>
+      <dataType>String</dataType>
+      <addAttributes>
+        <att name="ioos_category">Time</att>
+      </addAttributes>
+    </dataVariable>
+    <dataVariable>
+      <sourceName>index</sourceName>
+      <destinationName>biomass</destinationName>
+      <dataType>float</dataType>
+      <addAttributes>
+        <att name="ioos_category">Other</att>
+      </addAttributes>
+    </dataVariable>
+    <dataVariable>
+      <sourceName>timeseries</sourceName>
+      <destinationName>indicator</destinationName>
+      <dataType>String</dataType>
+      <addAttributes>
+        <att name="ioos_category">Other</att>
+      </addAttributes>
+    </dataVariable>
+    <dataVariable>
+      <sourceName>SEup</sourceName>
+      <destinationName>SEup</destinationName>
+      <dataType>float</dataType>
+      <addAttributes>
+        <att name="ioos_category">Other</att>
+      </addAttributes>
+    </dataVariable>
+    <dataVariable>
+      <sourceName>SElo</sourceName>
+      <destinationName>SElo</destinationName>
+      <dataType>float</dataType>
+      <addAttributes>
+        <att name="ioos_category">Other</att>
+      </addAttributes>
+    </dataVariable>
+  </dataset>
+  <dataset type="EDDTableFromNccsvFiles" datasetID="cciea_HMS_recruit" active="true">
+    <reloadEveryNMinutes>2628000</reloadEveryNMinutes>
+    <fileDir>data/erddap_files/nccsv/Muhling</fileDir>
+    <fileNameRegex>cciea_HMS_recruit.csv</fileNameRegex>
+    <recursive>false</recursive>
+    <columnNamesRow>1</columnNamesRow>
+    <columnNamesRow>2</columnNamesRow>
+    <firstDataRowr>2</firstDataRowr>
+    <defaultGraphQuery>time,recruitment&amp;species_measurement="Albacore:Recruits (x1000)"&amp;.draw=linesAndMarkers</defaultGraphQuery>
+    <addAttributes>
+      <att name="Other">cdm_data_type</att>
+      <att name="license">[standard]</att>
+      <att name="sourceUrl">(local files)</att>
+      <att name="standard_name_vocabulary">CF Standard Name Table v70</att>
+      <att name="subsetVariables">species_measurement</att>
+    </addAttributes>
+    <dataVariable>
+      <sourceName>year</sourceName>
+      <destinationName>time</destinationName>
+      <dataType>String</dataType>
+      <addAttributes>
+        <att name="ioos_category">Time</att>
+      </addAttributes>
+    </dataVariable>
+    <dataVariable>
+      <sourceName>index</sourceName>
+      <destinationName>recruitment</destinationName>
+      <dataType>float</dataType>
+      <addAttributes>
+        <att name="ioos_category">Other</att>
+      </addAttributes>
+    </dataVariable>
+    <dataVariable>
+      <sourceName>timeseries</sourceName>
+      <destinationName>indicator</destinationName>
+      <dataType>String</dataType>
+      <addAttributes>
+        <att name="ioos_category">Other</att>
+      </addAttributes>
+    </dataVariable>
+    <dataVariable>
+      <sourceName>SEup</sourceName>
+      <destinationName>SEup</destinationName>
+      <dataType>float</dataType>
+      <addAttributes>
+        <att name="ioos_category">Other</att>
+      </addAttributes>
+    </dataVariable>
+    <dataVariable>
+      <sourceName>SElo</sourceName>
+      <destinationName>SElo</destinationName>
+      <dataType>float</dataType>
+      <addAttributes>
+        <att name="ioos_category">Other</att>
+      </addAttributes>
+    </dataVariable>
+  </dataset>
+</erddapDatasets>

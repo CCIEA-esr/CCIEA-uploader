@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<erddapDatasets>
+  <dataset type="EDDTableFromNccsvFiles" datasetID="cciea_EI_KRILLEN" active="true">
+    <reloadEveryNMinutes>2628000</reloadEveryNMinutes>
+    <fileDir>data/erddap_files/nccsv/Bjorkstedt</fileDir>
+    <fileNameRegex>cciea_EI_KRILLEN.csv</fileNameRegex>
+    <recursive>false</recursive>
+    <columnNamesRow>1</columnNamesRow>
+    <columnNamesRow>2</columnNamesRow>
+    <firstDataRowr>2</firstDataRowr>
+    <defaultGraphQuery>time,krill_length_biomass&amp;measurement="Euphausia pacifica (krill) adult mean biomass"&amp;.draw=linesAndMarkers</defaultGraphQuery>
+    <addAttributes>
+      <att name="cdm_data_type">Other</att>
+      <att name="[standard]">license</att>
+      <att name="(local files)">sourceUrl</att>
+      <att name="CF Standard Name Table v70">standard_name_vocabulary</att>
+      <att name="measurement">subsetVariables</att>
+    </addAttributes>
+    <dataVariable>
+      <sourceName>time</sourceName>
+      <destinationName>time</destinationName>
+      <dataType>String</dataType>
+      <addAttributes>
+        <att name="ioos_category">Time</att>
+      </addAttributes>
+    </dataVariable>
+    <dataVariable>
+      <sourceName>index</sourceName>
+      <destinationName>krill_length_biomass</destinationName>
+      <dataType>float</dataType>
+      <addAttributes>
+        <att name="ioos_category">Other</att>
+      </addAttributes>
+    </dataVariable>
+    <dataVariable>
+      <sourceName>SEup</sourceName>
+      <destinationName>SEup</destinationName>
+      <dataType>float</dataType>
+      <addAttributes>
+        <att name="ioos_category">Other</att>
+      </addAttributes>
+    </dataVariable>
+    <dataVariable>
+      <sourceName>SElo</sourceName>
+      <destinationName>krill_length_biomass</destinationName>
+      <dataType>SElo</dataType>
+      <addAttributes>
+        <att name="ioos_category">Other</att>
+      </addAttributes>
+    </dataVariable>
+  </dataset>
+</erddapDatasets>

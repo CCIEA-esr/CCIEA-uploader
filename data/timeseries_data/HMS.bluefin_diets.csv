@@ -1,0 +1,171 @@
+year,index,metric,timeseries,order
+2008,0.01,mean % bluefin diet,anchovy,1
+2009,0.01,mean % bluefin diet,anchovy,1
+2010,0,mean % bluefin diet,anchovy,1
+2011,0,mean % bluefin diet,anchovy,1
+2012,0,mean % bluefin diet,anchovy,1
+2013,0.045,mean % bluefin diet,anchovy,1
+2014,0.05,mean % bluefin diet,anchovy,1
+2015,0.1,mean % bluefin diet,anchovy,1
+2016,0.222,mean % bluefin diet,anchovy,1
+2017,0.415,mean % bluefin diet,anchovy,1
+2018,0.782,mean % bluefin diet,anchovy,1
+2019,0.567,mean % bluefin diet,anchovy,1
+2020,0.856,mean % bluefin diet,anchovy,1
+2021,0.273,mean % bluefin diet,anchovy,1
+2022,0.652,mean % bluefin diet,anchovy,1
+2023,0.202,mean % bluefin diet,anchovy,1
+2024,0.146,mean % bluefin diet,anchovy,1
+2008,0,mean % bluefin diet,hake,2
+2009,0,mean % bluefin diet,hake,2
+2010,0,mean % bluefin diet,hake,2
+2011,0,mean % bluefin diet,hake,2
+2012,0.008,mean % bluefin diet,hake,2
+2013,0,mean % bluefin diet,hake,2
+2014,0.004,mean % bluefin diet,hake,2
+2015,0,mean % bluefin diet,hake,2
+2016,0.002,mean % bluefin diet,hake,2
+2017,0.007,mean % bluefin diet,hake,2
+2018,0,mean % bluefin diet,hake,2
+2019,0,mean % bluefin diet,hake,2
+2020,0,mean % bluefin diet,hake,2
+2021,0.076,mean % bluefin diet,hake,2
+2022,0.083,mean % bluefin diet,hake,2
+2023,0.022,mean % bluefin diet,hake,2
+2024,0.061,mean % bluefin diet,hake,2
+2008,0.006,mean % bluefin diet,jack mackerel,3
+2009,0.242,mean % bluefin diet,jack mackerel,3
+2010,0.022,mean % bluefin diet,jack mackerel,3
+2011,0.036,mean % bluefin diet,jack mackerel,3
+2012,0.148,mean % bluefin diet,jack mackerel,3
+2013,0.076,mean % bluefin diet,jack mackerel,3
+2014,0.13,mean % bluefin diet,jack mackerel,3
+2015,0.016,mean % bluefin diet,jack mackerel,3
+2016,0.021,mean % bluefin diet,jack mackerel,3
+2017,0,mean % bluefin diet,jack mackerel,3
+2018,0,mean % bluefin diet,jack mackerel,3
+2019,0,mean % bluefin diet,jack mackerel,3
+2020,0,mean % bluefin diet,jack mackerel,3
+2021,0,mean % bluefin diet,jack mackerel,3
+2022,0.019,mean % bluefin diet,jack mackerel,3
+2023,0.024,mean % bluefin diet,jack mackerel,3
+2024,0.049,mean % bluefin diet,jack mackerel,3
+2008,0,mean % bluefin diet,Pacific mackerel,4
+2009,0,mean % bluefin diet,Pacific mackerel,4
+2010,0,mean % bluefin diet,Pacific mackerel,4
+2011,0.058,mean % bluefin diet,Pacific mackerel,4
+2012,0.078,mean % bluefin diet,Pacific mackerel,4
+2013,0.043,mean % bluefin diet,Pacific mackerel,4
+2014,0.003,mean % bluefin diet,Pacific mackerel,4
+2015,0.002,mean % bluefin diet,Pacific mackerel,4
+2016,0.004,mean % bluefin diet,Pacific mackerel,4
+2017,0,mean % bluefin diet,Pacific mackerel,4
+2018,0,mean % bluefin diet,Pacific mackerel,4
+2019,0,mean % bluefin diet,Pacific mackerel,4
+2020,0.025,mean % bluefin diet,Pacific mackerel,4
+2021,0.006,mean % bluefin diet,Pacific mackerel,4
+2022,0,mean % bluefin diet,Pacific mackerel,4
+2023,0.001,mean % bluefin diet,Pacific mackerel,4
+2024,0.009,mean % bluefin diet,Pacific mackerel,4
+2008,0.005,mean % bluefin diet,Pacific saury,5
+2009,0.045,mean % bluefin diet,Pacific saury,5
+2010,0.059,mean % bluefin diet,Pacific saury,5
+2011,0.073,mean % bluefin diet,Pacific saury,5
+2012,0.014,mean % bluefin diet,Pacific saury,5
+2013,0,mean % bluefin diet,Pacific saury,5
+2014,0.005,mean % bluefin diet,Pacific saury,5
+2015,0.007,mean % bluefin diet,Pacific saury,5
+2016,0,mean % bluefin diet,Pacific saury,5
+2017,0,mean % bluefin diet,Pacific saury,5
+2018,0.001,mean % bluefin diet,Pacific saury,5
+2019,0,mean % bluefin diet,Pacific saury,5
+2020,0,mean % bluefin diet,Pacific saury,5
+2021,0,mean % bluefin diet,Pacific saury,5
+2022,0,mean % bluefin diet,Pacific saury,5
+2023,0.002,mean % bluefin diet,Pacific saury,5
+2024,0.027,mean % bluefin diet,Pacific saury,5
+2008,0.056,mean % bluefin diet,rockfishes,6
+2009,0.072,mean % bluefin diet,rockfishes,6
+2010,0.056,mean % bluefin diet,rockfishes,6
+2011,0.067,mean % bluefin diet,rockfishes,6
+2012,0.072,mean % bluefin diet,rockfishes,6
+2013,0.018,mean % bluefin diet,rockfishes,6
+2014,0.039,mean % bluefin diet,rockfishes,6
+2015,0.033,mean % bluefin diet,rockfishes,6
+2016,0.051,mean % bluefin diet,rockfishes,6
+2017,0.114,mean % bluefin diet,rockfishes,6
+2018,0.015,mean % bluefin diet,rockfishes,6
+2019,0.02,mean % bluefin diet,rockfishes,6
+2020,0,mean % bluefin diet,rockfishes,6
+2021,0,mean % bluefin diet,rockfishes,6
+2022,0,mean % bluefin diet,rockfishes,6
+2023,0.003,mean % bluefin diet,rockfishes,6
+2024,0.027,mean % bluefin diet,rockfishes,6
+2008,0.003,mean % bluefin diet,sardine,7
+2009,0.045,mean % bluefin diet,sardine,7
+2010,0,mean % bluefin diet,sardine,7
+2011,0.034,mean % bluefin diet,sardine,7
+2012,0.014,mean % bluefin diet,sardine,7
+2013,0.064,mean % bluefin diet,sardine,7
+2014,0.013,mean % bluefin diet,sardine,7
+2015,0.012,mean % bluefin diet,sardine,7
+2016,0.068,mean % bluefin diet,sardine,7
+2017,0,mean % bluefin diet,sardine,7
+2018,0,mean % bluefin diet,sardine,7
+2019,0.011,mean % bluefin diet,sardine,7
+2020,0,mean % bluefin diet,sardine,7
+2021,0.152,mean % bluefin diet,sardine,7
+2022,0.001,mean % bluefin diet,sardine,7
+2023,0.039,mean % bluefin diet,sardine,7
+2024,0,mean % bluefin diet,sardine,7
+2008,0.006,mean % bluefin diet,market squid,8
+2009,0.042,mean % bluefin diet,market squid,8
+2010,0.028,mean % bluefin diet,market squid,8
+2011,0.076,mean % bluefin diet,market squid,8
+2012,0.044,mean % bluefin diet,market squid,8
+2013,0.026,mean % bluefin diet,market squid,8
+2014,0.014,mean % bluefin diet,market squid,8
+2015,0.006,mean % bluefin diet,market squid,8
+2016,0.046,mean % bluefin diet,market squid,8
+2017,0.029,mean % bluefin diet,market squid,8
+2018,0.052,mean % bluefin diet,market squid,8
+2019,0,mean % bluefin diet,market squid,8
+2020,0.003,mean % bluefin diet,market squid,8
+2021,0.121,mean % bluefin diet,market squid,8
+2022,0.017,mean % bluefin diet,market squid,8
+2023,0.076,mean % bluefin diet,market squid,8
+2024,0.135,mean % bluefin diet,market squid,8
+2008,0,mean % bluefin diet,Euphausiidae,9
+2009,0,mean % bluefin diet,Euphausiidae,9
+2010,0,mean % bluefin diet,Euphausiidae,9
+2011,0,mean % bluefin diet,Euphausiidae,9
+2012,0,mean % bluefin diet,Euphausiidae,9
+2013,0,mean % bluefin diet,Euphausiidae,9
+2014,0.006,mean % bluefin diet,Euphausiidae,9
+2015,0.007,mean % bluefin diet,Euphausiidae,9
+2016,0.059,mean % bluefin diet,Euphausiidae,9
+2017,0.106,mean % bluefin diet,Euphausiidae,9
+2018,0,mean % bluefin diet,Euphausiidae,9
+2019,0,mean % bluefin diet,Euphausiidae,9
+2020,0,mean % bluefin diet,Euphausiidae,9
+2021,0,mean % bluefin diet,Euphausiidae,9
+2022,0,mean % bluefin diet,Euphausiidae,9
+2023,0,mean % bluefin diet,Euphausiidae,9
+2024,0.036,mean % bluefin diet,Euphausiidae,9
+2008,0.914,mean % bluefin diet,other,10
+2009,0.543,mean % bluefin diet,other,10
+2010,0.835,mean % bluefin diet,other,10
+2011,0.656,mean % bluefin diet,other,10
+2012,0.622,mean % bluefin diet,other,10
+2013,0.73,mean % bluefin diet,other,10
+2014,0.736,mean % bluefin diet,other,10
+2015,0.816,mean % bluefin diet,other,10
+2016,0.528,mean % bluefin diet,other,10
+2017,0.328,mean % bluefin diet,other,10
+2018,0.151,mean % bluefin diet,other,10
+2019,0.401,mean % bluefin diet,other,10
+2020,0.116,mean % bluefin diet,other,10
+2021,0.372,mean % bluefin diet,other,10
+2022,0.228,mean % bluefin diet,other,10
+2023,0.633,mean % bluefin diet,other,10
+2024,0.509,mean % bluefin diet,other,10

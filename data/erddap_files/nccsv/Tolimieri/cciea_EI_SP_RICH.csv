@@ -1,0 +1,86 @@
+*GLOBAL*,Conventions,"COARDS, CF-1.6, ACDD-1.3, NCCSV-1.1"
+*GLOBAL*,history,"last updated: 2026-04-22 14:49:35"
+*GLOBAL*,title,"Groundfish species richness"
+*GLOBAL*,institution,"NOAA NWFSC"
+*GLOBAL*,summary,"Groundfish data are from the <a href="http://www.nwfsc.noaa.gov/research/divisions/fram/groundfish/bottom_trawl.cfm" target="_blank">NMFS U.S. West Coast Groundfish Bottom Trawl Survey</a> and were downloaded from the FRAM data warehouse at https://www.nwfsc.noaa.gov/data/map  <a href='https://www.nwfsc.noaa.gov/data/api/v1/source/trawl.catch_fact/selection.csv?variables=program,trawl_id,date_dim$year,date_dim$yyyymmdd,vessel,performance,year_stn_invalid,depth_m,latitude_dd,longitude_dd,scientific_name,common_name,species_category,partition,total_catch_numbers,total_catch_wt_kg,cpue_kg_per_ha_der,cpue_numbers_per_ha_der,"actual_station_design_dim$station_invalid_survey_year", "actual_station_design_dim$reason_station_invalid","reason_stn_invalid (target station)", "year_stn_invalid"' target="_blank">with this API query</a>; Additional Calculations: Species richness for groundfishes on the West Coast from the West Coast Groundfish Bottom Trawl Survey.  Data underwent sample-based rarefaction and were then scaled to a set number of individuals (*standardized for sampling effort) to produce richness estimates. For details, see Tolimieri et al. 2012 CCIEA Phase II Report 2012: Ecosystem Components - Ecological Integrity, Appendix EN (<a href="https://www.integratedecosystemassessment.noaa.gov/sites/default/files/2022-05/2012_CCIEA_Ecosystem_Status_Report.pdf" target="_blank">https://www.integratedecosystemassessment.noaa.gov/sites/default/files/2022-05/2012_CCIEA_Ecosystem_Status_Report.pdf</a>)Groundfish data are from the <a href="http://www.nwfsc.noaa.gov/research/divisions/fram/groundfish/bottom_trawl.cfm" target="_blank">NMFS U.S. West Coast Groundfish Bottom Trawl Survey</a> and were downloaded from the FRAM data warehouse at https://www.nwfsc.noaa.gov/data/map  <a href='https://www.nwfsc.noaa.gov/data/api/v1/source/trawl.catch_fact/selection.csv?variables=program,trawl_id,date_dim$year,date_dim$yyyymmdd,vessel,performance,year_stn_invalid,depth_m,latitude_dd,longitude_dd,scientific_name,common_name,species_category,partition,total_catch_numbers,total_catch_wt_kg,cpue_kg_per_ha_der,cpue_numbers_per_ha_der,"actual_station_design_dim$station_invalid_survey_year", "actual_station_design_dim$reason_station_invalid","reason_stn_invalid (target station)", "year_stn_invalid"' target="_blank">with this API query</a>; Additional Calculations: Species richness for groundfishes on the West Coast north of Cape Mendocino from the West Coast Groundfish Bottom Trawl Survey. Data underwent sample-based rarefaction and were then scaled to a set number of individuals (*standardized for sampling effort) to produce richness estimates. For details, see Tolimieri et al. 2012 CCIEA Phase II Report 2012: Ecosystem Components - Ecological Integrity, Appendix EN (<a href="https://www.integratedecosystemassessment.noaa.gov/sites/default/files/2022-05/2012_CCIEA_Ecosystem_Status_Report.pdf" target="_blank">https://www.integratedecosystemassessment.noaa.gov/sites/default/files/2022-05/2012_CCIEA_Ecosystem_Status_Report.pdf</a>)Groundfish data are from the <a href="http://www.nwfsc.noaa.gov/research/divisions/fram/groundfish/bottom_trawl.cfm" target="_blank">NMFS U.S. West Coast Groundfish Bottom Trawl Survey</a> and were downloaded from the FRAM data warehouse at https://www.nwfsc.noaa.gov/data/map  <a href='https://www.nwfsc.noaa.gov/data/api/v1/source/trawl.catch_fact/selection.csv?variables=program,trawl_id,date_dim$year,date_dim$yyyymmdd,vessel,performance,year_stn_invalid,depth_m,latitude_dd,longitude_dd,scientific_name,common_name,species_category,partition,total_catch_numbers,total_catch_wt_kg,cpue_kg_per_ha_der,cpue_numbers_per_ha_der,"actual_station_design_dim$station_invalid_survey_year", "actual_station_design_dim$reason_station_invalid","reason_stn_invalid (target station)", "year_stn_invalid"' target="_blank">with this API query</a>; Additional Calculations: Species richness for groundfishes on the West Coast south of Cape Mendocino from the West Coast Groundfish Bottom Trawl Survey. Data underwent sample-based rarefaction and were then scaled to a set number of individuals (*standardized for sampling effort) to produce richness estimates. For details, see Tolimieri et al. 2012 CCIEA Phase II Report 2012: Ecosystem Components - Ecological Integrity, Appendix EN (<a href="https://www.integratedecosystemassessment.noaa.gov/sites/default/files/2022-05/2012_CCIEA_Ecosystem_Status_Report.pdf" target="_blank">https://www.integratedecosystemassessment.noaa.gov/sites/default/files/2022-05/2012_CCIEA_Ecosystem_Status_Report.pdf</a>)"
+*GLOBAL*,infoUrl,"https://www.integratedecosystemassessment.noaa.gov/regions/california-current/about-california-current-integrated-ecosystem-assessment"
+*GLOBAL*,contributor_name,"Tolimieri"
+*GLOBAL*,contributor_email,"nick.tolimieri@noaa.gov"
+year,*DATA_TYPE*,String
+year,units,"yyyy"
+index,*DATA_TYPE*,float
+index,units,"Spp per set # of indiv"
+index,long_name,"NA"
+timeseries,*DATA_TYPE*,String
+metric,*DATA_TYPE*,String
+SEup,*DATA_TYPE*,float
+SElo,*DATA_TYPE*,float
+*END_METADATA*
+"year","index","timeseries","metric","SEup","SElo"
+2003,26.8789553897191,"Coastwide","No spp per 3296 indiv",28.8888357966585,24.8690749827796
+2004,27.6037528117924,"Coastwide","No spp per 3296 indiv",28.7057613872462,26.5017442363386
+2005,28.4053483094611,"Coastwide","No spp per 3296 indiv",30.3036429166235,26.5070537022988
+2006,29.6726481285073,"Coastwide","No spp per 3296 indiv",31.3807283781122,27.9645678789024
+2007,29.9848630453372,"Coastwide","No spp per 3296 indiv",31.3084015859151,28.6613245047594
+2008,29.5659055172716,"Coastwide","No spp per 3296 indiv",31.2477675759587,27.8840434585845
+2009,30.9718613440067,"Coastwide","No spp per 3296 indiv",32.417574134385,29.5261485536285
+2010,30.8039200082408,"Coastwide","No spp per 3296 indiv",32.2655682194293,29.3422717970522
+2011,30.1421976993352,"Coastwide","No spp per 3296 indiv",31.9085904473158,28.3758049513546
+2012,27.9253232071268,"Coastwide","No spp per 3296 indiv",29.3929764787827,26.4576699354709
+2013,27.644611523332,"Coastwide","No spp per 3296 indiv",29.0314837497384,26.2577392969256
+2014,29.1432989528473,"Coastwide","No spp per 3296 indiv",30.280119749269,28.0064781564256
+2015,31.4386581295991,"Coastwide","No spp per 3296 indiv",33.1420475499298,29.7352687092684
+2016,28.8600013489818,"Coastwide","No spp per 3296 indiv",30.0171564149188,27.7028462830449
+2017,29.4278597086787,"Coastwide","No spp per 3296 indiv",31.0019761551696,27.8537432621877
+2018,28.422192108398,"Coastwide","No spp per 3296 indiv",29.7816165461838,27.0627676706123
+2019,30.5234040858414,"Coastwide","No spp per 3296 indiv",32.6118573545629,28.43495081712
+2021,29.104985397966,"Coastwide","No spp per 3296 indiv",30.7960078818718,27.4139629140602
+2022,27.7747700329101,"Coastwide","No spp per 3296 indiv",29.4262606401641,26.1232794256562
+2023,29.0696436239856,"Coastwide","No spp per 3296 indiv",30.7561186973156,27.3831685506556
+2024,28.2723651644757,"Coastwide","No spp per 3296 indiv",30.198104263267,26.3466260656845
+2025,29.7829355338462,"Coastwide","No spp per 3296 indiv",31.9993625506015,27.5665085170909
+2003,24.3195755750603,"North","No spp per 3296 indiv",26.2553047957814,22.3838463543393
+2004,26.8877263082545,"North","No spp per 3296 indiv",28.393287380246,25.3821652362629
+2005,27.944167440092,"North","No spp per 3296 indiv",30.2118939103558,25.6764409698282
+2006,27.0099402465784,"North","No spp per 3296 indiv",29.1172000035798,24.9026804895771
+2007,27.3877719414927,"North","No spp per 3296 indiv",29.3715549795793,25.4039889034062
+2008,27.7909798188868,"North","No spp per 3296 indiv",29.8387786772715,25.7431809605021
+2009,28.4950897375874,"North","No spp per 3296 indiv",30.4638977106737,26.5262817645011
+2010,29.3339401612921,"North","No spp per 3296 indiv",31.6779739833213,26.9899063392629
+2011,26.7958186321746,"North","No spp per 3296 indiv",28.5332706681388,25.0583665962104
+2012,26.9407543000659,"North","No spp per 3296 indiv",28.4638742322007,25.417634367931
+2013,27.3721270169742,"North","No spp per 3296 indiv",29.1086719005539,25.6355821333946
+2014,28.1096537592083,"North","No spp per 3296 indiv",29.9439271984804,26.2753803199362
+2015,29.1019354918884,"North","No spp per 3296 indiv",31.5750902821519,26.6287807016249
+2016,27.8022358888193,"North","No spp per 3296 indiv",29.7884967596672,25.8159750179714
+2017,27.263299486439,"North","No spp per 3296 indiv",29.2371906440809,25.2894083287971
+2018,26.7479514167355,"North","No spp per 3296 indiv",28.7413067528944,24.7545960805765
+2019,26.8350067084956,"North","No spp per 3296 indiv",28.8427976784131,24.8272157385781
+2021,26.6484212068171,"North","No spp per 3296 indiv",28.9170409014458,24.3798015121885
+2022,25.2242144134588,"North","No spp per 3296 indiv",27.0970409308011,23.3513878961165
+2023,26.5588874202153,"North","No spp per 3296 indiv",29.2458797182939,23.8718951221366
+2024,24.2230636276657,"North","No spp per 3296 indiv",25.536565644034,22.9095616112974
+2025,26.4276219864363,"North","No spp per 3296 indiv",28.6521626842622,24.2030812886104
+2003,29.121635870133,"South","No spp per 3296 indiv",32.5045354609924,25.7387362792735
+2004,28.2311777269013,"South","No spp per 3296 indiv",29.9903875598531,26.4719678939494
+2005,28.8094623560558,"South","No spp per 3296 indiv",32.0947060746124,25.5242186374993
+2006,32.0058707934842,"South","No spp per 3296 indiv",34.4934706226308,29.5182709643377
+2007,32.2605883953183,"South","No spp per 3296 indiv",33.6524301594985,30.868746631138
+2008,31.1212007474496,"South","No spp per 3296 indiv",33.8313378243971,28.4110636705021
+2009,33.1421556099638,"South","No spp per 3296 indiv",35.0298692059737,31.2544420139539
+2010,32.0920035863295,"South","No spp per 3296 indiv",34.0688522558948,30.1151549167643
+2011,33.0744936293895,"South","No spp per 3296 indiv",35.6562511793637,30.4927360794152
+2012,28.788060912895,"South","No spp per 3296 indiv",31.3805497400826,26.1955720857073
+2013,27.8833786184398,"South","No spp per 3296 indiv",30.2444778551626,25.522279381717
+2014,30.0490402133554,"South","No spp per 3296 indiv",31.6030310017375,28.4950494249733
+2015,33.4862331779449,"South","No spp per 3296 indiv",35.8190034039516,31.1534629519383
+2016,29.7868782184389,"South","No spp per 3296 indiv",31.2565335565306,28.3172228803472
+2017,31.3245758315822,"South","No spp per 3296 indiv",33.6945406866457,28.9546109765188
+2018,29.8892611605179,"South","No spp per 3296 indiv",31.7964918099043,27.9820305111316
+2019,33.7553967564121,"South","No spp per 3296 indiv",36.9415729610533,30.5692205517708
+2021,31.2575727274507,"South","No spp per 3296 indiv",33.6639027370313,28.8512427178701
+2022,30.0097182298101,"South","No spp per 3296 indiv",32.5197926759797,27.4996437836405
+2023,31.2697172109631,"South","No spp per 3296 indiv",33.2970592741894,29.2423751477368
+2024,31.8206034774847,"South","No spp per 3296 indiv",34.6923253923272,28.9488815626422
+2025,32.723060385713,"South","No spp per 3296 indiv",36.2602774891716,29.1858432822544
+*END_DATA*

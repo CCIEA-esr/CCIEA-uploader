@@ -1,0 +1,440 @@
+*GLOBAL*,Conventions,"COARDS, CF-1.6, ACDD-1.3, NCCSV-1.1"
+*GLOBAL*,history,"last updated: 2026-04-22 14:49:35"
+*GLOBAL*,title,"Forage Biomass, California Current South"
+*GLOBAL*,institution,"NOAA SWFSC"
+*GLOBAL*,summary,"Dr. Andrew Thompson (NOAA; andrew.thompson@noaa.gov); derived from spring <a href="https://calcofi.org/" target="_blank">CalCOFI surveys</a>; Additional Calculations: Larval fish data summed across all stations of the CalCOFI survey in spring (units are in number under 10 sq. m of surface area; ln(abundance+1)). Note: The spring CalCOFI cruise was not conducted in 2020 due to COVID restrictions, and winter surveys were used to develop alternative indices of larval abundance; see Appendix G.3 in Harvey et al 2021 (<a href="https://www.pcouncil.org/documents/2021/02/i-1-a-iea-team-report-2.pdf/" target="_blank">https://www.pcouncil.org/documents/2021/02/i-1-a-iea-team-report-2.pdf/</a>) for methods used to develop alternative indices in 2020.Dr. Andrew Thompson (NOAA; andrew.thompson@noaa.gov); derived from spring <a href="https://calcofi.org/" target="_blank">CalCOFI surveys</a>; Additional Calculations: Larval fish data summed across all stations of the CalCOFI survey in spring (units are in number under 10 sq. m of surface area; ln(abundance+1)). Note: The spring CalCOFI cruise was not conducted in 2020 due to COVID restrictions, and winter surveys were used to develop alternative indices of larval abundance; see Appendix G.3 in Harvey et al 2021 (<a href="https://www.pcouncil.org/documents/2021/02/i-1-a-iea-team-report-2.pdf/" target="_blank">https://www.pcouncil.org/documents/2021/02/i-1-a-iea-team-report-2.pdf/</a>) for methods used to develop alternative indices in 2020.Dr. Andrew Thompson (NOAA; andrew.thompson@noaa.gov); derived from spring <a href="https://calcofi.org/" target="_blank">CalCOFI surveys</a>; Additional Calculations: Larval fish data summed across all stations of the CalCOFI survey in spring (units are in number under 10 sq. m of surface area; ln(abundance+1)). Note: The spring CalCOFI cruise was not conducted in 2020 due to COVID restrictions, and winter surveys were used to develop alternative indices of larval abundance; see Appendix G.3 in Harvey et al 2021 (<a href="https://www.pcouncil.org/documents/2021/02/i-1-a-iea-team-report-2.pdf/" target="_blank">https://www.pcouncil.org/documents/2021/02/i-1-a-iea-team-report-2.pdf/</a>) for methods used to develop alternative indices in 2020.Dr. Andrew Thompson (NOAA; andrew.thompson@noaa.gov); derived from spring <a href="https://calcofi.org/" target="_blank">CalCOFI surveys</a>; Additional Calculations: Larval fish data summed across all stations of the CalCOFI survey in spring (units are in number under 10 sq. m of surface area; ln(abundance+1)). Note: The spring CalCOFI cruise was not conducted in 2020 due to COVID restrictions, and winter surveys were used to develop alternative indices of larval abundance; see Appendix G.3 in Harvey et al 2021 (<a href="https://www.pcouncil.org/documents/2021/02/i-1-a-iea-team-report-2.pdf/" target="_blank">https://www.pcouncil.org/documents/2021/02/i-1-a-iea-team-report-2.pdf/</a>) for methods used to develop alternative indices in 2020.Dr. Andrew Thompson (NOAA; andrew.thompson@noaa.gov); derived from spring <a href="https://calcofi.org/" target="_blank">CalCOFI surveys</a>; Additional Calculations: Larval fish data summed across all stations of the CalCOFI survey in spring (units are in number under 10 sq. m of surface area; ln(abundance+1)). Note: The spring CalCOFI cruise was not conducted in 2020 due to COVID restrictions, and winter surveys were used to develop alternative indices of larval abundance; see Appendix G.3 in Harvey et al 2021 (<a href="https://www.pcouncil.org/documents/2021/02/i-1-a-iea-team-report-2.pdf/" target="_blank">https://www.pcouncil.org/documents/2021/02/i-1-a-iea-team-report-2.pdf/</a>) for methods used to develop alternative indices in 2020.Dr. Andrew Thompson (NOAA; andrew.thompson@noaa.gov); derived from spring <a href="https://calcofi.org/" target="_blank">CalCOFI surveys</a>; Additional Calculations: Larval fish data summed across all stations of the CalCOFI survey in spring (units are in number under 10 sq. m of surface area; ln(abundance+1)). Note: The spring CalCOFI cruise was not conducted in 2020 due to COVID restrictions, and winter surveys were used to develop alternative indices of larval abundance; see Appendix G.3 in Harvey et al 2021 (<a href="https://www.pcouncil.org/documents/2021/02/i-1-a-iea-team-report-2.pdf/" target="_blank">https://www.pcouncil.org/documents/2021/02/i-1-a-iea-team-report-2.pdf/</a>) for methods used to develop alternative indices in 2020.Dr. Andrew Thompson (NOAA; andrew.thompson@noaa.gov); derived from spring <a href="https://calcofi.org/" target="_blank">CalCOFI surveys</a>; Additional Calculations: Larval fish data summed across all stations of the CalCOFI survey in spring (units are in number under 10 sq. m of surface area; ln(abundance+1)). Note: The spring CalCOFI cruise was not conducted in 2020 due to COVID restrictions, and winter surveys were used to develop alternative indices of larval abundance; see Appendix G.3 in Harvey et al 2021 (<a href="https://www.pcouncil.org/documents/2021/02/i-1-a-iea-team-report-2.pdf/" target="_blank">https://www.pcouncil.org/documents/2021/02/i-1-a-iea-team-report-2.pdf/</a>) for methods used to develop alternative indices in 2020.Dr. Andrew Thompson (NOAA; andrew.thompson@noaa.gov); derived from spring <a href="https://calcofi.org/" target="_blank">CalCOFI surveys</a>; Additional Calculations: Larval fish data summed across all stations of the CalCOFI survey in spring (units are in number under 10 sq. m of surface area; ln(abundance+1)). Note: The spring CalCOFI cruise was not conducted in 2020 due to COVID restrictions, and winter surveys were used to develop alternative indices of larval abundance; see Appendix G.3 in Harvey et al 2021 (<a href="https://www.pcouncil.org/documents/2021/02/i-1-a-iea-team-report-2.pdf/" target="_blank">https://www.pcouncil.org/documents/2021/02/i-1-a-iea-team-report-2.pdf/</a>) for methods used to develop alternative indices in 2020.Dr. Andrew Thompson (NOAA; andrew.thompson@noaa.gov); derived from spring <a href="https://calcofi.org/" target="_blank">CalCOFI surveys</a>; Additional Calculations: Larval fish data summed across all stations of the CalCOFI survey in spring (units are in number under 10 sq. m of surface area; ln(abundance+1)). Note: The spring CalCOFI cruise was not conducted in 2020 due to COVID restrictions, and winter surveys were used to develop alternative indices of larval abundance; see Appendix G.3 in Harvey et al 2021 (<a href="https://www.pcouncil.org/documents/2021/02/i-1-a-iea-team-report-2.pdf/" target="_blank">https://www.pcouncil.org/documents/2021/02/i-1-a-iea-team-report-2.pdf/</a>) for methods used to develop alternative indices in 2020.Dr. Andrew Thompson (NOAA; andrew.thompson@noaa.gov); derived from spring <a href="https://calcofi.org/" target="_blank">CalCOFI surveys</a>; Additional Calculations: Larval fish data summed across all stations of the CalCOFI survey in spring (units are in number under 10 sq. m of surface area; ln(abundance+1)). Note: The spring CalCOFI cruise was not conducted in 2020 due to COVID restrictions, and winter surveys were used to develop alternative indices of larval abundance; see Appendix G.3 in Harvey et al 2021 (<a href="https://www.pcouncil.org/documents/2021/02/i-1-a-iea-team-report-2.pdf/" target="_blank">https://www.pcouncil.org/documents/2021/02/i-1-a-iea-team-report-2.pdf/</a>) for methods used to develop alternative indices in 2020.Dr. Andrew Thompson (NOAA; andrew.thompson@noaa.gov); derived from spring <a href="https://calcofi.org/" target="_blank">CalCOFI surveys</a>; Additional Calculations: Larval fish data summed across all stations of the CalCOFI survey in spring (units are in number under 10 sq. m of surface area; ln(abundance+1)). Note: The spring CalCOFI cruise was not conducted in 2020 due to COVID restrictions, and winter surveys were used to develop alternative indices of larval abundance; see Appendix G.3 in Harvey et al 2021 (<a href="https://www.pcouncil.org/documents/2021/02/i-1-a-iea-team-report-2.pdf/" target="_blank">https://www.pcouncil.org/documents/2021/02/i-1-a-iea-team-report-2.pdf/</a>) for methods used to develop alternative indices in 2020.Dr. Andrew Thompson (NOAA; andrew.thompson@noaa.gov); derived from spring <a href="https://calcofi.org/" target="_blank">CalCOFI surveys</a>; Additional Calculations: Larval fish data summed across all stations of the CalCOFI survey in spring (units are in number under 10 sq. m of surface area; ln(abundance+1)). Note: The spring CalCOFI cruise was not conducted in 2020 due to COVID restrictions, and winter surveys were used to develop alternative indices of larval abundance; see Appendix G.3 in Harvey et al 2021 (<a href="https://www.pcouncil.org/documents/2021/02/i-1-a-iea-team-report-2.pdf/" target="_blank">https://www.pcouncil.org/documents/2021/02/i-1-a-iea-team-report-2.pdf/</a>) for methods used to develop alternative indices in 2020.Dr. Andrew Thompson (NOAA; andrew.thompson@noaa.gov); derived from spring <a href="https://calcofi.org/" target="_blank">CalCOFI surveys</a>; Additional Calculations: Larval fish data summed across all stations of the CalCOFI survey in spring (units are in number under 10 sq. m of surface area; ln(abundance+1)). Note: The spring CalCOFI cruise was not conducted in 2020 due to COVID restrictions, and winter surveys were used to develop alternative indices of larval abundance; see Appendix G.3 in Harvey et al 2021 (<a href="https://www.pcouncil.org/documents/2021/02/i-1-a-iea-team-report-2.pdf/" target="_blank">https://www.pcouncil.org/documents/2021/02/i-1-a-iea-team-report-2.pdf/</a>) for methods used to develop alternative indices in 2020.Dr. Andrew Thompson (NOAA; andrew.thompson@noaa.gov); derived from spring <a href="https://calcofi.org/" target="_blank">CalCOFI surveys</a>; Additional Calculations: Larval fish data summed across all stations of the CalCOFI survey in spring (units are in number under 10 sq. m of surface area; ln(abundance+1)). Note: The spring CalCOFI cruise was not conducted in 2020 due to COVID restrictions, and winter surveys were used to develop alternative indices of larval abundance; see Appendix G.3 in Harvey et al 2021 (<a href="https://www.pcouncil.org/documents/2021/02/i-1-a-iea-team-report-2.pdf/" target="_blank">https://www.pcouncil.org/documents/2021/02/i-1-a-iea-team-report-2.pdf/</a>) for methods used to develop alternative indices in 2020.Dr. Andrew Thompson (NOAA; andrew.thompson@noaa.gov); derived from spring <a href="https://calcofi.org/" target="_blank">CalCOFI surveys</a>; Additional Calculations: Larval fish data summed across all stations of the CalCOFI survey in spring (units are in number under 10 sq. m of surface area; ln(abundance+1)). Note: The spring CalCOFI cruise was not conducted in 2020 due to COVID restrictions, and winter surveys were used to develop alternative indices of larval abundance; see Appendix G.3 in Harvey et al 2021 (<a href="https://www.pcouncil.org/documents/2021/02/i-1-a-iea-team-report-2.pdf/" target="_blank">https://www.pcouncil.org/documents/2021/02/i-1-a-iea-team-report-2.pdf/</a>) for methods used to develop alternative indices in 2020."
+*GLOBAL*,infoUrl,"https://www.integratedecosystemassessment.noaa.gov/regions/california-current/about-california-current-integrated-ecosystem-assessment"
+*GLOBAL*,contributor_name,"Thompson"
+*GLOBAL*,contributor_email,"andrew.thompson@noaa.gov"
+year,*DATA_TYPE*,String
+year,units,"yyyy"
+index,*DATA_TYPE*,float
+index,units,"ln(abundance+1)"
+index,long_name,"Relative abundance"
+timeseries,*DATA_TYPE*,String
+metric,*DATA_TYPE*,String
+SEup,*DATA_TYPE*,float
+SElo,*DATA_TYPE*,float
+*END_METADATA*
+"year","index","timeseries","metric","SEup","SElo"
+1997,0.101254101,"sanddabs","mean ln larval abundance under 10m^2",0.202508201,0
+1998,0.080059103,"sanddabs","mean ln larval abundance under 10m^2",0.160118206,0
+1999,0.296614423,"sanddabs","mean ln larval abundance under 10m^2",0.465586693,0.127642153
+2000,0.573985823,"sanddabs","mean ln larval abundance under 10m^2",0.784701818,0.363269828
+2001,0.361613181,"sanddabs","mean ln larval abundance under 10m^2",0.563481165,0.159745197
+2002,0.371405068,"sanddabs","mean ln larval abundance under 10m^2",0.581216804,0.161593332
+2003,0.189019413,"sanddabs","mean ln larval abundance under 10m^2",0.319756719,0.058282106
+2004,0.201236234,"sanddabs","mean ln larval abundance under 10m^2",0.345745356,0.056727112
+2005,0.352490919,"sanddabs","mean ln larval abundance under 10m^2",0.549740427,0.155241411
+2006,0.652677018,"sanddabs","mean ln larval abundance under 10m^2",0.893399775,0.411954261
+2007,0.105541865,"sanddabs","mean ln larval abundance under 10m^2",0.211083731,0
+2008,0,"sanddabs","mean ln larval abundance under 10m^2",0,0
+2009,0.153033016,"sanddabs","mean ln larval abundance under 10m^2",0.258808887,0.047257146
+2010,0.599699186,"sanddabs","mean ln larval abundance under 10m^2",0.883624116,0.315774256
+2011,0.844290718,"sanddabs","mean ln larval abundance under 10m^2",1.132168948,0.556412488
+2012,1.219734222,"sanddabs","mean ln larval abundance under 10m^2",1.595040456,0.844427989
+2013,0.36558123,"sanddabs","mean ln larval abundance under 10m^2",0.576650522,0.154511938
+2014,0.651406028,"sanddabs","mean ln larval abundance under 10m^2",0.906856072,0.395955985
+2015,0.139281591,"sanddabs","mean ln larval abundance under 10m^2",0.235706077,0.042857104
+2016,0,"sanddabs","mean ln larval abundance under 10m^2",0,0
+2017,0.452857189,"sanddabs","mean ln larval abundance under 10m^2",0.694259409,0.21145497
+2018,0.58823414,"sanddabs","mean ln larval abundance under 10m^2",0.89578881,0.28067947
+2019,0.525055857,"sanddabs","mean ln larval abundance under 10m^2",0.802036385,0.24807533
+2021,0,"sanddabs","mean ln larval abundance under 10m^2",0,0
+2022,1.796886293,"sanddabs","mean ln larval abundance under 10m^2",2.252192009,1.341580577
+2023,0.794720924,"sanddabs","mean ln larval abundance under 10m^2",1.147192958,0.442248889
+2024,0.617931991,"sanddabs","mean ln larval abundance under 10m^2",0.950298235,0.285565746
+2025,1.058384543,"sanddabs","mean ln larval abundance under 10m^2",1.461794719,0.654974368
+1997,NaN,"market squid","mean ln larval abundance under 10m^2",NaN,NaN
+1998,NaN,"market squid","mean ln larval abundance under 10m^2",NaN,NaN
+1999,0.132000146,"market squid","mean ln larval abundance under 10m^2",0.264000291,0
+2000,0.187359236,"market squid","mean ln larval abundance under 10m^2",0.318385825,0.056332648
+2001,0.210094184,"market squid","mean ln larval abundance under 10m^2",0.355109778,0.065078589
+2002,0.289152803,"market squid","mean ln larval abundance under 10m^2",0.495079016,0.083226591
+2003,0,"market squid","mean ln larval abundance under 10m^2",0,0
+2004,0.199742147,"market squid","mean ln larval abundance under 10m^2",0.337891089,0.061593206
+2005,0.147945819,"market squid","mean ln larval abundance under 10m^2",0.295891638,0
+2006,0.356263581,"market squid","mean ln larval abundance under 10m^2",0.608006294,0.104520867
+2007,0,"market squid","mean ln larval abundance under 10m^2",0,0
+2008,0.174124233,"market squid","mean ln larval abundance under 10m^2",0.348248465,0
+2009,0,"market squid","mean ln larval abundance under 10m^2",0,0
+2010,0,"market squid","mean ln larval abundance under 10m^2",0,0
+2011,0.284627492,"market squid","mean ln larval abundance under 10m^2",0.443776661,0.125478323
+2012,0.197204194,"market squid","mean ln larval abundance under 10m^2",0.333442745,0.060965642
+2013,0.115297934,"market squid","mean ln larval abundance under 10m^2",0.230595869,0
+2014,0,"market squid","mean ln larval abundance under 10m^2",0,0
+2015,0,"market squid","mean ln larval abundance under 10m^2",0,0
+2016,0,"market squid","mean ln larval abundance under 10m^2",0,0
+2017,0,"market squid","mean ln larval abundance under 10m^2",0,0
+2018,0,"market squid","mean ln larval abundance under 10m^2",0,0
+2019,0,"market squid","mean ln larval abundance under 10m^2",0,0
+2021,0.234340712,"market squid","mean ln larval abundance under 10m^2",0.468681424,0
+2022,0.606812576,"market squid","mean ln larval abundance under 10m^2",0.929434539,0.284190613
+2023,0,"market squid","mean ln larval abundance under 10m^2",0,0
+2024,0,"market squid","mean ln larval abundance under 10m^2",0,0
+2025,0.415505377,"market squid","mean ln larval abundance under 10m^2",0.721706082,0.109304673
+1997,0.551758282,"anchovy","mean ln larval abundance under 10m^2",0.780694477,0.322822088
+1998,1.140387669,"anchovy","mean ln larval abundance under 10m^2",1.595449681,0.685325657
+1999,1.269896673,"anchovy","mean ln larval abundance under 10m^2",1.802503455,0.737289892
+2000,1.398991782,"anchovy","mean ln larval abundance under 10m^2",1.937328867,0.860654696
+2001,1.435393932,"anchovy","mean ln larval abundance under 10m^2",1.93951754,0.931270324
+2002,1.024748654,"anchovy","mean ln larval abundance under 10m^2",1.460382946,0.589114362
+2003,0.395861764,"anchovy","mean ln larval abundance under 10m^2",0.614416601,0.177306927
+2004,1.123997865,"anchovy","mean ln larval abundance under 10m^2",1.562112858,0.685882871
+2005,1.838940181,"anchovy","mean ln larval abundance under 10m^2",2.548942402,1.12893796
+2006,1.438753981,"anchovy","mean ln larval abundance under 10m^2",1.948471712,0.929036251
+2007,0.736836791,"anchovy","mean ln larval abundance under 10m^2",1.050676099,0.422997482
+2008,0.429299388,"anchovy","mean ln larval abundance under 10m^2",0.666658338,0.191940437
+2009,0.31373358,"anchovy","mean ln larval abundance under 10m^2",0.486455625,0.141011535
+2010,0,"anchovy","mean ln larval abundance under 10m^2",0,0
+2011,0,"anchovy","mean ln larval abundance under 10m^2",0,0
+2012,0,"anchovy","mean ln larval abundance under 10m^2",0,0
+2013,0,"anchovy","mean ln larval abundance under 10m^2",0,0
+2014,1.146300443,"anchovy","mean ln larval abundance under 10m^2",1.66683919,0.625761696
+2015,0.244378613,"anchovy","mean ln larval abundance under 10m^2",0.391808206,0.096949021
+2016,1.309195506,"anchovy","mean ln larval abundance under 10m^2",1.813567794,0.804823219
+2017,3.441122655,"anchovy","mean ln larval abundance under 10m^2",4.094921405,2.787323904
+2018,4.294833128,"anchovy","mean ln larval abundance under 10m^2",5.222414513,3.367251742
+2019,5.629021609,"anchovy","mean ln larval abundance under 10m^2",6.625657374,4.632385845
+2021,5.420128305,"anchovy","mean ln larval abundance under 10m^2",5.771677392,5.068579217
+2022,6.749730526,"anchovy","mean ln larval abundance under 10m^2",7.589257085,5.910203967
+2023,4.193328246,"anchovy","mean ln larval abundance under 10m^2",5.206644446,3.180012047
+2024,3.979632634,"anchovy","mean ln larval abundance under 10m^2",5.19703442,2.762230848
+2025,4.064068138,"anchovy","mean ln larval abundance under 10m^2",4.916324855,3.211811422
+1997,0.954385095,"CA smoothtongue","mean ln larval abundance under 10m^2",1.301160398,0.607609792
+1998,0.685004202,"CA smoothtongue","mean ln larval abundance under 10m^2",1.005723006,0.364285399
+1999,1.339163768,"CA smoothtongue","mean ln larval abundance under 10m^2",1.762569732,0.915757805
+2000,1.38687065,"CA smoothtongue","mean ln larval abundance under 10m^2",1.770607453,1.003133848
+2001,1.102098774,"CA smoothtongue","mean ln larval abundance under 10m^2",1.433851774,0.770345774
+2002,1.354953856,"CA smoothtongue","mean ln larval abundance under 10m^2",1.764885691,0.945022022
+2003,0.471453657,"CA smoothtongue","mean ln larval abundance under 10m^2",0.666558705,0.276348608
+2004,0.946473849,"CA smoothtongue","mean ln larval abundance under 10m^2",1.296826371,0.596121326
+2005,1.029883035,"CA smoothtongue","mean ln larval abundance under 10m^2",1.392047336,0.667718735
+2006,1.30989526,"CA smoothtongue","mean ln larval abundance under 10m^2",1.692845213,0.926945307
+2007,0.693376465,"CA smoothtongue","mean ln larval abundance under 10m^2",0.983676896,0.403076034
+2008,1.073008246,"CA smoothtongue","mean ln larval abundance under 10m^2",1.436460215,0.709556278
+2009,0.70261784,"CA smoothtongue","mean ln larval abundance under 10m^2",0.972969665,0.432266015
+2010,0.648639454,"CA smoothtongue","mean ln larval abundance under 10m^2",0.883871997,0.413406911
+2011,0.277413604,"CA smoothtongue","mean ln larval abundance under 10m^2",0.432145757,0.122681452
+2012,1.171501677,"CA smoothtongue","mean ln larval abundance under 10m^2",1.543200128,0.799803227
+2013,0.919128994,"CA smoothtongue","mean ln larval abundance under 10m^2",1.279942158,0.55831583
+2014,1.319021768,"CA smoothtongue","mean ln larval abundance under 10m^2",1.84324549,0.794798045
+2015,0.896254932,"CA smoothtongue","mean ln larval abundance under 10m^2",1.247647841,0.544862023
+2016,0.890672612,"CA smoothtongue","mean ln larval abundance under 10m^2",1.228722874,0.55262235
+2017,2.163277081,"CA smoothtongue","mean ln larval abundance under 10m^2",2.703881312,1.622672849
+2018,2.886491478,"CA smoothtongue","mean ln larval abundance under 10m^2",3.518879613,2.254103342
+2019,2.952234492,"CA smoothtongue","mean ln larval abundance under 10m^2",3.752821555,2.151647429
+2021,4.068091439,"CA smoothtongue","mean ln larval abundance under 10m^2",4.301986687,3.83419619
+2022,2.807133598,"CA smoothtongue","mean ln larval abundance under 10m^2",3.591349527,2.022917669
+2023,3.098569577,"CA smoothtongue","mean ln larval abundance under 10m^2",3.836208383,2.36093077
+2024,2.297480235,"CA smoothtongue","mean ln larval abundance under 10m^2",3.004685463,1.590275007
+2025,2.601454325,"CA smoothtongue","mean ln larval abundance under 10m^2",3.247308838,1.955599813
+1997,0.302254353,"eared blacksmelt","mean ln larval abundance under 10m^2",0.443268928,0.161239778
+1998,0.189096923,"eared blacksmelt","mean ln larval abundance under 10m^2",0.320957761,0.057236085
+1999,1.002855478,"eared blacksmelt","mean ln larval abundance under 10m^2",1.308043952,0.697667004
+2000,1.236409137,"eared blacksmelt","mean ln larval abundance under 10m^2",1.580299919,0.892518355
+2001,0.566470527,"eared blacksmelt","mean ln larval abundance under 10m^2",0.797285235,0.335655819
+2002,0.586528477,"eared blacksmelt","mean ln larval abundance under 10m^2",0.825061224,0.34799573
+2003,0.517975797,"eared blacksmelt","mean ln larval abundance under 10m^2",0.74040687,0.295544724
+2004,0.726120955,"eared blacksmelt","mean ln larval abundance under 10m^2",0.996204004,0.456037907
+2005,0.680310843,"eared blacksmelt","mean ln larval abundance under 10m^2",0.96467084,0.395950846
+2006,0.294584787,"eared blacksmelt","mean ln larval abundance under 10m^2",0.458645744,0.13052383
+2007,0.542666819,"eared blacksmelt","mean ln larval abundance under 10m^2",0.803647232,0.281686405
+2008,0.372122064,"eared blacksmelt","mean ln larval abundance under 10m^2",0.578601243,0.165642885
+2009,0.424009245,"eared blacksmelt","mean ln larval abundance under 10m^2",0.662879332,0.185139158
+2010,0.733389552,"eared blacksmelt","mean ln larval abundance under 10m^2",1.032469862,0.434309241
+2011,0.756865787,"eared blacksmelt","mean ln larval abundance under 10m^2",1.04066708,0.473064494
+2012,0.993175207,"eared blacksmelt","mean ln larval abundance under 10m^2",1.322562996,0.663787417
+2013,1.176836698,"eared blacksmelt","mean ln larval abundance under 10m^2",1.555174035,0.798499361
+2014,0.289445481,"eared blacksmelt","mean ln larval abundance under 10m^2",0.487615784,0.091275179
+2015,0.581952999,"eared blacksmelt","mean ln larval abundance under 10m^2",0.836700004,0.327205994
+2016,0.760054844,"eared blacksmelt","mean ln larval abundance under 10m^2",1.029463392,0.490646296
+2017,0.79296836,"eared blacksmelt","mean ln larval abundance under 10m^2",1.092530702,0.493406017
+2018,1.370071825,"eared blacksmelt","mean ln larval abundance under 10m^2",1.672067098,1.068076551
+2019,1.134054569,"eared blacksmelt","mean ln larval abundance under 10m^2",1.501460124,0.766649015
+2021,1.749369507,"eared blacksmelt","mean ln larval abundance under 10m^2",2.23951284,1.259226173
+2022,1.769072325,"eared blacksmelt","mean ln larval abundance under 10m^2",2.208605816,1.329538834
+2023,1.149048284,"eared blacksmelt","mean ln larval abundance under 10m^2",1.511118018,0.786978551
+2024,0.70036716,"eared blacksmelt","mean ln larval abundance under 10m^2",1.083539593,0.317194727
+2025,0.632663402,"eared blacksmelt","mean ln larval abundance under 10m^2",0.96822441,0.297102394
+1997,0.151307614,"slender sole","mean ln larval abundance under 10m^2",0.256001019,0.04661421
+1998,0.081594875,"slender sole","mean ln larval abundance under 10m^2",0.163189751,0
+1999,0.069092837,"slender sole","mean ln larval abundance under 10m^2",0.138185673,0
+2000,0,"slender sole","mean ln larval abundance under 10m^2",0,0
+2001,0.10966223,"slender sole","mean ln larval abundance under 10m^2",0.219324459,0
+2002,0.214900458,"slender sole","mean ln larval abundance under 10m^2",0.36320073,0.066600186
+2003,0,"slender sole","mean ln larval abundance under 10m^2",0,0
+2004,0.149985613,"slender sole","mean ln larval abundance under 10m^2",0.253718342,0.046252885
+2005,0.210746831,"slender sole","mean ln larval abundance under 10m^2",0.356360857,0.065132804
+2006,0.437495477,"slender sole","mean ln larval abundance under 10m^2",0.67827497,0.196715984
+2007,0,"slender sole","mean ln larval abundance under 10m^2",0,0
+2008,0.424581815,"slender sole","mean ln larval abundance under 10m^2",0.662477335,0.186686296
+2009,0,"slender sole","mean ln larval abundance under 10m^2",0,0
+2010,0.261287228,"slender sole","mean ln larval abundance under 10m^2",0.443369355,0.0792051
+2011,0.106420259,"slender sole","mean ln larval abundance under 10m^2",0.212840518,0
+2012,0.362375206,"slender sole","mean ln larval abundance under 10m^2",0.566957444,0.157792969
+2013,0.508080958,"slender sole","mean ln larval abundance under 10m^2",0.786993661,0.229168255
+2014,0.366595045,"slender sole","mean ln larval abundance under 10m^2",0.566554652,0.166635439
+2015,0.163238213,"slender sole","mean ln larval abundance under 10m^2",0.277337014,0.049139412
+2016,0,"slender sole","mean ln larval abundance under 10m^2",0,0
+2017,0.344698446,"slender sole","mean ln larval abundance under 10m^2",0.585817134,0.103579758
+2018,0.524317937,"slender sole","mean ln larval abundance under 10m^2",0.801498384,0.247137491
+2019,0.875490569,"slender sole","mean ln larval abundance under 10m^2",1.26133061,0.489650528
+2021,0,"slender sole","mean ln larval abundance under 10m^2",0,0
+2022,0.584297287,"slender sole","mean ln larval abundance under 10m^2",1.019380376,0.149214197
+2023,0.262801104,"slender sole","mean ln larval abundance under 10m^2",0.525602207,0
+2024,0.486945551,"slender sole","mean ln larval abundance under 10m^2",0.821645372,0.15224573
+2025,0.40159546,"slender sole","mean ln larval abundance under 10m^2",0.676994546,0.126196374
+1997,0.585264368,"hake","mean ln larval abundance under 10m^2",0.813142916,0.35738582
+1998,0.576798968,"hake","mean ln larval abundance under 10m^2",0.849947943,0.303649994
+1999,0.749892959,"hake","mean ln larval abundance under 10m^2",1.031226695,0.468559223
+2000,1.471599721,"hake","mean ln larval abundance under 10m^2",1.919298398,1.023901044
+2001,0.738432312,"hake","mean ln larval abundance under 10m^2",1.005261764,0.471602861
+2002,1.277529011,"hake","mean ln larval abundance under 10m^2",1.681034544,0.874023477
+2003,0.494613681,"hake","mean ln larval abundance under 10m^2",0.739485636,0.249741726
+2004,0.545964742,"hake","mean ln larval abundance under 10m^2",0.792293846,0.299635638
+2005,1.154996428,"hake","mean ln larval abundance under 10m^2",1.605514587,0.704478269
+2006,0.51624254,"hake","mean ln larval abundance under 10m^2",0.766855836,0.265629244
+2007,0.095478962,"hake","mean ln larval abundance under 10m^2",0.190957923,0
+2008,0.545547636,"hake","mean ln larval abundance under 10m^2",0.800445877,0.290649396
+2009,0,"hake","mean ln larval abundance under 10m^2",0,0
+2010,0.224529778,"hake","mean ln larval abundance under 10m^2",0.385458234,0.063601322
+2011,0.673123439,"hake","mean ln larval abundance under 10m^2",0.927344768,0.41890211
+2012,0.416304199,"hake","mean ln larval abundance under 10m^2",0.665471035,0.167137363
+2013,0.217015808,"hake","mean ln larval abundance under 10m^2",0.370649589,0.063382027
+2014,0,"hake","mean ln larval abundance under 10m^2",0,0
+2015,0.427675356,"hake","mean ln larval abundance under 10m^2",0.643888234,0.211462478
+2016,0.201414137,"hake","mean ln larval abundance under 10m^2",0.342125147,0.060703128
+2017,0.703556771,"hake","mean ln larval abundance under 10m^2",1.084329778,0.322783764
+2018,0.486316944,"hake","mean ln larval abundance under 10m^2",0.821219744,0.151414144
+2019,1.236087395,"hake","mean ln larval abundance under 10m^2",1.63847275,0.83370204
+2021,0.675502237,"hake","mean ln larval abundance under 10m^2",1.019767794,0.331236681
+2022,1.584176584,"hake","mean ln larval abundance under 10m^2",2.094730875,1.073622293
+2023,0.931729329,"hake","mean ln larval abundance under 10m^2",1.335826223,0.527632434
+2024,1.785400863,"hake","mean ln larval abundance under 10m^2",2.368636539,1.202165187
+2025,0.858495597,"hake","mean ln larval abundance under 10m^2",1.317605288,0.399385907
+1997,0,"English sole","mean ln larval abundance under 10m^2",0,0
+1998,0,"English sole","mean ln larval abundance under 10m^2",0,0
+1999,0,"English sole","mean ln larval abundance under 10m^2",0,0
+2000,0.107821483,"English sole","mean ln larval abundance under 10m^2",0.215642966,1.39e-17
+2001,0,"English sole","mean ln larval abundance under 10m^2",0,0
+2002,0.106620208,"English sole","mean ln larval abundance under 10m^2",0.213240417,0
+2003,0,"English sole","mean ln larval abundance under 10m^2",0,0
+2004,0,"English sole","mean ln larval abundance under 10m^2",0,0
+2005,0,"English sole","mean ln larval abundance under 10m^2",0,0
+2006,0.390325882,"English sole","mean ln larval abundance under 10m^2",0.606188251,0.174463513
+2007,0,"English sole","mean ln larval abundance under 10m^2",0,0
+2008,0,"English sole","mean ln larval abundance under 10m^2",0,0
+2009,0,"English sole","mean ln larval abundance under 10m^2",0,0
+2010,0,"English sole","mean ln larval abundance under 10m^2",0,0
+2011,0,"English sole","mean ln larval abundance under 10m^2",0,0
+2012,0.101040192,"English sole","mean ln larval abundance under 10m^2",0.202080383,0
+2013,0.113823365,"English sole","mean ln larval abundance under 10m^2",0.227646731,1.39e-17
+2014,0,"English sole","mean ln larval abundance under 10m^2",0,0
+2015,0.120148018,"English sole","mean ln larval abundance under 10m^2",0.240296035,0
+2016,0,"English sole","mean ln larval abundance under 10m^2",0,0
+2017,0,"English sole","mean ln larval abundance under 10m^2",0,0
+2018,0,"English sole","mean ln larval abundance under 10m^2",0,0
+2019,0,"English sole","mean ln larval abundance under 10m^2",0,0
+2021,0.298736386,"English sole","mean ln larval abundance under 10m^2",0.597472771,0
+2022,0.738894688,"English sole","mean ln larval abundance under 10m^2",1.135387553,0.342401822
+2023,0.258870882,"English sole","mean ln larval abundance under 10m^2",0.450555598,0.067186166
+2024,0,"English sole","mean ln larval abundance under 10m^2",0,0
+2025,0.342351608,"English sole","mean ln larval abundance under 10m^2",0.684703216,5.55e-17
+1997,1.418907547,"sardine","mean ln larval abundance under 10m^2",1.933988522,0.903826571
+1998,1.210221781,"sardine","mean ln larval abundance under 10m^2",1.719042473,0.701401089
+1999,1.216220399,"sardine","mean ln larval abundance under 10m^2",1.766912,0.665528798
+2000,1.33153514,"sardine","mean ln larval abundance under 10m^2",1.837481738,0.825588543
+2001,0.87371808,"sardine","mean ln larval abundance under 10m^2",1.363231544,0.384204616
+2002,1.055509407,"sardine","mean ln larval abundance under 10m^2",1.494332459,0.616686355
+2003,1.054384892,"sardine","mean ln larval abundance under 10m^2",1.49456727,0.614202514
+2004,0.244940657,"sardine","mean ln larval abundance under 10m^2",0.489881314,-2.78e-17
+2005,0.86106281,"sardine","mean ln larval abundance under 10m^2",1.289124214,0.433001407
+2006,0.894335287,"sardine","mean ln larval abundance under 10m^2",1.314302726,0.474367847
+2007,1.554009694,"sardine","mean ln larval abundance under 10m^2",2.126964992,0.981054396
+2008,1.753027546,"sardine","mean ln larval abundance under 10m^2",2.381887171,1.124167922
+2009,0.962863308,"sardine","mean ln larval abundance under 10m^2",1.412438938,0.513287678
+2010,0.379518946,"sardine","mean ln larval abundance under 10m^2",0.589352962,0.16968493
+2011,0.962886532,"sardine","mean ln larval abundance under 10m^2",1.36733587,0.558437194
+2012,0,"sardine","mean ln larval abundance under 10m^2",0,0
+2013,0,"sardine","mean ln larval abundance under 10m^2",0,0
+2014,0.098100401,"sardine","mean ln larval abundance under 10m^2",0.196200802,1.39e-17
+2015,0,"sardine","mean ln larval abundance under 10m^2",0,0
+2016,0,"sardine","mean ln larval abundance under 10m^2",0,0
+2017,0.178494232,"sardine","mean ln larval abundance under 10m^2",0.356988463,0
+2018,0.436244218,"sardine","mean ln larval abundance under 10m^2",0.734255889,0.138232547
+2019,0.552028111,"sardine","mean ln larval abundance under 10m^2",0.936014886,0.168041335
+2021,0,"sardine","mean ln larval abundance under 10m^2",0,0
+2022,0.225236533,"sardine","mean ln larval abundance under 10m^2",0.450473065,0
+2023,0.248447059,"sardine","mean ln larval abundance under 10m^2",0.430619616,0.066274502
+2024,0.87690016,"sardine","mean ln larval abundance under 10m^2",1.259911415,0.493888905
+2025,0,"sardine","mean ln larval abundance under 10m^2",0,0
+1997,0,"croakers","mean ln larval abundance under 10m^2",0,0
+1998,0.080059103,"croakers","mean ln larval abundance under 10m^2",0.160118206,0
+1999,0.101208778,"croakers","mean ln larval abundance under 10m^2",0.202417556,0
+2000,0,"croakers","mean ln larval abundance under 10m^2",0,0
+2001,0,"croakers","mean ln larval abundance under 10m^2",0,0
+2002,0,"croakers","mean ln larval abundance under 10m^2",0,0
+2003,0,"croakers","mean ln larval abundance under 10m^2",0,0
+2004,0,"croakers","mean ln larval abundance under 10m^2",0,0
+2005,0,"croakers","mean ln larval abundance under 10m^2",0,0
+2006,0.360869739,"croakers","mean ln larval abundance under 10m^2",0.560694833,0.161044646
+2007,0,"croakers","mean ln larval abundance under 10m^2",0,0
+2008,0,"croakers","mean ln larval abundance under 10m^2",0,0
+2009,0,"croakers","mean ln larval abundance under 10m^2",0,0
+2010,0,"croakers","mean ln larval abundance under 10m^2",0,0
+2011,0,"croakers","mean ln larval abundance under 10m^2",0,0
+2012,0,"croakers","mean ln larval abundance under 10m^2",0,0
+2013,0,"croakers","mean ln larval abundance under 10m^2",0,0
+2014,0,"croakers","mean ln larval abundance under 10m^2",0,0
+2015,0,"croakers","mean ln larval abundance under 10m^2",0,0
+2016,0,"croakers","mean ln larval abundance under 10m^2",0,0
+2017,0,"croakers","mean ln larval abundance under 10m^2",0,0
+2018,0,"croakers","mean ln larval abundance under 10m^2",0,0
+2019,0,"croakers","mean ln larval abundance under 10m^2",0,0
+2021,0,"croakers","mean ln larval abundance under 10m^2",0,0
+2022,0,"croakers","mean ln larval abundance under 10m^2",0,0
+2023,0.076688357,"croakers","mean ln larval abundance under 10m^2",0.153376713,0
+2024,0.260863833,"croakers","mean ln larval abundance under 10m^2",0.521727667,0
+2025,0.170989461,"croakers","mean ln larval abundance under 10m^2",0.341978923,0
+1997,0.338491309,"Pacific mackerel","mean ln larval abundance under 10m^2",0.533805693,0.143176926
+1998,0.175118371,"Pacific mackerel","mean ln larval abundance under 10m^2",0.296795222,0.053441519
+1999,0,"Pacific mackerel","mean ln larval abundance under 10m^2",0,0
+2000,0,"Pacific mackerel","mean ln larval abundance under 10m^2",0,0
+2001,0,"Pacific mackerel","mean ln larval abundance under 10m^2",0,0
+2002,0,"Pacific mackerel","mean ln larval abundance under 10m^2",0,0
+2003,0,"Pacific mackerel","mean ln larval abundance under 10m^2",0,0
+2004,0.201250055,"Pacific mackerel","mean ln larval abundance under 10m^2",0.344941905,0.057558205
+2005,0.076278421,"Pacific mackerel","mean ln larval abundance under 10m^2",0.152556842,0
+2006,0,"Pacific mackerel","mean ln larval abundance under 10m^2",0,0
+2007,0,"Pacific mackerel","mean ln larval abundance under 10m^2",0,0
+2008,0,"Pacific mackerel","mean ln larval abundance under 10m^2",0,0
+2009,0,"Pacific mackerel","mean ln larval abundance under 10m^2",0,0
+2010,0.136988871,"Pacific mackerel","mean ln larval abundance under 10m^2",0.273977742,0
+2011,0.075212351,"Pacific mackerel","mean ln larval abundance under 10m^2",0.150424701,0
+2012,0,"Pacific mackerel","mean ln larval abundance under 10m^2",0,0
+2013,0,"Pacific mackerel","mean ln larval abundance under 10m^2",0,0
+2014,0,"Pacific mackerel","mean ln larval abundance under 10m^2",0,0
+2015,0.510006128,"Pacific mackerel","mean ln larval abundance under 10m^2",0.780713276,0.239298981
+2016,0.067343749,"Pacific mackerel","mean ln larval abundance under 10m^2",0.134687498,0
+2017,0,"Pacific mackerel","mean ln larval abundance under 10m^2",0,0
+2018,0,"Pacific mackerel","mean ln larval abundance under 10m^2",0,0
+2019,0,"Pacific mackerel","mean ln larval abundance under 10m^2",0,0
+2021,0,"Pacific mackerel","mean ln larval abundance under 10m^2",0,0
+2022,0,"Pacific mackerel","mean ln larval abundance under 10m^2",0,0
+2023,0,"Pacific mackerel","mean ln larval abundance under 10m^2",0,0
+2024,0.458247998,"Pacific mackerel","mean ln larval abundance under 10m^2",0.770629362,0.145866634
+2025,0,"Pacific mackerel","mean ln larval abundance under 10m^2",0,0
+1997,0.592823453,"rockfishes","mean ln larval abundance under 10m^2",0.859615784,0.326031122
+1998,0.816482098,"rockfishes","mean ln larval abundance under 10m^2",1.149690006,0.48327419
+1999,0.931301314,"rockfishes","mean ln larval abundance under 10m^2",1.317685553,0.544917075
+2000,0.459513094,"rockfishes","mean ln larval abundance under 10m^2",0.688257658,0.23076853
+2001,1.04113697,"rockfishes","mean ln larval abundance under 10m^2",1.469983258,0.612290682
+2002,1.178024163,"rockfishes","mean ln larval abundance under 10m^2",1.568423269,0.787625057
+2003,0.654990348,"rockfishes","mean ln larval abundance under 10m^2",0.925849346,0.384131351
+2004,0.885336339,"rockfishes","mean ln larval abundance under 10m^2",1.22838914,0.542283538
+2005,0.707076267,"rockfishes","mean ln larval abundance under 10m^2",1.065647134,0.3485054
+2006,0.749660242,"rockfishes","mean ln larval abundance under 10m^2",1.068903859,0.430416625
+2007,0.762067414,"rockfishes","mean ln larval abundance under 10m^2",1.117627508,0.40650732
+2008,0.979827293,"rockfishes","mean ln larval abundance under 10m^2",1.366002484,0.593652102
+2009,1.000122457,"rockfishes","mean ln larval abundance under 10m^2",1.341127569,0.659117345
+2010,1.261202069,"rockfishes","mean ln larval abundance under 10m^2",1.605404204,0.916999934
+2011,0.868869979,"rockfishes","mean ln larval abundance under 10m^2",1.237082601,0.500657358
+2012,1.329088248,"rockfishes","mean ln larval abundance under 10m^2",1.74068189,0.917494607
+2013,0.743725535,"rockfishes","mean ln larval abundance under 10m^2",1.064772418,0.422678651
+2014,1.07670959,"rockfishes","mean ln larval abundance under 10m^2",1.497928461,0.655490718
+2015,0.542074472,"rockfishes","mean ln larval abundance under 10m^2",0.850846749,0.233302195
+2016,0.649617302,"rockfishes","mean ln larval abundance under 10m^2",0.956244501,0.342990103
+2017,1.561976032,"rockfishes","mean ln larval abundance under 10m^2",2.135957577,0.987994488
+2018,1.418128819,"rockfishes","mean ln larval abundance under 10m^2",1.880561812,0.955695826
+2019,2.012073873,"rockfishes","mean ln larval abundance under 10m^2",2.655988995,1.36815875
+2021,2.570352522,"rockfishes","mean ln larval abundance under 10m^2",2.942613965,2.198091079
+2022,1.832523944,"rockfishes","mean ln larval abundance under 10m^2",2.395955044,1.269092843
+2023,1.198894191,"rockfishes","mean ln larval abundance under 10m^2",1.657261155,0.740527226
+2024,2.186782585,"rockfishes","mean ln larval abundance under 10m^2",2.97301066,1.40055451
+2025,0.729108157,"rockfishes","mean ln larval abundance under 10m^2",1.151949142,0.306267172
+1997,2.49346091,"southern mesopelagics","mean ln larval abundance under 10m^2",2.820643588,2.166278232
+1998,2.72129165,"southern mesopelagics","mean ln larval abundance under 10m^2",3.137754013,2.304829287
+1999,2.153144678,"southern mesopelagics","mean ln larval abundance under 10m^2",2.502319927,1.803969429
+2000,1.844170372,"southern mesopelagics","mean ln larval abundance under 10m^2",2.215412547,1.472928196
+2001,2.091135443,"southern mesopelagics","mean ln larval abundance under 10m^2",2.467094872,1.715176014
+2002,1.948862991,"southern mesopelagics","mean ln larval abundance under 10m^2",2.324406026,1.573319957
+2003,0.616459858,"southern mesopelagics","mean ln larval abundance under 10m^2",0.825853165,0.40706655
+2004,1.485444136,"southern mesopelagics","mean ln larval abundance under 10m^2",1.792849427,1.178038845
+2005,1.878411263,"southern mesopelagics","mean ln larval abundance under 10m^2",2.25657761,1.500244917
+2006,1.65164459,"southern mesopelagics","mean ln larval abundance under 10m^2",1.927115388,1.376173792
+2007,2.042171932,"southern mesopelagics","mean ln larval abundance under 10m^2",2.429530609,1.654813255
+2008,1.895899235,"southern mesopelagics","mean ln larval abundance under 10m^2",2.283975396,1.507823073
+2009,2.265762778,"southern mesopelagics","mean ln larval abundance under 10m^2",2.722753073,1.808772482
+2010,1.890415009,"southern mesopelagics","mean ln larval abundance under 10m^2",2.190708089,1.59012193
+2011,1.343731369,"southern mesopelagics","mean ln larval abundance under 10m^2",1.70283577,0.984626969
+2012,1.416853208,"southern mesopelagics","mean ln larval abundance under 10m^2",1.800334826,1.03337159
+2013,2.015105026,"southern mesopelagics","mean ln larval abundance under 10m^2",2.423262903,1.60694715
+2014,2.331637179,"southern mesopelagics","mean ln larval abundance under 10m^2",2.843203803,1.820070555
+2015,2.797415724,"southern mesopelagics","mean ln larval abundance under 10m^2",3.183915049,2.410916399
+2016,2.428894953,"southern mesopelagics","mean ln larval abundance under 10m^2",2.773833803,2.083956103
+2017,2.799914042,"southern mesopelagics","mean ln larval abundance under 10m^2",3.276550325,2.32327776
+2018,3.071148828,"southern mesopelagics","mean ln larval abundance under 10m^2",3.861458825,2.28083883
+2019,3.626584827,"southern mesopelagics","mean ln larval abundance under 10m^2",4.092228812,3.160940842
+2021,3.064152507,"southern mesopelagics","mean ln larval abundance under 10m^2",3.608068436,2.520236578
+2022,2.793345818,"southern mesopelagics","mean ln larval abundance under 10m^2",3.519240348,2.067451288
+2023,2.663763979,"southern mesopelagics","mean ln larval abundance under 10m^2",3.243056618,2.084471339
+2024,2.75293287,"southern mesopelagics","mean ln larval abundance under 10m^2",3.501672454,2.004193287
+2025,2.733618783,"southern mesopelagics","mean ln larval abundance under 10m^2",3.256230665,2.2110069
+1997,0.36182321,"northern lampfish","mean ln larval abundance under 10m^2",0.536688288,0.186958132
+1998,0.791053686,"northern lampfish","mean ln larval abundance under 10m^2",1.094671304,0.487436068
+1999,1.666660942,"northern lampfish","mean ln larval abundance under 10m^2",2.136554137,1.196767747
+2000,1.376836766,"northern lampfish","mean ln larval abundance under 10m^2",1.756541213,0.99713232
+2001,1.118397449,"northern lampfish","mean ln larval abundance under 10m^2",1.441009411,0.795785486
+2002,1.474412237,"northern lampfish","mean ln larval abundance under 10m^2",1.880226885,1.068597588
+2003,1.113815157,"northern lampfish","mean ln larval abundance under 10m^2",1.41442538,0.813204935
+2004,0.959845014,"northern lampfish","mean ln larval abundance under 10m^2",1.259570314,0.660119715
+2005,1.063946017,"northern lampfish","mean ln larval abundance under 10m^2",1.42122822,0.706663815
+2006,0.960190202,"northern lampfish","mean ln larval abundance under 10m^2",1.25421584,0.666164563
+2007,0.407862392,"northern lampfish","mean ln larval abundance under 10m^2",0.636756199,0.178968585
+2008,1.376730301,"northern lampfish","mean ln larval abundance under 10m^2",1.762185671,0.991274931
+2009,0.851259713,"northern lampfish","mean ln larval abundance under 10m^2",1.161841643,0.540677784
+2010,1.424711316,"northern lampfish","mean ln larval abundance under 10m^2",1.799201958,1.050220675
+2011,0.235145963,"northern lampfish","mean ln larval abundance under 10m^2",0.398513832,0.071778095
+2012,0.898343475,"northern lampfish","mean ln larval abundance under 10m^2",1.205906745,0.590780205
+2013,1.151438095,"northern lampfish","mean ln larval abundance under 10m^2",1.480725854,0.822150336
+2014,1.42117039,"northern lampfish","mean ln larval abundance under 10m^2",1.931420105,0.910920675
+2015,0.697563495,"northern lampfish","mean ln larval abundance under 10m^2",0.994811971,0.400315018
+2016,0.743236746,"northern lampfish","mean ln larval abundance under 10m^2",1.023191076,0.463282416
+2017,1.066758419,"northern lampfish","mean ln larval abundance under 10m^2",1.574387455,0.559129382
+2018,1.273641994,"northern lampfish","mean ln larval abundance under 10m^2",1.748694354,0.798589634
+2019,1.25906997,"northern lampfish","mean ln larval abundance under 10m^2",1.728287502,0.789852438
+2021,1.580440859,"northern lampfish","mean ln larval abundance under 10m^2",2.120219915,1.040661803
+2022,2.731649935,"northern lampfish","mean ln larval abundance under 10m^2",3.239730967,2.223568904
+2023,1.326584096,"northern lampfish","mean ln larval abundance under 10m^2",1.762009916,0.891158277
+2024,2.510451506,"northern lampfish","mean ln larval abundance under 10m^2",2.868173732,2.152729279
+2025,0.665709233,"northern lampfish","mean ln larval abundance under 10m^2",0.958130004,0.373288463
+1997,0.448881754,"Jack mackerel","mean ln larval abundance under 10m^2",0.682658369,0.21510514
+1998,0.231714667,"Jack mackerel","mean ln larval abundance under 10m^2",0.359220548,0.104208785
+1999,0.360679972,"Jack mackerel","mean ln larval abundance under 10m^2",0.577805895,0.143554049
+2000,0.701563327,"Jack mackerel","mean ln larval abundance under 10m^2",1.003372317,0.399754337
+2001,0.267113433,"Jack mackerel","mean ln larval abundance under 10m^2",0.452078548,0.082148317
+2002,0.532992488,"Jack mackerel","mean ln larval abundance under 10m^2",0.828415719,0.237569258
+2003,0.307425865,"Jack mackerel","mean ln larval abundance under 10m^2",0.452584935,0.162266795
+2004,0.227880259,"Jack mackerel","mean ln larval abundance under 10m^2",0.386335486,0.069425033
+2005,0.525674264,"Jack mackerel","mean ln larval abundance under 10m^2",0.790496352,0.260852175
+2006,0.235599284,"Jack mackerel","mean ln larval abundance under 10m^2",0.365002283,0.106196286
+2007,0.431346216,"Jack mackerel","mean ln larval abundance under 10m^2",0.673099754,0.189592679
+2008,0.304822636,"Jack mackerel","mean ln larval abundance under 10m^2",0.515339268,0.094306004
+2009,0,"Jack mackerel","mean ln larval abundance under 10m^2",0,0
+2010,0.194424208,"Jack mackerel","mean ln larval abundance under 10m^2",0.330442885,0.058405531
+2011,0.689612143,"Jack mackerel","mean ln larval abundance under 10m^2",0.975955748,0.403268539
+2012,0,"Jack mackerel","mean ln larval abundance under 10m^2",0,0
+2013,0.085952605,"Jack mackerel","mean ln larval abundance under 10m^2",0.171905209,0
+2014,0.886181223,"Jack mackerel","mean ln larval abundance under 10m^2",1.296114731,0.476247715
+2015,0.536705323,"Jack mackerel","mean ln larval abundance under 10m^2",0.770869657,0.302540989
+2016,0.589016542,"Jack mackerel","mean ln larval abundance under 10m^2",0.833351432,0.344681653
+2017,0.54344684,"Jack mackerel","mean ln larval abundance under 10m^2",0.838403158,0.248490521
+2018,0.196894918,"Jack mackerel","mean ln larval abundance under 10m^2",0.393789836,2.78e-17
+2019,0.71615282,"Jack mackerel","mean ln larval abundance under 10m^2",1.03230692,0.39999872
+2021,0.63510502,"Jack mackerel","mean ln larval abundance under 10m^2",1.076945565,0.193264475
+2022,1.382623745,"Jack mackerel","mean ln larval abundance under 10m^2",2.088886289,0.676361201
+2023,0.430166282,"Jack mackerel","mean ln larval abundance under 10m^2",0.748967337,0.111365226
+2024,1.633203149,"Jack mackerel","mean ln larval abundance under 10m^2",2.226732716,1.039673582
+2025,0.556453606,"Jack mackerel","mean ln larval abundance under 10m^2",0.859328731,0.253578481
+*END_DATA*

@@ -1,0 +1,820 @@
+*GLOBAL*,Conventions,"COARDS, CF-1.6, ACDD-1.3, NCCSV-1.1"
+*GLOBAL*,history,"last updated: 2026-02-24 00:41:15"
+*GLOBAL*,title,"Euphausia pacifica (krill) lengths and biomass Trinidad Line Stations TH04, TH05"
+*GLOBAL*,institution,"NOAA SWFSC; Cal Poly Humboldt"
+*GLOBAL*,summary,"NOAA SWFSC; Cal Poly Humboldt"
+*GLOBAL*,contributor_name,"Bjorkstedt"
+*GLOBAL*,contributor_email,"eric.bjorkstedt@noaa.gov"
+time,*DATA_TYPE*,String
+time,units,"yyyy-MM-dd"
+index,*DATA_TYPE*,float
+index,units,"mg c m2"
+index,long_name,"Krill Body Length and Biomass Measurements"
+timeseries,*DATA_TYPE*,String
+SEup,*DATA_TYPE*,float
+SElo,*DATA_TYPE*,float
+*END_METADATA*
+"time","index","timeseries","SEup","SElo"
+"13825-01",14.14,"Euphausia pacifica (krill) mean length",14.33,13.95
+"13825-01",15.1,"Euphausia pacifica (krill) mean length",15.46,14.73
+"13825-01",13.57,"Euphausia pacifica (krill) mean length",13.78,13.36
+"13825-01",13.84,"Euphausia pacifica (krill) mean length",14.04,13.64
+"13825-01",16.21,"Euphausia pacifica (krill) mean length",16.59,15.84
+"13825-01",17.28,"Euphausia pacifica (krill) mean length",17.57,17
+"13825-01",13.96,"Euphausia pacifica (krill) mean length",14.37,13.55
+"13825-01",15.18,"Euphausia pacifica (krill) mean length",15.42,14.95
+"13825-01",14.44,"Euphausia pacifica (krill) mean length",14.67,14.21
+"13825-01",13.03,"Euphausia pacifica (krill) mean length",13.23,12.83
+"13825-01",13.01,"Euphausia pacifica (krill) mean length",13.18,12.84
+"13825-01",16.34,"Euphausia pacifica (krill) mean length",16.52,16.17
+"13825-01",16.78,"Euphausia pacifica (krill) mean length",16.93,16.63
+"13825-01",15.41,"Euphausia pacifica (krill) mean length",15.72,15.1
+"13825-01",12.51,"Euphausia pacifica (krill) mean length",12.98,12.04
+"13825-01",11.3,"Euphausia pacifica (krill) mean length",11.52,11.08
+"13825-01",12.79,"Euphausia pacifica (krill) mean length",12.95,12.63
+"13825-01",12.56,"Euphausia pacifica (krill) mean length",12.88,12.25
+"13825-01",9.7,"Euphausia pacifica (krill) mean length",10.37,9.02
+"13825-01",10.76,"Euphausia pacifica (krill) mean length",11.08,10.44
+"13825-01",10.92,"Euphausia pacifica (krill) mean length",11.11,10.73
+"13825-01",15.34,"Euphausia pacifica (krill) mean length",15.71,14.97
+"13825-01",15.41,"Euphausia pacifica (krill) mean length",15.75,15.07
+"13825-01",14.08,"Euphausia pacifica (krill) mean length",14.43,13.73
+"13825-01",16.16,"Euphausia pacifica (krill) mean length",16.41,15.91
+"13825-01",12.52,"Euphausia pacifica (krill) mean length",12.98,12.07
+"13825-01",10.92,"Euphausia pacifica (krill) mean length",11.19,10.65
+"13825-01",10.27,"Euphausia pacifica (krill) mean length",10.46,10.08
+"13825-01",10.29,"Euphausia pacifica (krill) mean length",10.55,10.03
+"13825-01",10.92,"Euphausia pacifica (krill) mean length",11.09,10.76
+"13825-01",12.52,"Euphausia pacifica (krill) mean length",12.66,12.39
+"13825-01",12.07,"Euphausia pacifica (krill) mean length",12.25,11.89
+"13825-01",12.71,"Euphausia pacifica (krill) mean length",12.9,12.52
+"13825-01",12.09,"Euphausia pacifica (krill) mean length",12.37,11.81
+"13825-01",14.75,"Euphausia pacifica (krill) mean length",14.89,14.6
+"13825-01",14.06,"Euphausia pacifica (krill) mean length",14.66,13.46
+"13825-01",11.6,"Euphausia pacifica (krill) mean length",12.37,10.84
+"13825-01",14.91,"Euphausia pacifica (krill) mean length",15.28,14.54
+"13825-01",11.28,"Euphausia pacifica (krill) mean length",11.87,10.7
+"13825-01",12.62,"Euphausia pacifica (krill) mean length",13.13,12.12
+"13825-01",12.97,"Euphausia pacifica (krill) mean length",13.62,12.32
+"13825-01",11.18,"Euphausia pacifica (krill) mean length",11.47,10.88
+"13825-01",9.57,"Euphausia pacifica (krill) mean length",9.8,9.34
+"13825-01",11.36,"Euphausia pacifica (krill) mean length",11.78,10.94
+"13825-01",11.02,"Euphausia pacifica (krill) mean length",11.32,10.73
+"13825-01",14.36,"Euphausia pacifica (krill) mean length",14.57,14.15
+"13825-01",14.46,"Euphausia pacifica (krill) mean length",14.8,14.12
+"13825-01",14.11,"Euphausia pacifica (krill) mean length",14.47,13.75
+"13825-01",10.51,"Euphausia pacifica (krill) mean length",10.8,10.22
+"13825-01",15.95,"Euphausia pacifica (krill) mean length",16.23,15.66
+"13825-01",15.9,"Euphausia pacifica (krill) mean length",16.25,15.55
+"13825-01",15.79,"Euphausia pacifica (krill) mean length",16.05,15.53
+"13825-01",10.67,"Euphausia pacifica (krill) mean length",11.15,10.19
+"13825-01",14.23,"Euphausia pacifica (krill) mean length",14.84,13.61
+"13825-01",13.9,"Euphausia pacifica (krill) mean length",14.2,13.59
+"13825-01",15.27,"Euphausia pacifica (krill) mean length",15.48,15.07
+"13825-01",14.86,"Euphausia pacifica (krill) mean length",15.06,14.65
+"13825-01",12.6,"Euphausia pacifica (krill) mean length",12.95,12.26
+"13825-01",14.27,"Euphausia pacifica (krill) mean length",14.92,13.63
+"13825-01",11.21,"Euphausia pacifica (krill) mean length",11.76,10.66
+"13825-01",11.48,"Euphausia pacifica (krill) mean length",11.75,11.2
+"13825-01",11.64,"Euphausia pacifica (krill) mean length",11.8,11.47
+"13825-01",14.19,"Euphausia pacifica (krill) mean length",14.42,13.97
+"13825-01",15.57,"Euphausia pacifica (krill) mean length",15.76,15.37
+"13825-01",16.05,"Euphausia pacifica (krill) mean length",16.34,15.76
+"13825-01",13.12,"Euphausia pacifica (krill) mean length",14.33,11.91
+"13825-01",10.21,"Euphausia pacifica (krill) mean length",11.58,8.84
+"13825-01",8.16,"Euphausia pacifica (krill) mean length",8.6,7.72
+"13825-01",9.18,"Euphausia pacifica (krill) mean length",9.43,8.93
+"13825-01",8.65,"Euphausia pacifica (krill) mean length",8.77,8.54
+"13825-01",9.04,"Euphausia pacifica (krill) mean length",9.18,8.89
+"13825-01",10.95,"Euphausia pacifica (krill) mean length",11.15,10.75
+"13825-01",12.87,"Euphausia pacifica (krill) mean length",13,12.75
+"13825-01",12.83,"Euphausia pacifica (krill) mean length",13.18,12.48
+"13825-01",12.71,"Euphausia pacifica (krill) mean length",13.12,12.3
+"13825-01",8.96,"Euphausia pacifica (krill) mean length",9.24,8.68
+"13825-01",10.29,"Euphausia pacifica (krill) mean length",10.62,9.96
+"13825-01",8.92,"Euphausia pacifica (krill) mean length",9.13,8.71
+"13825-01",10.25,"Euphausia pacifica (krill) mean length",10.51,9.99
+"13825-01",9.84,"Euphausia pacifica (krill) mean length",10,9.68
+"13825-01",9.65,"Euphausia pacifica (krill) mean length",9.9,9.41
+"13825-01",9.63,"Euphausia pacifica (krill) mean length",10,9.25
+"13825-01",10.42,"Euphausia pacifica (krill) mean length",11.57,9.28
+"13825-01",11.05,"Euphausia pacifica (krill) mean length",11.46,10.63
+"13825-01",9.84,"Euphausia pacifica (krill) mean length",10.15,9.53
+"13825-01",11.17,"Euphausia pacifica (krill) mean length",11.64,10.69
+"13825-01",11.04,"Euphausia pacifica (krill) mean length",11.52,10.55
+"13825-01",10.36,"Euphausia pacifica (krill) mean length",10.95,9.77
+"13825-01",10.62,"Euphausia pacifica (krill) mean length",10.86,10.38
+"13825-01",9.63,"Euphausia pacifica (krill) mean length",9.84,9.43
+"13825-01",10.2,"Euphausia pacifica (krill) mean length",10.41,9.99
+"13825-01",11.19,"Euphausia pacifica (krill) mean length",11.39,10.99
+"13825-01",12.15,"Euphausia pacifica (krill) mean length",12.31,11.99
+"13825-01",9.68,"Euphausia pacifica (krill) mean length",9.97,9.39
+"13825-01",12.31,"Euphausia pacifica (krill) mean length",12.74,11.87
+"13825-01",14.47,"Euphausia pacifica (krill) mean length",14.79,14.14
+"13825-01",12.68,"Euphausia pacifica (krill) mean length",12.89,12.47
+"13825-01",13.95,"Euphausia pacifica (krill) mean length",14.41,13.49
+"13825-01",13.39,"Euphausia pacifica (krill) mean length",13.75,13.03
+"13825-01",10.78,"Euphausia pacifica (krill) mean length",11.02,10.54
+"13825-01",11.64,"Euphausia pacifica (krill) mean length",11.86,11.42
+"13825-01",12.78,"Euphausia pacifica (krill) mean length",12.95,12.62
+"13825-01",15.16,"Euphausia pacifica (krill) mean length",15.38,14.94
+"13825-01",14.54,"Euphausia pacifica (krill) mean length",14.93,14.15
+"13825-01",14.12,"Euphausia pacifica (krill) mean length",14.63,13.61
+"13825-01",14.45,"Euphausia pacifica (krill) mean length",14.7,14.2
+"13825-01",12.85,"Euphausia pacifica (krill) mean length",13.15,12.56
+"13825-01",11.43,"Euphausia pacifica (krill) mean length",11.75,11.11
+"13825-01",11.06,"Euphausia pacifica (krill) mean length",11.33,10.78
+"13825-01",11.52,"Euphausia pacifica (krill) mean length",11.74,11.29
+"13825-01",10.64,"Euphausia pacifica (krill) mean length",10.88,10.41
+"13825-01",12.75,"Euphausia pacifica (krill) mean length",13.07,12.43
+"13825-01",7.46,"Euphausia pacifica (krill) mean length",7.66,7.26
+"13825-01",12.75,"Euphausia pacifica (krill) mean length",13.12,12.39
+"13825-01",10.21,"Euphausia pacifica (krill) mean length",10.48,9.94
+"13825-01",12.59,"Euphausia pacifica (krill) mean length",13.06,12.13
+"13825-01",11.23,"Euphausia pacifica (krill) mean length",11.52,10.94
+"13825-01",10.91,"Euphausia pacifica (krill) mean length",11.13,10.68
+"13825-01",10.62,"Euphausia pacifica (krill) mean length",10.89,10.36
+"13825-01",13.11,"Euphausia pacifica (krill) mean length",13.32,12.89
+"13825-01",13.67,"Euphausia pacifica (krill) mean length",13.83,13.51
+"13825-01",15.16,"Euphausia pacifica (krill) mean length",15.42,14.89
+"13825-01",13.31,"Euphausia pacifica (krill) mean length",13.65,12.98
+"13825-01",14.8,"Euphausia pacifica (krill) mean length",15.09,14.51
+"13825-01",10.09,"Euphausia pacifica (krill) mean length",NaN,NaN
+"13825-01",11.02,"Euphausia pacifica (krill) mean length",11.22,10.83
+"13825-01",14.29,"Euphausia pacifica (krill) mean length",14.72,13.86
+"13825-01",10.48,"Euphausia pacifica (krill) mean length",10.9,10.06
+"13825-01",11.76,"Euphausia pacifica (krill) mean length",12,11.52
+"13825-01",11.6,"Euphausia pacifica (krill) mean length",11.84,11.37
+"13825-01",11.52,"Euphausia pacifica (krill) mean length",11.79,11.25
+"13825-01",11.13,"Euphausia pacifica (krill) mean length",11.35,10.92
+"13825-01",11.06,"Euphausia pacifica (krill) mean length",11.23,10.89
+"13825-01",13.27,"Euphausia pacifica (krill) mean length",13.47,13.07
+"13825-01",12.06,"Euphausia pacifica (krill) mean length",12.47,11.65
+"13825-01",11.21,"Euphausia pacifica (krill) mean length",11.55,10.86
+"13825-01",13.43,"Euphausia pacifica (krill) mean length",13.75,13.11
+"13825-01",11.7,"Euphausia pacifica (krill) mean length",12.45,10.95
+"13825-01",12.2,"Euphausia pacifica (krill) mean length",12.47,11.94
+"13825-01",12.15,"Euphausia pacifica (krill) mean length",12.38,11.92
+"13825-01",11.44,"Euphausia pacifica (krill) mean length",12.06,10.82
+"13825-01",11.94,"Euphausia pacifica (krill) mean length",12.25,11.63
+"13825-01",11.22,"Euphausia pacifica (krill) mean length",11.46,10.99
+"13825-01",14.46,"Euphausia pacifica (krill) mean length",14.67,14.26
+"13825-01",11.38,"Euphausia pacifica (krill) mean length",12.02,10.74
+"13825-01",12.56,"Euphausia pacifica (krill) mean length",13.02,12.09
+"13825-01",11.21,"Euphausia pacifica (krill) mean length",11.59,10.82
+"13825-01",13.51,"Euphausia pacifica (krill) mean length",13.92,13.1
+"13825-01",12.71,"Euphausia pacifica (krill) mean length",13,12.41
+"13825-01",12.9,"Euphausia pacifica (krill) mean length",13.19,12.62
+"13825-01",9.14,"Euphausia pacifica (krill) mean length",9.37,8.91
+"13825-01",9.8,"Euphausia pacifica (krill) mean length",10.06,9.54
+"13825-01",10.65,"Euphausia pacifica (krill) mean length",11.44,9.85
+"13825-01",13.23,"Euphausia pacifica (krill) mean length",13.71,12.75
+"13825-01",15.28,"Euphausia pacifica (krill) mean length",15.62,14.94
+"13825-01",13.38,"Euphausia pacifica (krill) mean length",14.74,12.02
+"13825-01",12.94,"Euphausia pacifica (krill) mean length",13.22,12.66
+"13825-01",12.31,"Euphausia pacifica (krill) mean length",13.54,11.08
+"13825-01",2416.52,"Euphausia pacifica (krill) adult mean biomass",2519.25,2313.79
+"13825-01",41.77,"Euphausia pacifica (krill) adult mean biomass",44.74,38.8
+"13825-01",197.07,"Euphausia pacifica (krill) adult mean biomass",215.8,178.35
+"13825-01",1287.13,"Euphausia pacifica (krill) adult mean biomass",1343.86,1230.39
+"13825-01",116.29,"Euphausia pacifica (krill) adult mean biomass",123.61,108.97
+"13825-01",3622.94,"Euphausia pacifica (krill) adult mean biomass",3779.86,3466.02
+"13825-01",825.43,"Euphausia pacifica (krill) adult mean biomass",894.7,756.17
+"13825-01",514.2,"Euphausia pacifica (krill) adult mean biomass",537.76,490.63
+"13825-01",151.24,"Euphausia pacifica (krill) adult mean biomass",158.73,143.75
+"13825-01",3773.49,"Euphausia pacifica (krill) adult mean biomass",3966.04,3580.94
+"13825-01",1864.96,"Euphausia pacifica (krill) adult mean biomass",1948.03,1781.89
+"13825-01",1802.77,"Euphausia pacifica (krill) adult mean biomass",1857.47,1748.08
+"13825-01",1835.03,"Euphausia pacifica (krill) adult mean biomass",1885.22,1784.83
+"13825-01",1291.92,"Euphausia pacifica (krill) adult mean biomass",1364.46,1219.39
+"13825-01",2781.81,"Euphausia pacifica (krill) adult mean biomass",3145.23,2418.39
+"13825-01",1128.3,"Euphausia pacifica (krill) adult mean biomass",1208.18,1048.42
+"13825-01",409.43,"Euphausia pacifica (krill) adult mean biomass",425.02,393.84
+"13825-01",256.58,"Euphausia pacifica (krill) adult mean biomass",274.53,238.63
+"13825-01",29.59,"Euphausia pacifica (krill) adult mean biomass",36.03,23.16
+"13825-01",319.26,"Euphausia pacifica (krill) adult mean biomass",353.22,285.31
+"13825-01",116.25,"Euphausia pacifica (krill) adult mean biomass",122.34,110.16
+"13825-01",518.63,"Euphausia pacifica (krill) adult mean biomass",551.24,486.02
+"13825-01",2670.91,"Euphausia pacifica (krill) adult mean biomass",2818.38,2523.44
+"13825-01",627.48,"Euphausia pacifica (krill) adult mean biomass",670.92,584.03
+"13825-01",1983.4,"Euphausia pacifica (krill) adult mean biomass",2072.12,1894.67
+"13825-01",265.98,"Euphausia pacifica (krill) adult mean biomass",297.61,234.35
+"13825-01",513.48,"Euphausia pacifica (krill) adult mean biomass",558.19,468.78
+"13825-01",662.83,"Euphausia pacifica (krill) adult mean biomass",705.47,620.18
+"13825-01",207.74,"Euphausia pacifica (krill) adult mean biomass",226.3,189.18
+"13825-01",978.54,"Euphausia pacifica (krill) adult mean biomass",1027.93,929.14
+"13825-01",1503.47,"Euphausia pacifica (krill) adult mean biomass",1552.2,1454.75
+"13825-01",190.6,"Euphausia pacifica (krill) adult mean biomass",199.93,181.27
+"13825-01",131.6,"Euphausia pacifica (krill) adult mean biomass",137.38,125.83
+"13825-01",80.08,"Euphausia pacifica (krill) adult mean biomass",85.56,74.59
+"13825-01",2252.53,"Euphausia pacifica (krill) adult mean biomass",2322.3,2182.76
+"13825-01",71.93,"Euphausia pacifica (krill) adult mean biomass",78.99,64.86
+"13825-01",23.85,"Euphausia pacifica (krill) adult mean biomass",29.16,18.54
+"13825-01",294.52,"Euphausia pacifica (krill) adult mean biomass",317.59,271.46
+"13825-01",94.64,"Euphausia pacifica (krill) adult mean biomass",110.11,79.17
+"13825-01",577.94,"Euphausia pacifica (krill) adult mean biomass",654.6,501.29
+"13825-01",733.48,"Euphausia pacifica (krill) adult mean biomass",859.61,607.35
+"13825-01",473.94,"Euphausia pacifica (krill) adult mean biomass",518.11,429.76
+"13825-01",165,"Euphausia pacifica (krill) adult mean biomass",179.31,150.69
+"13825-01",286.73,"Euphausia pacifica (krill) adult mean biomass",323.45,250.02
+"13825-01",339.33,"Euphausia pacifica (krill) adult mean biomass",368.18,310.48
+"13825-01",64.08,"Euphausia pacifica (krill) adult mean biomass",66.28,61.89
+"13825-01",618.79,"Euphausia pacifica (krill) adult mean biomass",658.38,579.21
+"13825-01",1849.3,"Euphausia pacifica (krill) adult mean biomass",1976.35,1722.25
+"13825-01",123.67,"Euphausia pacifica (krill) adult mean biomass",136.38,110.95
+"13825-01",997.83,"Euphausia pacifica (krill) adult mean biomass",1045.89,949.78
+"13825-01",1021.45,"Euphausia pacifica (krill) adult mean biomass",1082.4,960.5
+"13825-01",3161.54,"Euphausia pacifica (krill) adult mean biomass",3309.33,3013.75
+"13825-01",17.43,"Euphausia pacifica (krill) adult mean biomass",21.17,13.69
+"13825-01",233.73,"Euphausia pacifica (krill) adult mean biomass",267.85,199.61
+"13825-01",1865.47,"Euphausia pacifica (krill) adult mean biomass",1995.97,1734.96
+"13825-01",1385.63,"Euphausia pacifica (krill) adult mean biomass",1441.28,1329.98
+"13825-01",1005.12,"Euphausia pacifica (krill) adult mean biomass",1048,962.25
+"13825-01",836.66,"Euphausia pacifica (krill) adult mean biomass",911.41,761.92
+"13825-01",114.34,"Euphausia pacifica (krill) adult mean biomass",128.52,100.17
+"13825-01",57.32,"Euphausia pacifica (krill) adult mean biomass",66.5,48.14
+"13825-01",265.97,"Euphausia pacifica (krill) adult mean biomass",288.06,243.89
+"13825-01",280,"Euphausia pacifica (krill) adult mean biomass",292.82,267.19
+"13825-01",423.85,"Euphausia pacifica (krill) adult mean biomass",444.29,403.42
+"13825-01",2302.64,"Euphausia pacifica (krill) adult mean biomass",2389.14,2216.14
+"13825-01",1756.18,"Euphausia pacifica (krill) adult mean biomass",1838.53,1673.83
+"13825-01",562.27,"Euphausia pacifica (krill) adult mean biomass",698.04,426.51
+"13825-01",252.99,"Euphausia pacifica (krill) adult mean biomass",362.3,143.68
+"13825-01",185.5,"Euphausia pacifica (krill) adult mean biomass",229.93,141.07
+"13825-01",400.47,"Euphausia pacifica (krill) adult mean biomass",437.2,363.75
+"13825-01",200.31,"Euphausia pacifica (krill) adult mean biomass",209.14,191.48
+"13825-01",83.8,"Euphausia pacifica (krill) adult mean biomass",88.43,79.18
+"13825-01",52.04,"Euphausia pacifica (krill) adult mean biomass",55.09,48.99
+"13825-01",690.11,"Euphausia pacifica (krill) adult mean biomass",709.9,670.31
+"13825-01",1513.95,"Euphausia pacifica (krill) adult mean biomass",1615.72,1412.18
+"13825-01",1033.36,"Euphausia pacifica (krill) adult mean biomass",1132.02,934.7
+"13825-01",155.68,"Euphausia pacifica (krill) adult mean biomass",172.7,138.66
+"13825-01",846.38,"Euphausia pacifica (krill) adult mean biomass",941.32,751.44
+"13825-01",395.45,"Euphausia pacifica (krill) adult mean biomass",432.92,357.99
+"13825-01",407.93,"Euphausia pacifica (krill) adult mean biomass",440.51,375.34
+"13825-01",222.3,"Euphausia pacifica (krill) adult mean biomass",233.75,210.85
+"13825-01",57.65,"Euphausia pacifica (krill) adult mean biomass",62.64,52.66
+"13825-01",33.01,"Euphausia pacifica (krill) adult mean biomass",36.98,29.04
+"13825-01",39.92,"Euphausia pacifica (krill) adult mean biomass",51.46,28.37
+"13825-01",224.85,"Euphausia pacifica (krill) adult mean biomass",252.72,196.98
+"13825-01",671.91,"Euphausia pacifica (krill) adult mean biomass",745.73,598.1
+"13825-01",358.64,"Euphausia pacifica (krill) adult mean biomass",408.53,308.75
+"13825-01",914.27,"Euphausia pacifica (krill) adult mean biomass",1016.21,812.32
+"13825-01",352.48,"Euphausia pacifica (krill) adult mean biomass",424.31,280.64
+"13825-01",633.24,"Euphausia pacifica (krill) adult mean biomass",680.67,585.81
+"13825-01",354.83,"Euphausia pacifica (krill) adult mean biomass",384.44,325.21
+"13825-01",279.47,"Euphausia pacifica (krill) adult mean biomass",298.77,260.18
+"13825-01",303.32,"Euphausia pacifica (krill) adult mean biomass",321.33,285.3
+"13825-01",153.34,"Euphausia pacifica (krill) adult mean biomass",159.58,147.11
+"13825-01",108.9,"Euphausia pacifica (krill) adult mean biomass",120.05,97.75
+"13825-01",911.76,"Euphausia pacifica (krill) adult mean biomass",996.02,827.49
+"13825-01",778.72,"Euphausia pacifica (krill) adult mean biomass",823.79,733.66
+"13825-01",701.35,"Euphausia pacifica (krill) adult mean biomass",740.24,662.45
+"13825-01",231.11,"Euphausia pacifica (krill) adult mean biomass",249.79,212.43
+"13825-01",192.25,"Euphausia pacifica (krill) adult mean biomass",207.15,177.35
+"13825-01",987,"Euphausia pacifica (krill) adult mean biomass",1068.14,905.87
+"13825-01",618.54,"Euphausia pacifica (krill) adult mean biomass",655.43,581.66
+"13825-01",2208.23,"Euphausia pacifica (krill) adult mean biomass",2300.1,2116.35
+"13825-01",3863.25,"Euphausia pacifica (krill) adult mean biomass",4013.89,3712.6
+"13825-01",957.19,"Euphausia pacifica (krill) adult mean biomass",1024.72,889.67
+"13825-01",486.22,"Euphausia pacifica (krill) adult mean biomass",534.12,438.32
+"13825-01",773.73,"Euphausia pacifica (krill) adult mean biomass",810.76,736.7
+"13825-01",339.32,"Euphausia pacifica (krill) adult mean biomass",364.03,314.61
+"13825-01",405.5,"Euphausia pacifica (krill) adult mean biomass",447.96,363.04
+"13825-01",151.67,"Euphausia pacifica (krill) adult mean biomass",164.85,138.49
+"13825-01",410.78,"Euphausia pacifica (krill) adult mean biomass",436.22,385.34
+"13825-01",309.42,"Euphausia pacifica (krill) adult mean biomass",328.76,290.07
+"13825-01",477.02,"Euphausia pacifica (krill) adult mean biomass",507.06,446.97
+"13825-01",63.33,"Euphausia pacifica (krill) adult mean biomass",68.56,58.1
+"13825-01",1224.27,"Euphausia pacifica (krill) adult mean biomass",1319.96,1128.58
+"13825-01",84.3,"Euphausia pacifica (krill) adult mean biomass",98.03,70.56
+"13825-01",333.66,"Euphausia pacifica (krill) adult mean biomass",366.49,300.82
+"13825-01",558.35,"Euphausia pacifica (krill) adult mean biomass",604.74,511.97
+"13825-01",156.31,"Euphausia pacifica (krill) adult mean biomass",166.71,145.91
+"13825-01",38.14,"Euphausia pacifica (krill) adult mean biomass",41.33,34.95
+"13825-01",1004,"Euphausia pacifica (krill) adult mean biomass",1097.62,910.39
+"13825-01",303.66,"Euphausia pacifica (krill) adult mean biomass",314.68,292.63
+"13825-01",5162.29,"Euphausia pacifica (krill) adult mean biomass",5384.85,4939.73
+"13825-01",881.43,"Euphausia pacifica (krill) adult mean biomass",956.26,806.61
+"13825-01",1919.02,"Euphausia pacifica (krill) adult mean biomass",2025.74,1812.3
+"13825-01",4.64,"Euphausia pacifica (krill) adult mean biomass",NaN,NaN
+"13825-01",1291.61,"Euphausia pacifica (krill) adult mean biomass",1359.66,1223.55
+"13825-01",545.02,"Euphausia pacifica (krill) adult mean biomass",587.3,502.74
+"13825-01",44.69,"Euphausia pacifica (krill) adult mean biomass",52.44,36.94
+"13825-01",1662.57,"Euphausia pacifica (krill) adult mean biomass",1772.55,1552.58
+"13825-01",802.62,"Euphausia pacifica (krill) adult mean biomass",851.97,753.27
+"13825-01",88.42,"Euphausia pacifica (krill) adult mean biomass",94.58,82.25
+"13825-01",257.01,"Euphausia pacifica (krill) adult mean biomass",272.99,241.02
+"13825-01",653.82,"Euphausia pacifica (krill) adult mean biomass",687.32,620.33
+"13825-01",580.63,"Euphausia pacifica (krill) adult mean biomass",605.16,556.1
+"13825-01",468.1,"Euphausia pacifica (krill) adult mean biomass",509.44,426.76
+"13825-01",160.34,"Euphausia pacifica (krill) adult mean biomass",177.6,143.08
+"13825-01",197.52,"Euphausia pacifica (krill) adult mean biomass",211.66,183.38
+"13825-01",132.59,"Euphausia pacifica (krill) adult mean biomass",157.41,107.77
+"13825-01",983.55,"Euphausia pacifica (krill) adult mean biomass",1047.96,919.13
+"13825-01",253.43,"Euphausia pacifica (krill) adult mean biomass",268.92,237.93
+"13825-01",39.77,"Euphausia pacifica (krill) adult mean biomass",47.22,32.33
+"13825-01",103.91,"Euphausia pacifica (krill) adult mean biomass",111.59,96.22
+"13825-01",460.3,"Euphausia pacifica (krill) adult mean biomass",488.68,431.93
+"13825-01",981.26,"Euphausia pacifica (krill) adult mean biomass",1026.72,935.81
+"13825-01",65.94,"Euphausia pacifica (krill) adult mean biomass",76.65,55.23
+"13825-01",2007.91,"Euphausia pacifica (krill) adult mean biomass",2202.04,1813.77
+"13825-01",207.4,"Euphausia pacifica (krill) adult mean biomass",231.6,183.2
+"13825-01",647.54,"Euphausia pacifica (krill) adult mean biomass",702.44,592.64
+"13825-01",1334,"Euphausia pacifica (krill) adult mean biomass",1427.63,1240.37
+"13825-01",1039.74,"Euphausia pacifica (krill) adult mean biomass",1106.42,973.06
+"13825-01",335.61,"Euphausia pacifica (krill) adult mean biomass",364.42,306.81
+"13825-01",52.64,"Euphausia pacifica (krill) adult mean biomass",57.45,47.82
+"13825-01",22.46,"Euphausia pacifica (krill) adult mean biomass",26.86,18.05
+"13825-01",89.5,"Euphausia pacifica (krill) adult mean biomass",97.08,81.92
+"13825-01",710.18,"Euphausia pacifica (krill) adult mean biomass",746.91,673.45
+"13825-01",174.8,"Euphausia pacifica (krill) adult mean biomass",221.13,128.48
+"13825-01",1046.73,"Euphausia pacifica (krill) adult mean biomass",1120.9,972.56
+"13825-01",129.99,"Euphausia pacifica (krill) adult mean biomass",170.95,89.03
+"13825-01",2585.21,"Euphausia pacifica (krill) total mean biomass",121.282329011251,2463.93
+"13825-01",54.61,"Euphausia pacifica (krill) total mean biomass",3.57513865288031,51.04
+"13825-01",206.03,"Euphausia pacifica (krill) total mean biomass",11.2571305829505,194.78
+"13825-01",1301.75,"Euphausia pacifica (krill) total mean biomass",62.3841993685025,1239.36
+"13825-01",0.51,"Euphausia pacifica (krill) total mean biomass",0.0589347775035894,0.45
+"13825-01",118.6,"Euphausia pacifica (krill) total mean biomass",7.64422449399668,110.96
+"13825-01",3642.04,"Euphausia pacifica (krill) total mean biomass",158.538612628777,3483.51
+"13825-01",1243.51,"Euphausia pacifica (krill) total mean biomass",101.473765910532,1142.04
+"13825-01",584.8,"Euphausia pacifica (krill) total mean biomass",28.8688953265379,555.93
+"13825-01",157.42,"Euphausia pacifica (krill) total mean biomass",8.81157706756909,148.61
+"13825-01",3838.98,"Euphausia pacifica (krill) total mean biomass",201.243766923035,3637.74
+"13825-01",1900.14,"Euphausia pacifica (krill) total mean biomass",88.9305569029304,1811.21
+"13825-01",1811.43,"Euphausia pacifica (krill) total mean biomass",55.6618344171658,1755.77
+"13825-01",1849.82,"Euphausia pacifica (krill) total mean biomass",54.2247747940029,1795.59
+"13825-01",1408.55,"Euphausia pacifica (krill) total mean biomass",105.037754990409,1303.51
+"13825-01",4216.02,"Euphausia pacifica (krill) total mean biomass",499.732836014718,3716.28
+"13825-01",2157.7,"Euphausia pacifica (krill) total mean biomass",151.199537373931,2006.5
+"13825-01",485.37,"Euphausia pacifica (krill) total mean biomass",30.2055021337885,455.17
+"13825-01",271.82,"Euphausia pacifica (krill) total mean biomass",21.5060199074562,250.31
+"13825-01",56.7,"Euphausia pacifica (krill) total mean biomass",7.45099532468118,49.25
+"13825-01",449.05,"Euphausia pacifica (krill) total mean biomass",44.6399201786215,404.41
+"13825-01",121.7,"Euphausia pacifica (krill) total mean biomass",6.592618781569,115.1
+"13825-01",1.6,"Euphausia pacifica (krill) total mean biomass",0.456852332877857,1.15
+"13825-01",526.09,"Euphausia pacifica (krill) total mean biomass",34.6105938785745,491.48
+"13825-01",1397.3,"Euphausia pacifica (krill) total mean biomass",79.2100741763482,1318.09
+"13825-01",694.55,"Euphausia pacifica (krill) total mean biomass",47.4275111344216,647.13
+"13825-01",2101.75,"Euphausia pacifica (krill) total mean biomass",102.470673745202,1999.27
+"13825-01",468.64,"Euphausia pacifica (krill) total mean biomass",59.3971189049263,409.24
+"13825-01",0.62,"Euphausia pacifica (krill) total mean biomass",0.0567079593811067,0.56
+"13825-01",1466.67,"Euphausia pacifica (krill) total mean biomass",112.066377254342,1354.6
+"13825-01",11.83,"Euphausia pacifica (krill) total mean biomass",0.665250176108628,11.17
+"13825-01",1245.01,"Euphausia pacifica (krill) total mean biomass",82.1349756071529,1162.87
+"13825-01",674.38,"Euphausia pacifica (krill) total mean biomass",73.5537537340431,600.82
+"13825-01",1159.35,"Euphausia pacifica (krill) total mean biomass",64.7107323655555,1094.64
+"13825-01",1557.21,"Euphausia pacifica (krill) total mean biomass",69.3056658208463,1487.91
+"13825-01",207.33,"Euphausia pacifica (krill) total mean biomass",11.065921487864,196.26
+"13825-01",145.75,"Euphausia pacifica (krill) total mean biomass",11.3168395019327,134.44
+"13825-01",108.68,"Euphausia pacifica (krill) total mean biomass",8.10032115303481,100.58
+"13825-01",2301.18,"Euphausia pacifica (krill) total mean biomass",92.4547118580456,2208.73
+"13825-01",41.47,"Euphausia pacifica (krill) total mean biomass",4.20571317911524,37.27
+"13825-01",56.71,"Euphausia pacifica (krill) total mean biomass",9.66882476746117,47.04
+"13825-01",324.6,"Euphausia pacifica (krill) total mean biomass",28.0387051096922,296.56
+"13825-01",569.85,"Euphausia pacifica (krill) total mean biomass",53.8181829457819,516.03
+"13825-01",1391,"Euphausia pacifica (krill) total mean biomass",138.395447158362,1252.61
+"13825-01",1237.92,"Euphausia pacifica (krill) total mean biomass",205.151418960263,1032.77
+"13825-01",763.97,"Euphausia pacifica (krill) total mean biomass",82.8208276071908,681.15
+"13825-01",128.06,"Euphausia pacifica (krill) total mean biomass",14.9701171456843,113.09
+"13825-01",474.07,"Euphausia pacifica (krill) total mean biomass",57.9205044037499,416.14
+"13825-01",363.55,"Euphausia pacifica (krill) total mean biomass",31.3476735102609,332.2
+"13825-01",81.32,"Euphausia pacifica (krill) total mean biomass",2.99715132032108,78.32
+"13825-01",628.92,"Euphausia pacifica (krill) total mean biomass",40.6467486356135,588.27
+"13825-01",1927.19,"Euphausia pacifica (krill) total mean biomass",161.788460734657,1765.4
+"13825-01",177.76,"Euphausia pacifica (krill) total mean biomass",19.2289525630558,158.53
+"13825-01",1025.82,"Euphausia pacifica (krill) total mean biomass",61.7875537975237,964.04
+"13825-01",1031.34,"Euphausia pacifica (krill) total mean biomass",63.8086873447106,967.53
+"13825-01",3208.07,"Euphausia pacifica (krill) total mean biomass",153.151454498869,3054.92
+"13825-01",23.37,"Euphausia pacifica (krill) total mean biomass",4.71517892049047,18.65
+"13825-01",246.25,"Euphausia pacifica (krill) total mean biomass",34.6236911696132,211.62
+"13825-01",1992.93,"Euphausia pacifica (krill) total mean biomass",149.350602337086,1843.58
+"13825-01",1411.46,"Euphausia pacifica (krill) total mean biomass",60.3272729556298,1351.13
+"13825-01",1048.99,"Euphausia pacifica (krill) total mean biomass",52.8442696336527,996.15
+"13825-01",1210.64,"Euphausia pacifica (krill) total mean biomass",104.375761686241,1106.26
+"13825-01",141.55,"Euphausia pacifica (krill) total mean biomass",13.4183442904685,128.13
+"13825-01",103.98,"Euphausia pacifica (krill) total mean biomass",15.2324283197422,88.75
+"13825-01",295.88,"Euphausia pacifica (krill) total mean biomass",25.3486266868034,270.54
+"13825-01",292.37,"Euphausia pacifica (krill) total mean biomass",16.9695766840469,275.4
+"13825-01",428.59,"Euphausia pacifica (krill) total mean biomass",21.8771328840848,406.71
+"13825-01",2306.15,"Euphausia pacifica (krill) total mean biomass",86.9835224256117,2219.17
+"13825-01",1795.49,"Euphausia pacifica (krill) total mean biomass",87.968798282469,1707.52
+"13825-01",1174,"Euphausia pacifica (krill) total mean biomass",189.564812766461,984.43
+"13825-01",700.23,"Euphausia pacifica (krill) total mean biomass",149.006047044291,551.22
+"13825-01",357.69,"Euphausia pacifica (krill) total mean biomass",58.5131341013023,299.18
+"13825-01",902.42,"Euphausia pacifica (krill) total mean biomass",71.0734425147868,831.35
+"13825-01",205.97,"Euphausia pacifica (krill) total mean biomass",10.1102798678296,195.86
+"13825-01",85.31,"Euphausia pacifica (krill) total mean biomass",4.80245941699814,80.51
+"13825-01",60.41,"Euphausia pacifica (krill) total mean biomass",3.52286350577045,56.88
+"13825-01",702.34,"Euphausia pacifica (krill) total mean biomass",20.8445233107646,681.49
+"13825-01",1695.35,"Euphausia pacifica (krill) total mean biomass",117.233582924666,1578.11
+"13825-01",1080.81,"Euphausia pacifica (krill) total mean biomass",102.199428850831,978.61
+"13825-01",482.87,"Euphausia pacifica (krill) total mean biomass",38.0509912540312,444.81
+"13825-01",1166.34,"Euphausia pacifica (krill) total mean biomass",124.840398293931,1041.5
+"13825-01",530.55,"Euphausia pacifica (krill) total mean biomass",49.0898031178435,481.46
+"13825-01",539.37,"Euphausia pacifica (krill) total mean biomass",46.1043962650203,493.26
+"13825-01",264.11,"Euphausia pacifica (krill) total mean biomass",15.016817228473,249.09
+"13825-01",72.21,"Euphausia pacifica (krill) total mean biomass",7.29668506029446,64.92
+"13825-01",44.02,"Euphausia pacifica (krill) total mean biomass",5.86840991452534,38.15
+"13825-01",105.75,"Euphausia pacifica (krill) total mean biomass",22.4329858320842,83.32
+"13825-01",257.89,"Euphausia pacifica (krill) total mean biomass",32.1120589212069,225.78
+"13825-01",778.36,"Euphausia pacifica (krill) total mean biomass",87.1433129550951,691.21
+"13825-01",425.4,"Euphausia pacifica (krill) total mean biomass",55.2389536970562,370.17
+"13825-01",1641.65,"Euphausia pacifica (krill) total mean biomass",165.735871897203,1475.92
+"13825-01",939.7,"Euphausia pacifica (krill) total mean biomass",152.738914903863,786.97
+"13825-01",819.33,"Euphausia pacifica (krill) total mean biomass",63.8606114861946,755.47
+"13825-01",494.6,"Euphausia pacifica (krill) total mean biomass",43.4377106167661,451.16
+"13825-01",320.3,"Euphausia pacifica (krill) total mean biomass",22.6429690609737,297.66
+"13825-01",312.54,"Euphausia pacifica (krill) total mean biomass",19.922466965762,292.62
+"13825-01",161.32,"Euphausia pacifica (krill) total mean biomass",7.38091459960094,153.94
+"13825-01",142.36,"Euphausia pacifica (krill) total mean biomass",14.9728843981843,127.39
+"13825-01",1018.71,"Euphausia pacifica (krill) total mean biomass",95.3774394267472,923.33
+"13825-01",787.86,"Euphausia pacifica (krill) total mean biomass",46.5499222808102,741.31
+"13825-01",723.72,"Euphausia pacifica (krill) total mean biomass",42.4754739463592,681.24
+"13825-01",400.43,"Euphausia pacifica (krill) total mean biomass",29.8553183304997,370.57
+"13825-01",212,"Euphausia pacifica (krill) total mean biomass",16.7335416016481,195.27
+"13825-01",1208.27,"Euphausia pacifica (krill) total mean biomass",103.756191952924,1104.52
+"13825-01",631.78,"Euphausia pacifica (krill) total mean biomass",39.7265319966959,592.05
+"13825-01",2254.29,"Euphausia pacifica (krill) total mean biomass",99.2388761188632,2155.05
+"13825-01",3908.83,"Euphausia pacifica (krill) total mean biomass",161.814279591498,3747.02
+"13825-01",991.5,"Euphausia pacifica (krill) total mean biomass",71.722067426801,919.78
+"13825-01",649.38,"Euphausia pacifica (krill) total mean biomass",64.4503293311156,584.93
+"13825-01",806.52,"Euphausia pacifica (krill) total mean biomass",43.8259417593474,762.69
+"13825-01",559.2,"Euphausia pacifica (krill) total mean biomass",41.1793570811102,518.02
+"13825-01",522.15,"Euphausia pacifica (krill) total mean biomass",49.066113320502,473.08
+"13825-01",172.1,"Euphausia pacifica (krill) total mean biomass",17.3351549845782,154.76
+"13825-01",442.15,"Euphausia pacifica (krill) total mean biomass",30.7449190806303,411.4
+"13825-01",332.81,"Euphausia pacifica (krill) total mean biomass",22.0018848056062,310.81
+"13825-01",513.08,"Euphausia pacifica (krill) total mean biomass",34.2824539401197,478.8
+"13825-01",231.67,"Euphausia pacifica (krill) total mean biomass",21.07784145802,210.59
+"13825-01",1256.79,"Euphausia pacifica (krill) total mean biomass",103.465322646293,1153.32
+"13825-01",338.78,"Euphausia pacifica (krill) total mean biomass",32.7419005349063,306.03
+"13825-01",438.03,"Euphausia pacifica (krill) total mean biomass",44.2347523072333,393.8
+"13825-01",881.72,"Euphausia pacifica (krill) total mean biomass",66.6747635335822,815.04
+"13825-01",191.7,"Euphausia pacifica (krill) total mean biomass",17.1353738351387,174.57
+"13825-01",66.16,"Euphausia pacifica (krill) total mean biomass",6.83127320958307,59.33
+"13825-01",1027.92,"Euphausia pacifica (krill) total mean biomass",51.7058888188252,976.22
+"13825-01",304.66,"Euphausia pacifica (krill) total mean biomass",11.1625098966167,293.5
+"13825-01",5274.1,"Euphausia pacifica (krill) total mean biomass",237.55703069861,5036.54
+"13825-01",1131.23,"Euphausia pacifica (krill) total mean biomass",106.119253660565,1025.11
+"13825-01",2023.66,"Euphausia pacifica (krill) total mean biomass",114.391120285578,1909.27
+"13825-01",50.69,"Euphausia pacifica (krill) total mean biomass",4.2477463196735,46.44
+"13825-01",1861.7,"Euphausia pacifica (krill) total mean biomass",106.398574905968,1755.3
+"13825-01",906.24,"Euphausia pacifica (krill) total mean biomass",82.9486958100224,823.29
+"13825-01",88.18,"Euphausia pacifica (krill) total mean biomass",10.3650241117794,77.82
+"13825-01",2314.32,"Euphausia pacifica (krill) total mean biomass",146.181427104936,2168.14
+"13825-01",1441.68,"Euphausia pacifica (krill) total mean biomass",136.794393847191,1304.88
+"13825-01",117.18,"Euphausia pacifica (krill) total mean biomass",10.470903658511,106.71
+"13825-01",264.14,"Euphausia pacifica (krill) total mean biomass",17.4614041031427,246.68
+"13825-01",670.24,"Euphausia pacifica (krill) total mean biomass",35.7689559041905,634.48
+"13825-01",604.77,"Euphausia pacifica (krill) total mean biomass",32.5298009466826,572.24
+"13825-01",536.21,"Euphausia pacifica (krill) total mean biomass",50.5079622038882,485.7
+"13825-01",240.88,"Euphausia pacifica (krill) total mean biomass",26.2909275393189,214.59
+"13825-01",252.36,"Euphausia pacifica (krill) total mean biomass",19.9176793083381,232.45
+"13825-01",270.32,"Euphausia pacifica (krill) total mean biomass",37.2609791688625,233.06
+"13825-01",1644.29,"Euphausia pacifica (krill) total mean biomass",148.043725240416,1496.24
+"13825-01",311.59,"Euphausia pacifica (krill) total mean biomass",20.4644200141028,291.12
+"13825-01",166.8,"Euphausia pacifica (krill) total mean biomass",17.4195093905682,149.38
+"13825-01",189.29,"Euphausia pacifica (krill) total mean biomass",16.037110333316,173.25
+"13825-01",482.12,"Euphausia pacifica (krill) total mean biomass",32.6667613187994,449.46
+"13825-01",1097.57,"Euphausia pacifica (krill) total mean biomass",52.2034217989486,1045.37
+"13825-01",230.54,"Euphausia pacifica (krill) total mean biomass",26.3788509530701,204.16
+"13825-01",2211.23,"Euphausia pacifica (krill) total mean biomass",224.184903920631,1987.05
+"13825-01",218.54,"Euphausia pacifica (krill) total mean biomass",25.7066310478786,192.84
+"13825-01",810.47,"Euphausia pacifica (krill) total mean biomass",66.7535377768374,743.72
+"13825-01",1944.98,"Euphausia pacifica (krill) total mean biomass",145.628709118506,1799.35
+"13825-01",1446.22,"Euphausia pacifica (krill) total mean biomass",101.479419906936,1344.74
+"13825-01",398.26,"Euphausia pacifica (krill) total mean biomass",36.7214735532489,361.54
+"13825-01",73.17,"Euphausia pacifica (krill) total mean biomass",6.41521404321022,66.75
+"13825-01",30.04,"Euphausia pacifica (krill) total mean biomass",6.32470319779523,23.72
+"13825-01",98.49,"Euphausia pacifica (krill) total mean biomass",8.5682117134422,89.92
+"13825-01",734.36,"Euphausia pacifica (krill) total mean biomass",39.4882409851899,694.87
+"13825-01",706.78,"Euphausia pacifica (krill) total mean biomass",91.3861799219478,615.39
+"13825-01",1502.79,"Euphausia pacifica (krill) total mean biomass",116.773676576947,1386.02
+"13825-01",530.94,"Euphausia pacifica (krill) total mean biomass",90.8646329642686,440.07
+"13825-01",2.74,"Euphausia pacifica (krill) length anomaly",NaN,NaN
+"13825-01",3.81,"Euphausia pacifica (krill) length anomaly",NaN,NaN
+"13825-01",1.77,"Euphausia pacifica (krill) length anomaly",NaN,NaN
+"13825-01",1.74,"Euphausia pacifica (krill) length anomaly",NaN,NaN
+"13825-01",NaN,"Euphausia pacifica (krill) length anomaly",NaN,NaN
+"13825-01",2.86,"Euphausia pacifica (krill) length anomaly",NaN,NaN
+"13825-01",3.74,"Euphausia pacifica (krill) length anomaly",NaN,NaN
+"13825-01",1.78,"Euphausia pacifica (krill) length anomaly",NaN,NaN
+"13825-01",3.68,"Euphausia pacifica (krill) length anomaly",NaN,NaN
+"13825-01",3.07,"Euphausia pacifica (krill) length anomaly",NaN,NaN
+"13825-01",1.23,"Euphausia pacifica (krill) length anomaly",NaN,NaN
+"13825-01",0.66,"Euphausia pacifica (krill) length anomaly",NaN,NaN
+"13825-01",3.37,"Euphausia pacifica (krill) length anomaly",NaN,NaN
+"13825-01",3.29,"Euphausia pacifica (krill) length anomaly",NaN,NaN
+"13825-01",2.35,"Euphausia pacifica (krill) length anomaly",NaN,NaN
+"13825-01",0.28,"Euphausia pacifica (krill) length anomaly",NaN,NaN
+"13825-01",-0.21,"Euphausia pacifica (krill) length anomaly",NaN,NaN
+"13825-01",1.24,"Euphausia pacifica (krill) length anomaly",NaN,NaN
+"13825-01",0.74,"Euphausia pacifica (krill) length anomaly",NaN,NaN
+"13825-01",-3.13,"Euphausia pacifica (krill) length anomaly",NaN,NaN
+"13825-01",-0.53,"Euphausia pacifica (krill) length anomaly",NaN,NaN
+"13825-01",-0.93,"Euphausia pacifica (krill) length anomaly",NaN,NaN
+"13825-01",NaN,"Euphausia pacifica (krill) length anomaly",NaN,NaN
+"13825-01",1.88,"Euphausia pacifica (krill) length anomaly",NaN,NaN
+"13825-01",1.89,"Euphausia pacifica (krill) length anomaly",NaN,NaN
+"13825-01",0.7,"Euphausia pacifica (krill) length anomaly",NaN,NaN
+"13825-01",3.07,"Euphausia pacifica (krill) length anomaly",NaN,NaN
+"13825-01",0.25,"Euphausia pacifica (krill) length anomaly",NaN,NaN
+"13825-01",NaN,"Euphausia pacifica (krill) length anomaly",NaN,NaN
+"13825-01",-0.85,"Euphausia pacifica (krill) length anomaly",NaN,NaN
+"13825-01",NaN,"Euphausia pacifica (krill) length anomaly",NaN,NaN
+"13825-01",-1.08,"Euphausia pacifica (krill) length anomaly",NaN,NaN
+"13825-01",-0.99,"Euphausia pacifica (krill) length anomaly",NaN,NaN
+"13825-01",-0.6,"Euphausia pacifica (krill) length anomaly",NaN,NaN
+"13825-01",0.65,"Euphausia pacifica (krill) length anomaly",NaN,NaN
+"13825-01",-0.09,"Euphausia pacifica (krill) length anomaly",NaN,NaN
+"13825-01",0.01,"Euphausia pacifica (krill) length anomaly",NaN,NaN
+"13825-01",-0.86,"Euphausia pacifica (krill) length anomaly",NaN,NaN
+"13825-01",1.33,"Euphausia pacifica (krill) length anomaly",NaN,NaN
+"13825-01",0.54,"Euphausia pacifica (krill) length anomaly",NaN,NaN
+"13825-01",-1.93,"Euphausia pacifica (krill) length anomaly",NaN,NaN
+"13825-01",1.87,"Euphausia pacifica (krill) length anomaly",NaN,NaN
+"13825-01",-1.09,"Euphausia pacifica (krill) length anomaly",NaN,NaN
+"13825-01",0.54,"Euphausia pacifica (krill) length anomaly",NaN,NaN
+"13825-01",1.39,"Euphausia pacifica (krill) length anomaly",NaN,NaN
+"13825-01",-0.12,"Euphausia pacifica (krill) length anomaly",NaN,NaN
+"13825-01",-1.73,"Euphausia pacifica (krill) length anomaly",NaN,NaN
+"13825-01",-0.02,"Euphausia pacifica (krill) length anomaly",NaN,NaN
+"13825-01",-0.74,"Euphausia pacifica (krill) length anomaly",NaN,NaN
+"13825-01",2.16,"Euphausia pacifica (krill) length anomaly",NaN,NaN
+"13825-01",1.25,"Euphausia pacifica (krill) length anomaly",NaN,NaN
+"13825-01",0.8,"Euphausia pacifica (krill) length anomaly",NaN,NaN
+"13825-01",-2.96,"Euphausia pacifica (krill) length anomaly",NaN,NaN
+"13825-01",2.4,"Euphausia pacifica (krill) length anomaly",NaN,NaN
+"13825-01",2.37,"Euphausia pacifica (krill) length anomaly",NaN,NaN
+"13825-01",2.45,"Euphausia pacifica (krill) length anomaly",NaN,NaN
+"13825-01",-2.58,"Euphausia pacifica (krill) length anomaly",NaN,NaN
+"13825-01",1.19,"Euphausia pacifica (krill) length anomaly",NaN,NaN
+"13825-01",1.27,"Euphausia pacifica (krill) length anomaly",NaN,NaN
+"13825-01",3,"Euphausia pacifica (krill) length anomaly",NaN,NaN
+"13825-01",3.17,"Euphausia pacifica (krill) length anomaly",NaN,NaN
+"13825-01",1.03,"Euphausia pacifica (krill) length anomaly",NaN,NaN
+"13825-01",2.9,"Euphausia pacifica (krill) length anomaly",NaN,NaN
+"13825-01",-0.09,"Euphausia pacifica (krill) length anomaly",NaN,NaN
+"13825-01",0.09,"Euphausia pacifica (krill) length anomaly",NaN,NaN
+"13825-01",-0.28,"Euphausia pacifica (krill) length anomaly",NaN,NaN
+"13825-01",1.57,"Euphausia pacifica (krill) length anomaly",NaN,NaN
+"13825-01",2.48,"Euphausia pacifica (krill) length anomaly",NaN,NaN
+"13825-01",2.51,"Euphausia pacifica (krill) length anomaly",NaN,NaN
+"13825-01",-0.24,"Euphausia pacifica (krill) length anomaly",NaN,NaN
+"13825-01",-2.38,"Euphausia pacifica (krill) length anomaly",NaN,NaN
+"13825-01",-4.04,"Euphausia pacifica (krill) length anomaly",NaN,NaN
+"13825-01",-2.35,"Euphausia pacifica (krill) length anomaly",NaN,NaN
+"13825-01",-2.66,"Euphausia pacifica (krill) length anomaly",NaN,NaN
+"13825-01",-2.33,"Euphausia pacifica (krill) length anomaly",NaN,NaN
+"13825-01",-0.78,"Euphausia pacifica (krill) length anomaly",NaN,NaN
+"13825-01",0.7,"Euphausia pacifica (krill) length anomaly",NaN,NaN
+"13825-01",-0.24,"Euphausia pacifica (krill) length anomaly",NaN,NaN
+"13825-01",-0.6,"Euphausia pacifica (krill) length anomaly",NaN,NaN
+"13825-01",-4.13,"Euphausia pacifica (krill) length anomaly",NaN,NaN
+"13825-01",-2.63,"Euphausia pacifica (krill) length anomaly",NaN,NaN
+"13825-01",-3.3,"Euphausia pacifica (krill) length anomaly",NaN,NaN
+"13825-01",-1.39,"Euphausia pacifica (krill) length anomaly",NaN,NaN
+"13825-01",-1.47,"Euphausia pacifica (krill) length anomaly",NaN,NaN
+"13825-01",-1.81,"Euphausia pacifica (krill) length anomaly",NaN,NaN
+"13825-01",-2.05,"Euphausia pacifica (krill) length anomaly",NaN,NaN
+"13825-01",-1.93,"Euphausia pacifica (krill) length anomaly",NaN,NaN
+"13825-01",-1.91,"Euphausia pacifica (krill) length anomaly",NaN,NaN
+"13825-01",-3.47,"Euphausia pacifica (krill) length anomaly",NaN,NaN
+"13825-01",-2.38,"Euphausia pacifica (krill) length anomaly",NaN,NaN
+"13825-01",-2.28,"Euphausia pacifica (krill) length anomaly",NaN,NaN
+"13825-01",-2.18,"Euphausia pacifica (krill) length anomaly",NaN,NaN
+"13825-01",-1.6,"Euphausia pacifica (krill) length anomaly",NaN,NaN
+"13825-01",-1.68,"Euphausia pacifica (krill) length anomaly",NaN,NaN
+"13825-01",-1.1,"Euphausia pacifica (krill) length anomaly",NaN,NaN
+"13825-01",-0.31,"Euphausia pacifica (krill) length anomaly",NaN,NaN
+"13825-01",0.41,"Euphausia pacifica (krill) length anomaly",NaN,NaN
+"13825-01",-2.98,"Euphausia pacifica (krill) length anomaly",NaN,NaN
+"13825-01",-0.73,"Euphausia pacifica (krill) length anomaly",NaN,NaN
+"13825-01",0.99,"Euphausia pacifica (krill) length anomaly",NaN,NaN
+"13825-01",-0.79,"Euphausia pacifica (krill) length anomaly",NaN,NaN
+"13825-01",1.53,"Euphausia pacifica (krill) length anomaly",NaN,NaN
+"13825-01",1.53,"Euphausia pacifica (krill) length anomaly",NaN,NaN
+"13825-01",-0.5,"Euphausia pacifica (krill) length anomaly",NaN,NaN
+"13825-01",-0.02,"Euphausia pacifica (krill) length anomaly",NaN,NaN
+"13825-01",0.68,"Euphausia pacifica (krill) length anomaly",NaN,NaN
+"13825-01",2.12,"Euphausia pacifica (krill) length anomaly",NaN,NaN
+"13825-01",0.99,"Euphausia pacifica (krill) length anomaly",NaN,NaN
+"13825-01",0.87,"Euphausia pacifica (krill) length anomaly",NaN,NaN
+"13825-01",1.91,"Euphausia pacifica (krill) length anomaly",NaN,NaN
+"13825-01",0.85,"Euphausia pacifica (krill) length anomaly",NaN,NaN
+"13825-01",-0.15,"Euphausia pacifica (krill) length anomaly",NaN,NaN
+"13825-01",-0.22,"Euphausia pacifica (krill) length anomaly",NaN,NaN
+"13825-01",0.08,"Euphausia pacifica (krill) length anomaly",NaN,NaN
+"13825-01",-1.35,"Euphausia pacifica (krill) length anomaly",NaN,NaN
+"13825-01",0.11,"Euphausia pacifica (krill) length anomaly",NaN,NaN
+"13825-01",-5.46,"Euphausia pacifica (krill) length anomaly",NaN,NaN
+"13825-01",-0.79,"Euphausia pacifica (krill) length anomaly",NaN,NaN
+"13825-01",-3.22,"Euphausia pacifica (krill) length anomaly",NaN,NaN
+"13825-01",-0.17,"Euphausia pacifica (krill) length anomaly",NaN,NaN
+"13825-01",-0.26,"Euphausia pacifica (krill) length anomaly",NaN,NaN
+"13825-01",-0.38,"Euphausia pacifica (krill) length anomaly",NaN,NaN
+"13825-01",-0.7,"Euphausia pacifica (krill) length anomaly",NaN,NaN
+"13825-01",1.27,"Euphausia pacifica (krill) length anomaly",NaN,NaN
+"13825-01",1.49,"Euphausia pacifica (krill) length anomaly",NaN,NaN
+"13825-01",1.62,"Euphausia pacifica (krill) length anomaly",NaN,NaN
+"13825-01",0.19,"Euphausia pacifica (krill) length anomaly",NaN,NaN
+"13825-01",2.08,"Euphausia pacifica (krill) length anomaly",NaN,NaN
+"13825-01",-1.83,"Euphausia pacifica (krill) length anomaly",NaN,NaN
+"13825-01",-0.47,"Euphausia pacifica (krill) length anomaly",NaN,NaN
+"13825-01",0.74,"Euphausia pacifica (krill) length anomaly",NaN,NaN
+"13825-01",-2.71,"Euphausia pacifica (krill) length anomaly",NaN,NaN
+"13825-01",-0.61,"Euphausia pacifica (krill) length anomaly",NaN,NaN
+"13825-01",0.25,"Euphausia pacifica (krill) length anomaly",NaN,NaN
+"13825-01",0.24,"Euphausia pacifica (krill) length anomaly",NaN,NaN
+"13825-01",-0.26,"Euphausia pacifica (krill) length anomaly",NaN,NaN
+"13825-01",-0.68,"Euphausia pacifica (krill) length anomaly",NaN,NaN
+"13825-01",0.96,"Euphausia pacifica (krill) length anomaly",NaN,NaN
+"13825-01",-0.78,"Euphausia pacifica (krill) length anomaly",NaN,NaN
+"13825-01",-2.16,"Euphausia pacifica (krill) length anomaly",NaN,NaN
+"13825-01",-0.01,"Euphausia pacifica (krill) length anomaly",NaN,NaN
+"13825-01",-1.01,"Euphausia pacifica (krill) length anomaly",NaN,NaN
+"13825-01",-0.07,"Euphausia pacifica (krill) length anomaly",NaN,NaN
+"13825-01",0.48,"Euphausia pacifica (krill) length anomaly",NaN,NaN
+"13825-01",0.05,"Euphausia pacifica (krill) length anomaly",NaN,NaN
+"13825-01",0.66,"Euphausia pacifica (krill) length anomaly",NaN,NaN
+"13825-01",-0.45,"Euphausia pacifica (krill) length anomaly",NaN,NaN
+"13825-01",2.15,"Euphausia pacifica (krill) length anomaly",NaN,NaN
+"13825-01",-1.28,"Euphausia pacifica (krill) length anomaly",NaN,NaN
+"13825-01",-0.71,"Euphausia pacifica (krill) length anomaly",NaN,NaN
+"13825-01",-2.33,"Euphausia pacifica (krill) length anomaly",NaN,NaN
+"13825-01",0.08,"Euphausia pacifica (krill) length anomaly",NaN,NaN
+"13825-01",-0.26,"Euphausia pacifica (krill) length anomaly",NaN,NaN
+"13825-01",0.83,"Euphausia pacifica (krill) length anomaly",NaN,NaN
+"13825-01",-2.35,"Euphausia pacifica (krill) length anomaly",NaN,NaN
+"13825-01",-1.49,"Euphausia pacifica (krill) length anomaly",NaN,NaN
+"13825-01",-1.51,"Euphausia pacifica (krill) length anomaly",NaN,NaN
+"13825-01",0.27,"Euphausia pacifica (krill) length anomaly",NaN,NaN
+"13825-01",1.84,"Euphausia pacifica (krill) length anomaly",NaN,NaN
+"13825-01",-0.08,"Euphausia pacifica (krill) length anomaly",NaN,NaN
+"13825-01",-0.15,"Euphausia pacifica (krill) length anomaly",NaN,NaN
+"13825-01",-0.1,"Euphausia pacifica (krill) length anomaly",NaN,NaN
+"13825-01",1920.42510497283,"Euphausia pacifica (krill) total biomass anomaly",NaN,NaN
+"13825-01",-409.678388609772,"Euphausia pacifica (krill) total biomass anomaly",NaN,NaN
+"13825-01",-378.694477406676,"Euphausia pacifica (krill) total biomass anomaly",NaN,NaN
+"13825-01",635.185958987276,"Euphausia pacifica (krill) total biomass anomaly",NaN,NaN
+"13825-01",NaN,"Euphausia pacifica (krill) total biomass anomaly",NaN,NaN
+"13825-01",-837.243276970972,"Euphausia pacifica (krill) total biomass anomaly",NaN,NaN
+"13825-01",2623.94658258031,"Euphausia pacifica (krill) total biomass anomaly",NaN,NaN
+"13825-01",123.106012043846,"Euphausia pacifica (krill) total biomass anomaly",NaN,NaN
+"13825-01",-12.0851398637167,"Euphausia pacifica (krill) total biomass anomaly",NaN,NaN
+"13825-01",-317.011076261092,"Euphausia pacifica (krill) total biomass anomaly",NaN,NaN
+"13825-01",3197.72079663484,"Euphausia pacifica (krill) total biomass anomaly",NaN,NaN
+"13825-01",1150.80639357504,"Euphausia pacifica (krill) total biomass anomaly",NaN,NaN
+"13825-01",938.295797358441,"Euphausia pacifica (krill) total biomass anomaly",NaN,NaN
+"13825-01",849.51986171405,"Euphausia pacifica (krill) total biomass anomaly",NaN,NaN
+"13825-01",392.139738467648,"Euphausia pacifica (krill) total biomass anomaly",NaN,NaN
+"13825-01",2065.27587135383,"Euphausia pacifica (krill) total biomass anomaly",NaN,NaN
+"13825-01",602.017007076695,"Euphausia pacifica (krill) total biomass anomaly",NaN,NaN
+"13825-01",-102.702757861622,"Euphausia pacifica (krill) total biomass anomaly",NaN,NaN
+"13825-01",-323.392222318121,"Euphausia pacifica (krill) total biomass anomaly",NaN,NaN
+"13825-01",-801.106944458902,"Euphausia pacifica (krill) total biomass anomaly",NaN,NaN
+"13825-01",-132.044827964609,"Euphausia pacifica (krill) total biomass anomaly",NaN,NaN
+"13825-01",-472.25304786185,"Euphausia pacifica (krill) total biomass anomaly",NaN,NaN
+"13825-01",NaN,"Euphausia pacifica (krill) total biomass anomaly",NaN,NaN
+"13825-01",-458.091642422317,"Euphausia pacifica (krill) total biomass anomaly",NaN,NaN
+"13825-01",1676.36869569293,"Euphausia pacifica (krill) total biomass anomaly",NaN,NaN
+"13825-01",-339.056728080566,"Euphausia pacifica (krill) total biomass anomaly",NaN,NaN
+"13825-01",1076.09123067564,"Euphausia pacifica (krill) total biomass anomaly",NaN,NaN
+"13825-01",-460.046703536884,"Euphausia pacifica (krill) total biomass anomaly",NaN,NaN
+"13825-01",NaN,"Euphausia pacifica (krill) total biomass anomaly",NaN,NaN
+"13825-01",-85.0004962794806,"Euphausia pacifica (krill) total biomass anomaly",NaN,NaN
+"13825-01",NaN,"Euphausia pacifica (krill) total biomass anomaly",NaN,NaN
+"13825-01",183.845105451844,"Euphausia pacifica (krill) total biomass anomaly",NaN,NaN
+"13825-01",-244.036087520662,"Euphausia pacifica (krill) total biomass anomaly",NaN,NaN
+"13825-01",472.735413733405,"Euphausia pacifica (krill) total biomass anomaly",NaN,NaN
+"13825-01",910.64336552818,"Euphausia pacifica (krill) total biomass anomaly",NaN,NaN
+"13825-01",-475.542093447049,"Euphausia pacifica (krill) total biomass anomaly",NaN,NaN
+"13825-01",-667.793663919738,"Euphausia pacifica (krill) total biomass anomaly",NaN,NaN
+"13825-01",-780.313148681948,"Euphausia pacifica (krill) total biomass anomaly",NaN,NaN
+"13825-01",1284.22236183013,"Euphausia pacifica (krill) total biomass anomaly",NaN,NaN
+"13825-01",-920.320608131805,"Euphausia pacifica (krill) total biomass anomaly",NaN,NaN
+"13825-01",-973.219643152014,"Euphausia pacifica (krill) total biomass anomaly",NaN,NaN
+"13825-01",-601.424479998621,"Euphausia pacifica (krill) total biomass anomaly",NaN,NaN
+"13825-01",-655.153521386499,"Euphausia pacifica (krill) total biomass anomaly",NaN,NaN
+"13825-01",-100.911354857886,"Euphausia pacifica (krill) total biomass anomaly",NaN,NaN
+"13825-01",186.262955472975,"Euphausia pacifica (krill) total biomass anomaly",NaN,NaN
+"13825-01",15.3227731915995,"Euphausia pacifica (krill) total biomass anomaly",NaN,NaN
+"13825-01",-288.099047733701,"Euphausia pacifica (krill) total biomass anomaly",NaN,NaN
+"13825-01",-185.41950122502,"Euphausia pacifica (krill) total biomass anomaly",NaN,NaN
+"13825-01",-228.16103977393,"Euphausia pacifica (krill) total biomass anomaly",NaN,NaN
+"13825-01",-611.592932652514,"Euphausia pacifica (krill) total biomass anomaly",NaN,NaN
+"13825-01",-301.557556146928,"Euphausia pacifica (krill) total biomass anomaly",NaN,NaN
+"13825-01",906.971602534537,"Euphausia pacifica (krill) total biomass anomaly",NaN,NaN
+"13825-01",-856.807170551784,"Euphausia pacifica (krill) total biomass anomaly",NaN,NaN
+"13825-01",-1.52808579457485,"Euphausia pacifica (krill) total biomass anomaly",NaN,NaN
+"13825-01",25.1180479621046,"Euphausia pacifica (krill) total biomass anomaly",NaN,NaN
+"13825-01",2202.68948492369,"Euphausia pacifica (krill) total biomass anomaly",NaN,NaN
+"13825-01",-924.046382279017,"Euphausia pacifica (krill) total biomass anomaly",NaN,NaN
+"13825-01",-662.215597552932,"Euphausia pacifica (krill) total biomass anomaly",NaN,NaN
+"13825-01",1059.40243092068,"Euphausia pacifica (krill) total biomass anomaly",NaN,NaN
+"13825-01",659.601757357891,"Euphausia pacifica (krill) total biomass anomaly",NaN,NaN
+"13825-01",427.206480512749,"Euphausia pacifica (krill) total biomass anomaly",NaN,NaN
+"13825-01",293.066403814012,"Euphausia pacifica (krill) total biomass anomaly",NaN,NaN
+"13825-01",-371.534156367987,"Euphausia pacifica (krill) total biomass anomaly",NaN,NaN
+"13825-01",-395.781940718378,"Euphausia pacifica (krill) total biomass anomaly",NaN,NaN
+"13825-01",-206.178729032041,"Euphausia pacifica (krill) total biomass anomaly",NaN,NaN
+"13825-01",-326.02378126316,"Euphausia pacifica (krill) total biomass anomaly",NaN,NaN
+"13825-01",-357.061047120313,"Euphausia pacifica (krill) total biomass anomaly",NaN,NaN
+"13825-01",1410.73738890728,"Euphausia pacifica (krill) total biomass anomaly",NaN,NaN
+"13825-01",758.710153411399,"Euphausia pacifica (krill) total biomass anomaly",NaN,NaN
+"13825-01",-401.773594847504,"Euphausia pacifica (krill) total biomass anomaly",NaN,NaN
+"13825-01",-543.839411526872,"Euphausia pacifica (krill) total biomass anomaly",NaN,NaN
+"13825-01",-521.553168993443,"Euphausia pacifica (krill) total biomass anomaly",NaN,NaN
+"13825-01",-132.571372089323,"Euphausia pacifica (krill) total biomass anomaly",NaN,NaN
+"13825-01",-255.180281412778,"Euphausia pacifica (krill) total biomass anomaly",NaN,NaN
+"13825-01",-382.638757287031,"Euphausia pacifica (krill) total biomass anomaly",NaN,NaN
+"13825-01",-507.357101542505,"Euphausia pacifica (krill) total biomass anomaly",NaN,NaN
+"13825-01",19.2031466328375,"Euphausia pacifica (krill) total biomass anomaly",NaN,NaN
+"13825-01",625.830306308471,"Euphausia pacifica (krill) total biomass anomaly",NaN,NaN
+"13825-01",91.0287196683771,"Euphausia pacifica (krill) total biomass anomaly",NaN,NaN
+"13825-01",-751.625493516796,"Euphausia pacifica (krill) total biomass anomaly",NaN,NaN
+"13825-01",-25.551895880282,"Euphausia pacifica (krill) total biomass anomaly",NaN,NaN
+"13825-01",-316.33762358691,"Euphausia pacifica (krill) total biomass anomaly",NaN,NaN
+"13825-01",-154.277349790582,"Euphausia pacifica (krill) total biomass anomaly",NaN,NaN
+"13825-01",-243.331589198579,"Euphausia pacifica (krill) total biomass anomaly",NaN,NaN
+"13825-01",-433.602825133582,"Euphausia pacifica (krill) total biomass anomaly",NaN,NaN
+"13825-01",-510.804954479857,"Euphausia pacifica (krill) total biomass anomaly",NaN,NaN
+"13825-01",-674.236668569039,"Euphausia pacifica (krill) total biomass anomaly",NaN,NaN
+"13825-01",-635.539384961737,"Euphausia pacifica (krill) total biomass anomaly",NaN,NaN
+"13825-01",-270.417395137183,"Euphausia pacifica (krill) total biomass anomaly",NaN,NaN
+"13825-01",-640.20900573038,"Euphausia pacifica (krill) total biomass anomaly",NaN,NaN
+"13825-01",-39.0751869370819,"Euphausia pacifica (krill) total biomass anomaly",NaN,NaN
+"13825-01",-435.044721160167,"Euphausia pacifica (krill) total biomass anomaly",NaN,NaN
+"13825-01",-78.5477022946537,"Euphausia pacifica (krill) total biomass anomaly",NaN,NaN
+"13825-01",-110.802673883352,"Euphausia pacifica (krill) total biomass anomaly",NaN,NaN
+"13825-01",-173.051648465516,"Euphausia pacifica (krill) total biomass anomaly",NaN,NaN
+"13825-01",-196.442794995591,"Euphausia pacifica (krill) total biomass anomaly",NaN,NaN
+"13825-01",-406.0568786812,"Euphausia pacifica (krill) total biomass anomaly",NaN,NaN
+"13825-01",-681.303940604097,"Euphausia pacifica (krill) total biomass anomaly",NaN,NaN
+"13825-01",31.3388090193428,"Euphausia pacifica (krill) total biomass anomaly",NaN,NaN
+"13825-01",-203.508812056304,"Euphausia pacifica (krill) total biomass anomaly",NaN,NaN
+"13825-01",-283.803463488037,"Euphausia pacifica (krill) total biomass anomaly",NaN,NaN
+"13825-01",-528.165804925178,"Euphausia pacifica (krill) total biomass anomaly",NaN,NaN
+"13825-01",-432.072166464169,"Euphausia pacifica (krill) total biomass anomaly",NaN,NaN
+"13825-01",534.855092334098,"Euphausia pacifica (krill) total biomass anomaly",NaN,NaN
+"13825-01",78.488319037335,"Euphausia pacifica (krill) total biomass anomaly",NaN,NaN
+"13825-01",1556.28775968592,"Euphausia pacifica (krill) total biomass anomaly",NaN,NaN
+"13825-01",2982.82880330007,"Euphausia pacifica (krill) total biomass anomaly",NaN,NaN
+"13825-01",-42.1473127164594,"Euphausia pacifica (krill) total biomass anomaly",NaN,NaN
+"13825-01",-455.261668999398,"Euphausia pacifica (krill) total biomass anomaly",NaN,NaN
+"13825-01",-13.7932177180893,"Euphausia pacifica (krill) total biomass anomaly",NaN,NaN
+"13825-01",-321.022099480839,"Euphausia pacifica (krill) total biomass anomaly",NaN,NaN
+"13825-01",-141.721249329375,"Euphausia pacifica (krill) total biomass anomaly",NaN,NaN
+"13825-01",-300.952508561088,"Euphausia pacifica (krill) total biomass anomaly",NaN,NaN
+"13825-01",-75.1983561105966,"Euphausia pacifica (krill) total biomass anomaly",NaN,NaN
+"13825-01",-314.660993362161,"Euphausia pacifica (krill) total biomass anomaly",NaN,NaN
+"13825-01",-308.553066722001,"Euphausia pacifica (krill) total biomass anomaly",NaN,NaN
+"13825-01",-788.761271287482,"Euphausia pacifica (krill) total biomass anomaly",NaN,NaN
+"13825-01",227.447125112692,"Euphausia pacifica (krill) total biomass anomaly",NaN,NaN
+"13825-01",-893.436277350936,"Euphausia pacifica (krill) total biomass anomaly",NaN,NaN
+"13825-01",-504.00711287345,"Euphausia pacifica (krill) total biomass anomaly",NaN,NaN
+"13825-01",35.3661578812081,"Euphausia pacifica (krill) total biomass anomaly",NaN,NaN
+"13825-01",-296.878290446399,"Euphausia pacifica (krill) total biomass anomaly",NaN,NaN
+"13825-01",-418.361591354234,"Euphausia pacifica (krill) total biomass anomaly",NaN,NaN
+"13825-01",419.786516370927,"Euphausia pacifica (krill) total biomass anomaly",NaN,NaN
+"13825-01",-367.246264088091,"Euphausia pacifica (krill) total biomass anomaly",NaN,NaN
+"13825-01",4165.46695883984,"Euphausia pacifica (krill) total biomass anomaly",NaN,NaN
+"13825-01",-33.1776572030535,"Euphausia pacifica (krill) total biomass anomaly",NaN,NaN
+"13825-01",1090.25088735391,"Euphausia pacifica (krill) total biomass anomaly",NaN,NaN
+"13825-01",-633.010170037608,"Euphausia pacifica (krill) total biomass anomaly",NaN,NaN
+"13825-01",768.619000702887,"Euphausia pacifica (krill) total biomass anomaly",NaN,NaN
+"13825-01",-453.64764736674,"Euphausia pacifica (krill) total biomass anomaly",NaN,NaN
+"13825-01",-883.845206541536,"Euphausia pacifica (krill) total biomass anomaly",NaN,NaN
+"13825-01",912.775568953514,"Euphausia pacifica (krill) total biomass anomaly",NaN,NaN
+"13825-01",321.410468937247,"Euphausia pacifica (krill) total biomass anomaly",NaN,NaN
+"13825-01",-363.36220206959,"Euphausia pacifica (krill) total biomass anomaly",NaN,NaN
+"13825-01",-217.234274426372,"Euphausia pacifica (krill) total biomass anomaly",NaN,NaN
+"13825-01",94.4241836778532,"Euphausia pacifica (krill) total biomass anomaly",NaN,NaN
+"13825-01",-123.878645394722,"Euphausia pacifica (krill) total biomass anomaly",NaN,NaN
+"13825-01",-366.949621617899,"Euphausia pacifica (krill) total biomass anomaly",NaN,NaN
+"13825-01",-795.830806649093,"Euphausia pacifica (krill) total biomass anomaly",NaN,NaN
+"13825-01",-782.201842316688,"Euphausia pacifica (krill) total biomass anomaly",NaN,NaN
+"13825-01",-691.686840656249,"Euphausia pacifica (krill) total biomass anomaly",NaN,NaN
+"13825-01",257.51852867837,"Euphausia pacifica (krill) total biomass anomaly",NaN,NaN
+"13825-01",-320.49894443344,"Euphausia pacifica (krill) total biomass anomaly",NaN,NaN
+"13825-01",-451.068696945217,"Euphausia pacifica (krill) total biomass anomaly",NaN,NaN
+"13825-01",-347.872554527775,"Euphausia pacifica (krill) total biomass anomaly",NaN,NaN
+"13825-01",-83.513667367358,"Euphausia pacifica (krill) total biomass anomaly",NaN,NaN
+"13825-01",276.752911922081,"Euphausia pacifica (krill) total biomass anomaly",NaN,NaN
+"13825-01",-724.264134438443,"Euphausia pacifica (krill) total biomass anomaly",NaN,NaN
+"13825-01",1074.63944913468,"Euphausia pacifica (krill) total biomass anomaly",NaN,NaN
+"13825-01",-786.947278506107,"Euphausia pacifica (krill) total biomass anomaly",NaN,NaN
+"13825-01",-330.194178842759,"Euphausia pacifica (krill) total biomass anomaly",NaN,NaN
+"13825-01",453.885505625514,"Euphausia pacifica (krill) total biomass anomaly",NaN,NaN
+"13825-01",360.886264173253,"Euphausia pacifica (krill) total biomass anomaly",NaN,NaN
+"13825-01",-184.135863600036,"Euphausia pacifica (krill) total biomass anomaly",NaN,NaN
+"13825-01",-403.796796658945,"Euphausia pacifica (krill) total biomass anomaly",NaN,NaN
+"13825-01",-643.681764210441,"Euphausia pacifica (krill) total biomass anomaly",NaN,NaN
+"13825-01",-770.889324802108,"Euphausia pacifica (krill) total biomass anomaly",NaN,NaN
+"13825-01",-262.486833024087,"Euphausia pacifica (krill) total biomass anomaly",NaN,NaN
+"13825-01",-808.626631779741,"Euphausia pacifica (krill) total biomass anomaly",NaN,NaN
+"13825-01",139.421308554857,"Euphausia pacifica (krill) total biomass anomaly",NaN,NaN
+"13825-01",-629.29073792971,"Euphausia pacifica (krill) total biomass anomaly",NaN,NaN
+*END_DATA*
