@@ -1,0 +1,48 @@
+Column,Serve in ERDDAP,name in csv file,ERDDAP name,type,Long Name,Description,Example,How used,Data Provider Entry?,Required?,Comment,ioos_category,units,subset_variable
+AC,1,serve_flag,currently_served,int,Currently served,Is this indicator currently served in CCIEA indicator tables? (1=yes),1,Indicators can be served in ERDDAP but removed from CCIEA  perhaps because they are not currently being updated or are not relevant in a given year.,Y,Y,Not served unless this column is 1,Other,,1
+A,1,PI_ID,principal_investigator_id,String,Principal Investigator_ID,Identifier used by CCIEA,Field,internal use,,Y,,Identifier,,1
+B,1,PI,principal_investigator,String,Principal Investigator,Full names of Principal Investigators,John Field,CCIEA web pages and ERDDAP metadata,Y,Y,"full name optional, multiple people possible ",Other,,1
+C,1,Contact,contact,String,Contact,email address,john.field@noaa.gov,CCIEA web pages and ERDDAP metadata,Y,N,,Other,,1
+G,1,Institution,institution,String,Institution,list of institutions contributing to this indicator,NOAA SWFSC,CCIEA web pages and ERDDAP metadata,Y,Y,,Other,,1
+E,1,Dataset_Title,dataset_title,String,Title of ERDDAP dataaset,,"Forage Biomass, California Current Central",,,N,,Other,,1
+AA,1,PI_filename,filename,String,PI Filename,,alltaxa2long4.csv,most recent version of data provider file,Y,Y,,Other,,1
+AB,1,cciea_filename,cciea_filename,String,CCIEA Filename,,Forage_CCC_RREAS_catch,,,Y,,Other,,1
+D,1,Title,indicator_title,String,Indicator title,,Adult anchovy - CCC,Title used for this indicator  in CCIEA plots and web pages,Y,Y,,Identifier,,1
+F,1,Background_Info,info_URL,String,Link to more information,,,ERDDAP metadata,Y,Y,Where users can go to get more information about the data,Other,,
+V,1,Component_Section,component,String,CCIEA Component,,Ecological Integrity,,Y,Y,choose from dropdown menu,Other,,1
+W,1,Subcomponent,subcomponent,String,CCIEA SubComponent,,Forage Availability,,Y,N,specify when appropriate,Other,,1
+Y,1,Source_Data,source_data_summary,String,Description of Source Data,,Dr. John Field (NOAA; john.field@noaa.gov) from the SWFSC Rockfish Recruitment and Ecosystem Assessment Survey (https://swfsc.noaa.gov/textblock.aspx?Division=FED&ParentMenuId=54&id=20615).,"Shown on CCIEA-table next to plot, used in ERDDAP metadata",Y,Y,,Other,,
+Z,1,Additional_Calculations,additional_calculations,String,Additional Calculations,,"Samples represent catch (individuals) per standard 15 minute trawl (CPUE). Data are log(CPUE+1) transformed; Geometric means calculated on non-zero data. Note: Sampling effort was greatly reduced in time and space during 2020 due to COVID restrictions, and associated data reflected substantial bias for many taxa; see Appendix G in Harvey et al 2021 (https://www.pcouncil.org/documents/2021/02/i-1-a-iea-team-report-2.pdf/) for model approaches used to develop alternative indices in 2020. ","Shown on CCIEA-table next to plot, used in ERDDAP metadata",Y,N,,Other,,
+N,1,Units,units,String,Units,,ln(catch+1),"Appended to y-axis label, used in ERDDAP",Y,Y,can be blank if unitless measurement,Other,,
+O,1,region,region,String,Region,,CCC,"CCIEA Table under ""Site or Season""",Y,N,a general region: used if no lat/lon available,Other,,1
+P,1,latitude,latitude,float,Latitude,Minimum latitude if range,,"CCIEA Table under ""Site or Season""",Y,N,can be a single value or a range,Location,degrees_north,
+Q,1,longitude,longitude,float,Longitude,Minimum longitude if range,,"CCIEA Table under ""Site or Season""",Y,N,can be a single value or a range,Location,degrees_east,
+R,1,latitude2,max_latitude,float,Max Latitude,Maximum latitude if range,,,,,,Location,degrees_north,
+S,1,longitude2,max_longitude,float,Max Longitude,Maximum longitude if range,,,,,,Location,degrees_east,
+T,1,Sampling_frequency,sampling_frequency,String,Sampling Frequency,,Annual,,Y,N,,Other,,1
+U,1,Scientific_name,scientific_name,String,Scientific name,,Engraulis mordax,,Y,N,specify when appropriate,Other,,
+M,1,Long_variable_name,long_variable_name,String,Y axis label (long variable name),,Mean CPUE,plot label for Y axis,Y,N,Often left blank if only units are desired on the Y axis,Other,,
+Y,1,Figure_grouping,figure_grouping_order,int,Figure grouping Numerical Order,,(an integer),can by used to specify display order,,N,"multiple uses, may change in future",Other,,
+AD,1,use_pi_se,use_pi_se_flag,int,Use PI error or calculate,"Can have datasets specific values. The default is to calculate standard error in CCIEA R code when the indicator is plotted unless this flag is set, in which case columns in the uploaded file are used.",1,"1 = ERDDAP uses columns SEup and Selo directly, plots use these columns from ERDDAP;  2 = have one _SE variable per erddap variable (cciea_MM, cciea_HMS), 3= specifically deal with Muhling _SElo _SEup _SEtype columns",Y,N,Calculate standard error if left blank,Other,,
+AG,1,whale_entanglement,whale_entanglement_flag,int,Whale Entanglement Data Flag,,1,"flag to indicate whether this indicator is shown in the whale entanglement view of the Indicators (1=show, 0 or blank = don't show)",,,,Other,,1
+AI,1,Salmon_Web,salmon_web_flag,int,Salmon Web Data Flag,,1,"flag to indicate whether this indicator is shown in the salmon web page view of the Indicators (1=show, 0 or blank = don't show)",,,,Other,,1
+AH,1,no_download,no_download_flag,int,No Download Data Flag,,,"flag to indicate whether this data should be protected from downloading (1=yes, protected, 0 or blank = no protection, allow download)",,,,Other,,1
+AM,1,last_metadata_update,last_metadata_update,String,Date of last metadata update,,,,,,,Time,yyyy-MM-dd,
+AN,1,last_data_update,last_data_update,String,Date of last data upload,,,,,,,Time,yyyy-MM-dd,
+I,1,ERDDAP_Dataset_ID,erddap_dataset_id,String,ERDDAP Dataset ID,,cciea_EI_FBC,ERDDAP dataset name,,Y,Choose from dropdown -  list is modified when ERDDAP datasets are added,Identifier,,1
+H,1,CCIEA_timeseries_ID,cciea_timeseries_id,String,CCIEA timeseries ID,,cciea_EI_ANCHO_CC,Unique identifier for this indicator,,Y,internal use only,Identifier,,
+J,1,ERDDAP_query_parameter,erddap_query_parameter,String,ERDDAP query parameter,,species_group,query name in ERDDAP URL,,N,"internal use only, set if there are multiple time series in a dataset",Other,,
+K,1,ERDDAP_query_value,erddap_query_value,String,ERDDAP query value,,Adult northern anchovy,"would provide a query like: ""species_group=Adult northern anchovy""
+",,N,"internal use only, set if there are multiple time series in a dataset",Other,,
+L,1,ERDDAP_variable_name,erddap_variable_name,String,Variable Name in ERDDAP,,mean_cpue,"would provide a query like: "" get mean_cpue where species_group=Adult northern anchovy""
+",,,"optional, will be set for you unless you specify",Other,,
+AJ,1,indicator_name_in_PI_file,indicator_name_in_pi_file,String,Indicator name in PI file,,,used when data provider indicator name is different than preferred variable name in ERDDAP,Y,N,needed to match up column K with data provider file columns,Other,,
+AE,1,pfmc,pfmc_flag,int,PFMC Data Flag,,1,"flag to indicate whether this indicator is shown in the current PFMC view of the Indicators (1=show, 0 or blank = don't show)",,,,Other,,1
+AF,1,sanctuary,sanctuary_flag,int,Sanctuary Data Flag,,,"flag to indicate whether this indicator is shown in the sanctuary view of the Indicators (1=show, 0 or blank = don't show)",,,,Other,,1
+,1,trend,trend,String,Trend,"Most recent 5-year (10-year for Salmon) trend (u = upward, increasing; d = downward, decreasing; n = no trend)",,,,,calculated,Other,,1
+,1,status,status,String,Status,"Most recent 5-year (10-year for Salmon) mean relative to the long-term mean (a = above more than 1 standard deviation; b = below more than 1 standard deviation, e = equal, within 1 standad deviation",,,,,calculated,Other,,1
+,1,year_begin,year_begin,int,First year of time series,First year for this indicator,,,,,calculated,Other,,
+,1,year_end,year_end,int,Last year of time series,Most recent year for this indicator,,,,,calculated,Other,,
+,1,default_figure,default_figure,String,Default Figure,Most recent static figure generated for CCIEA indicator tables,,,,,calculated,Other,,
+,1,min,min,float,Time series minimum,same units as time series,,,,,calculated,Other,,
+,1,max,max,float,Time series maximum,same units as time series,,,,,calculated,Other,,
