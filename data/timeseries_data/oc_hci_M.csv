@@ -557,6 +557,7 @@ year,month,time,index,SE,SElo,SEup,metric,timeseries,lat,lon,depth,order
 2026,4,2026-04,0.0033407572383073,,,,Habitat Area (fraction below monthly threshold),Monthly Habitat Compression Index over 43.5-48N,,,2,1
 2026,5,2026-05,0.0590200445434298,,,,Habitat Area (fraction below monthly threshold),Monthly Habitat Compression Index over 43.5-48N,,,2,1
 2026,6,2026-06,0.3630289532293986,,,,Habitat Area (fraction below monthly threshold),Monthly Habitat Compression Index over 43.5-48N,,,2,1
+2026,7,2026-07,0.2605790645879732,,,,Habitat Area (fraction below monthly threshold),Monthly Habitat Compression Index over 43.5-48N,,,2,1
 1980,1,1980-01,0.2015037593984962,,,,Habitat Area (fraction below monthly threshold),Monthly Habitat Compression Index over 40-43.5N,,,2,2
 1980,2,1980-02,0.1203007518796992,,,,Habitat Area (fraction below monthly threshold),Monthly Habitat Compression Index over 40-43.5N,,,2,2
 1980,3,1980-03,0,,,,Habitat Area (fraction below monthly threshold),Monthly Habitat Compression Index over 40-43.5N,,,2,2
@@ -1115,6 +1116,7 @@ year,month,time,index,SE,SElo,SEup,metric,timeseries,lat,lon,depth,order
 2026,4,2026-04,0.1037593984962406,,,,Habitat Area (fraction below monthly threshold),Monthly Habitat Compression Index over 40-43.5N,,,2,2
 2026,5,2026-05,0.231578947368421,,,,Habitat Area (fraction below monthly threshold),Monthly Habitat Compression Index over 40-43.5N,,,2,2
 2026,6,2026-06,0.5413533834586466,,,,Habitat Area (fraction below monthly threshold),Monthly Habitat Compression Index over 40-43.5N,,,2,2
+2026,7,2026-07,0.312781954887218,,,,Habitat Area (fraction below monthly threshold),Monthly Habitat Compression Index over 40-43.5N,,,2,2
 1980,1,1980-01,0.2248908296943231,,,,Habitat Area (fraction below monthly threshold),Monthly Habitat Compression Index over 35.5-40N,,,2,3
 1980,2,1980-02,0.0458515283842794,,,,Habitat Area (fraction below monthly threshold),Monthly Habitat Compression Index over 35.5-40N,,,2,3
 1980,3,1980-03,0,,,,Habitat Area (fraction below monthly threshold),Monthly Habitat Compression Index over 35.5-40N,,,2,3
@@ -1673,6 +1675,7 @@ year,month,time,index,SE,SElo,SEup,metric,timeseries,lat,lon,depth,order
 2026,4,2026-04,0.0262008733624454,,,,Habitat Area (fraction below monthly threshold),Monthly Habitat Compression Index over 35.5-40N,,,2,3
 2026,5,2026-05,0.2085152838427947,,,,Habitat Area (fraction below monthly threshold),Monthly Habitat Compression Index over 35.5-40N,,,2,3
 2026,6,2026-06,0.3089519650655022,,,,Habitat Area (fraction below monthly threshold),Monthly Habitat Compression Index over 35.5-40N,,,2,3
+2026,7,2026-07,0.2587336244541485,,,,Habitat Area (fraction below monthly threshold),Monthly Habitat Compression Index over 35.5-40N,,,2,3
 1980,1,1980-01,0.3993610223642173,,,,Habitat Area (fraction below monthly threshold),Monthly Habitat Compression Index over 30-35.5N,,,2,4
 1980,2,1980-02,0.1829073482428115,,,,Habitat Area (fraction below monthly threshold),Monthly Habitat Compression Index over 30-35.5N,,,2,4
 1980,3,1980-03,0.2300319488817891,,,,Habitat Area (fraction below monthly threshold),Monthly Habitat Compression Index over 30-35.5N,,,2,4
@@ -2231,3 +2234,4 @@ year,month,time,index,SE,SElo,SEup,metric,timeseries,lat,lon,depth,order
 2026,4,2026-04,0.0335463258785942,,,,Habitat Area (fraction below monthly threshold),Monthly Habitat Compression Index over 30-35.5N,,,2,4
 2026,5,2026-05,0.2891373801916932,,,,Habitat Area (fraction below monthly threshold),Monthly Habitat Compression Index over 30-35.5N,,,2,4
 2026,6,2026-06,0.3650159744408945,,,,Habitat Area (fraction below monthly threshold),Monthly Habitat Compression Index over 30-35.5N,,,2,4
+2026,7,2026-07,0.3865814696485623,,,,Habitat Area (fraction below monthly threshold),Monthly Habitat Compression Index over 30-35.5N,,,2,4
