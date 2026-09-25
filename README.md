@@ -3,6 +3,7 @@
 - [California Current Integrated Ecosystem Assessment (CCIEA)
   Uploader](#california-current-integrated-ecosystem-assessment-cciea-uploader)
   - [Code](#code)
+  - [Updating for new year](#updating-for-new-year)
   - [CCIEA Resources](#cciea-resources)
 
 <hr>
@@ -29,7 +30,7 @@ information and updates from Google Spreadsheets and Drive, and a Quarto
 Website written in R and OJS.
 
 <img src="README_files/figure-commonmark/mermaid-figure-1.png"
-style="width:7in;height:7.28in" />
+style="width:7in;height:10.07in" />
 
 - **Github Action** - runs daily at 6 am
   - main.yaml: get_status.R
@@ -44,7 +45,8 @@ style="width:7in;height:7.28in" />
             - data file: clean it and move to esr_year folder, plot it
               (work in progress)
             - other file types: just move them to esr_folder
-          - Backup original files (PI_original folder)
+          - Backup original files (to PI_original folder for each data
+            provider)
       2.  get_file_conventions()
           - input: file name conventions (Google Drive spreadsheet)
           - output: cciea_naming_conventions.json
@@ -69,6 +71,21 @@ style="width:7in;height:7.28in" />
             tibble, officer
           - \_init.qmd
       4.  input: uploader_status\_\[esr_year\].json
+
+### Updating for new year
+
+- create new esr_year folders in Google Drive CCIEA_Data_Upload for each
+  data provider
+- update esr_year and last_year in
+  - init.R
+  - init.qmd
+- the new version won’t intermediately build because it will be missing
+  uploader_status\_\[esr_year\].json. Do one of the following:
+  - copy and rename the previous year json file just so the code builds
+  - run Rscript get_status.R (on local machine) to generate a new file
+  - push init.R/qmd to GitHub and start the workflow “Access Google
+    Drive” to run the scripts for the first time of the new year and
+    build the web page
 
 ### CCIEA Resources
 
