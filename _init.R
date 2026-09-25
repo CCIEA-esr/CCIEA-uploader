@@ -1,8 +1,8 @@
 ## Default parameters for GitHub Actions
 ## This file must be updated at the beginning of each ESR Season
 ## Google Drive folders for each data provider must exist for esr_year and be named consistently
-esr_year="2025-2026"
-last_year="2024-2025"
+esr_year="2026-2027"
+last_year="2025-2026"
 ## Default URL for CCIEA information
 global_info_url="https://www.integratedecosystemassessment.noaa.gov/regions/california-current/about-california-current-integrated-ecosystem-assessment"
 # CCIEA required/optional file column headers
