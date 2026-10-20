@@ -1,7 +1,6 @@
-# generates nccsv files for files that have been uploaded
+# generates nccsv files for all files that have been uploaded
 # uses uploader-status.json to determine what files need generating
 # generates an NCCSV file and a dataset XML file for each ERDDAP_Dataset_ID
-
 
 library(tidyverse)
 library(jsonlite)
@@ -9,13 +8,6 @@ library(xml2)
 
 source("_init.R")
 
-# --- Configuration & Arguments ---
-#args <- commandArgs(trailingOnly = TRUE)
-#PI_id <- if (length(args) > 0) args[1] else "Schroeder"
-
-#cat("generating nccsv for PI", PI_id, "\n")
-
-#path <- "/home/ldewitt/Documents/GitHub/CCIEA-uploader/data/"
 path <- "data/"
 infile <- paste0(path, "CCIEA_metadata.csv")
 inpath <- paste0(path, "timeseries_data") # where to find the input data files
@@ -25,39 +17,16 @@ newfilelist <- paste0(path, "uploader_status_",esr_year,".json")  # output of up
 erdsettype <- "EDDTableFromNccsvFiles"
 serverdatapath <- paste0("/data/cciea_uploader_",esr_year,"/nccsv/") # data path on server for data in datasets.xml
 
-# --- Helper: Load Filename Fixes ---
-#file_fixnames <- "rename_files.csv"
-#fix_df <- read_csv(file_fixnames, show_col_types = FALSE) %>%
-#  filter(!is.na(.[[1]]))
-#fix_map <- setNames(fix_df[[2]], fix_df[[1]])
+cat("using ",newfilelist," to generate nccsv files from uploaded data", "\n")
 
-# --- Helper: Load Uploader Status (JSON) ---
+# Load Uploader Status (JSON) ---
 status_data <- fromJSON(newfilelist, simplifyVector = FALSE)
 version <- status_data$statusupdate
 headervars <- status_data$headervars
 headervarsmon <- status_data$headervarsmon
 
-# old code that fixed file names
-# newfilearray <- list()
-# for (pi_item in status_data$status) {
-#   pifiles <- list()
-#  for (f in pi_item$files) {
-#     if (f$name %in% names(fix_map)) {
-#       fixed_name <- fix_map[[f$name]]
-#       pifiles[[fixed_name]] <- f
-#     } else {
-#       cat(f$name, "not found in naming list\n")
-#     }
-#   }
-#   newfilearray[[pi_item$name]] <- list(
-#     newmeta = pi_item$newmeta,
-#     version = pi_item$newmetaupdate,
-#     files = pifiles
-#   )
-# }
-
 # Process the nested JSON into file list for PI
-newfilearray <- list()
+newfilearray <- list()  ## list of all new files and header check by PI_id
 pis <- c()
 for (pi_item in status_data$status) {
   pis <- c(pis,pi_item$name)
@@ -78,69 +47,58 @@ for (pi_item in status_data$status) {
 # Initialize ERDDAP XML
   root <- xml_new_root("erddapDatasets")
   
-# Loop through PI's who have uploaded data
+# Loop through PI's; determine which has uploaded data
 
 for (PI_id in pis){
   cat("generating nccsv for PI", PI_id, "\n")
 
-
-# --- Main Processing Loop ---
 # Filter metadata for the specific PI
 pi_meta <- meta_df %>% filter(PI_ID == PI_id, serve_flag == "1")
 
 if (nrow(pi_meta) > 0 && PI_id %in% names(newfilearray)) {  ## process this PI
   
-  status_files <- newfilearray[[PI_id]]$files
+  status_files <- newfilearray[[PI_id]]$files ## uploaded files and header stats for this PI
   if (length(status_files) == 0) {
     print(paste("No new files for", PI_id))
-    next
+    next   ## no new uploaded files for this PI, go to next PI
   }
 # files uploaded for this PI according to cciea uploader json file:
   infilelist <- names(status_files)
-  
-  # Group by Dataset ID
-  datasets <- split(pi_meta, pi_meta$ERDDAP_Dataset_ID)
-
-  for (eid in names(datasets)) { # loop through erddap dataset id's for this PI - one nccsv file per dataset, but there can be multiple data files in a dataset
-    cat(eid, "\n")
+# find the dataset for each uploaded file
+  for (idf in seq_along(infilelist)){
+    dset_df <- meta_df %>% filter(PI_ID == PI_id, serve_flag == "1", cciea_filename == infilelist[idf])
+    dsetfilelist <- unique(dset_df$cciea_filename)  # list of cciea file names for this PI and erddap dataset id in metadata spreadsheet
+    if(nrow(dset_df)==0){
+      dset_df <- meta_df %>% filter(PI_ID == PI_id, serve_flag == "1", PI_filename == infilelist[idf])
+      dsetfilelist <- unique(dset_df$PI_filename)  # list of cciea file names for this PI and erddap dataset id in metadata spreadsheet
+      if(nrow(dset_df)==0){
+        cat(infilelist[idf]," not a cciea or PI file name for ",PI_id, "\n")
+        next
+      }
+    }
+    eid <- unique(dset_df$ERDDAP_Dataset_ID)
     if(str_ends(eid, "_ND")){
       print(paste(eid," is a private dataset, don't serve it in ERDDAP"))
       next
       }
-    
-    dset_df <- datasets[[eid]]  # list of metadata for this PI and erddap dataset id
-    
+
     outdir <- file.path(nccsvoutpath, PI_id)
     if (!dir.exists(outdir)) dir.create(outdir, recursive = TRUE)
     outfile <- file.path(outdir, paste0(eid, ".csv"))
     
     # Check column requirements across all files in this dataset
-    pifilelist <- unique(dset_df$cciea_filename)  # list of data files for this PI and erddap dataset id in metadata spreadsheet
-
-   # loop through files for this dataset, check file existance and naming 
-   # note multiple files in a dataset mostly applies to bird data
-   # keep track of whether need to read cciea_filename or PI_filename
-    pifilestatus <- list()
-    for (idx in seq_along(pifilelist)) {
-      fname <- pifilelist[idx]
-      pname <- fname
-      pifilestatus[[idx]] <- list()
-      pifilestatus[[idx]]$metafile <- fname
-      pifilestatus[[idx]]$infile <- fname   # file uploaded by PI; if different than cciea_filename, this name should be entered into the PI_filename column
-      if (!fname %in% infilelist){
-        # uploaded file name is not cciea_filename, check if it's the PI_filename in metadata spreadsheet instead
-        meta_for_fname <- dset_df %>% filter(cciea_filename == fname, serve_flag == "1") # metadata for rows where cciea_filename == fname
-        pifile <- unique(meta_for_fname$PI_filename) # PI filename where cciea_filename == fname
-        if(length(pifile>0) && pifile %in% infilelist){
-          pname <- pifile
-          pifilestatus[[idx]]$infile <- pname
+        pifilestatus <- list()
+        for (idx in seq_along(dsetfilelist)) {
+          fname <- dsetfilelist[idx]
+          pname <- fname
+          pifilestatus[[idx]] <- list()
+          pifilestatus[[idx]]$metafile <- fname # cciea file name from metadata spreadsheet
+          pifilestatus[[idx]]$infile <- fname   # file uploaded by PI; if different than cciea_filename, this name should be entered into the PI_filename column
           }
-      	}
-      fpath <- file.path(inpath, pname)
-      if (!file.exists(fpath)) stop(paste("Something is wrong, file not found", fname, "or", pname," ; perhaps you need to remove serve_flag from this dataset?"))
-      }
-      
-
+          
+          fpath <- file.path(inpath, infilelist[idf])
+          if (!file.exists(fpath)) stop(paste("Something is wrong, file not found", infilelist[idf]))
+    
     has_metric <- FALSE
     has_se <- FALSE    
    # check consistency of header across all files (usually only one file)
@@ -336,7 +294,7 @@ if (nrow(pi_meta) > 0 && PI_id %in% names(newfilearray)) {  ## process this PI
         att <- xml_add_child(t_att, "att","Other")
   	  xml_set_attr(att, "name", "ioos_category")
       }
-  } ## end of erddap dataset id loop
+  } ## end of infile loop
   
   # Save XML
   pi_file <- PI_id
@@ -346,5 +304,6 @@ if (nrow(pi_meta) > 0 && PI_id %in% names(newfilearray)) {  ## process this PI
   xmlfile <-  combined_file
   xmloutdir <- file.path(xmloutpath, paste0(xmlfile,".xml"))
   write_xml(root, xmloutdir)
+
   }  ## end of this PI loop
 }
