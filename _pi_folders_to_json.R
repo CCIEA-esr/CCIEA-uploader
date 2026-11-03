@@ -254,6 +254,7 @@ check_upload_status <- function(esr_year,metadata_spreadsheet_folder,meta_file_s
           # change file extension to .csv and rename pifiles$name[f]
           # pifiles$id[f] will also need changing
           # maybe do in a separate loop then run find_PI_files.. again?
+          mime_type <- pifiles$drive_resource[[f]]$mimeType
           
           fileobj <- list()
           print(pifiles$name[f])
@@ -265,7 +266,7 @@ check_upload_status <- function(esr_year,metadata_spreadsheet_folder,meta_file_s
             drive_mv(file = pifiles$id[f], path = backup_folder_id)     	
             }
           ## if this is an indicator csv data file or spreadsheet - clean it, move it to esr_year folder, and plot it
-          else if(grepl(".csv",pifiles$name[f])){
+          else if(grepl(".csv",pifiles$name[f])||mime_type=="application/vnd.google-apps.spreadsheet"){
            datares="Annual"
            # hack for copepods because Zoop file name doesn't contain monthly designation and sampling_frequency column in metadata is inconsistent
            if(grepl("_M.csv",pifiles$name[f]) || grepl("Monthly",pifiles$name[f]) || grep("copepods",pifiles$name[f]))datares="Monthly"
