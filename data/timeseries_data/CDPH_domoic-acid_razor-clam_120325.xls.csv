@@ -1,0 +1,914 @@
+SRL #,Date -Sampled-,Sample Site,Mod-ASP,ASP -ug/g-,County,Sample Type,Latitude,Longitude,# of individuals
+91-1972-00,1992-05-03T00:00:00Z,"Clam Beach, McKinleyville",,9.7,Humboldt,Razor Clam meat,40.948,-124.13,
+91-1974-00,1992-05-03T00:00:00Z,"Clam Beach, McKinleyville",,1.7,Humboldt,Razor Clam meat,40.948,-124.13,
+91-1981-00,1992-05-05T00:00:00Z,"Crescent City, Endert's Beach",,2,Del Norte,Razor Clam meat,41.71,-124.1425,
+91-2123-00,1992-05-17T00:00:00Z,"Crescent City, Endert's Beach",,4,Del Norte,Razor Clam meat,41.71,-124.1425,
+91-2101-00,1992-06-02T00:00:00Z,"Clam Beach, McKinleyville",,14,Humboldt,Razor Clam meat,40.948,-124.13,
+92-0142-00,1992-07-01T00:00:00Z,"Crescent City, Endert's Beach",<,1,Del Norte,Razor Clam meat,41.71,-124.1425,
+92-0431-00,1992-07-03T00:00:00Z,"Clam Beach, McKinleyville",,1.6,Humboldt,Razor Clam meat,40.948,-124.13,
+92-0433-00,1992-07-03T00:00:00Z,"Clam Beach, McKinleyville",<,1,Humboldt,Razor Clam meat,40.948,-124.13,
+92-1316-00,1992-12-21T00:00:00Z,"Crescent City, Endert's Beach",<,1,Del Norte,Razor Clam meat,41.71,-124.1425,
+04-0661-01,2004-05-15T00:00:00Z,"Crescent City, Endert's Beach",,85,Del Norte,Razor Clam meat,41.71,-124.1425,
+04-0661-02,2004-05-15T00:00:00Z,"Crescent City, Endert's Beach",,89,Del Norte,Razor Clam meat,41.71,-124.1425,
+04-0723-01,2004-06-04T00:00:00Z,"Humboldt, Clam Beach",,130,Humboldt,Razor Clam meat,41.0081,-124.1147,
+04-0723-02,2004-06-04T00:00:00Z,"Humboldt, Clam Beach",,160,Humboldt,Razor Clam meat,41.0081,-124.1147,
+04-0724-01,2004-06-04T00:00:00Z,"Humboldt, Clam Beach",,170,Humboldt,Razor Clam meat,41.0081,-124.1147,
+04-0724-02,2004-06-04T00:00:00Z,"Humboldt, Clam Beach",,150,Humboldt,Razor Clam meat,41.0081,-124.1147,
+04-0769-00,2004-07-02T00:00:00Z,"Crescent City, Endert's Beach",,54,Del Norte,Razor Clam meat,41.71,-124.1425,
+M11P00380,2011-04-20T00:00:00Z,"Clam Beach, North",,3.8,Humboldt,Razor Clam meat,40.948,-124.13,
+M11P00381,2011-04-21T00:00:00Z,"Clam Beach, North",,2.9,Humboldt,Razor Clam meat,40.948,-124.13,
+M15P00051,2014-12-05T00:00:00Z,"Bodega Harbor, Doran Beach",,7.2,Sonoma,Razor Clam meat,38.31034,-123.047209,
+F15C00870,2015-06-17T00:00:00Z,"Humboldt, Moonstone Beach",,13,Humboldt,Razor Clam meat,41.0469,-124.1249,5
+F16E00272,2015-07-03T00:00:00Z,"Humboldt, Clam Beach",,27,Humboldt,Razor Clam meat,41.0081,-124.1147,1
+F16E00273M,2016-01-24T00:00:00Z,"Humboldt, Clam Beach",,380,Humboldt,Razor Clam meat,41.0081,-124.1147,1
+F16E00274M,2016-01-24T00:00:00Z,"Humboldt, Clam Beach",,140,Humboldt,Razor Clam meat,41.0081,-124.1147,1
+F16E00275M,2016-01-24T00:00:00Z,"Humboldt, Clam Beach",,280,Humboldt,Razor Clam meat,41.0081,-124.1147,1
+F16E00276M,2016-01-24T00:00:00Z,"Humboldt, Clam Beach",,92,Humboldt,Razor Clam meat,41.0081,-124.1147,1
+F16E00277M,2016-01-24T00:00:00Z,"Humboldt, Clam Beach",,10,Humboldt,Razor Clam meat,41.0081,-124.1147,1
+F16E00374M,2016-02-06T00:00:00Z,"Crescent City, Crescent Beach",,60,Del Norte,Razor Clam meat,41.71,-124.1425,1
+F16E00375M,2016-02-06T00:00:00Z,"Crescent City, Crescent Beach",,81,Del Norte,Razor Clam meat,41.71,-124.1425,1
+F16E00376M,2016-02-06T00:00:00Z,"Crescent City, Crescent Beach",,60,Del Norte,Razor Clam meat,41.71,-124.1425,1
+F160402113,2016-04-03T00:00:00Z,"Crescent City, Crescent Beach",,41,Del Norte,Razor Clam meat,41.71,-124.1425,2
+F160402114,2016-04-03T00:00:00Z,"Crescent City, Crescent Beach",,47,Del Norte,Razor Clam meat,41.71,-124.1425,2
+F160402115,2016-04-03T00:00:00Z,"Crescent City, Crescent Beach",,61,Del Norte,Razor Clam meat,41.71,-124.1425,3
+F16E00644M,2016-04-06T00:00:00Z,"Humboldt, Moonstone Beach",,180,Humboldt,Razor Clam meat,41.0469,-124.1249,1
+F16E00645M,2016-04-06T00:00:00Z,"Humboldt, Moonstone Beach",,120,Humboldt,Razor Clam meat,41.0469,-124.1249,1
+F16E00646M,2016-04-06T00:00:00Z,"Humboldt, Moonstone Beach",,54,Humboldt,Razor Clam meat,41.0469,-124.1249,1
+F16E00647M,2016-04-06T00:00:00Z,"Humboldt, Moonstone Beach",,100,Humboldt,Razor Clam meat,41.0469,-124.1249,1
+F16E00648M,2016-04-06T00:00:00Z,"Humboldt, Moonstone Beach",,72,Humboldt,Razor Clam meat,41.0469,-124.1249,1
+F160402127,2016-04-07T00:00:00Z,"Crescent City, Crescent Beach",,9.3,Del Norte,Razor Clam meat,41.71,-124.1425,1
+F160402128,2016-04-07T00:00:00Z,"Crescent City, Crescent Beach",,21,Del Norte,Razor Clam meat,41.71,-124.1425,1
+F160402129,2016-04-07T00:00:00Z,"Crescent City, Crescent Beach",,120,Del Norte,Razor Clam meat,41.71,-124.1425,1
+F160402405,2016-04-10T00:00:00Z,"Crescent City, Crescent Beach",,160,Del Norte,Razor Clam meat,41.71,-124.1425,1
+F160402406,2016-04-10T00:00:00Z,"Crescent City, Crescent Beach",,170,Del Norte,Razor Clam meat,41.71,-124.1425,1
+F160402407,2016-04-10T00:00:00Z,"Crescent City, Crescent Beach",,33,Del Norte,Razor Clam meat,41.71,-124.1425,1
+F160402408,2016-04-10T00:00:00Z,"Crescent City, Crescent Beach",,16,Del Norte,Razor Clam meat,41.71,-124.1425,1
+F160402409,2016-04-10T00:00:00Z,"Crescent City, Crescent Beach",,70,Del Norte,Razor Clam meat,41.71,-124.1425,1
+F160402410,2016-04-10T00:00:00Z,"Crescent City, Crescent Beach",,47,Del Norte,Razor Clam meat,41.71,-124.1425,1
+F160402810,2016-04-10T00:00:00Z,"Crescent City, Crescent Beach",,6.8,Del Norte,Razor Clam meat,41.71,-124.1425,1
+F160402811,2016-04-10T00:00:00Z,"Crescent City, Crescent Beach",,100,Del Norte,Razor Clam meat,41.71,-124.1425,1
+F160402812,2016-04-10T00:00:00Z,"Crescent City, Crescent Beach",,32,Del Norte,Razor Clam meat,41.71,-124.1425,2
+F160402813,2016-04-10T00:00:00Z,"Crescent City, Crescent Beach",,94,Del Norte,Razor Clam meat,41.71,-124.1425,2
+F160501701,2016-05-07T00:00:00Z,"Crescent City, Crescent Beach",,16,Del Norte,Razor Clam meat,41.71,-124.1425,3
+F160501703,2016-05-07T00:00:00Z,"Crescent City, Crescent Beach",,13,Del Norte,Razor Clam meat,41.71,-124.1425,2
+F160501705,2016-05-07T00:00:00Z,"Crescent City, Crescent Beach",,14,Del Norte,Razor Clam meat,41.71,-124.1425,1
+F160501213,2016-05-09T00:00:00Z,"Humboldt, Clam Beach",,24,Humboldt,Razor Clam meat,41.0081,-124.1147,1
+F160501215,2016-05-09T00:00:00Z,"Humboldt, Clam Beach",<,2.5,Humboldt,Razor Clam meat,41.0081,-124.1147,1
+F160501217,2016-05-09T00:00:00Z,"Humboldt, Clam Beach",,75,Humboldt,Razor Clam meat,41.0081,-124.1147,1
+F160501219,2016-05-09T00:00:00Z,"Humboldt, Clam Beach",,17,Humboldt,Razor Clam meat,41.0081,-124.1147,3
+F16E00785M,2016-06-05T00:00:00Z,"Crescent City, Crescent Beach",,85,Del Norte,Razor Clam meat,41.71,-124.1425,1
+F16E00786M,2016-06-05T00:00:00Z,"Crescent City, Crescent Beach",,18,Del Norte,Razor Clam meat,41.71,-124.1425,1
+F16E00787M,2016-06-05T00:00:00Z,"Crescent City, Crescent Beach",,35,Del Norte,Razor Clam meat,41.71,-124.1425,1
+F16E00788M,2016-06-05T00:00:00Z,"Crescent City, Crescent Beach",,43,Del Norte,Razor Clam meat,41.71,-124.1425,1
+F16E00789M,2016-06-05T00:00:00Z,"Crescent City, Crescent Beach",,57,Del Norte,Razor Clam meat,41.71,-124.1425,2
+F16E00812M,2016-06-08T00:00:00Z,"Clam Beach, McKinleyville",,140,Humboldt,Razor Clam meat,40.948,-124.13,1
+F16E00813M,2016-06-08T00:00:00Z,"Clam Beach, McKinleyville",,140,Humboldt,Razor Clam meat,40.948,-124.13,1
+F16E00814M,2016-06-08T00:00:00Z,"Clam Beach, McKinleyville",,78,Humboldt,Razor Clam meat,40.948,-124.13,1
+F16E00815M,2016-06-08T00:00:00Z,"Clam Beach, McKinleyville",,140,Humboldt,Razor Clam meat,40.948,-124.13,1
+F16E00816M,2016-06-08T00:00:00Z,"Clam Beach, McKinleyville",,44,Humboldt,Razor Clam meat,40.948,-124.13,1
+F16E00817M,2016-06-08T00:00:00Z,"Clam Beach, McKinleyville",,54,Humboldt,Razor Clam meat,40.948,-124.13,3
+F16E00818M,2016-06-08T00:00:00Z,"Clam Beach, McKinleyville",,30,Humboldt,Razor Clam meat,40.948,-124.13,1
+F16E00819M,2016-06-08T00:00:00Z,"Clam Beach, McKinleyville",,53,Humboldt,Razor Clam meat,40.948,-124.13,1
+F16E00820M,2016-06-08T00:00:00Z,"Clam Beach, McKinleyville",,56,Humboldt,Razor Clam meat,40.948,-124.13,1
+F16E00821M,2016-06-08T00:00:00Z,"Clam Beach, McKinleyville",,68,Humboldt,Razor Clam meat,40.948,-124.13,1
+F16E00802M,2016-06-21T00:00:00Z,"Crescent City, Crescent Beach",,68,Del Norte,Razor Clam meat,41.71,-124.1425,1
+F16E00803M,2016-06-21T00:00:00Z,"Crescent City, Crescent Beach",,44,Del Norte,Razor Clam meat,41.71,-124.1425,1
+F16E00804M,2016-06-21T00:00:00Z,"Crescent City, Crescent Beach",,160,Del Norte,Razor Clam meat,41.71,-124.1425,1
+F16E00805M,2016-06-21T00:00:00Z,"Crescent City, Crescent Beach",,81,Del Norte,Razor Clam meat,41.71,-124.1425,3
+F16E00830M,2016-07-06T00:00:00Z,"Humboldt, Clam Beach",,91,Humboldt,Razor Clam meat,41.0081,-124.1147,1
+F16E00831M,2016-07-06T00:00:00Z,"Humboldt, Clam Beach",,78,Humboldt,Razor Clam meat,41.0081,-124.1147,2
+F16E00840M,2016-07-20T00:00:00Z,"Crescent City, Crescent Beach",,110,Del Norte,Razor Clam meat,41.71,-124.1425,1
+F16E00841M,2016-07-20T00:00:00Z,"Crescent City, Crescent Beach",,200,Del Norte,Razor Clam meat,41.71,-124.1425,1
+F16E00842M,2016-07-20T00:00:00Z,"Crescent City, Crescent Beach",,97,Del Norte,Razor Clam meat,41.71,-124.1425,1
+F16E00843M,2016-07-20T00:00:00Z,"Crescent City, Crescent Beach",,170,Del Norte,Razor Clam meat,41.71,-124.1425,1
+F16E00844M,2016-07-20T00:00:00Z,"Crescent City, Crescent Beach",,130,Del Norte,Razor Clam meat,41.71,-124.1425,1
+F16E00845M,2016-07-20T00:00:00Z,"Crescent City, Crescent Beach",,230,Del Norte,Razor Clam meat,41.71,-124.1425,1
+F16E00849M,2016-08-19T00:00:00Z,"Humboldt, Clam Beach",,160,Humboldt,Razor Clam meat,41.0081,-124.1147,1
+F16E00850M,2016-08-19T00:00:00Z,"Humboldt, Clam Beach",,96,Humboldt,Razor Clam meat,41.0081,-124.1147,1
+F16E00851M,2016-08-19T00:00:00Z,"Humboldt, Clam Beach",,160,Humboldt,Razor Clam meat,41.0081,-124.1147,1
+F16E00852M,2016-08-19T00:00:00Z,"Humboldt, Clam Beach",,130,Humboldt,Razor Clam meat,41.0081,-124.1147,1
+F16E00853M,2016-08-19T00:00:00Z,"Humboldt, Clam Beach",,80,Humboldt,Razor Clam meat,41.0081,-124.1147,1
+F16E00854M,2016-08-19T00:00:00Z,"Humboldt, Clam Beach",,190,Humboldt,Razor Clam meat,41.0081,-124.1147,1
+F16E00855M,2016-08-19T00:00:00Z,"Humboldt, Clam Beach",,34,Humboldt,Razor Clam meat,41.0081,-124.1147,1
+F16E00856M,2016-08-19T00:00:00Z,"Crescent City, Crescent Beach",,65,Del Norte,Razor Clam meat,41.71,-124.1425,1
+F16E00857M,2016-08-19T00:00:00Z,"Crescent City, Crescent Beach",,43,Del Norte,Razor Clam meat,41.71,-124.1425,1
+F16E00858M,2016-08-19T00:00:00Z,"Crescent City, Crescent Beach",,97,Del Norte,Razor Clam meat,41.71,-124.1425,1
+F16E00859M,2016-08-19T00:00:00Z,"Crescent City, Crescent Beach",,67,Del Norte,Razor Clam meat,41.71,-124.1425,2
+F16E00860M,2016-08-19T00:00:00Z,"Crescent City, Crescent Beach",,73,Del Norte,Razor Clam meat,41.71,-124.1425,1
+F16E00928,2016-11-13T00:00:00Z,"Crescent City, Crescent Beach",,58,Del Norte,Razor Clam meat,41.71,-124.1425,1
+F16E00929,2016-11-13T00:00:00Z,"Crescent City, Crescent Beach",<,2.5,Del Norte,Razor Clam meat,41.71,-124.1425,1
+F16E00931,2016-11-13T00:00:00Z,"Humboldt, Clam Beach",,210,Humboldt,Razor Clam meat,41.0081,-124.1147,1
+F16E00932,2016-11-13T00:00:00Z,"Humboldt, Clam Beach",,84,Humboldt,Razor Clam meat,41.0081,-124.1147,1
+F16E00933,2016-11-13T00:00:00Z,"Humboldt, Clam Beach",,8.6,Humboldt,Razor Clam meat,41.0081,-124.1147,1
+F16E00934,2016-11-13T00:00:00Z,"Humboldt, Clam Beach",,34,Humboldt,Razor Clam meat,41.0081,-124.1147,1
+F16E00936,2016-12-13T00:00:00Z,"Humboldt, Clam Beach",,78,Humboldt,Razor Clam meat,41.0081,-124.1147,1
+F16E00937,2016-12-13T00:00:00Z,"Humboldt, Clam Beach",,44,Humboldt,Razor Clam meat,41.0081,-124.1147,1
+F16E00938,2016-12-13T00:00:00Z,"Humboldt, Clam Beach",,82,Humboldt,Razor Clam meat,41.0081,-124.1147,1
+F16E00939,2016-12-13T00:00:00Z,"Humboldt, Clam Beach",,92,Humboldt,Razor Clam meat,41.0081,-124.1147,1
+F16E00940,2016-12-13T00:00:00Z,"Humboldt, Clam Beach",,39,Humboldt,Razor Clam meat,41.0081,-124.1147,1
+F16E00941,2016-12-13T00:00:00Z,"Humboldt, Clam Beach",,23,Humboldt,Razor Clam meat,41.0081,-124.1147,1
+F16E00942,2016-12-13T00:00:00Z,"Humboldt, Clam Beach",,32,Humboldt,Razor Clam meat,41.0081,-124.1147,1
+F16E00943,2016-12-13T00:00:00Z,"Humboldt, Clam Beach",,99,Humboldt,Razor Clam meat,41.0081,-124.1147,1
+F16E00944,2016-12-13T00:00:00Z,"Humboldt, Clam Beach",,99,Humboldt,Razor Clam meat,41.0081,-124.1147,1
+F16E00945,2016-12-13T00:00:00Z,"Humboldt, Clam Beach",,18,Humboldt,Razor Clam meat,41.0081,-124.1147,1
+F16E00946,2016-12-13T00:00:00Z,"Humboldt, Clam Beach",,220,Humboldt,Razor Clam meat,41.0081,-124.1147,1
+F16E00947,2016-12-13T00:00:00Z,"Humboldt, Clam Beach",,57,Humboldt,Razor Clam meat,41.0081,-124.1147,1
+F16E00949,2016-12-13T00:00:00Z,"Crescent City, Crescent Beach",,72,Del Norte,Razor Clam meat,41.71,-124.1425,1
+F16E00950,2016-12-13T00:00:00Z,"Crescent City, Crescent Beach",,45,Del Norte,Razor Clam meat,41.71,-124.1425,1
+F16E00951,2016-12-13T00:00:00Z,"Crescent City, Crescent Beach",,130,Del Norte,Razor Clam meat,41.71,-124.1425,1
+F16E00952,2016-12-13T00:00:00Z,"Crescent City, Crescent Beach",,27,Del Norte,Razor Clam meat,41.71,-124.1425,1
+F16E00953,2016-12-13T00:00:00Z,"Crescent City, Crescent Beach",,83,Del Norte,Razor Clam meat,41.71,-124.1425,1
+F17E00001,2017-02-10T00:00:00Z,"Humboldt, Clam Beach",,4.2,Humboldt,Razor Clam meat,41.0081,-124.1147,1
+F17E00002,2017-02-10T00:00:00Z,"Humboldt, Clam Beach",,35,Humboldt,Razor Clam meat,41.0081,-124.1147,1
+F17E00003,2017-02-10T00:00:00Z,"Humboldt, Clam Beach",,39,Humboldt,Razor Clam meat,41.0081,-124.1147,1
+F17E00004,2017-02-10T00:00:00Z,"Humboldt, Clam Beach",,10,Humboldt,Razor Clam meat,41.0081,-124.1147,1
+F17E00005,2017-02-10T00:00:00Z,"Humboldt, Clam Beach",,18,Humboldt,Razor Clam meat,41.0081,-124.1147,1
+F17E00010,2017-03-09T00:00:00Z,"Humboldt, Clam Beach",,30,Humboldt,Razor Clam meat,41.0081,-124.1147,1
+F17E00011,2017-03-09T00:00:00Z,"Humboldt, Clam Beach",,8.5,Humboldt,Razor Clam meat,41.0081,-124.1147,1
+F17E00012,2017-03-09T00:00:00Z,"Humboldt, Clam Beach",,18,Humboldt,Razor Clam meat,41.0081,-124.1147,1
+F17E00013,2017-03-09T00:00:00Z,"Humboldt, Clam Beach",,49,Humboldt,Razor Clam meat,41.0081,-124.1147,1
+F17E00014,2017-03-09T00:00:00Z,"Humboldt, Clam Beach",,55,Humboldt,Razor Clam meat,41.0081,-124.1147,1
+F17E00015,2017-03-09T00:00:00Z,"Humboldt, Clam Beach",,41,Humboldt,Razor Clam meat,41.0081,-124.1147,1
+F17E00016,2017-03-09T00:00:00Z,"Humboldt, Clam Beach",,45,Humboldt,Razor Clam meat,41.0081,-124.1147,1
+F17E00017,2017-03-09T00:00:00Z,"Humboldt, Clam Beach",,82,Humboldt,Razor Clam meat,41.0081,-124.1147,1
+F17E00018,2017-03-09T00:00:00Z,"Humboldt, Clam Beach",,25,Humboldt,Razor Clam meat,41.0081,-124.1147,1
+F17E00019,2017-03-09T00:00:00Z,"Humboldt, Clam Beach",,7.8,Humboldt,Razor Clam meat,41.0081,-124.1147,1
+F17E00020,2017-03-09T00:00:00Z,"Humboldt, Clam Beach",,42,Humboldt,Razor Clam meat,41.0081,-124.1147,1
+F17E00021,2017-03-09T00:00:00Z,"Humboldt, Clam Beach",,47,Humboldt,Razor Clam meat,41.0081,-124.1147,1
+F17E00022,2017-03-09T00:00:00Z,"Humboldt, Clam Beach",,51,Humboldt,Razor Clam meat,41.0081,-124.1147,1
+F17E00023,2017-03-09T00:00:00Z,"Humboldt, Clam Beach",,42,Humboldt,Razor Clam meat,41.0081,-124.1147,1
+F17E00027,2017-04-27T00:00:00Z,"Humboldt, Clam Beach",,19,Humboldt,Razor Clam meat,41.0081,-124.1147,1
+F17E00028,2017-04-27T00:00:00Z,"Humboldt, Clam Beach",,4.2,Humboldt,Razor Clam meat,41.0081,-124.1147,1
+F17E00029,2017-04-27T00:00:00Z,"Humboldt, Clam Beach",,32,Humboldt,Razor Clam meat,41.0081,-124.1147,1
+F17E00030,2017-04-27T00:00:00Z,"Humboldt, Clam Beach",,21,Humboldt,Razor Clam meat,41.0081,-124.1147,1
+F17E00031,2017-04-27T00:00:00Z,"Humboldt, Clam Beach",,35,Humboldt,Razor Clam meat,41.0081,-124.1147,1
+F17E00032,2017-04-27T00:00:00Z,"Humboldt, Clam Beach",,16,Humboldt,Razor Clam meat,41.0081,-124.1147,1
+F17E00033,2017-04-27T00:00:00Z,"Humboldt, Clam Beach",,35,Humboldt,Razor Clam meat,41.0081,-124.1147,1
+F17E00034,2017-04-27T00:00:00Z,"Humboldt, Clam Beach",,44,Humboldt,Razor Clam meat,41.0081,-124.1147,1
+F17E00035,2017-04-27T00:00:00Z,"Humboldt, Clam Beach",,55,Humboldt,Razor Clam meat,41.0081,-124.1147,1
+F17E00036,2017-04-27T00:00:00Z,"Humboldt, Clam Beach",,44,Humboldt,Razor Clam meat,41.0081,-124.1147,1
+F17E00037,2017-04-27T00:00:00Z,"Humboldt, Clam Beach",,29,Humboldt,Razor Clam meat,41.0081,-124.1147,1
+F17E00038,2017-04-27T00:00:00Z,"Humboldt, Clam Beach",,30,Humboldt,Razor Clam meat,41.0081,-124.1147,1
+F17E00039,2017-04-27T00:00:00Z,"Humboldt, Clam Beach",,56,Humboldt,Razor Clam meat,41.0081,-124.1147,1
+F17E00041,2017-04-28T00:00:00Z,Little River State Beach,,30,Humboldt,Razor Clam meat,41.022147,-124.113178,6
+F17E00043,2017-04-28T00:00:00Z,Little River State Beach,,16,Humboldt,Razor Clam meat,41.022147,-124.113178,6
+F17E00045,2017-04-28T00:00:00Z,Little River State Beach,,50,Humboldt,Razor Clam meat,41.022147,-124.113178,6
+F17E00057,2017-05-29T00:00:00Z,"Humboldt, Clam Beach",,6.2,Humboldt,Razor Clam meat,41.0081,-124.1147,1
+F17E00058,2017-05-29T00:00:00Z,"Humboldt, Clam Beach",,48,Humboldt,Razor Clam meat,41.0081,-124.1147,1
+F17E00059,2017-05-29T00:00:00Z,"Humboldt, Clam Beach",,12,Humboldt,Razor Clam meat,41.0081,-124.1147,1
+F17E00060,2017-05-29T00:00:00Z,"Humboldt, Clam Beach",,8.5,Humboldt,Razor Clam meat,41.0081,-124.1147,1
+F17E00061,2017-05-29T00:00:00Z,"Humboldt, Clam Beach",,7.6,Humboldt,Razor Clam meat,41.0081,-124.1147,1
+F17E00062,2017-05-29T00:00:00Z,"Humboldt, Clam Beach",,6.4,Humboldt,Razor Clam meat,41.0081,-124.1147,1
+F17E00063,2017-05-29T00:00:00Z,"Humboldt, Clam Beach",,10,Humboldt,Razor Clam meat,41.0081,-124.1147,1
+F17E00064,2017-05-29T00:00:00Z,"Humboldt, Clam Beach",,6.6,Humboldt,Razor Clam meat,41.0081,-124.1147,1
+F17E00065,2017-05-29T00:00:00Z,"Humboldt, Clam Beach",,15,Humboldt,Razor Clam meat,41.0081,-124.1147,1
+F17E00066,2017-05-29T00:00:00Z,"Humboldt, Clam Beach",,85,Humboldt,Razor Clam meat,41.0081,-124.1147,1
+F17E00072,2017-06-13T00:00:00Z,Little River State Beach,,85,Humboldt,Razor Clam meat,41.022147,-124.113178,1
+F17E00073,2017-06-13T00:00:00Z,Little River State Beach,,9,Humboldt,Razor Clam meat,41.022147,-124.113178,1
+F17E00074,2017-06-13T00:00:00Z,Little River State Beach,,11,Humboldt,Razor Clam meat,41.022147,-124.113178,1
+F17E00075,2017-06-13T00:00:00Z,Little River State Beach,,12,Humboldt,Razor Clam meat,41.022147,-124.113178,1
+F17E00076,2017-06-13T00:00:00Z,Little River State Beach,,23,Humboldt,Razor Clam meat,41.022147,-124.113178,1
+F17E00077,2017-06-13T00:00:00Z,Little River State Beach,,24,Humboldt,Razor Clam meat,41.022147,-124.113178,1
+F17E00078,2017-06-13T00:00:00Z,Little River State Beach,,10,Humboldt,Razor Clam meat,41.022147,-124.113178,1
+F17E00079,2017-06-13T00:00:00Z,Little River State Beach,,38,Humboldt,Razor Clam meat,41.022147,-124.113178,1
+F17E00080,2017-06-13T00:00:00Z,Little River State Beach,,9.4,Humboldt,Razor Clam meat,41.022147,-124.113178,1
+F17E00081,2017-06-13T00:00:00Z,Little River State Beach,,67,Humboldt,Razor Clam meat,41.022147,-124.113178,1
+F17E00083,2017-06-27T00:00:00Z,"Humboldt, Clam Beach",,68,Humboldt,Razor Clam meat,41.0081,-124.1147,1
+F17E00084,2017-06-27T00:00:00Z,"Humboldt, Clam Beach",,78,Humboldt,Razor Clam meat,41.0081,-124.1147,1
+F17E00085,2017-06-27T00:00:00Z,"Humboldt, Clam Beach",,120,Humboldt,Razor Clam meat,41.0081,-124.1147,1
+F17E00086,2017-06-27T00:00:00Z,"Humboldt, Clam Beach",,90,Humboldt,Razor Clam meat,41.0081,-124.1147,1
+F17E00087,2017-06-27T00:00:00Z,"Humboldt, Clam Beach",,57,Humboldt,Razor Clam meat,41.0081,-124.1147,1
+F17E00088,2017-06-27T00:00:00Z,"Humboldt, Clam Beach",,16,Humboldt,Razor Clam meat,41.0081,-124.1147,1
+F17E00089,2017-06-27T00:00:00Z,"Humboldt, Clam Beach",,41,Humboldt,Razor Clam meat,41.0081,-124.1147,1
+F17E00090,2017-06-27T00:00:00Z,"Humboldt, Clam Beach",,52,Humboldt,Razor Clam meat,41.0081,-124.1147,1
+F17E00091,2017-06-27T00:00:00Z,"Humboldt, Clam Beach",,29,Humboldt,Razor Clam meat,41.0081,-124.1147,1
+F17E00092,2017-06-27T00:00:00Z,"Humboldt, Clam Beach",,36,Humboldt,Razor Clam meat,41.0081,-124.1147,1
+F17E00099,2017-07-23T00:00:00Z,"Humboldt, Clam Beach",,27,Humboldt,Razor Clam meat,41.0081,-124.1147,1
+F17E00100,2017-07-23T00:00:00Z,"Humboldt, Clam Beach",,19,Humboldt,Razor Clam meat,41.0081,-124.1147,1
+F17E00101,2017-07-23T00:00:00Z,"Humboldt, Clam Beach",,11,Humboldt,Razor Clam meat,41.0081,-124.1147,1
+F17E00102,2017-07-23T00:00:00Z,"Humboldt, Clam Beach",,15,Humboldt,Razor Clam meat,41.0081,-124.1147,1
+F17E00103,2017-07-23T00:00:00Z,"Humboldt, Clam Beach",,27,Humboldt,Razor Clam meat,41.0081,-124.1147,1
+F17E00104,2017-07-23T00:00:00Z,"Humboldt, Clam Beach",,18,Humboldt,Razor Clam meat,41.0081,-124.1147,1
+F17E00105,2017-07-23T00:00:00Z,"Humboldt, Clam Beach",,16,Humboldt,Razor Clam meat,41.0081,-124.1147,1
+F17E00106,2017-07-23T00:00:00Z,"Humboldt, Clam Beach",,11,Humboldt,Razor Clam meat,41.0081,-124.1147,1
+F17E00107,2017-07-23T00:00:00Z,"Humboldt, Clam Beach",,17,Humboldt,Razor Clam meat,41.0081,-124.1147,1
+F17E00108,2017-07-23T00:00:00Z,"Humboldt, Clam Beach",,9.3,Humboldt,Razor Clam meat,41.0081,-124.1147,1
+F17E00121,2017-11-03T00:00:00Z,"Humboldt, Clam Beach",,53,Humboldt,Razor Clam meat,41.0081,-124.1147,1
+F17E00122,2017-11-03T00:00:00Z,"Humboldt, Clam Beach",,150,Humboldt,Razor Clam meat,41.0081,-124.1147,1
+F17E00123,2017-11-03T00:00:00Z,"Humboldt, Clam Beach",,37,Humboldt,Razor Clam meat,41.0081,-124.1147,
+F17E00124,2017-11-03T00:00:00Z,"Humboldt, Clam Beach",,220,Humboldt,Razor Clam meat,41.0081,-124.1147,1
+F17E00125,2017-11-03T00:00:00Z,"Humboldt, Clam Beach",,110,Humboldt,Razor Clam meat,41.0081,-124.1147,1
+F17E00126,2017-11-03T00:00:00Z,"Humboldt, Clam Beach",,140,Humboldt,Razor Clam meat,41.0081,-124.1147,1
+F17E00127,2017-11-03T00:00:00Z,"Humboldt, Clam Beach",,68,Humboldt,Razor Clam meat,41.0081,-124.1147,1
+F17E00128,2017-11-03T00:00:00Z,"Humboldt, Clam Beach",,85,Humboldt,Razor Clam meat,41.0081,-124.1147,1
+F17E00129,2017-11-03T00:00:00Z,"Humboldt, Clam Beach",,300,Humboldt,Razor Clam meat,41.0081,-124.1147,1
+F17E00130,2017-11-03T00:00:00Z,"Humboldt, Clam Beach",,140,Humboldt,Razor Clam meat,41.0081,-124.1147,1
+F17E00131,2017-11-03T00:00:00Z,"Humboldt, Clam Beach",,150,Humboldt,Razor Clam meat,41.0081,-124.1147,1
+F17E00132,2017-11-03T00:00:00Z,"Humboldt, Clam Beach",,130,Humboldt,Razor Clam meat,41.0081,-124.1147,1
+F17E00133,2017-11-03T00:00:00Z,"Humboldt, Clam Beach",,220,Humboldt,Razor Clam meat,41.0081,-124.1147,1
+F17E00134,2017-11-03T00:00:00Z,"Humboldt, Clam Beach",,140,Humboldt,Razor Clam meat,41.0081,-124.1147,1
+F17E00135,2017-11-03T00:00:00Z,"Humboldt, Clam Beach",,65,Humboldt,Razor Clam meat,41.0081,-124.1147,1
+F17E00113,2017-11-04T00:00:00Z,"Crescent City, Crescent Beach",,230,Del Norte,Razor Clam meat,41.71,-124.1425,1
+F17E00114,2017-11-04T00:00:00Z,"Crescent City, Crescent Beach",,130,Del Norte,Razor Clam meat,41.71,-124.1425,1
+F17E00115,2017-11-04T00:00:00Z,"Crescent City, Crescent Beach",,180,Del Norte,Razor Clam meat,41.71,-124.1425,1
+F17E00116,2017-11-04T00:00:00Z,"Crescent City, Crescent Beach",,270,Del Norte,Razor Clam meat,41.71,-124.1425,1
+F17E00117,2017-11-04T00:00:00Z,"Crescent City, Crescent Beach",,180,Del Norte,Razor Clam meat,41.71,-124.1425,1
+F17E00118,2017-11-04T00:00:00Z,"Crescent City, Crescent Beach",,120,Del Norte,Razor Clam meat,41.71,-124.1425,1
+F17E00137,2017-12-06T00:00:00Z,"Humboldt, Clam Beach",,130,Humboldt,Razor Clam meat,41.0081,-124.1147,1
+F17E00138,2017-12-06T00:00:00Z,"Humboldt, Clam Beach",,88,Humboldt,Razor Clam meat,41.0081,-124.1147,1
+F17E00139,2017-12-06T00:00:00Z,"Humboldt, Clam Beach",,78,Humboldt,Razor Clam meat,41.0081,-124.1147,1
+F17E00140,2017-12-06T00:00:00Z,"Humboldt, Clam Beach",,160,Humboldt,Razor Clam meat,41.0081,-124.1147,1
+F17E00141,2017-12-06T00:00:00Z,"Humboldt, Clam Beach",,300,Humboldt,Razor Clam meat,41.0081,-124.1147,1
+F17E00142,2017-12-06T00:00:00Z,"Humboldt, Clam Beach",,130,Humboldt,Razor Clam meat,41.0081,-124.1147,1
+F17E00143,2017-12-06T00:00:00Z,"Humboldt, Clam Beach",,250,Humboldt,Razor Clam meat,41.0081,-124.1147,1
+F17E00144,2017-12-06T00:00:00Z,"Humboldt, Clam Beach",,130,Humboldt,Razor Clam meat,41.0081,-124.1147,1
+F17E00145,2017-12-06T00:00:00Z,"Humboldt, Clam Beach",,130,Humboldt,Razor Clam meat,41.0081,-124.1147,1
+F17E00146,2017-12-06T00:00:00Z,"Humboldt, Clam Beach",,85,Humboldt,Razor Clam meat,41.0081,-124.1147,1
+F17E00147,2017-12-06T00:00:00Z,"Humboldt, Clam Beach",,220,Humboldt,Razor Clam meat,41.0081,-124.1147,1
+F17E00148,2017-12-06T00:00:00Z,"Humboldt, Clam Beach",,390,Humboldt,Razor Clam meat,41.0081,-124.1147,1
+F17E00149,2017-12-06T00:00:00Z,"Humboldt, Clam Beach",,150,Humboldt,Razor Clam meat,41.0081,-124.1147,1
+F18E00001,2018-01-01T00:00:00Z,"Crescent City, Crescent Beach",,280,Del Norte,Razor Clam meat,41.71,-124.1425,1
+F18E00002,2018-01-01T00:00:00Z,"Crescent City, Crescent Beach",,170,Del Norte,Razor Clam meat,41.71,-124.1425,1
+F18E00003,2018-01-01T00:00:00Z,"Crescent City, Crescent Beach",,150,Del Norte,Razor Clam meat,41.71,-124.1425,1
+F18E00004,2018-01-01T00:00:00Z,"Crescent City, Crescent Beach",,140,Del Norte,Razor Clam meat,41.71,-124.1425,1
+F18E00005,2018-01-01T00:00:00Z,"Crescent City, Crescent Beach",,150,Del Norte,Razor Clam meat,41.71,-124.1425,1
+F18E00006,2018-01-01T00:00:00Z,"Crescent City, Crescent Beach",,220,Del Norte,Razor Clam meat,41.71,-124.1425,1
+F18E00007,2018-01-02T00:00:00Z,"Humboldt, Clam Beach",,70,Humboldt,Razor Clam meat,41.0081,-124.1147,1
+F18E00008,2018-01-02T00:00:00Z,"Humboldt, Clam Beach",,190,Humboldt,Razor Clam meat,41.0081,-124.1147,1
+F18E00009,2018-01-02T00:00:00Z,"Humboldt, Clam Beach",,210,Humboldt,Razor Clam meat,41.0081,-124.1147,1
+F18E00010,2018-01-02T00:00:00Z,"Humboldt, Clam Beach",,97,Humboldt,Razor Clam meat,41.0081,-124.1147,1
+F18E00011,2018-01-02T00:00:00Z,"Humboldt, Clam Beach",,110,Humboldt,Razor Clam meat,41.0081,-124.1147,1
+F18E00012,2018-01-02T00:00:00Z,"Humboldt, Clam Beach",,170,Humboldt,Razor Clam meat,41.0081,-124.1147,1
+F18E00013,2018-01-02T00:00:00Z,"Humboldt, Clam Beach",,160,Humboldt,Razor Clam meat,41.0081,-124.1147,1
+F18E00014,2018-01-31T00:00:00Z,"Crescent City, Crescent Beach",,200,Del Norte,Razor Clam meat,41.71,-124.1425,1
+F18E00015,2018-01-31T00:00:00Z,"Crescent City, Crescent Beach",,130,Del Norte,Razor Clam meat,41.71,-124.1425,1
+F18E00016,2018-01-31T00:00:00Z,"Crescent City, Crescent Beach",,74,Del Norte,Razor Clam meat,41.71,-124.1425,1
+F18E00017,2018-01-31T00:00:00Z,"Crescent City, Crescent Beach",,120,Del Norte,Razor Clam meat,41.71,-124.1425,1
+F18E00018,2018-01-31T00:00:00Z,"Crescent City, Crescent Beach",,130,Del Norte,Razor Clam meat,41.71,-124.1425,1
+F18E00019,2018-01-31T00:00:00Z,"Crescent City, Crescent Beach",,280,Del Norte,Razor Clam meat,41.71,-124.1425,1
+F18E00022,2018-03-29T00:00:00Z,"Humboldt, Clam Beach",,78,Humboldt,Razor Clam meat,41.0081,-124.1147,1
+F18E00023,2018-03-29T00:00:00Z,"Humboldt, Clam Beach",,230,Humboldt,Razor Clam meat,41.0081,-124.1147,1
+F18E00024,2018-03-29T00:00:00Z,"Humboldt, Clam Beach",,39,Humboldt,Razor Clam meat,41.0081,-124.1147,1
+F18E00025,2018-03-29T00:00:00Z,"Humboldt, Clam Beach",,120,Humboldt,Razor Clam meat,41.0081,-124.1147,1
+F18E00026,2018-03-29T00:00:00Z,"Humboldt, Clam Beach",,53,Humboldt,Razor Clam meat,41.0081,-124.1147,1
+F18E00027,2018-03-29T00:00:00Z,"Humboldt, Clam Beach",,210,Humboldt,Razor Clam meat,41.0081,-124.1147,1
+F18E00028,2018-03-29T00:00:00Z,"Humboldt, Clam Beach",,25,Humboldt,Razor Clam meat,41.0081,-124.1147,1
+F18E00029,2018-03-29T00:00:00Z,"Humboldt, Clam Beach",,53,Humboldt,Razor Clam meat,41.0081,-124.1147,1
+F18E00030,2018-03-29T00:00:00Z,"Humboldt, Clam Beach",,110,Humboldt,Razor Clam meat,41.0081,-124.1147,1
+F18E00031,2018-03-29T00:00:00Z,"Humboldt, Clam Beach",,76,Humboldt,Razor Clam meat,41.0081,-124.1147,1
+F18E00032,2018-03-29T00:00:00Z,"Humboldt, Clam Beach",,67,Humboldt,Razor Clam meat,41.0081,-124.1147,1
+F18E00034,2018-04-19T00:00:00Z,"Crescent City, Crescent Beach",,41,Del Norte,Razor Clam meat,41.71,-124.1425,1
+F18E00035,2018-05-03T00:00:00Z,"Humboldt, Clam Beach",,160,Humboldt,Razor Clam meat,41.0081,-124.1147,1
+F18E00036,2018-05-03T00:00:00Z,"Humboldt, Clam Beach",,17,Humboldt,Razor Clam meat,41.0081,-124.1147,1
+F18E00037,2018-05-03T00:00:00Z,"Humboldt, Clam Beach",,42,Humboldt,Razor Clam meat,41.0081,-124.1147,1
+F18E00038,2018-05-03T00:00:00Z,"Humboldt, Clam Beach",,4,Humboldt,Razor Clam meat,41.0081,-124.1147,1
+F18E00039,2018-05-16T00:00:00Z,"Humboldt, Clam Beach",,15,Humboldt,Razor Clam meat,41.0081,-124.1147,1
+F18E00040,2018-05-16T00:00:00Z,"Humboldt, Clam Beach",,52,Humboldt,Razor Clam meat,41.0081,-124.1147,1
+F18E00041,2018-05-16T00:00:00Z,"Humboldt, Clam Beach",,53,Humboldt,Razor Clam meat,41.0081,-124.1147,1
+F18E00042,2018-05-16T00:00:00Z,"Humboldt, Clam Beach",<,2.5,Humboldt,Razor Clam meat,41.0081,-124.1147,1
+F18E00043,2018-05-16T00:00:00Z,"Humboldt, Clam Beach",,110,Humboldt,Razor Clam meat,41.0081,-124.1147,1
+F18E00044,2018-05-16T00:00:00Z,"Humboldt, Clam Beach",,44,Humboldt,Razor Clam meat,41.0081,-124.1147,1
+F18E00045,2018-05-17T00:00:00Z,"Crescent City, Crescent Beach",,13,Del Norte,Razor Clam meat,41.71,-124.1425,1
+F18E00046,2018-05-17T00:00:00Z,"Crescent City, Crescent Beach",,30,Del Norte,Razor Clam meat,41.71,-124.1425,1
+F18E00047,2018-05-17T00:00:00Z,"Crescent City, Crescent Beach",,21,Del Norte,Razor Clam meat,41.71,-124.1425,1
+F18E00048,2018-05-17T00:00:00Z,"Crescent City, Crescent Beach",,20,Del Norte,Razor Clam meat,41.71,-124.1425,1
+F18E00049,2018-05-17T00:00:00Z,"Crescent City, Crescent Beach",,71,Del Norte,Razor Clam meat,41.71,-124.1425,1
+F18E00050,2018-06-13T00:00:00Z,"Crescent City, Crescent Beach",,3,Del Norte,Razor Clam meat,41.71,-124.1425,1
+F18E00051,2018-06-13T00:00:00Z,"Crescent City, Crescent Beach",,25,Del Norte,Razor Clam meat,41.71,-124.1425,1
+F18E00052,2018-06-13T00:00:00Z,"Crescent City, Crescent Beach",<,2.5,Del Norte,Razor Clam meat,41.71,-124.1425,4
+F18E00053,2018-06-13T00:00:00Z,"Humboldt, Clam Beach",,26,Humboldt,Razor Clam meat,41.0081,-124.1147,1
+F18E00054,2018-06-13T00:00:00Z,"Humboldt, Clam Beach",<,2.5,Humboldt,Razor Clam meat,41.0081,-124.1147,1
+F18E00055,2018-06-13T00:00:00Z,"Humboldt, Clam Beach",,4.2,Humboldt,Razor Clam meat,41.0081,-124.1147,1
+F18E00056,2018-06-13T00:00:00Z,"Humboldt, Clam Beach",,16,Humboldt,Razor Clam meat,41.0081,-124.1147,1
+F18E00057,2018-06-13T00:00:00Z,"Humboldt, Clam Beach",,37,Humboldt,Razor Clam meat,41.0081,-124.1147,1
+F18E00058,2018-06-13T00:00:00Z,"Humboldt, Clam Beach",,12,Humboldt,Razor Clam meat,41.0081,-124.1147,1
+F18E00059,2018-06-13T00:00:00Z,"Humboldt, Clam Beach",,4.9,Humboldt,Razor Clam meat,41.0081,-124.1147,1
+F18E00060,2018-06-13T00:00:00Z,"Humboldt, Clam Beach",,3,Humboldt,Razor Clam meat,41.0081,-124.1147,1
+F18E00061,2018-06-13T00:00:00Z,"Humboldt, Clam Beach",,10,Humboldt,Razor Clam meat,41.0081,-124.1147,1
+F18E00062,2018-06-13T00:00:00Z,"Humboldt, Clam Beach",,6.6,Humboldt,Razor Clam meat,41.0081,-124.1147,1
+F18E00063,2018-07-13T00:00:00Z,"Humboldt, Clam Beach",,10,Humboldt,Razor Clam meat,41.0081,-124.1147,1
+F18E00064,2018-07-13T00:00:00Z,"Humboldt, Clam Beach",,27,Humboldt,Razor Clam meat,41.0081,-124.1147,1
+F18E00065,2018-07-13T00:00:00Z,"Humboldt, Clam Beach",,13,Humboldt,Razor Clam meat,41.0081,-124.1147,1
+F18E00066,2018-07-13T00:00:00Z,"Humboldt, Clam Beach",,21,Humboldt,Razor Clam meat,41.0081,-124.1147,1
+F18E00067,2018-07-13T00:00:00Z,"Humboldt, Clam Beach",,43,Humboldt,Razor Clam meat,41.0081,-124.1147,1
+F18E00068,2018-07-13T00:00:00Z,"Humboldt, Clam Beach",,86,Humboldt,Razor Clam meat,41.0081,-124.1147,1
+F18E00069,2018-07-13T00:00:00Z,"Humboldt, Clam Beach",,4.2,Humboldt,Razor Clam meat,41.0081,-124.1147,1
+F18E00070,2018-07-13T00:00:00Z,"Humboldt, Clam Beach",,14,Humboldt,Razor Clam meat,41.0081,-124.1147,1
+F18E00071,2018-07-13T00:00:00Z,"Humboldt, Clam Beach",,6.6,Humboldt,Razor Clam meat,41.0081,-124.1147,1
+F18E00072,2018-07-13T00:00:00Z,"Humboldt, Clam Beach",,5.1,Humboldt,Razor Clam meat,41.0081,-124.1147,1
+F18E00073,2018-07-13T00:00:00Z,"Crescent City, Crescent Beach",<,2.5,Del Norte,Razor Clam meat,41.71,-124.1425,1
+F18E00074,2018-07-13T00:00:00Z,"Crescent City, Crescent Beach",<,2.5,Del Norte,Razor Clam meat,41.71,-124.1425,1
+F18E00075,2018-07-13T00:00:00Z,"Crescent City, Crescent Beach",,3.6,Del Norte,Razor Clam meat,41.71,-124.1425,3
+F18E00076,2018-08-12T00:00:00Z,"Crescent City, Crescent Beach",,9.1,Del Norte,Razor Clam meat,41.71,-124.1425,1
+F18E00077,2018-08-12T00:00:00Z,"Crescent City, Crescent Beach",,7.1,Del Norte,Razor Clam meat,41.71,-124.1425,1
+F18E00078,2018-08-12T00:00:00Z,"Crescent City, Crescent Beach",,16,Del Norte,Razor Clam meat,41.71,-124.1425,1
+F18E00079,2018-08-12T00:00:00Z,"Crescent City, Crescent Beach",,10,Del Norte,Razor Clam meat,41.71,-124.1425,1
+F18E00080,2018-08-12T00:00:00Z,"Crescent City, Crescent Beach",,5.8,Del Norte,Razor Clam meat,41.71,-124.1425,1
+F18E00081,2018-08-12T00:00:00Z,"Crescent City, Crescent Beach",,14,Del Norte,Razor Clam meat,41.71,-124.1425,1
+F18E00082,2018-08-12T00:00:00Z,"Crescent City, Crescent Beach",,8.2,Del Norte,Razor Clam meat,41.71,-124.1425,1
+F18E00083,2018-08-12T00:00:00Z,"Crescent City, Crescent Beach",,16,Del Norte,Razor Clam meat,41.71,-124.1425,1
+F18E00084,2018-08-12T00:00:00Z,"Crescent City, Crescent Beach",,12,Del Norte,Razor Clam meat,41.71,-124.1425,1
+F18E00085,2018-08-12T00:00:00Z,"Crescent City, Crescent Beach",,20,Del Norte,Razor Clam meat,41.71,-124.1425,1
+F18E00086,2018-08-12T00:00:00Z,"Crescent City, Crescent Beach",,17,Del Norte,Razor Clam meat,41.71,-124.1425,1
+F18E00087,2018-08-12T00:00:00Z,"Crescent City, Crescent Beach",,11,Del Norte,Razor Clam meat,41.71,-124.1425,1
+F18E00088,2018-08-12T00:00:00Z,"Crescent City, Crescent Beach",,17,Del Norte,Razor Clam meat,41.71,-124.1425,1
+F18E00089,2018-08-12T00:00:00Z,"Crescent City, Crescent Beach",,16,Del Norte,Razor Clam meat,41.71,-124.1425,1
+F18E00090,2018-08-12T00:00:00Z,"Crescent City, Crescent Beach",,11,Del Norte,Razor Clam meat,41.71,-124.1425,1
+F18E00091,2018-08-12T00:00:00Z,"Crescent City, Crescent Beach",,15,Del Norte,Razor Clam meat,41.71,-124.1425,1
+F18E00092,2018-08-13T00:00:00Z,"Humboldt, Clam Beach",,26,Humboldt,Razor Clam meat,41.0081,-124.1147,1
+F18E00093,2018-08-13T00:00:00Z,"Humboldt, Clam Beach",,20,Humboldt,Razor Clam meat,41.0081,-124.1147,1
+F18E00094,2018-08-13T00:00:00Z,"Humboldt, Clam Beach",,63,Humboldt,Razor Clam meat,41.0081,-124.1147,1
+F18E00095,2018-08-13T00:00:00Z,"Humboldt, Clam Beach",,21,Humboldt,Razor Clam meat,41.0081,-124.1147,1
+F18E00096,2018-08-13T00:00:00Z,"Humboldt, Clam Beach",,20,Humboldt,Razor Clam meat,41.0081,-124.1147,1
+F18E00097,2018-08-13T00:00:00Z,"Humboldt, Clam Beach",,32,Humboldt,Razor Clam meat,41.0081,-124.1147,1
+F18E00098,2018-08-13T00:00:00Z,"Humboldt, Clam Beach",,29,Humboldt,Razor Clam meat,41.0081,-124.1147,1
+F18E00099,2018-08-13T00:00:00Z,"Humboldt, Clam Beach",,60,Humboldt,Razor Clam meat,41.0081,-124.1147,1
+F18E00100,2018-08-13T00:00:00Z,"Humboldt, Clam Beach",,35,Humboldt,Razor Clam meat,41.0081,-124.1147,1
+F18E00101,2018-08-13T00:00:00Z,"Humboldt, Clam Beach",,3.4,Humboldt,Razor Clam meat,41.0081,-124.1147,1
+F18E00102,2018-09-09T00:00:00Z,"Humboldt, Clam Beach",,120,Humboldt,Razor Clam meat,41.0081,-124.1147,1
+F18E00103,2018-09-09T00:00:00Z,"Humboldt, Clam Beach",,150,Humboldt,Razor Clam meat,41.0081,-124.1147,1
+F18E00104,2018-09-09T00:00:00Z,"Humboldt, Clam Beach",,160,Humboldt,Razor Clam meat,41.0081,-124.1147,1
+F18E00105,2018-09-09T00:00:00Z,"Humboldt, Clam Beach",,160,Humboldt,Razor Clam meat,41.0081,-124.1147,1
+F18E00106,2018-09-09T00:00:00Z,"Humboldt, Clam Beach",,110,Humboldt,Razor Clam meat,41.0081,-124.1147,1
+F18E00107,2018-09-09T00:00:00Z,"Humboldt, Clam Beach",,150,Humboldt,Razor Clam meat,41.0081,-124.1147,1
+F18E00108,2018-09-09T00:00:00Z,"Humboldt, Clam Beach",,87,Humboldt,Razor Clam meat,41.0081,-124.1147,1
+F18E00109,2018-09-09T00:00:00Z,"Humboldt, Clam Beach",,140,Humboldt,Razor Clam meat,41.0081,-124.1147,1
+F18E00110,2018-09-09T00:00:00Z,"Humboldt, Clam Beach",,130,Humboldt,Razor Clam meat,41.0081,-124.1147,1
+F18E00111,2018-09-09T00:00:00Z,"Humboldt, Clam Beach",,100,Humboldt,Razor Clam meat,41.0081,-124.1147,1
+F18E00112,2018-11-13T00:00:00Z,"Humboldt, Clam Beach",,180,Humboldt,Razor Clam meat,41.0081,-124.1147,1
+F18E00113,2018-11-13T00:00:00Z,"Humboldt, Clam Beach",,150,Humboldt,Razor Clam meat,41.0081,-124.1147,1
+F18E00114,2018-11-13T00:00:00Z,"Humboldt, Clam Beach",,170,Humboldt,Razor Clam meat,41.0081,-124.1147,1
+F18E00115,2018-11-13T00:00:00Z,"Humboldt, Clam Beach",,230,Humboldt,Razor Clam meat,41.0081,-124.1147,1
+F18E00116,2018-11-13T00:00:00Z,"Humboldt, Clam Beach",,130,Humboldt,Razor Clam meat,41.0081,-124.1147,1
+F18E00117,2018-11-13T00:00:00Z,"Humboldt, Clam Beach",,170,Humboldt,Razor Clam meat,41.0081,-124.1147,1
+F18E00118,2018-11-13T00:00:00Z,"Humboldt, Clam Beach",,300,Humboldt,Razor Clam meat,41.0081,-124.1147,1
+F18E00119,2018-11-13T00:00:00Z,"Humboldt, Clam Beach",,170,Humboldt,Razor Clam meat,41.0081,-124.1147,1
+F18E00120,2018-11-13T00:00:00Z,"Humboldt, Clam Beach",,220,Humboldt,Razor Clam meat,41.0081,-124.1147,1
+F18E00121,2018-11-13T00:00:00Z,"Humboldt, Clam Beach",,150,Humboldt,Razor Clam meat,41.0081,-124.1147,1
+F18E00122,2018-11-13T00:00:00Z,"Humboldt, Clam Beach",,170,Humboldt,Razor Clam meat,41.0081,-124.1147,1
+F19E00009,2019-03-18T00:00:00Z,"Humboldt, Clam Beach",,95,Humboldt,Razor Clam meat,41.0081,-124.1147,1
+F19E00010,2019-03-18T00:00:00Z,"Humboldt, Clam Beach",,120,Humboldt,Razor Clam meat,41.0081,-124.1147,1
+F19E00011,2019-03-18T00:00:00Z,"Humboldt, Clam Beach",,130,Humboldt,Razor Clam meat,41.0081,-124.1147,1
+F19E00012,2019-03-18T00:00:00Z,"Humboldt, Clam Beach",,230,Humboldt,Razor Clam meat,41.0081,-124.1147,1
+F19E00013,2019-03-18T00:00:00Z,"Humboldt, Clam Beach",,220,Humboldt,Razor Clam meat,41.0081,-124.1147,1
+F19E00014,2019-03-18T00:00:00Z,"Humboldt, Clam Beach",,250,Humboldt,Razor Clam meat,41.0081,-124.1147,1
+F19E00001,2019-03-19T00:00:00Z,"Crescent City, Crescent Beach",,72,Del Norte,Razor Clam meat,41.71,-124.1425,1
+F19E00002,2019-03-19T00:00:00Z,"Crescent City, Crescent Beach",,94,Del Norte,Razor Clam meat,41.71,-124.1425,1
+F19E00003,2019-03-19T00:00:00Z,"Crescent City, Crescent Beach",,130,Del Norte,Razor Clam meat,41.71,-124.1425,1
+F19E00004,2019-03-19T00:00:00Z,"Crescent City, Crescent Beach",,150,Del Norte,Razor Clam meat,41.71,-124.1425,1
+F19E00005,2019-03-19T00:00:00Z,"Crescent City, Crescent Beach",,260,Del Norte,Razor Clam meat,41.71,-124.1425,1
+F19E00006,2019-03-19T00:00:00Z,"Crescent City, Crescent Beach",,280,Del Norte,Razor Clam meat,41.71,-124.1425,1
+F19E00007,2019-03-19T00:00:00Z,"Crescent City, Crescent Beach",,260,Del Norte,Razor Clam meat,41.71,-124.1425,1
+F19E00008,2019-03-19T00:00:00Z,"Crescent City, Crescent Beach",,68,Del Norte,Razor Clam meat,41.71,-124.1425,1
+F19E00015,2019-04-20T00:00:00Z,"Crescent City, Crescent Beach",,31,Del Norte,Razor Clam meat,41.71,-124.1425,1
+F19E00016,2019-04-20T00:00:00Z,"Crescent City, Crescent Beach",,74,Del Norte,Razor Clam meat,41.71,-124.1425,1
+F19E00017,2019-04-20T00:00:00Z,"Crescent City, Crescent Beach",,150,Del Norte,Razor Clam meat,41.71,-124.1425,1
+F19E00018,2019-04-20T00:00:00Z,"Crescent City, Crescent Beach",,48,Del Norte,Razor Clam meat,41.71,-124.1425,1
+F19E00019,2019-04-20T00:00:00Z,"Crescent City, Crescent Beach",,7.2,Del Norte,Razor Clam meat,41.71,-124.1425,1
+F19E00020,2019-04-20T00:00:00Z,"Crescent City, Crescent Beach",,240,Del Norte,Razor Clam meat,41.71,-124.1425,1
+F19E00021,2019-04-21T00:00:00Z,"Humboldt, Clam Beach",,230,Humboldt,Razor Clam meat,41.0081,-124.1147,1
+F19E00022,2019-04-21T00:00:00Z,"Humboldt, Clam Beach",,17,Humboldt,Razor Clam meat,41.0081,-124.1147,1
+F19E00023,2019-04-21T00:00:00Z,"Humboldt, Clam Beach",,150,Humboldt,Razor Clam meat,41.0081,-124.1147,1
+F19E00024,2019-04-21T00:00:00Z,"Humboldt, Clam Beach",,49,Humboldt,Razor Clam meat,41.0081,-124.1147,1
+F19E00025,2019-04-21T00:00:00Z,"Humboldt, Clam Beach",,100,Humboldt,Razor Clam meat,41.0081,-124.1147,1
+F19E00026,2019-04-21T00:00:00Z,"Humboldt, Clam Beach",,450,Humboldt,Razor Clam meat,41.0081,-124.1147,1
+F19E00027,2019-04-21T00:00:00Z,"Humboldt, Clam Beach",,120,Humboldt,Razor Clam meat,41.0081,-124.1147,1
+F19E00028,2019-04-21T00:00:00Z,"Humboldt, Clam Beach",,35,Humboldt,Razor Clam meat,41.0081,-124.1147,1
+F19E00029,2019-04-21T00:00:00Z,"Humboldt, Clam Beach",,83,Humboldt,Razor Clam meat,41.0081,-124.1147,1
+F19E00030,2019-04-21T00:00:00Z,"Humboldt, Clam Beach",,220,Humboldt,Razor Clam meat,41.0081,-124.1147,1
+F19E00031,2019-04-21T00:00:00Z,"Humboldt, Clam Beach",,81,Humboldt,Razor Clam meat,41.0081,-124.1147,1
+F19E00032,2019-04-21T00:00:00Z,"Humboldt, Clam Beach",,200,Humboldt,Razor Clam meat,41.0081,-124.1147,1
+F19E00033,2019-04-21T00:00:00Z,"Humboldt, Clam Beach",,36,Humboldt,Razor Clam meat,41.0081,-124.1147,1
+F19E00034,2019-04-21T00:00:00Z,"Humboldt, Clam Beach",,100,Humboldt,Razor Clam meat,41.0081,-124.1147,1
+F19E00035,2019-05-06T00:00:00Z,"Crescent City, Crescent Beach",,75,Del Norte,Razor Clam meat,41.71,-124.1425,1
+F19E00036,2019-05-06T00:00:00Z,"Crescent City, Crescent Beach",,140,Del Norte,Razor Clam meat,41.71,-124.1425,1
+F19E00037,2019-05-06T00:00:00Z,"Crescent City, Crescent Beach",,130,Del Norte,Razor Clam meat,41.71,-124.1425,1
+F19E00038,2019-05-06T00:00:00Z,"Crescent City, Crescent Beach",,40,Del Norte,Razor Clam meat,41.71,-124.1425,1
+F19E00039,2019-05-06T00:00:00Z,"Crescent City, Crescent Beach",,18,Del Norte,Razor Clam meat,41.71,-124.1425,1
+F19E00040,2019-05-06T00:00:00Z,"Crescent City, Crescent Beach",,72,Del Norte,Razor Clam meat,41.71,-124.1425,1
+F19E00041,2019-05-06T00:00:00Z,"Crescent City, Crescent Beach",,220,Del Norte,Razor Clam meat,41.71,-124.1425,1
+F19E00042,2019-05-06T00:00:00Z,"Crescent City, Crescent Beach",,72,Del Norte,Razor Clam meat,41.71,-124.1425,1
+F1905010-001,2019-05-20T00:00:00Z,"Crescent City, Crescent Beach",,67,Del Norte,Razor Clam meat,41.71,-124.1425,1
+F1905010-002,2019-05-20T00:00:00Z,"Crescent City, Crescent Beach",,81,Del Norte,Razor Clam meat,41.71,-124.1425,1
+F1905010-003,2019-05-20T00:00:00Z,"Crescent City, Crescent Beach",,58,Del Norte,Razor Clam meat,41.71,-124.1425,1
+F1905010-004,2019-05-20T00:00:00Z,"Crescent City, Crescent Beach",,30,Del Norte,Razor Clam meat,41.71,-124.1425,1
+F1905010-005,2019-05-20T00:00:00Z,"Crescent City, Crescent Beach",,83,Del Norte,Razor Clam meat,41.71,-124.1425,1
+F1905010-006,2019-05-20T00:00:00Z,"Crescent City, Crescent Beach",,43,Del Norte,Razor Clam meat,41.71,-124.1425,1
+F1905010-007,2019-05-20T00:00:00Z,"Crescent City, Crescent Beach",,78,Del Norte,Razor Clam meat,41.71,-124.1425,1
+F1905010-008,2019-05-20T00:00:00Z,"Crescent City, Crescent Beach",,65,Del Norte,Razor Clam meat,41.71,-124.1425,1
+F1906001-001,2019-05-20T00:00:00Z,"Humboldt, Clam Beach",,170,Humboldt,Razor Clam meat,41.0081,-124.1147,1
+F1906001-002,2019-05-20T00:00:00Z,"Humboldt, Clam Beach",,360,Humboldt,Razor Clam meat,41.0081,-124.1147,1
+F1906001-003,2019-05-20T00:00:00Z,"Humboldt, Clam Beach",,200,Humboldt,Razor Clam meat,41.0081,-124.1147,1
+F1906001-004,2019-05-20T00:00:00Z,"Humboldt, Clam Beach",,38,Humboldt,Razor Clam meat,41.0081,-124.1147,1
+F1906001-005,2019-05-20T00:00:00Z,"Humboldt, Clam Beach",,43,Humboldt,Razor Clam meat,41.0081,-124.1147,1
+F1906001-006,2019-05-20T00:00:00Z,"Humboldt, Clam Beach",,120,Humboldt,Razor Clam meat,41.0081,-124.1147,1
+F1906001-007,2019-05-20T00:00:00Z,"Humboldt, Clam Beach",,71,Humboldt,Razor Clam meat,41.0081,-124.1147,1
+F1906001-008,2019-05-20T00:00:00Z,"Humboldt, Clam Beach",,61,Humboldt,Razor Clam meat,41.0081,-124.1147,1
+F1906004-001,2019-06-05T00:00:00Z,"Crescent City, Crescent Beach",,40,Del Norte,Razor Clam meat,41.71,-124.1425,1
+F1906004-002,2019-06-05T00:00:00Z,"Crescent City, Crescent Beach",,2.9,Del Norte,Razor Clam meat,41.71,-124.1425,1
+F1906004-003,2019-06-05T00:00:00Z,"Crescent City, Crescent Beach",,36,Del Norte,Razor Clam meat,41.71,-124.1425,1
+F1906004-004,2019-06-05T00:00:00Z,"Crescent City, Crescent Beach",,16,Del Norte,Razor Clam meat,41.71,-124.1425,1
+F1906004-005,2019-06-05T00:00:00Z,"Crescent City, Crescent Beach",,27,Del Norte,Razor Clam meat,41.71,-124.1425,1
+F1906004-006,2019-06-05T00:00:00Z,"Crescent City, Crescent Beach",,24,Del Norte,Razor Clam meat,41.71,-124.1425,1
+F1906004-007,2019-06-05T00:00:00Z,"Crescent City, Crescent Beach",<,2.5,Del Norte,Razor Clam meat,41.71,-124.1425,1
+F1906004-008,2019-06-05T00:00:00Z,"Crescent City, Crescent Beach",<,2.5,Del Norte,Razor Clam meat,41.71,-124.1425,1
+F1906004-009,2019-06-05T00:00:00Z,"Crescent City, Crescent Beach",,9.9,Del Norte,Razor Clam meat,41.71,-124.1425,1
+F1906004-010,2019-06-05T00:00:00Z,"Crescent City, Crescent Beach",,24,Del Norte,Razor Clam meat,41.71,-124.1425,1
+F1907001-001,2019-06-17T00:00:00Z,"Humboldt, Clam Beach",,41,Humboldt,Razor Clam meat,41.0081,-124.1147,1
+F1907001-002,2019-06-17T00:00:00Z,"Humboldt, Clam Beach",,160,Humboldt,Razor Clam meat,41.0081,-124.1147,1
+F1907001-003,2019-06-17T00:00:00Z,"Humboldt, Clam Beach",,42,Humboldt,Razor Clam meat,41.0081,-124.1147,1
+F1907001-004,2019-06-17T00:00:00Z,"Humboldt, Clam Beach",,55,Humboldt,Razor Clam meat,41.0081,-124.1147,1
+F1907001-005,2019-06-17T00:00:00Z,"Humboldt, Clam Beach",,100,Humboldt,Razor Clam meat,41.0081,-124.1147,1
+F1907001-006,2019-06-17T00:00:00Z,"Humboldt, Clam Beach",,72,Humboldt,Razor Clam meat,41.0081,-124.1147,1
+F1907001-007,2019-06-17T00:00:00Z,"Humboldt, Clam Beach",,66,Humboldt,Razor Clam meat,41.0081,-124.1147,1
+F1907001-008,2019-06-17T00:00:00Z,"Humboldt, Clam Beach",,78,Humboldt,Razor Clam meat,41.0081,-124.1147,1
+F1907001-009,2019-06-17T00:00:00Z,"Humboldt, Clam Beach",,12,Humboldt,Razor Clam meat,41.0081,-124.1147,1
+F1907001-010,2019-06-17T00:00:00Z,"Humboldt, Clam Beach",,8.2,Humboldt,Razor Clam meat,41.0081,-124.1147,1
+F1906008-001,2019-06-18T00:00:00Z,"Crescent City, Crescent Beach",,7.2,Del Norte,Razor Clam meat,41.71,-124.1425,1
+F1906008-002,2019-06-18T00:00:00Z,"Crescent City, Crescent Beach",,4.4,Del Norte,Razor Clam meat,41.71,-124.1425,1
+F1906008-003,2019-06-18T00:00:00Z,"Crescent City, Crescent Beach",,26,Del Norte,Razor Clam meat,41.71,-124.1425,1
+F1906008-004,2019-06-18T00:00:00Z,"Crescent City, Crescent Beach",,6.3,Del Norte,Razor Clam meat,41.71,-124.1425,1
+F1906008-005,2019-06-18T00:00:00Z,"Crescent City, Crescent Beach",<,2.5,Del Norte,Razor Clam meat,41.71,-124.1425,1
+F1906008-006,2019-06-18T00:00:00Z,"Crescent City, Crescent Beach",,23,Del Norte,Razor Clam meat,41.71,-124.1425,1
+F1906008-007,2019-06-18T00:00:00Z,"Crescent City, Crescent Beach",,14,Del Norte,Razor Clam meat,41.71,-124.1425,1
+F1906008-008,2019-06-18T00:00:00Z,"Crescent City, Crescent Beach",,10,Del Norte,Razor Clam meat,41.71,-124.1425,1
+F1907006-001,2019-07-02T00:00:00Z,"Crescent City, Crescent Beach",<,2.5,Del Norte,Razor Clam meat,41.71,-124.1425,1
+F1907006-002,2019-07-02T00:00:00Z,"Crescent City, Crescent Beach",<,2.5,Del Norte,Razor Clam meat,41.71,-124.1425,1
+F1907006-003,2019-07-02T00:00:00Z,"Crescent City, Crescent Beach",<,2.5,Del Norte,Razor Clam meat,41.71,-124.1425,1
+F1907006-004,2019-07-02T00:00:00Z,"Crescent City, Crescent Beach",<,2.5,Del Norte,Razor Clam meat,41.71,-124.1425,1
+F1907006-005,2019-07-02T00:00:00Z,"Crescent City, Crescent Beach",,7.1,Del Norte,Razor Clam meat,41.71,-124.1425,1
+F1907006-006,2019-07-02T00:00:00Z,"Crescent City, Crescent Beach",,11,Del Norte,Razor Clam meat,41.71,-124.1425,1
+F1907006-007,2019-07-02T00:00:00Z,"Crescent City, Crescent Beach",<,2.5,Del Norte,Razor Clam meat,41.71,-124.1425,1
+F1907006-008,2019-07-02T00:00:00Z,"Crescent City, Crescent Beach",,24,Del Norte,Razor Clam meat,41.71,-124.1425,1
+F1907006-009,2019-07-02T00:00:00Z,"Crescent City, Crescent Beach",<,2.5,Del Norte,Razor Clam meat,41.71,-124.1425,1
+F1907006-010,2019-07-02T00:00:00Z,"Crescent City, Crescent Beach",,130,Del Norte,Razor Clam meat,41.71,-124.1425,1
+F1908002-001,2019-07-16T00:00:00Z,"Humboldt, Clam Beach",,17,Humboldt,Razor Clam meat,41.0081,-124.1147,1
+F1908002-002,2019-07-16T00:00:00Z,"Humboldt, Clam Beach",,56,Humboldt,Razor Clam meat,41.0081,-124.1147,1
+F1908002-003,2019-07-16T00:00:00Z,"Humboldt, Clam Beach",,67,Humboldt,Razor Clam meat,41.0081,-124.1147,1
+F1908002-004,2019-07-16T00:00:00Z,"Humboldt, Clam Beach",,9.9,Humboldt,Razor Clam meat,41.0081,-124.1147,1
+F1908002-005,2019-07-16T00:00:00Z,"Humboldt, Clam Beach",,13,Humboldt,Razor Clam meat,41.0081,-124.1147,1
+F1908002-006,2019-07-16T00:00:00Z,"Humboldt, Clam Beach",,93,Humboldt,Razor Clam meat,41.0081,-124.1147,1
+F1908002-007,2019-07-30T00:00:00Z,"Crescent City, Crescent Beach",<,2.5,Del Norte,Razor Clam meat,41.71,-124.1425,1
+F1908002-008,2019-07-30T00:00:00Z,"Crescent City, Crescent Beach",,130,Del Norte,Razor Clam meat,41.71,-124.1425,1
+F1908002-009,2019-07-30T00:00:00Z,"Crescent City, Crescent Beach",,3.5,Del Norte,Razor Clam meat,41.71,-124.1425,1
+F1908002-010,2019-07-30T00:00:00Z,"Crescent City, Crescent Beach",,2.8,Del Norte,Razor Clam meat,41.71,-124.1425,1
+F1908002-011,2019-07-30T00:00:00Z,"Crescent City, Crescent Beach",,13,Del Norte,Razor Clam meat,41.71,-124.1425,1
+F1908002-012,2019-07-30T00:00:00Z,"Crescent City, Crescent Beach",,9.2,Del Norte,Razor Clam meat,41.71,-124.1425,1
+F1908002-013,2019-07-30T00:00:00Z,"Crescent City, Crescent Beach",<,2.5,Del Norte,Razor Clam meat,41.71,-124.1425,4
+F1908002-014,2019-07-30T00:00:00Z,"Crescent City, Crescent Beach",,56,Del Norte,Razor Clam meat,41.71,-124.1425,1
+F1908014-001,2019-08-03T00:00:00Z,"Humboldt, Clam Beach",,9.2,Humboldt,Razor Clam meat,41.0081,-124.1147,1
+F1908014-002,2019-08-03T00:00:00Z,"Humboldt, Clam Beach",,18,Humboldt,Razor Clam meat,41.0081,-124.1147,1
+F1908014-003,2019-08-03T00:00:00Z,"Humboldt, Clam Beach",,22,Humboldt,Razor Clam meat,41.0081,-124.1147,1
+F1908014-004,2019-08-03T00:00:00Z,"Humboldt, Clam Beach",,37,Humboldt,Razor Clam meat,41.0081,-124.1147,1
+F1908014-005,2019-08-03T00:00:00Z,"Humboldt, Clam Beach",,4.6,Humboldt,Razor Clam meat,41.0081,-124.1147,1
+F1908014-006,2019-08-03T00:00:00Z,"Humboldt, Clam Beach",,18,Humboldt,Razor Clam meat,41.0081,-124.1147,1
+F1908014-007,2019-08-03T00:00:00Z,"Humboldt, Clam Beach",,6.5,Humboldt,Razor Clam meat,41.0081,-124.1147,1
+F1908014-008,2019-08-03T00:00:00Z,"Humboldt, Clam Beach",,27,Humboldt,Razor Clam meat,41.0081,-124.1147,1
+F1908014-009,2019-08-03T00:00:00Z,"Humboldt, Clam Beach",,8.8,Humboldt,Razor Clam meat,41.0081,-124.1147,1
+F1908014-010,2019-08-03T00:00:00Z,"Humboldt, Clam Beach",<,2.5,Humboldt,Razor Clam meat,41.0081,-124.1147,1
+F1911001-001,2019-10-28T00:00:00Z,"Crescent City, Crescent Beach",,180,Del Norte,Razor Clam meat,41.71,-124.1425,1
+F1911001-002,2019-10-28T00:00:00Z,"Crescent City, Crescent Beach",,130,Del Norte,Razor Clam meat,41.71,-124.1425,1
+F1911001-003,2019-10-28T00:00:00Z,"Crescent City, Crescent Beach",,130,Del Norte,Razor Clam meat,41.71,-124.1425,1
+F1911001-004,2019-10-28T00:00:00Z,"Crescent City, Crescent Beach",,160,Del Norte,Razor Clam meat,41.71,-124.1425,1
+F1911001-005,2019-10-28T00:00:00Z,"Crescent City, Crescent Beach",,130,Del Norte,Razor Clam meat,41.71,-124.1425,1
+F1911001-006,2019-10-28T00:00:00Z,"Crescent City, Crescent Beach",,110,Del Norte,Razor Clam meat,41.71,-124.1425,1
+F1911001-007,2019-10-28T00:00:00Z,"Crescent City, Crescent Beach",,160,Del Norte,Razor Clam meat,41.71,-124.1425,1
+F1911001-008,2019-10-28T00:00:00Z,"Crescent City, Crescent Beach",,160,Del Norte,Razor Clam meat,41.71,-124.1425,1
+F2002004-001,2020-02-08T00:00:00Z,"Crescent City, Crescent Beach",,21,Del Norte,Razor Clam meat,41.71,-124.1425,1
+F2002004-002,2020-02-08T00:00:00Z,"Crescent City, Crescent Beach",,30,Del Norte,Razor Clam meat,41.71,-124.1425,1
+F2002004-003,2020-02-08T00:00:00Z,"Crescent City, Crescent Beach",,46,Del Norte,Razor Clam meat,41.71,-124.1425,1
+F2002004-004,2020-02-08T00:00:00Z,"Crescent City, Crescent Beach",,39,Del Norte,Razor Clam meat,41.71,-124.1425,1
+F2002004-005,2020-02-08T00:00:00Z,"Crescent City, Crescent Beach",,99,Del Norte,Razor Clam meat,41.71,-124.1425,1
+F2002004-006,2020-02-08T00:00:00Z,"Crescent City, Crescent Beach",,28,Del Norte,Razor Clam meat,41.71,-124.1425,1
+F2003001-001,2020-02-20T00:00:00Z,"Humboldt, Clam Beach",,150,Humboldt,Razor Clam meat,41.0081,-124.1147,1
+F2003001-002,2020-02-20T00:00:00Z,"Humboldt, Clam Beach",,130,Humboldt,Razor Clam meat,41.0081,-124.1147,1
+F2003001-003,2020-02-20T00:00:00Z,"Humboldt, Clam Beach",,27,Humboldt,Razor Clam meat,41.0081,-124.1147,1
+F2003001-004,2020-02-20T00:00:00Z,"Humboldt, Clam Beach",,130,Humboldt,Razor Clam meat,41.0081,-124.1147,1
+F2003001-005,2020-02-20T00:00:00Z,"Humboldt, Clam Beach",,47,Humboldt,Razor Clam meat,41.0081,-124.1147,1
+F2003001-006,2020-02-20T00:00:00Z,"Humboldt, Clam Beach",,90,Humboldt,Razor Clam meat,41.0081,-124.1147,1
+F2003008-001,2020-03-08T00:00:00Z,"Humboldt, Clam Beach",,68,Humboldt,Razor Clam meat,41.0081,-124.1147,1
+F2003008-002,2020-03-08T00:00:00Z,"Humboldt, Clam Beach",,12,Humboldt,Razor Clam meat,41.0081,-124.1147,1
+F2003008-003,2020-03-08T00:00:00Z,"Crescent City, Crescent Beach",,160,Del Norte,Razor Clam meat,41.71,-124.1425,1
+F2003008-004,2020-03-08T00:00:00Z,"Crescent City, Crescent Beach",,59,Del Norte,Razor Clam meat,41.71,-124.1425,1
+F2003008-005,2020-03-08T00:00:00Z,"Crescent City, Crescent Beach",,140,Del Norte,Razor Clam meat,41.71,-124.1425,1
+F2003008-006,2020-03-08T00:00:00Z,"Crescent City, Crescent Beach",,81,Del Norte,Razor Clam meat,41.71,-124.1425,1
+F2003008-007,2020-03-08T00:00:00Z,"Crescent City, Crescent Beach",,8.5,Del Norte,Razor Clam meat,41.71,-124.1425,1
+F2003008-008,2020-03-08T00:00:00Z,"Crescent City, Crescent Beach",,180,Del Norte,Razor Clam meat,41.71,-124.1425,1
+F2003008-009,2020-03-08T00:00:00Z,"Crescent City, Crescent Beach",,70,Del Norte,Razor Clam meat,41.71,-124.1425,1
+F2003008-010,2020-03-08T00:00:00Z,"Crescent City, Crescent Beach",,35,Del Norte,Razor Clam meat,41.71,-124.1425,1
+F2003008-011,2020-03-08T00:00:00Z,"Crescent City, Crescent Beach",,100,Del Norte,Razor Clam meat,41.71,-124.1425,1
+F2004004-001,2020-04-09T00:00:00Z,"Humboldt, Clam Beach",<,2.5,Humboldt,Razor Clam meat,41.0081,-124.1147,1
+F2004004-002,2020-04-09T00:00:00Z,"Humboldt, Clam Beach",,17,Humboldt,Razor Clam meat,41.0081,-124.1147,1
+F2004004-003,2020-04-09T00:00:00Z,"Humboldt, Clam Beach",,30,Humboldt,Razor Clam meat,41.0081,-124.1147,1
+F2004004-004,2020-04-09T00:00:00Z,"Humboldt, Clam Beach",,31,Humboldt,Razor Clam meat,41.0081,-124.1147,1
+F2004004-005,2020-04-09T00:00:00Z,"Humboldt, Clam Beach",,39,Humboldt,Razor Clam meat,41.0081,-124.1147,1
+F2004004-006,2020-04-09T00:00:00Z,"Humboldt, Clam Beach",,46,Humboldt,Razor Clam meat,41.0081,-124.1147,1
+F2004005-001,2020-04-09T00:00:00Z,"Crescent City, Crescent Beach",,16,Del Norte,Razor Clam meat,41.71,-124.1425,1
+F2004005-002,2020-04-09T00:00:00Z,"Crescent City, Crescent Beach",,6.4,Del Norte,Razor Clam meat,41.71,-124.1425,1
+F2004005-003,2020-04-09T00:00:00Z,"Crescent City, Crescent Beach",,23,Del Norte,Razor Clam meat,41.71,-124.1425,1
+F2004005-004,2020-04-09T00:00:00Z,"Crescent City, Crescent Beach",,9.6,Del Norte,Razor Clam meat,41.71,-124.1425,1
+F2004005-005,2020-04-09T00:00:00Z,"Crescent City, Crescent Beach",,65,Del Norte,Razor Clam meat,41.71,-124.1425,1
+F2004005-006,2020-04-09T00:00:00Z,"Crescent City, Crescent Beach",,36,Del Norte,Razor Clam meat,41.71,-124.1425,1
+F2004005-007,2020-04-09T00:00:00Z,"Crescent City, Crescent Beach",,16,Del Norte,Razor Clam meat,41.71,-124.1425,1
+F2004005-008,2020-04-09T00:00:00Z,"Crescent City, Crescent Beach",,14,Del Norte,Razor Clam meat,41.71,-124.1425,1
+F2004006-001,2020-04-09T00:00:00Z,"Crescent City, Crescent Beach",,23,Del Norte,Razor Clam meat,41.71,-124.1425,1
+F2004006-002,2020-04-09T00:00:00Z,"Crescent City, Crescent Beach",,55,Del Norte,Razor Clam meat,41.71,-124.1425,1
+F2004006-003,2020-04-09T00:00:00Z,"Crescent City, Crescent Beach",,66,Del Norte,Razor Clam meat,41.71,-124.1425,1
+F2004006-004,2020-04-09T00:00:00Z,"Crescent City, Crescent Beach",,28,Del Norte,Razor Clam meat,41.71,-124.1425,1
+F2004006-005,2020-04-09T00:00:00Z,"Crescent City, Crescent Beach",,6.4,Del Norte,Razor Clam meat,41.71,-124.1425,1
+F2004006-006,2020-04-09T00:00:00Z,"Crescent City, Crescent Beach",,12,Del Norte,Razor Clam meat,41.71,-124.1425,1
+F2005003-001,2020-05-08T00:00:00Z,"Crescent City, Crescent Beach",,39,Del Norte,Razor Clam meat,41.71,-124.1425,1
+F2005003-002,2020-05-08T00:00:00Z,"Crescent City, Crescent Beach",,15,Del Norte,Razor Clam meat,41.71,-124.1425,1
+F2005003-003,2020-05-08T00:00:00Z,"Crescent City, Crescent Beach",,25,Del Norte,Razor Clam meat,41.71,-124.1425,1
+F2005003-004,2020-05-08T00:00:00Z,"Crescent City, Crescent Beach",,13,Del Norte,Razor Clam meat,41.71,-124.1425,1
+F2005003-005,2020-05-08T00:00:00Z,"Crescent City, Crescent Beach",,19,Del Norte,Razor Clam meat,41.71,-124.1425,1
+F2005003-006,2020-05-08T00:00:00Z,"Crescent City, Crescent Beach",,32,Del Norte,Razor Clam meat,41.71,-124.1425,1
+F2005003-007,2020-05-08T00:00:00Z,"Crescent City, Crescent Beach",<,2.5,Del Norte,Razor Clam meat,41.71,-124.1425,1
+F2005003-008,2020-05-08T00:00:00Z,"Crescent City, Crescent Beach",,5.6,Del Norte,Razor Clam meat,41.71,-124.1425,1
+F2005007-001,2020-05-08T00:00:00Z,"Crescent City, Crescent Beach",,36,Del Norte,Razor Clam meat,41.71,-124.1425,1
+F2005007-002,2020-05-08T00:00:00Z,"Crescent City, Crescent Beach",,29,Del Norte,Razor Clam meat,41.71,-124.1425,1
+F2005007-003,2020-05-08T00:00:00Z,"Crescent City, Crescent Beach",,8.3,Del Norte,Razor Clam meat,41.71,-124.1425,1
+F2005007-004,2020-05-08T00:00:00Z,"Crescent City, Crescent Beach",,21,Del Norte,Razor Clam meat,41.71,-124.1425,1
+F2005007-005,2020-05-08T00:00:00Z,"Crescent City, Crescent Beach",,11,Del Norte,Razor Clam meat,41.71,-124.1425,1
+F2005007-006,2020-05-08T00:00:00Z,"Crescent City, Crescent Beach",,25,Del Norte,Razor Clam meat,41.71,-124.1425,1
+F2005007-007,2020-05-08T00:00:00Z,"Crescent City, Crescent Beach",,25,Del Norte,Razor Clam meat,41.71,-124.1425,15
+F2005007-008,2020-05-08T00:00:00Z,"Crescent City, Crescent Beach",,35,Del Norte,Razor Clam meat,41.71,-124.1425,15
+F2005007-009,2020-05-08T00:00:00Z,"Crescent City, Crescent Beach",,37,Del Norte,Razor Clam meat,41.71,-124.1425,15
+F2005007-010,2020-05-08T00:00:00Z,"Crescent City, Crescent Beach",,27,Del Norte,Razor Clam meat,41.71,-124.1425,15
+F2005003-009,2020-05-10T00:00:00Z,"Humboldt, Clam Beach",,77,Humboldt,Razor Clam meat,41.0081,-124.1147,1
+F2005003-010,2020-05-10T00:00:00Z,"Humboldt, Clam Beach",,46,Humboldt,Razor Clam meat,41.0081,-124.1147,1
+F2005003-011,2020-05-10T00:00:00Z,"Humboldt, Clam Beach",,74,Humboldt,Razor Clam meat,41.0081,-124.1147,1
+F2005003-012,2020-05-10T00:00:00Z,"Humboldt, Clam Beach",,13,Humboldt,Razor Clam meat,41.0081,-124.1147,1
+F2005003-013,2020-05-10T00:00:00Z,"Humboldt, Clam Beach",,25,Humboldt,Razor Clam meat,41.0081,-124.1147,1
+F2005003-014,2020-05-10T00:00:00Z,"Humboldt, Clam Beach",,15,Humboldt,Razor Clam meat,41.0081,-124.1147,1
+F2006007-001,2020-06-05T00:00:00Z,"Crescent City, Crescent Beach",,45,Del Norte,Razor Clam meat,41.71,-124.1425,1
+F2006007-002,2020-06-05T00:00:00Z,"Crescent City, Crescent Beach",,56,Del Norte,Razor Clam meat,41.71,-124.1425,1
+F2006007-003,2020-06-05T00:00:00Z,"Crescent City, Crescent Beach",,13,Del Norte,Razor Clam meat,41.71,-124.1425,1
+F2006007-004,2020-06-05T00:00:00Z,"Crescent City, Crescent Beach",,23,Del Norte,Razor Clam meat,41.71,-124.1425,1
+F2006007-005,2020-06-05T00:00:00Z,"Crescent City, Crescent Beach",,31,Del Norte,Razor Clam meat,41.71,-124.1425,1
+F2006007-006,2020-06-05T00:00:00Z,"Crescent City, Crescent Beach",,21,Del Norte,Razor Clam meat,41.71,-124.1425,1
+F2006007-007,2020-06-08T00:00:00Z,"Humboldt, Clam Beach",,8.1,Humboldt,Razor Clam meat,41.0081,-124.1147,1
+F2006007-008,2020-06-08T00:00:00Z,"Humboldt, Clam Beach",,24,Humboldt,Razor Clam meat,41.0081,-124.1147,1
+F2006007-009,2020-06-08T00:00:00Z,"Humboldt, Clam Beach",,12,Humboldt,Razor Clam meat,41.0081,-124.1147,1
+F2006007-010,2020-06-08T00:00:00Z,"Humboldt, Clam Beach",,87,Humboldt,Razor Clam meat,41.0081,-124.1147,1
+F2006007-011,2020-06-08T00:00:00Z,"Humboldt, Clam Beach",,4.8,Humboldt,Razor Clam meat,41.0081,-124.1147,1
+F2006007-012,2020-06-08T00:00:00Z,"Humboldt, Clam Beach",,23,Humboldt,Razor Clam meat,41.0081,-124.1147,1
+F2006010-003,2020-06-09T00:00:00Z,"Crescent City, Crescent Beach",,15,Del Norte,Razor Clam meat,41.71,-124.1425,1
+F2006010-004,2020-06-09T00:00:00Z,"Crescent City, Crescent Beach",,9.4,Del Norte,Razor Clam meat,41.71,-124.1425,1
+F2006010-005,2020-06-09T00:00:00Z,"Crescent City, Crescent Beach",<,2.5,Del Norte,Razor Clam meat,41.71,-124.1425,1
+F2006010-006,2020-06-09T00:00:00Z,"Crescent City, Crescent Beach",<,2.5,Del Norte,Razor Clam meat,41.71,-124.1425,1
+F2006010-007,2020-06-09T00:00:00Z,"Crescent City, Crescent Beach",<,2.5,Del Norte,Razor Clam meat,41.71,-124.1425,1
+F2006010-008,2020-06-09T00:00:00Z,"Crescent City, Crescent Beach",,9.2,Del Norte,Razor Clam meat,41.71,-124.1425,1
+F2007005-001,2020-07-04T00:00:00Z,"Crescent City, Crescent Beach",,18,Del Norte,Razor Clam meat,41.71,-124.1425,1
+F2007005-002,2020-07-04T00:00:00Z,"Crescent City, Crescent Beach",,15,Del Norte,Razor Clam meat,41.71,-124.1425,1
+F2007005-003,2020-07-04T00:00:00Z,"Crescent City, Crescent Beach",,7.5,Del Norte,Razor Clam meat,41.71,-124.1425,1
+F2007005-004,2020-07-04T00:00:00Z,"Crescent City, Crescent Beach",,39,Del Norte,Razor Clam meat,41.71,-124.1425,1
+F2007005-005,2020-07-04T00:00:00Z,"Crescent City, Crescent Beach",,9.2,Del Norte,Razor Clam meat,41.71,-124.1425,1
+F2007005-006,2020-07-04T00:00:00Z,"Crescent City, Crescent Beach",,15,Del Norte,Razor Clam meat,41.71,-124.1425,1
+F2007005-007,2020-07-04T00:00:00Z,"Crescent City, Crescent Beach",,11,Del Norte,Razor Clam meat,41.71,-124.1425,1
+F2007005-008,2020-07-04T00:00:00Z,"Crescent City, Crescent Beach",,25,Del Norte,Razor Clam meat,41.71,-124.1425,1
+F2007007-002,2020-07-06T00:00:00Z,"Clam Beach, McKinleyville",,2.9,Humboldt,Razor Clam meat,40.948,-124.13,1
+F2007007-003,2020-07-06T00:00:00Z,"Clam Beach, McKinleyville",,72,Humboldt,Razor Clam meat,40.948,-124.13,1
+F2007007-004,2020-07-06T00:00:00Z,"Clam Beach, McKinleyville",,11,Humboldt,Razor Clam meat,40.948,-124.13,1
+F2007007-005,2020-07-06T00:00:00Z,"Clam Beach, McKinleyville",,25,Humboldt,Razor Clam meat,40.948,-124.13,1
+F2007007-006,2020-07-06T00:00:00Z,"Clam Beach, McKinleyville",,5.9,Humboldt,Razor Clam meat,40.948,-124.13,1
+F2007007-007,2020-07-06T00:00:00Z,"Clam Beach, McKinleyville",,59,Humboldt,Razor Clam meat,40.948,-124.13,1
+F2007007-008,2020-07-06T00:00:00Z,"Clam Beach, McKinleyville",,3.9,Humboldt,Razor Clam meat,40.948,-124.13,1
+F2008002-001,2020-08-03T00:00:00Z,"Crescent City, Crescent Beach",,36,Del Norte,Razor Clam meat,41.71,-124.1425,1
+F2008002-002,2020-08-03T00:00:00Z,"Crescent City, Crescent Beach",,17,Del Norte,Razor Clam meat,41.71,-124.1425,1
+F2008002-003,2020-08-03T00:00:00Z,"Crescent City, Crescent Beach",,3.4,Del Norte,Razor Clam meat,41.71,-124.1425,1
+F2008002-004,2020-08-03T00:00:00Z,"Crescent City, Crescent Beach",,21,Del Norte,Razor Clam meat,41.71,-124.1425,1
+F2008002-005,2020-08-03T00:00:00Z,"Crescent City, Crescent Beach",,23,Del Norte,Razor Clam meat,41.71,-124.1425,1
+F2008002-006,2020-08-03T00:00:00Z,"Crescent City, Crescent Beach",,3,Del Norte,Razor Clam meat,41.71,-124.1425,1
+F2008002-007,2020-08-03T00:00:00Z,"Crescent City, Crescent Beach",,4.8,Del Norte,Razor Clam meat,41.71,-124.1425,1
+F2008002-008,2020-08-03T00:00:00Z,"Crescent City, Crescent Beach",,6.3,Del Norte,Razor Clam meat,41.71,-124.1425,1
+F2008006-001,2020-08-19T00:00:00Z,"Crescent City, Crescent Beach",,94,Del Norte,Razor Clam meat,41.71,-124.1425,1
+F2008006-002,2020-08-19T00:00:00Z,"Crescent City, Crescent Beach",<,2.5,Del Norte,Razor Clam meat,41.71,-124.1425,1
+F2008006-003,2020-08-19T00:00:00Z,"Crescent City, Crescent Beach",,12,Del Norte,Razor Clam meat,41.71,-124.1425,1
+F2008006-004,2020-08-19T00:00:00Z,"Crescent City, Crescent Beach",<,2.5,Del Norte,Razor Clam meat,41.71,-124.1425,1
+F2008006-005,2020-08-19T00:00:00Z,"Crescent City, Crescent Beach",,6.1,Del Norte,Razor Clam meat,41.71,-124.1425,1
+F2008006-006,2020-08-19T00:00:00Z,"Crescent City, Crescent Beach",,2.7,Del Norte,Razor Clam meat,41.71,-124.1425,1
+F2008006-007,2020-08-19T00:00:00Z,"Crescent City, Crescent Beach",,2.9,Del Norte,Razor Clam meat,41.71,-124.1425,1
+F2008006-008,2020-08-19T00:00:00Z,"Crescent City, Crescent Beach",<,2.5,Del Norte,Razor Clam meat,41.71,-124.1425,1
+F2104007-001,2021-02-08T00:00:00Z,"Humboldt, Clam Beach",,19,Humboldt,Razor Clam meat,41.0081,-124.1147,1
+F2104007-002,2021-02-08T00:00:00Z,"Humboldt, Clam Beach",,10,Humboldt,Razor Clam meat,41.0081,-124.1147,1
+F2102008-001,2021-02-10T00:00:00Z,"Crescent City, Crescent Beach",,17,Del Norte,Razor Clam meat,41.71,-124.1425,1
+F2102008-002,2021-02-10T00:00:00Z,"Crescent City, Crescent Beach",,34,Del Norte,Razor Clam meat,41.71,-124.1425,1
+F2102008-003,2021-02-10T00:00:00Z,"Crescent City, Crescent Beach",,28,Del Norte,Razor Clam meat,41.71,-124.1425,1
+F2102008-004,2021-02-10T00:00:00Z,"Crescent City, Crescent Beach",,3.9,Del Norte,Razor Clam meat,41.71,-124.1425,1
+F2102008-005,2021-02-10T00:00:00Z,"Crescent City, Crescent Beach",,10,Del Norte,Razor Clam meat,41.71,-124.1425,1
+F2102008-006,2021-02-10T00:00:00Z,"Crescent City, Crescent Beach",,14,Del Norte,Razor Clam meat,41.71,-124.1425,1
+F2102008-007,2021-02-10T00:00:00Z,"Crescent City, Crescent Beach",,10,Del Norte,Razor Clam meat,41.71,-124.1425,1
+F2104005-001,2021-03-12T00:00:00Z,"Crescent City, Crescent Beach",<,2.5,Del Norte,Razor Clam meat,41.71,-124.1425,1
+F2104005-002,2021-03-12T00:00:00Z,"Crescent City, Crescent Beach",,3.4,Del Norte,Razor Clam meat,41.71,-124.1425,1
+F2104005-003,2021-03-12T00:00:00Z,"Crescent City, Crescent Beach",,3.5,Del Norte,Razor Clam meat,41.71,-124.1425,1
+F2104005-004,2021-03-12T00:00:00Z,"Crescent City, Crescent Beach",,12,Del Norte,Razor Clam meat,41.71,-124.1425,1
+F2104005-005,2021-03-12T00:00:00Z,"Crescent City, Crescent Beach",,3.3,Del Norte,Razor Clam meat,41.71,-124.1425,1
+F2104005-006,2021-03-12T00:00:00Z,"Crescent City, Crescent Beach",<,2.5,Del Norte,Razor Clam meat,41.71,-124.1425,1
+F2104005-007,2021-03-12T00:00:00Z,"Crescent City, Crescent Beach",<,2.5,Del Norte,Razor Clam meat,41.71,-124.1425,6
+F2104007-003,2021-04-01T00:00:00Z,"Crescent City, Crescent Beach",<,2.5,Del Norte,Razor Clam meat,41.71,-124.1425,1
+F2104007-004,2021-04-01T00:00:00Z,"Crescent City, Crescent Beach",<,2.5,Del Norte,Razor Clam meat,41.71,-124.1425,1
+F2104007-005,2021-04-01T00:00:00Z,"Crescent City, Crescent Beach",,3.3,Del Norte,Razor Clam meat,41.71,-124.1425,1
+F2104007-006,2021-04-01T00:00:00Z,"Crescent City, Crescent Beach",<,2.5,Del Norte,Razor Clam meat,41.71,-124.1425,1
+F2104007-007,2021-04-01T00:00:00Z,"Crescent City, Crescent Beach",<,2.5,Del Norte,Razor Clam meat,41.71,-124.1425,1
+F2104007-008,2021-04-01T00:00:00Z,"Crescent City, Crescent Beach",<,2.5,Del Norte,Razor Clam meat,41.71,-124.1425,1
+F2104007-009,2021-04-01T00:00:00Z,"Crescent City, Crescent Beach",<,2.5,Del Norte,Razor Clam meat,41.71,-124.1425,1
+F2105001-001,2021-04-28T00:00:00Z,"Humboldt, Clam Beach",,20,Humboldt,Razor Clam meat,41.0081,-124.1147,1
+F2105001-002,2021-04-28T00:00:00Z,"Humboldt, Clam Beach",,46,Humboldt,Razor Clam meat,41.0081,-124.1147,1
+F2105001-003,2021-04-28T00:00:00Z,"Humboldt, Clam Beach",,4.5,Humboldt,Razor Clam meat,41.0081,-124.1147,1
+F2105001-004,2021-04-28T00:00:00Z,"Humboldt, Clam Beach",,47,Humboldt,Razor Clam meat,41.0081,-124.1147,1
+F2105001-005,2021-04-28T00:00:00Z,"Humboldt, Clam Beach",,23,Humboldt,Razor Clam meat,41.0081,-124.1147,1
+F2105001-006,2021-04-28T00:00:00Z,"Humboldt, Clam Beach",,20,Humboldt,Razor Clam meat,41.0081,-124.1147,1
+F2105009-012,2021-04-28T00:00:00Z,"Crescent City, Crescent Beach",<,2.5,Del Norte,Razor Clam meat,41.71,-124.1425,4
+F2105009-013,2021-04-28T00:00:00Z,"Crescent City, Crescent Beach",,4.6,Del Norte,Razor Clam meat,41.71,-124.1425,4
+F2105009-014,2021-04-28T00:00:00Z,"Crescent City, Crescent Beach",<,2.5,Del Norte,Razor Clam meat,41.71,-124.1425,2
+F2105009-009,2021-04-30T00:00:00Z,Point St. George,<,2.5,Del Norte,Razor Clam meat,41.770479,-124.254556,4
+F2105009-010,2021-04-30T00:00:00Z,Point St. George,<,2.5,Del Norte,Razor Clam meat,41.770479,-124.254556,4
+F2105009-011,2021-04-30T00:00:00Z,Point St. George,<,2.5,Del Norte,Razor Clam meat,41.770479,-124.254556,2
+F2105009-001,2021-05-01T00:00:00Z,"Humboldt, Clam Beach",,6.6,Humboldt,Razor Clam meat,41.0081,-124.1147,1
+F2105009-002,2021-05-01T00:00:00Z,"Humboldt, Clam Beach",,4.2,Humboldt,Razor Clam meat,41.0081,-124.1147,1
+F2105009-003,2021-05-01T00:00:00Z,"Humboldt, Clam Beach",<,2.5,Humboldt,Razor Clam meat,41.0081,-124.1147,1
+F2105009-004,2021-05-01T00:00:00Z,"Humboldt, Clam Beach",,5.3,Humboldt,Razor Clam meat,41.0081,-124.1147,1
+F2105009-005,2021-05-01T00:00:00Z,"Humboldt, Clam Beach",<,2.5,Humboldt,Razor Clam meat,41.0081,-124.1147,1
+F2105009-006,2021-05-01T00:00:00Z,"Humboldt, Clam Beach",<,2.5,Humboldt,Razor Clam meat,41.0081,-124.1147,1
+F2105009-007,2021-05-01T00:00:00Z,"Humboldt, Clam Beach",<,2.5,Humboldt,Razor Clam meat,41.0081,-124.1147,1
+F2105009-008,2021-05-01T00:00:00Z,"Humboldt, Clam Beach",,15,Humboldt,Razor Clam meat,41.0081,-124.1147,1
+F2106017-001,2021-05-26T00:00:00Z,"Crescent City, Crescent Beach",,3.4,Del Norte,Razor Clam meat,41.71,-124.1425,4
+F2106017-002,2021-05-26T00:00:00Z,"Crescent City, Crescent Beach",<,2.5,Del Norte,Razor Clam meat,41.71,-124.1425,4
+F2106017-003,2021-05-26T00:00:00Z,"Crescent City, Crescent Beach",<,2.5,Del Norte,Razor Clam meat,41.71,-124.1425,4
+F2106002-001,2021-05-27T00:00:00Z,"Humboldt, Clam Beach",,10,Humboldt,Razor Clam meat,41.0081,-124.1147,1
+F2106002-002,2021-05-27T00:00:00Z,"Humboldt, Clam Beach",,8.3,Humboldt,Razor Clam meat,41.0081,-124.1147,1
+F2106002-003,2021-05-27T00:00:00Z,"Humboldt, Clam Beach",<,2.5,Humboldt,Razor Clam meat,41.0081,-124.1147,1
+F2106002-004,2021-05-27T00:00:00Z,"Humboldt, Clam Beach",,43,Humboldt,Razor Clam meat,41.0081,-124.1147,1
+F2106002-005,2021-05-27T00:00:00Z,"Humboldt, Clam Beach",,19,Humboldt,Razor Clam meat,41.0081,-124.1147,1
+F2106002-006,2021-05-27T00:00:00Z,"Humboldt, Clam Beach",<,2.5,Humboldt,Razor Clam meat,41.0081,-124.1147,1
+F2106021-001,2021-06-27T00:00:00Z,"Humboldt, Clam Beach",<,2.5,Humboldt,Razor Clam meat,41.0081,-124.1147,1
+F2106021-002,2021-06-27T00:00:00Z,"Humboldt, Clam Beach",,3,Humboldt,Razor Clam meat,41.0081,-124.1147,1
+F2106021-003,2021-06-27T00:00:00Z,"Humboldt, Clam Beach",,5.2,Humboldt,Razor Clam meat,41.0081,-124.1147,1
+F2106021-004,2021-06-27T00:00:00Z,"Humboldt, Clam Beach",<,2.5,Humboldt,Razor Clam meat,41.0081,-124.1147,1
+F2106021-005,2021-06-27T00:00:00Z,"Humboldt, Clam Beach",,2.6,Humboldt,Razor Clam meat,41.0081,-124.1147,1
+F2106021-006,2021-06-27T00:00:00Z,"Humboldt, Clam Beach",<,2.5,Humboldt,Razor Clam meat,41.0081,-124.1147,1
+F2108005-008,2021-07-23T00:00:00Z,"Crescent City, Crescent Beach",,5.8,Del Norte,Razor Clam meat,41.71,-124.1425,4
+F2108005-009,2021-07-23T00:00:00Z,"Crescent City, Crescent Beach",<,2.5,Del Norte,Razor Clam meat,41.71,-124.1425,5
+F2108001-001,2021-07-24T00:00:00Z,"Humboldt, Clam Beach",<,2.5,Humboldt,Razor Clam meat,41.0081,-124.1147,1
+F2108001-002,2021-07-24T00:00:00Z,"Humboldt, Clam Beach",,11,Humboldt,Razor Clam meat,41.0081,-124.1147,1
+F2108001-003,2021-07-24T00:00:00Z,"Humboldt, Clam Beach",,9.4,Humboldt,Razor Clam meat,41.0081,-124.1147,1
+F2108001-004,2021-07-24T00:00:00Z,"Humboldt, Clam Beach",,11,Humboldt,Razor Clam meat,41.0081,-124.1147,1
+F2108001-005,2021-07-24T00:00:00Z,"Humboldt, Clam Beach",,8.7,Humboldt,Razor Clam meat,41.0081,-124.1147,1
+F2108001-006,2021-07-24T00:00:00Z,"Humboldt, Clam Beach",,8.6,Humboldt,Razor Clam meat,41.0081,-124.1147,1
+F2108010-001,2021-08-08T00:00:00Z,"Humboldt, Clam Beach",,5.1,Humboldt,Razor Clam meat,41.0081,-124.1147,1
+F2108010-002,2021-08-08T00:00:00Z,"Humboldt, Clam Beach",,9,Humboldt,Razor Clam meat,41.0081,-124.1147,1
+F2108010-003,2021-08-08T00:00:00Z,"Humboldt, Clam Beach",,10,Humboldt,Razor Clam meat,41.0081,-124.1147,1
+F2108010-004,2021-08-08T00:00:00Z,"Humboldt, Clam Beach",,6.4,Humboldt,Razor Clam meat,41.0081,-124.1147,1
+F2108010-005,2021-08-08T00:00:00Z,"Humboldt, Clam Beach",,4.1,Humboldt,Razor Clam meat,41.0081,-124.1147,1
+F2108010-006,2021-08-08T00:00:00Z,"Humboldt, Clam Beach",,18,Humboldt,Razor Clam meat,41.0081,-124.1147,1
+F2109001-006,2021-08-23T00:00:00Z,"Crescent City, Crescent Beach",,3.7,Del Norte,Razor Clam meat,41.71,-124.1425,4
+F2109001-007,2021-08-23T00:00:00Z,"Crescent City, Crescent Beach",<,2.5,Del Norte,Razor Clam meat,41.71,-124.1425,4
+F2109001-008,2021-08-23T00:00:00Z,"Crescent City, Crescent Beach",<,2.5,Del Norte,Razor Clam meat,41.71,-124.1425,4
+F2112009-001,2021-12-04T00:00:00Z,"Crescent City, Crescent Beach",,48,Del Norte,Razor Clam meat,41.71,-124.1425,4
+F2112009-002,2021-12-04T00:00:00Z,"Crescent City, Crescent Beach",,27,Del Norte,Razor Clam meat,41.71,-124.1425,4
+F2202006-001,2022-01-28T00:00:00Z,"Crescent City, Crescent Beach",,44,Del Norte,Razor Clam meat,41.71,-124.1425,4
+F2202006-002,2022-01-28T00:00:00Z,"Crescent City, Crescent Beach",,48,Del Norte,Razor Clam meat,41.71,-124.1425,4
+F2202006-003,2022-01-28T00:00:00Z,"Crescent City, Crescent Beach",,25,Del Norte,Razor Clam meat,41.71,-124.1425,4
+F2202006-004,2022-01-30T00:00:00Z,"Crescent City, Crescent Beach",,20,Del Norte,Razor Clam meat,41.71,-124.1425,3
+F2202006-005,2022-01-30T00:00:00Z,"Crescent City, Crescent Beach",,34,Del Norte,Razor Clam meat,41.71,-124.1425,3
+F2202006-006,2022-01-31T00:00:00Z,"Crescent City, Crescent Beach",,40,Del Norte,Razor Clam meat,41.71,-124.1425,4
+F2202006-007,2022-01-31T00:00:00Z,"Crescent City, Crescent Beach",,26,Del Norte,Razor Clam meat,41.71,-124.1425,4
+F2202006-008,2022-01-31T00:00:00Z,"Crescent City, Crescent Beach",,27,Del Norte,Razor Clam meat,41.71,-124.1425,4
+F2202031-007,2022-02-13T00:00:00Z,"Humboldt, Moonstone Beach",,14,Humboldt,Razor Clam meat,41.0469,-124.1249,1
+F2204002-001,2022-03-28T00:00:00Z,"Crescent City, Crescent Beach",,8.5,Del Norte,Razor Clam meat,41.71,-124.1425,4
+F2204002-002,2022-03-28T00:00:00Z,"Crescent City, Crescent Beach",,17,Del Norte,Razor Clam meat,41.71,-124.1425,4
+F2204002-003,2022-03-28T00:00:00Z,"Crescent City, Crescent Beach",,17,Del Norte,Razor Clam meat,41.71,-124.1425,4
+F2204017-001,2022-04-17T00:00:00Z,"Crescent City, Crescent Beach",,16,Del Norte,Razor Clam meat,41.71,-124.1425,4
+F2204017-002,2022-04-17T00:00:00Z,"Crescent City, Crescent Beach",,8.1,Del Norte,Razor Clam meat,41.71,-124.1425,4
+F2204017-003,2022-04-17T00:00:00Z,"Crescent City, Crescent Beach",,20,Del Norte,Razor Clam meat,41.71,-124.1425,4
+F2204028-001,2022-04-17T00:00:00Z,"Crescent City, Crescent Beach",,5.5,Del Norte,Razor Clam meat,41.71,-124.1425,4
+F2204028-002,2022-04-17T00:00:00Z,"Crescent City, Crescent Beach",,7,Del Norte,Razor Clam meat,41.71,-124.1425,4
+F2204028-003,2022-04-17T00:00:00Z,"Crescent City, Crescent Beach",,8.1,Del Norte,Razor Clam meat,41.71,-124.1425,4
+F2205025-001,2022-05-15T00:00:00Z,"Crescent City, Crescent Beach",,26,Del Norte,Razor Clam meat,41.71,-124.1425,
+F2205025-002,2022-05-15T00:00:00Z,"Crescent City, Crescent Beach",,13,Del Norte,Razor Clam meat,41.71,-124.1425,
+F2205025-003,2022-05-15T00:00:00Z,"Crescent City, Crescent Beach",,5.1,Del Norte,Razor Clam meat,41.71,-124.1425,
+F2205028-007,2022-05-18T00:00:00Z,"Humboldt, Clam Beach",,3.3,Humboldt,Razor Clam meat,41.0081,-124.1147,2
+F2205028-005,2022-05-19T00:00:00Z,"Humboldt, Moonstone Beach",,2.7,Humboldt,Razor Clam meat,41.0469,-124.1249,3
+F2205028-006,2022-05-19T00:00:00Z,"Humboldt, Moonstone Beach",<,2.5,Humboldt,Razor Clam meat,41.0469,-124.1249,3
+F2205028-001,2022-05-21T00:00:00Z,"Crescent City, Crescent Beach",,20,Del Norte,Razor Clam meat,41.71,-124.1425,4
+F2205028-002,2022-05-21T00:00:00Z,"Crescent City, Crescent Beach",,8.6,Del Norte,Razor Clam meat,41.71,-124.1425,4
+F2205028-003,2022-05-21T00:00:00Z,"Crescent City, Crescent Beach",,30,Del Norte,Razor Clam meat,41.71,-124.1425,4
+F2205028-004,2022-05-21T00:00:00Z,"Crescent City, Crescent Beach",,27,Del Norte,Razor Clam meat,41.71,-124.1425,3
+F2206005-001,2022-06-01T00:00:00Z,"Crescent City, Crescent Beach",,7.9,Del Norte,Razor Clam meat,41.71,-124.1425,4
+F2206005-002,2022-06-01T00:00:00Z,"Crescent City, Crescent Beach",,4.4,Del Norte,Razor Clam meat,41.71,-124.1425,4
+F2206005-003,2022-06-01T00:00:00Z,"Crescent City, Crescent Beach",,6.6,Del Norte,Razor Clam meat,41.71,-124.1425,4
+F2206005-004,2022-06-01T00:00:00Z,"Crescent City, Crescent Beach",,5.7,Del Norte,Razor Clam meat,41.71,-124.1425,3
+F2206007-001,2022-06-14T00:00:00Z,"Crescent City, Crescent Beach",<,2.5,Del Norte,Razor Clam meat,41.71,-124.1425,4
+F2206007-002,2022-06-14T00:00:00Z,"Crescent City, Crescent Beach",,8.1,Del Norte,Razor Clam meat,41.71,-124.1425,4
+F2206007-003,2022-06-14T00:00:00Z,"Crescent City, Crescent Beach",,15,Del Norte,Razor Clam meat,41.71,-124.1425,3
+F2206012-001,2022-06-16T00:00:00Z,"Humboldt, Clam Beach",<,2.5,Humboldt,Razor Clam meat,41.0081,-124.1147,4
+F2206012-002,2022-06-16T00:00:00Z,"Humboldt, Clam Beach",,2.9,Humboldt,Razor Clam meat,41.0081,-124.1147,4
+F2206012-003,2022-06-16T00:00:00Z,"Humboldt, Clam Beach",,3.8,Humboldt,Razor Clam meat,41.0081,-124.1147,4
+F2207009-003,2022-07-15T00:00:00Z,"Hunter Rock, north",<,2.5,Del Norte,Razor Clam meat,41.959707,-124.2079,4
+F2207009-006,2022-07-15T00:00:00Z,"Hunter Rock, north",<,2.5,Del Norte,Razor Clam meat,41.959707,-124.2079,
+F2207009-007,2022-07-15T00:00:00Z,"Hunter Rock, north",<,2.5,Del Norte,Razor Clam meat,41.959707,-124.2079,
+F2207009-001,2022-07-19T00:00:00Z,"Humboldt, Clam Beach",<,2.5,Humboldt,Razor Clam meat,41.0081,-124.1147,3
+F2207009-002,2022-07-19T00:00:00Z,"Humboldt, Clam Beach",<,2.5,Humboldt,Razor Clam meat,41.0081,-124.1147,3
+F2208014-001,2022-08-11T00:00:00Z,"Humboldt, Clam Beach",<,2.5,Humboldt,Razor Clam meat,41.0081,-124.1147,4
+F2208014-002,2022-08-14T00:00:00Z,"Humboldt, Clam Beach",<,2.5,Humboldt,Razor Clam meat,41.0081,-124.1147,2
+F2211001-001,2022-10-25T00:00:00Z,"Crescent City, Crescent Beach",,21,Del Norte,Razor Clam meat,41.71,-124.1425,4
+F2211001-002,2022-10-25T00:00:00Z,"Crescent City, Crescent Beach",,30,Del Norte,Razor Clam meat,41.71,-124.1425,4
+F2211001-003,2022-10-25T00:00:00Z,"Crescent City, Crescent Beach",,26,Del Norte,Razor Clam meat,41.71,-124.1425,4
+F2211001-004,2022-10-25T00:00:00Z,"Crescent City, Crescent Beach",,20,Del Norte,Razor Clam meat,41.71,-124.1425,3
+F2211006-001,2022-10-27T00:00:00Z,"Crescent City, Crescent Beach",,15,Del Norte,Razor Clam meat,41.71,-124.1425,4
+F2211006-002,2022-10-27T00:00:00Z,"Crescent City, Crescent Beach",,19,Del Norte,Razor Clam meat,41.71,-124.1425,4
+F2211006-003,2022-10-27T00:00:00Z,"Crescent City, Crescent Beach",,22,Del Norte,Razor Clam meat,41.71,-124.1425,4
+F2211006-004,2022-10-27T00:00:00Z,"Crescent City, Crescent Beach",,26,Del Norte,Razor Clam meat,41.71,-124.1425,3
+F2212005-001,2022-11-23T00:00:00Z,"Crescent City, Crescent Beach",,32,Del Norte,Razor Clam meat,41.71,-124.1425,5
+F2212005-002,2022-11-23T00:00:00Z,"Crescent City, Crescent Beach",,29,Del Norte,Razor Clam meat,41.71,-124.1425,4
+F2212005-003,2022-11-23T00:00:00Z,"Crescent City, Crescent Beach",,30,Del Norte,Razor Clam meat,41.71,-124.1425,4
+F2212005-004,2022-11-23T00:00:00Z,"Crescent City, Crescent Beach",,32,Del Norte,Razor Clam meat,41.71,-124.1425,5
+F2212005-005,2022-11-23T00:00:00Z,"Crescent City, Crescent Beach",,33,Del Norte,Razor Clam meat,41.71,-124.1425,4
+F2212005-006,2022-11-23T00:00:00Z,"Crescent City, Crescent Beach",,26,Del Norte,Razor Clam meat,41.71,-124.1425,4
+F2212005-007,2022-11-23T00:00:00Z,"Crescent City, Crescent Beach",,36,Del Norte,Razor Clam meat,41.71,-124.1425,4
+F2301002-001,2022-12-23T00:00:00Z,"Crescent City, Crescent Beach",,42,Del Norte,Razor Clam meat,41.71,-124.1425,3
+F2301014-007,2023-01-20T00:00:00Z,"Crescent City, Crescent Beach",,30,Del Norte,Razor Clam meat,41.71,-124.1425,2
+F2301014-008,2023-01-20T00:00:00Z,"Crescent City, Crescent Beach",,14,Del Norte,Razor Clam meat,41.71,-124.1425,3
+F2302006-009,2023-02-18T00:00:00Z,"Crescent City, Crescent Beach",,35,Del Norte,Razor Clam meat,41.71,-124.1425,4
+F2303028-011,2023-03-18T00:00:00Z,"Crescent City, Crescent Beach",,16,Del Norte,Razor Clam meat,41.71,-124.1425,3
+F2303028-012,2023-03-18T00:00:00Z,"Crescent City, Crescent Beach",,30,Del Norte,Razor Clam meat,41.71,-124.1425,2
+F2304013-001,2023-04-09T00:00:00Z,"Humboldt, Clam Beach",,33,Humboldt,Razor Clam meat,41.0081,-124.1147,2
+F2304013-002,2023-04-09T00:00:00Z,"Humboldt, Clam Beach",,45,Humboldt,Razor Clam meat,41.0081,-124.1147,3
+F2305001-009,2023-04-23T00:00:00Z,"Crescent City, Crescent Beach",,13,Del Norte,Razor Clam meat,41.71,-124.1425,3
+F2305001-010,2023-04-23T00:00:00Z,"Crescent City, Crescent Beach",,9.5,Del Norte,Razor Clam meat,41.71,-124.1425,4
+F2305001-007,2023-04-24T00:00:00Z,"Clam Beach, North",,29,Humboldt,Razor Clam meat,40.948,-124.13,3
+F2305001-008,2023-04-24T00:00:00Z,"Clam Beach, North",,26,Humboldt,Razor Clam meat,40.948,-124.13,2
+F2305010-011,2023-05-07T00:00:00Z,Point St. George,,9.6,Del Norte,Razor Clam meat,41.770479,-124.254556,3
+F2305010-012,2023-05-07T00:00:00Z,Point St. George,,5.6,Del Norte,Razor Clam meat,41.770479,-124.254556,3
+F2305010-013,2023-05-07T00:00:00Z,Point St. George,,17,Del Norte,Razor Clam meat,41.770479,-124.254556,3
+F2305010-009,2023-05-10T00:00:00Z,"Humboldt, Clam Beach",,18,Humboldt,Razor Clam meat,41.0081,-124.1147,3
+F2305010-010,2023-05-10T00:00:00Z,"Humboldt, Clam Beach",,36,Humboldt,Razor Clam meat,41.0081,-124.1147,3
+F2305014-009,2023-05-19T00:00:00Z,Point St. George,,9.5,Del Norte,Razor Clam meat,41.770479,-124.254556,4
+F2305014-010,2023-05-19T00:00:00Z,Point St. George,,20,Del Norte,Razor Clam meat,41.770479,-124.254556,4
+F2305014-011,2023-05-19T00:00:00Z,Point St. George,<,2.5,Del Norte,Razor Clam meat,41.770479,-124.254556,4
+F2305014-012,2023-05-20T00:00:00Z,Point St. George,,17,Del Norte,Razor Clam meat,41.770479,-124.254556,3
+F2305014-013,2023-05-20T00:00:00Z,Point St. George,,9.5,Del Norte,Razor Clam meat,41.770479,-124.254556,3
+F2305014-014,2023-05-20T00:00:00Z,Point St. George,,14,Del Norte,Razor Clam meat,41.770479,-124.254556,3
+F2306005-001,2023-05-22T00:00:00Z,"Humboldt, Clam Beach",,22,Humboldt,Razor Clam meat,41.0081,-124.1147,1
+F2306005-002,2023-05-22T00:00:00Z,"Humboldt, Clam Beach",,13,Humboldt,Razor Clam meat,41.0081,-124.1147,1
+F2306005-003,2023-05-22T00:00:00Z,"Humboldt, Clam Beach",,23,Humboldt,Razor Clam meat,41.0081,-124.1147,1
+F2306005-004,2023-05-22T00:00:00Z,"Humboldt, Clam Beach",<,2.5,Humboldt,Razor Clam meat,41.0081,-124.1147,1
+F2306005-005,2023-05-22T00:00:00Z,"Humboldt, Clam Beach",,13,Humboldt,Razor Clam meat,41.0081,-124.1147,1
+F2306005-006,2023-05-22T00:00:00Z,"Humboldt, Clam Beach",<,2.5,Humboldt,Razor Clam meat,41.0081,-124.1147,1
+F2306010-008,2023-06-06T00:00:00Z,"Humboldt, Clam Beach",,14,Humboldt,Razor Clam meat,41.0081,-124.1147,1
+F2306010-009,2023-06-06T00:00:00Z,"Humboldt, Clam Beach",,4.3,Humboldt,Razor Clam meat,41.0081,-124.1147,1
+F2306010-010,2023-06-06T00:00:00Z,"Humboldt, Clam Beach",,11,Humboldt,Razor Clam meat,41.0081,-124.1147,1
+F2306010-011,2023-06-06T00:00:00Z,"Humboldt, Clam Beach",,2.8,Humboldt,Razor Clam meat,41.0081,-124.1147,1
+F2306010-012,2023-06-06T00:00:00Z,"Humboldt, Clam Beach",<,2.5,Humboldt,Razor Clam meat,41.0081,-124.1147,1
+F2306010-013,2023-06-06T00:00:00Z,"Humboldt, Clam Beach",,6.6,Humboldt,Razor Clam meat,41.0081,-124.1147,1
+F2306012-008,2023-06-07T00:00:00Z,Point St. George,,11,Del Norte,Razor Clam meat,41.770479,-124.254556,4
+F2306012-009,2023-06-07T00:00:00Z,Point St. George,,6.6,Del Norte,Razor Clam meat,41.770479,-124.254556,4
+F2306012-010,2023-06-07T00:00:00Z,Point St. George,,8,Del Norte,Razor Clam meat,41.770479,-124.254556,4
+F2306018-011,2023-06-17T00:00:00Z,Point St. George,<,2.5,Del Norte,Razor Clam meat,41.770479,-124.254556,4
+F2306018-012,2023-06-17T00:00:00Z,Point St. George,,6.6,Del Norte,Razor Clam meat,41.770479,-124.254556,3
+F2306018-013,2023-06-17T00:00:00Z,Point St. George,,11,Del Norte,Razor Clam meat,41.770479,-124.254556,3
+F2306018-014,2023-06-17T00:00:00Z,Point St. George,,3,Del Norte,Razor Clam meat,41.770479,-124.254556,3
+F2306018-015,2023-06-17T00:00:00Z,Point St. George,,5.9,Del Norte,Razor Clam meat,41.770479,-124.254556,3
+F2307010-008,2023-07-04T00:00:00Z,Point St. George,,4,Del Norte,Razor Clam meat,41.770479,-124.254556,3
+F2307010-009,2023-07-04T00:00:00Z,Point St. George,,3.6,Del Norte,Razor Clam meat,41.770479,-124.254556,3
+F2307010-010,2023-07-04T00:00:00Z,Point St. George,<,2.5,Del Norte,Razor Clam meat,41.770479,-124.254556,3
+F2308001-008,2023-07-20T00:00:00Z,"Humboldt, Clam Beach",,6.7,Humboldt,Razor Clam meat,41.0081,-124.1147,4
+F2308001-009,2023-07-20T00:00:00Z,"Humboldt, Clam Beach",,9,Humboldt,Razor Clam meat,41.0081,-124.1147,3
+F2308001-010,2023-07-20T00:00:00Z,"Humboldt, Clam Beach",,8,Humboldt,Razor Clam meat,41.0081,-124.1147,3
+F2311012-006,2023-10-28T00:00:00Z,"Humboldt, Clam Beach",,4.5,Humboldt,Razor Clam meat,41.0081,-124.1147,3
+F2311012-007,2023-10-28T00:00:00Z,"Humboldt, Clam Beach",<,2.5,Humboldt,Razor Clam meat,41.0081,-124.1147,3
+F2311002-007,2023-10-29T00:00:00Z,"Crescent City, Crescent Beach",,59,Del Norte,Razor Clam meat,41.71,-124.1425,4
+F2311002-008,2023-10-29T00:00:00Z,"Crescent City, Crescent Beach",,33,Del Norte,Razor Clam meat,41.71,-124.1425,4
+F2311002-009,2023-10-29T00:00:00Z,"Crescent City, Crescent Beach",,49,Del Norte,Razor Clam meat,41.71,-124.1425,4
+F2311002-010,2023-10-29T00:00:00Z,"Crescent City, Crescent Beach",,57,Del Norte,Razor Clam meat,41.71,-124.1425,3
+F2404012-007,2024-04-14T00:00:00Z,"Crescent City, Crescent Beach",,21,Del Norte,Razor Clam meat,41.71,-124.1425,4
+F2404012-008,2024-04-14T00:00:00Z,"Crescent City, Crescent Beach",,24,Del Norte,Razor Clam meat,41.71,-124.1425,4
+F2404012-009,2024-04-14T00:00:00Z,"Crescent City, Crescent Beach",,9.3,Del Norte,Razor Clam meat,41.71,-124.1425,4
+F2404012-010,2024-04-14T00:00:00Z,"Crescent City, Crescent Beach",,19,Del Norte,Razor Clam meat,41.71,-124.1425,4
+F2404019-007,2024-04-24T00:00:00Z,"Humboldt, Clam Beach",,57,Humboldt,Razor Clam meat,41.0081,-124.1147,3
+F2404019-008,2024-04-24T00:00:00Z,"Humboldt, Clam Beach",,23,Humboldt,Razor Clam meat,41.0081,-124.1147,4
+F2404019-009,2024-04-24T00:00:00Z,"Humboldt, Clam Beach",,16,Humboldt,Razor Clam meat,41.0081,-124.1147,4
+F2404019-010,2024-04-27T00:00:00Z,"Crescent City, Crescent Beach",,19,Del Norte,Razor Clam meat,41.71,-124.1425,4
+F2404019-011,2024-04-27T00:00:00Z,"Crescent City, Crescent Beach",,28,Del Norte,Razor Clam meat,41.71,-124.1425,4
+F2404019-012,2024-04-27T00:00:00Z,"Crescent City, Crescent Beach",,21,Del Norte,Razor Clam meat,41.71,-124.1425,5
+F2405007-011,2024-05-10T00:00:00Z,"Humboldt, Moonstone Beach",,26,Humboldt,Razor Clam meat,41.0469,-124.1249,3
+F2405007-008,2024-05-11T00:00:00Z,"Crescent City, Crescent Beach",,31,Del Norte,Razor Clam meat,41.71,-124.1425,4
+F2405007-009,2024-05-11T00:00:00Z,"Crescent City, Crescent Beach",,20,Del Norte,Razor Clam meat,41.71,-124.1425,4
+F2405007-010,2024-05-11T00:00:00Z,"Crescent City, Crescent Beach",,8.5,Del Norte,Razor Clam meat,41.71,-124.1425,4
+F2407001-006,2024-06-24T00:00:00Z,"Humboldt, Clam Beach",,11,Humboldt,Razor Clam meat,41.0081,-124.1147,4
+F2407001-007,2024-06-24T00:00:00Z,"Humboldt, Clam Beach",,12,Humboldt,Razor Clam meat,41.0081,-124.1147,4
+F2407001-008,2024-06-24T00:00:00Z,"Humboldt, Clam Beach",,7.9,Humboldt,Razor Clam meat,41.0081,-124.1147,4
+F2407001-009,2024-06-24T00:00:00Z,"Crescent City, Crescent Beach",,12,Del Norte,Razor Clam meat,41.71,-124.1425,4
+F2407001-010,2024-06-24T00:00:00Z,"Crescent City, Crescent Beach",,20,Del Norte,Razor Clam meat,41.71,-124.1425,3
+F2407007-009,2024-07-07T00:00:00Z,"Crescent City, Crescent Beach",,24,Del Norte,Razor Clam meat,41.71,-124.1425,4
+F2407007-011,2024-07-07T00:00:00Z,"Crescent City, Crescent Beach",,21,Del Norte,Razor Clam meat,41.71,-124.1425,4
+F2407007-012,2024-07-07T00:00:00Z,"Crescent City, Crescent Beach",,39,Del Norte,Razor Clam meat,41.71,-124.1425,3
+F2407007-006,2024-07-08T00:00:00Z,"Humboldt, Clam Beach",,15,Humboldt,Razor Clam meat,41.0081,-124.1147,4
+F2407007-007,2024-07-08T00:00:00Z,"Humboldt, Clam Beach",,20,Humboldt,Razor Clam meat,41.0081,-124.1147,4
+F2407007-008,2024-07-08T00:00:00Z,"Humboldt, Clam Beach",,21,Humboldt,Razor Clam meat,41.0081,-124.1147,4
+F2407007-010,2024-07-17T00:00:00Z,"Crescent City, Crescent Beach",,18,Del Norte,Razor Clam meat,41.71,-124.1425,4
+F2407014-007,2024-07-19T00:00:00Z,"Humboldt, Clam Beach",,35,Humboldt,Razor Clam meat,41.0081,-124.1147,4
+F2407014-008,2024-07-19T00:00:00Z,"Humboldt, Clam Beach",,33,Humboldt,Razor Clam meat,41.0081,-124.1147,4
+F2407016-001,2024-07-19T00:00:00Z,"Humboldt, Clam Beach",,24,Humboldt,Razor Clam meat,41.0081,-124.1147,4
+F2407014-009,2024-07-21T00:00:00Z,"Crescent City, Crescent Beach",,38,Del Norte,Razor Clam meat,41.71,-124.1425,4
+F2407016-002,2024-07-21T00:00:00Z,"Crescent City, Crescent Beach",,24,Del Norte,Razor Clam meat,41.71,-124.1425,4
+F2407016-003,2024-07-21T00:00:00Z,"Crescent City, Crescent Beach",,27,Del Norte,Razor Clam meat,41.71,-124.1425,4
+F2407016-004,2024-07-21T00:00:00Z,"Crescent City, Crescent Beach",,74,Del Norte,Razor Clam meat,41.71,-124.1425,4
+F2407016-005,2024-07-21T00:00:00Z,"Crescent City, Crescent Beach",,43,Del Norte,Razor Clam meat,41.71,-124.1425,4
+F2407016-006,2024-07-21T00:00:00Z,"Crescent City, Crescent Beach",,30,Del Norte,Razor Clam meat,41.71,-124.1425,4
+F2407016-007,2024-07-21T00:00:00Z,"Crescent City, Crescent Beach",,41,Del Norte,Razor Clam meat,41.71,-124.1425,3
+F2408005-008,2024-08-03T00:00:00Z,"Humboldt, Clam Beach",,78,Humboldt,Razor Clam meat,41.0081,-124.1147,4
+F2408005-009,2024-08-03T00:00:00Z,"Humboldt, Clam Beach",,82,Humboldt,Razor Clam meat,41.0081,-124.1147,4
+F2408005-010,2024-08-03T00:00:00Z,"Humboldt, Clam Beach",,65,Humboldt,Razor Clam meat,41.0081,-124.1147,4
+F2408016-009,2024-08-20T00:00:00Z,"Crescent City, Crescent Beach",,75,Del Norte,Razor Clam meat,41.71,-124.1425,4
+F2408016-010,2024-08-20T00:00:00Z,"Crescent City, Crescent Beach",,120,Del Norte,Razor Clam meat,41.71,-124.1425,4
+F2408016-011,2024-08-20T00:00:00Z,"Crescent City, Crescent Beach",,120,Del Norte,Razor Clam meat,41.71,-124.1425,4
+F2409006-011,2024-08-21T00:00:00Z,"Crescent City, Crescent Beach",,61,Del Norte,Razor Clam meat,41.71,-124.1425,4
+F2409006-012,2024-08-21T00:00:00Z,"Crescent City, Crescent Beach",,64,Del Norte,Razor Clam meat,41.71,-124.1425,4
+F2409006-013,2024-08-21T00:00:00Z,"Crescent City, Crescent Beach",,60,Del Norte,Razor Clam meat,41.71,-124.1425,4
+F2410039-013,2024-10-18T00:00:00Z,"Humboldt, Clam Beach",,190,Humboldt,Razor Clam meat,41.0081,-124.1147,4
+F2410039-014,2024-10-18T00:00:00Z,"Humboldt, Clam Beach",,230,Humboldt,Razor Clam meat,41.0081,-124.1147,4
+F2410039-015,2024-10-18T00:00:00Z,"Humboldt, Clam Beach",,180,Humboldt,Razor Clam meat,41.0081,-124.1147,4
+F2410057-010,2024-10-19T00:00:00Z,"Crescent City, Crescent Beach",,74,Del Norte,Razor Clam meat,41.71,-124.1425,3
+F2410057-011,2024-10-19T00:00:00Z,"Crescent City, Crescent Beach",,43,Del Norte,Razor Clam meat,41.71,-124.1425,4
+F2410057-012,2024-10-19T00:00:00Z,"Crescent City, Crescent Beach",,47,Del Norte,Razor Clam meat,41.71,-124.1425,4
+F2411031-007,2024-11-16T00:00:00Z,"Crescent City, Crescent Beach",,180,Del Norte,Razor Clam meat,41.71,-124.1425,4
+F2411031-008,2024-11-16T00:00:00Z,"Crescent City, Crescent Beach",,85,Del Norte,Razor Clam meat,41.71,-124.1425,4
+F2411031-009,2024-11-16T00:00:00Z,"Crescent City, Crescent Beach",,92,Del Norte,Razor Clam meat,41.71,-124.1425,4
+F2501016-008,2025-01-13T00:00:00Z,"Humboldt, Clam Beach",,280,Humboldt,Razor Clam meat,41.0081,-124.1147,4
+F2501016-009,2025-01-13T00:00:00Z,"Humboldt, Clam Beach",,120,Humboldt,Razor Clam meat,41.0081,-124.1147,4
+F2501016-010,2025-01-13T00:00:00Z,"Humboldt, Clam Beach",,170,Humboldt,Razor Clam meat,41.0081,-124.1147,3
+F2501016-011,2025-01-14T00:00:00Z,"Humboldt, Clam Beach",,160,Humboldt,Razor Clam meat,41.0081,-124.1147,3
+F2502001-007,2025-01-28T00:00:00Z,"Crescent City, Crescent Beach",,99,Del Norte,Razor Clam meat,41.71,-124.1425,4
+F2502001-008,2025-01-28T00:00:00Z,"Crescent City, Crescent Beach",,150,Del Norte,Razor Clam meat,41.71,-124.1425,4
+F2502001-009,2025-01-28T00:00:00Z,"Crescent City, Crescent Beach",,150,Del Norte,Razor Clam meat,41.71,-124.1425,4
+F2502001-010,2025-01-28T00:00:00Z,"Humboldt, Clam Beach",,140,Humboldt,Razor Clam meat,41.0081,-124.1147,4
+F2502001-011,2025-01-28T00:00:00Z,"Humboldt, Clam Beach",,130,Humboldt,Razor Clam meat,41.0081,-124.1147,4
+F2502001-012,2025-01-28T00:00:00Z,"Humboldt, Clam Beach",,83,Humboldt,Razor Clam meat,41.0081,-124.1147,4
+F2502011-006,2025-01-29T00:00:00Z,"Crescent City, Crescent Beach",,120,Del Norte,Razor Clam meat,41.71,-124.1425,5
+F2502011-007,2025-01-29T00:00:00Z,"Crescent City, Crescent Beach",,82,Del Norte,Razor Clam meat,41.71,-124.1425,5
+F2502011-008,2025-01-29T00:00:00Z,"Crescent City, Crescent Beach",,66,Del Norte,Razor Clam meat,41.71,-124.1425,5
+F2504026-011,2025-04-03T00:00:00Z,"Humboldt, Clam Beach",,66,Humboldt,Razor Clam meat,41.0081,-124.1147,5
+F2504026-012,2025-04-03T00:00:00Z,"Humboldt, Clam Beach",,120,Humboldt,Razor Clam meat,41.0081,-124.1147,5
+F2504026-013,2025-04-03T00:00:00Z,"Humboldt, Clam Beach",,110,Humboldt,Razor Clam meat,41.0081,-124.1147,5
+F2504026-014,2025-04-03T00:00:00Z,"Humboldt, Clam Beach",,120,Humboldt,Razor Clam meat,41.0081,-124.1147,5
+F2504029-012,2025-04-15T00:00:00Z,"Crescent City, Crescent Beach",,14,Del Norte,Razor Clam meat,41.71,-124.1425,4
+F2504029-013,2025-04-15T00:00:00Z,"Crescent City, Crescent Beach",,46,Del Norte,Razor Clam meat,41.71,-124.1425,3
+F2505009-011,2025-04-27T00:00:00Z,"Crescent City, Crescent Beach",,10,Del Norte,Razor Clam meat,41.71,-124.1425,4
+F2505009-012,2025-04-27T00:00:00Z,"Crescent City, Crescent Beach",,10,Del Norte,Razor Clam meat,41.71,-124.1425,4
+F2505009-013,2025-04-27T00:00:00Z,"Crescent City, Crescent Beach",,23,Del Norte,Razor Clam meat,41.71,-124.1425,4
+F2505009-014,2025-04-27T00:00:00Z,"Crescent City, Crescent Beach",,16,Del Norte,Razor Clam meat,41.71,-124.1425,4
+F2505004-002,2025-04-28T00:00:00Z,"Crescent City, Crescent Beach",,28,Del Norte,Razor Clam meat,41.71,-124.1425,4
+F2505004-003,2025-04-28T00:00:00Z,"Crescent City, Crescent Beach",,69,Del Norte,Razor Clam meat,41.71,-124.1425,4
+F2505004-004,2025-04-28T00:00:00Z,"Crescent City, Crescent Beach",,12,Del Norte,Razor Clam meat,41.71,-124.1425,4
+F2505004-005,2025-04-29T00:00:00Z,"Humboldt, Clam Beach",,130,Humboldt,Razor Clam meat,41.0081,-124.1147,5
+F2505004-006,2025-04-29T00:00:00Z,"Humboldt, Clam Beach",,110,Humboldt,Razor Clam meat,41.0081,-124.1147,5
+F2505004-007,2025-04-29T00:00:00Z,"Humboldt, Clam Beach",,80,Humboldt,Razor Clam meat,41.0081,-124.1147,5
+F2505004-008,2025-04-29T00:00:00Z,"Humboldt, Clam Beach",,60,Humboldt,Razor Clam meat,41.0081,-124.1147,5
+F2505014-015,2025-05-11T00:00:00Z,"Crescent City, Crescent Beach",,12,Del Norte,Razor Clam meat,41.71,-124.1425,3
+F2505014-016,2025-05-11T00:00:00Z,"Crescent City, Crescent Beach",,22,Del Norte,Razor Clam meat,41.71,-124.1425,2
+F2505014-017,2025-05-11T00:00:00Z,"Crescent City, Crescent Beach",,12,Del Norte,Razor Clam meat,41.71,-124.1425,2
+F2505014-012,2025-05-12T00:00:00Z,"Crescent City, Crescent Beach",,23,Del Norte,Razor Clam meat,41.71,-124.1425,4
+F2505014-013,2025-05-12T00:00:00Z,"Crescent City, Crescent Beach",,75,Del Norte,Razor Clam meat,41.71,-124.1425,3
+F2505014-014,2025-05-12T00:00:00Z,"Crescent City, Crescent Beach",,8.5,Del Norte,Razor Clam meat,41.71,-124.1425,3
+F2506002-009,2025-05-27T00:00:00Z,"Crescent City, Crescent Beach",,9.5,Del Norte,Razor Clam meat,41.71,-124.1425,4
+F2506002-010,2025-05-27T00:00:00Z,"Crescent City, Crescent Beach",,10,Del Norte,Razor Clam meat,41.71,-124.1425,4
+F2506002-011,2025-05-27T00:00:00Z,"Crescent City, Crescent Beach",,23,Del Norte,Razor Clam meat,41.71,-124.1425,4
+F2506002-012,2025-05-27T00:00:00Z,"Crescent City, Crescent Beach",,17,Del Norte,Razor Clam meat,41.71,-124.1425,4
+F2506002-013,2025-05-27T00:00:00Z,"Crescent City, Crescent Beach",,19,Del Norte,Razor Clam meat,41.71,-124.1425,4
+F2506002-014,2025-05-27T00:00:00Z,"Crescent City, Crescent Beach",,27,Del Norte,Razor Clam meat,41.71,-124.1425,4
+F2506002-015,2025-05-27T00:00:00Z,"Crescent City, Crescent Beach",,25,Del Norte,Razor Clam meat,41.71,-124.1425,3
+F2506012-011,2025-05-27T00:00:00Z,"Humboldt, Clam Beach",,49,Humboldt,Razor Clam meat,41.0081,-124.1147,4
+F2506012-012,2025-05-27T00:00:00Z,"Humboldt, Clam Beach",,27,Humboldt,Razor Clam meat,41.0081,-124.1147,4
+F2506012-013,2025-05-27T00:00:00Z,"Humboldt, Clam Beach",,41,Humboldt,Razor Clam meat,41.0081,-124.1147,4
+F2506023-010,2025-06-11T00:00:00Z,"Crescent City, Crescent Beach",,55,Del Norte,Razor Clam meat,41.71,-124.1425,3
+F2506023-011,2025-06-11T00:00:00Z,"Crescent City, Crescent Beach",,24,Del Norte,Razor Clam meat,41.71,-124.1425,3
+F2506023-012,2025-06-11T00:00:00Z,"Crescent City, Crescent Beach",,5.2,Del Norte,Razor Clam meat,41.71,-124.1425,3
+F2507006-010,2025-06-26T00:00:00Z,"Humboldt, Clam Beach",,30,Humboldt,Razor Clam meat,41.0081,-124.1147,4
+F2507006-011,2025-06-26T00:00:00Z,"Humboldt, Clam Beach",,4.8,Humboldt,Razor Clam meat,41.0081,-124.1147,4
+F2507006-012,2025-06-26T00:00:00Z,"Humboldt, Clam Beach",,25,Humboldt,Razor Clam meat,41.0081,-124.1147,4
+F2507006-013,2025-06-26T00:00:00Z,"Crescent City, Crescent Beach",<,2.5,Del Norte,Razor Clam meat,41.71,-124.1425,4
+F2507006-014,2025-06-26T00:00:00Z,"Crescent City, Crescent Beach",<,2.5,Del Norte,Razor Clam meat,41.71,-124.1425,4
+F2507006-015,2025-06-26T00:00:00Z,"Crescent City, Crescent Beach",<,2.5,Del Norte,Razor Clam meat,41.71,-124.1425,4
+F2507027-009,2025-07-11T00:00:00Z,"Humboldt, Clam Beach",,8.5,Humboldt,Razor Clam meat,41.0081,-124.1147,4
+F2507027-010,2025-07-11T00:00:00Z,"Humboldt, Clam Beach",,21,Humboldt,Razor Clam meat,41.0081,-124.1147,4
+F2507027-011,2025-07-11T00:00:00Z,"Humboldt, Clam Beach",,14,Humboldt,Razor Clam meat,41.0081,-124.1147,4
+F2507027-012,2025-07-12T00:00:00Z,"Crescent City, Crescent Beach",<,2.5,Del Norte,Razor Clam meat,41.71,-124.1425,4
+F2507027-013,2025-07-12T00:00:00Z,"Crescent City, Crescent Beach",,3.9,Del Norte,Razor Clam meat,41.71,-124.1425,4
+F2507027-014,2025-07-12T00:00:00Z,"Crescent City, Crescent Beach",<,2.5,Del Norte,Razor Clam meat,41.71,-124.1425,4
+F2507030-009,2025-07-22T00:00:00Z,"Crescent City, Crescent Beach",,3.4,Del Norte,Razor Clam meat,41.71,-124.1425,4
+F2507030-010,2025-07-22T00:00:00Z,"Crescent City, Crescent Beach",<,2.5,Del Norte,Razor Clam meat,41.71,-124.1425,4
+F2507030-011,2025-07-22T00:00:00Z,"Crescent City, Crescent Beach",,4.9,Del Norte,Razor Clam meat,41.71,-124.1425,4
+F2508001-009,2025-07-25T00:00:00Z,"Humboldt, Clam Beach",,17,Humboldt,Razor Clam meat,41.0081,-124.1147,4
+F2508001-010,2025-07-25T00:00:00Z,"Humboldt, Clam Beach",,13,Humboldt,Razor Clam meat,41.0081,-124.1147,4
+F2508001-011,2025-07-25T00:00:00Z,"Humboldt, Clam Beach",,32,Humboldt,Razor Clam meat,41.0081,-124.1147,4
+F2508006-009,2025-08-11T00:00:00Z,"Humboldt, Clam Beach",,25,Humboldt,Razor Clam meat,41.0081,-124.1147,4
+F2508006-010,2025-08-11T00:00:00Z,"Humboldt, Clam Beach",,32,Humboldt,Razor Clam meat,41.0081,-124.1147,4
+F2508006-011,2025-08-11T00:00:00Z,"Humboldt, Clam Beach",,54,Humboldt,Razor Clam meat,41.0081,-124.1147,4
+F2509001-009,2025-08-22T00:00:00Z,"Humboldt, Clam Beach",,24,Humboldt,Razor Clam meat,41.0081,-124.1147,4
+F2509001-010,2025-08-22T00:00:00Z,"Humboldt, Clam Beach",,26,Humboldt,Razor Clam meat,41.0081,-124.1147,4
+F2509001-011,2025-08-22T00:00:00Z,"Humboldt, Clam Beach",,18,Humboldt,Razor Clam meat,41.0081,-124.1147,4
+F2509005-001,2025-09-07T00:00:00Z,"Humboldt, Clam Beach",,52,Humboldt,Razor Clam meat,41.0081,-124.1147,4
+F2509005-002,2025-09-07T00:00:00Z,"Humboldt, Clam Beach",,79,Humboldt,Razor Clam meat,41.0081,-124.1147,4
+F2509005-003,2025-09-07T00:00:00Z,"Humboldt, Clam Beach",,42,Humboldt,Razor Clam meat,41.0081,-124.1147,4
