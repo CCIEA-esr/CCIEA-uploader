@@ -9,45 +9,72 @@ library(jsonlite)
 library(tibble)
 library(officer)
 
-read_status <- function(esr_year,headervars){
-  json_data <- fromJSON(paste("data/uploader_status_",esr_year,".json",sep=""), simplifyVector = FALSE)
-  cols = c("PI","filename","updated","typechk","namechk",headervars)
-
-  last_updated <- json_data$statusupdate
-  status <- json_data$status
-  num_pis <- length(status)
-  df <- as.data.frame(matrix(nrow = 0, ncol = 11))
-  colnames(df) = cols
+read_status <- function(esr_year, headervars) {
+  json_data <- fromJSON(paste0("data/uploader_status_", esr_year, ".json"), simplifyVector = FALSE)
+  cols <- c("PI", "filename", "updated", "typechk", "namechk", headervars)
   
-  for(p in 1:num_pis){
-    pi= status[[p]]$name
-    pi_meta=pi
-    meta_updated <- status[[p]]$newmeta
-    if(meta_updated==1){pi_meta = paste0(pi," (Metadata updated: ",status[[p]]$newmetaupdate,")","")}
-    df1 <- as.data.frame(matrix(nrow = 0, ncol = 11))
-    if(length(status[[p]]$files)>0){
-      for (f in 1:length(status[[p]]$files)){
-        file=status[[p]]$files[[f]]
-        headerchk=file$headerchk
-        head_vec=c()
-        for (h in 1:length(headerchk)){
-          head_vec=c(head_vec,headerchk[h])
-          }
-        file_vec=c(pi_meta,file$name,file$updated,file$typechk,file$namechk,head_vec)
-        df1 <- rbind(df1,file_vec,stringsAsFactors=FALSE)
-        }
-      }
-      else{
-        file_vec <- vector(mode="character", length=11)
-        file_vec[1]=pi
-        df1 <- rbind(df1,file_vec,stringsAsFactors=FALSE)
-        }
-     colnames(df1) = cols
-     df <- rbind(df,df1,stringsAsFactors=FALSE)     
+  last_updated <- as.character(json_data$statusupdate)
+  status <- json_data$status
+  
+  rows_list <- list()
+  
+  for (p in seq_along(status)) {
+    pi_item <- status[[p]]
+    pi_name <- as.character(pi_item$name %||% "")
+    meta_updated <- as.numeric(pi_item$newmeta %||% 0)
+    
+    if (isTRUE(meta_updated == 1)) {
+      pi_meta <- paste0(pi_name, " (Metadata updated: ", as.character(pi_item$newmetaupdate), ")")
+    } else {
+      pi_meta <- pi_name
     }
-  df_grouped <- as_grouped_data(x = df, groups = c("PI"))
-  return(list(last_updated=last_updated,df_grouped=df_grouped))
+    
+    files <- pi_item$files
+    
+    if (length(files) > 0) {
+      for (f in seq_along(files)) {
+        file_item <- files[[f]]
+        
+        # Flatten and align headerchk to match length of headervars
+        raw_chk <- unlist(file_item$headerchk)
+        padded_chk <- rep(NA, length(headervars))
+        if (length(raw_chk) > 0) {
+          padded_chk[seq_len(min(length(raw_chk), length(headervars)))] <- raw_chk[seq_len(min(length(raw_chk), length(headervars)))]
+        }
+        
+        row_vals <- c(
+          pi_meta,
+          as.character(file_item$name %||% NA),
+          as.character(file_item$updated %||% NA),
+          as.character(file_item$typechk %||% NA),
+          as.character(file_item$namechk %||% NA),
+          as.character(padded_chk)
+        )
+        rows_list[[length(rows_list) + 1]] <- row_vals
+      }
+    } else {
+      # No files uploaded for this PI
+      row_vals <- rep(NA_character_, length(cols))
+      row_vals[1] <- pi_name
+      rows_list[[length(rows_list) + 1]] <- row_vals
+    }
   }
+  
+  # Assemble into a clean data frame with atomic character vectors
+  df_mat <- do.call(rbind, rows_list)
+  df <- as.data.frame(df_mat, stringsAsFactors = FALSE)
+  colnames(df) <- cols
+  
+  # Convert boolean check columns back to logical/numeric for make_table conditions
+  for (col in headervars) {
+    df[[col]] <- as.logical(df[[col]])
+  }
+  df$typechk <- as.numeric(df$typechk)
+  df$namechk <- as.numeric(df$namechk)
+  
+  df_grouped <- as_grouped_data(x = df, groups = c("PI"))
+  return(list(last_updated = last_updated, df_grouped = df_grouped))
+}
 
 make_table <- function(df_grouped){
   std_border <- fp_border(color = "#7596b1", width = 1)
@@ -78,7 +105,10 @@ make_table <- function(df_grouped){
     border_inner(part="body",border=std_border) |>
     border_outer(part="all",border=std_border) |>
     padding(padding.top=1,padding.left=3,padding.bottom=1,padding.right=3,part = "all") |>
-    compose(j= "updated", value = as_paragraph(paste(substring(updated,1,10)," ",substring(updated,12,19)))) |>
+    compose(j= "updated", value = as_paragraph(ifelse(
+          is.na(updated) | updated == "" | updated == "NA",
+          "\n",
+          paste(substring(updated,1,10)," ",substring(updated,12,19))))) |>
     compose(j= "typechk", value = as_paragraph(""))|>
     compose(j= "typechk", value = as_paragraph(ifelse(typechk == 1, "yes", "no")))|>
     compose(j= "namechk", value = as_paragraph(""))|>

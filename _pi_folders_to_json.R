@@ -229,84 +229,89 @@ get_file_conventions <- function(file_folder,file_name){
 ## look for files in "Uploaded_files", cleans them up, and moves them to esr_year folder
 ## back up original file data files before cleaning in "PI_original" folder
 ## 
-check_upload_status <- function(esr_year,metadata_spreadsheet_folder,meta_file_search,meta_param_file_search){
-  print(paste0("Starting check_upload ",now()))
-  pifolders = get_PI_folders(cciea_folders[3])
-  #loop through PI folders
-  for (p in 1:length(pifolders$name)){
-    PI=pifolders$name[p]
+check_upload_status <- function(esr_year, metadata_spreadsheet_folder, meta_file_search, meta_param_file_search) {
+  print(paste0("Starting check_upload ", now()))
+  pifolders <- get_PI_folders(cciea_folders[3])
+  
+  for (p in 1:length(pifolders$name)) {
+    PI <- pifolders$name[p]
     print(PI)
-    pi_folder_id=pifolders$id[p]
-    PIyears=find_folders_in_folder(pi_folder_id)
-    this_yearfolder <- PIyears %>% filter(name==esr_year)
-    upload_folder_id <- PIyears %>% filter(name=="Uploaded_files")
-    backup_folder_id <- PIyears %>% filter(name=="PI_original")
+    pi_folder_id <- pifolders$id[p]
+    PIyears <- find_folders_in_folder(pi_folder_id)
+    this_yearfolder <- PIyears %>% filter(name == esr_year)
+    upload_folder_id <- PIyears %>% filter(name == "Uploaded_files")
+    backup_folder_id <- PIyears %>% filter(name == "PI_original")
     
-    if(nrow(PIyears)>0 && nrow(this_yearfolder)==1 && nrow(upload_folder_id)==1 && nrow(backup_folder_id)==1){
+    if (nrow(PIyears) > 0 && nrow(this_yearfolder) == 1 && nrow(upload_folder_id) == 1 && nrow(backup_folder_id) == 1) {
       ## look for new files in upload folder
-      pifiles=find_PI_files_in_esr_year(pi_folder_id,"Uploaded_files")
-    
+      pifiles <- find_PI_files_in_esr_year(pi_folder_id, "Uploaded_files")
+      
       ## Loop through all the files in the upload folder
       if (length(pifiles$name) > 0) {
-        for(f in 1:length(pifiles$name)){
-          # check file format. If excel file download it, convert to csv, re-upload it as csv
-          # move excel file to PI_original folder
-          # change file extension to .csv and rename pifiles$name[f]
-          # pifiles$id[f] will also need changing
-          # maybe do in a separate loop then run find_PI_files.. again?
+        for (f in 1:length(pifiles$name)) {
+          orig_name <- pifiles$name[f]
+          orig_id   <- pifiles$id[f]
           mime_type <- pifiles$drive_resource[[f]]$mimeType
           
-          fileobj <- list()
-          print(pifiles$name[f])
-          ## if this is a metadata file, incorporate it back into the full spreadsheet
-          ## to-do !! NEED TO CHECK IF THEY UPLOADED MORE THAN ONE METADATA FILE!!
-          ## back up their metadata file to backup_folder_id
-          if(grepl("metadata",pifiles$name[f])){
-            update_metadata(PI,pifiles$id[f],metadata_spreadsheet_folder,meta_file_search,meta_param_file_search)
-            drive_mv(file = pifiles$id[f], path = backup_folder_id)     	
-            }
-          ## if this is an indicator csv data file or spreadsheet - clean it, move it to esr_year folder, and plot it
-          else if(grepl(".csv",pifiles$name[f])||mime_type=="application/vnd.google-apps.spreadsheet"){
-           datares="Annual"
-           # hack for copepods because Zoop file name doesn't contain monthly designation and sampling_frequency column in metadata is inconsistent
-           if(grepl("_M.csv",pifiles$name[f]) || grepl("Monthly",pifiles$name[f]) || grep("copepods",pifiles$name[f]))datares="Monthly"
-           mime_type <- pifiles$drive_resource[[f]]$mimeType
-           created_time <- pifiles$drive_resource[[f]]$createdTime
-           if(mime_type=="text/csv"){
-             content <- drive_read_string(pifiles$id[f])
-              df <- read_csv(content)
-             }
-            else if(mime_type=="application/vnd.google-apps.spreadsheet"){
-              df <- read_sheet(pifiles$id[f])
-              }
-            ## clean up the file if needed
-            df_cleaned <- clean_file(df,datares)
-           outfile <- paste0("data/timeseries_data/",pifiles$name[f],sep="")
-           write_csv(df_cleaned,outfile, na="")
-#          write.csv(df_cleaned, file = "temp.csv",row.names = FALSE)
-           # use drive_put instead of drive_upload, drive_upload fails when file already exists, even if overwrite=TRUE
-           temp_file <- tempfile(fileext = ".csv")
-           write_csv(df_cleaned,temp_file, na="")
-           drive_put(media=temp_file,name=pifiles$name[f],path=this_yearfolder,type="text/csv")
-           unlink(temp_file)
-           ## to-do could check for backup folder and create it if not already there -
-           ##		backup=drive_mkdir("PI_original",path=pifolderid,overwrite=FALSE)
-            drive_mv(file = pifiles$id[f], path = backup_folder_id)     	
+          print(orig_name)
           
-         }
-          ## If this is some other type of upload, just move it to esr_year folder
-          else{
-            drive_mv(file = pifiles$id[f], path = this_yearfolder)
+          ## 1. Metadata file
+          if (grepl("metadata", orig_name, ignore.case = TRUE)) {
+            update_metadata(PI, orig_id, metadata_spreadsheet_folder, meta_file_search, meta_param_file_search)
+            drive_mv(file = orig_id, path = backup_folder_id)
+            
+            ## 2. CSV file OR Google Sheets file
+          } else if (grepl("\\.csv$", orig_name, ignore.case = TRUE) || 
+                     mime_type == "application/vnd.google-apps.spreadsheet") {
+            
+            # Determine data resolution
+            datares <- "Annual"
+            if (grepl("_M\\.csv", orig_name) || grepl("Monthly", orig_name, ignore.case = TRUE) || grepl("copepods", orig_name, ignore.case = TRUE)) {
+              datares <- "Monthly"
+            }
+            
+            # Read data according to mime_type
+            if (mime_type == "application/vnd.google-apps.spreadsheet") {
+              df <- read_sheet(orig_id)
+            } else {
+              content <- drive_read_string(orig_id, encoding = "UTF-8")
+              df <- read_csv(content, show_col_types = FALSE)
+            }
+            
+            # Clean dataframe
+            df_cleaned <- clean_file(df, datares)
+            
+            # Ensure target filename ends in .csv
+            csv_name <- if (grepl("\\.csv$", orig_name, ignore.case = TRUE)) {
+              orig_name
+            } else {
+              paste0(orig_name, ".csv")
+            }
+            
+            # Save local copy to data/timeseries_data/
+            outfile <- paste0("data/timeseries_data/", csv_name)
+            write_csv(df_cleaned, outfile, na = "")
+            
+            # Write temp CSV and upload/put into esr_year folder
+            temp_file <- tempfile(fileext = ".csv")
+            write_csv(df_cleaned, temp_file, na = "")
+            drive_put(media = temp_file, name = csv_name, path = this_yearfolder, type = "text/csv")
+            unlink(temp_file)
+            
+            # Move the original file (CSV or original Google Sheet) to PI_original backup folder
+            drive_mv(file = orig_id, path = backup_folder_id)
+            
+            ## 3. Any other file type
+          } else {
+            drive_mv(file = orig_id, path = this_yearfolder)
           }
-       }
-     }
-    }
-    else{
-      print("PI folder structure missing required folder")
+        }
+      }
+    } else {
+      print(paste0("PI folder structure missing required folder for ", PI))
     }
   }
 }
-
 ##---------clean_file----------------------------------
 ## apply Nick's file cleaning code to df
 clean_file <- function(df,datares){
