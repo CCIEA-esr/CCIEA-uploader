@@ -25,12 +25,21 @@ find_folders_in_folder <- function(folder_id){
   folders=drive_find(orderBy="name",q=query)
   return(folders)
 }
-find_PI_files_in_esr_year <- function(PIid,esr_year){
-  query=paste("'",PIid,"' in parents and mimeType = 'application/vnd.google-apps.folder' and name='",esr_year,"'",sep="") 
-  yearfolder=drive_find(q=query) 
-  query=paste("'",yearfolder$id,"' in parents and fileExtension = 'csv' and mimeType != 'application/vnd.google-apps.folder' and trashed=false",sep="")
- files = drive_find(orderBy="name",q=query)
- return(files)
+
+find_PI_files_in_esr_year <- function(PIid, esr_year) {
+  query <- paste0("'", PIid, "' in parents and mimeType = 'application/vnd.google-apps.folder' and name = '", esr_year, "' and trashed = false")
+  yearfolder <- drive_find(q = query)
+  
+  if (nrow(yearfolder) == 0) {
+    return(yearfolder) # Return empty dribble if folder not found
+  }
+  
+  query <- paste0("'", yearfolder$id, "' in parents and ", "(mimeType = 'application/vnd.google-apps.spreadsheet' or mimeType = 'text/csv' or fileExtension = 'csv') and ",
+    "trashed = false"
+  )
+  
+  files <- drive_find(orderBy = "name", q = query)
+  return(files)
 }
 
 ## Return id of file named file_name in a folder with id folder_id
