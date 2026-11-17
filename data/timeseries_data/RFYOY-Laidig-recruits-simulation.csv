@@ -1,0 +1,177 @@
+...1,year,index,SE,timeseries,CLlo,CLup,metric,notes
+1,2005,0.0119666154230768,0.020250480135685,Black RF,0,0.0347405128783057,No/min,CLs are upper and lower quantiles from simulation
+2,2006,0,0,Black RF,0,0,No/min,CLs are upper and lower quantiles from simulation
+3,2007,0.116853570345189,4.07736479727806,Black RF,0,0.181779652589096,No/min,CLs are upper and lower quantiles from simulation
+4,2008,17.115271156523,921.761275481349,Black RF,0,23.4621870637558,No/min,CLs are upper and lower quantiles from simulation
+5,2009,4.21861005594349,3.07158266746894,Black RF,0.262105983019007,7.81216903170423,No/min,CLs are upper and lower quantiles from simulation
+6,2010,20.0799631979473,16.583471434274,Black RF,6.23869146049162,32.9242050632105,No/min,CLs are upper and lower quantiles from simulation
+7,2011,16.746607605252,1350.39033177162,Black RF,0,17.8699937097586,No/min,CLs are upper and lower quantiles from simulation
+8,2012,0.0827130763259937,0.143682029311504,Black RF,0,0.236725421784335,No/min,CLs are upper and lower quantiles from simulation
+9,2013,7.1625444606152,4.55490884210758,Black RF,0,14.2375696969677,No/min,CLs are upper and lower quantiles from simulation
+10,2014,0.177878109414948,0.161522052715446,Black RF,0,0.375335041603183,No/min,CLs are upper and lower quantiles from simulation
+11,2015,0.246845679345236,3.13511157517988,Black RF,0,0.415453503271128,No/min,CLs are upper and lower quantiles from simulation
+12,2016,0.150184143947735,0.181026102059704,Black RF,0,0.324377369747194,No/min,CLs are upper and lower quantiles from simulation
+13,2017,0.990416583244868,3.26590401524646,Black RF,0,2.07421492539508,No/min,CLs are upper and lower quantiles from simulation
+14,2018,0.0732582280344915,0.0577599713416263,Black RF,0,0.141835129053015,No/min,CLs are upper and lower quantiles from simulation
+15,2019,0.0426907757028743,1.66868763009526,Black RF,0,0.0734275326494913,No/min,CLs are upper and lower quantiles from simulation
+16,2020,,,Black RF,,,No/min,CLs are upper and lower quantiles from simulation
+17,2021,1.08540073485805,1.85567699169509,Black RF,0,3.0226584295648,No/min,CLs are upper and lower quantiles from simulation
+18,2022,0.0910653975944671,0.0536457450857779,Black RF,0.00324008203438013,0.173434651798081,No/min,CLs are upper and lower quantiles from simulation
+19,2023,0.369839255426988,0.554338210572225,Black RF,0,1.04608696256637,No/min,CLs are upper and lower quantiles from simulation
+20,2024,0.10833666602496,0.0782954906552797,Black RF,0,0.227748883918949,No/min,CLs are upper and lower quantiles from simulation
+21,2025,1.66565709893629,1.93892358915438,Black RF,0,3.90330131235793,No/min,CLs are upper and lower quantiles from simulation
+22,2026,0,0,Black RF,0,0,No/min,CLs are upper and lower quantiles from simulation
+23,2005,0,0,Blue RF,0,0,No/min,CLs are upper and lower quantiles from simulation
+24,2006,0,0,Blue RF,0,0,No/min,CLs are upper and lower quantiles from simulation
+25,2007,0.0965699207032865,2.13546955717515,Blue RF,0,0.181124403362676,No/min,CLs are upper and lower quantiles from simulation
+26,2008,0.231979944263265,5.1731002208576,Blue RF,0,0.340966325088932,No/min,CLs are upper and lower quantiles from simulation
+27,2009,23.5495844991812,18.5552865582336,Blue RF,0,46.9973441994004,No/min,CLs are upper and lower quantiles from simulation
+28,2010,22.4447180819624,23.0545431960141,Blue RF,0,49.5578439464961,No/min,CLs are upper and lower quantiles from simulation
+29,2011,7.26506359870746,106.141293732787,Blue RF,0,10.5432591601744,No/min,CLs are upper and lower quantiles from simulation
+30,2012,5.0367832558875,3.58334870421657,Blue RF,1.26115187799745,8.48069669516546,No/min,CLs are upper and lower quantiles from simulation
+31,2013,79.600417324437,17.631007123866,Blue RF,53.5845599268447,105.340786285724,No/min,CLs are upper and lower quantiles from simulation
+32,2014,22.5116297679873,19.382056091126,Blue RF,1.28054428754411,41.5157571255982,No/min,CLs are upper and lower quantiles from simulation
+33,2015,14.977865025068,642.038067674369,Blue RF,0,21.3069274102932,No/min,CLs are upper and lower quantiles from simulation
+34,2016,22.7154919360388,0.75179969776291,Blue RF,21.9850234686443,23.4473907715691,No/min,CLs are upper and lower quantiles from simulation
+35,2017,12.9140400283391,14.116714308825,Blue RF,0,29.8514224613354,No/min,CLs are upper and lower quantiles from simulation
+36,2018,19.9718607807825,4.69509367421642,Blue RF,14.8050715148688,24.9031419896853,No/min,CLs are upper and lower quantiles from simulation
+37,2019,1.75755602591363,134.3974880017,Blue RF,0,2.44923663385343,No/min,CLs are upper and lower quantiles from simulation
+38,2020,,,Blue RF,,,No/min,CLs are upper and lower quantiles from simulation
+39,2021,13.6805173668569,9.31734507202903,Blue RF,2.9613433843174,23.5396764380574,No/min,CLs are upper and lower quantiles from simulation
+40,2022,27.0884814104706,8.38715365312987,Blue RF,14.6945135328268,39.3100990279297,No/min,CLs are upper and lower quantiles from simulation
+41,2023,15.352746586974,12.6534453569297,Blue RF,3.73203361965826,26.1013808018154,No/min,CLs are upper and lower quantiles from simulation
+42,2024,21.0841507249094,11.4491156239347,Blue RF,2.54208057347667,38.7266837748849,No/min,CLs are upper and lower quantiles from simulation
+43,2025,10.6356275822879,1.46018394252419,Blue RF,9.30624568264348,11.9433247809082,No/min,CLs are upper and lower quantiles from simulation
+44,2026,0.337518107589609,12.1154037780206,Blue RF,0.0169994692324376,0.417871030900912,No/min,CLs are upper and lower quantiles from simulation
+45,2005,0,0,Bocaccio,0,0,No/min,CLs are upper and lower quantiles from simulation
+46,2006,0,0,Bocaccio,0,0,No/min,CLs are upper and lower quantiles from simulation
+47,2007,0,0,Bocaccio,0,0,No/min,CLs are upper and lower quantiles from simulation
+48,2008,0.541556380819311,80.9351936079916,Bocaccio,0,0.413303979632601,No/min,CLs are upper and lower quantiles from simulation
+49,2009,0.385252939086134,0.493789862831637,Bocaccio,0,0.927555726715959,No/min,CLs are upper and lower quantiles from simulation
+50,2010,0.570595303195594,0.543009568983215,Bocaccio,0,1.08791180017449,No/min,CLs are upper and lower quantiles from simulation
+51,2011,0,0,Bocaccio,0,0,No/min,CLs are upper and lower quantiles from simulation
+52,2012,0.0206033352273483,0.03490383267632,Bocaccio,0,0.0591863136110315,No/min,CLs are upper and lower quantiles from simulation
+53,2013,2.38597076626569,2.46630838511645,Bocaccio,0,6.42726525979925,No/min,CLs are upper and lower quantiles from simulation
+54,2014,1.53462083211813,3.28653072405259,Bocaccio,0,3.82196824339363,No/min,CLs are upper and lower quantiles from simulation
+55,2015,0,0,Bocaccio,0,0,No/min,CLs are upper and lower quantiles from simulation
+56,2016,0.081757169046222,0.0892981189119714,Bocaccio,0,0.183898991445625,No/min,CLs are upper and lower quantiles from simulation
+57,2017,0.269939858589437,0.308275199149613,Bocaccio,0,0.598054590211995,No/min,CLs are upper and lower quantiles from simulation
+58,2018,0.0348043978013491,0.0223536584973616,Bocaccio,0.00738738239054276,0.0599372846016648,No/min,CLs are upper and lower quantiles from simulation
+59,2019,0,0,Bocaccio,0,0,No/min,CLs are upper and lower quantiles from simulation
+60,2020,,,Bocaccio,,,No/min,CLs are upper and lower quantiles from simulation
+61,2021,0.0251883645745753,0.0404178099984712,Bocaccio,0,0.0724414915577241,No/min,CLs are upper and lower quantiles from simulation
+62,2022,0,0,Bocaccio,0,0,No/min,CLs are upper and lower quantiles from simulation
+63,2023,0,0,Bocaccio,0,0,No/min,CLs are upper and lower quantiles from simulation
+64,2024,1.04397727857529,0.878468936571493,Bocaccio,0,2.4817520704216,No/min,CLs are upper and lower quantiles from simulation
+65,2025,0.0364470473446613,0.0963972158575937,Bocaccio,0,0.104420525721185,No/min,CLs are upper and lower quantiles from simulation
+66,2026,0,0,Bocaccio,0,0,No/min,CLs are upper and lower quantiles from simulation
+67,2005,0,0,CANARY,0,0,No/min,CLs are upper and lower quantiles from simulation
+68,2006,0,0,CANARY,0,0,No/min,CLs are upper and lower quantiles from simulation
+69,2007,0,0,CANARY,0,0,No/min,CLs are upper and lower quantiles from simulation
+70,2008,0.0694779438821958,3.15702795801716,CANARY,0,0.106995074362338,No/min,CLs are upper and lower quantiles from simulation
+71,2009,0.0110953286799022,0.0245994129023948,CANARY,0,0.0315039403829087,No/min,CLs are upper and lower quantiles from simulation
+72,2010,0.138032448173201,0.013381176524681,CANARY,0.123779235354756,0.152129057447891,No/min,CLs are upper and lower quantiles from simulation
+73,2011,0,0,CANARY,0,0,No/min,CLs are upper and lower quantiles from simulation
+74,2012,0.0479680170571598,0.061570325549893,CANARY,0,0.117939376993067,No/min,CLs are upper and lower quantiles from simulation
+75,2013,0.207029729389188,0.0959730743589332,CANARY,0.0606432819962163,0.349201542814507,No/min,CLs are upper and lower quantiles from simulation
+76,2014,0,0,CANARY,0,0,No/min,CLs are upper and lower quantiles from simulation
+77,2015,0.34025965509957,24.0693684573427,CANARY,0,0.417898201347498,No/min,CLs are upper and lower quantiles from simulation
+78,2016,0.104028146006899,0.135256415876167,CANARY,0,0.26075393167746,No/min,CLs are upper and lower quantiles from simulation
+79,2017,0.134044801913981,0.156483261679099,CANARY,0,0.286151749406686,No/min,CLs are upper and lower quantiles from simulation
+80,2018,0.048805552348313,0.0801988328299793,CANARY,0,0.130119895147681,No/min,CLs are upper and lower quantiles from simulation
+81,2019,0,0,CANARY,0,0,No/min,CLs are upper and lower quantiles from simulation
+82,2020,,,CANARY,,,No/min,CLs are upper and lower quantiles from simulation
+83,2021,0,0,CANARY,0,0,No/min,CLs are upper and lower quantiles from simulation
+84,2022,0.0595227416487496,0.0494126116109125,CANARY,0,0.139312754849288,No/min,CLs are upper and lower quantiles from simulation
+85,2023,0,0,CANARY,0,0,No/min,CLs are upper and lower quantiles from simulation
+86,2024,0.12344134917911,0.0638640541971933,CANARY,0.022228134390023,0.219801538815363,No/min,CLs are upper and lower quantiles from simulation
+87,2025,0,0,CANARY,0,0,No/min,CLs are upper and lower quantiles from simulation
+88,2026,0,0,CANARY,0,0,No/min,CLs are upper and lower quantiles from simulation
+89,2005,0,0,Copper RF,0,0,No/min,CLs are upper and lower quantiles from simulation
+90,2006,0,0,Copper RF,0,0,No/min,CLs are upper and lower quantiles from simulation
+91,2007,0,0,Copper RF,0,0,No/min,CLs are upper and lower quantiles from simulation
+92,2008,0.0402801113842715,0.717683150416678,Copper RF,0,0.0865640758487406,No/min,CLs are upper and lower quantiles from simulation
+93,2009,0.0178671644720189,0.0180546435252457,Copper RF,0,0.0397087073998002,No/min,CLs are upper and lower quantiles from simulation
+94,2010,0.0608403317044192,0.0362222018589916,Copper RF,0.0164167854807964,0.102089465903069,No/min,CLs are upper and lower quantiles from simulation
+95,2011,0.166888846262875,7.51001119004374,Copper RF,0,0.249805886361444,No/min,CLs are upper and lower quantiles from simulation
+96,2012,0,0,Copper RF,0,0,No/min,CLs are upper and lower quantiles from simulation
+97,2013,0.0432439004756434,0.0105553286960596,Copper RF,0.0277368022793487,0.0585931823351727,No/min,CLs are upper and lower quantiles from simulation
+98,2014,0,0,Copper RF,0,0,No/min,CLs are upper and lower quantiles from simulation
+99,2015,0.074912999943647,0.414643463241111,Copper RF,0.0539109698193488,0.0842075812132019,No/min,CLs are upper and lower quantiles from simulation
+100,2016,0,0,Copper RF,0,0,No/min,CLs are upper and lower quantiles from simulation
+101,2017,0.0142062079901633,0.0238988553716108,Copper RF,0,0.0404018736434623,No/min,CLs are upper and lower quantiles from simulation
+102,2018,0,0,Copper RF,0,0,No/min,CLs are upper and lower quantiles from simulation
+103,2019,0,0,Copper RF,0,0,No/min,CLs are upper and lower quantiles from simulation
+104,2020,,,Copper RF,,,No/min,CLs are upper and lower quantiles from simulation
+105,2021,0,0,Copper RF,0,0,No/min,CLs are upper and lower quantiles from simulation
+106,2022,0,0,Copper RF,0,0,No/min,CLs are upper and lower quantiles from simulation
+107,2023,0,0,Copper RF,0,0,No/min,CLs are upper and lower quantiles from simulation
+108,2024,0.0189881156715789,0.0197070417354894,Copper RF,0,0.052586407554904,No/min,CLs are upper and lower quantiles from simulation
+109,2025,0,0,Copper RF,0,0,No/min,CLs are upper and lower quantiles from simulation
+110,2026,0,0,Copper RF,0,0,No/min,CLs are upper and lower quantiles from simulation
+111,2005,0.0119451773176203,0.0247730745630353,Total RF,0,0.0342769906476474,No/min,CLs are upper and lower quantiles from simulation
+112,2006,0,0,Total RF,0,0,No/min,CLs are upper and lower quantiles from simulation
+113,2007,0.579247001392373,9.23251000337563,Total RF,0,1.02420111719581,No/min,CLs are upper and lower quantiles from simulation
+114,2008,153.290087118073,12766.0119596681,Total RF,0,201.992513301964,No/min,CLs are upper and lower quantiles from simulation
+115,2009,31.780400751316,20.5981525731716,Total RF,6.3108538304406,54.8668229908914,No/min,CLs are upper and lower quantiles from simulation
+116,2010,82.0709045265646,48.8044408990301,Total RF,19.9993206641028,138.954643057506,No/min,CLs are upper and lower quantiles from simulation
+117,2011,33.4655777926054,525.84728995738806,Total RF,0,51.3579242253559,No/min,CLs are upper and lower quantiles from simulation
+118,2012,6.07733502301869,3.26451758075875,Total RF,1.95796946938817,9.92096354910314,No/min,CLs are upper and lower quantiles from simulation
+119,2013,107.611922003566,16.6658781154568,Total RF,84.185767238377,130.643961332373,No/min,CLs are upper and lower quantiles from simulation
+120,2014,67.2693355748827,46.1153960529094,Total RF,21.8792774521622,109.448595890084,No/min,CLs are upper and lower quantiles from simulation
+121,2015,14.5547256373286,75.417813821256,Total RF,5.41843488112493,19.5050665130932,No/min,CLs are upper and lower quantiles from simulation
+122,2016,41.6087915966361,9.09148085075653,Total RF,32.5524968713278,50.4466328875458,No/min,CLs are upper and lower quantiles from simulation
+123,2017,29.910999789907,0.942801513701783,Total RF,29.0900925810971,30.7373812786981,No/min,CLs are upper and lower quantiles from simulation
+124,2018,23.2421264066872,8.32560550143786,Total RF,14.0928757349868,32.0680814470315,No/min,CLs are upper and lower quantiles from simulation
+125,2019,1.37103032185361,27.0770437155018,Total RF,0.532330414572016,1.60503468669849,No/min,CLs are upper and lower quantiles from simulation
+126,2020,,,Total RF,,,No/min,CLs are upper and lower quantiles from simulation
+127,2021,19.2829530407868,13.2357082305598,Total RF,4.08466566917786,33.3108199899211,No/min,CLs are upper and lower quantiles from simulation
+128,2022,32.4959034933113,9.44483507342949,Total RF,18.4394938644404,46.6094037843504,No/min,CLs are upper and lower quantiles from simulation
+129,2023,24.1882481285297,10.6789683170867,Total RF,12.4320265130641,35.3521279768644,No/min,CLs are upper and lower quantiles from simulation
+130,2024,54.3167096208935,26.3439611836017,Total RF,14.5501533638621,92.8021584613788,No/min,CLs are upper and lower quantiles from simulation
+131,2025,15.8450412009643,4.8725048362465,Total RF,10.4379754462864,21.1189070826202,No/min,CLs are upper and lower quantiles from simulation
+132,2026,1.38173701380902,9.76908829181296,Total RF,0.615698131233622,1.75376702914494,No/min,CLs are upper and lower quantiles from simulation
+133,2005,0,0,Olive RF,0,0,No/min,CLs are upper and lower quantiles from simulation
+134,2006,0,0,Olive RF,0,0,No/min,CLs are upper and lower quantiles from simulation
+135,2007,0,0,Olive RF,0,0,No/min,CLs are upper and lower quantiles from simulation
+136,2008,0.138897520364157,3.49089342477053,Olive RF,0,0.258126351473818,No/min,CLs are upper and lower quantiles from simulation
+137,2009,1.03412187241344,3.22725344446326,Olive RF,0,2.88388323955291,No/min,CLs are upper and lower quantiles from simulation
+138,2010,0.244232488131853,0.20580359732574,Olive RF,0,0.48529734070520397,No/min,CLs are upper and lower quantiles from simulation
+139,2011,0.883590876162824,101.364703384206,Olive RF,0,0.557726688712053,No/min,CLs are upper and lower quantiles from simulation
+140,2012,0.0531994444629253,0.0630843279284163,Olive RF,0,0.125074375311123,No/min,CLs are upper and lower quantiles from simulation
+141,2013,1.5802869624517,1.23861036276412,Olive RF,0,3.51377266834857,No/min,CLs are upper and lower quantiles from simulation
+142,2014,19.3127848638468,0.558115633333085,Olive RF,18.7285559091554,19.8895644143645,No/min,CLs are upper and lower quantiles from simulation
+143,2015,0.618950252799826,15.6405478665483,Olive RF,0,1.04476601617715,No/min,CLs are upper and lower quantiles from simulation
+144,2016,0.287133966095777,0.415454148397308,Olive RF,0,0.708314130819019,No/min,CLs are upper and lower quantiles from simulation
+145,2017,0.30370012951416,0.429571923762969,Olive RF,0,0.684019086961277,No/min,CLs are upper and lower quantiles from simulation
+146,2018,0.0424521393221756,0.0327207611032194,Olive RF,0,0.0814117658579093,No/min,CLs are upper and lower quantiles from simulation
+147,2019,0,0,Olive RF,0,0,No/min,CLs are upper and lower quantiles from simulation
+148,2020,,,Olive RF,,,No/min,CLs are upper and lower quantiles from simulation
+149,2021,0.120202980839639,0.274914417035464,Olive RF,0,0.323068146339355,No/min,CLs are upper and lower quantiles from simulation
+150,2022,0.0156294820846455,0.0130234274818284,Olive RF,0,0.0348109241700462,No/min,CLs are upper and lower quantiles from simulation
+151,2023,1.55620352695636,1.59944345534569,Olive RF,0,3.50541472624627,No/min,CLs are upper and lower quantiles from simulation
+152,2024,0.102793453817384,0.0895636271553917,Olive RF,0,0.237977506158757,No/min,CLs are upper and lower quantiles from simulation
+153,2025,0.633198906977227,0.76191856905614,Olive RF,0,1.42194084507451,No/min,CLs are upper and lower quantiles from simulation
+154,2026,0.61976489219945,18.951880182092,Olive RF,0,1.02147643337271,No/min,CLs are upper and lower quantiles from simulation
+155,2005,0,0,Yellowtail RF,0,0,No/min,CLs are upper and lower quantiles from simulation
+156,2006,0,0,Yellowtail RF,0,0,No/min,CLs are upper and lower quantiles from simulation
+157,2007,0.993053950868096,85.2139357996735,Yellowtail RF,0,1.28777716256194,No/min,CLs are upper and lower quantiles from simulation
+158,2008,140.652024023012,9946.41658649125,Yellowtail RF,0,177.882974197844,No/min,CLs are upper and lower quantiles from simulation
+159,2009,3.30802280185731,2.86568172637387,Yellowtail RF,0.299022651635211,5.99827596365883,No/min,CLs are upper and lower quantiles from simulation
+160,2010,38.0242942385521,16.6841831068007,Yellowtail RF,19.3994213139541,55.6134485349048,No/min,CLs are upper and lower quantiles from simulation
+161,2011,21.363636064816,999.696643747142,Yellowtail RF,0,35.6054335640321,No/min,CLs are upper and lower quantiles from simulation
+162,2012,0.96836299073627,1.09858706017714,Yellowtail RF,0,1.95929552634638,No/min,CLs are upper and lower quantiles from simulation
+163,2013,17.6740551142696,7.29182473930053,Yellowtail RF,6.42463733077531,28.5719513300396,No/min,CLs are upper and lower quantiles from simulation
+164,2014,24.691635153184,19.8002126020043,Yellowtail RF,0,48.7843086809564,No/min,CLs are upper and lower quantiles from simulation
+165,2015,9.52022035191273,770.125369640518,Yellowtail RF,0,11.0273569158288,No/min,CLs are upper and lower quantiles from simulation
+166,2016,15.0942259982228,5.31826188635497,Yellowtail RF,9.50511037459516,20.4191414482836,No/min,CLs are upper and lower quantiles from simulation
+167,2017,16.744262216475,14.2216070054831,Yellowtail RF,0,31.8778143160631,No/min,CLs are upper and lower quantiles from simulation
+168,2018,5.16329276160946,6.18789430574317,Yellowtail RF,0,12.1837883955209,No/min,CLs are upper and lower quantiles from simulation
+169,2019,1.97332589694626,83.9309078766407,Yellowtail RF,0,2.77387102523627,No/min,CLs are upper and lower quantiles from simulation
+170,2020,,,Yellowtail RF,,,No/min,CLs are upper and lower quantiles from simulation
+171,2021,4.60641492567721,2.84367931551562,Yellowtail RF,1.2282328385222,7.66041431130235,No/min,CLs are upper and lower quantiles from simulation
+172,2022,5.25286544148121,1.29782156185367,Yellowtail RF,3.36954096435109,7.13275146842678,No/min,CLs are upper and lower quantiles from simulation
+173,2023,7.44856790778153,3.68354697687937,Yellowtail RF,3.05166690716824,11.572530326988,No/min,CLs are upper and lower quantiles from simulation
+174,2024,18.2316044541526,13.4407261949284,Yellowtail RF,0,39.1894650606098,No/min,CLs are upper and lower quantiles from simulation
+175,2025,3.2956951934284,3.84893322534813,Yellowtail RF,0,7.14713574216112,No/min,CLs are upper and lower quantiles from simulation
+176,2026,0.160530091456049,8.23043871969799,Yellowtail RF,0,0.227903753189909,No/min,CLs are upper and lower quantiles from simulation
